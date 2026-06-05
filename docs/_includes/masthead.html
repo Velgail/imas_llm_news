@@ -1,8 +1,11 @@
-{% assign ed = site.data.editions[include.edition] %}
+{% assign founding_epoch = site.founding_date | date: "%s" | plus: 0 %}
+{% assign now_epoch = site.time | date: "%s" | plus: 32400 %}
+{% assign issue_no = now_epoch | minus: founding_epoch | divided_by: 86400 | plus: 1 %}
+{% assign ed = site.data.editions %}
 <header class="masthead">
 <div class="rule-double"></div>
 <div class="masthead__grid">
-<div class="issue-meta"><span class="issue-no">{{ ed.issueNo }}</span><span class="date-long">{{ ed.dateLong }}</span><span class="pages">{{ ed.pages }}・{{ ed.stamp }}</span></div>
+<div class="issue-meta"><span class="issue-no">第 {{ issue_no }} 号</span><span class="date-long">{{ ed.dateLong }}</span><span class="pages">{{ ed.pages }}・{{ ed.stamp }}</span></div>
 <a class="nameplate nameplate-link" href="{{ '/' | relative_url }}"><h1>こ<span class="kotatsu-mark">た</span>つアイマス速報</h1><span class="yomi">{{ site.yomi }}</span></a>
 <div class="index-box"><span class="ib-label">{{ site.index_label }}</span><span class="ib-value">{{ ed.indexValue }}</span><span class="ib-note">{{ ed.indexNote }}</span></div>
 </div>

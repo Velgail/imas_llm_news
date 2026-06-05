@@ -2,7 +2,7 @@
 title: "IWSF2026 DAY3「-KYOUMEI-」出演アイドル全容判明　20周年フィナーレへ各ブランド主力集結"
 slug: iwsf2026-day3-performers
 edition: morning
-brand: sogo
+brand: godo
 kind: 公式
 badge: "速報"
 lead: "7月26日（日）開催の「IDOL WORLD SUPER FESTIVAL 2026」DAY3「-KYOUMEI-」の全出演アイドルが確定。天海春香・島村卯月・春日未来・天道輝・櫻木真乃・花海咲季ら各ブランドの顔が一堂に会し、シリーズ20周年イヤーのフィナーレを飾る。"

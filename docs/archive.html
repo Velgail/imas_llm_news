@@ -1,10 +1,19 @@
 ---
 layout: default
-edition: morning
 permalink: /archive/
 title: バックナンバー棚
 ---
 <div class="crumb"><a href="{{ '/' | relative_url }}">本日の総覧</a><span class="sep">＞</span><span class="here">バックナンバー棚</span></div>
 <div class="section-head"><h2>バックナンバー棚</h2><span class="sh-sub">過去の号を日付でめくる（archive）</span></div>
-{% for d in site.data.archive %}<div class="archive-day"><div class="ad-date"><div class="ad-no">{{ d.no }}</div><div>{{ d.date }}</div><div class="ad-meta">{{ d.meta }}</div></div><ul class="ad-list">{% for a in d.items %}<li>{% if a.id %}<a href="{{ '/articles/' | append: a.id | append: '/' | relative_url }}">{{ a.title }}</a>{% else %}{{ a.title }}{% endif %}</li>{% endfor %}</ul></div>
+{% assign posts_by_date = site.posts | group_by_exp: "p", "p.date | date: '%Y-%m-%d'" %}
+{% for day in posts_by_date %}
+<div class="archive-day">
+  <div class="ad-date">
+    <div class="ad-no">{{ day.name }}</div>
+    <div class="ad-meta">{{ day.items | size }}本</div>
+  </div>
+  <ul class="ad-list">
+    {% for p in day.items %}<li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>{% endfor %}
+  </ul>
+</div>
 {% endfor %}

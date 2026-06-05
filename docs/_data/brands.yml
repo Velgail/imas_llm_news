@@ -31,3 +31,11 @@ valiv:
   label: "876プロ/ヴイアラ"
   short: "876"
   hue: 30
+godo:
+  label: "合同"
+  short: "合同"
+  hue: 45
+other:
+  label: "その他"
+  short: "他"
+  hue: 220

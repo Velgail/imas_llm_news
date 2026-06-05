@@ -12,8 +12,8 @@
 </head>
 <body data-base="{{ '/' | relative_url }}"{% if page.frontpage %} data-frontpage="1"{% endif %}>
 <div class="paper">
-{% include topbar.html edition=page.edition active=page.edition %}
-{% include masthead.html edition=page.edition %}
+{% include topbar.html %}
+{% include masthead.html %}
 {{ content }}
 {% include site-nav.html %}
 {% include colophon.html %}

@@ -1,5 +1,5 @@
-{% assign ed_posts = site.posts | where: "edition", include.edition %}
+{% assign all_posts = include.posts %}
 <nav class="brandnav" aria-label="面の切替">
-<a href="{{ '/' | relative_url }}" data-brand="all"{% if include.active == 'all' %} aria-current="true"{% endif %}>本日の総覧<span class="cnt">{{ ed_posts | size }}</span></a>
-{% for b in site.data.brands %}{% assign bc = ed_posts | where: "brand", b[0] | size %}<a href="{{ '/brand/' | append: b[0] | append: '/' | relative_url }}" data-brand="{{ b[0] }}"{% if include.active == b[0] %} aria-current="true"{% endif %}>{{ b[1].label }}<span class="cnt">{{ bc }}</span></a>{% endfor %}
+<a href="{{ '/' | relative_url }}" data-brand="all"{% if include.active == 'all' %} aria-current="true"{% endif %}>本日の総覧<span class="cnt">{{ all_posts | size }}</span></a>
+{% for b in site.data.brands %}{% assign bc = all_posts | where: "brand", b[0] | size %}<a href="{{ '/brand/' | append: b[0] | append: '/' | relative_url }}" data-brand="{{ b[0] }}"{% if include.active == b[0] %} aria-current="true"{% endif %}>{{ b[1].label }}<span class="cnt">{{ bc }}</span></a>{% endfor %}
 </nav>
