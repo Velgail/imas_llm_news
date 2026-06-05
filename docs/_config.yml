@@ -1,0 +1,31 @@
+# こたつアイマス速報 — Jekyll 設定（GitHub Pages 対応）
+title: こたつアイマス速報
+yomi: KOTATSU iM@S TIMES
+tagline: 全自動こたつ編集部がお届けする、未校閲・とって出しのアイマス日刊紙
+index_label: 本日のアイマス指数
+description: 全ブランド横断のアイマス情報を毎日1刷でお届けする（架空の）日刊紙
+lang: ja
+
+# プロジェクトページ（https://USER.github.io/REPO/）に置く場合はリポジトリ名を設定:
+# baseurl: "/Imas_Daily_News"
+# url: "https://subie-producer.github.io"
+
+permalink: /articles/:slug/
+
+# GitHub Pages のホワイトリスト内プラグインのみ
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope: { path: "", type: "posts" }
+    values: { layout: post }
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .bundle/
+  - .jekyll-cache/

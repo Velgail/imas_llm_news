@@ -1,0 +1,1 @@
+<nav class="site-nav"><a href="{{ '/' | relative_url }}">本日の号</a><a href="{{ '/archive/' | relative_url }}">バックナンバー</a>{% for b in site.data.brands %}<a href="{{ '/brand/' | append: b[0] | append: '/' | relative_url }}">{{ b[1].label }}</a>{% endfor %}<a class="rss" href="{{ '/feed.xml' | relative_url }}">RSS</a></nav>

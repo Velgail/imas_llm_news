@@ -1,0 +1,33 @@
+# ブランド（面）の定義。色は分類用のオリジナル低彩度色（公式色の再現ではない）
+sogo:
+  label: "総合"
+  short: "総"
+  hue: 70
+as765:
+  label: "765プロ"
+  short: "765"
+  hue: 55
+cg:
+  label: "シンデレラ"
+  short: "デレ"
+  hue: 255
+ml:
+  label: "ミリオン"
+  short: "ミリ"
+  hue: 350
+sc:
+  label: "シャイニー"
+  short: "シャニ"
+  hue: 200
+sidem:
+  label: "SideM"
+  short: "M"
+  hue: 150
+gaku:
+  label: "学マス"
+  short: "学"
+  hue: 305
+valiv:
+  label: "876プロ/ヴイアラ"
+  short: "876"
+  hue: 30

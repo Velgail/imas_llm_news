@@ -1,0 +1,10 @@
+{% assign a = include.post %}
+<a class="lead-zone" href="{{ a.url | relative_url }}" data-brand="{{ a.brand }}" style="text-decoration:none;color:inherit">
+<div class="lead-head">
+<div class="lead-meta">{% if a.badge %}<span class="badge-flash">{{ a.badge }}</span>{% endif %}{% include chip.html key=a.brand %}<span class="kindtag{% if a.kind == '公式' %} koushiki{% endif %}">{{ a.kind }}</span></div>
+<h2>{{ a.title }}</h2>
+<p class="lead-text">{{ a.lead }}</p>
+<div class="byline" style="margin-top:14px"><span>{{ a.source }}</span><span class="dot">／</span><span>{{ a.time }} 配信</span><span class="dot">／</span><span>{{ a.pageno }}</span></div>
+</div>
+{% if a.img %}<figure class="lead-media" style="margin:0"><div class="ph" data-label="{{ a.img }}"></div><figcaption>＝ {{ a.img }}（こたつ編集部・とって出し）</figcaption></figure>{% endif %}
+</a>

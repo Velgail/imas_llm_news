@@ -1,0 +1,4 @@
+source "https://rubygems.org"
+# GitHub Pages 公式gem（ローカルでもPages本番と同じバージョンで動かせる）
+gem "github-pages", group: :jekyll_plugins
+gem "webrick"  # Ruby 3.x でローカルサーブする場合に必要

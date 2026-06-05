@@ -1,0 +1,9 @@
+<aside class="col-side">
+<section class="widget"><div class="widget__head"><h4>24時間 話題のアイドル</h4><span class="sub">集計：こたつ調べ</span></div><ol class="rank-list">
+{% for r in site.data.ranking %}<li><span class="rk">{{ r.rank }}</span><span class="nm">{{ r.name }}</span>{% include chip.html key=r.brand %}<span class="mv {{ r.move }}">{% if r.move == 'up' %}▲{% elsif r.move == 'down' %}▼{% else %}—{% endif %}</span></li>{% endfor %}
+</ol></section>
+<section class="widget"><div class="widget__head"><h4>本日のお誕生日</h4><span class="sub">HAPPY BIRTHDAY</span></div><ul class="bday-list">
+{% for b in site.data.birthdays %}<li><span class="cake">●</span><span style="flex:1">{{ b.name }}</span>{% include chip.html key=b.brand %}</li>{% endfor %}
+</ul></section>
+<section class="widget"><div class="widget__head"><h4>社説</h4><span class="sub">こたつ編集後記</span></div><div class="editorial"><div class="ed-head ed-vert">社説</div><div class="ed-title ed-vert">{{ site.data.editorial.title }}</div><div class="ed-body ed-vert">{{ site.data.editorial.body }}</div></div></section>
+</aside>

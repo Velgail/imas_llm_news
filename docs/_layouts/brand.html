@@ -1,0 +1,7 @@
+---
+layout: default
+---
+{% assign bposts = site.posts | where: "brand", page.brand | sort: "order" %}
+{% include brandnav.html edition=page.edition active=page.brand %}
+<div class="section-head"><h2>{{ site.data.brands[page.brand].label }}面</h2><span class="sh-sub">{{ site.data.brands[page.brand].label }} の記事一覧（本日の総覧）</span><span class="sh-chip">{% include chip.html key=page.brand %}</span></div>
+{% if bposts.size > 0 %}<div class="section-grid">{% for p in bposts %}{% include article-card.html post=p %}{% endfor %}</div>{% else %}<div class="empty-note">この面の記事は本日ありません。</div>{% endif %}

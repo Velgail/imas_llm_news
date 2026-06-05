@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div class="crumb"><a href="{{ '/' | relative_url }}">本日の総覧</a><span class="sep">＞</span><a href="{{ '/brand/' | append: page.brand | append: '/' | relative_url }}">{{ site.data.brands[page.brand].label }}面</a><span class="sep">＞</span><span class="here">{{ page.pageno }}</span></div>
+<article class="reader reader--page">
+<div class="reader__meta">{% if page.badge %}<span class="badge-flash">{{ page.badge }}</span>{% endif %}{% include chip.html key=page.brand %}<span class="kindtag{% if page.kind == '公式' %} koushiki{% endif %}">{{ page.kind }}</span><span class="byline"><span>{{ page.pageno }}</span></span></div>
+<h1 class="reader__title">{{ page.title }}</h1>
+<div class="byline reader__byline"><span>{{ page.source }}</span><span class="dot">／</span><span>{{ page.time }} 配信</span><span class="dot">／</span><span>こたつ編集部</span></div>
+{% if page.img %}<div class="ph reader__hero" data-label="{{ page.img }}"></div>{% endif %}
+<div class="reader__body">{{ content }}</div>
+<div class="reader__tags">{% for t in page.tags %}<span class="tag"># {{ t }}</span>{% endfor %}</div>
+<div class="reader__note">この記事はこたつ発・未校閲です。正確な情報は各公式の発表をご確認ください。</div>
+</article>

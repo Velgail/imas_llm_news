@@ -1,0 +1,9 @@
+{% assign p = include.post %}{% assign span2 = '' %}{% if p.size == 'large' and p.img %}{% assign span2 = ' span2' %}{% endif %}
+<a class="story size-{{ p.size }}{{ span2 }}" href="{{ p.url | relative_url }}" data-brand="{{ p.brand }}">
+<span class="pageno">{{ p.pageno }}</span>
+{% if p.img %}<div class="ph" data-label="{{ p.img }}"></div>{% endif %}
+<div class="s-meta">{% if p.badge %}<span class="badge-flash">{{ p.badge }}</span>{% endif %}{% include chip.html key=p.brand %}<span class="kindtag{% if p.kind == '公式' %} koushiki{% endif %}">{{ p.kind }}</span></div>
+<h3>{{ p.title }}</h3>
+{% if p.size != 'small' %}<p>{{ p.lead }}</p>{% endif %}
+<div class="s-foot byline"><span>{{ p.source }}</span><span class="dot">／</span><span>{{ p.time }}</span></div>
+</a>

@@ -1,0 +1,4 @@
+<section class="backissues"><div class="backissues__head"><h4>バックナンバー棚</h4><a class="byline" href="{{ '/archive/' | relative_url }}" style="text-decoration:none">過去の号をめくる →</a></div>
+<div class="bi-row">
+{% for it in site.data.backissues %}<a class="bi-card" href="{{ '/archive/' | relative_url }}" style="text-decoration:none;color:inherit"><div class="bi-date">{{ it.date }}</div><div class="bi-no">{{ it.no }}</div><div class="bi-lead">{{ it.lead }}</div></a>{% endfor %}
+</div></section>
