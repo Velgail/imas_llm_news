@@ -1,17 +1,7 @@
-# 号別のメタ情報。号数・面数・締切は front matter とこのファイルで決まる
-morning:
-  name: "朝刊"
-  issueNo: "第 1,248 号"
-  dateLong: "2026年（令和8年）6月5日　金曜日"
-  pages: "全 16 面"
-  stamp: "本日 06:00 締切"
-  indexValue: "20周年フィナーレ沸騰中"
-  indexNote: "IWSF2026まであと49日・各ブランド全力前進の気圧配置"
-evening:
-  name: "夕刊"
-  issueNo: "第 1,248 号"
-  dateLong: "2026年（令和8年）6月5日　金曜日"
-  pages: "全 8 面"
-  stamp: "本日 16:00 締切"
-  indexValue: "学マス最終日特需"
-  indexNote: "ガラクタロードvol.2終了カウントダウンで夜まで混雑の予報"
+# 号別のメタ情報。号数は masthead.html で founding_date から自動計算される
+name: "朝刊"
+dateLong: "2026年（令和8年）6月5日　金曜日"
+pages: "全 16 面"
+stamp: "本日 06:00 締切"
+indexValue: "20周年フィナーレ沸騰中"
+indexNote: "IWSF2026まであと49日・各ブランド全力前進の気圧配置"

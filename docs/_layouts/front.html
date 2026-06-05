@@ -1,9 +1,10 @@
 ---
 layout: default
 ---
-{% assign ed_posts = site.posts | where: "edition", page.edition | sort: "order" %}
+{% assign latest_date = site.posts.first.date | date: "%Y-%m-%d" %}
+{% assign ed_posts = site.posts | where_exp: "p", "p.date | date: '%Y-%m-%d' == latest_date" | sort: "order" %}
 {% assign lead = ed_posts | where: "featured", true | first %}
-{% include brandnav.html edition=page.edition active='all' %}
+{% include brandnav.html posts=ed_posts active='all' %}
 {% if lead %}{% include lead-story.html post=lead %}{% endif %}
 <div class="frontpage">
 <div class="col-main"><div class="stories">

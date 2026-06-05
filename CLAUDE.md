@@ -15,3 +15,43 @@
 - 出来る限り網羅的に、かつ重複のないように記録することを心がける。
 - 1日の記事は最低10件以上を目指すが、内容の質を優先する。
 - 書き出しは常に1記事ずつ行う。
+
+## ファイル管理
+- 記事ファイルは `docs/_posts/YYYY/MM/` のように年月サブディレクトリに格納する。
+  例: `docs/_posts/2026/06/2026-06-05-cg-event.md`
+- ファイル名の形式: `YYYY-MM-DD-BRAND-EVENT[-YYYYMMDD].md`
+  例: `2026-06-05-cg-sousenkyo-20260605.md`
+  複数日で継続する話題には日付サフィックスを付け、別記事として管理する。
+- `edition` フィールドは廃止済み。frontmatter に書かない。
+
+## カテゴリー（brand）選択基準
+| brand | 用途 |
+|-------|------|
+| `sogo` | 全体ニュース・業界動向（アイマス全体に等しく関わる話題） |
+| `as765` | 765プロ専属の話題 |
+| `cg` | シンデレラガールズ |
+| `ml` | ミリオンライブ |
+| `sc` | シャイニーカラーズ |
+| `sidem` | SideM |
+| `gaku` | 学園アイドルマスター |
+| `valiv` | 876プロ／ヴイアライブ |
+| `godo` | **合同**：2ブランド以上が明示的にコラボ・合同参加するライブ・イベント |
+| `other` | **その他**：グッズ横断、メディア露出など1ブランドに分類しにくいもの |
+
+## editions.yml の更新ルール
+- `dateLong` は必ずJST当日の日付を書く（currentDate を参照）。
+- `pages` は「全 NN 面」（記事数に応じて調整）。
+- `stamp` は「本日 06:00 締切」固定。
+- 号数（issueNo）は `masthead.html` が `_config.yml` の `founding_date` から自動計算するため、editions.yml には書かない。
+
+## 毎日の更新作業チェックリスト
+1. `docs/_posts/YYYY/MM/` に記事ファイルを作成（10件以上目安）
+2. `docs/_data/editions.yml` を更新（dateLong、pages、indexValue、indexNote）
+3. `docs/_data/ranking.yml` を更新（8件のランキング）
+4. `docs/_data/editorial.yml` を更新（社説タイトル・本文）
+5. `python3 scripts/update_birthdays.py` を実行（birthdays.yml 自動更新）
+6. コミット＆プッシュ
+
+## 誕生日スクリプト
+`scripts/update_birthdays.py` を実行すると `docs/_data/birthdays.yml` が自動更新される。
+Claude Code が実行責務を持つ（GitHub Actions は未設定）。
