@@ -10,13 +10,34 @@ title: バックナンバー棚
   {% assign edition_posts = site.posts | where: "edition_date", edition.date | sort: "order" %}
   {% assign ed_epoch = edition.date | date: "%s" | plus: 0 %}
   {% assign issue_no = ed_epoch | minus: founding_epoch | divided_by: 86400 | plus: 1 %}
-<div class="archive-day">
-  <div class="ad-date">
-    <div class="ad-no">第 {{ issue_no }} 号　{{ edition.dateLong }}</div>
-    <div class="ad-meta">{{ edition.pages }} / {{ edition.indexNote }}</div>
+  {% assign ed_lead = edition_posts | where: "featured", true | first %}
+<details id="edition-{{ edition.date }}" class="archive-edition"{% if forloop.first %} open{% endif %}>
+  <summary class="ae-summary">
+    <span class="ae-no">第 {{ issue_no }} 号</span>
+    <span class="ae-date">{{ edition.dateLong }}</span>
+    <span class="ae-meta">{{ edition.pages }}</span>
+    <span class="ae-note">{{ edition.indexNote }}</span>
+  </summary>
+  <div class="ae-content">
+    {% if ed_lead %}{% include lead-story.html post=ed_lead %}{% endif %}
+    <div class="stories">
+      {% for p in edition_posts %}{% unless p.featured %}{% include article-card.html post=p %}{% endunless %}{% endfor %}
+    </div>
   </div>
-  <ul class="ad-list">
-    {% for p in edition_posts %}<li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>{% endfor %}
-  </ul>
-</div>
+</details>
 {% endfor %}
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const openByHash = () => {
+    const hash = window.location.hash;
+    if (!hash) return;
+    const target = document.querySelector(hash);
+    if (target && target.tagName === 'DETAILS') {
+      target.open = true;
+      target.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+  openByHash();
+  window.addEventListener('hashchange', openByHash);
+});
+</script>
