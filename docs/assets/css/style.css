@@ -506,12 +506,10 @@ html, body {
   font-size: 12.5px; line-height: 2.1; letter-spacing: 0.02em; color: var(--ink-soft);
   text-align: justify;
   flex: 1;
-  column-count: 2;
+  height: 200px;
+  column-count: 3;
   column-gap: 1.2em;
   column-fill: auto;
-}
-.editorial--3col .ed-body {
-  column-count: 3;
 }
 
 /* =========================================================================
