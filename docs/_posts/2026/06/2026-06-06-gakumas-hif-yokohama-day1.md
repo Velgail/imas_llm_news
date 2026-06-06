@@ -13,7 +13,7 @@ order: 1
 tags: [学マス, 2ndPeriod, HatsuboshiIDOLFESTIVAL, 横浜アリーナ, ライブ]
 ---
 
-学園アイドルマスター The 2nd Period「Hatsuboshi IDOL FESTIVAL」が6月6日（土）17:00、横浜アリーナにて開幕した。H.I.F選抜試験（5月16・17日 幕張メッセ）で選ばれた13名が大舞台に立ち、2ndAnniversaryの総決算を飾る初日公演が行われた。
+学園アイドルマスター The 2nd Period「Hatsuboshi IDOL FESTIVAL」が6月6日（土）17:00、横浜アリーナにて開幕した。H.I.F選抜試験（5月16・17日 幕張メッセ）で選ばれた13名が大舞台に立ち、2nd Anniversaryの総決算を飾る初日公演が行われた。
 
 ## 基本情報
 
