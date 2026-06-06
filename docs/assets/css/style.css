@@ -483,33 +483,20 @@ html, body {
 .editorial {
   border: 1px solid var(--rule);
   background: var(--paper-2);
-  padding: 16px 14px;
-  display: flex;
-  align-items: flex-start;
-  gap: 14px;
-  justify-content: flex-start;
-}
-.editorial .ed-vert {
-  writing-mode: vertical-rl;
-  font-family: var(--mincho);
+  padding: 14px;
 }
 .editorial .ed-head {
-  font-weight: 800; font-size: 15px; letter-spacing: 0.3em;
-  color: var(--paper); background: var(--ink); padding: 10px 4px; height: max-content;
-  flex-shrink: 0;
+  font-weight: 800; font-size: 11px; letter-spacing: 0.3em;
+  color: var(--paper); background: var(--ink); padding: 2px 7px;
+  display: inline-block; margin-bottom: 8px;
 }
 .editorial .ed-title {
-  font-weight: 800; font-size: 22px; line-height: 1.5; letter-spacing: 0.06em; color: var(--ink);
-  flex-shrink: 0;
+  font-weight: 800; font-size: 16px; line-height: 1.5; letter-spacing: 0.06em;
+  color: var(--ink); font-family: var(--mincho); margin-bottom: 8px;
 }
 .editorial .ed-body {
-  font-size: 12.5px; line-height: 2.1; letter-spacing: 0.02em; color: var(--ink-soft);
-  text-align: justify;
-  flex: 1;
-  height: 200px;
-  column-count: 3;
-  column-gap: 1.2em;
-  column-fill: auto;
+  font-size: 12.5px; line-height: 1.9; letter-spacing: 0.02em; color: var(--ink-soft);
+  text-align: justify; font-family: var(--mincho);
 }
 
 /* =========================================================================
