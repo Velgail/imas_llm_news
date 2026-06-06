@@ -484,20 +484,14 @@ html, body {
   border: 1px solid var(--rule);
   background: var(--paper-2);
   padding: 16px 14px;
-  display: flex;
-  gap: 14px;
-  justify-content: flex-start;
-  overflow-x: auto;
-  direction: rtl;
+  writing-mode: vertical-rl;
 }
 .editorial .ed-vert {
-  writing-mode: vertical-rl;
   font-family: var(--mincho);
-  height: 250px;
 }
 .editorial .ed-head {
   font-weight: 800; font-size: 15px; letter-spacing: 0.3em;
-  color: var(--paper); background: var(--ink); padding: 10px 4px; height: max-content;
+  color: var(--paper); background: var(--ink); padding: 10px 4px;
 }
 .editorial .ed-title {
   font-weight: 800; font-size: 22px; line-height: 1.5; letter-spacing: 0.06em; color: var(--ink);
@@ -640,7 +634,7 @@ html, body {
   .nameplate h1 { letter-spacing: 0.02em; }
   .colophon { grid-template-columns: 1fr; }
   .colophon .seal { justify-self: center; }
-  .editorial .ed-vert { height: 200px; }
+
 }
 
 /* =========================================================================
