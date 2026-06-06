@@ -479,20 +479,15 @@ html, body {
 .bday-list li { display: flex; align-items: center; gap: 9px; font-size: 13px; }
 .bday-list li .cake { color: var(--kotatsu); }
 
-/* 社説（縦組み段組み）
-   親に writing-mode を置き、子が高さを超えると自動的に左列へ折り返す新聞段組み */
+/* 社説（縦組み） */
 .editorial {
   border: 1px solid var(--rule);
   background: var(--paper-2);
   padding: 16px 14px;
   writing-mode: vertical-rl;
-  height: 250px;
-  overflow-x: auto;
-  overflow-y: hidden;
 }
 .editorial .ed-vert {
   font-family: var(--mincho);
-  /* writing-mode は親から継承 */
 }
 .editorial .ed-head {
   font-weight: 800; font-size: 15px; letter-spacing: 0.3em;
@@ -639,7 +634,7 @@ html, body {
   .nameplate h1 { letter-spacing: 0.02em; }
   .colophon { grid-template-columns: 1fr; }
   .colophon .seal { justify-self: center; }
-  .editorial { height: 200px; }
+
 }
 
 /* =========================================================================
