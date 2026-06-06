@@ -4,7 +4,7 @@ slug: gakumas-hif-yokohama-day1
 brand: gaku
 kind: 公式
 badge: "開幕"
-lead: "学園アイドルマスター The 2nd Period「Hatsuboshi IDOL FESTIVAL」が6月6日（土）、横浜アリーナにて開幕した。13名の選抜アイドルが登場し、2ndAnniversaryのフィナーレを飾る2日間の公演がスタート。場外ではアニメイトカフェ出張版・コラボキッチンカー・物販が展開された。"
+lead: "学園アイドルマスター The 2nd Period「Hatsuboshi IDOL FESTIVAL」が6月6日（土）、横浜アリーナにて開幕した。13名の選抜アイドルが登場し、2nd Anniversaryのフィナーレを飾る2日間の公演がスタート。場外ではアニメイトカフェ出張版・コラボキッチンカー・物販が展開された。"
 time: "17:00"
 source: "アイドルマスター公式ポータル / アソビステージ"
 pageno: "1面"
