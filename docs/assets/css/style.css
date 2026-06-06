@@ -484,9 +484,13 @@ html, body {
   border: 1px solid var(--rule);
   background: var(--paper-2);
   padding: 16px 14px;
-  writing-mode: vertical-rl;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  justify-content: flex-start;
 }
 .editorial .ed-vert {
+  writing-mode: vertical-rl;
   font-family: var(--mincho);
 }
 .editorial .ed-head {
@@ -499,6 +503,11 @@ html, body {
 .editorial .ed-body {
   font-size: 12.5px; line-height: 2.1; letter-spacing: 0.02em; color: var(--ink-soft);
   text-align: justify;
+  column-count: 2;
+  column-gap: 1.2em;
+}
+.editorial--3col .ed-body {
+  column-count: 3;
 }
 
 /* =========================================================================
@@ -634,7 +643,6 @@ html, body {
   .nameplate h1 { letter-spacing: 0.02em; }
   .colophon { grid-template-columns: 1fr; }
   .colophon .seal { justify-self: center; }
-
 }
 
 /* =========================================================================
