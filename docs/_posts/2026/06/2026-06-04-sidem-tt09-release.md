@@ -1,7 +1,6 @@
 ---
 title: "SideM「TRANSCENDENT T@LES 09」発売　蒼井・冬美・姫野・山下の4人がCDに"
 slug: sidem-tt09-release
-edition: morning
 brand: sidem
 kind: 公式
 badge: ""

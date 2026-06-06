@@ -1,10 +1,10 @@
 ---
-title: "学マス「2nd Period Hatsuboshi IDOL FESTIVAL」横浜アリーナいよいよ明日開幕　出演13名・配信・物販情報まとめ"
+title: "学マス「2nd Period Hatsuboshi IDOL FESTIVAL」横浜アリーナ 6月6日（土）開幕　出演13名・配信・物販情報まとめ"
 slug: gakumas-hif-yokohama-eve
 brand: gaku
 kind: 公式
-badge: "前日"
-lead: "学園アイドルマスター The 2nd Period最終公演「Hatsuboshi IDOL FESTIVAL」が明日6月6日（土）・7日（日）、横浜アリーナにていよいよ開幕する。開場15:30／開演17:00。アニメイトカフェ出張版・コラボキッチンカー・各種物販も同時展開。ライブ配信は本編終了1時間後を目安にアーカイブ公開予定。"
+badge: "本日開幕"
+lead: "学園アイドルマスター The 2nd Period最終公演「Hatsuboshi IDOL FESTIVAL」が6月6日（土）・7日（日）、横浜アリーナにて開幕する。開場15:30／開演17:00。アニメイトカフェ出張版・コラボキッチンカー・各種物販も同時展開。ライブ配信は本編終了1時間後を目安にアーカイブ公開予定。"
 time: "08:00"
 source: "アイドルマスター公式ポータル / 横浜アリーナ公式"
 pageno: "1面"
@@ -13,7 +13,7 @@ order: 1
 tags: [学マス, 2ndPeriod, HatsuboshiIDOLFESTIVAL, 横浜アリーナ, ライブ]
 ---
 
-学園アイドルマスター 2nd Anniversaryの総決算として位置づけられる「The 2nd Period Hatsuboshi IDOL FESTIVAL」が、明日6月6日（土）・7日（日）の2日間にわたり横浜アリーナで開催される。
+学園アイドルマスター 2nd Anniversaryの総決算として位置づけられる「The 2nd Period Hatsuboshi IDOL FESTIVAL」が、6月6日（土）・7日（日）の2日間にわたり横浜アリーナで開催される。
 
 ## 基本情報
 
