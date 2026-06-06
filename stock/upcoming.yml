@@ -1,9 +1,34 @@
 # 未来情報の保留スタック（インデックス）。スキーマは stock/README.md を参照。
 # event_start 昇順（直近が先頭）。配信日に該当する予定があれば取り出して記事化する。
+#
+# ── 非公式・ファン企画枠のテンプレート（kind: ファン）──────────────
+# 応援広告・誕生日センター広告・有志オフ等は、主催者の公開告知をもとに保留し、
+# 掲出/開催の前日に「明日掲出予告」、当日に「本日掲出」で記事化する。リークは扱わない。
+# - id: fan-ad-EXAMPLE
+#   title: "〇〇 生誕祭 応援広告（△△駅）"
+#   brand: other            # 内容に応じて。横断的なら other
+#   kind: ファン
+#   event_start: "2026-MM-DD"   # 掲出開始日
+#   event_end: "2026-MM-DD"     # 掲出終了日
+#   status: pending
+#   confidence: confirmed       # 主催者が公に告知済みなら confirmed
+#   added: "2026-06-06"
+#   source: "主催者の公開告知（募集ツイート・特設ページ等）"
+#   facts: |
+#     場所: △△駅 ...
+#     掲出期間: ...
+#     主催: ...
+#   publish_plan:
+#     - on: "前日"  angle: "明日掲出予告"
+#     - on: "当日"  angle: "本日掲出"
+#   used_in: []
+#   notes: ""
+# ──────────────────────────────────────────────
 
 - id: gakumas-hif-yokohama-day2
   title: "学マス Hatsuboshi IDOL FESTIVAL 横浜アリーナ DAY2（千秋楽）"
   brand: gaku
+  kind: 公式
   event_start: "2026-06-07"
   event_end: "2026-06-07"
   status: partially-used
@@ -29,6 +54,7 @@
 - id: million-14th-stream-june13
   title: "ミリオンライブ 14thLIVE 詳細発表生配信"
   brand: ml
+  kind: 公式
   event_start: "2026-06-13"
   event_end: "2026-06-13"
   status: pending
@@ -54,6 +80,7 @@
 - id: cg-popup-anibaroad
   title: "ヴァイスシュヴァルツ presents シンデレラガールズ 15周年記念 POP UP SHOP in アニバロード"
   brand: cg
+  kind: 公式
   event_start: "2026-07-18"
   event_end: "2026-07-28"
   status: pending
@@ -74,6 +101,7 @@
 - id: cg-sousenkyo-2026-vote
   title: "シンデレラガール総選挙2026 投票フェーズ（15周年）"
   brand: cg
+  kind: 公式
   event_start: "2026-08-01"
   event_end: "2026-08-31"
   status: pending
@@ -103,6 +131,7 @@
 - id: iwsf2026
   title: "THE IDOLM@STER 20th Anniversary MORE RE@LITY LIVE IDOL WORLD SUPER FESTIVAL 2026"
   brand: godo
+  kind: 公式
   event_start: "2026-07-24"
   event_end: "2026-07-26"
   status: partially-used
@@ -138,6 +167,7 @@
 - id: shani-songforprism-karma-naraku-event
   title: "シャニマス Song for Prism「Karma / Naraku」発売記念イベント"
   brand: sc
+  kind: 公式
   event_start: "2026-08-23"
   event_end: "2026-08-23"
   status: pending
@@ -162,6 +192,7 @@
 - id: million-14th-live
   title: "THE IDOLM@STER MILLION LIVE! 14thLIVE"
   brand: ml
+  kind: 公式
   event_start: "2026-09-19"
   event_end: "2026-09-20"
   status: pending
