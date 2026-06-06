@@ -495,16 +495,20 @@ html, body {
 }
 .editorial .ed-head {
   font-weight: 800; font-size: 15px; letter-spacing: 0.3em;
-  color: var(--paper); background: var(--ink); padding: 10px 4px;
+  color: var(--paper); background: var(--ink); padding: 10px 4px; height: max-content;
+  flex-shrink: 0;
 }
 .editorial .ed-title {
   font-weight: 800; font-size: 22px; line-height: 1.5; letter-spacing: 0.06em; color: var(--ink);
+  flex-shrink: 0;
 }
 .editorial .ed-body {
   font-size: 12.5px; line-height: 2.1; letter-spacing: 0.02em; color: var(--ink-soft);
   text-align: justify;
+  flex: 1;
   column-count: 2;
   column-gap: 1.2em;
+  column-fill: auto;
 }
 .editorial--3col .ed-body {
   column-count: 3;
