@@ -486,9 +486,9 @@ html, body {
   padding: 14px;
 }
 .editorial .ed-head {
-  font-weight: 800; font-size: 11px; letter-spacing: 0.3em;
+  font-weight: 800; font-size: 11px; letter-spacing: 0.3em; text-indent: 0.3em;
   color: var(--paper); background: var(--ink); padding: 2px 7px;
-  display: inline-block; margin-bottom: 8px;
+  display: inline-block; margin-bottom: 8px; font-family: var(--mincho);
 }
 .editorial .ed-title {
   font-weight: 800; font-size: 16px; line-height: 1.5; letter-spacing: 0.06em;
