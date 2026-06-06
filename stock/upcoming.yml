@@ -25,11 +25,11 @@
 #   notes: ""
 # ──────────────────────────────────────────────
 
-- id: gakumas-hif-yokohama-day2
-  title: "学マス Hatsuboshi IDOL FESTIVAL 横浜アリーナ DAY2（千秋楽）"
+- id: gakumas-hif-yokohama
+  title: "学マス Hatsuboshi IDOL FESTIVAL 横浜アリーナ（2DAYS）"
   brand: gaku
   kind: 公式
-  event_start: "2026-06-07"
+  event_start: "2026-06-06"
   event_end: "2026-06-07"
   status: partially-used
   confidence: confirmed

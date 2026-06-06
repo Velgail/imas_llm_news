@@ -22,7 +22,7 @@
 
 ### 取り出す（毎日の記事生成時・必須）
 1. 配信日（JST当日）を取得する。
-2. `stock/upcoming.yml` を走査し、**`publish_plan[].on` が配信日と一致**／**`event_start` が配信日〜翌日以内**／**`event_end` の翌日**に該当するエントリを記事化候補にする。
+2. `stock/upcoming.yml` を走査し、**`publish_plan[].on` が配信日と一致**／**`event_start` が配信日〜翌日以内**／**イベント開催中（`event_start` <= 配信日 <= `event_end`）**／**`event_end` の翌日**に該当するエントリを記事化候補にする。
 3. 該当エントリの `facts` を素材に記事を書く（可能なら Web で追検証）。「明日開幕→本日開幕→昨日閉幕（レポ）」と**同一イベントを複数日に渡って continuity 記事化**できるのがこの仕組みの狙い。
 4. 記事化したら `used_in` に slug を追記し、`status` を更新（続きあり→`partially-used`／消化済み→`done`）。生配信などで新情報が出たら関連エントリの `facts` を更新する。
 
@@ -118,7 +118,7 @@
 - `indexNote` は配信日基準で書く（配信日に開幕するイベントは「本日開幕」と書いてよい）。
 
 ## 毎日の更新作業チェックリスト
-0. **`stock/upcoming.yml` を確認**し、配信日に該当する予定（`publish_plan[].on` 一致／`event_start` 直近／`event_end` 翌日）を記事化候補に入れる。記事化したら `used_in`・`status` を更新（詳細は「未来情報の保留スタック」節）。
+0. **`stock/upcoming.yml` を確認**し、配信日に該当する予定（`publish_plan[].on` 一致／`event_start` 直近／開催中／`event_end` 翌日）を記事化候補に入れる。記事化したら `used_in`・`status` を更新（詳細は「未来情報の保留スタック」節）。
 1. `docs/_posts/YYYY/MM/` に記事ファイルを作成（10件以上目安）
    - frontmatter に `edition_date: "YYYY-MM-DD"` を記載（ファイル名日付の翌日 = 配信日）
    - 新たに判明した**未来の予定**は `stock/upcoming.yml` に保留する
