@@ -488,11 +488,12 @@ html, body {
   gap: 14px;
   justify-content: flex-start;
   overflow-x: auto;
+  direction: rtl;
 }
 .editorial .ed-vert {
   writing-mode: vertical-rl;
   font-family: var(--mincho);
-  min-height: 180px;
+  height: 250px;
 }
 .editorial .ed-head {
   font-weight: 800; font-size: 15px; letter-spacing: 0.3em;
@@ -639,7 +640,7 @@ html, body {
   .nameplate h1 { letter-spacing: 0.02em; }
   .colophon { grid-template-columns: 1fr; }
   .colophon .seal { justify-self: center; }
-  .editorial .ed-vert { min-height: 140px; }
+  .editorial .ed-vert { height: 200px; }
 }
 
 /* =========================================================================

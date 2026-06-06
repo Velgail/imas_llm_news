@@ -26,3 +26,18 @@ title: バックナンバー棚
   </div>
 </details>
 {% endfor %}
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const openByHash = () => {
+    const hash = window.location.hash;
+    if (!hash) return;
+    const target = document.querySelector(hash);
+    if (target && target.tagName === 'DETAILS') {
+      target.open = true;
+      target.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+  openByHash();
+  window.addEventListener('hashchange', openByHash);
+});
+</script>
