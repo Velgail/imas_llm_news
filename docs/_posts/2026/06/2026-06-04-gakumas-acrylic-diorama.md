@@ -1,7 +1,6 @@
 ---
 title: "学マス「ジョイフルマーチング」アクリルジオラマvol.1が全国クレーンゲームで稼働開始"
 slug: gakumas-acrylic-diorama-vol1
-edition: morning
 brand: gaku
 kind: 公式
 badge: ""

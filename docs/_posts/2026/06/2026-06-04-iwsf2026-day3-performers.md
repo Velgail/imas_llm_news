@@ -1,7 +1,6 @@
 ---
 title: "IWSF2026 DAY3「-KYOUMEI-」出演アイドル全容判明　20周年フィナーレへ各ブランド主力集結"
 slug: iwsf2026-day3-performers
-edition: morning
 brand: godo
 kind: 公式
 badge: "速報"
