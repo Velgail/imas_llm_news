@@ -1,0 +1,217 @@
+# 未来情報の保留スタック（インデックス）。スキーマは stock/README.md を参照。
+# event_start 昇順（直近が先頭）。配信日に該当する予定があれば取り出して記事化する。
+#
+# ── 非公式・ファン企画枠のテンプレート（kind: ファン）──────────────
+# 応援広告・誕生日センター広告・有志オフ等は、主催者の公開告知をもとに保留し、
+# 掲出/開催の前日に「明日掲出予告」、当日に「本日掲出」で記事化する。リークは扱わない。
+# - id: fan-ad-EXAMPLE
+#   title: "〇〇 生誕祭 応援広告（△△駅）"
+#   brand: other            # 内容に応じて。横断的なら other
+#   kind: ファン
+#   event_start: "2026-MM-DD"   # 掲出開始日
+#   event_end: "2026-MM-DD"     # 掲出終了日
+#   status: pending
+#   confidence: confirmed       # 主催者が公に告知済みなら confirmed
+#   added: "2026-06-06"
+#   source: "主催者の公開告知（募集ツイート・特設ページ等）"
+#   facts: |
+#     場所: △△駅 ...
+#     掲出期間: ...
+#     主催: ...
+#   publish_plan:
+#     - on: "前日"  angle: "明日掲出予告"
+#     - on: "当日"  angle: "本日掲出"
+#   used_in: []
+#   notes: ""
+# ──────────────────────────────────────────────
+
+- id: gakumas-hif-yokohama
+  title: "学マス Hatsuboshi IDOL FESTIVAL 横浜アリーナ（2DAYS）"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-06-06"
+  event_end: "2026-06-07"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-06-06"
+  source: "アイドルマスター公式ポータル / アソビステージ"
+  facts: |
+    会場: 横浜アリーナ（神奈川県横浜市）
+    開場/開演: 15:30 / 17:00
+    出演（13名）: 長月あおい、小鹿なお、飯田ヒカル、七瀬つむぎ、花岩香奈、伊藤舞音、湊みや、川村玲奈、薄井友里、松田彩音、春咲暖、陽高真白、天音ゆかり
+    位置づけ: 2nd Anniversary 総決算 The 2nd Period の最終公演・千秋楽
+    配信: アソビステージ（ASOBISTAGE）有料配信。アーカイブは本編終了1時間後目安、6/8（月）18:00まで。
+  publish_plan:
+    - on: "2026-06-07"
+      angle: "本日千秋楽（DAY2）"
+    - on: "2026-06-08"
+      angle: "千秋楽レポ（昨日閉幕・2周年フィナーレ）"
+  used_in:
+    - gakumas-hif-yokohama-eve   # 6/6配信「本日開幕」
+    - gakumas-hif-yokohama-day1  # 6/7配信「初日開幕レポ」
+  notes: "DAY1（6/6）は既報。残るは6/7千秋楽の当日記事と6/8の閉幕レポ。"
+
+- id: million-14th-stream-june13
+  title: "ミリオンライブ 14thLIVE 詳細発表生配信"
+  brand: ml
+  kind: 公式
+  event_start: "2026-06-13"
+  event_end: "2026-06-13"
+  status: pending
+  confidence: confirmed
+  added: "2026-06-06"
+  source: "アイドルマスター公式ポータル"
+  facts: |
+    日時: 2026年6月13日（土）19:00〜
+    プラットフォーム: YouTube Live
+    発表予定内容: 14thLIVE の出演者・タイトル・公演テーマ・チケット情報など詳細全容
+    関連: 14thLIVE 本体は 9/19・20 国立代々木競技場 第一体育館（別エントリ million-14th-live 参照）
+  publish_plan:
+    - on: "2026-06-12"
+      angle: "明日生配信予告"
+    - on: "2026-06-13"
+      angle: "本日19:00から生配信"
+    - on: "2026-06-14"
+      angle: "生配信まとめ（昨日発表の詳細）"
+  used_in:
+    - million-14th-live-stream-june13  # 6/6配信「生配信6/13決定」告知
+  notes: "6/14のまとめ記事で、生配信で出た新情報を million-14th-live エントリの facts に追記すること。"
+
+- id: cg-popup-anibaroad
+  title: "ヴァイスシュヴァルツ presents シンデレラガールズ 15周年記念 POP UP SHOP in アニバロード"
+  brand: cg
+  kind: 公式
+  event_start: "2026-07-18"
+  event_end: "2026-07-28"
+  status: pending
+  confidence: confirmed
+  added: "2026-06-06"
+  source: "シンデレラガール総選挙2026 特設サイト / アイドルマスター公式ポータル"
+  facts: |
+    会期: 2026年7月18日（土）〜28日（火）
+    内容: シンデレラガールズ15周年記念のPOP UP SHOP（アニバロード）
+  publish_plan:
+    - on: "2026-07-17"
+      angle: "明日開催予告（グッズ・概要）"
+    - on: "2026-07-18"
+      angle: "本日開催"
+  used_in: []
+  notes: "会場詳細・グッズラインナップは未取得。開催前に要追検証。"
+
+- id: cg-sousenkyo-2026-vote
+  title: "シンデレラガール総選挙2026 投票フェーズ（15周年）"
+  brand: cg
+  kind: 公式
+  event_start: "2026-08-01"
+  event_end: "2026-08-31"
+  status: pending
+  confidence: confirmed
+  added: "2026-06-06"
+  source: "シンデレラガール総選挙2026 特設サイト / アイドルマスター公式ポータル"
+  facts: |
+    位置づけ: 15th Anniversary、前回「Stage for Cinderella」（2023）以来 約3年ぶり
+    投票券ミッション開始: 7月上旬予定（基本ミッション・プレミアムミッション）
+    投票開始: 8月（上旬予定）、WEB投票（バンダイナムコID 登録・ログイン）
+    上位特典: 上位7名に新ソロ曲＋カバー曲のソロアルバム「CINDERELLA MASTER」制作、上位アイドルのオリジナルグッズ化
+    応援楽曲: 「シンデレラNo.1」（各アイドル専用歌詞）
+    登録数: シンデレラガール対象 約190名
+  publish_plan:
+    - on: "2026-07-上旬"
+      angle: "投票券ミッション開始"
+    - on: "2026-08-上旬"
+      angle: "本日投票開始"
+    - on: "中間発表日（未定）"
+      angle: "中間発表速報"
+    - on: "結果発表日（未定）"
+      angle: "新シンデレラガール決定・結果速報"
+  used_in:
+    - cg-sousenkyo-2026  # 6/5配信「概要正式決定」
+  notes: "投票開始の正確な日付・中間発表・結果発表日が未確定。日程が出たら on を絶対日付に更新すること。"
+
+- id: iwsf2026
+  title: "THE IDOLM@STER 20th Anniversary MORE RE@LITY LIVE IDOL WORLD SUPER FESTIVAL 2026"
+  brand: godo
+  kind: 公式
+  event_start: "2026-07-24"
+  event_end: "2026-07-26"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-06-06"
+  source: "アイドルマスター公式ポータル / ファミ通 / 4Gamer / バンナム プレスリリース"
+  facts: |
+    位置づけ: アイマスシリーズ20周年イヤーのフィナーレを飾る全ブランド越境xRライブ（3DAYS）
+    会場: 京王アリーナ TOKYO
+    日程/テーマ:
+      DAY1 7/24（金）「ダンス」 開場17:30 / 開演18:30
+      DAY2 7/25（土）「生バンド」 開場17:00 / 開演18:00
+      DAY3 7/26（日）「コール&レスポンス／20thフィナーレ」 開場17:00 / 開演18:00
+    チケット: 通常12,000円 / グッズ付18,000円 / 3DAY通し36,000円 / グッズ付通し54,000円（各税込、1人2枚まで）
+    DAY3 出演（一部）: 天海春香、島村卯月、安部菜々、春日未来、天道輝、紅井朱雀、櫻木真乃、小宮果穂、花海咲季、藤田ことね、奥空心白 ほか
+    DAY1 出演（一部）: 星井美希、神谷奈緒、伊吹翼、牙崎漣、芹沢あさひ、紫雲清夏、上水流宇宙 ほか
+    DAY2 出演（一部）: 如月千早、木村夏樹、最上静香、都築圭、斑鳩ルカ、雨夜燕、詩花 ほか
+  publish_plan:
+    - on: "2026-07-23"
+      angle: "明日開幕予告（3DAYS総まとめ）"
+    - on: "2026-07-24"
+      angle: "本日開幕・DAY1（ダンス）"
+    - on: "2026-07-25"
+      angle: "DAY1レポ＆本日DAY2（生バンド）"
+    - on: "2026-07-26"
+      angle: "DAY2レポ＆本日DAY3（フィナーレ）"
+    - on: "2026-07-27"
+      angle: "閉幕・20thフィナーレ総括レポ"
+  used_in:
+    - iwsf2026-day3-performers  # 6/5配信「DAY3出演全容」
+  notes: "各DAYのセットリスト・サプライズ発表は当日要取材。出演者は第一弾、追加発表があれば facts を更新。"
+
+- id: shani-songforprism-karma-naraku-event
+  title: "シャニマス Song for Prism「Karma / Naraku」発売記念イベント"
+  brand: sc
+  kind: 公式
+  event_start: "2026-08-23"
+  event_end: "2026-08-23"
+  status: pending
+  confidence: confirmed
+  added: "2026-06-06"
+  source: "アイドルマスター シャイニーカラーズ 公式 / Lantis"
+  facts: |
+    日時: 2026年8月23日（日）東京都内
+    第一回: 開場14:15 / 開演15:00
+    第二回: 開場16:45 / 開演17:30
+    内容: トーク＆ミニライブ
+    出演: 和久井優（浅倉透 役）、結名美月（幽谷霧子 役）
+    参加方法: 抽選招待制（配信なし）、受付 2026/2/3 12:00〜8/2 23:59
+  publish_plan:
+    - on: "2026-08-22"
+      angle: "明日開催予告"
+    - on: "2026-08-23"
+      angle: "本日開催"
+  used_in: []
+  notes: "配信なしのため当日レポは現地・SNS情報依存。"
+
+- id: million-14th-live
+  title: "THE IDOLM@STER MILLION LIVE! 14thLIVE"
+  brand: ml
+  kind: 公式
+  event_start: "2026-09-19"
+  event_end: "2026-09-20"
+  status: pending
+  confidence: confirmed
+  added: "2026-06-06"
+  source: "アイドルマスター公式ポータル / ファミ通（13thLive DAY2 発表）"
+  facts: |
+    日程: 2026年9月19日（土）・20日（日）
+    会場: 国立代々木競技場 第一体育館（東京）※ミリオンライブ初
+    位置づけ: 13thLIVE（5月）から約4ヶ月後の主演公演
+    詳細発表: 6/13（土）19:00 生配信で出演者・タイトル等が発表予定（million-14th-stream-june13 参照）
+  publish_plan:
+    - on: "2026-09-18"
+      angle: "明日開幕予告"
+    - on: "2026-09-19"
+      angle: "本日開幕・DAY1"
+    - on: "2026-09-20"
+      angle: "DAY1レポ＆本日DAY2"
+    - on: "2026-09-21"
+      angle: "閉幕レポ"
+  used_in: []
+  notes: "出演者・タイトル・チケット詳細は6/13生配信後に facts を更新すること（現時点は会場・日程のみ確定）。"
