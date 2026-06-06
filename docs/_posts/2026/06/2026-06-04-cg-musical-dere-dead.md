@@ -1,5 +1,6 @@
 ---
 title: "デレミュ第2弾「DERE of the DEAD」チケット受付中　7月大阪・ゾンビホラーミュージカルが開幕"
+edition_date: "2026-06-05"
 slug: cg-musical-dere-dead
 brand: cg
 kind: 公式

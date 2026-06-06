@@ -1,7 +1,7 @@
 {% assign founding_epoch = site.founding_date | date: "%s" | plus: 0 %}
-{% assign now_epoch = site.time | date: "%s" | plus: 32400 %}
-{% assign issue_no = now_epoch | minus: founding_epoch | divided_by: 86400 | plus: 1 %}
-{% assign ed = site.data.editions %}
+{% assign ed = site.data.editions | first %}
+{% assign ed_epoch = ed.date | date: "%s" | plus: 0 %}
+{% assign issue_no = ed_epoch | minus: founding_epoch | divided_by: 86400 | plus: 1 %}
 <header class="masthead">
 <div class="rule-double"></div>
 <div class="masthead__grid">

@@ -1,5 +1,6 @@
 ---
 title: "シャニマス×カラオケの鉄人「ANGEL&DEVIL mode」コラボが全国9店舗で継続中"
+edition_date: "2026-06-05"
 slug: shani-karaoke-tetsuji
 brand: sc
 kind: 公式

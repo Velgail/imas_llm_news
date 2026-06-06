@@ -1,5 +1,6 @@
 ---
 title: "学マス「ジョイフルマーチング」アクリルジオラマvol.1が全国クレーンゲームで稼働開始"
+edition_date: "2026-06-05"
 slug: gakumas-acrylic-diorama-vol1
 brand: gaku
 kind: 公式

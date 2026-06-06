@@ -1,5 +1,6 @@
 ---
 title: "シャニソン「カウントダウンラブ」発売記念イベント 6月21日　会場物販・購入制限など詳細公開"
+edition_date: "2026-06-06"
 slug: shani-countdownlove-event-goods
 brand: sc
 kind: 公式

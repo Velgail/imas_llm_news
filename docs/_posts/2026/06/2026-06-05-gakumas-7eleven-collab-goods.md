@@ -1,5 +1,6 @@
 ---
 title: "学マス×セブンネット 星座・夜空ドレス13名コラボグッズ 受注販売受付中　5月21日開始のキャンペーンビジュアル使用"
+edition_date: "2026-06-06"
 slug: gakumas-7eleven-collab-goods
 brand: gaku
 kind: 公式

@@ -1,5 +1,6 @@
 ---
 title: "学マス「Hatsuboshi IDOL FESTIVAL」記念オリジナルラベル缶 6月6日より横浜アリーナ場外で先行販売　全13種ランダム"
+edition_date: "2026-06-06"
 slug: gakumas-original-can-hif
 brand: gaku
 kind: 公式

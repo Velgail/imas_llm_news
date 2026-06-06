@@ -1,4 +1,5 @@
 <section class="backissues"><div class="backissues__head"><h4>バックナンバー棚</h4><a class="byline" href="{{ '/archive/' | relative_url }}" style="text-decoration:none">過去の号をめくる →</a></div>
 <div class="bi-row">
-{% for it in site.data.backissues %}<a class="bi-card" href="{{ '/archive/' | relative_url }}" style="text-decoration:none;color:inherit"><div class="bi-date">{{ it.date }}</div><div class="bi-no">{{ it.no }}</div><div class="bi-lead">{{ it.lead }}</div></a>{% endfor %}
+{% assign founding_epoch = site.founding_date | date: "%s" | plus: 0 %}
+{% for ed in site.data.editions %}{% unless forloop.first %}{% assign ed_epoch = ed.date | date: "%s" | plus: 0 %}{% assign issue_no = ed_epoch | minus: founding_epoch | divided_by: 86400 | plus: 1 %}<a class="bi-card" href="{{ '/archive/' | relative_url }}" style="text-decoration:none;color:inherit"><div class="bi-date">{{ ed.date }}</div><div class="bi-no">第{{ issue_no }}号</div><div class="bi-lead">{{ ed.indexValue }}</div></a>{% endunless %}{% endfor %}
 </div></section>

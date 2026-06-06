@@ -1,5 +1,6 @@
 ---
 title: "「dual twin live tour」チケット アソビストア一般会員2次先行 6月5日受付開始　8月 大阪・名古屋・東京3都市6公演"
+edition_date: "2026-06-06"
 slug: as765-dual-twin-tour-ticket
 brand: as765
 kind: 公式

@@ -1,5 +1,6 @@
 ---
 title: "アイマスツアーズ、本日より「流れ星キセキ」追加　アーケードで楽曲拡充続く"
+edition_date: "2026-06-05"
 slug: tourmas-nagareboshi-kiseki
 brand: sogo
 kind: 公式

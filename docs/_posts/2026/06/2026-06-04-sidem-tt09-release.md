@@ -1,5 +1,6 @@
 ---
 title: "SideM「TRANSCENDENT T@LES 09」発売　蒼井・冬美・姫野・山下の4人がCDに"
+edition_date: "2026-06-05"
 slug: sidem-tt09-release
 brand: sidem
 kind: 公式

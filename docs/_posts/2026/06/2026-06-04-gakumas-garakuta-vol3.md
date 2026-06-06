@@ -1,5 +1,6 @@
 ---
 title: "学マスH.I.F・ガラクタロードvol.2が明日最終日　同日11:00よりリーリヤvol.3に切り替わり"
+edition_date: "2026-06-05"
 slug: gakumas-garakuta-vol3-preview
 brand: gaku
 kind: 公式

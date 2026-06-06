@@ -1,5 +1,6 @@
 ---
 title: "SideM「DRAMATIC STARS & C.FIRST」ネオチャイナ描きおろしでHMV渋谷に登場　6月20日から"
+edition_date: "2026-06-05"
 slug: sidem-hmv-popup
 brand: sidem
 kind: 公式

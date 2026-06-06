@@ -1,5 +1,6 @@
 ---
 title: "学マス「2nd Period Hatsuboshi IDOL FESTIVAL」横浜アリーナ 6月6日（土）開幕　出演13名・配信・物販情報まとめ"
+edition_date: "2026-06-06"
 slug: gakumas-hif-yokohama-eve
 brand: gaku
 kind: 公式

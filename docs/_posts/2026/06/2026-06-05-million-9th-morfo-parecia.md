@@ -1,5 +1,6 @@
 ---
 title: "ミリシタ9周年キービジュアル公開　衣装名「モルフォ・パレシア」センターは松田亜利沙　6月29日周年"
+edition_date: "2026-06-06"
 slug: million-9th-morfo-parecia
 brand: ml
 kind: 公式

@@ -1,5 +1,6 @@
 ---
 title: "学マス「Hatsuboshi IDOL FESTIVAL」横浜アリーナ初日開幕　13名が2周年フィナーレ飾る"
+edition_date: "2026-06-07"
 slug: gakumas-hif-yokohama-day1
 brand: gaku
 kind: 公式
