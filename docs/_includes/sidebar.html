@@ -6,4 +6,5 @@
 {% for b in site.data.birthdays %}<li><span class="cake">●</span><span style="flex:1">{{ b.name }}</span>{% include chip.html key=b.brand %}</li>{% endfor %}
 </ul></section>
 <section class="widget"><div class="widget__head"><h4>社説</h4><span class="sub">こたつ編集後記</span></div><div class="editorial"><div class="ed-head ed-vert">社説</div><div class="ed-title ed-vert">{{ site.data.editorial.title }}</div><div class="ed-body ed-vert">{{ site.data.editorial.body }}</div></div></section>
+{% include backissues.html %}
 </aside>

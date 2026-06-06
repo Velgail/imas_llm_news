@@ -1,5 +1,6 @@
 ---
 title: "ヴイアライブ アイドルデビュー1周年記念生配信 6月26日（金）19:30 公式チャンネルで配信決定"
+edition_date: "2026-06-06"
 slug: valiv-1yr-anniv-stream
 brand: valiv
 kind: 公式

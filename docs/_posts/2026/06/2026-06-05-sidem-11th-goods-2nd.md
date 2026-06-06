@@ -1,5 +1,6 @@
 ---
 title: "SideM 11th STAGE グッズ事前販売第2弾 6月18日〜7月5日　新衣装「トランセンデントリルード」使用　第1弾当落は6月11日"
+edition_date: "2026-06-06"
 slug: sidem-11th-goods-2nd
 brand: sidem
 kind: 公式

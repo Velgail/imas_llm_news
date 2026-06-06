@@ -1,5 +1,6 @@
 ---
 title: "ミリオンライブ 14th LIVE 詳細発表生配信 6月13日（土）19:00決定　代々木第一体育館・9月開催"
+edition_date: "2026-06-06"
 slug: million-14th-live-stream-june13
 brand: ml
 kind: 公式

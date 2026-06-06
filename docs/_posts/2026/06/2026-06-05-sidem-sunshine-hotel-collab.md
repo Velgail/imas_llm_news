@@ -1,5 +1,6 @@
 ---
 title: "SideM×サンシャインシティプリンスホテル コラボ今年も実施　7月12日〜10月13日　詳細6月上旬公開・予約は6月12日から"
+edition_date: "2026-06-06"
 slug: sidem-sunshine-hotel-collab
 brand: sidem
 kind: 公式

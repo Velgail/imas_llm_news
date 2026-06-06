@@ -1,5 +1,6 @@
 ---
 title: "ミリオン52週連続企画・北上麗花のSSR発売　全52枚完走でギネス認定バッジも"
+edition_date: "2026-06-05"
 slug: million-reika-ssc
 brand: ml
 kind: 公式

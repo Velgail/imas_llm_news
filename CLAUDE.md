@@ -64,6 +64,10 @@
   例: `2026-06-05-cg-sousenkyo-20260605.md`
   複数日で継続する話題には日付サフィックスを付け、別記事として管理する。
 - `edition` フィールドは廃止済み。frontmatter に書かない。
+- **`edition_date`（配信日）** を必ず frontmatter に記載する。
+  - ファイル名の YYYY-MM-DD（記事対象日）の翌日 = 配信日
+  - 例: ファイル `2026-06-05-*.md` → `edition_date: "2026-06-06"`
+  - front.html・brand.html はこのフィールドで記事を号ごとに集約する
 
 ## カテゴリー（brand）選択基準
 | brand | 用途 |
@@ -80,15 +84,20 @@
 | `other` | **その他**：グッズ横断、メディア露出など1ブランドに分類しにくいもの |
 
 ## editions.yml の更新ルール
-- `dateLong` は必ずJST当日の日付を書く（`date -u -d '+9 hours' +%Y-%m-%d` で確認）。
-- `pages` は「全 NN 面」（記事数に応じて調整）。
+- editions.yml は**リスト形式**（最新号が先頭）。号を更新する際は先頭に新しいエントリを追加する。過去の号は削除しない（バックナンバー棚に使用）。
+- `date` は配信日（JST当日）。`date -u -d '+9 hours' +%Y-%m-%d` で確認。
+- `dateLong` は配信日の曜日付き長形式。
+- `pages` は「全 NN 面」（当日の記事数に応じて）。
 - `stamp` は「本日 06:00 締切」固定。
-- 号数（issueNo）は `masthead.html` が `_config.yml` の `founding_date` から自動計算するため、editions.yml には書かない。
-- `indexNote` には**前日（記事対象日）**の出来事のみ書く。配信日当日の予定イベントを書かない。
+- 号数は `masthead.html` が `founding_date` と `editions[0].date` から自動計算するため、editions.yml には書かない。
+- `indexNote` は配信日基準で書く（配信日に開幕するイベントは「本日開幕」と書いてよい）。
 
 ## 毎日の更新作業チェックリスト
 1. `docs/_posts/YYYY/MM/` に記事ファイルを作成（10件以上目安）
-2. `docs/_data/editions.yml` を更新（dateLong、pages、indexValue、indexNote）
+   - frontmatter に `edition_date: "YYYY-MM-DD"` を記載（ファイル名日付の翌日 = 配信日）
+2. `docs/_data/editions.yml` を更新
+   - リスト先頭に新号エントリを追加（date・dateLong・pages・stamp・indexValue・indexNote）
+   - 過去のエントリは削除しない
 3. `docs/_data/ranking.yml` を更新（8件のランキング）
 4. `docs/_data/editorial.yml` を更新（社説タイトル・本文）
 5. `python3 scripts/update_birthdays.py` を実行（birthdays.yml 自動更新）

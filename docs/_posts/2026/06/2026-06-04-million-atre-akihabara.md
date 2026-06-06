@@ -1,5 +1,6 @@
 ---
 title: "ミリシタ×アトレ秋葉原が6月26日開幕　9周年衣装52人ビル全体ラッピング＆ペインタースタイル4人追加"
+edition_date: "2026-06-05"
 slug: million-atre-akihabara
 brand: ml
 kind: 公式

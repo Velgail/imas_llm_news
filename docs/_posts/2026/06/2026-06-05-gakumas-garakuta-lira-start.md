@@ -1,5 +1,6 @@
 ---
 title: "学マス「ガラクタロード vol.3」葛城リーリヤ 6月5日11:00開始　6月15日まで開催"
+edition_date: "2026-06-06"
 slug: gakumas-garakuta-lira-start
 brand: gaku
 kind: 公式
