@@ -9,7 +9,7 @@
     as765:  { key: "as765",  label: "765プロ",    short: "765", hue: 55 },
     cg:     { key: "cg",     label: "シンデレラ", short: "デレ", hue: 255 },
     ml:     { key: "ml",     label: "ミリオン",   short: "ミリ", hue: 350 },
-    sc:     { key: "sc",     label: "シャイニー", short: "シャニ", hue: 200 },
+    sc:     { key: "sc",     label: "シャニマス", short: "シャニ", hue: 200 },
     sidem:  { key: "sidem",  label: "SideM",      short: "M",   hue: 150 },
     gaku:   { key: "gaku",   label: "学マス",     short: "学",  hue: 305 },
   };
@@ -76,7 +76,7 @@
     {
       id: "a05", edition: "morning", brand: "sc", kind: "公式",
       size: "medium", badge: "",
-      title: "シャイニー、新ストーリー後編が配信開始",
+      title: "シャニマス、新ストーリー後編が配信開始",
       lead: "重厚な展開に「情緒を破壊された」とタイムラインが崩壊。考察と感想の投稿が深夜まで止まらない。",
       img: "",
       time: "10:00", source: "アプリ内告知", pageNo: "7面",
