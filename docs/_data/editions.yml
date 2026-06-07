@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-06-07"
+  dateLong: "2026年（令和8年）6月7日　日曜日"
+  pages: "全 11 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "学マス横浜・本日千秋楽"
+  indexNote: "HIF千秋楽本日17時開幕・ガラクタロードシングル8月発売決定・ミリシタ9周年配信6/24@namco決定"
 - date: "2026-06-06"
   dateLong: "2026年（令和8年）6月6日　土曜日"
   pages: "全 11 面"

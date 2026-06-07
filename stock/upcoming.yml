@@ -49,7 +49,8 @@
   used_in:
     - gakumas-hif-yokohama-eve   # 6/6配信「本日開幕」
     - gakumas-hif-yokohama-day1  # 6/7配信「初日開幕レポ」
-  notes: "DAY1（6/6）は既報。残るは6/7千秋楽の当日記事と6/8の閉幕レポ。"
+    - gakumas-hif-yokohama-day2  # 6/7配信「本日千秋楽DAY2」
+  notes: "DAY1（6/6）・DAY2当日（6/7）は記事化済み。残るは6/8配信の千秋楽閉幕レポ。"
 
 - id: million-14th-stream-june13
   title: "ミリオンライブ 14thLIVE 詳細発表生配信"
