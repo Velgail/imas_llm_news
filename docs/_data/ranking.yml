@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-06-05 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-06-06 集計
 - rank: 1
-  name: "葛城リーリヤ"
+  name: "花海咲季"
   brand: gaku
   move: up
 - rank: 2
-  name: "松田亜利沙"
-  brand: ml
-  move: up
-- rank: 3
-  name: "双海亜美"
-  brand: as765
-  move: up
-- rank: 4
   name: "花海咲季"
   brand: gaku
   move: keep
-- rank: 5
-  name: "二階堂千鶴"
+- rank: 3
+  name: "松田亜利沙"
   brand: ml
-  move: up
-- rank: 6
-  name: "灯里愛夏"
-  brand: valiv
-  move: up
-- rank: 7
-  name: "天道輝"
-  brand: sidem
   move: down
-- rank: 8
-  name: "芹沢あさひ"
+- rank: 4
+  name: "葛城リーリヤ"
+  brand: gaku
+  move: down
+- rank: 5
+  name: "有栖川夏葉"
   brand: sc
   move: up
+- rank: 6
+  name: "天道輝"
+  brand: sidem
+  move: up
+- rank: 7
+  name: "双海亜美"
+  brand: as765
+  move: keep
+- rank: 8
+  name: "灯里愛夏"
+  brand: valiv
+  move: down
