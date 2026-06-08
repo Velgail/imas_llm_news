@@ -5,7 +5,7 @@ slug: sc-refrac7ions-still-blue
 brand: sc
 kind: 公式
 badge: "先行6/14まで"
-lead: "アイドルマスター シャイニーカラーズ PJ:REFRAC7IONSの7ユニットが一堂に会するライブ「shiny, the first REFRAC7IONS "Still blue"」（2026年12月19日・20日、国立代々木競技場 第一体育館）のアソビストアプレミアム会員先行（抽選）が6月14日（日）23:59まで受付中。当落は6月27日（土）13:00に発表される。"
+lead: "アイドルマスター シャイニーカラーズ PJ:REFRAC7IONSの7ユニットが一堂に会するライブ「shiny, the first REFRAC7IONS \"Still blue\"」（2026年12月19日・20日、国立代々木競技場 第一体育館）のアソビストアプレミアム会員先行（抽選）が6月14日（日）23:59まで受付中。当落は6月27日（土）13:00に発表される。"
 time: "20:00"
 source: "アイドルマスター シャイニーカラーズ公式 / アソビストア"
 tags: [シャニマス, REFRAC7IONS, Stillblue, 代々木, チケット先行]
