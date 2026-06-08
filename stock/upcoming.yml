@@ -46,11 +46,13 @@
       angle: "本日千秋楽（DAY2）"
     - on: "2026-06-08"
       angle: "千秋楽レポ（昨日閉幕・2周年フィナーレ）"
+  status: done
   used_in:
     - gakumas-hif-yokohama-eve   # 6/6配信「本日開幕」
     - gakumas-hif-yokohama-day1  # 6/7配信「初日開幕レポ」
     - gakumas-hif-yokohama-day2  # 6/7配信「本日千秋楽DAY2」
-  notes: "DAY1（6/6）・DAY2当日（6/7）は記事化済み。残るは6/8配信の千秋楽閉幕レポ。"
+    - gakumas-hif-yokohama-finale  # 6/8配信「千秋楽閉幕レポ」
+  notes: "DAY1（6/6）・DAY2当日（6/7）・千秋楽閉幕レポ（6/8配信）すべて記事化済み。"
 
 - id: million-14th-stream-june13
   title: "ミリオンライブ 14thLIVE 詳細発表生配信"
@@ -216,3 +218,28 @@
       angle: "閉幕レポ"
   used_in: []
   notes: "出演者・タイトル・チケット詳細は6/13生配信後に facts を更新すること（現時点は会場・日程のみ確定）。"
+
+- id: valiv-1st-anniversary-costume-june27
+  title: "ヴイアライブ 1st Album「彼方」2000枚突破記念・新衣装お披露目リレー配信"
+  brand: valiv
+  kind: 公式
+  event_start: "2026-06-27"
+  event_end: "2026-06-27"
+  status: pending
+  confidence: confirmed
+  added: "2026-06-08"
+  source: "vα-liv（ヴイアライヴ）公式 / アイドルマスター公式ポータル"
+  facts: |
+    日時: 2026年6月27日（土）
+    新衣装お披露目リレー配信：21:00より各公式チャンネルで順次配信
+      上水流宇宙（21:00）→ レトラ（21:45）→ 灯里愛夏（22:30）
+    背景: 1st Album「彼方」が2,000枚突破を記念した展開
+    備考: 「Beyond My Destiny」は2025年6月27日にリリース済み（新曲ではない）
+  publish_plan:
+    - on: "2026-06-26"
+      angle: "明日新衣装お披露目配信予告"
+    - on: "2026-06-27"
+      angle: "本日新衣装お披露目リレー配信"
+  used_in:
+    - valiv-beyond-my-destiny  # 6/8配信「6/27新衣装お披露目予告」
+  notes: "1周年記念配信（6/26）のアーカイブとあわせて記事化すること。"
