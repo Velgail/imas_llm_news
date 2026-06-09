@@ -41,7 +41,6 @@ html, body {
   font-family: var(--gothic);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  overflow-x: hidden;
 }
 
 ::selection { background: oklch(0.555 0.176 32 / 0.22); }
@@ -303,7 +302,9 @@ html, body {
 .byline {
   font-family: var(--mono); font-size: 10.5px; color: var(--ink-soft);
   display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
+  min-width: 0;
 }
+.byline > * { min-width: 0; }
 .byline .dot { opacity: 0.5; }
 
 /* 画像プレースホルダ ----------------------------------------------------- */
@@ -388,6 +389,7 @@ html, body {
   cursor: pointer;
   transition: background .15s;
   position: relative;
+  min-width: 0;
 }
 .story:hover { background: oklch(0.70 0.13 62 / 0.06); }
 .story:hover h3 { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
