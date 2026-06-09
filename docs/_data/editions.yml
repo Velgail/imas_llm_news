@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-06-09"
+  dateLong: "2026年（令和8年）6月9日　火曜日"
+  pages: "全 11 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "学マスHIFアーカイブ配信開始"
+  indexNote: "昨日HIFコメント付きアーカイブ開始・ハツボシストアオンライン開始・CG×AstromedaゲーミングPC全190種・シャニソン6月以降ロードマップ"
 - date: "2026-06-08"
   dateLong: "2026年（令和8年）6月8日　月曜日"
   pages: "全 10 面"
