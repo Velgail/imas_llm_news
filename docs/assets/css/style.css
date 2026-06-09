@@ -31,7 +31,7 @@
   --maxw: 1180px;
 }
 
-* { box-sizing: border-box; }
+* { box-sizing: border-box; overflow-wrap: break-word; }
 
 html, body {
   margin: 0;
@@ -41,6 +41,7 @@ html, body {
   font-family: var(--gothic);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 ::selection { background: oklch(0.555 0.176 32 / 0.22); }
