@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-06-07 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-06-08 集計
 - rank: 1
   name: "天音ゆかり"
   brand: gaku
-  move: up
+  move: keep
 - rank: 2
-  name: "七瀬つむぎ"
+  name: "葛城リーリヤ"
   brand: gaku
   move: up
 - rank: 3
+  name: "島村卯月"
+  brand: cg
+  move: up
+- rank: 4
   name: "花海咲季"
   brand: gaku
   move: down
-- rank: 4
-  name: "宮尾美也"
-  brand: ml
-  move: up
 - rank: 5
   name: "如月千早"
   brand: ml
-  move: up
+  move: keep
 - rank: 6
   name: "有栖川夏葉"
   brand: sc
   move: keep
 - rank: 7
-  name: "アスラン=ベルゼビュートII世"
+  name: "加賀美セイ"
   brand: sidem
   move: up
 - rank: 8
-  name: "灯里愛夏"
+  name: "上水流宇宙"
   brand: valiv
-  move: keep
+  move: up
