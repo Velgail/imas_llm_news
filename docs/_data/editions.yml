@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-06-10"
+  dateLong: "2026年（令和8年）6月10日　水曜日"
+  pages: "全 11 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "シャニマスちびぐるみ開始"
+  indexNote: "昨日Team.Stellaちびぐるみ登場・学マスターミナル本日最終日・デレミュ2nd一般先着6/13〜・SideM 11th先行6/14まで・ミリシタ9th秋葉原フェス6/26〜全容"
 - date: "2026-06-09"
   dateLong: "2026年（令和8年）6月9日　火曜日"
   pages: "全 11 面"
