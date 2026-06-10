@@ -31,7 +31,7 @@
   --maxw: 1180px;
 }
 
-* { box-sizing: border-box; }
+* { box-sizing: border-box; overflow-wrap: break-word; }
 
 html, body {
   margin: 0;
@@ -302,7 +302,9 @@ html, body {
 .byline {
   font-family: var(--mono); font-size: 10.5px; color: var(--ink-soft);
   display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
+  min-width: 0;
 }
+.byline > * { min-width: 0; }
 .byline .dot { opacity: 0.5; }
 
 /* 画像プレースホルダ ----------------------------------------------------- */
@@ -387,6 +389,7 @@ html, body {
   cursor: pointer;
   transition: background .15s;
   position: relative;
+  min-width: 0;
 }
 .story:hover { background: oklch(0.70 0.13 62 / 0.06); }
 .story:hover h3 { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
@@ -485,6 +488,7 @@ html, body {
   background: var(--paper-2);
   padding: 16px 14px;
   display: flex;
+  flex-wrap: wrap;
   gap: 14px;
   justify-content: flex-start;
 }
@@ -496,13 +500,15 @@ html, body {
 .editorial .ed-head {
   font-weight: 800; font-size: 15px; letter-spacing: 0.3em;
   color: var(--paper); background: var(--ink); padding: 10px 4px; height: max-content;
+  flex-shrink: 0;
 }
 .editorial .ed-title {
   font-weight: 800; font-size: 22px; line-height: 1.5; letter-spacing: 0.06em; color: var(--ink);
+  min-width: 0;
 }
 .editorial .ed-body {
   font-size: 12.5px; line-height: 2.1; letter-spacing: 0.02em; color: var(--ink-soft);
-  text-align: justify;
+  text-align: justify; min-width: 0;
 }
 
 /* =========================================================================
@@ -638,5 +644,6 @@ html, body {
   .nameplate h1 { letter-spacing: 0.02em; }
   .colophon { grid-template-columns: 1fr; }
   .colophon .seal { justify-self: center; }
+  .editorial { flex-direction: column; }
   .editorial .ed-vert { height: 200px; }
 }

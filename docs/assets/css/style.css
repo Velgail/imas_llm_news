@@ -31,7 +31,7 @@
   --maxw: 1180px;
 }
 
-* { box-sizing: border-box; }
+* { box-sizing: border-box; overflow-wrap: break-word; }
 
 html, body {
   margin: 0;
@@ -302,7 +302,9 @@ html, body {
 .byline {
   font-family: var(--mono); font-size: 10.5px; color: var(--ink-soft);
   display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
+  min-width: 0;
 }
+.byline > * { min-width: 0; }
 .byline .dot { opacity: 0.5; }
 
 /* 画像プレースホルダ ----------------------------------------------------- */
@@ -387,6 +389,7 @@ html, body {
   cursor: pointer;
   transition: background .15s;
   position: relative;
+  min-width: 0;
 }
 .story:hover { background: oklch(0.70 0.13 62 / 0.06); }
 .story:hover h3 { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
