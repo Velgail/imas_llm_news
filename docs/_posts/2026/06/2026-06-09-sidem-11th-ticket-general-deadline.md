@@ -11,7 +11,7 @@ source: "アイドルマスター公式ポータル / SideM 11th STAGE 公式サ
 pageno: "5面"
 size: medium
 order: 5
-tags: [SideM, 11thSTAGE, EVER EVER FTER, チケット, TOYOTA ARENA TOKYO]
+tags: [SideM, 11thSTAGE, "EVER EVER@FTER", チケット, TOYOTA ARENA TOKYO]
 featured: false
 ---
 
