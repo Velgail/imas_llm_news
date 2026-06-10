@@ -622,7 +622,7 @@ html, body {
   .lead-zone { grid-template-columns: 1fr; gap: 16px; }
   .lead-zone .lead-media { order: -1; }
   .lead-zone .lead-text { columns: 1; }
-  .frontpage { grid-template-columns: 1fr; }
+  .frontpage { grid-template-columns: minmax(0, 1fr); }
   .col-main { padding-right: 0; border-right: 0; }
   .col-side { padding-left: 0; margin-top: 20px; padding-top: 20px; border-top: 3px double var(--rule); }
 }
