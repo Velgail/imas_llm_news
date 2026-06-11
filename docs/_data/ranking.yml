@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-06-09 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-06-10 集計
 - rank: 1
-  name: "櫻木真乃"
-  brand: sc
+  name: "菊地真"
+  brand: ml
   move: up
 - rank: 2
-  name: "花海咲季"
-  brand: gaku
+  name: "三浦あずさ"
+  brand: ml
   move: up
 - rank: 3
-  name: "天道輝"
-  brand: sidem
+  name: "望月杏奈"
+  brand: ml
   move: up
 - rank: 4
-  name: "葛城リーリヤ"
+  name: "姫崎莉波"
   brand: gaku
-  move: down
+  move: up
 - rank: 5
-  name: "藤田ことね"
+  name: "有村麻央"
   brand: gaku
-  move: keep
+  move: up
 - rank: 6
-  name: "島村卯月"
-  brand: cg
+  name: "浅倉透"
+  brand: sc
   move: down
 - rank: 7
-  name: "芹沢あさひ"
-  brand: sc
-  move: new
-- rank: 8
-  name: "如月千早"
-  brand: ml
+  name: "花海咲季"
+  brand: gaku
   move: down
+- rank: 8
+  name: "双海亜美"
+  brand: as765
+  move: new
