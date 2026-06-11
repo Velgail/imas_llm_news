@@ -1,5 +1,5 @@
 ---
-title: "学マス「ガラクタロード」H.I.F メモリアルシングル　アソビストア特装盤受注昨日締め切り"
+title: "学マス「ガラクタロード」H.I.F メモリアルシングル　アソビストア特装盤受注一昨日締め切り"
 edition_date: "2026-06-11"
 slug: gaku-3rd-single-garakuta-memorial
 brand: gaku
