@@ -1,7 +1,7 @@
 ---
 title: "IDOL WORLD SUPER FESTIVAL 2026　開幕まで6週間　3DAYS各テーマ・チケット状況まとめ"
 edition_date: "2026-06-12"
-slug: godo-iwsf2026-countdown-7weeks
+slug: godo-iwsf2026-countdown-6weeks
 brand: godo
 kind: 公式
 badge: "7/24開幕"
@@ -14,9 +14,9 @@ lead: "「THE IDOLM@STER 20th Anniversary MORE RE@LITY LIVE IDOL WORLD SUPER FES
 |-----|------|-------|
 | DAY1 | 7月24日（金） | YAKUDOU（躍動）〜ダンス〜 |
 | DAY2 | 7月25日（土） | ZESSYOU（絶唱）〜生バンド〜 |
-| DAY3 | 7月26日（日） | KYOUMEI（共鳴）〜コール&レスポンス／20thフィナーレ〜 |
+| DAY3 | 7月26日（日） | KAGAYAKI（輝）〜コール&レスポンス／20thフィナーレ〜 |
 
-開場：各日 17:00〜18:00（日程により異なる）
+開場：DAY1 17:30 / DAY2・DAY3 17:00（開演：DAY1 18:30 / DAY2・DAY3 18:00）
 
 ## 発表済み出演アイドル（抜粋）
 
