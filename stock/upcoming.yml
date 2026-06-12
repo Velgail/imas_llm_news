@@ -60,7 +60,7 @@
   kind: 公式
   event_start: "2026-06-13"
   event_end: "2026-06-13"
-  status: pending
+  status: partially-used
   confidence: confirmed
   added: "2026-06-06"
   source: "アイドルマスター公式ポータル"
@@ -78,6 +78,7 @@
       angle: "生配信まとめ（昨日発表の詳細）"
   used_in:
     - million-14th-live-stream-june13  # 6/6配信「生配信6/13決定」告知
+    - ml-14thlive-june13-stream-preview  # 6/12配信「明日生配信予告」
   notes: "6/14のまとめ記事で、生配信で出た新情報を million-14th-live エントリの facts に追記すること。"
 
 - id: cg-popup-anibaroad

@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-06-10 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-06-11 集計
 - rank: 1
+  name: "葛城リーリヤ"
+  brand: gaku
+  move: new
+- rank: 2
+  name: "月村手毬"
+  brand: gaku
+  move: new
+- rank: 3
   name: "菊地真"
   brand: ml
-  move: up
-- rank: 2
+  move: down
+- rank: 4
   name: "三浦あずさ"
   brand: ml
-  move: up
-- rank: 3
-  name: "望月杏奈"
-  brand: ml
-  move: up
-- rank: 4
-  name: "姫崎莉波"
-  brand: gaku
-  move: up
+  move: down
 - rank: 5
-  name: "有村麻央"
+  name: "花海咲季"
   brand: gaku
   move: up
 - rank: 6
-  name: "浅倉透"
+  name: "黛冬優子"
   brand: sc
-  move: down
+  move: new
 - rank: 7
-  name: "花海咲季"
-  brand: gaku
-  move: down
+  name: "上水流宇宙"
+  brand: valiv
+  move: new
 - rank: 8
-  name: "双海亜美"
-  brand: as765
+  name: "北条加蓮"
+  brand: cg
   move: new
