@@ -5,7 +5,7 @@ slug: cg-deremu-ticket-general-today
 brand: cg
 kind: 公式
 badge: "本日12:00〜"
-lead: "シンデレラガールズ 2nd STAGE MUSICAL「THE IDOLM@STER CINDERELLA GIRLS DERE of the DEAD」のチケット一般先着販売が本日6月13日（土）12:00より開始される。受付は6月27日（金）23:59まで。"
+lead: "シンデレラガールズ 2nd STAGE MUSICAL「THE IDOLM@STER CINDERELLA GIRLS DERE of the DEAD」のチケット一般先着販売が本日6月13日（土）12:00より開始される。受付は6月27日（土）23:59まで。"
 ---
 
 ## 本日開始のチケット一般先着
@@ -13,7 +13,7 @@ lead: "シンデレラガールズ 2nd STAGE MUSICAL「THE IDOLM@STER CINDERELLA
 | 項目 | 内容 |
 |------|------|
 | 販売開始 | **本日6月13日（土）12:00〜** |
-| 販売終了 | 6月27日（金）23:59 |
+| 販売終了 | 6月27日（土）23:59 |
 
 ### 座席種別と価格
 
