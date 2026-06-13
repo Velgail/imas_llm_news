@@ -79,6 +79,7 @@
   used_in:
     - million-14th-live-stream-june13  # 6/6配信「生配信6/13決定」告知
     - ml-14thlive-june13-stream-preview  # 6/12配信「明日生配信予告」
+    - ml-14thlive-stream-today  # 6/13配信「本日19:00から生配信」
   notes: "6/14のまとめ記事で、生配信で出た新情報を million-14th-live エントリの facts に追記すること。"
 
 - id: cg-popup-anibaroad
