@@ -60,7 +60,7 @@
   kind: 公式
   event_start: "2026-06-13"
   event_end: "2026-06-13"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-06-06"
   source: "アイドルマスター公式ポータル"
@@ -69,6 +69,11 @@
     プラットフォーム: YouTube Live
     発表予定内容: 14thLIVE の出演者・タイトル・公演テーマ・チケット情報など詳細全容
     関連: 14thLIVE 本体は 9/19・20 国立代々木競技場 第一体育館（別エントリ million-14th-live 参照）
+    【生配信で発表された内容】
+    - シリーズ初のツイン主演制採用
+    - DAY1（9/19）サブタイトル「〜夢咲くワンダーミラージュ〜」主演: 徳川まつり＆エミリー・スチュアート
+    - DAY2（9/20）主演: 馬場このみ＆百瀬莉緒
+    - プロデューサー参加型企画（セトリ・演出の一部をPが決定）発表
   publish_plan:
     - on: "2026-06-12"
       angle: "明日生配信予告"
@@ -80,7 +85,11 @@
     - million-14th-live-stream-june13  # 6/6配信「生配信6/13決定」告知
     - ml-14thlive-june13-stream-preview  # 6/12配信「明日生配信予告」
     - ml-14thlive-stream-today  # 6/13配信「本日19:00から生配信」
-  notes: "6/14のまとめ記事で、生配信で出た新情報を million-14th-live エントリの facts に追記すること。"
+    - ml-14thlive-stream-report  # 6/14配信「生配信まとめ」
+    - ml-14thlive-day1-wondermirage  # 6/14配信「DAY1詳細」
+    - ml-14thlive-day2-konomi-rio  # 6/14配信「DAY2詳細」
+    - ml-14thlive-producer-plan  # 6/14配信「P参加型企画」
+  notes: "6/14配信で生配信まとめ・DAY1・DAY2・P企画の4記事を作成。million-14th-live エントリのfactsを更新済み。"
 
 - id: cg-popup-anibaroad
   title: "ヴァイスシュヴァルツ presents シンデレラガールズ 15周年記念 POP UP SHOP in アニバロード"
@@ -208,7 +217,12 @@
     日程: 2026年9月19日（土）・20日（日）
     会場: 国立代々木競技場 第一体育館（東京）※ミリオンライブ初
     位置づけ: 13thLIVE（5月）から約4ヶ月後の主演公演
-    詳細発表: 6/13（土）19:00 生配信で出演者・タイトル等が発表予定（million-14th-stream-june13 参照）
+    【6/13生配信で発表された詳細】
+    - シリーズ初のツイン主演制を採用
+    - DAY1（9/19）「〜夢咲くワンダーミラージュ〜」: 徳川まつり＆エミリー・スチュアート
+    - DAY2（9/20）: 馬場このみ＆百瀬莉緒
+    - プロデューサー参加型企画（セトリ・演出の一部をPが決定）
+    - チケット先行情報は公式ポータル参照
   publish_plan:
     - on: "2026-09-18"
       angle: "明日開幕予告"
