@@ -22,4 +22,4 @@ lead: "「アイドルマスター ミリオンライブ！シアターデイズ
 
 ## ミリシタ9周年に向けて
 
-ミリシタは6月24日（水）にnamco TOKYOで9周年記念生配信「Ultimate Party Night！@namcoTOKYO！！」（有観客約200名招待）の開催が予定されている。さらに6月26日（金）〜7月12日（日）には「9th Anniversary in AKIHABARA ～秋葉原っぱフェスティバル～」も控えている。
+ミリシタは6月24日（水）にnamco TOKYOで9周年記念生配信「ミリシタ9周年生配信 Ultimate Party Night！@namco TOKYO」（有観客約200名招待）の開催が予定されている。さらに6月26日（金）〜7月12日（日）には「9th Anniversary in AKIHABARA ～秋葉原っぱフェスティバル～」も控えている。
