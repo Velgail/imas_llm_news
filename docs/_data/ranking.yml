@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-06-12 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-06-13 集計
 - rank: 1
-  name: "イルミネーションスターズ"
-  brand: sc
+  name: "徳川まつり"
+  brand: ml
   move: new
 - rank: 2
-  name: "菊地真"
+  name: "百瀬莉緒"
   brand: ml
-  move: up
+  move: new
 - rank: 3
-  name: "三浦あずさ"
+  name: "馬場このみ"
   brand: ml
-  move: up
+  move: new
 - rank: 4
-  name: "島村卯月"
-  brand: cg
+  name: "エミリー・スチュアート"
+  brand: ml
   move: new
 - rank: 5
-  name: "最上静香"
-  brand: ml
-  move: new
+  name: "島村卯月"
+  brand: cg
+  move: stay
 - rank: 6
-  name: "葛城リーリヤ"
+  name: "有村麻央"
   brand: gaku
-  move: down
+  move: up
 - rank: 7
-  name: "紫雲清夏"
+  name: "姫崎莉波"
   brand: gaku
-  move: new
+  move: up
 - rank: 8
-  name: "天海春香"
-  brand: as765
-  move: new
+  name: "イルミネーションスターズ"
+  brand: sc
+  move: down

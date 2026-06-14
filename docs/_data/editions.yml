@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-06-14"
+  dateLong: "2026年（令和8年）6月14日　日曜日"
+  pages: "全 11 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "ミリオン14thツイン主演発表・Still blue先行本日締切"
+  indexNote: "昨日19時生配信でミリオン14thLIVEツイン主演制発表（DAY1徳川まつり＆エミリー「夢咲くワンダーミラージュ」・DAY2馬場このみ＆百瀬莉緒）・P参加型企画・シャニマスStill blue先行本日23:59締切・SideM11th支払い本日締切・アニサマ2026一般チケット本日10時〜・学マスSUGAR FLAVORガシャ明日開始"
 - date: "2026-06-13"
   dateLong: "2026年（令和8年）6月13日　土曜日"
   pages: "全 10 面"
