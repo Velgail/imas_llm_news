@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-06-14 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-06-15 集計
 - rank: 1
-  name: "有村麻央"
-  brand: gaku
+  name: "砂塚あきら"
+  brand: cg
   move: up
 - rank: 2
+  name: "有村麻央"
+  brand: gaku
+  move: down
+- rank: 3
   name: "姫崎莉波"
   brand: gaku
-  move: up
-- rank: 3
-  name: "望月杏奈"
-  brand: ml
-  move: new
+  move: down
 - rank: 4
-  name: "ロコ"
-  brand: ml
-  move: new
-- rank: 5
   name: "徳川まつり"
+  brand: ml
+  move: stay
+- rank: 5
+  name: "望月杏奈"
   brand: ml
   move: down
 - rank: 6
-  name: "葛之葉雨彦"
-  brand: sidem
+  name: "片桐早苗"
+  brand: cg
   move: new
 - rank: 7
-  name: "浅倉透"
-  brand: sc
-  move: up
+  name: "江上椿"
+  brand: cg
+  move: new
 - rank: 8
-  name: "馬場このみ"
-  brand: ml
-  move: down
+  name: "鷹城恭二"
+  brand: sidem
+  move: new
