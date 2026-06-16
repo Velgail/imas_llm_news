@@ -23,7 +23,7 @@ tags: [ミリシタ, ミリオンライブ, 9周年, namco TOKYO, 秋葉原, 秋
 
 ## namco TOKYO生配信について
 
-- 場所：namco TOKYO（新宿区東歌舞伎町 東急歌舞伎町タワー内 MUSIC & PLAY LOUNGE「ASOBINOTES」3F）
+- 場所：namco TOKYO（新宿区歌舞伎町 東急歌舞伎町タワー内 MUSIC & PLAY LOUNGE「ASOBINOTES」3F）
 - 配信プラットフォーム：YouTube Live（アイドルマスターチャンネル）、ニコニコ生放送、X Live
 - パート1は全プラットフォームで配信、パート2はYouTube Liveのみ
 - 現地観覧は招待制・入場無料（別途ワンドリンク550円〜）

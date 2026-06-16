@@ -5,7 +5,7 @@ slug: sidem-tt10-cd-july1
 brand: sidem
 kind: 公式
 badge: "7/1発売"
-lead: "「THE IDOLM@STER SideM TRANSCENDENT T@LES 10」が2026年7月1日（水）に発売される。今回は鷹城恭二（CV.松岡禎丞）、華村翔真（CV.深町寿成）、古論クリス（CV.古木春佳）、天峰秀（CV.濱野大輝）の4名を収録。マンスリーテーマソング「パッションチャレンジ We are 315！」との並行展開が続く。"
+lead: "「THE IDOLM@STER SideM TRANSCENDENT T@LES 10」が2026年7月1日（水）に発売される。今回は鷹城恭二（CV.梅原裕一郎）、華村翔真（CV.バレッタ裕）、古論クリス（CV.駒田航）、天峰秀（CV.伊瀬結陸）の4名を収録。マンスリーテーマソング「パッションチャレンジ We are 315！」との並行展開が続く。"
 time: "09:00"
 source: "Lantis / アイドルマスター SideM公式"
 tags: [SideM, TRANSCENDENT TALES, 鷹城恭二, 華村翔真, 古論クリス, 天峰秀, CD]

@@ -5,7 +5,7 @@ slug: sidem-tt11-story
 brand: sidem
 kind: 公式
 badge: "公開中"
-lead: "「THE IDOLM@STER SideM TRANSCENDENT T@LES」と連動したストーリー第11弾「足並み揃え未知の世界へ」がアイドルマスター公式ポータルにて公開されている。蒼井享介（CV.菊池勇成）、猫柳キリオ（CV.市川太一）、秋山隼人（CV.天﨑滉平）、大河タケル（CV.矢野奨吾）の4名が出演。"
+lead: "「THE IDOLM@STER SideM TRANSCENDENT T@LES」と連動したストーリー第11弾「足並み揃え未知の世界へ」がアイドルマスター公式ポータルにて公開されている。蒼井享介（CV.山谷祥生）、猫柳キリオ（CV.山下大輝）、秋山隼人（CV.千葉翔也）、大河タケル（CV.寺島惇太）の4名が出演。"
 time: "12:00"
 source: "アイドルマスター SideM公式（@SideM_official）/ アイドルマスターポータル"
 tags: [SideM, TRANSCENDENT TALES, 蒼井享介, 猫柳キリオ, 秋山隼人, 大河タケル, ストーリー]
