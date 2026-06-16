@@ -91,6 +91,31 @@
     - ml-14thlive-producer-plan  # 6/14配信「P参加型企画」
   notes: "6/14配信で生配信まとめ・DAY1・DAY2・P企画の4記事を作成。million-14th-live エントリのfactsを更新済み。"
 
+- id: cg-gatamas-niigata-sado
+  title: "シンデレラガールズ×新潟市・佐渡市コラボ「がたます」"
+  brand: cg
+  kind: 公式
+  event_start: "2026-08-11"
+  event_end: "2026-10-31"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-06-16"
+  source: "アイドルマスター公式ポータル / 新潟市公式 / 電撃オンライン（2026年6月15日）"
+  facts: |
+    名称: がたます（新潟市・佐渡市×シンデレラガールズ コラボ）
+    開催期間: 2026年8月11日（火・祝）〜10月31日（土）
+    エリア: 新潟市・佐渡市
+    参加アイドル: 計8名（砂塚あきら・片桐早苗・江上椿を含む新潟出身3名は新規描き下ろし、残り5名はちびキャライラストコラボ）
+    詳細内容: 6月末以降に順次発表予定
+  publish_plan:
+    - on: "2026-08-10"
+      angle: "明日開幕予告（詳細まとめ）"
+    - on: "2026-08-11"
+      angle: "本日開幕"
+  used_in:
+    - cg-gatamas-niigata-sado  # 6/16配信「開催決定」
+  notes: "コラボグッズ詳細・全参加アイドルは6月末以降発表予定。詳細が出たらfactsを更新すること。"
+
 - id: cg-popup-anibaroad
   title: "ヴァイスシュヴァルツ presents シンデレラガールズ 15周年記念 POP UP SHOP in アニバロード"
   brand: cg
