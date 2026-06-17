@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-06-17"
+  dateLong: "2026年（令和8年）6月17日　水曜日"
+  pages: "全 13 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "シンデレラ＆学マス「Starlight Dining」ポップアップ発表・ミリシタ9周年まで12日"
+  indexNote: "昨日「ポップアップストア2026 Starlight Dining」（シンデレラ＆学マス合同）発表・アトレ川崎7/10〜7/20・日中同時開催／ミリシタVOL.75昨日終了・VOL.76開始／ミリシタ9周年まで12日（6/24生配信・6/26秋葉原フェス）／学マス×チュッパチャプス POP UP STORE 池袋7/21〜先行通販6/21まで／一番くじ学マスPart5あさって6/19発売／シャニマスStill blue当落6/27／CG総選挙2026応援曲「ROSE」7/1発売・予約6/21まで／IWSF2026まで37日"
 - date: "2026-06-16"
   dateLong: "2026年（令和8年）6月16日　火曜日"
   pages: "全 11 面"
