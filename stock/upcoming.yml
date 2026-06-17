@@ -475,8 +475,7 @@
       angle: "明日発売予告"
     - on: "2026-07-29"
       angle: "本日発売"
-  used_in:
-    - sidem-11th-goods2nd-final-reminder  # 6/17配信で発売決定報告
+  used_in: []
   notes: "収録曲詳細・発売形態は要確認。"
 
 - id: ml-million-machida-art-rally
