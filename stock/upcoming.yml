@@ -260,6 +260,253 @@
   used_in: []
   notes: "出演者・タイトル・チケット詳細は6/13生配信後に facts を更新すること（現時点は会場・日程のみ確定）。"
 
+- id: valiv-1st-anniversary-june26
+  title: "vα-liv（ヴイアライブ） 1周年記念日（2026年6月26日）"
+  brand: valiv
+  kind: 公式
+  event_start: "2026-06-26"
+  event_end: "2026-06-26"
+  status: pending
+  confidence: confirmed
+  added: "2026-06-17"
+  source: "vα-liv（ヴイアライヴ）公式 / アイドルマスター公式ポータル"
+  facts: |
+    vα-livは2025年6月26日にデビュー。2026年6月26日に1周年を迎える。
+    6/26: 1周年本番（ゲーム内イベント・生配信）
+    6/27 21:00〜: 1st Album「彼方」2,000枚突破記念 新衣装お披露目リレー配信
+      上水流宇宙（21:00）→ レトラ（21:45）→ 灯里愛夏（22:30）
+  publish_plan:
+    - on: "2026-06-25"
+      angle: "明日vα-liv 1周年"
+    - on: "2026-06-26"
+      angle: "本日vα-liv 1周年"
+  used_in: []
+  notes: "6/27の新衣装お披露目はvaliv-1st-anniversary-costume-june27エントリを参照。"
+
+- id: ml-milishita-9th-akihabara-fes
+  title: "ミリシタ9周年 9th Anniversary in AKIHABARA 〜秋葉原っぱフェスティバル〜"
+  brand: ml
+  kind: 公式
+  event_start: "2026-06-26"
+  event_end: "2026-07-12"
+  status: pending
+  confidence: confirmed
+  added: "2026-06-17"
+  source: "アイドルマスター ミリオンライブ！シアターデイズ公式 / アイドルマスター公式ポータル"
+  facts: |
+    名称: 9th Anniversary in AKIHABARA 〜秋葉原っぱフェスティバル〜
+    開催期間: 2026年6月26日（金）〜7月12日（日）
+    エリア: 秋葉原（AKIHABARAゲーマーズ本店、カラオケの鉄人秋葉原電気街店など秋葉原全域）
+    6/24: namco TOKYO生配信（出演者情報は配信後に確認）
+    6/26: 秋葉原フェスティバル開幕
+    6/29: ミリシタ9周年本番（ゲーム内）
+    主な参加拠点:
+      - AKIHABARAゲーマーズ7F: 9周年グッズ販売（シャンパン・グッズ受注等）
+      - カラオケの鉄人秋葉原電気街店: コラボドリンク・コラボグッズ
+  publish_plan:
+    - on: "2026-06-25"
+      angle: "明日秋葉原フェスティバル開幕予告"
+    - on: "2026-06-26"
+      angle: "本日秋葉原フェスティバル開幕"
+    - on: "2026-07-12"
+      angle: "本日秋葉原フェスティバル最終日"
+    - on: "2026-07-13"
+      angle: "昨日閉幕レポ"
+  used_in:
+    - ml-milishita-9th-12days  # 6/17配信「9周年まで12日」
+  notes: "6/24 namco TOKYO生配信出演者情報は配信後に取得すること。"
+
+- id: ml-milishita-karaoke-tetsuji
+  title: "ミリシタ9周年×カラオケの鉄人 SPECIAL COLLABORATION"
+  brand: ml
+  kind: 公式
+  event_start: "2026-06-26"
+  event_end: "2026-08-16"
+  status: pending
+  confidence: confirmed
+  added: "2026-06-17"
+  source: "カラオケの鉄人公式 / アイドルマスター公式ポータル"
+  facts: |
+    名称: アイドルマスター ミリオンライブ！シアターデイズ×カラオケの鉄人 SPECIAL COLLABORATION
+    開催期間: 2026年6月26日（金）〜8月16日（日）
+    会場: カラオケの鉄人 コラボミックス秋葉原電気街店（他全国店舗も予定）
+    コンテンツ:
+      - 灼熱少女コラボオリジナル衣装
+      - 特典付きコラボドリンク（1杯注文ごとに特典付き）
+      - 店舗限定オリジナルグッズ
+    秋葉原フェスティバル連携: 6/26-7/12の期間、参加拠点として機能
+  publish_plan:
+    - on: "2026-06-25"
+      angle: "明日カラオケの鉄人コラボ開幕予告"
+    - on: "2026-06-26"
+      angle: "本日カラオケの鉄人コラボ開幕"
+  used_in:
+    - ml-milishita-karaoke-tetsuji-june26  # 6/17配信「コラボ予告」
+  notes: "特典内容・グッズラインナップの詳細は後日公開予定。"
+
+- id: ml-milishita-9th-champagne-goods
+  title: "ミリシタ9周年記念シャンパン＆グッズ 受注（AKIHABARAゲーマーズ7F）"
+  brand: ml
+  kind: 公式
+  event_start: "2026-06-26"
+  event_end: "2026-07-19"
+  status: pending
+  confidence: confirmed
+  added: "2026-06-17"
+  source: "アイドルマスター ミリオンライブ！シアターデイズ公式 / ミリオン商事"
+  facts: |
+    受注期間: 2026年6月26日（金）〜7月19日（日）
+    受付場所: AKIHABARAゲーマーズ7Fフロア（ミリオン商事）
+    発送予定: 2026年9月以降
+    内容: ミリシタ9周年記念シャンパン＆記念グッズ（詳細は受注開始時に公開予定）
+    位置づけ: 秋葉原っぱフェスティバル（6/26-7/12）の参加拠点企画
+  publish_plan:
+    - on: "2026-06-25"
+      angle: "明日受注開始予告"
+    - on: "2026-06-26"
+      angle: "本日受注開始"
+    - on: "2026-07-19"
+      angle: "本日受注最終日"
+  used_in:
+    - ml-milishita-9th-champagne-goods  # 6/17配信「受注告知」
+  notes: "グッズ詳細・価格は開始前後に要確認。"
+
+- id: cg-sousenkyo-rose-cd
+  title: "CG総選挙2026 応援楽曲第2弾「ROSE ～禁じられた愛～」CD発売"
+  brand: cg
+  kind: 公式
+  event_start: "2026-07-01"
+  event_end: "2026-07-01"
+  status: pending
+  confidence: confirmed
+  added: "2026-06-17"
+  source: "アイドルマスター公式ポータル / 電撃オンライン / アソビストア（2026年6月）"
+  facts: |
+    タイトル: THE IDOLM@STER CINDERELLA MASTER NUMBER ONE! シンデレラNo.1 ＆ ROSE ～禁じられた愛～
+    発売日: 2026年7月1日（水）
+    歌唱: 桐生つかさ・木村夏樹・白雪千夜
+    作詞作曲・編曲: 吉見佑昌 / ARM（IOSYS）
+    予約受付期間: 〜2026年6月21日（日）
+    カップリング: 「シンデレラNo.1」（応援楽曲第1弾）
+    位置づけ: 15th Anniversary「シンデレラガール総選挙2026」応援楽曲第2弾
+  publish_plan:
+    - on: "2026-06-21"
+      angle: "本日予約締切リマインド"
+    - on: "2026-06-30"
+      angle: "明日発売予告"
+    - on: "2026-07-01"
+      angle: "本日発売"
+  used_in:
+    - cg-sousenkyo-rose-cd-preorder  # 6/17配信「予約〜6/21」
+  notes: "予約締切は6/21。発売後のダウンロード・配信情報も要確認。"
+
+- id: godo-starlight-dining-popup
+  title: "ポップアップストア2026 ～Starlight Dining～（シンデレラガールズ＆学マス合同）"
+  brand: godo
+  kind: 公式
+  event_start: "2026-07-10"
+  event_end: "2026-07-20"
+  status: pending
+  confidence: confirmed
+  added: "2026-06-17"
+  source: "アイドルマスター公式ポータル / バンダイナムコエンターテインメント（2026年6月16日発表）"
+  facts: |
+    名称: ポップアップストア2026 ～Starlight Dining～
+    参加ブランド: シンデレラガールズ＆学園アイドルマスター（合同）
+    会場: アトレ川崎 4F シャン・ド・エルブ（神奈川県川崎市）
+    開催期間: 2026年7月10日（金）〜7月20日（月・祝）
+    特記: 日本と中国で同時開催
+    内容: コラボグッズ・展示（詳細未公開）
+  publish_plan:
+    - on: "2026-07-09"
+      angle: "明日開幕予告"
+    - on: "2026-07-10"
+      angle: "本日開幕"
+    - on: "2026-07-20"
+      angle: "本日最終日"
+    - on: "2026-07-21"
+      angle: "昨日閉幕レポ"
+  used_in:
+    - other-starlight-dining-popup-2026  # 6/17配信「開催発表」
+  notes: "グッズラインナップ・中国側の詳細は後日公開予定。"
+
+- id: gaku-chupachups-ikebukuro
+  title: "学マス×チュッパチャプス POP UP STORE（JR池袋駅 南改札前）"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-07-21"
+  event_end: "2026-08-03"
+  status: pending
+  confidence: confirmed
+  added: "2026-06-17"
+  source: "チュッパチャプス公式 / アイドルマスター公式ポータル（2026年6月）"
+  facts: |
+    名称: 学園アイドルマスター×チュッパチャプス POP UP STORE
+    会場: JR池袋駅 南改札前
+    開催期間: 2026年7月21日（火）〜8月3日（月）
+    先行通販: 2026年6月15日〜6月21日（先着順）
+    内容: 限定コラボグッズ・限定フレーバー等（詳細未公開）
+  publish_plan:
+    - on: "2026-07-20"
+      angle: "明日開幕予告"
+    - on: "2026-07-21"
+      angle: "本日開幕"
+  used_in:
+    - gaku-chupachups-popup-ikebukuro  # 6/17配信「先行通販〜6/21」
+  notes: "先行通販は6/21締切。店舗グッズラインナップ詳細は7月初旬に要確認。"
+
+- id: sidem-passion-challenge-vol09
+  title: "SideM P@SSION CHALLENGE Vol.09 Legenders CD発売"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-07-29"
+  event_end: "2026-07-29"
+  status: pending
+  confidence: confirmed
+  added: "2026-06-17"
+  source: "アイドルマスター SideM 公式 / アソビストア（2026年6月）"
+  facts: |
+    タイトル: SideM P@SSION CHALLENGE Vol.09
+    ユニット: Legenders
+    発売日: 2026年7月29日（水）
+    内容: P@SSION CHALLENGEシリーズ第9弾、Legendersの新曲CD
+  publish_plan:
+    - on: "2026-07-28"
+      angle: "明日発売予告"
+    - on: "2026-07-29"
+      angle: "本日発売"
+  used_in: []
+  notes: "収録曲詳細・発売形態は要確認。"
+
+- id: ml-million-machida-art-rally
+  title: "ミリオンライブ×町田市「#ミリオン町田アートラリー」"
+  brand: ml
+  kind: 公式
+  event_start: "2026-07-30"
+  event_end: "2026-08-30"
+  status: pending
+  confidence: confirmed
+  added: "2026-06-17"
+  source: "アイドルマスター ミリオンライブ！公式 / 町田市観光まちづくり公社（2026年6月）"
+  facts: |
+    名称: ミリオンライブ×町田市コラボ「#ミリオン町田アートラリー」
+    エリア: 町田市中心市街地（東京都）
+    開催期間: 2026年7月30日（木）〜8月30日（日）
+    背景: ロコ（伴田路子）の出身地・ゆかりの地として町田市とのコラボが実現。ロコのマンホールアート設置予定。
+    内容: 町田中心市街地を巡るアートラリー企画。詳細は後日発表。
+  publish_plan:
+    - on: "2026-07-29"
+      angle: "明日開幕予告"
+    - on: "2026-07-30"
+      angle: "本日開幕"
+    - on: "2026-08-30"
+      angle: "本日最終日"
+    - on: "2026-08-31"
+      angle: "昨日閉幕レポ"
+  used_in:
+    - ml-million-machida-art-rally  # 6/17配信「開催決定」
+  notes: "詳細コース・参加スポット・グッズ等は7月に入ってから要確認。ロコのマンホール設置時期も要確認。"
+
 - id: valiv-1st-anniversary-costume-june27
   title: "ヴイアライブ 1st Album「彼方」2000枚突破記念・新衣装お披露目リレー配信"
   brand: valiv
