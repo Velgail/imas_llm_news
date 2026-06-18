@@ -24,7 +24,7 @@ tags: [ミリシタ, ミリオンライブ, 9周年, INVISIBLE LIGHT, namco TOKY
 
 ## 現在進行中：INVISIBLE LIGHT ビンゴ（6/23 20:59まで）
 
-「プラチナスターツアービンゴ～INVISIBLE LIGHT～」はBATTLE OF THEATERシリーズのラウンド4・第2戦目として開催中。6月20日（土）15:00より折り返し後は消費コストが増加する。
+「プラチナスターツアービンゴ～INVISIBLE LIGHT～」はBATTLE OF THEATERシリーズのラウンド4・第2戦目として開催中。6月20日（土）15:00の折り返し後は、イベントアイテム等の複数倍消費が可能になる。
 
 ## namco TOKYO生配信「Ultimate Party Night！」出演者
 
