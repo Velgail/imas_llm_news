@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-06-18"
+  dateLong: "2026年（令和8年）6月18日　木曜日"
+  pages: "全 11 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "CG総選挙ST@TION生配信6/30確定・SideM11thグッズ本日開始・IWSF2026まで36日"
+  indexNote: "CG総選挙ST@TION生配信6月30日（火）20:30〜確定・河瀬茉希ら4名出演・ROSE最新情報も解禁予定／SideM 11th Stage グッズ事前販売第2弾本日6/18〜7/5開始（ASOBI STORE）／ミリシタ9周年まで11日・ミリオン×相模原市コラボ明日6/19開幕／学マス一番くじPart5明日6/19発売（花海咲季A賞）・HIF選抜試験キャストコメンタリー同時視聴会今週日曜6/21／ROSE CD予約・dual twin先行ともに今週日曜6/21 23:59締切／CG サイバーウィッチ事後通販本日23:59締切／シャニマスちびぐるみTeam.Luna 7月登場予定／IWSF2026まで36日"
 - date: "2026-06-17"
   dateLong: "2026年（令和8年）6月17日　水曜日"
   pages: "全 13 面"

@@ -371,6 +371,34 @@
     - ml-milishita-9th-champagne-goods  # 6/17配信「受注告知」
   notes: "グッズ詳細・価格は開始前後に要確認。"
 
+- id: cg-sousenkyo-station-june30
+  title: "CG総選挙ST@TION 生配信（2026年6月30日）"
+  brand: cg
+  kind: 公式
+  event_start: "2026-06-30"
+  event_end: "2026-06-30"
+  status: pending
+  confidence: confirmed
+  added: "2026-06-18"
+  source: "アイドルマスター公式ポータル / シンデレラガール総選挙2026 特設サイト"
+  facts: |
+    日時: 2026年6月30日（火）20:30〜21:30
+    配信プラットフォーム: YouTube Live（アイドルマスター公式チャンネル）
+    出演: 河瀬茉希（＊）・関口理咲（＊）・田辺留依（＊）・集貝はな（＊）
+    内容: 投票券の集め方・ROSE ～禁じられた愛～最新情報・Pop'n ToyBox!!最新情報
+    位置づけ: シンデレラガール総選挙2026 公式情報生配信番組
+    翌日（7/1）にROSE CDが発売・投票券ミッション開始予定
+  publish_plan:
+    - on: "2026-06-29"
+      angle: "明日ST@TION生配信予告"
+    - on: "2026-06-30"
+      angle: "本日ST@TION生配信20:30〜"
+    - on: "2026-07-01"
+      angle: "昨日ST@TION放送レポ＋ROSE CD本日発売"
+  used_in:
+    - cg-sousenkyo-station-june30  # 6/18配信「生配信6/30確定」
+  notes: "ROSE CD発売（7/1）・投票券ミッション開始と同日前後。生配信後のまとめ記事に合流させること。"
+
 - id: cg-sousenkyo-rose-cd
   title: "CG総選挙2026 応援楽曲第2弾「ROSE ～禁じられた愛～」CD発売"
   brand: cg
