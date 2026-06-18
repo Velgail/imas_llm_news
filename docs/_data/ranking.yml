@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-06-16 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-06-17 集計
 - rank: 1
-  name: "ロコ"
-  brand: ml
+  name: "桐生つかさ"
+  brand: cg
   move: up
 - rank: 2
-  name: "有村麻央"
+  name: "花海咲季"
   brand: gaku
   move: stay
 - rank: 3
-  name: "花海咲季"
-  brand: gaku
-  move: up
+  name: "双海亜美"
+  brand: as765
+  move: new
 - rank: 4
-  name: "砂塚あきら"
+  name: "木村夏樹"
   brand: cg
-  move: down
+  move: up
 - rank: 5
-  name: "望月杏奈"
-  brand: ml
-  move: stay
+  name: "月村手毬"
+  brand: gaku
+  move: new
 - rank: 6
-  name: "桐生つかさ"
-  brand: cg
+  name: "三浦あずさ"
+  brand: as765
   move: new
 - rank: 7
   name: "葛之葉雨彦"
   brand: sidem
-  move: up
+  move: stay
 - rank: 8
-  name: "浅倉透"
-  brand: sc
+  name: "白雪千夜"
+  brand: cg
   move: new
