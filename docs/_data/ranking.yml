@@ -22,7 +22,7 @@
 - rank: 6
   name: "木村夏樹"
   brand: cg
-  move: stay
+  move: down
 - rank: 7
   name: "天道輝"
   brand: sidem
@@ -30,4 +30,4 @@
 - rank: 8
   name: "三浦あずさ"
   brand: as765
-  move: stay
+  move: down
