@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-06-19"
+  dateLong: "2026年（令和8年）6月19日　金曜日"
+  pages: "全 11 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "一番くじ学マスPart5本日発売・765プロ×相模原市コラボ本日開幕・SideM HMV明日開幕・IWSF2026まで35日"
+  indexNote: "一番くじ学マスPart5本日より発売（A賞花海咲季・B賞月村手毬・C賞藤田ことね 1/7Gracemaster）／765PRO ALLSTARS×相模原市コラボキャンペーン本日開幕（〜7/31・JAXAパネル展示・アクキー全13種）／SideM×HMV&BOOKS SHIBUYA POP UP 明日6/20〜7/5（ドラスタ＆C.FIRST Neo China描き下ろし）／シャニマスアルストロメリア「おはこんばんストロメリア！」復刻昨日開始（〜6/29・桑山千雪イベントSSR）／ROSE CD予約（6/21 23:59）・dual twin先行（6/21 14:59）・HIF同時視聴（6/21 23:59）明後日締切集中／ミリシタ9周年まで10日・INVISIBLE LIGHTビンゴ明日折り返し・6/24生配信まで5日／CG総選挙ST@TION生配信6/30まで11日・Pop'n ToyBox!!一般先行6/28まで／SideM 11th Stage グッズ2弾昨日より受注中（〜7/5）／IWSF2026まで35日"
 - date: "2026-06-18"
   dateLong: "2026年（令和8年）6月18日　木曜日"
   pages: "全 11 面"
