@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-06-20"
+  dateLong: "2026年（令和8年）6月20日　土曜日"
+  pages: "全 13 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "SideM×HMV&BOOKS SHIBUYA POP UP本日開幕・ミリシタINVISIBLE LIGHT本日折り返し・IWSF2026まで34日"
+  indexNote: "SideM×HMV&BOOKS SHIBUYA POP UP SHOP本日開幕（〜7/5・DRAMATIC STARS＆C.FIRSTのNeoChina描き下ろし）／ミリシタ「INVISIBLE LIGHT」ビンゴ本日15:00折り返し・倍消費解放（終了6/23）／明日6/21締切集中（ROSE CD予約23:59・dual twin先行14:59・HIF同時視聴23:59・チュッパチャプス先行通販・ビックカメラ学マスフェア最終日）／学マスHIF選抜試験コメンタリー同時視聴明日開催／シャニマスジューンブライド2026明後日6/22終了・Still blue当落まで7日（6/27 13:00）／ミリシタ9周年まで9日・6/24 namco TOKYO生配信まで4日・秋葉原フェスまで6日（6/26）／学マスGO MY WAY!!ガシャ来週6/26スタート予告・vα-liv 1周年まで6日（6/26）・新衣装リレー配信6/27／CG総選挙ST@TION生配信6/30まで10日・IWSF2026まで34日"
 - date: "2026-06-19"
   dateLong: "2026年（令和8年）6月19日　金曜日"
   pages: "全 11 面"
