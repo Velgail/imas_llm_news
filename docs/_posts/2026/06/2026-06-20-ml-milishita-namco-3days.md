@@ -5,7 +5,7 @@ slug: ml-milishita-namco-3days
 brand: ml
 kind: 公式
 badge: "6/24開催"
-lead: "2026年6月24日（水）19:00からnامco TOKYO（MUSIC＆PLAY LOUNGE「ASOBINOTES」区画）にて「ミリシタ9周年生配信 Ultimate Party Night！」を開催。第1部にはゲスト出演者として大関英里・小岩井ことり・諏訪彩花と狭間和歌子（プロデューサー）が登壇、最新情報を届ける。入場無料＋ワンドリンク制。"
+lead: "2026年6月24日（水）19:00からnamco TOKYO（MUSIC＆PLAY LOUNGE「ASOBINOTES」区画）にて「ミリシタ9周年生配信 Ultimate Party Night！」を開催。第1部にはゲスト出演者として大関英里・小岩井ことり・諏訪彩花と狭間和歌子（プロデューサー）が登壇、最新情報を届ける。入場無料＋ワンドリンク制。"
 time: "19:00"
 source: "アイドルマスター公式ポータル（2026年6月）"
 tags: [ミリシタ, ミリオンライブ, 9周年, namcoTOKYO, 生配信, 大関英里, 小岩井ことり, 諏訪彩花]
