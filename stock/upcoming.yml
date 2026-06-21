@@ -405,7 +405,7 @@
   kind: 公式
   event_start: "2026-07-01"
   event_end: "2026-07-01"
-  status: pending
+  status: partially-used
   confidence: confirmed
   added: "2026-06-17"
   source: "アイドルマスター公式ポータル / 電撃オンライン / アソビストア（2026年6月）"
@@ -426,7 +426,8 @@
       angle: "本日発売"
   used_in:
     - cg-sousenkyo-rose-cd-preorder  # 6/17配信「予約〜6/21」
-  notes: "予約締切は6/21。発売後のダウンロード・配信情報も要確認。"
+    - cg-rose-cd-deadline  # 6/21配信「本日予約締切」
+  notes: "予約締切6/21記事化済み。6/30に「明日発売予告」、7/1に「本日発売」を記事化予定。"
 
 - id: godo-starlight-dining-popup
   title: "ポップアップストア2026 ～Starlight Dining～（シンデレラガールズ＆学マス合同）"
