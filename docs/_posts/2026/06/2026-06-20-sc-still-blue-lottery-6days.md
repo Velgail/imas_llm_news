@@ -1,11 +1,11 @@
 ---
-title: "シャニマス「shiny, the first REFRAC7IONS \\\"Still blue\\\"」当落まで6日（6/27 13:00）"
+title: "シャニマス「shiny, the first REFRAC7IONS \"Still blue\"」当落まで6日（6/27 13:00）"
 edition_date: "2026-06-21"
 slug: sc-still-blue-lottery-6days
 brand: sc
 kind: 公式
 badge: "6/27当落"
-lead: "2026年12月19・20日に国立代々木競技場 第一体育館で開催される「shiny, the first REFRAC7IONS \\\"Still blue\\\"」のアソビストアプレミアム会員先行の当落が6月27日（土）13:00に発表される。入金期限は7月1日（水）23:59。"
+lead: "2026年12月19・20日に国立代々木競技場 第一体育館で開催される「shiny, the first REFRAC7IONS \"Still blue\"」のアソビストアプレミアム会員先行の当落が6月27日（土）13:00に発表される。入金期限は7月1日（水）23:59。"
 time: "13:00"
 source: "シャイニーカラーズ公式ポータル / アソビストア（2026年）"
 tags: [シャニマス, Still blue, REFRAC7IONS, チケット, 当落, 代々木, 12月]
