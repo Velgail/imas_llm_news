@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-06-21 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-06-22 集計
 - rank: 1
-  name: "黛冬優子"
-  brand: sc
-  move: up
-- rank: 2
-  name: "七草にちか"
-  brand: sc
-  move: up
-- rank: 3
   name: "藤田ことね"
   brand: gaku
   move: up
+- rank: 2
+  name: "上水流宇宙"
+  brand: valiv
+  move: up
+- rank: 3
+  name: "黛冬優子"
+  brand: sc
+  move: down
 - rank: 4
   name: "桐生つかさ"
   brand: cg
-  move: down
+  move: same
 - rank: 5
-  name: "上水流宇宙"
-  brand: valiv
+  name: "徳川まつり"
+  brand: ml
   move: up
 - rank: 6
   name: "花海咲季"
   brand: gaku
   move: same
 - rank: 7
-  name: "春日未来"
-  brand: ml
-  move: same
+  name: "花海佑芽"
+  brand: gaku
+  move: new
 - rank: 8
   name: "大崎甜花"
   brand: sc
-  move: new
+  move: down
