@@ -1,5 +1,5 @@
 ---
-title: "シャニマス「shiny, the first REFRAC7IONS \\\"Still blue\\\"」当落まで3日――6/27（土）13:00発表"
+title: 'シャニマス「shiny, the first REFRAC7IONS "Still blue"」当落まで3日――6/27（土）13:00発表'
 edition_date: "2026-06-24"
 slug: sc-still-blue-3days
 brand: sc
