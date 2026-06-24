@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-06-22 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-06-23 集計
 - rank: 1
+  name: "天空橋朋花"
+  brand: ml
+  move: new
+- rank: 2
   name: "藤田ことね"
   brand: gaku
-  move: up
-- rank: 2
-  name: "上水流宇宙"
-  brand: valiv
-  move: up
+  move: down
 - rank: 3
   name: "黛冬優子"
   brand: sc
-  move: down
-- rank: 4
-  name: "桐生つかさ"
-  brand: cg
-  move: same
-- rank: 5
-  name: "徳川まつり"
-  brand: ml
   move: up
+- rank: 4
+  name: "上水流宇宙"
+  brand: valiv
+  move: down
+- rank: 5
+  name: "樋口円香"
+  brand: sc
+  move: new
 - rank: 6
+  name: "佐竹美奈子"
+  brand: ml
+  move: new
+- rank: 7
   name: "花海咲季"
   brand: gaku
   move: same
-- rank: 7
-  name: "花海佑芽"
-  brand: gaku
-  move: new
 - rank: 8
-  name: "大崎甜花"
-  brand: sc
+  name: "徳川まつり"
+  brand: ml
   move: down

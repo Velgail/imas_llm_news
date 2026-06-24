@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-06-24"
+  dateLong: "2026年（令和8年）6月24日　水曜日"
+  pages: "全 12 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "ミリシタINVISIBLE LIGHT昨日終了・本日namco TOKYO生配信19:00・シャニマスLucrea樋口円香彩色見本・vα-liv1周年まで2日"
+  indexNote: "昨日ミリシタ「INVISIBLE LIGHT」ビンゴ（6/23 20:59）終了――伊吹翼ランキング報酬確定／昨日シャニマスLucrea 樋口円香【Merry】彩色見本初公開（予約7月上旬〜）／本日19:00〜 ミリシタ9周年生配信 Ultimate Party Night！@namco TOKYO（大関英里・小岩井ことり・諏訪彩花、DJライブyfg）入場無料・YouTube Live配信／明後日（6/26）：vα-liv 1周年・ミリシタ秋葉原っぱフェスティバル開幕（〜7/12）・カラオケの鉄人コラボ（〜8/16）・AKIHABARAゲーマーズ9周年シャンパン受注開始（〜7/19）・学マスGO MY WAY!!ガシャ（ことね・佑芽）／明後日（6/27）：IWSF2026立見指定先着12:00〜（11,500円）・ステージサイド10,500円・Still blue当落13:00／Pop'n ToyBox!!先行まで4日（6/28）・CG総選挙ST@TION生配信まで6日（6/30 20:30）・IWSF2026まで30日"
 - date: "2026-06-23"
   dateLong: "2026年（令和8年）6月23日　火曜日"
   pages: "全 14 面"
