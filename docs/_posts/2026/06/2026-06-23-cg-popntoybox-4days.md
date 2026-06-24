@@ -5,18 +5,18 @@ slug: cg-popntoybox-4days
 brand: cg
 kind: 公式
 badge: "6/28先行締切"
-lead: "「THE IDOLM@STER CINDERELLA GIRLS LIVE SHOW Pop'n ToyBox!!」（2026年8月13〜16日、Shibuya LOVEZE）の一般先行チケット受付が4日後の6月28日（日）23:59に締め切られる。購入でシンデレラガール総選挙2026の投票券を獲得できるため、総選挙を盛り上げたいPには見逃せない機会だ。"
+lead: "「THE IDOLM@STER CINDERELLA GIRLS CONCEPT xR LIVE Pop'n ToyBox!!」（2026年8月13〜16日、Shibuya LOVEZ）の一般先行チケット受付が4日後の6月28日（日）23:59に締め切られる。購入でシンデレラガール総選挙2026の投票券を獲得できるため、総選挙を盛り上げたいPには見逃せない機会だ。"
 source: "アイドルマスター公式ポータル / CG総選挙2026特設サイト（2026年6月）"
-tags: [シンデレラガールズ, Pop'n ToyBox!!, 一般先行, Shibuya LOVEZE, CG総選挙2026, 投票券, チケット]
+tags: [シンデレラガールズ, Pop'n ToyBox!!, 一般先行, Shibuya LOVEZ, CG総選挙2026, 投票券, チケット]
 ---
 
 ## チケット情報
 
 | 項目 | 内容 |
 |------|------|
-| 公演名 | THE IDOLM@STER CINDERELLA GIRLS LIVE SHOW Pop'n ToyBox!! |
+| 公演名 | THE IDOLM@STER CINDERELLA GIRLS CONCEPT xR LIVE Pop'n ToyBox!! |
 | 公演日 | 2026年8月13日（木）〜16日（日） |
-| 会場 | Shibuya LOVEZE（東京都渋谷区） |
+| 会場 | Shibuya LOVEZ（東京都渋谷区） |
 | **一般先行締切** | **2026年6月28日（日）23:59** |
 
 ## フロントメンバー
