@@ -202,6 +202,7 @@
   used_in:
     - iwsf2026-day3-performers  # 6/5配信「DAY3出演全容」
     - sogo-iwsf2026-standby-tickets-20260627  # 6/23配信「立見指定席・ステージサイド席先着6/27〜」
+    - sogo-iwsf2026-30days  # 6/24配信「まで30日・立見先着明後日」
   notes: "各DAYのセットリスト・サプライズ発表は当日要取材。出演者は第一弾、追加発表があれば facts を更新。"
 
 - id: shani-songforprism-karma-naraku-event
@@ -286,6 +287,7 @@
     - valiv-1st-anniversary-5days  # 6/21配信「5日前」
     - valiv-1st-anniversary-4days  # 6/22配信「4日前」
     - valiv-1st-anniversary-3days  # 6/23配信「3日前」
+    - valiv-1st-anniversary-2days  # 6/24配信「2日前」
   notes: "6/27の新衣装お披露目はvaliv-1st-anniversary-costume-june27エントリを参照。"
 
 - id: ml-milishita-9th-akihabara-fes
@@ -326,6 +328,8 @@
     - ml-milishita-9th-champagne-reservation  # 6/22配信「シャンパン受注6/26〜」
     - ml-milishita-9th-3days  # 6/23配信「3日前・秋葉原フェス開幕カウントダウン」
     - ml-milishita-namco-tomorrow-jun23  # 6/23配信「明日namco TOKYO生配信」
+    - ml-milishita-namco-today  # 6/24配信「本日namco TOKYO生配信19:00〜」
+    - ml-milishita-akihabara-fes-2days  # 6/24配信「秋葉原フェス明後日開幕」
   notes: "namco TOKYO生配信出演者情報確認済み（6/21時点）。アトレ秋葉原物販・フード詳細6/21発表。"
 
 - id: ml-milishita-karaoke-tetsuji
@@ -354,6 +358,7 @@
       angle: "本日カラオケの鉄人コラボ開幕"
   used_in:
     - ml-milishita-karaoke-tetsuji-june26  # 6/17配信「コラボ予告」
+    - ml-karaoke-tetsuji-2days  # 6/24配信「明後日開幕2日前」
   notes: "特典内容・グッズラインナップの詳細は後日公開予定。"
 
 - id: ml-milishita-9th-champagne-goods
@@ -381,6 +386,7 @@
       angle: "本日受注最終日"
   used_in:
     - ml-milishita-9th-champagne-goods  # 6/17配信「受注告知」
+    - ml-milishita-champagne-2days  # 6/24配信「明後日受注開始2日前」
   notes: "グッズ詳細・価格は開始前後に要確認。"
 
 - id: cg-sousenkyo-station-june30
@@ -410,6 +416,7 @@
   used_in:
     - cg-sousenkyo-station-june30  # 6/18配信「生配信6/30確定」
     - cg-sousenkyo-station-7days  # 6/23配信「まで7日・河瀬茉希ら出演予告」
+    - cg-sousenkyo-station-6days  # 6/24配信「まで6日」
   notes: "ROSE CD発売（7/1）・投票券ミッション開始と同日前後。生配信後のまとめ記事に合流させること。"
 
 - id: cg-sousenkyo-rose-cd
