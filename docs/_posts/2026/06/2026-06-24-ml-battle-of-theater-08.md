@@ -1,5 +1,5 @@
 ---
-title: "ミリシタ「MILLION BATTLE OF THE＠TER 08 Prima Princess!!」本日発売――松田亜利沙・エミリー・高坂海美・佐竹美奈子・田中琴葉の5人"
+title: "ミリシタ「MILLION BATTLE OF THE＠TER 08 Prima Princess!!」昨日発売――松田亜利沙・エミリー・高坂海美・佐竹美奈子・田中琴葉の5人"
 edition_date: "2026-06-25"
 slug: ml-battle-of-theater-08
 brand: ml
