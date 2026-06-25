@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-06-25"
+  dateLong: "2026年（令和8年）6月25日　木曜日"
+  pages: "全 16 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "昨日namco TOKYO生配信レポ・BATTLE OF THE@TER 08発売・14thLIVEグッズ受注開始・明日vα-liv1周年＆秋葉原フェス開幕"
+  indexNote: "昨日（6/24）ミリシタ9周年生配信 Ultimate Party Night！@namco TOKYO 閉幕――大関英里・小岩井ことり・諏訪彩花・yfgのDJライブが現地200名を熱狂させた／昨日MILLION BATTLE OF THE@TER 08「Prima Princess!!」発売（松田亜利沙・エミリー スチュアート・高坂海美・佐竹美奈子・田中琴葉）／昨日ミリオン14thLIVEグッズ事前受注開始（〜7/5 / shop.asobistore.jp/feature/ml14th）／昨日CGのFAMくじ告知（7/1〜7/31・ニューウェーブ×薔薇姫伝承描き下ろし・総選挙2026対象）／昨日vα-liv灯里愛夏 バースデーライブ7/1延期（本人負傷・払い戻し対応）／明日（6/26）：vα-liv 1周年記念日・ミリシタ秋葉原っぱフェスティバル開幕（〜7/12）・カラオケの鉄人コラボ（〜8/16）・AKIHABARAゲーマーズシャンパン受注開始（〜7/19）・アトレ秋葉原（〜7/9）・学マスGO MY WAY!!ガシャ（ことね・佑芽）・シャニマス×Admiralスニーカー受注開始（〜8/30・渋谷モディPOP UPも同日）／明後日（6/27）：SideMリメンバーショットフェア第2弾開幕（全国アニメイト〜7/20）・シャニマスStill blue当落13:00／Pop'n ToyBox!!一般先行締切3日後（6/28）・CG総選挙ST@TION生配信5日後（6/30 20:30）・IWSF2026まで29日"
 - date: "2026-06-24"
   dateLong: "2026年（令和8年）6月24日　水曜日"
   pages: "全 13 面"
