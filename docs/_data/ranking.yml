@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-06-20 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-06-24 集計
 - rank: 1
-  name: "桐生つかさ"
-  brand: cg
+  name: "灯里愛夏"
+  brand: valiv
   move: up
 - rank: 2
-  name: "天道輝"
-  brand: sidem
-  move: down
+  name: "上水流宇宙"
+  brand: valiv
+  move: up
 - rank: 3
-  name: "木村夏樹"
-  brand: cg
-  move: up
+  name: "松田亜利沙"
+  brand: ml
+  move: new
 - rank: 4
-  name: "白雪千夜"
-  brand: cg
-  move: up
+  name: "佐竹美奈子"
+  brand: ml
+  move: same
 - rank: 5
-  name: "花海咲季"
-  brand: gaku
-  move: up
+  name: "エミリー スチュアート"
+  brand: ml
+  move: new
 - rank: 6
   name: "藤田ことね"
   brand: gaku
   move: down
 - rank: 7
-  name: "上水流宇宙"
-  brand: valiv
-  move: new
-- rank: 8
-  name: "春日未来"
+  name: "天空橋朋花"
   brand: ml
-  move: new
+  move: down
+- rank: 8
+  name: "黛冬優子"
+  brand: sc
+  move: down

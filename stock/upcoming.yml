@@ -201,6 +201,8 @@
       angle: "閉幕・20thフィナーレ総括レポ"
   used_in:
     - iwsf2026-day3-performers  # 6/5配信「DAY3出演全容」
+    - sogo-iwsf2026-standby-tickets-20260627  # 6/23配信「立見指定席・ステージサイド席先着6/27〜」
+    - sogo-iwsf2026-30days  # 6/24配信「まで30日・立見先着明後日」
   notes: "各DAYのセットリスト・サプライズ発表は当日要取材。出演者は第一弾、追加発表があれば facts を更新。"
 
 - id: shani-songforprism-karma-naraku-event
@@ -280,7 +282,13 @@
       angle: "明日vα-liv 1周年"
     - on: "2026-06-26"
       angle: "本日vα-liv 1周年"
-  used_in: []
+  used_in:
+    - valiv-1st-anniversary-countdown  # 6/19配信「7日前カウントダウン」
+    - valiv-1st-anniversary-5days  # 6/21配信「5日前」
+    - valiv-1st-anniversary-4days  # 6/22配信「4日前」
+    - valiv-1st-anniversary-3days  # 6/23配信「3日前」
+    - valiv-1st-anniversary-2days  # 6/24配信「2日前」
+    - valiv-1st-anniversary-1day  # 6/25配信「明日1周年」
   notes: "6/27の新衣装お披露目はvaliv-1st-anniversary-costume-june27エントリを参照。"
 
 - id: ml-milishita-9th-akihabara-fes
@@ -297,12 +305,13 @@
     名称: 9th Anniversary in AKIHABARA 〜秋葉原っぱフェスティバル〜
     開催期間: 2026年6月26日（金）〜7月12日（日）
     エリア: 秋葉原（AKIHABARAゲーマーズ本店、カラオケの鉄人秋葉原電気街店など秋葉原全域）
-    6/24: namco TOKYO生配信（出演者情報は配信後に確認）
+    6/24: namco TOKYO生配信（出演者: 大関英里・小岩井ことり・諏訪彩花・狭間和歌子P、DJライブ: yfg/DJ小岩井ことり）
     6/26: 秋葉原フェスティバル開幕
     6/29: ミリシタ9周年本番（ゲーム内）
     主な参加拠点:
-      - AKIHABARAゲーマーズ7F: 9周年グッズ販売（シャンパン・グッズ受注等）
+      - AKIHABARAゲーマーズ7F: 9周年グッズ販売・記念シャンパン受注（〜7/19）
       - カラオケの鉄人秋葉原電気街店: コラボドリンク・コラボグッズ
+      - アトレ秋葉原: ラッピング・物販・コラボフード（6/26〜7/9）
   publish_plan:
     - on: "2026-06-25"
       angle: "明日秋葉原フェスティバル開幕予告"
@@ -314,7 +323,17 @@
       angle: "昨日閉幕レポ"
   used_in:
     - ml-milishita-9th-12days  # 6/17配信「9周年まで12日」
-  notes: "6/24 namco TOKYO生配信出演者情報は配信後に取得すること。"
+    - ml-milishita-9th-5days  # 6/21配信「5日前」
+    - ml-milishita-9th-4days  # 6/22配信「4日前・秋葉原フェス＆アトレ＆カラオケ鉄人まとめ」
+    - ml-milishita-atre-akihabara-details  # 6/22配信「アトレ秋葉原物販・フード情報公開」
+    - ml-milishita-9th-champagne-reservation  # 6/22配信「シャンパン受注6/26〜」
+    - ml-milishita-9th-3days  # 6/23配信「3日前・秋葉原フェス開幕カウントダウン」
+    - ml-milishita-namco-tomorrow-jun23  # 6/23配信「明日namco TOKYO生配信」
+    - ml-milishita-namco-today  # 6/24配信「本日namco TOKYO生配信19:00〜」
+    - ml-milishita-akihabara-fes-2days  # 6/24配信「秋葉原フェス明後日開幕」
+    - ml-milishita-namco-report  # 6/25配信「namco TOKYO生配信昨日開催レポ」
+    - ml-milishita-akihabara-fes-tomorrow  # 6/25配信「明日秋葉原フェス開幕」
+  notes: "namco TOKYO生配信出演者情報確認済み（6/21時点）。アトレ秋葉原物販・フード詳細6/21発表。"
 
 - id: ml-milishita-karaoke-tetsuji
   title: "ミリシタ9周年×カラオケの鉄人 SPECIAL COLLABORATION"
@@ -342,6 +361,8 @@
       angle: "本日カラオケの鉄人コラボ開幕"
   used_in:
     - ml-milishita-karaoke-tetsuji-june26  # 6/17配信「コラボ予告」
+    - ml-karaoke-tetsuji-2days  # 6/24配信「明後日開幕2日前」
+    - ml-karaoke-tetsuji-tomorrow  # 6/25配信「明日コラボ開幕」
   notes: "特典内容・グッズラインナップの詳細は後日公開予定。"
 
 - id: ml-milishita-9th-champagne-goods
@@ -369,6 +390,8 @@
       angle: "本日受注最終日"
   used_in:
     - ml-milishita-9th-champagne-goods  # 6/17配信「受注告知」
+    - ml-milishita-champagne-2days  # 6/24配信「明後日受注開始2日前」
+    - ml-milishita-champagne-tomorrow  # 6/25配信「明日受注開始」
   notes: "グッズ詳細・価格は開始前後に要確認。"
 
 - id: cg-sousenkyo-station-june30
@@ -397,6 +420,8 @@
       angle: "昨日ST@TION放送レポ＋ROSE CD本日発売"
   used_in:
     - cg-sousenkyo-station-june30  # 6/18配信「生配信6/30確定」
+    - cg-sousenkyo-station-7days  # 6/23配信「まで7日・河瀬茉希ら出演予告」
+    - cg-sousenkyo-station-6days  # 6/24配信「まで6日」
   notes: "ROSE CD発売（7/1）・投票券ミッション開始と同日前後。生配信後のまとめ記事に合流させること。"
 
 - id: cg-sousenkyo-rose-cd
