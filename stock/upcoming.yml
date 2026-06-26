@@ -268,13 +268,13 @@
   kind: 公式
   event_start: "2026-06-26"
   event_end: "2026-06-26"
-  status: pending
+  status: done
   confidence: confirmed
   added: "2026-06-17"
   source: "vα-liv（ヴイアライヴ）公式 / アイドルマスター公式ポータル"
   facts: |
     vα-livは2025年6月26日にデビュー。2026年6月26日に1周年を迎える。
-    6/26: 1周年本番（ゲーム内イベント・生配信）
+    6/26: 1周年本番（ゲーム内イベント・生配信19:30〜）
     6/27 21:00〜: 1st Album「彼方」2,000枚突破記念 新衣装お披露目リレー配信
       上水流宇宙（21:00）→ レトラ（21:45）→ 灯里愛夏（22:30）
   publish_plan:
@@ -289,6 +289,7 @@
     - valiv-1st-anniversary-3days  # 6/23配信「3日前」
     - valiv-1st-anniversary-2days  # 6/24配信「2日前」
     - valiv-1st-anniversary-1day  # 6/25配信「明日1周年」
+    - valiv-1st-anniversary  # 6/26配信「本日1周年」
   notes: "6/27の新衣装お披露目はvaliv-1st-anniversary-costume-june27エントリを参照。"
 
 - id: ml-milishita-9th-akihabara-fes
@@ -333,7 +334,8 @@
     - ml-milishita-akihabara-fes-2days  # 6/24配信「秋葉原フェス明後日開幕」
     - ml-milishita-namco-report  # 6/25配信「namco TOKYO生配信昨日開催レポ」
     - ml-milishita-akihabara-fes-tomorrow  # 6/25配信「明日秋葉原フェス開幕」
-  notes: "namco TOKYO生配信出演者情報確認済み（6/21時点）。アトレ秋葉原物販・フード詳細6/21発表。"
+    - ml-milishita-akihabara-fes-today  # 6/26配信「本日秋葉原フェス開幕」
+  notes: "namco TOKYO生配信出演者情報確認済み（6/21時点）。アトレ秋葉原物販・フード詳細6/21発表。7/12最終日・7/13閉幕レポ未記事化。"
 
 - id: ml-milishita-karaoke-tetsuji
   title: "ミリシタ9周年×カラオケの鉄人 SPECIAL COLLABORATION"
@@ -363,6 +365,7 @@
     - ml-milishita-karaoke-tetsuji-june26  # 6/17配信「コラボ予告」
     - ml-karaoke-tetsuji-2days  # 6/24配信「明後日開幕2日前」
     - ml-karaoke-tetsuji-tomorrow  # 6/25配信「明日コラボ開幕」
+    - ml-karaoke-tetsuji-today  # 6/26配信「本日コラボ開幕」
   notes: "特典内容・グッズラインナップの詳細は後日公開予定。"
 
 - id: ml-milishita-9th-champagne-goods
@@ -392,7 +395,8 @@
     - ml-milishita-9th-champagne-goods  # 6/17配信「受注告知」
     - ml-milishita-champagne-2days  # 6/24配信「明後日受注開始2日前」
     - ml-milishita-champagne-tomorrow  # 6/25配信「明日受注開始」
-  notes: "グッズ詳細・価格は開始前後に要確認。"
+    - ml-champagne-today  # 6/26配信「本日受注開始」
+  notes: "グッズ詳細・価格は開始前後に要確認。7/19受注最終日未記事化。"
 
 - id: cg-sousenkyo-station-june30
   title: "CG総選挙ST@TION 生配信（2026年6月30日）"
@@ -567,7 +571,7 @@
   kind: 公式
   event_start: "2026-06-27"
   event_end: "2026-06-27"
-  status: pending
+  status: partially-used
   confidence: confirmed
   added: "2026-06-08"
   source: "vα-liv（ヴイアライヴ）公式 / アイドルマスター公式ポータル"
@@ -584,4 +588,5 @@
       angle: "本日新衣装お披露目リレー配信"
   used_in:
     - valiv-beyond-my-destiny  # 6/8配信「6/27新衣装お披露目予告」
+    - valiv-costume-june27     # 6/26配信「明日新衣装リレー配信予告」
   notes: "1周年記念配信（6/26）のアーカイブとあわせて記事化すること。"
