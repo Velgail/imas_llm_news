@@ -5,7 +5,7 @@ slug: cg-sousenkyo-station-3days
 brand: cg
 kind: 公式
 badge: "3日後配信"
-lead: "シンデレラガール総選挙2026の公式情報番組「CG総選挙ST@TION ～ミッション開始直前SP！～」が3日後の6月30日（火）20:30よりYouTube Liveで配信される。Pop'n ToyBox!! 一般先行は明日（6/28）締切、「ROSE ～禁じられた愛～」CDは明後日（7/1）発売と、总选举関連の締め切りが続いている。"
+lead: "シンデレラガール総選挙2026の公式情報番組「CG総選挙ST@TION ～ミッション開始直前SP！～」が3日後の6月30日（火）20:30よりYouTube Liveで配信される。Pop'n ToyBox!! 一般先行は明日（6/28）締切、「ROSE ～禁じられた愛～」CDは明後日（7/1）発売と、総選挙関連の締め切りが続いている。"
 source: "アイドルマスター公式ポータル news/01_19108（2026年6月）"
 tags: [シンデレラガールズ, 総選挙2026, ST@TION, 生配信, 河瀬茉希, ROSE, Pop'n ToyBox, 投票]
 ---
