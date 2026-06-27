@@ -22,7 +22,7 @@ tags: [SideM, アニメイト, リメンバーショット, フェア, 天道輝
 
 | # | アイドル名 | ユニット |
 |---|----------|--------|
-| 1 | 天道輝 | DRAMATIC STARS |
+| 1 | 天道輝 | Dramatic Stars |
 | 2 | 都築圭 | Altessimo |
 | 3 | 蒼井悠介 | W |
 | 4 | 秋山隼人 | High×Joker |

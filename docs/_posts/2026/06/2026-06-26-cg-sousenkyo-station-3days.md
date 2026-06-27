@@ -1,5 +1,5 @@
 ---
-title: "3日後（6/30）CG総選挙ST@TION 生配信20:30〜――本日はROSE CD明後日発売・Pop'n ToyBox!!明日締切"
+title: "3日後（6/30）CG総選挙ST@TION 生配信20:30〜――本日はROSE CD4日後発売・Pop'n ToyBox!!明日締切"
 edition_date: "2026-06-27"
 slug: cg-sousenkyo-station-3days
 brand: cg

@@ -5,9 +5,9 @@ slug: sc-no1feelalone-popup
 brand: sc
 kind: 公式
 badge: "開催中"
-lead: "シャイニーカラーズの「No 1 feel alone」をフィーチャーしたPOP UP SHOP「PULSE COLLECTION」が昨日（6/26）よりSHIBUYA109渋谷店 B1F DISP!!!にてオープンした。浅倉透・黛冬優子・緋田美琴・三峰結華の描き下ろしアクリルスタンドやトレーディンググッズを販売。6月28日（日）まで事前予約制での入場制限が設けられている。"
+lead: "シャイニーカラーズの「No 1 feel alone」をフィーチャーしたPOP UP SHOP「PULSE COLLECTION」が昨日（6/26）よりSHIBUYA109渋谷店 B1F DISP!!!にてオープンした。杜野凛世・大崎甘奈・福丸小糸・三峰結華の描き下ろしアクリルスタンドやトレーディンググッズを販売。6月28日（日）まで事前予約制での入場制限が設けられている。"
 source: "アイドルマスター公式ポータル news/01_19101 / SHIBUYA109公式（2026年6月）"
-tags: [シャニマス, シャイニーカラーズ, No1feelalone, PULSE COLLECTION, SHIBUYA109, 浅倉透, 黛冬優子, 緋田美琴, 三峰結華]
+tags: [シャニマス, シャイニーカラーズ, No1feelalone, PULSE COLLECTION, SHIBUYA109, 杜野凛世, 大崎甘奈, 福丸小糸, 三峰結華]
 ---
 
 ## 開催概要
@@ -24,9 +24,9 @@ tags: [シャニマス, シャイニーカラーズ, No1feelalone, PULSE COLLECT
 
 ## 登場キャラクター
 
-- 浅倉透（ノクチル）
-- 黛冬優子（ストレイライト）
-- 緋田美琴（シーズ）
+- 杜野凛世（放課後クライマックスガールズ）
+- 大崎甘奈（アルストロメリア）
+- 福丸小糸（ノクチル）
 - 三峰結華（アンティーカ）
 
 「No 1 feel alone」ユニットとして共演する4名のグッズが揃う。
