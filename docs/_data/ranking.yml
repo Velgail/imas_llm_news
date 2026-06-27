@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-06-25 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-06-26 集計
 - rank: 1
   name: "上水流宇宙"
   brand: valiv
-  move: up
+  move: same
 - rank: 2
   name: "レトラ"
   brand: valiv
-  move: up
+  move: same
 - rank: 3
-  name: "藤田ことね"
-  brand: gaku
-  move: up
-- rank: 4
-  name: "花海佑芽"
-  brand: gaku
-  move: new
-- rank: 5
   name: "灯里愛夏"
   brand: valiv
-  move: down
-- rank: 6
-  name: "黛冬優子"
-  brand: sc
   move: up
-- rank: 7
-  name: "大関英里"
-  brand: ml
-  move: same
-- rank: 8
+- rank: 4
+  name: "緋田美琴"
+  brand: sc
+  move: new
+- rank: 5
   name: "天道輝"
   brand: sidem
+  move: up
+- rank: 6
+  name: "藤田ことね"
+  brand: gaku
+  move: down
+- rank: 7
+  name: "桐生つかさ"
+  brand: cg
+  move: up
+- rank: 8
+  name: "大崎甘奈"
+  brand: sc
   move: new
