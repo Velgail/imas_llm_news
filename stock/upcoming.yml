@@ -203,7 +203,10 @@
     - iwsf2026-day3-performers  # 6/5配信「DAY3出演全容」
     - sogo-iwsf2026-standby-tickets-20260627  # 6/23配信「立見指定席・ステージサイド席先着6/27〜」
     - sogo-iwsf2026-30days  # 6/24配信「まで30日・立見先着明後日」
-  notes: "各DAYのセットリスト・サプライズ発表は当日要取材。出演者は第一弾、追加発表があれば facts を更新。"
+    - sogo-iwsf2026-june27-sales  # 6/27配信「本日12:00〜立見先着開始」
+    - sogo-iwsf2026-standby-lv-report  # 6/28配信「昨日立見先着スタート・LV先行・リセール」
+    - sogo-iwsf2026-vol2-stream-july8  # 6/28配信「続報VOL.2 7/8決定」
+  notes: "各DAYサブタイトル判明：DAY1-YAKUDOU-・DAY2-ZESSYOU-・DAY3-KYOUMEI-。LV先行（〜7/5）・立見先着（〜7/19）受付中。続報VOL.2（7/8 20:00〜）で物販等発表予定。各DAYのセットリストは当日要取材。"
 
 - id: shani-songforprism-karma-naraku-event
   title: "シャニマス Song for Prism「Karma / Naraku」発売記念イベント"
@@ -336,7 +339,9 @@
     - ml-milishita-akihabara-fes-tomorrow  # 6/25配信「明日秋葉原フェス開幕」
     - ml-milishita-akihabara-fes-today  # 6/26配信「本日秋葉原フェス開幕」
     - ml-milishita-akihabara-fes-day2   # 6/27配信「2日目・スタンプラリー・シャンパン詳細」
-  notes: "namco TOKYO生配信出演者情報確認済み（6/21時点）。アトレ秋葉原物販・フード詳細6/21発表。ゲーマーズ整理券は6/26〜27の2日間。通販限定（プレイマット等）受注8/7〜。7/12最終日・7/13閉幕レポ未記事化。"
+    - ml-milishita-akihabara-fes-day3   # 6/28配信「3日目・ゲーマーズ整理券終了・9周年明日」
+    - ml-milishita-9th-tomorrow         # 6/28配信「ミリシタ9周年明日（6/29）」
+  notes: "ゲーマーズ整理券6/26〜27の2日間（終了済み）。9周年本番6/29。7/12最終日・7/13閉幕レポ未記事化。シャンパン試飲会6/28・7/3・7/11予定。通販限定受注8/7〜。"
 
 - id: ml-milishita-karaoke-tetsuji
   title: "ミリシタ9周年×カラオケの鉄人 SPECIAL COLLABORATION"
@@ -428,7 +433,8 @@
     - cg-sousenkyo-station-7days  # 6/23配信「まで7日・河瀬茉希ら出演予告」
     - cg-sousenkyo-station-6days  # 6/24配信「まで6日」
     - cg-sousenkyo-station-3days  # 6/27配信「まで3日」
-  notes: "ROSE CD発売（7/1）・投票券ミッション開始と同日前後。生配信後のまとめ記事に合流させること。"
+    - cg-sousenkyo-station-2days  # 6/28配信「明後日生配信予告」
+  notes: "ROSE CD発売（7/1）・投票券ミッション開始と同日前後。生配信後のまとめ記事に合流させること。6/29配信で「明日生配信予告」を追記予定。"
 
 - id: cg-sousenkyo-rose-cd
   title: "CG総選挙2026 応援楽曲第2弾「ROSE ～禁じられた愛～」CD発売"
@@ -458,7 +464,8 @@
   used_in:
     - cg-sousenkyo-rose-cd-preorder  # 6/17配信「予約〜6/21」
     - cg-rose-cd-deadline  # 6/21配信「本日予約締切」
-  notes: "予約締切6/21記事化済み。6/30に「明日発売予告」、7/1に「本日発売」を記事化予定。"
+    - cg-rose-cd-fam-kuji  # 6/28配信「3日後発売＋FAMくじ同日」
+  notes: "予約締切6/21記事化済み。FAMくじとの同日情報を6/28配信で記事化。6/30に「明日発売予告」、7/1に「本日発売」を記事化予定。"
 
 - id: godo-starlight-dining-popup
   title: "ポップアップストア2026 ～Starlight Dining～（シンデレラガールズ＆学マス合同）"
