@@ -5,7 +5,7 @@ slug: sc-still-blue-lottery-report
 brand: sc
 kind: 公式
 badge: "当落済み"
-lead: "「shiny, the first REFRAC7IONS "Still blue"」（12/19・20・国立代々木競技場第一体育館）のアソビストアプレミアム会員2次先行の当落が昨日（6/27）13:00に発表された。当選者の支払い期限は7月1日（水）23:59まで。"
+lead: "「shiny, the first REFRAC7IONS 『Still blue』」（12/19・20・国立代々木競技場第一体育館）のアソビストアプレミアム会員2次先行の当落が昨日（6/27）13:00に発表された。当選者の支払い期限は7月1日（水）23:59まで。"
 source: "アイドルマスター シャイニーカラーズ公式 / アソビストア（2026年6月27日）"
 tags: [シャイニーカラーズ, Still blue, チケット, 当落, 代々木, ライブ]
 ---
