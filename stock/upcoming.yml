@@ -434,7 +434,8 @@
     - cg-sousenkyo-station-6days  # 6/24配信「まで6日」
     - cg-sousenkyo-station-3days  # 6/27配信「まで3日」
     - cg-sousenkyo-station-2days  # 6/28配信「明後日生配信予告」
-  notes: "ROSE CD発売（7/1）・投票券ミッション開始と同日前後。生配信後のまとめ記事に合流させること。6/29配信で「明日生配信予告」を追記予定。"
+    - cg-sousenkyo-station-tomorrow  # 6/29配信「明日生配信予告」
+  notes: "ROSE CD発売（7/1）・投票券ミッション開始と同日前後。生配信後のまとめ記事に合流させること。6/30配信で「本日ST@TION生配信」を記事化予定。"
 
 - id: cg-sousenkyo-rose-cd
   title: "CG総選挙2026 応援楽曲第2弾「ROSE ～禁じられた愛～」CD発売"
