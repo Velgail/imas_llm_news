@@ -5,7 +5,7 @@ slug: sogo-iwsf2026-lv-theaters
 brand: sogo
 kind: 公式
 badge: "受付中〜7/5"
-lead: "「THE IDOLM@STER 20th Anniversary MORE RE@LITY LIVE IDOL WORLD SUPER FESTIVAL 2026」（7/24〜26・京王アリーナ TOKYO）の全国映画館ライブビューイング先行抽選が昨日6月27日（土）12:00より受付開始。各公演5,000円（税込）で7月5日（日）まで申込可能。"
+lead: "「THE IDOLM@STER 20th Anniversary MORE RE@LITY LIVE IDOL WORLD SUPER FESTIVAL 2026」（7/24〜26・京王アリーナ TOKYO）の全国映画館ライブビューイング先行抽選が一昨日6月27日（土）12:00より受付開始。各公演5,000円（税込）で7月5日（日）まで申込可能。"
 source: "アイドルマスター公式ポータル news/01_19224（2026年6月27日）/ LIVE VIEWING JAPAN"
 tags: [IWSF2026, アイマス20周年, ライブビューイング, 映画館, チケット]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "ミリシタ9周年×カラオケの鉄人 本日4日目――全国4店舗で〜8/16"
 edition_date: "2026-06-29"
-slug: ml-milishita-karaoke-tetsuji-4days
+slug: ml-milishita-karaoke-tetsujin-4days
 brand: ml
 kind: 公式
 badge: "開催中"

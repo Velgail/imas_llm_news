@@ -1,7 +1,7 @@
 ---
 title: "本日誕生日：青羽美咲（ミリオンライブ！）・ナターリア（シンデレラガールズ）"
 edition_date: "2026-06-29"
-slug: ml-cg-birthday-natalio-aoba
+slug: ml-cg-birthday-natalia-aoba
 brand: ml
 kind: 公式
 badge: "本日誕生日"
