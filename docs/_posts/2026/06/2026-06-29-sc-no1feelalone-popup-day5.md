@@ -5,7 +5,7 @@ slug: sc-no1feelalone-popup-day5
 brand: sc
 kind: 公式
 badge: "開催中"
-lead: "SHIBUYA109 B1F DISP!!!で開催中の「No 1 feel alone POP UP SHOP『PULSE COLLECTION』」が昨日6月29日（月）より入場予約制を終了し、自由入場に移行した。本日6日5日目（〜7/12）、事前予約なしで来場可能になった。"
+lead: "SHIBUYA109 B1F DISP!!!で開催中の「No 1 feel alone POP UP SHOP『PULSE COLLECTION』」が昨日6月29日（月）より入場予約制を終了し、自由入場に移行した。本日5日目（〜7/12）、事前予約なしで来場可能になった。"
 source: "SHIBUYA109公式 / アイドルマスターシャイニーカラーズ公式（2026年6月）"
 tags: [シャイニーカラーズ, シャニマス, No1feelalone, POP UP, SHIBUYA109, 自由入場]
 ---
