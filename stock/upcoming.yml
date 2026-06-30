@@ -341,7 +341,8 @@
     - ml-milishita-akihabara-fes-day2   # 6/27配信「2日目・スタンプラリー・シャンパン詳細」
     - ml-milishita-akihabara-fes-day3   # 6/28配信「3日目・ゲーマーズ整理券終了・9周年明日」
     - ml-milishita-9th-tomorrow         # 6/28配信「ミリシタ9周年明日（6/29）」
-  notes: "ゲーマーズ整理券6/26〜27の2日間（終了済み）。9周年本番6/29。7/12最終日・7/13閉幕レポ未記事化。シャンパン試飲会6/28・7/3・7/11予定。通販限定受注8/7〜。"
+    - ml-milishita-akihabara-fes-day5  # 6/30配信「本日5日目」
+  notes: "ゲーマーズ整理券6/26〜27の2日間（終了済み）。9周年本番6/29。本日6/30で5日目。7/12最終日・7/13閉幕レポ未記事化。シャンパン試飲会6/28（済）・7/3・7/11予定。通販限定受注8/7〜。"
 
 - id: ml-milishita-karaoke-tetsuji
   title: "ミリシタ9周年×カラオケの鉄人 SPECIAL COLLABORATION"
@@ -410,7 +411,7 @@
   kind: 公式
   event_start: "2026-06-30"
   event_end: "2026-06-30"
-  status: pending
+  status: done
   confidence: confirmed
   added: "2026-06-18"
   source: "アイドルマスター公式ポータル / シンデレラガール総選挙2026 特設サイト"
@@ -435,7 +436,8 @@
     - cg-sousenkyo-station-3days  # 6/27配信「まで3日」
     - cg-sousenkyo-station-2days  # 6/28配信「明後日生配信予告」
     - cg-sousenkyo-station-tomorrow  # 6/29配信「明日生配信予告」
-  notes: "ROSE CD発売（7/1）・投票券ミッション開始と同日前後。生配信後のまとめ記事に合流させること。6/30配信で「本日ST@TION生配信」を記事化予定。"
+    - cg-sousenkyo-station-today  # 6/30配信「本日ST@TION生配信20:30〜」
+  notes: "6/30配信で「本日ST@TION生配信」を記事化済み。7/1配信でST@TIONレポ＋ROSE CD発売記事を書くこと。"
 
 - id: cg-sousenkyo-rose-cd
   title: "CG総選挙2026 応援楽曲第2弾「ROSE ～禁じられた愛～」CD発売"
@@ -466,7 +468,8 @@
     - cg-sousenkyo-rose-cd-preorder  # 6/17配信「予約〜6/21」
     - cg-rose-cd-deadline  # 6/21配信「本日予約締切」
     - cg-rose-cd-fam-kuji  # 6/28配信「3日後発売＋FAMくじ同日」
-  notes: "予約締切6/21記事化済み。FAMくじとの同日情報を6/28配信で記事化。6/30に「明日発売予告」、7/1に「本日発売」を記事化予定。"
+    - cg-rose-cd-tomorrow  # 6/30配信「明日発売予告」
+  notes: "予約締切6/21記事化済み。FAMくじとの同日情報を6/28配信で記事化。6/30配信で「明日発売予告」記事化済み。7/1配信で「本日発売」記事化予定。"
 
 - id: godo-starlight-dining-popup
   title: "ポップアップストア2026 ～Starlight Dining～（シンデレラガールズ＆学マス合同）"
