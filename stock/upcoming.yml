@@ -25,72 +25,6 @@
 #   notes: ""
 # ──────────────────────────────────────────────
 
-- id: gakumas-hif-yokohama
-  title: "学マス Hatsuboshi IDOL FESTIVAL 横浜アリーナ（2DAYS）"
-  brand: gaku
-  kind: 公式
-  event_start: "2026-06-06"
-  event_end: "2026-06-07"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-06-06"
-  source: "アイドルマスター公式ポータル / アソビステージ"
-  facts: |
-    会場: 横浜アリーナ（神奈川県横浜市）
-    開場/開演: 15:30 / 17:00
-    出演（13名）: 長月あおい、小鹿なお、飯田ヒカル、七瀬つむぎ、花岩香奈、伊藤舞音、湊みや、川村玲奈、薄井友里、松田彩音、春咲暖、陽高真白、天音ゆかり
-    位置づけ: 2nd Anniversary 総決算 The 2nd Period の最終公演・千秋楽
-    配信: アソビステージ（ASOBISTAGE）有料配信。アーカイブは本編終了1時間後目安、6/8（月）18:00まで。
-  publish_plan:
-    - on: "2026-06-07"
-      angle: "本日千秋楽（DAY2）"
-    - on: "2026-06-08"
-      angle: "千秋楽レポ（昨日閉幕・2周年フィナーレ）"
-  status: done
-  used_in:
-    - gakumas-hif-yokohama-eve   # 6/6配信「本日開幕」
-    - gakumas-hif-yokohama-day1  # 6/7配信「初日開幕レポ」
-    - gakumas-hif-yokohama-day2  # 6/7配信「本日千秋楽DAY2」
-    - gakumas-hif-yokohama-finale  # 6/8配信「千秋楽閉幕レポ」
-  notes: "DAY1（6/6）・DAY2当日（6/7）・千秋楽閉幕レポ（6/8配信）すべて記事化済み。"
-
-- id: million-14th-stream-june13
-  title: "ミリオンライブ 14thLIVE 詳細発表生配信"
-  brand: ml
-  kind: 公式
-  event_start: "2026-06-13"
-  event_end: "2026-06-13"
-  status: done
-  confidence: confirmed
-  added: "2026-06-06"
-  source: "アイドルマスター公式ポータル"
-  facts: |
-    日時: 2026年6月13日（土）19:00〜
-    プラットフォーム: YouTube Live
-    発表予定内容: 14thLIVE の出演者・タイトル・公演テーマ・チケット情報など詳細全容
-    関連: 14thLIVE 本体は 9/19・20 国立代々木競技場 第一体育館（別エントリ million-14th-live 参照）
-    【生配信で発表された内容】
-    - シリーズ初のツイン主演制採用
-    - DAY1（9/19）サブタイトル「〜夢咲くワンダーミラージュ〜」主演: 徳川まつり＆エミリー・スチュアート
-    - DAY2（9/20）主演: 馬場このみ＆百瀬莉緒
-    - プロデューサー参加型企画（セトリ・演出の一部をPが決定）発表
-  publish_plan:
-    - on: "2026-06-12"
-      angle: "明日生配信予告"
-    - on: "2026-06-13"
-      angle: "本日19:00から生配信"
-    - on: "2026-06-14"
-      angle: "生配信まとめ（昨日発表の詳細）"
-  used_in:
-    - million-14th-live-stream-june13  # 6/6配信「生配信6/13決定」告知
-    - ml-14thlive-june13-stream-preview  # 6/12配信「明日生配信予告」
-    - ml-14thlive-stream-today  # 6/13配信「本日19:00から生配信」
-    - ml-14thlive-stream-report  # 6/14配信「生配信まとめ」
-    - ml-14thlive-day1-wondermirage  # 6/14配信「DAY1詳細」
-    - ml-14thlive-day2-konomi-rio  # 6/14配信「DAY2詳細」
-    - ml-14thlive-producer-plan  # 6/14配信「P参加型企画」
-  notes: "6/14配信で生配信まとめ・DAY1・DAY2・P企画の4記事を作成。million-14th-live エントリのfactsを更新済み。"
-
 - id: cg-gatamas-niigata-sado
   title: "シンデレラガールズ×新潟市・佐渡市コラボ「がたます」"
   brand: cg
@@ -141,23 +75,23 @@
   title: "シンデレラガール総選挙2026 投票フェーズ（15周年）"
   brand: cg
   kind: 公式
-  event_start: "2026-08-01"
-  event_end: "2026-08-31"
-  status: pending
+  event_start: "2026-08-03"
+  event_end: "2026-09-18"
+  status: partially-used
   confidence: confirmed
   added: "2026-06-06"
-  source: "シンデレラガール総選挙2026 特設サイト / アイドルマスター公式ポータル"
+  source: "シンデレラガール総選挙2026 特設サイト cinderellagirls/vote2026 / アイドルマスター公式ポータル"
   facts: |
     位置づけ: 15th Anniversary、前回「Stage for Cinderella」（2023）以来 約3年ぶり
-    投票券ミッション開始: 7月上旬予定（基本ミッション・プレミアムミッション）
-    投票開始: 8月（上旬予定）、WEB投票（バンダイナムコID 登録・ログイン）
+    投票券ミッション: 7/1（水）12:00〜9/14（月）23:59。基本ミッション（店舗チェックイン・投票・SNSシェア等）＋プレミアムミッション（グッズ・チケット購入、ASOBI STOREプレミアム会員登録で最大60,000枚）
+    投票期間: 8/3（月）12:00〜9/18（金）23:59、WEB投票（バンダイナムコID 登録・ログイン）
     上位特典: 上位7名に新ソロ曲＋カバー曲のソロアルバム「CINDERELLA MASTER」制作、上位アイドルのオリジナルグッズ化
-    応援楽曲: 「シンデレラNo.1」（各アイドル専用歌詞）
+    応援楽曲: 「シンデレラNo.1」（各アイドル専用歌詞）／第2弾「ROSE ～禁じられた愛～」（桐生つかさ・木村夏樹・白雪千夜、7/1発売）
     登録数: シンデレラガール対象 約190名
   publish_plan:
-    - on: "2026-07-上旬"
-      angle: "投票券ミッション開始"
-    - on: "2026-08-上旬"
+    - on: "2026-08-02"
+      angle: "明日投票開始予告"
+    - on: "2026-08-03"
       angle: "本日投票開始"
     - on: "中間発表日（未定）"
       angle: "中間発表速報"
@@ -165,7 +99,8 @@
       angle: "新シンデレラガール決定・結果速報"
   used_in:
     - cg-sousenkyo-2026  # 6/5配信「概要正式決定」
-  notes: "投票開始の正確な日付・中間発表・結果発表日が未確定。日程が出たら on を絶対日付に更新すること。"
+    - cg-vote-mission-start  # 7/1配信「投票券ミッション本日12:00開始」
+  notes: "投票券ミッションは7/1配信で記事化済み。中間発表・結果発表日が未確定。日程が出たら on を絶対日付に更新すること。"
 
 - id: iwsf2026
   title: "THE IDOLM@STER 20th Anniversary MORE RE@LITY LIVE IDOL WORLD SUPER FESTIVAL 2026"
@@ -253,7 +188,10 @@
     - DAY2（9/20）: 馬場このみ＆百瀬莉緒
     - プロデューサー参加型企画（セトリ・演出の一部をPが決定）
     - チケット先行情報は公式ポータル参照
+    - チケット先行受付は6/13〜6/24で終了済み。当落発表は7/4（土）13:00〜
   publish_plan:
+    - on: "2026-07-04"
+      angle: "本日チケット先行当落発表"
     - on: "2026-09-18"
       angle: "明日開幕予告"
     - on: "2026-09-19"
@@ -263,37 +201,7 @@
     - on: "2026-09-21"
       angle: "閉幕レポ"
   used_in: []
-  notes: "出演者・タイトル・チケット詳細は6/13生配信後に facts を更新すること（現時点は会場・日程のみ確定）。"
-
-- id: valiv-1st-anniversary-june26
-  title: "vα-liv（ヴイアライブ） 1周年記念日（2026年6月26日）"
-  brand: valiv
-  kind: 公式
-  event_start: "2026-06-26"
-  event_end: "2026-06-26"
-  status: done
-  confidence: confirmed
-  added: "2026-06-17"
-  source: "vα-liv（ヴイアライヴ）公式 / アイドルマスター公式ポータル"
-  facts: |
-    vα-livは2025年6月26日にデビュー。2026年6月26日に1周年を迎える。
-    6/26: 1周年本番（ゲーム内イベント・生配信19:30〜）
-    6/27 21:00〜: 1st Album「彼方」2,000枚突破記念 新衣装お披露目リレー配信
-      上水流宇宙（21:00）→ レトラ（21:45）→ 灯里愛夏（22:30）
-  publish_plan:
-    - on: "2026-06-25"
-      angle: "明日vα-liv 1周年"
-    - on: "2026-06-26"
-      angle: "本日vα-liv 1周年"
-  used_in:
-    - valiv-1st-anniversary-countdown  # 6/19配信「7日前カウントダウン」
-    - valiv-1st-anniversary-5days  # 6/21配信「5日前」
-    - valiv-1st-anniversary-4days  # 6/22配信「4日前」
-    - valiv-1st-anniversary-3days  # 6/23配信「3日前」
-    - valiv-1st-anniversary-2days  # 6/24配信「2日前」
-    - valiv-1st-anniversary-1day  # 6/25配信「明日1周年」
-    - valiv-1st-anniversary  # 6/26配信「本日1周年」
-  notes: "6/27の新衣装お披露目はvaliv-1st-anniversary-costume-june27エントリを参照。"
+  notes: "7/4に先行チケット当落発表予定。出演者・タイトル・チケット詳細は6/13生配信後に facts を更新済み。"
 
 - id: ml-milishita-9th-akihabara-fes
   title: "ミリシタ9周年 9th Anniversary in AKIHABARA 〜秋葉原っぱフェスティバル〜"
@@ -342,7 +250,8 @@
     - ml-milishita-akihabara-fes-day3   # 6/28配信「3日目・ゲーマーズ整理券終了・9周年明日」
     - ml-milishita-9th-tomorrow         # 6/28配信「ミリシタ9周年明日（6/29）」
     - ml-milishita-akihabara-fes-day5  # 6/30配信「本日5日目」
-  notes: "ゲーマーズ整理券6/26〜27の2日間（終了済み）。9周年本番6/29。本日6/30で5日目。7/12最終日・7/13閉幕レポ未記事化。シャンパン試飲会6/28（済）・7/3・7/11予定。通販限定受注8/7〜。"
+    - ml-milishita-akihabara-fes-day6  # 7/1配信「本日6日目」
+  notes: "ゲーマーズ整理券6/26〜27の2日間（終了済み）。9周年本番6/29。本日7/1で6日目。7/12最終日・7/13閉幕レポ未記事化。シャンパン試飲会6/28（済）・7/3・7/11予定。通販限定受注8/7〜。"
 
 - id: ml-milishita-karaoke-tetsuji
   title: "ミリシタ9周年×カラオケの鉄人 SPECIAL COLLABORATION"
@@ -405,47 +314,13 @@
     - ml-champagne-today  # 6/26配信「本日受注開始」
   notes: "グッズ詳細・価格は開始前後に要確認。7/19受注最終日未記事化。"
 
-- id: cg-sousenkyo-station-june30
-  title: "CG総選挙ST@TION 生配信（2026年6月30日）"
-  brand: cg
-  kind: 公式
-  event_start: "2026-06-30"
-  event_end: "2026-06-30"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-06-18"
-  source: "アイドルマスター公式ポータル / シンデレラガール総選挙2026 特設サイト"
-  facts: |
-    日時: 2026年6月30日（火）20:30〜21:30
-    配信プラットフォーム: YouTube Live（アイドルマスター公式チャンネル）
-    出演: 河瀬茉希（＊）・関口理咲（＊）・田辺留依（＊）・集貝はな（＊）
-    内容: 投票券の集め方・ROSE ～禁じられた愛～最新情報・Pop'n ToyBox!!最新情報
-    位置づけ: シンデレラガール総選挙2026 公式情報生配信番組
-    翌日（7/1）にROSE CDが発売・投票券ミッション開始予定
-  publish_plan:
-    - on: "2026-06-29"
-      angle: "明日ST@TION生配信予告"
-    - on: "2026-06-30"
-      angle: "本日ST@TION生配信20:30〜"
-    - on: "2026-07-01"
-      angle: "昨日ST@TION放送レポ＋ROSE CD本日発売"
-  used_in:
-    - cg-sousenkyo-station-june30  # 6/18配信「生配信6/30確定」
-    - cg-sousenkyo-station-7days  # 6/23配信「まで7日・河瀬茉希ら出演予告」
-    - cg-sousenkyo-station-6days  # 6/24配信「まで6日」
-    - cg-sousenkyo-station-3days  # 6/27配信「まで3日」
-    - cg-sousenkyo-station-2days  # 6/28配信「明後日生配信予告」
-    - cg-sousenkyo-station-tomorrow  # 6/29配信「明日生配信予告」
-    - cg-sousenkyo-station-today  # 6/30配信「本日ST@TION生配信20:30〜」
-  notes: "6/30配信で「本日ST@TION生配信」を記事化済み。7/1配信でST@TIONレポ＋ROSE CD発売記事を書くこと。"
-
 - id: cg-sousenkyo-rose-cd
   title: "CG総選挙2026 応援楽曲第2弾「ROSE ～禁じられた愛～」CD発売"
   brand: cg
   kind: 公式
   event_start: "2026-07-01"
   event_end: "2026-07-01"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-06-17"
   source: "アイドルマスター公式ポータル / 電撃オンライン / アソビストア（2026年6月）"
@@ -453,10 +328,11 @@
     タイトル: THE IDOLM@STER CINDERELLA MASTER NUMBER ONE! シンデレラNo.1 ＆ ROSE ～禁じられた愛～
     発売日: 2026年7月1日（水）
     歌唱: 桐生つかさ・木村夏樹・白雪千夜
-    作詞作曲・編曲: 吉見佑昌 / ARM（IOSYS）
+    作詞: 夕野ヨシミ（IOSYS） / 作曲・編曲: ARM（IOSYS）
     予約受付期間: 〜2026年6月21日（日）
     カップリング: 「シンデレラNo.1」（応援楽曲第1弾）
     位置づけ: 15th Anniversary「シンデレラガール総選挙2026」応援楽曲第2弾
+    購入特典: 投票券400枚分シリアルコード封入
   publish_plan:
     - on: "2026-06-21"
       angle: "本日予約締切リマインド"
@@ -469,7 +345,8 @@
     - cg-rose-cd-deadline  # 6/21配信「本日予約締切」
     - cg-rose-cd-fam-kuji  # 6/28配信「3日後発売＋FAMくじ同日」
     - cg-rose-cd-tomorrow  # 6/30配信「明日発売予告」
-  notes: "予約締切6/21記事化済み。FAMくじとの同日情報を6/28配信で記事化。6/30配信で「明日発売予告」記事化済み。7/1配信で「本日発売」記事化予定。"
+    - cg-rose-cd-release  # 7/1配信「本日発売」
+  notes: "全publish_plan消化済み。"
 
 - id: godo-starlight-dining-popup
   title: "ポップアップストア2026 ～Starlight Dining～（シンデレラガールズ＆学マス合同）"
@@ -577,30 +454,3 @@
   used_in:
     - ml-million-machida-art-rally  # 6/17配信「開催決定」
   notes: "詳細コース・参加スポット・グッズ等は7月に入ってから要確認。ロコのマンホール設置時期も要確認。"
-
-- id: valiv-1st-anniversary-costume-june27
-  title: "ヴイアライブ 1st Album「彼方」2000枚突破記念・新衣装お披露目リレー配信"
-  brand: valiv
-  kind: 公式
-  event_start: "2026-06-27"
-  event_end: "2026-06-27"
-  status: done
-  confidence: confirmed
-  added: "2026-06-08"
-  source: "vα-liv（ヴイアライヴ）公式 / アイドルマスター公式ポータル"
-  facts: |
-    日時: 2026年6月27日（土）
-    新衣装お披露目リレー配信：21:00より各公式チャンネルで順次配信
-      上水流宇宙（21:00）→ レトラ（21:45）→ 灯里愛夏（22:30）
-    背景: 1st Album「彼方」が2,000枚突破を記念した展開
-    備考: 「Beyond My Destiny」は2025年6月27日にリリース済み（新曲ではない）
-  publish_plan:
-    - on: "2026-06-26"
-      angle: "明日新衣装お披露目配信予告"
-    - on: "2026-06-27"
-      angle: "本日新衣装お披露目リレー配信"
-  used_in:
-    - valiv-beyond-my-destiny  # 6/8配信「6/27新衣装お披露目予告」
-    - valiv-costume-june27     # 6/26配信「明日新衣装リレー配信予告」
-    - valiv-costume-relay-today  # 6/27配信「本日21:00〜新衣装リレー配信」
-  notes: "1周年記念生配信レポ（valiv-1st-anniversary-report）とあわせて6/27配信で記事化済み。"
