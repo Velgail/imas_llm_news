@@ -141,7 +141,8 @@
     - sogo-iwsf2026-june27-sales  # 6/27配信「本日12:00〜立見先着開始」
     - sogo-iwsf2026-standby-lv-report  # 6/28配信「昨日立見先着スタート・LV先行・リセール」
     - sogo-iwsf2026-vol2-stream-july8  # 6/28配信「続報VOL.2 7/8決定」
-  notes: "各DAYサブタイトル判明：DAY1-YAKUDOU-・DAY2-ZESSYOU-・DAY3-KYOUMEI-。LV先行（〜7/5）・立見先着（〜7/19）受付中。続報VOL.2（7/8 20:00〜）で物販等発表予定。各DAYのセットリストは当日要取材。"
+    - sogo-iwsf2026-22days  # 7/2配信「まで22日・香港/台湾LVチケット発売決定」
+  notes: "各DAYサブタイトル判明：DAY1-YAKUDOU-・DAY2-ZESSYOU-・DAY3-KYOUMEI-。LV先行（〜7/5）・立見先着（〜7/19）受付中。続報VOL.2（7/8 20:00〜）で物販等発表予定。海外LV：香港（MCL Telford Cinema、K11 Art House等）チケット7/3 12:00発売、台湾（台北新光威秀、林口三井アウトレット等）チケット7/6 11:00発売、いずれも日本語音声のみ字幕なし。各DAYのセットリストは当日要取材。"
 
 - id: shani-songforprism-karma-naraku-event
   title: "シャニマス Song for Prism「Karma / Naraku」発売記念イベント"
@@ -251,7 +252,8 @@
     - ml-milishita-9th-tomorrow         # 6/28配信「ミリシタ9周年明日（6/29）」
     - ml-milishita-akihabara-fes-day5  # 6/30配信「本日5日目」
     - ml-milishita-akihabara-fes-day6  # 7/1配信「本日6日目」
-  notes: "ゲーマーズ整理券6/26〜27の2日間（終了済み）。9周年本番6/29。本日7/1で6日目。7/12最終日・7/13閉幕レポ未記事化。シャンパン試飲会6/28（済）・7/3・7/11予定。通販限定受注8/7〜。"
+    - ml-milishita-akihabara-fes-day7  # 7/2配信「本日7日目・スタンプラリー詳細」
+  notes: "ゲーマーズ整理券6/26〜27の2日間（終了済み）。9周年本番6/29。本日7/2で7日目。7/12最終日・7/13閉幕レポ未記事化。シャンパン試飲会6/28（済）・7/3（金）18:00〜21:00・7/11（土）13:00〜17:00予定。デジタルスタンプラリー8拠点・コンプリート賞はあみあみ秋葉原ラジオ会館店で交換。通販限定受注8/7〜。"
 
 - id: ml-milishita-karaoke-tetsuji
   title: "ミリシタ9周年×カラオケの鉄人 SPECIAL COLLABORATION"
@@ -314,40 +316,6 @@
     - ml-champagne-today  # 6/26配信「本日受注開始」
   notes: "グッズ詳細・価格は開始前後に要確認。7/19受注最終日未記事化。"
 
-- id: cg-sousenkyo-rose-cd
-  title: "CG総選挙2026 応援楽曲第2弾「ROSE ～禁じられた愛～」CD発売"
-  brand: cg
-  kind: 公式
-  event_start: "2026-07-01"
-  event_end: "2026-07-01"
-  status: done
-  confidence: confirmed
-  added: "2026-06-17"
-  source: "アイドルマスター公式ポータル / 電撃オンライン / アソビストア（2026年6月）"
-  facts: |
-    タイトル: THE IDOLM@STER CINDERELLA MASTER NUMBER ONE! シンデレラNo.1 ＆ ROSE ～禁じられた愛～
-    発売日: 2026年7月1日（水）
-    歌唱: 桐生つかさ・木村夏樹・白雪千夜
-    作詞: 夕野ヨシミ（IOSYS） / 作曲・編曲: ARM（IOSYS）
-    予約受付期間: 〜2026年6月21日（日）
-    カップリング: 「シンデレラNo.1」（応援楽曲第1弾）
-    位置づけ: 15th Anniversary「シンデレラガール総選挙2026」応援楽曲第2弾
-    購入特典: 投票券400枚分シリアルコード封入
-  publish_plan:
-    - on: "2026-06-21"
-      angle: "本日予約締切リマインド"
-    - on: "2026-06-30"
-      angle: "明日発売予告"
-    - on: "2026-07-01"
-      angle: "本日発売"
-  used_in:
-    - cg-sousenkyo-rose-cd-preorder  # 6/17配信「予約〜6/21」
-    - cg-rose-cd-deadline  # 6/21配信「本日予約締切」
-    - cg-rose-cd-fam-kuji  # 6/28配信「3日後発売＋FAMくじ同日」
-    - cg-rose-cd-tomorrow  # 6/30配信「明日発売予告」
-    - cg-rose-cd-release  # 7/1配信「本日発売」
-  notes: "全publish_plan消化済み。"
-
 - id: godo-starlight-dining-popup
   title: "ポップアップストア2026 ～Starlight Dining～（シンデレラガールズ＆学マス合同）"
   brand: godo
@@ -364,7 +332,7 @@
     会場: アトレ川崎 4F シャン・ド・エルブ（神奈川県川崎市）
     開催期間: 2026年7月10日（金）〜7月20日（月・祝）
     特記: 日本と中国で同時開催
-    内容: コラボグッズ・展示（詳細未公開）
+    内容: 中華風メイド衣装をテーマに、シンデレラガールズ＆学園アイドルマスター計9名のグッズを展開（詳細は追って発表）
   publish_plan:
     - on: "2026-07-09"
       angle: "明日開幕予告"
@@ -454,3 +422,141 @@
   used_in:
     - ml-million-machida-art-rally  # 6/17配信「開催決定」
   notes: "詳細コース・参加スポット・グッズ等は7月に入ってから要確認。ロコのマンホール設置時期も要確認。"
+
+- id: ml-milishita-invitation-event
+  title: "ミリシタ9周年ゲーム内イベント「最上級：Invit@tion!」"
+  brand: ml
+  kind: 公式
+  event_start: "2026-06-30"
+  event_end: "2026-07-12"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-07-02"
+  source: "gamerch.com / appbank.net / akb48trainee.com（2026年6〜7月）"
+  facts: |
+    イベント名: 最上級：Invit@tion!
+    開催期間: 2026年6月30日0:00〜7月12日23:59
+    新曲: ドレスコード：最上級（765 MILLION ALLSTARS 52人が歌い分け、ソロライブはセンターアイドルが歌唱）
+    消費アイテム: モルフォ・リュバン（2倍・4倍消費ライブ、1日1回限定10倍消費ライブ）
+    報酬: 9周年記念衣装「モルフォ・パレシア」を纏った52人分の衣装付きSRカード
+  publish_plan:
+    - on: "2026-07-12"
+      angle: "本日最終日"
+    - on: "2026-07-13"
+      angle: "昨日終了・報酬まとめ"
+  used_in:
+    - ml-milishita-invitation-event  # 7/2配信「開催中・新曲解禁」
+  notes: "秋葉原っぱフェスティバルと並行するゲーム内イベント。終了間際・終了翌日の記事化が未消化。"
+
+- id: cg-onestep-yogurt-collab
+  title: "ワンステップス×「& Yogurt」コラボ"
+  brand: cg
+  kind: 公式
+  event_start: "2026-07-19"
+  event_end: "2026-09-23"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-07-02"
+  source: "AKB48Group新聞 akb48trainee.com（2026年7月1日）"
+  facts: |
+    ユニット: ワンステップス（白菊ほたる・関裕美・森久保乃々）
+    会場: "& Yogurt" 横浜店・大宮店（2店舗限定）
+    開催期間: 2026年7月19日（日）〜9月23日（水・祝）
+    内容: コラボメニュー・限定グッズ・SNSフォトコンテスト（詳細は追って発表）
+  publish_plan:
+    - on: "2026-07-18"
+      angle: "明日開催予告（グッズ詳細判明していれば）"
+    - on: "2026-07-19"
+      angle: "本日開催"
+  used_in:
+    - cg-onestep-yogurt-collab  # 7/2配信「コラボ決定」
+  notes: "商品ラインナップ詳細は開催が近づいてから要追検証。"
+
+- id: cg-mizuno-sponsor
+  title: "ミズノスポーツサービス 総選挙2026スポンサー企画"
+  brand: cg
+  kind: 公式
+  event_start: "2026-07-11"
+  event_end: "2026-08-01"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-07-02"
+  source: "アイドルマスター公式ポータル news/01_19214（2026年7月）"
+  facts: |
+    位置づけ: シンデレラガール総選挙2026の新スポンサー
+    記念商品発売: 2026年7月11日（土）
+    サッカー（フットサル）体験プログラム: フットサルプラザBumBで7/11(土)17:00〜/18:00〜・7/12(日)17:00〜/18:00〜・7/17(金)20:00〜・7/18(土)17:00〜/18:00〜・7/19(日)17:00〜/18:00〜・7/20(月)17:00〜/18:00〜。ミズノフットサルプラザ調布で7/25(土)・26(日)12:00〜。ミズノフットサルプラザ新百合ヶ丘で8/1(土)11:00〜。
+  publish_plan:
+    - on: "2026-07-11"
+      angle: "本日記念商品発売・フットサルプラザBumBで体験プログラム初日"
+    - on: "2026-07-25"
+      angle: "本日サッカー体験会1日目"
+    - on: "2026-08-01"
+      angle: "本日サッカー体験会最終日"
+  used_in:
+    - cg-mizuno-sponsor  # 7/2配信「スポンサー決定」
+  notes: "体験プログラムの会場・応募方法は開催が近づいてから要追検証。"
+
+- id: cg-dereofdead-osaka
+  title: "CINDERELLA GIRLS MUSICAL「DERE of the DEAD」大阪公演"
+  brand: cg
+  kind: 公式
+  event_start: "2026-07-04"
+  event_end: "2026-07-05"
+  status: pending
+  confidence: confirmed
+  added: "2026-07-02"
+  source: "アイドルマスター公式ポータル live_event/cg_musical_dd（2026年6月）"
+  facts: |
+    会場: オリックス劇場（大阪）
+    日程: 2026年7月4日（土）・5日（日）
+    配信チケット販売期間: 6月19日12:00〜8月31日23:59
+    アーカイブ視聴（コメント付き）: 7月6日18:00〜7月13日23:59
+  publish_plan:
+    - on: "2026-07-03"
+      angle: "明日大阪公演開幕予告"
+    - on: "2026-07-04"
+      angle: "本日大阪公演開幕"
+    - on: "2026-07-06"
+      angle: "昨日大阪公演閉幕レポ"
+  used_in: []
+  notes: "現地の一般販売等は終了済み。配信・アーカイブは継続受付中。"
+
+- id: valiv-akari-birthday-live-postponed
+  title: "vα-liv 灯里愛夏バースデーライブ 振替日程"
+  brand: valiv
+  kind: 公式
+  event_start: "2026-07-01"
+  status: watching
+  confidence: unconfirmed
+  added: "2026-07-02"
+  source: "アイドルマスター公式ポータル news/01_19211（2026年6月）"
+  facts: |
+    経緯: 7月1日開催予定の「PROJECT IM@S vα-liv 灯里愛夏 BIRTHDAY ONLINE LIVE 2026」が本人負傷療養のため延期
+    対応: チケット（LV・配信）は全額払い戻し対応中
+    振替日程: 2026年7月2日時点で未発表
+  publish_plan:
+    - on: "振替日決定日（未定）"
+      angle: "振替日程決定・速報"
+  used_in: []
+  notes: "振替日程が発表されたら speed に記事化し、facts・publish_planを更新する。"
+
+- id: gaku-step3-shinozawa-hiro
+  title: "学マス新シナリオSTEP3 第2弾「篠澤広」実装告知"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-07-15"
+  status: watching
+  confidence: unconfirmed
+  added: "2026-07-02"
+  source: "ファミ通 famitsu.com/article/202507/46820（要再確認）"
+  facts: |
+    内容: 新シナリオ"STEP3"（親愛度21〜27話追加）は6/19に紫雲清夏から実装済み。第2弾は篠澤広に決定。
+    詳細発表: 7月15日（水）18:30の生配信「初星学園HR #STEP3 篠澤広」で発表予定
+  publish_plan:
+    - on: "2026-07-14"
+      angle: "明日生配信予告"
+    - on: "2026-07-15"
+      angle: "本日生配信・詳細発表"
+  used_in: []
+  notes: "発表の正確な日付・詳細の裏取りが不十分。次回取材時にidolmaster-official.jp等で再確認すること。"
