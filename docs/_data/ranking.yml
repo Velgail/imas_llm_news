@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-07-02 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-07-03 集計
 - rank: 1
-  name: "藤田ことね"
-  brand: gaku
-  move: up
+  name: "依田芳乃"
+  brand: cg
+  move: new
 - rank: 2
-  name: "山村賢"
+  name: "天道輝"
   brand: sidem
   move: new
 - rank: 3
-  name: "御手洗翔太"
-  brand: sidem
-  move: new
-- rank: 4
-  name: "桐生つかさ"
-  brand: cg
+  name: "藤田ことね"
+  brand: gaku
   move: down
+- rank: 4
+  name: "樋口円香"
+  brand: sc
+  move: new
 - rank: 5
-  name: "花海佑芽"
+  name: "倉本千奈"
   brand: gaku
   move: new
 - rank: 6
-  name: "徳川まつり"
-  brand: ml
-  move: same
+  name: "桜庭薫"
+  brand: sidem
+  move: new
 - rank: 7
   name: "白雪千夜"
   brand: cg
   move: down
 - rank: 8
-  name: "灯里愛夏"
-  brand: valiv
-  move: down
+  name: "徳川まつり"
+  brand: ml
+  move: same
