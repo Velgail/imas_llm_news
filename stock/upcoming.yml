@@ -142,7 +142,7 @@
     - sogo-iwsf2026-standby-lv-report  # 6/28配信「昨日立見先着スタート・LV先行・リセール」
     - sogo-iwsf2026-vol2-stream-july8  # 6/28配信「続報VOL.2 7/8決定」
     - sogo-iwsf2026-22days  # 7/2配信「まで22日・香港/台湾LVチケット発売決定」
-  notes: "各DAYサブタイトル判明：DAY1-YAKUDOU-・DAY2-ZESSYOU-・DAY3-KYOUMEI-。LV先行（〜7/5）・立見先着（〜7/19）受付中。続報VOL.2（7/8 20:00〜）で物販等発表予定。海外LV：香港（MCL Telford Cinema、K11 Art House等）チケット7/3 12:00発売、台湾（台北新光威秀、林口三井アウトレット等）チケット7/6 11:00発売、いずれも日本語音声のみ字幕なし。各DAYのセットリストは当日要取材。"
+  notes: "各DAYサブタイトル判明：DAY1-YAKUDOU-・DAY2-ZESSYOU-・DAY3-KYOUMEI-。LV先行（〜7/5）・立見先着（〜7/19）受付中。続報VOL.2（7/8 20:00〜）で物販等発表予定。海外LV：香港（MCL Telford Cinema、K11 Art House等）チケット7/3 12:00発売、台湾（台北信義威秀影城、林口三井アウトレット等）チケット7/6 11:00発売、いずれも日本語音声のみ字幕なし。各DAYのセットリストは当日要取材。"
 
 - id: shani-songforprism-karma-naraku-event
   title: "シャニマス Song for Prism「Karma / Naraku」発売記念イベント"
@@ -515,7 +515,7 @@
   facts: |
     会場: オリックス劇場（大阪）
     日程: 2026年7月4日（土）・5日（日）
-    配信チケット販売期間: 6月19日12:00〜8月31日23:59
+    配信チケット販売期間: 6月19日12:00〜7月13日18:00（予定）
     アーカイブ視聴（コメント付き）: 7月6日18:00〜7月13日23:59
   publish_plan:
     - on: "2026-07-04"
