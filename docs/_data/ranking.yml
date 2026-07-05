@@ -1,31 +1,31 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-07-04 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-07-05 集計
 - rank: 1
-  name: "木下ひなた"
-  brand: ml
+  name: "三峰結華"
+  brand: sc
   move: new
 - rank: 2
-  name: "徳川まつり"
-  brand: ml
+  name: "天道輝"
+  brand: sidem
   move: up
 - rank: 3
-  name: "天海春香"
-  brand: as765
-  move: new
-- rank: 4
-  name: "エミリー・スチュアート"
-  brand: ml
-  move: new
-- rank: 5
   name: "藤田ことね"
   brand: gaku
+  move: up
+- rank: 4
+  name: "徳川まつり"
+  brand: ml
   move: down
+- rank: 5
+  name: "宮尾美也"
+  brand: ml
+  move: new
 - rank: 6
   name: "上水流宇宙"
   brand: valiv
-  move: new
+  move: down
 - rank: 7
-  name: "天道輝"
-  brand: sidem
+  name: "天海春香"
+  brand: as765
   move: down
 - rank: 8
   name: "樋口円香"

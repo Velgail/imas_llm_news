@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-07-05"
+  dateLong: "2026年（令和8年）7月5日　日曜日"
+  pages: "全 10 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "本日DERE of the DEAD大阪千秋楽・デレステLIVE Carnival本日20:59閉幕・秋葉原フェス10日目・学マスガシャ10日目・IWSF2026まで19日（映画館LV先行本日締切）・SideM×HMV POP UP本日最終日・SideM11th STAGEチケット本日締切"
+  indexNote: "本日（7/5）：CINDERELLA GIRLS MUSICAL「DERE of the DEAD」大阪公演千秋楽（オリックス劇場、昼夜2公演）・デレステ「LIVE Carnival〜2026 Summer〜」本日20:59閉幕・ミリシタ秋葉原っぱフェスティバル10日目（デジタルスタンプラリーは後半戦）・学マスGO MY WAY!!ガシャ10日目（終了まで残り3日）・IWSF2026まで19日、映画館ライブビューイング先行抽選が本日締切（台湾LVチケットは明日7/6発売）・SideM×HMV POP UP SHOP本日最終日・SideM 11th STAGEチケット2次先行＆グッズ事前販売第2弾が本日23:59締切・シャニマス「iの栖」開催中（残り3日）／昨日（7/4）：CINDERELLA GIRLS MUSICAL「DERE of the DEAD」大阪公演DAY1開幕・秋葉原フェス、デジタルスタンプラリーが後半戦にリスタート・学マス×シーブリーズ コラボキャンペーン開始（マツモトキヨシ・ココカラファイン対象店舗）・ミリシタ9周年記念シャンパンの価格（11,000円・ロゼ）等の詳細が判明／本日継続：ミリシタ最上級：Invit@tion!開催中（〜7/12）・9周年記念シャンパン受注中（〜7/19）・シャニマス「iの栖」開催中（〜7/8）・学マスGO MY WAY!!ガシャ（〜7/8）／明日（7/6）：台湾ライブビューイングチケット11:00発売・CG大阪公演アーカイブ視聴開始（コメント付き、〜7/13）／今後：IWSF2026続報VOL.2は7/8 20:00〜・SideM 11th STAGEチケット当落発表は7/17 13:00〜"
 - date: "2026-07-04"
   dateLong: "2026年（令和8年）7月4日　土曜日"
   pages: "全 11 面"
