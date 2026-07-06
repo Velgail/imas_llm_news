@@ -29,7 +29,7 @@ ICS_SOURCES = [
 
 # 共通ICSで他シリーズとブランドが重複する場合の上書き対応表
 BRAND_OVERRIDES = {
-    # "キャラ名": "brand_key"
+    "高木順一朗": "as765",  # 初代765プロダクション社長（as765専属、ML以降は従兄の順二朗が社長）
 }
 
 
@@ -124,10 +124,11 @@ def main():
             ics = fetch_ics(url)
             names = parse_birthdays(ics, mmdd)
             for raw_name in names:
+                name = clean_name(raw_name)
                 resolved_brand = brand_from_name(raw_name, brand_key)
                 if resolved_brand is None:
                     continue  # キャスト誕生日はスキップ
-                name = clean_name(raw_name)
+                resolved_brand = BRAND_OVERRIDES.get(name, resolved_brand)
                 if name not in seen:
                     seen.add(name)
                     birthdays.append((name, resolved_brand))
