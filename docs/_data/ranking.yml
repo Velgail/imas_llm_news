@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-07-05 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-07-06 集計
 - rank: 1
-  name: "三峰結華"
-  brand: sc
+  name: "星希成奏"
+  brand: cg
   move: new
 - rank: 2
-  name: "天道輝"
-  brand: sidem
+  name: "樋口円香"
+  brand: sc
   move: up
 - rank: 3
+  name: "三峰結華"
+  brand: sc
+  move: down
+- rank: 4
+  name: "天道輝"
+  brand: sidem
+  move: down
+- rank: 5
   name: "藤田ことね"
   brand: gaku
-  move: up
-- rank: 4
+  move: down
+- rank: 6
+  name: "七草にちか"
+  brand: sc
+  move: new
+- rank: 7
   name: "徳川まつり"
   brand: ml
   move: down
-- rank: 5
-  name: "宮尾美也"
+- rank: 8
+  name: "高木順二朗"
   brand: ml
   move: new
-- rank: 6
-  name: "上水流宇宙"
-  brand: valiv
-  move: down
-- rank: 7
-  name: "天海春香"
-  brand: as765
-  move: down
-- rank: 8
-  name: "樋口円香"
-  brand: sc
-  move: down
