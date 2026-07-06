@@ -143,6 +143,7 @@
     - sogo-iwsf2026-vol2-stream-july8  # 6/28配信「続報VOL.2 7/8決定」
     - sogo-iwsf2026-22days  # 7/2配信「まで22日・香港/台湾LVチケット発売決定」
     - sogo-iwsf2026-19days  # 7/5配信「まで19日・映画館LV先行抽選本日締切」
+    - sogo-iwsf2026-18days  # 7/6配信「まで18日・映画館LV抽選昨日締切・台湾チケット本日発売」
   notes: "各DAYサブタイトル判明：DAY1-YAKUDOU-・DAY2-ZESSYOU-・DAY3-KYOUMEI-。映画館LV先行抽選は7/5締切済み。立見先着（〜7/19）受付中。続報VOL.2（7/8 20:00〜）で物販等発表予定。海外LV：香港（MCL Telford Cinema、K11 Art House等）チケット7/3 12:00発売、台湾（台北新光威秀、林口三井アウトレット等）チケット7/6 11:00発売、いずれも日本語音声のみ字幕なし。各DAYのセットリストは当日要取材。"
 
 - id: shani-songforprism-karma-naraku-event
@@ -204,6 +205,7 @@
       angle: "閉幕レポ"
   used_in:
     - ml-14thlive-ticket-result  # 7/4配信「本日13:00チケット先行当落発表」
+    - ml-14thlive-goods-deadline  # 7/6配信「イベントグッズ事前販売、昨日23:59締切」
   status: partially-used
   notes: "出演者・タイトル・チケット詳細は6/13生配信後に facts を更新済み。9月の開幕予告・DAY1〜閉幕レポが未消化。"
 
@@ -259,6 +261,7 @@
     - ml-milishita-akihabara-fes-day8  # 7/3配信「本日8日目・シャンパン試飲会18:00〜21:00」
     - ml-milishita-akihabara-fes-day9  # 7/4配信「本日9日目・コトブキヤ店頭後半戦切替」
     - ml-milishita-akihabara-fes-day10  # 7/5配信「本日10日目・スタンプラリー後半戦」
+    - ml-milishita-akihabara-fes-day11  # 7/6配信「本日11日目・最終日まで残り6日」
   notes: "ゲーマーズ整理券6/26〜27の2日間（終了済み）。9周年本番6/29。7/12最終日・7/13閉幕レポ未記事化。シャンパン試飲会6/28（済）・7/3（済）・7/11（土）13:00〜17:00予定。デジタルスタンプラリー8拠点は7/4より後半戦にリスタート、コンプリート賞はあみあみ秋葉原ラジオ会館店で交換。通販限定受注8/7〜。コトブキヤ秋葉原1F店頭展示は7/4より後半戦（我那覇響・萩原雪歩・田中琴葉・豊川風花・真壁瑞希）。"
 
 - id: ml-milishita-karaoke-tetsuji
@@ -457,6 +460,7 @@
   used_in:
     - ml-milishita-invitation-event  # 7/2配信「開催中・新曲解禁」
     - ml-milishita-invitation-halfway  # 7/3配信「7/6折り返し・消費コスト仕様変更予告」
+    - ml-milishita-invitation-halfway-today  # 7/6配信「本日折り返し・消費コスト仕様変更」
   notes: "秋葉原っぱフェスティバルと並行するゲーム内イベント。終了間際・終了翌日の記事化が未消化。"
 
 - id: cg-onestep-yogurt-collab
@@ -514,7 +518,7 @@
   kind: 公式
   event_start: "2026-07-04"
   event_end: "2026-07-05"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-07-02"
   source: "アイドルマスター公式ポータル live_event/cg_musical_dd（2026年6月）"
@@ -533,7 +537,8 @@
     - cg-dereofdead-osaka-tomorrow  # 7/3配信「明日大阪公演開幕予告」
     - cg-dereofdead-osaka-today  # 7/4配信「本日大阪公演開幕」
     - cg-dereofdead-osaka-final  # 7/5配信「本日千秋楽・昼夜2公演」
-  notes: "現地の一般販売等は終了済み。配信・アーカイブは継続受付中。チケット料金：S席17,000円・A席12,000円・見切れ席11,500円。7/6の閉幕レポ（昨日千秋楽の様子まとめ）が未消化。"
+    - cg-dereofdead-osaka-report  # 7/6配信「昨日大阪公演閉幕レポ・アーカイブ配信案内」
+  notes: "現地の一般販売等は終了済み。配信・アーカイブは継続受付中。チケット料金：S席17,000円・A席12,000円・見切れ席11,500円。publish_plan消化済み、statusをdoneに更新。"
 
 - id: valiv-akari-birthday-live-postponed
   title: "vα-liv 灯里愛夏バースデーライブ 振替日程"
@@ -706,3 +711,83 @@
       angle: "始動発表・詳細判明"
   used_in: []
   notes: "開始日・第1弾ユニットが判明次第、event_startを確定させ記事化する。"
+
+- id: gaku-live-tour-shirube
+  title: "学園アイドルマスター LIVE TOUR -標-"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-08-20"
+  event_end: "2026-09-23"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-07-06"
+  source: "アイドルマスター公式ポータル news/01_19178（2026年6〜7月）"
+  facts: |
+    公演日程: 福井8/20(木)・21(金)、福岡9/5(土)・6(日)、岩手9/22(火・祝)・23(水・祝)
+    一般会員2次先行抽選: 6/23 12:00〜7/5 23:59受付、当落発表7/18 13:00〜、入金7/18〜7/22 23:59
+  publish_plan:
+    - on: "2026-07-18"
+      angle: "本日チケット2次先行当落発表"
+    - on: "2026-08-19"
+      angle: "明日福井公演開幕予告"
+    - on: "2026-08-20"
+      angle: "本日福井公演開幕"
+    - on: "2026-09-23"
+      angle: "本日岩手公演千秋楽・ツアー完走"
+  used_in:
+    - gaku-live-tour-shirube-lottery-deadline  # 7/6配信「一般会員2次先行抽選、昨日23:59締切」
+  notes: "出演者・セトリ等の詳細は未取得。当落発表7/18に要追検証。"
+
+- id: sc-maneki-neko-collab-2026
+  title: "アイドルマスター シャイニーカラーズ×カラオケまねきねこ コラボ"
+  brand: sc
+  kind: 公式
+  event_start: "2026-07-14"
+  event_end: "2026-08-30"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-07-06"
+  source: "アイドルマスター公式ポータル news/01_19269 / カラオケまねきねこコラボ特設サイト（2026年7月）"
+  facts: |
+    テーマ: 夏の海辺・水着アイドル
+    登場アイドル: 七草にちか・緋田美琴・斑鳩ルカ・鈴木羽那・郁田はるき
+    内容: ノベルティ付きコラボドリンク、コラボグッズ店舗・通販販売、歌唱キャンペーン
+  publish_plan:
+    - on: "2026-07-13"
+      angle: "明日開催予告（詳細判明していれば）"
+    - on: "2026-07-14"
+      angle: "本日開催"
+    - on: "2026-08-30"
+      angle: "本日最終日"
+  used_in:
+    - sc-maneki-neko-collab  # 7/6配信「7/14よりコラボ開催決定」
+  notes: "詳細メニュー・グッズラインナップは開催が近づいてから要追検証。"
+
+- id: sidem-costume-museum
+  title: "THE IDOLM@STER SideM STAGE COSTUME MUSEUM"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-07-10"
+  event_end: "2026-07-27"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-07-06"
+  source: "アイドルマスター公式ポータル live_event/sidem_stage_costume_museum／news/01_18415、01_19067（2026年6〜7月）"
+  facts: |
+    会場: 渋谷BEAM BEAMギャラリー
+    会期: 2026年7月10日（金）〜27日（月）、7/17（金）は展示替えのため休館
+    開館時間: 平日12:00〜21:30、土日祝10:00〜21:30
+    入場料: 通常2,900円（税込）／グッズ付き8,900円（税込・ブランケット＆チェキ風カード付）
+    内容: SideM初の衣装展。2015〜2025年のライブ衣装約250点展示、全49名の新規描き下ろし等身大パネル、過去ライブ振り返り映像上映
+  publish_plan:
+    - on: "2026-07-09"
+      angle: "明日開幕予告"
+    - on: "2026-07-10"
+      angle: "本日開幕"
+    - on: "2026-07-27"
+      angle: "本日最終日"
+    - on: "2026-07-28"
+      angle: "昨日閉幕レポ"
+  used_in:
+    - sidem-costume-museum-preview  # 7/6配信「7/10より渋谷BEAMで開催決定」
+  notes: "当日券販売も予定。展示替え内容・会場物販の詳細は開催が近づいてから要追検証。"
