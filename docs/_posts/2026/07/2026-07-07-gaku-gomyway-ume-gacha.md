@@ -1,7 +1,7 @@
 ---
 title: "学マス「藤田ことねガシャ」本日10:59終了、後継「花海佑芽ガシャ」11:00より登場"
 edition_date: "2026-07-08"
-slug: gaku-gomyway-yugumi-gacha
+slug: gaku-gomyway-ume-gacha
 brand: gaku
 kind: 公式
 badge: "本日切替"
