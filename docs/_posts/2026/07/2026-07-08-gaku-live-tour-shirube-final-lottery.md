@@ -6,7 +6,7 @@ brand: gaku
 kind: 公式
 badge: "本日当落発表"
 lead: "学園アイドルマスター「LIVE TOUR -標-」のファイナル公演（2026年11月7日・8日、Kアリーナ横浜）は、本日アソビストアプレミアム会員先行（抽選）の当落発表が行われる。"
-source: "アイドルマスター公式ポータル live_event/gkmas_livetour_shirube／アイマスpayのお気持ち表明ブログ／学マスまとめ 攻略 zutapoke.com（2026年6〜7月）"
+source: "アイドルマスター公式ポータル live_event/gkmas_livetour_shirube/information/final.php、/ticket/final.php（2026年6〜7月）"
 tags: [学園アイドルマスター, LIVE TOUR 標, Kアリーナ横浜, チケット]
 ---
 

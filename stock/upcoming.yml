@@ -751,7 +751,7 @@
   used_in:
     - gaku-live-tour-shirube-lottery-deadline  # 7/6配信「一般会員2次先行抽選、昨日23:59締切」
     - gaku-live-tour-shirube-final-lottery  # 7/9配信「ファイナル公演(Kアリーナ横浜11/7・8)プレミアム会員先行当落発表」
-  notes: "出演者・セトリ等の詳細は未取得。一般会員2次先行の当落発表7/18に要追検証。ファイナル公演のチケット価格・出演人数はアイマスpay等の非公式まとめ情報に基づくため、公式発表があり次第要追検証。"
+  notes: "出演者・セトリ等の詳細は未取得。一般会員2次先行の当落発表7/18に要追検証。ファイナル公演のチケット価格・出演人数は公式サイト（live_event/gkmas_livetour_shirube配下）で確認済み。"
 
 - id: sc-maneki-neko-collab-2026
   title: "アイドルマスター シャイニーカラーズ×カラオケまねきねこ コラボ"
