@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-07-10"
+  dateLong: "2026年（令和8年）7月10日　金曜日"
+  pages: "全 16 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "本日矢口美羽誕生日・Starlight Dining・SideM衣装展 同日開幕／秋葉原フェス15日目／昨日DERE of the DEADグッズ受注・IWSF2026海外配信決定／明日ミズノ記念商品発売"
+  indexNote: "本日（7/10）：矢口美羽誕生日（シンデレラガールズ）・ポップアップストア「Starlight Dining」（シンデレラガールズ×学マス）がアトレ川崎で開幕・SideM初の衣装展「STAGE COSTUME MUSEUM」が渋谷BEAMで開幕・20周年記念「Piano Collection」がApple Music・Spotify等で配信開始・高槻やよい「たかつき観光大使」1日駅長グッズが高槻市ふるさと納税返礼品に登場・ミリシタ秋葉原っぱフェスティバル15日目（最終日まで残り2日）／昨日（7/9）：アトレ秋葉原コラボが閉幕・学マス「LIVE TOUR -標-」ファイナル公演グッズ事前販売開始（当落発表の余韻でSNS賑わう）・CINDERELLA GIRLS MUSICAL「DERE of the DEAD」開催記念グッズ受注開始・シンデレラガールズ「Memory Pict.」第4弾（輿水幸子・横山千佳）受注開始・ミリオンライブ「パーソナルパブミラー」にロコ登場・シャニマス「283Birthday Collection」第6弾受注開始・シャニマス「Team.Luna」ちびぐるみがクレーンゲーム稼働開始・IWSF2026の海外向け配信（Stagecrowd、19の国・地域）が決定／継続中：シャニマス283プロソロライブ「Master ShowPiece」グッズ事前販売ファイナル受付中（〜7/12）・学マス×ローソン新コラボグッズ予約受付中（〜8/10）／明日（7/11）：総選挙2026新スポンサー・ミズノスポーツサービスの記念商品発売、フットサルプラザBumBで体験会初日・ミリシタ9周年記念シャンパン試飲会13:00〜17:00・「DERE of the DEAD」振り返りトークラジオ21:00〜配信"
 - date: "2026-07-09"
   dateLong: "2026年（令和8年）7月9日　木曜日"
   pages: "全 10 面"
