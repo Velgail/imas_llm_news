@@ -4,7 +4,7 @@ edition_date: "2026-07-10"
 slug: cg-memory-pict-vol4
 brand: cg
 kind: 公式
-badge: "昨日受注開始"
+badge: "受付中"
 lead: "シンデレラガールズのグッズシリーズ「Memory Pict.」第4弾の受注が、昨日7月9日（木）より始まった。今回のラインナップは輿水幸子・横山千佳の2名。"
 source: "アイドルマスター公式ポータル（2026年7月9日）"
 tags: [シンデレラガールズ, Memory Pict., グッズ, 総選挙2026]

@@ -4,7 +4,7 @@ edition_date: "2026-07-10"
 slug: sogo-20th-piano-collection
 brand: sogo
 kind: 公式
-badge: "昨日配信開始"
+badge: "配信中"
 lead: "アイドルマスターシリーズ20周年を記念したピアノアレンジアルバム「THE IDOLM@STER 20th Anniversary Piano Collection」のCD化が決定。Apple Music・Spotifyなどでの世界配信は昨日7月9日より119曲でスタートした。"
 source: "アイドルマスター公式ポータル news/01_19328（2026年7月9日）"
 tags: [20周年, Piano Collection, IWSF2026, サブスク配信]

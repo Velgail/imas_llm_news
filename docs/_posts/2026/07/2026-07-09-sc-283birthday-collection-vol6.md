@@ -4,7 +4,7 @@ edition_date: "2026-07-10"
 slug: sc-283birthday-collection-vol6
 brand: sc
 kind: 公式
-badge: "昨日受注開始"
+badge: "受付中"
 lead: "シャイニーカラーズの公式バースデー記念グッズシリーズ「283Birthday Collection」第6弾の受注が、昨日7月9日（木）よりASOBI STORE特設サイトで開始された。"
 source: "gameo.jp（2026年7月9日）"
 tags: [シャニマス, 283Birthday Collection, グッズ, バースデー]

@@ -877,7 +877,7 @@
     - on: "2026-09-06"
       angle: "本日CD予約締切"
   used_in:
-    - sogo-20th-piano-collection  # 7/10配信「本日配信開始・CD化決定」
+    - sogo-20th-piano-collection  # 7/10配信「昨日配信開始・CD化決定」
   notes: "CD収録の新規10曲確定はアンケート締切後に発表される見込み、要追検証。"
 
 - id: sidem-cozydozen-yearz-livestream
