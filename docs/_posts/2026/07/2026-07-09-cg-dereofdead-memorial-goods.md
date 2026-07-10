@@ -1,11 +1,11 @@
 ---
-title: "CINDERELLA GIRLS MUSICAL「DERE of the DEAD」、本日開催記念グッズ受注開始"
+title: "CINDERELLA GIRLS MUSICAL「DERE of the DEAD」、昨日開催記念グッズ受注開始"
 edition_date: "2026-07-10"
 slug: cg-dereofdead-memorial-goods
 brand: cg
 kind: 公式
-badge: "本日受注開始"
-lead: "先日大阪公演を終えたCINDERELLA GIRLS MUSICAL「DERE of the DEAD」の開催記念グッズ受注が、本日7月9日（木）12:00よりASOBI STOREで始まった。"
+badge: "昨日受注開始"
+lead: "先日大阪公演を終えたCINDERELLA GIRLS MUSICAL「DERE of the DEAD」の開催記念グッズ受注が、昨日7月9日（木）12:00よりASOBI STOREで始まった。"
 source: "アイドルマスター公式ポータル news/01_19282（2026年7月9日）"
 tags: [シンデレラガールズ, DERE of the DEAD, グッズ, 総選挙2026]
 ---

@@ -1,11 +1,11 @@
 ---
-title: "シャニマス「283Birthday Collection」第6弾、本日受注開始――対象は10・11月生まれ5名"
+title: "シャニマス「283Birthday Collection」第6弾、昨日受注開始――対象は10・11月生まれ5名"
 edition_date: "2026-07-10"
 slug: sc-283birthday-collection-vol6
 brand: sc
 kind: 公式
-badge: "本日受注開始"
-lead: "シャイニーカラーズの公式バースデー記念グッズシリーズ「283Birthday Collection」第6弾の受注が、本日7月9日（木）よりASOBI STORE特設サイトで開始された。"
+badge: "昨日受注開始"
+lead: "シャイニーカラーズの公式バースデー記念グッズシリーズ「283Birthday Collection」第6弾の受注が、昨日7月9日（木）よりASOBI STORE特設サイトで開始された。"
 source: "gameo.jp（2026年7月9日）"
 tags: [シャニマス, 283Birthday Collection, グッズ, バースデー]
 ---

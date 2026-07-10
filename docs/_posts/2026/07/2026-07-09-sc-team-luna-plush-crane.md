@@ -1,11 +1,11 @@
 ---
-title: "シャニマス「Team.Luna」ちびぐるみ、本日よりクレーンゲーム稼働開始"
+title: "シャニマス「Team.Luna」ちびぐるみ、昨日よりクレーンゲーム稼働開始"
 edition_date: "2026-07-10"
 slug: sc-team-luna-plush-crane
 brand: sc
 kind: 公式
-badge: "本日稼働開始"
-lead: "シャイニーカラーズのちびぐるみシリーズ「Team.Luna」が、本日7月9日（木）より全国のオンライン・実店舗クレーンゲームで稼働を開始した。"
+badge: "昨日稼働開始"
+lead: "シャイニーカラーズのちびぐるみシリーズ「Team.Luna」が、昨日7月9日（木）より全国のオンライン・実店舗クレーンゲームで稼働を開始した。"
 source: "gameo.jp / HOBBY Watch（2026年7月）"
 tags: [シャニマス, Team.Luna, ちびぐるみ, クレーンゲーム]
 ---
