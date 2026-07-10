@@ -219,7 +219,7 @@
   kind: 公式
   event_start: "2026-06-26"
   event_end: "2026-07-12"
-  status: pending
+  status: partially-used
   confidence: confirmed
   added: "2026-06-17"
   source: "アイドルマスター ミリオンライブ！シアターデイズ公式 / アイドルマスター公式ポータル"
@@ -268,6 +268,7 @@
     - ml-milishita-akihabara-fes-day11  # 7/6配信「本日11日目・最終日まで残り6日」
     - ml-milishita-akihabara-fes-day12  # 7/7配信「本日12日目・最終日まで残り5日」
     - ml-milishita-akihabara-fes-day13  # 7/8配信「本日13日目・最終日まで残り4日」
+    - ml-milishita-akihabara-fes-day15  # 7/10配信「本日15日目・最終日まで残り2日」
   notes: "ゲーマーズ整理券6/26〜27の2日間（終了済み）。9周年本番6/29。7/12最終日・7/13閉幕レポ未記事化。シャンパン試飲会6/28（済）・7/3（済）・7/11（土）13:00〜17:00予定。デジタルスタンプラリー8拠点は7/4より後半戦にリスタート、コンプリート賞はあみあみ秋葉原ラジオ会館店で交換。通販限定受注8/7〜。コトブキヤ秋葉原1F店頭展示は7/4より後半戦（我那覇響・萩原雪歩・田中琴葉・豊川風花・真壁瑞希）。"
 
 - id: ml-milishita-karaoke-tetsuji
@@ -363,7 +364,8 @@
     - other-starlight-dining-popup-2026  # 6/17配信「開催発表」
     - godo-starlight-dining-goods-limits  # 7/3配信「購入点数上限・特典判明・更新あり」
     - godo-starlight-dining-tomorrow  # 7/9配信「明日7/10アトレ川崎で開幕予告」
-  notes: "中国側の詳細は後日公開予定。明日7/10開幕。"
+    - godo-starlight-dining-today  # 7/10配信「本日アトレ川崎で開幕」
+  notes: "中国側の詳細は後日公開予定。7/20最終日・7/21閉幕レポが未消化。"
 
 - id: gaku-chupachups-ikebukuro
   title: "学マス×チュッパチャプス POP UP STORE（JR池袋駅 南改札前）"
@@ -517,7 +519,8 @@
       angle: "本日サッカー体験会最終日"
   used_in:
     - cg-mizuno-sponsor  # 7/2配信「スポンサー決定」
-  notes: "体験プログラムの会場・応募方法は開催が近づいてから要追検証。"
+    - cg-mizuno-goods-tomorrow  # 7/10配信「明日7/11記念商品発売・フットサル体験会初日予告」
+  notes: "体験プログラムの会場・応募方法は判明済み。7/25・8/1の体験会は未記事化。"
 
 - id: cg-dereofdead-osaka
   title: "CINDERELLA GIRLS MUSICAL「DERE of the DEAD」大阪公演"
@@ -808,7 +811,8 @@
     - sidem-costume-museum-2nd-deadline  # 7/7配信「7/18〜22入場分チケット2次(先着)、昨日23:59締切」
     - sidem-costume-museum-3rd-deadline  # 7/8配信「7/23〜27入場分チケット一般発売(先着)、本日23:59締切」
     - sidem-costume-museum-tomorrow  # 7/9配信「明日7/10渋谷BEAMで開幕予告（当日券情報を含む）」
-  notes: "当日券（2,900円・会場受付、各回終了15分前まで、1人2枚まで）の販売方法が判明。ただし一般発売（先着）で売り切れとなった回は当日券の取り扱いなし（公式サイト注記）。展示替え内容・会場物販の詳細は開催が近づいてから要追検証。入場日ごとのチケット先着受付は7/10〜12(済)・7/13〜16(済)・7/18〜22(済)・7/23〜27(済)の4区分、これで全区分の一般発売(先着)受付が終了。明日7/10開幕。"
+    - sidem-costume-museum-today  # 7/10配信「本日渋谷BEAMで開幕」
+  notes: "当日券（2,900円・会場受付、各回終了15分前まで、1人2枚まで）の販売方法が判明。ただし一般発売（先着）で売り切れとなった回は当日券の取り扱いなし（公式サイト注記）。展示替え内容・会場物販の詳細は開催が近づいてから要追検証。入場日ごとのチケット先着受付は7/10〜12(済)・7/13〜16(済)・7/18〜22(済)・7/23〜27(済)の4区分、これで全区分の一般発売(先着)受付が終了。7/27最終日・7/28閉幕レポが未消化。"
 
 - id: gaku-supergroupies-vol2
   title: "学園アイドルマスター×SuperGroupies コラボ第2弾（腕時計・バッグ・長財布）"
