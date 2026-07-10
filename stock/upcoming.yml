@@ -219,7 +219,7 @@
   kind: 公式
   event_start: "2026-06-26"
   event_end: "2026-07-12"
-  status: pending
+  status: partially-used
   confidence: confirmed
   added: "2026-06-17"
   source: "アイドルマスター ミリオンライブ！シアターデイズ公式 / アイドルマスター公式ポータル"
@@ -268,6 +268,7 @@
     - ml-milishita-akihabara-fes-day11  # 7/6配信「本日11日目・最終日まで残り6日」
     - ml-milishita-akihabara-fes-day12  # 7/7配信「本日12日目・最終日まで残り5日」
     - ml-milishita-akihabara-fes-day13  # 7/8配信「本日13日目・最終日まで残り4日」
+    - ml-milishita-akihabara-fes-day15  # 7/10配信「本日15日目・最終日まで残り2日」
   notes: "ゲーマーズ整理券6/26〜27の2日間（終了済み）。9周年本番6/29。7/12最終日・7/13閉幕レポ未記事化。シャンパン試飲会6/28（済）・7/3（済）・7/11（土）13:00〜17:00予定。デジタルスタンプラリー8拠点は7/4より後半戦にリスタート、コンプリート賞はあみあみ秋葉原ラジオ会館店で交換。通販限定受注8/7〜。コトブキヤ秋葉原1F店頭展示は7/4より後半戦（我那覇響・萩原雪歩・田中琴葉・豊川風花・真壁瑞希）。"
 
 - id: ml-milishita-karaoke-tetsuji
@@ -363,7 +364,8 @@
     - other-starlight-dining-popup-2026  # 6/17配信「開催発表」
     - godo-starlight-dining-goods-limits  # 7/3配信「購入点数上限・特典判明・更新あり」
     - godo-starlight-dining-tomorrow  # 7/9配信「明日7/10アトレ川崎で開幕予告」
-  notes: "中国側の詳細は後日公開予定。明日7/10開幕。"
+    - godo-starlight-dining-today  # 7/10配信「本日アトレ川崎で開幕」
+  notes: "中国側の詳細は後日公開予定。7/20最終日・7/21閉幕レポが未消化。"
 
 - id: gaku-chupachups-ikebukuro
   title: "学マス×チュッパチャプス POP UP STORE（JR池袋駅 南改札前）"
@@ -517,35 +519,8 @@
       angle: "本日サッカー体験会最終日"
   used_in:
     - cg-mizuno-sponsor  # 7/2配信「スポンサー決定」
-  notes: "体験プログラムの会場・応募方法は開催が近づいてから要追検証。"
-
-- id: cg-dereofdead-osaka
-  title: "CINDERELLA GIRLS MUSICAL「DERE of the DEAD」大阪公演"
-  brand: cg
-  kind: 公式
-  event_start: "2026-07-04"
-  event_end: "2026-07-05"
-  status: done
-  confidence: confirmed
-  added: "2026-07-02"
-  source: "アイドルマスター公式ポータル live_event/cg_musical_dd（2026年6月）"
-  facts: |
-    会場: オリックス劇場（大阪）
-    日程: 2026年7月4日（土）・5日（日）
-    配信チケット販売期間: 6月19日12:00〜7月13日18:00（予定）
-    公演オリジナルチケット画像生成可能期間: 6月19日12:00〜8月31日23:59（予定）
-    アーカイブ視聴（コメント付き）: 7月6日18:00〜7月13日23:59
-  publish_plan:
-    - on: "2026-07-04"
-      angle: "本日大阪公演開幕"
-    - on: "2026-07-06"
-      angle: "昨日大阪公演閉幕レポ"
-  used_in:
-    - cg-dereofdead-osaka-tomorrow  # 7/3配信「明日大阪公演開幕予告」
-    - cg-dereofdead-osaka-today  # 7/4配信「本日大阪公演開幕」
-    - cg-dereofdead-osaka-final  # 7/5配信「本日千秋楽・昼夜2公演」
-    - cg-dereofdead-osaka-report  # 7/6配信「昨日大阪公演閉幕レポ・アーカイブ配信案内」
-  notes: "現地の一般販売等は終了済み。配信・アーカイブは継続受付中。チケット料金：S席17,000円・A席12,000円・見切れ席11,500円。publish_plan消化済み、statusをdoneに更新。"
+    - cg-mizuno-goods-tomorrow  # 7/10配信「明日7/11記念商品発売・フットサル体験会初日予告」
+  notes: "体験プログラムの会場・応募方法は判明済み。7/25・8/1の体験会は未記事化。"
 
 - id: valiv-akari-birthday-live-postponed
   title: "vα-liv 灯里愛夏バースデーライブ 振替日程"
@@ -690,16 +665,16 @@
     テーマ: 「瞬間クールに、もっと輝け！」
     会場: マツモトキヨシ・ココカラファイングループ対象店舗
     第1弾: 7月4日（土）開始、対象商品購入で非売品コラボステッカー進呈
-    第2弾: 8月1日（土）開始予定
+    第2弾: 公式サイト（seabreeze-gkmas-cp.jp）では7月27日（月）公開予定と表記（Coming Soon）。旧8月1日説と食い違いあり、要再確認。
     SNSキャンペーン: 「#シーブリーズ学マスコラボ」投稿で抽選30名にオリジナルクリアポスター進呈（7/4〜8/31）
   publish_plan:
-    - on: "2026-07-31"
-      angle: "明日第2弾開始予告"
-    - on: "2026-08-01"
-      angle: "本日第2弾開始"
+    - on: "2026-07-26"
+      angle: "明日第2弾開始予告（日付要再確認）"
+    - on: "2026-07-27"
+      angle: "本日第2弾開始（日付要再確認）"
   used_in:
     - gaku-seabreeze-collab  # 7/5配信「コラボ開催中・ステッカー配布」
-  notes: "第2弾のグッズ内容詳細は8月に近づいてから要追検証。"
+  notes: "第2弾開始日は公式サイト表記で7/27説が浮上（8/1説と食い違い）。開催直前に公式サイトで要再確認。"
 
 - id: sc-project-relight-axe8
   title: "Project \"ReLight\" AXE8（シャニマス全ユニット新ロゴ・新衣装・新曲刷新企画）"
@@ -808,7 +783,8 @@
     - sidem-costume-museum-2nd-deadline  # 7/7配信「7/18〜22入場分チケット2次(先着)、昨日23:59締切」
     - sidem-costume-museum-3rd-deadline  # 7/8配信「7/23〜27入場分チケット一般発売(先着)、本日23:59締切」
     - sidem-costume-museum-tomorrow  # 7/9配信「明日7/10渋谷BEAMで開幕予告（当日券情報を含む）」
-  notes: "当日券（2,900円・会場受付、各回終了15分前まで、1人2枚まで）の販売方法が判明。ただし一般発売（先着）で売り切れとなった回は当日券の取り扱いなし（公式サイト注記）。展示替え内容・会場物販の詳細は開催が近づいてから要追検証。入場日ごとのチケット先着受付は7/10〜12(済)・7/13〜16(済)・7/18〜22(済)・7/23〜27(済)の4区分、これで全区分の一般発売(先着)受付が終了。明日7/10開幕。"
+    - sidem-costume-museum-today  # 7/10配信「本日渋谷BEAMで開幕」
+  notes: "当日券（2,900円・会場受付、各回終了15分前まで、1人2枚まで）の販売方法が判明。ただし一般発売（先着）で売り切れとなった回は当日券の取り扱いなし（公式サイト注記）。展示替え内容・会場物販の詳細は開催が近づいてから要追検証。入場日ごとのチケット先着受付は7/10〜12(済)・7/13〜16(済)・7/18〜22(済)・7/23〜27(済)の4区分、これで全区分の一般発売(先着)受付が終了。7/27最終日・7/28閉幕レポが未消化。"
 
 - id: gaku-supergroupies-vol2
   title: "学園アイドルマスター×SuperGroupies コラボ第2弾（腕時計・バッグ・長財布）"
@@ -880,3 +856,46 @@
   used_in:
     - sc-283pro-msp-presale-final  # 7/9配信「グッズ事前販売ファイナル受付中（〜7/12）」
   notes: "出演者・セトリ等の詳細は未取得。チケット情報は開催が近づいてから要追検証。"
+
+- id: sogo-20th-piano-collection
+  title: "THE IDOLM@STER 20th Anniversary Piano Collection（CD化・収録楽曲アンケート）"
+  brand: sogo
+  kind: 公式
+  event_start: "2026-07-09"
+  event_end: "2026-09-06"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-07-10"
+  source: "アイドルマスター公式ポータル news/01_19328（2026年7月9日）"
+  facts: |
+    内容: 20周年記念ピアノアレンジアルバム。サブスク配信は7/9より119曲で世界配信開始。CD化決定、129曲収録予定（うちCD限定新規アレンジ10曲）
+    収録楽曲アンケート: 候補31曲から6曲を新規アレンジ化。7月12日（日）23:59締切
+    CD予約: ASOBI STORE限定、9月6日（日）締切
+  publish_plan:
+    - on: "2026-07-12"
+      angle: "本日収録楽曲アンケート締切"
+    - on: "2026-09-06"
+      angle: "本日CD予約締切"
+  used_in:
+    - sogo-20th-piano-collection  # 7/10配信「昨日配信開始・CD化決定」
+  notes: "CD収録の新規10曲確定はアンケート締切後に発表される見込み、要追検証。"
+
+- id: sidem-cozydozen-yearz-livestream
+  title: "SideM「Our cozy dozen YearZ!!!!!!!!!!!!」生配信"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-07-17"
+  status: watching
+  confidence: unconfirmed
+  added: "2026-07-10"
+  source: "アイドルマスター公式ポータル news/01_19138（掲載日未確定・要検証）"
+  facts: |
+    予定日時: 2026年7月17日（金）19:00〜（要確認）
+    内容: 詳細未取得
+  publish_plan:
+    - on: "2026-07-16"
+      angle: "明日配信予告（要日程再確認）"
+    - on: "2026-07-17"
+      angle: "本日配信"
+  used_in: []
+  notes: "公式ページ本文がJS描画のため掲載日・詳細内容を直接確認できていない。配信が近づいたら公式サイト・公式SNSで日程を再確認してから記事化する。"
