@@ -500,18 +500,20 @@
   title: "ミズノスポーツサービス 総選挙2026スポンサー企画"
   brand: cg
   kind: 公式
-  event_start: "2026-07-11"
+  event_start: "2026-07-17"
   event_end: "2026-08-01"
   status: partially-used
   confidence: confirmed
   added: "2026-07-02"
-  source: "アイドルマスター公式ポータル news/01_19214（2026年7月）"
+  source: "アイドルマスター公式ポータル news/01_19214（2026年7月、現地HTML直接確認）"
   facts: |
     位置づけ: シンデレラガール総選挙2026の新スポンサー
-    記念商品発売: 2026年7月11日（土）
-    サッカー（フットサル）体験プログラム: フットサルプラザBumBで7/11(土)17:00〜/18:00〜・7/12(日)17:00〜/18:00〜・7/17(金)20:00〜・7/18(土)17:00〜/18:00〜・7/19(日)17:00〜/18:00〜・7/20(月)17:00〜/18:00〜。ミズノフットサルプラザ調布で7/25(土)・26(日)12:00〜。ミズノフットサルプラザ新百合ヶ丘で8/1(土)11:00〜。
+    記念商品発売: 2026年7月17日（金）10:00〜9月30日（水）22:00。投票券に引き換え可能なシリアルコード付き商品あり
+    サッカー（フットサル）体験プログラム: フットサルプラザBumBで7/17(金)20:00〜21:00・7/18(土)17:00〜18:00／18:00〜19:00・7/19(日)17:00〜18:00／18:00〜19:00・7/20(月)17:00〜18:00／18:00〜19:00。ミズノフットサルプラザ調布で7/25(土)・26(日)12:00〜13:00。ミズノフットサルプラザ新百合で8/1(土)11:00〜12:00。
   publish_plan:
-    - on: "2026-07-11"
+    - on: "2026-07-16"
+      angle: "明日記念商品発売・フットサルプラザBumBで体験プログラム初日予告"
+    - on: "2026-07-17"
       angle: "本日記念商品発売・フットサルプラザBumBで体験プログラム初日"
     - on: "2026-07-25"
       angle: "本日サッカー体験会1日目"
@@ -519,8 +521,9 @@
       angle: "本日サッカー体験会最終日"
   used_in:
     - cg-mizuno-sponsor  # 7/2配信「スポンサー決定」
-    - cg-mizuno-goods-tomorrow  # 7/10配信「明日7/11記念商品発売・フットサル体験会初日予告」
-  notes: "体験プログラムの会場・応募方法は判明済み。7/25・8/1の体験会は未記事化。"
+    - cg-mizuno-goods-tomorrow  # 7/10配信「明日7/11記念商品発売・フットサル体験会初日予告」（後日誤りと判明）
+    - cg-mizuno-goods-correction  # 7/11配信「【訂正】発売日は7月17日」
+  notes: "公式サイトの現地HTML確認により、発売日・体験プログラム初日は当初伝えられた7/11ではなく7/17であることが判明（7/11・7/12実施分の記載なし）。7/10配信の記事は誤りだったため7/11配信で訂正済み。7/16「明日」予告・7/17「本日」の記事化が未消化。"
 
 - id: valiv-akari-birthday-live-postponed
   title: "vα-liv 灯里愛夏バースデーライブ 振替日程"
@@ -855,6 +858,7 @@
       angle: "本日千秋楽"
   used_in:
     - sc-283pro-msp-presale-final  # 7/9配信「グッズ事前販売ファイナル受付中（〜7/12）」
+    - sc-283pro-msp-presale-deadline-tomorrow  # 7/11配信「グッズ事前販売ファイナル、明日7/12締切」
   notes: "出演者・セトリ等の詳細は未取得。チケット情報は開催が近づいてから要追検証。"
 
 - id: sogo-20th-piano-collection
@@ -878,6 +882,7 @@
       angle: "本日CD予約締切"
   used_in:
     - sogo-20th-piano-collection  # 7/10配信「昨日配信開始・CD化決定」
+    - sogo-20th-piano-collection-deadline-tomorrow  # 7/11配信「収録楽曲アンケート、明日7/12締切」
   notes: "CD収録の新規10曲確定はアンケート締切後に発表される見込み、要追検証。"
 
 - id: sidem-cozydozen-yearz-livestream
@@ -885,17 +890,92 @@
   brand: sidem
   kind: 公式
   event_start: "2026-07-17"
-  status: watching
-  confidence: unconfirmed
+  status: pending
+  confidence: confirmed
   added: "2026-07-10"
-  source: "アイドルマスター公式ポータル news/01_19138（掲載日未確定・要検証）"
+  source: "アイドルマスター公式ポータル news/01_19138（2026年7月10日更新、現地HTML直接確認）"
   facts: |
-    予定日時: 2026年7月17日（金）19:00〜（要確認）
-    内容: 詳細未取得
+    日時: 2026年7月17日（金）19:00〜（予定）
+    出演: 高塚智人（渡辺みのり役）・比留間俊哉（九十九一希役）・笠間淳（葛之葉雨彦役）・汐谷文康（北村想楽役）
+    内容: キャストによるドラマチックリーディング、9月開催「11th STAGE ～EVER EVER＠FTER～」を見据えた振り返り企画、CDシリーズ「TRANSCENDENT T@LES」総まとめコーナー
+    配信: YouTube Live・ニコニコ生放送の2プラットフォームで実施（URLは公式サイトに掲載）
   publish_plan:
     - on: "2026-07-16"
-      angle: "明日配信予告（要日程再確認）"
+      angle: "明日配信予告"
     - on: "2026-07-17"
       angle: "本日配信"
+  used_in:
+    - sidem-cozydozen-yearz-confirmed  # 7/11配信「生配信7/17 19:00決定、出演者・視聴ページ判明」
+  notes: "出演者・配信プラットフォームは7/10の公式サイト更新で判明済み。"
+
+- id: sc-anisama2026-illumination-stars
+  title: "Animelo Summer Live 2026 -Messenger- シャニマス「illumination STARS」出演"
+  brand: sc
+  kind: 公式
+  event_start: "2026-07-10"
+  event_end: "2026-07-12"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-07-11"
+  source: "幕張メッセ公式イベント情報 / Lisani!「アニサマ2026 第4弾出演アーティスト発表」/ Oricon News（2026年7月）"
+  facts: |
+    イベント名: Animelo Summer Live 2026 -Messenger-（幕張メッセ国際展示場4〜6ホール）
+    開催日程: DAY1 7/10(金) 開場14:00/開演16:00、DAY2 7/11(土) 開場13:00/開演15:00、DAY3 7/12(日) 開場13:00/開演15:00
+    シャニマス出演: 「illumination STARS」（櫻木真乃・風野灯織・八宮めぐる）がDAY3（7/12）に出演。シャニマスとしてアニサマ初出演（2024年）から2年ぶり
+  publish_plan:
+    - on: "2026-07-11"
+      angle: "昨日DAY1開幕、illumination STARSは明日DAY3出演予告"
+    - on: "2026-07-12"
+      angle: "本日DAY3・illumination STARS出演"
+    - on: "2026-07-13"
+      angle: "昨日千秋楽・出演レポ"
+  used_in:
+    - sc-anisama2026-day1  # 7/11配信「昨日DAY1開幕・illumination STARSは明日DAY3出演」
+  notes: "DAY3当日の出演内容・セトリは要追検証。"
+
+- id: sidem-12th-anniversary-hakata-mv
+  title: "SideM12周年記念 JR博多駅前広場MV放映「SUPREME STARS !!!」"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-07-13"
+  event_end: "2026-07-19"
+  status: pending
+  confidence: confirmed
+  added: "2026-07-11"
+  source: "アイドルマスター公式ポータル news/01_19324（2026年7月）"
+  facts: |
+    内容: SideM12周年（7/17）を記念し、JR博多駅前広場の大型ビジョンで全体曲「SUPREME STARS !!!」のMVを放映
+    放映期間: 2026年7月13日（月）〜19日（日）、毎日15:15頃を目安に放映（関連PVも随時放映）
+    ハッシュタグ: #SideM12周年記念広告in博多駅
+  publish_plan:
+    - on: "2026-07-12"
+      angle: "明日放映開始予告"
+    - on: "2026-07-13"
+      angle: "本日放映開始"
+    - on: "2026-07-19"
+      angle: "本日最終日"
+  used_in:
+    - sidem-12th-anniversary-hakata-mv  # 7/11配信「放映決定」
+  notes: "SideM12周年当日（7/17）は生配信「Our cozy dozen YearZ」とも重なる。"
+
+- id: godo-taiwan-manga-expo-25th
+  title: "第25回漫画博覧会（台湾）アイドルマスターシリーズ出展"
+  brand: godo
+  kind: 公式
+  event_start: "2026-07-23"
+  event_end: "2026-07-27"
+  status: pending
+  confidence: confirmed
+  added: "2026-07-11"
+  source: "アイドルマスター公式ポータル news/01_19042、01_19117 / 株式会社トーハン（2026年7月）"
+  facts: |
+    名称: 第25回漫画博覧会（台湾）
+    開催期間: 2026年7月23日（木）〜27日（月）
+    内容: アイドルマスターシリーズが特設ステージにキャスト出演、日本コンテンツエリア「日本館」に出展。斑鳩ルカ（シャニマス）の登場がSNSで告知されている
+  publish_plan:
+    - on: "2026-07-22"
+      angle: "明日開幕予告"
+    - on: "2026-07-23"
+      angle: "本日開幕・ステージ内容判明"
   used_in: []
-  notes: "公式ページ本文がJS描画のため掲載日・詳細内容を直接確認できていない。配信が近づいたら公式サイト・公式SNSで日程を再確認してから記事化する。"
+  notes: "IWSF2026（7/24〜26・東京）と会期が重なる。出演キャスト・ステージ内容の詳細は開催が近づいてから要追検証。"
