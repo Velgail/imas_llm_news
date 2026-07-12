@@ -4,7 +4,7 @@ edition_date: "2026-07-12"
 slug: ml-milishita-akihabara-fes-final-day
 brand: ml
 kind: 公式
-badge: "最終日"
+badge: "本日最終日"
 lead: "ミリシタ9周年記念「9th Anniversary in AKIHABARA〜秋葉原っぱフェスティバル〜」が本日7月12日、6月26日開幕から17日間の会期を終え最終日を迎える。"
 source: "アイドルマスター ミリオンライブ！シアターデイズ公式"
 tags: [ミリシタ, 秋葉原, 9周年]

@@ -4,7 +4,7 @@ edition_date: "2026-07-12"
 slug: other-namco-summer-market-hakuhinkan
 brand: other
 kind: 公式
-badge: "開幕"
+badge: "開催中"
 lead: "パックマン・太鼓の達人・塊魂などナムコ／バンダイナムコの人気IPグッズを集めた「ナムコ ゲームセレクション サマーマーケット」が、昨日7月11日に博品館TOY PARK銀座本店1Fで開幕した。アイドルマスターも参加ブランドの一つ。"
 source: "アイドルマスター公式ポータル news/01_19360"
 tags: [他IP, 博品館]

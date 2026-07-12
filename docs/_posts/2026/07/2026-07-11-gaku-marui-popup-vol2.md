@@ -4,7 +4,7 @@ edition_date: "2026-07-12"
 slug: gaku-marui-popup-vol2
 brand: gaku
 kind: 公式
-badge: "開幕"
+badge: "開催中"
 lead: "学園アイドルマスターのPOP UP SHOP第2弾が、昨日7月11日に有楽町マルイ7Fで開幕した。"
 source: "アイドルマスター公式ポータル news/01_19195"
 tags: [学マス, POP UP SHOP]

@@ -4,7 +4,7 @@ edition_date: "2026-07-12"
 slug: ml-milishita-invitation-final
 brand: ml
 kind: 公式
-badge: "最終日"
+badge: "本日最終日"
 lead: "6月30日0:00から開催のゲーム内イベント「最上級：Invit@tion!」が、本日7月12日23:59をもって13日間の会期を終える。"
 source: "アイドルマスター ミリオンライブ！シアターデイズ公式"
 tags: [ミリシタ, ゲーム内イベント]
