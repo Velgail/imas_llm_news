@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-07-12"
+  dateLong: "2026年（令和8年）7月12日　日曜日"
+  pages: "全 16 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "本日ミリシタ秋葉原フェス最終日・最上級Invit@tion!終了・Piano Collectionアンケート締切・アニサマDAY3にillumination STARS出演・283プロMSPグッズ締切／昨日SMILE BASE CAFEコラボ・REFRAC7IONSちびぐるみクレーン先行・eeo Store新商品・学マス有楽町マルイ第2弾開幕・SideM衣装展DAY2・ナムコサマーマーケット博品館開幕／明日SideM12周年MV博多駅前で放映開始"
+  indexNote: "本日（7/12）：ミリシタ「9th Anniversary in AKIHABARA〜秋葉原っぱフェスティバル〜」が6/26開幕から17日間の会期を終え最終日・デジタルスタンプラリー交換は20:00締切／ゲーム内イベント「最上級：Invit@tion!」が23:59終了、52人分の記念衣装カードのラストスパート／20周年記念「Piano Collection」収録楽曲アンケート23:59締切／Animelo Summer Live 2026 -Messenger- DAY3にシャニマス「illumination STARS」（櫻木真乃・風野灯織・八宮めぐる）が2年ぶりに出演／283プロソロライブ「Master ShowPiece」グッズ事前販売ファイナル23:59締切／昨日（7/11）：シャニマス×SMILE BASE CAFE（池袋・名古屋栄・心斎橋）コラボ開催、浅倉透・樋口円香・福丸小糸・市川雛菜が「スポーティーチャイナ」で登場／シャニマス「PJ: REFRAC7IONS」ちびぐるみのナムコオンラインクレーン先行プレイ開始（Vol.1・2）／シンデレラガールズ「下ツインテール3姉妹」（久川凪・双葉杏・遊佐こずえ）新商品がeeo Store池袋で発売／学園アイドルマスターPOP UP SHOP第2弾が有楽町マルイで開幕、入店制限あり／SideM衣装展「STAGE COSTUME MUSEUM」DAY2、全49人の新規描き下ろしパネル公開／「ナムコ ゲームセレクション サマーマーケット」が博品館TOY PARK銀座本店で開幕（アイマスも参加、〜8/6）／7/10判明：ミリオンライブ14thLIVEのアソビストア一般会員先行（抽選）が7/10 12:00より受付開始（〜7/30、当落発表8/11）、ミリシタ「14thLIVE応援セット」も同日発売・購入者限定サイン入りパネルプレゼント実施中／シンデレラガールズPOP UP「幻夏妖宴市」（百鬼夜行テーマ、東京8/1-16・大阪8/21-9/6）と「旅ろっ！愛知」コラボ（8/1〜27年3/31）の詳細が解禁／明日（7/13）：SideM12周年（7/17）記念MV「SUPREME STARS !!!」がJR博多駅前広場で放映開始（〜7/19）"
 - date: "2026-07-11"
   dateLong: "2026年（令和8年）7月11日　土曜日"
   pages: "全 10 面"
