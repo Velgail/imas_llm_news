@@ -25,6 +25,112 @@
 #   notes: ""
 # ──────────────────────────────────────────────
 
+- id: cg-genka-youen-ichi
+  title: "シンデレラガールズ POP UP SHOP「幻夏妖宴市」（百鬼夜行テーマ）"
+  brand: cg
+  kind: 公式
+  event_start: "2026-08-01"
+  event_end: "2026-09-06"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-07-12"
+  source: "アイドルマスター公式ポータル news/01_19347（2026年7月10日）"
+  facts: |
+    テーマ: 百鬼夜行
+    出演: 鷺沢文香・依田芳乃・白坂小梅・藤原肇（妖怪に扮した描き下ろし）＋ミニキャラ版
+    東京会場: 秋葉原館1F、8月1日（土）〜16日（日）
+    大阪会場: 日本橋店1F、8月21日（金）〜9月6日（日）
+    特典: 対象商品税込2,000円ごとにランダムでポストカード進呈（なくなり次第終了）
+    総選挙2026対象商品: 投票券に引換可能なシリアルコード付き商品あり
+  publish_plan:
+    - on: "2026-07-31"
+      angle: "明日東京会場開幕予告"
+    - on: "2026-08-01"
+      angle: "本日東京会場開幕"
+    - on: "2026-08-16"
+      angle: "本日東京会場最終日"
+    - on: "2026-08-20"
+      angle: "明日大阪会場開幕予告"
+    - on: "2026-08-21"
+      angle: "本日大阪会場開幕"
+    - on: "2026-09-06"
+      angle: "本日大阪会場最終日・全会期終了"
+  used_in:
+    - cg-genka-youen-ichi-details  # 7/12配信「詳細判明」
+  notes: "東京・大阪それぞれの開幕予告・最終日が未消化。"
+
+- id: cg-aichi-nagoya-collab
+  title: "「旅ろっ！愛知」×シンデレラガールズ コラボイベント"
+  brand: cg
+  kind: 公式
+  event_start: "2026-08-01"
+  event_end: "2027-03-31"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-07-12"
+  source: "アイドルマスター公式ポータル news/01_19336（2026年7月10日）/ 特設サイト aichi-platform.com/aichiticket-2026"
+  facts: |
+    名称: 「愛知・名古屋を食べ尽くそう！遊び尽くそう！」
+    開催期間: 2026年8月1日（土）〜2027年3月31日（水）
+    内容: あいちパックンチケット（県内土産・飲食店で利用可）販売／対象商品購入・体験でオリジナルコラボステッカー（全6種）進呈／平日限定のコラボデザイン あいち・なごや周遊観光パスポート販売
+  publish_plan:
+    - on: "2026-07-31"
+      angle: "明日開始予告"
+    - on: "2026-08-01"
+      angle: "本日開始"
+  used_in:
+    - cg-aichi-nagoya-collab-details  # 7/12配信「詳細解禁」
+  notes: "長期コラボのため、開始日以降は大きな進展があった際に随時記事化する。"
+
+- id: sc-refrac7ions-chibi-goods
+  title: "シャニマス「PJ: REFRAC7IONS」ちびぐるみ（ナムコオンラインクレーン／店舗展開）"
+  brand: sc
+  kind: 公式
+  event_start: "2026-07-18"
+  event_end: "2026-12-31"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-07-12"
+  source: "アイドルマスター シャイニーカラーズ公式 / ナムコ オンラインクレーン（2026年7月）"
+  facts: |
+    対象ユニット（6デザイン）: I'm a Cutie Finder／Fumage、The Futari Traveler／Sonic Heart(and Signal)／∑ Desire／緋岸眼スタイル／No 1 Feel Alone
+    オンラインクレーン先行プレイ: Vol.1・2は7月11日10:00開始（済）、Vol.3・4は7月18日、Vol.5・6は7月24日
+    店舗・通販での実物展開: 11月以降（Vol.5・6は12月）
+  publish_plan:
+    - on: "2026-07-18"
+      angle: "本日Vol.3・4先行プレイ開始"
+    - on: "2026-07-24"
+      angle: "本日Vol.5・6先行プレイ開始"
+    - on: "2026-11-01"
+      angle: "実店舗展開開始（時期要確認）"
+  used_in:
+    - sc-refrac7ions-chibi-crane  # 7/12配信「昨日Vol.1・2先行プレイ開始」
+  notes: "実店舗展開の正確な開始日は近づいたら要再確認。"
+
+- id: other-namco-summer-market-hakuhinkan
+  title: "ナムコ ゲームセレクション サマーマーケット in 博品館TOY PARK"
+  brand: other
+  kind: 公式
+  event_start: "2026-07-11"
+  event_end: "2026-08-06"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-07-12"
+  source: "アイドルマスター公式ポータル news/01_19360（2026年7月11日）"
+  facts: |
+    会場: 博品館TOY PARK銀座本店1F
+    参加IP: アイドルマスター、パックマン、太鼓の達人、塊魂、ディグダグ、マッピー、ワンダーモモ、鉄拳、テイルズ オブ 等
+    特典: 対象商品税込2,000円ごとにオリジナルポストカード（全5種）をランダム進呈
+    企画: どんちゃん・パックマンのグリーティング／フォトスポットあり
+  publish_plan:
+    - on: "2026-08-05"
+      angle: "明日最終日予告"
+    - on: "2026-08-06"
+      angle: "本日最終日"
+  used_in:
+    - other-namco-summer-market-hakuhinkan  # 7/12配信「昨日開幕」
+  notes: "アイドルマスター関連の具体的な出展グッズは未取得、要追検証。"
+
 - id: cg-gatamas-niigata-sado
   title: "シンデレラガールズ×新潟市・佐渡市コラボ「がたます」"
   brand: cg
@@ -148,7 +254,7 @@
     - sogo-iwsf2026-18days  # 7/6配信「まで18日・映画館LV抽選昨日締切・台湾チケット本日発売」
     - sogo-iwsf2026-vol2-today  # 7/8配信「続報配信VOL.2、本日20:00より生配信（MC赤羽根健治・ゲスト茅原実里）」
     - sogo-iwsf2026-vol2-report  # 7/9配信「続報配信VOL.2で物販・展示情報も判明（会場限定CD・キッチンカー出店等）」
-  notes: "各DAYサブタイトル判明：DAY1-YAKUDOU-・DAY2-ZESSYOU-・DAY3-KYOUMEI-。映画館LV先行抽選は7/5締切済み。立見先着（〜7/19）受付中。続報VOL.2（7/8 20:00〜、MC赤羽根健治、ゲスト茅原実里、バンナム石田裕亮・勝股春樹）にて会場物販（オリジナルグッズ・会場限定CD1会計3枚まで・カードフォリオ専用販売所）と展示エリア（協賛展示＋キッチンカー出店）が判明。物販の具体的な価格・ラインナップ全容は要追検証。海外LV：香港（MCL Telford Cinema、K11 Art House等）チケット7/3 12:00発売、台湾（台北新光威秀、林口三井アウトレット等）チケット7/6 11:00発売、いずれも日本語音声のみ字幕なし。各DAYのセットリストは当日要取材。"
+  notes: "第25回漫画博覧会（台湾、7/23-27）とも会期が重なる。各DAYサブタイトル判明：DAY1-YAKUDOU-・DAY2-ZESSYOU-・DAY3-KYOUMEI-。映画館LV先行抽選は7/5締切済み。立見先着（〜7/19）受付中。続報VOL.2（7/8 20:00〜、MC赤羽根健治、ゲスト茅原実里、バンナム石田裕亮・勝股春樹）にて会場物販（オリジナルグッズ・会場限定CD1会計3枚まで・カードフォリオ専用販売所）と展示エリア（協賛展示＋キッチンカー出店）が判明。物販の具体的な価格・ラインナップ全容は要追検証。海外LV：香港（MCL Telford Cinema、K11 Art House等）チケット7/3 12:00発売、台湾（台北新光威秀、林口三井アウトレット等）チケット7/6 11:00発売、いずれも日本語音声のみ字幕なし。各DAYのセットリストは当日要取材。"
 
 - id: shani-songforprism-karma-naraku-event
   title: "シャニマス Song for Prism「Karma / Naraku」発売記念イベント"
@@ -196,9 +302,13 @@
     - プロデューサー参加型企画（セトリ・演出の一部をPが決定）
     - チケット先行情報は公式ポータル参照
     - チケット先行受付は6/13〜6/24で終了済み。当落発表は7/4（土）13:00〜
+    - アソビストア一般会員先行（抽選）: 受付7/10(金)12:00〜7/30(木)23:59、当落発表8/11(火･祝)13:00〜、入金8/11〜8/15(土)23:59、1人1公演2枚まで
+    - ミリシタ「14thLIVE応援セット」: 販売期間7/10(金)15:00〜7/18(土)23:59、必要ジュエル有償1,500個/セット。購入者限定でサイン入り等身大パネル（エミリー・徳川まつり・馬場このみ・百瀬莉緒 各1名）が当たるキャンペーンも実施中
   publish_plan:
     - on: "2026-07-04"
       angle: "本日チケット先行当落発表"
+    - on: "2026-08-11"
+      angle: "本日一般会員先行抽選の当落発表"
     - on: "2026-09-18"
       angle: "明日開幕予告"
     - on: "2026-09-19"
@@ -210,8 +320,10 @@
   used_in:
     - ml-14thlive-ticket-result  # 7/4配信「本日13:00チケット先行当落発表」
     - ml-14thlive-goods-deadline  # 7/6配信「イベントグッズ事前販売、昨日23:59締切」
+    - ml-14thlive-general-member-lottery  # 7/12配信「一般会員先行(抽選)7/10より受付開始」
+    - ml-14thlive-support-set-panel-campaign  # 7/12配信「ミリシタ『14thLIVE応援セット』発売・パネルプレゼント」
   status: partially-used
-  notes: "出演者・タイトル・チケット詳細は6/13生配信後に facts を更新済み。9月の開幕予告・DAY1〜閉幕レポが未消化。"
+  notes: "出演者・タイトル・チケット詳細は6/13生配信後に facts を更新済み。一般会員先行の当落発表（8/11）・9月の開幕予告〜閉幕レポが未消化。"
 
 - id: ml-milishita-9th-akihabara-fes
   title: "ミリシタ9周年 9th Anniversary in AKIHABARA 〜秋葉原っぱフェスティバル〜"
@@ -269,7 +381,8 @@
     - ml-milishita-akihabara-fes-day12  # 7/7配信「本日12日目・最終日まで残り5日」
     - ml-milishita-akihabara-fes-day13  # 7/8配信「本日13日目・最終日まで残り4日」
     - ml-milishita-akihabara-fes-day15  # 7/10配信「本日15日目・最終日まで残り2日」
-  notes: "ゲーマーズ整理券6/26〜27の2日間（終了済み）。9周年本番6/29。7/12最終日・7/13閉幕レポ未記事化。シャンパン試飲会6/28（済）・7/3（済）・7/11（土）13:00〜17:00予定。デジタルスタンプラリー8拠点は7/4より後半戦にリスタート、コンプリート賞はあみあみ秋葉原ラジオ会館店で交換。通販限定受注8/7〜。コトブキヤ秋葉原1F店頭展示は7/4より後半戦（我那覇響・萩原雪歩・田中琴葉・豊川風花・真壁瑞希）。"
+    - ml-milishita-akihabara-fes-final-day  # 7/12配信「本日最終日」
+  notes: "ゲーマーズ整理券6/26〜27の2日間（終了済み）。7/13閉幕レポが未消化。9周年本番6/29。7/12最終日・7/13閉幕レポ未記事化。シャンパン試飲会6/28（済）・7/3（済）・7/11（土）13:00〜17:00予定。デジタルスタンプラリー8拠点は7/4より後半戦にリスタート、コンプリート賞はあみあみ秋葉原ラジオ会館店で交換。通販限定受注8/7〜。コトブキヤ秋葉原1F店頭展示は7/4より後半戦（我那覇響・萩原雪歩・田中琴葉・豊川風花・真壁瑞希）。"
 
 - id: ml-milishita-karaoke-tetsuji
   title: "ミリシタ9周年×カラオケの鉄人 SPECIAL COLLABORATION"
@@ -470,7 +583,8 @@
     - ml-milishita-invitation-event  # 7/2配信「開催中・新曲解禁」
     - ml-milishita-invitation-halfway  # 7/3配信「7/6折り返し・消費コスト仕様変更予告」
     - ml-milishita-invitation-halfway-today  # 7/6配信「本日折り返し・消費コスト仕様変更」
-  notes: "秋葉原っぱフェスティバルと並行するゲーム内イベント。終了間際・終了翌日の記事化が未消化。"
+    - ml-milishita-invitation-final  # 7/12配信「本日23:59終了」
+  notes: "秋葉原っぱフェスティバルと並行するゲーム内イベント。終了翌日（7/13）の報酬まとめ記事化が未消化。"
 
 - id: cg-onestep-yogurt-collab
   title: "ワンステップス×「& Yogurt」コラボ"
@@ -840,7 +954,7 @@
   kind: 公式
   event_start: "2026-09-26"
   event_end: "2026-09-27"
-  status: pending
+  status: partially-used
   confidence: confirmed
   added: "2026-07-09"
   source: "アイドルマスター公式ポータル news/01_19262 / gameo.jp（2026年7〜9月）"
@@ -859,6 +973,7 @@
   used_in:
     - sc-283pro-msp-presale-final  # 7/9配信「グッズ事前販売ファイナル受付中（〜7/12）」
     - sc-283pro-msp-presale-deadline-tomorrow  # 7/11配信「グッズ事前販売ファイナル、明日7/12締切」
+    - sc-283pro-msp-presale-deadline-today  # 7/12配信「グッズ事前販売ファイナル、本日23:59締切」
   notes: "出演者・セトリ等の詳細は未取得。チケット情報は開催が近づいてから要追検証。"
 
 - id: sogo-20th-piano-collection
@@ -883,7 +998,8 @@
   used_in:
     - sogo-20th-piano-collection  # 7/10配信「昨日配信開始・CD化決定」
     - sogo-20th-piano-collection-deadline-tomorrow  # 7/11配信「収録楽曲アンケート、明日7/12締切」
-  notes: "CD収録の新規10曲確定はアンケート締切後に発表される見込み、要追検証。"
+    - sogo-20th-piano-collection-survey-deadline  # 7/12配信「本日23:59締切」
+  notes: "CD収録の新規10曲確定はアンケート締切後に発表される見込み、要追検証。CD予約締切は9/6、未消化。"
 
 - id: sidem-cozydozen-yearz-livestream
   title: "SideM「Our cozy dozen YearZ!!!!!!!!!!!!」生配信"
@@ -931,7 +1047,8 @@
       angle: "昨日千秋楽・出演レポ"
   used_in:
     - sc-anisama2026-day1  # 7/11配信「昨日DAY1開幕・illumination STARSは明日DAY3出演」
-  notes: "DAY3当日の出演内容・セトリは要追検証。"
+    - sc-anisama2026-day3-illumination-stars  # 7/12配信「本日DAY3出演」
+  notes: "DAY3当日のセトリ・現地の様子は要追検証。7/13の千秋楽レポが未消化。"
 
 - id: sidem-12th-anniversary-hakata-mv
   title: "SideM12周年記念 JR博多駅前広場MV放映「SUPREME STARS !!!」"
@@ -956,7 +1073,8 @@
       angle: "本日最終日"
   used_in:
     - sidem-12th-anniversary-hakata-mv  # 7/11配信「放映決定」
-  notes: "SideM12周年当日（7/17）は生配信「Our cozy dozen YearZ」とも重なる。"
+    - sidem-hakata-mv-tomorrow  # 7/12配信「明日13日より放映開始予告」
+  notes: "SideM12周年当日（7/17）は生配信「Our cozy dozen YearZ」とも重なる。放映開始（7/13）・最終日（7/19）の記事化が未消化。"
 
 - id: godo-taiwan-manga-expo-25th
   title: "第25回漫画博覧会（台湾）アイドルマスターシリーズ出展"
