@@ -1,4 +1,4 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-07-12 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-07-13 集計
 - rank: 1
   name: "八宮めぐる"
   brand: sc
@@ -6,28 +6,28 @@
 - rank: 2
   name: "櫻木真乃"
   brand: sc
-  move: new
+  move: same
 - rank: 3
-  name: "樋口円香"
-  brand: sc
-  move: new
-- rank: 4
   name: "風野灯織"
   brand: sc
-  move: down
+  move: up
+- rank: 4
+  name: "杜野凛世"
+  brand: sc
+  move: new
 - rank: 5
+  name: "七草にちか"
+  brand: sc
+  move: new
+- rank: 6
   name: "島村卯月"
   brand: cg
   move: down
-- rank: 6
-  name: "久川凪"
-  brand: cg
-  move: new
 - rank: 7
-  name: "徳川まつり"
-  brand: ml
+  name: "氏家むつみ"
+  brand: cg
   move: new
 - rank: 8
-  name: "鷺沢文香"
-  brand: cg
-  move: new
+  name: "徳川まつり"
+  brand: ml
+  move: down

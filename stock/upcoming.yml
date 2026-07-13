@@ -331,7 +331,7 @@
   kind: 公式
   event_start: "2026-06-26"
   event_end: "2026-07-12"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-06-17"
   source: "アイドルマスター ミリオンライブ！シアターデイズ公式 / アイドルマスター公式ポータル"
@@ -382,7 +382,8 @@
     - ml-milishita-akihabara-fes-day13  # 7/8配信「本日13日目・最終日まで残り4日」
     - ml-milishita-akihabara-fes-day15  # 7/10配信「本日15日目・最終日まで残り2日」
     - ml-milishita-akihabara-fes-final-day  # 7/12配信「本日最終日」
-  notes: "ゲーマーズ整理券6/26〜27の2日間（終了済み）。7/13閉幕レポが未消化。9周年本番6/29。7/12最終日・7/13閉幕レポ未記事化。シャンパン試飲会6/28（済）・7/3（済）・7/11（土）13:00〜17:00予定。デジタルスタンプラリー8拠点は7/4より後半戦にリスタート、コンプリート賞はあみあみ秋葉原ラジオ会館店で交換。通販限定受注8/7〜。コトブキヤ秋葉原1F店頭展示は7/4より後半戦（我那覇響・萩原雪歩・田中琴葉・豊川風花・真壁瑞希）。"
+    - ml-milishita-akihabara-fes-closing-report  # 7/13配信「昨日閉幕レポ」
+  notes: "全publish_plan消化済み。ゲーマーズ整理券6/26〜27の2日間（終了済み）。9周年本番6/29。デジタルスタンプラリー交換は7/12 20:00締切。シャンパン・グッズ受注は7/19まで、カラオケの鉄人コラボは8/16まで継続中。コトブキヤ秋葉原1F店頭展示は7/4より後半戦（我那覇響・萩原雪歩・田中琴葉・豊川風花・真壁瑞希）。"
 
 - id: ml-milishita-karaoke-tetsuji
   title: "ミリシタ9周年×カラオケの鉄人 SPECIAL COLLABORATION"
@@ -563,7 +564,7 @@
   kind: 公式
   event_start: "2026-06-30"
   event_end: "2026-07-12"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-07-02"
   source: "gamerch.com / appbank.net / akb48trainee.com（2026年6〜7月）"
@@ -584,7 +585,8 @@
     - ml-milishita-invitation-halfway  # 7/3配信「7/6折り返し・消費コスト仕様変更予告」
     - ml-milishita-invitation-halfway-today  # 7/6配信「本日折り返し・消費コスト仕様変更」
     - ml-milishita-invitation-final  # 7/12配信「本日23:59終了」
-  notes: "秋葉原っぱフェスティバルと並行するゲーム内イベント。終了翌日（7/13）の報酬まとめ記事化が未消化。"
+    - ml-milishita-invitation-final-rewards  # 7/13配信「昨日終了・報酬まとめ」
+  notes: "全publish_plan消化済み。秋葉原っぱフェスティバルと並行するゲーム内イベントとして完走。"
 
 - id: cg-onestep-yogurt-collab
   title: "ワンステップス×「& Yogurt」コラボ"
@@ -868,7 +870,8 @@
       angle: "本日最終日"
   used_in:
     - sc-maneki-neko-collab  # 7/6配信「7/14よりコラボ開催決定」
-  notes: "詳細メニュー・グッズラインナップは開催が近づいてから要追検証。"
+    - sc-maneki-neko-tomorrow  # 7/13配信「明日開催予告」
+  notes: "詳細メニュー・グッズラインナップは開催が近づいてから要追検証。7/14開催当日・8/30最終日の記事化が未消化。"
 
 - id: sidem-costume-museum
   title: "THE IDOLM@STER SideM STAGE COSTUME MUSEUM"
@@ -1030,7 +1033,7 @@
   kind: 公式
   event_start: "2026-07-10"
   event_end: "2026-07-12"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-07-11"
   source: "幕張メッセ公式イベント情報 / Lisani!「アニサマ2026 第4弾出演アーティスト発表」/ Oricon News（2026年7月）"
@@ -1048,7 +1051,8 @@
   used_in:
     - sc-anisama2026-day1  # 7/11配信「昨日DAY1開幕・illumination STARSは明日DAY3出演」
     - sc-anisama2026-day3-illumination-stars  # 7/12配信「本日DAY3出演」
-  notes: "DAY3当日のセトリ・現地の様子は要追検証。7/13の千秋楽レポが未消化。"
+    - sc-anisama2026-finale-report  # 7/13配信「昨日千秋楽・出演レポ」
+  notes: "全publish_plan消化済み。DAY3当日の詳細セトリは公式続報待ち。"
 
 - id: sidem-12th-anniversary-hakata-mv
   title: "SideM12周年記念 JR博多駅前広場MV放映「SUPREME STARS !!!」"
@@ -1074,7 +1078,8 @@
   used_in:
     - sidem-12th-anniversary-hakata-mv  # 7/11配信「放映決定」
     - sidem-hakata-mv-tomorrow  # 7/12配信「明日13日より放映開始予告」
-  notes: "SideM12周年当日（7/17）は生配信「Our cozy dozen YearZ」とも重なる。放映開始（7/13）・最終日（7/19）の記事化が未消化。"
+    - sidem-hakata-mv-today  # 7/13配信「本日放映開始」
+  notes: "SideM12周年当日（7/17）は生配信「Our cozy dozen YearZ」とも重なる。最終日（7/19）の記事化が未消化。"
 
 - id: godo-taiwan-manga-expo-25th
   title: "第25回漫画博覧会（台湾）アイドルマスターシリーズ出展"
