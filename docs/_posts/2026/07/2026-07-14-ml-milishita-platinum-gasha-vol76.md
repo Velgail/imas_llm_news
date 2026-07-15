@@ -5,7 +5,7 @@ slug: ml-milishita-platinum-gasha-vol76
 brand: ml
 kind: 公式
 badge: "開催中"
-lead: "ミリシタのプラチナガシャ「SONG FOR YOU！ガシャ VOL.76」が、昨日7月13日15:00より開催されている。"
+lead: "ミリシタのプラチナガシャ「SONG FOR YOU！ガシャ VOL.76」が、7月13日15:00より開催中だ。"
 source: "ミリシタ公式X（@imasml_theater）"
 tags: [ミリオンライブ, ミリシタ, ガシャ]
 ---
