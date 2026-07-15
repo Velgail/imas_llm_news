@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-07-14 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-07-15 集計
 - rank: 1
-  name: "七草にちか"
-  brand: sc
-  move: up
+  name: "倉本千奈"
+  brand: gaku
+  move: new
 - rank: 2
-  name: "郁田はるき"
-  brand: sc
+  name: "篠澤広"
+  brand: gaku
   move: new
 - rank: 3
-  name: "斑鳩ルカ"
-  brand: sc
+  name: "白石紬"
+  brand: ml
   move: new
 - rank: 4
-  name: "伴田路子"
+  name: "伊吹翼"
   brand: ml
   move: new
 - rank: 5
-  name: "双海亜美"
-  brand: as765
+  name: "冬美旬"
+  brand: sidem
   move: new
 - rank: 6
-  name: "双海真美"
-  brand: as765
+  name: "芹沢あさひ"
+  brand: sc
   move: new
 - rank: 7
-  name: "三浦あずさ"
-  brand: as765
+  name: "黛冬優子"
+  brand: sc
   move: new
 - rank: 8
-  name: "秋月律子"
-  brand: as765
-  move: new
+  name: "伴田路子"
+  brand: ml
+  move: down
