@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-07-16"
+  dateLong: "2026年（令和8年）7月16日　木曜日"
+  pages: "全 11 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "昨日ミリシタ「SPECIAL SOLO RECORDS」52週連続CD完結（秋月律子・ギネス世界記録に挑戦）／シャニマス「No 1 feel alone」CDグッズ通販締切・SideM「Who goes first」Blu-ray発売・学マス標ツアーファイナル一般抽選受付中・vα-liv新ボイス「近未来SFボイス」発売・岡崎泰葉誕生日／IWSF2026、上映館追加・ライブビューイング一般発売は明後日7/18・SideM「SUMMER SPLASH！」明日開幕・「Our cozy dozen YearZ」明日配信・ミズノ記念商品明日発売"
+  indexNote: "昨日（7/15）：ランティスの周年記念楽曲ソロコレクションCD「SPECIAL SOLO RECORDS」が、2025年7月23日から52週連続でリリースしてきた企画を秋月律子（CV：若林直美）の一枚で完結、「音楽アーティストが同一楽曲の異なるバージョンをCDで連続リリースした最多週数」でのギネス世界記録認定を目指す／シャニマス「No 1 feel alone」（杜野凛世・大崎甘奈・福丸小糸・三峰結華）のCD発売記念グッズ通販が23:59で受付終了／SideM「315 Production presents F@NTASTIC BATTLE FES ～Who goes first～」LIVE Blu-rayが発売／学園アイドルマスター「LIVE TOUR -標-」ファイナル公演（Kアリーナ横浜）のアソビストア一般会員先行（抽選）が12:00より受付開始（〜7/26、当落発表8/11）／vα-liv「シチュエーションボイス第十三弾『近未来SFボイス』」（灯里愛夏・上水流宇宙・レトラ）が19:00よりBOOTHで発売開始（〜8/4）／シンデレラガールズ岡崎泰葉が誕生日／公式Webラジオ「CINDERELLA PARTY!」第608回が22:00より配信／IWSF2026（7/24〜26）で、需要増によりDAY2・DAY3のライブビューイング上映館追加が決定、全国映画館での一般発売（先着）は明後日7/18(土)10:00より受付開始（全席指定5,000円）／明日（7/17）：SideM「SUMMER SPLASH！POP UP SHOP」がタワーレコード新宿店で開幕／SideM12周年記念生配信「Our cozy dozen YearZ!!!!!!!!!!!!」が19:00より放送／総選挙2026新スポンサー・ミズノスポーツサービスの記念商品発売とフットサル体験プログラムが初日を迎える"
 - date: "2026-07-15"
   dateLong: "2026年（令和8年）7月15日　水曜日"
   pages: "全 8 面"
