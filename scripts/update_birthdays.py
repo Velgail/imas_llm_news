@@ -46,8 +46,10 @@ def parse_birthdays(ics_text: str, target_yyyymmdd: str) -> list[str]:
     「SideMの12周年記念日」のような周年カウンタ系のイベントは
     ICS 側が年ごとに別々の VEVENT（DTSTART が翌年分も含む）を
     列挙しているため、mmdd だけで突き合わせると翌年分まで誤って
-    ヒットする。年まで含めた完全一致と、mmdd のみの一致の両方を試し、
-    完全一致があればそちらを優先する。
+    ヒットする。SUMMARY に「周年」「記念日」を含むイベントのみ
+    年まで含めた完全一致を要求し、通常のキャラクター誕生日は
+    従来どおり mmdd 一致で採用する（同じICS内で周年イベントと
+    誕生日が同日に重なっても誕生日が無視されないようにするため）。
     """
     events = []  # (dtstart_8digits, summary)
     in_event = False
@@ -73,12 +75,17 @@ def parse_birthdays(ics_text: str, target_yyyymmdd: str) -> list[str]:
             elif line.startswith("DTSTART"):
                 current_dtstart = line
 
-    exact = [summary for dtstart, summary in events if dtstart == target_yyyymmdd]
-    if exact:
-        return exact
-    # 完全一致がない場合のみ、mmdd一致（年をまたぐ毎年恒例の誕生日）にフォールバック
     target_mmdd = target_yyyymmdd[4:8]
-    return [summary for dtstart, summary in events if dtstart[4:8] == target_mmdd]
+    result = []
+    for dtstart, summary in events:
+        if dtstart[4:8] != target_mmdd:
+            continue
+        if "周年" in summary or "記念日" in summary:
+            if dtstart == target_yyyymmdd:
+                result.append(summary)
+        else:
+            result.append(summary)
+    return result
 
 
 def clean_name(raw: str) -> str:
