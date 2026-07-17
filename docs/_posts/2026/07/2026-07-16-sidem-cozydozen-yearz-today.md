@@ -1,0 +1,13 @@
+---
+title: "SideM「Our cozy dozen YearZ!!!!!!!!!!!!」、本日19:00より生配信"
+edition_date: "2026-07-17"
+slug: sidem-cozydozen-yearz-today
+brand: sidem
+kind: 公式
+badge: "本日配信"
+lead: "SideM12周年（本日7月17日）を記念した生配信「Our cozy dozen YearZ!!!!!!!!!!!!」が、本日19:00より放送される。"
+source: "アイドルマスター公式ポータル news/01_19138"
+tags: [SideM, 12周年, 生配信]
+---
+
+出演は高塚智人（渡辺みのり役）・比留間俊哉（九十九一希役）・笠間淳（葛之葉雨彦役）・汐谷文康（北村想楽役）の4名。キャストによるドラマチックリーディングのほか、9月開催の「11th STAGE ～EVER EVER＠FTER～」を見据えた振り返り企画、CDシリーズ「TRANSCENDENT T@LES」の総まとめコーナーが予定されている。配信はYouTube Live・ニコニコ生放送の2プラットフォームで実施される。
