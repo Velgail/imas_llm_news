@@ -39,9 +39,19 @@ def fetch_ics(url: str) -> str:
         return res.read().decode("utf-8", errors="replace")
 
 
-def parse_birthdays(ics_text: str, mmdd: str) -> list[str]:
-    """DTSTART が指定 mmdd の VEVENT から SUMMARY を抽出する。"""
-    names = []
+def parse_birthdays(ics_text: str, target_yyyymmdd: str) -> list[str]:
+    """DTSTART が指定 yyyymmdd と一致する VEVENT から SUMMARY を抽出する。
+
+    毎年のキャラクター誕生日は年に依らず mmdd だけで判定できるが、
+    「SideMの12周年記念日」のような周年カウンタ系のイベントは
+    ICS 側が年ごとに別々の VEVENT（DTSTART が翌年分も含む）を
+    列挙しているため、mmdd だけで突き合わせると翌年分まで誤って
+    ヒットする。SUMMARY に「周年」「記念日」を含むイベントのみ
+    年まで含めた完全一致を要求し、通常のキャラクター誕生日は
+    従来どおり mmdd 一致で採用する（同じICS内で周年イベントと
+    誕生日が同日に重なっても誕生日が無視されないようにするため）。
+    """
+    events = []  # (dtstart_8digits, summary)
     in_event = False
     current_summary = None
     current_dtstart = None
@@ -56,8 +66,8 @@ def parse_birthdays(ics_text: str, mmdd: str) -> list[str]:
             if in_event and current_dtstart and current_summary:
                 # DTSTART;VALUE=DATE:20260605 または DTSTART:20260605 の両方に対応
                 m = re.search(r"(\d{8})", current_dtstart)
-                if m and m.group(1)[4:8] == mmdd:
-                    names.append(current_summary)
+                if m:
+                    events.append((m.group(1), current_summary))
             in_event = False
         elif in_event:
             if line.startswith("SUMMARY"):
@@ -65,7 +75,17 @@ def parse_birthdays(ics_text: str, mmdd: str) -> list[str]:
             elif line.startswith("DTSTART"):
                 current_dtstart = line
 
-    return names
+    target_mmdd = target_yyyymmdd[4:8]
+    result = []
+    for dtstart, summary in events:
+        if dtstart[4:8] != target_mmdd:
+            continue
+        if "周年" in summary or "記念日" in summary:
+            if dtstart == target_yyyymmdd:
+                result.append(summary)
+        else:
+            result.append(summary)
+    return result
 
 
 def clean_name(raw: str) -> str:
@@ -111,9 +131,9 @@ def main():
     else:
         target = datetime.now(JST).date()
 
-    mmdd = target.strftime("%m%d")
+    target_yyyymmdd = target.strftime("%Y%m%d")
     date_str = target.strftime("%Y年%-m月%-d日")
-    print(f"対象日: {target}（mmdd={mmdd}）", file=sys.stderr)
+    print(f"対象日: {target}（yyyymmdd={target_yyyymmdd}）", file=sys.stderr)
 
     seen = set()
     birthdays: list[tuple[str, str]] = []
@@ -122,7 +142,7 @@ def main():
         try:
             print(f"取得中: {url}", file=sys.stderr)
             ics = fetch_ics(url)
-            names = parse_birthdays(ics, mmdd)
+            names = parse_birthdays(ics, target_yyyymmdd)
             for raw_name in names:
                 name = clean_name(raw_name)
                 resolved_brand = brand_from_name(raw_name, brand_key)

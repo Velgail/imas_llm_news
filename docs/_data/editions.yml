@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-07-17"
+  dateLong: "2026年（令和8年）7月17日　金曜日"
+  pages: "全 11 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "本日SideM12周年・結城晴誕生日／SideM「Our cozy dozen YearZ」19:00配信・「SUMMER SPLASH！」タワレコ新宿で開幕・衣装展は展示替えのため休館・11th STAGEチケット2次先行13:00当落発表・博多駅前MV12周年当日／ミズノ記念商品本日発売・フットサル体験初日／明日CG15周年POP UP SHOP in Annivroad開催・IWSF2026ライブビューイング一般発売／昨日ミリシタ大型アップデート"
+  indexNote: "本日（7/17）：THE IDOLM@STER SideMが12周年を迎え、記念生配信「Our cozy dozen YearZ!!!!!!!!!!!!」が19:00より放送／ポップアップショップ「SUMMER SPLASH！POP UP SHOP」がタワーレコード新宿店で開幕（〜7/26）／衣装展「STAGE COSTUME MUSEUM」（渋谷BEAM）は展示替えのため本日休館（明日18日再開）／「11th STAGE ～EVER EVER＠FTER～」チケット2次先行の当落発表が13:00より／JR博多駅前広場の12周年記念MV放映は当日を迎え、19日まで継続／シンデレラガールズ結城晴が誕生日／総選挙2026新スポンサー・ミズノスポーツサービスの記念商品発売とフットサル体験プログラムが初日／昨日（7/16）：ミリシタでバージョン9.0.000への強制アップデートが実施され、装飾アイテム「ピンキーリング」と9周年スペシャルトレーニングが追加、システムフォントも刷新／明日（7/18）：「ヴァイスシュヴァルツpresents シンデレラガールズ15周年記念 POP UP SHOP in Annivroad」が新宿マルイアネックスで開催（〜7/28）／IWSF2026のライブビューイング一般発売（先着）が10:00より受付開始"
 - date: "2026-07-16"
   dateLong: "2026年（令和8年）7月16日　木曜日"
   pages: "全 11 面"
