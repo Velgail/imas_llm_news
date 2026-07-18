@@ -1,10 +1,10 @@
 ---
-title: "シャニマス「shiny, the first REFRAC7IONS \"Still blue\"」現地チケット先行受付が本日開始、DAY1追加出演も判明"
+title: "シャニマス「shiny, the first REFRAC7IONS \"Still blue\"」現地チケット先行受付が昨日開始、DAY1追加出演も判明"
 edition_date: "2026-07-18"
 slug: sc-refrac7ions-stillblue-presale
 brand: sc
 kind: 公式
-badge: "本日先行受付開始"
+badge: "更新あり"
 lead: "12月19日・20日に国立代々木競技場第一体育館で開催されるシャニマスライブ「shiny, the first REFRAC7IONS \"Still blue\"」の現地チケット・ゲーム内先行受付が、昨日15:00より始まった。"
 source: "アイドルマスター公式ポータル news/01_19374"
 tags: [シャイニーカラーズ, REFRAC7IONS, ライブ, チケット]

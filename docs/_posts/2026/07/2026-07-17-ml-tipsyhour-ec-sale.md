@@ -1,10 +1,10 @@
 ---
-title: "ミリオンライブ×BRITISH PUB HUBコラボグッズ、本日よりEC販売開始"
+title: "ミリオンライブ×BRITISH PUB HUBコラボグッズ、昨日よりEC販売開始"
 edition_date: "2026-07-18"
 slug: ml-tipsyhour-ec-sale
 brand: ml
 kind: 公式
-badge: "本日EC販売開始"
+badge: "更新あり"
 lead: "7月12日まで開催されていた「-The TIPSY Hour- THE IDOLM@STER MILLION LIVE! × BRITISH PUB HUB」のコラボグッズが、昨日よりEC販売を開始した。"
 source: "アイドルマスター公式ポータル news/01_19385"
 tags: [ミリオンライブ, コラボ, グッズ]
