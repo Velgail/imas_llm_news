@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-07-17 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-07-18 集計
 - rank: 1
-  name: "結城晴"
-  brand: cg
+  name: "浅倉透"
+  brand: sc
   move: new
 - rank: 2
-  name: "渡辺みのり"
-  brand: sidem
-  move: new
-- rank: 3
-  name: "秋山隼人"
-  brand: sidem
-  move: up
-- rank: 4
-  name: "天海春香"
+  name: "三浦あずさ"
   brand: as765
   move: new
+- rank: 3
+  name: "双海亜美"
+  brand: as765
+  move: new
+- rank: 4
+  name: "秋月律子"
+  brand: as765
+  move: up
 - rank: 5
-  name: "九十九一希"
-  brand: sidem
+  name: "森久保乃々"
+  brand: cg
   move: new
 - rank: 6
-  name: "葛之葉雨彦"
-  brand: sidem
-  move: new
+  name: "結城晴"
+  brand: cg
+  move: down
 - rank: 7
-  name: "北村想楽"
+  name: "渡辺みのり"
   brand: sidem
-  move: new
+  move: down
 - rank: 8
-  name: "秋月律子"
+  name: "天海春香"
   brand: as765
   move: down
