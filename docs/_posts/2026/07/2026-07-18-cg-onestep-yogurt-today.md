@@ -6,7 +6,7 @@ brand: cg
 kind: 公式
 badge: "本日開催"
 lead: "シンデレラガールズのユニット「ワンステップス」（白菊ほたる・関裕美・森久保乃々）と「& Yogurt」のコラボレーションが、本日7月19日より横浜店・大宮店の2店舗限定で開催された。"
-source: "AKB48Group新聞 akb48trainee.com（2026年7月1日）"
+source: "& Yogurt公式サイト（and-yogurt.com）"
 tags: [シンデレラガールズ, ワンステップス, コラボ, & Yogurt]
 ---
 
