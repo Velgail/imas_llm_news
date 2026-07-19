@@ -274,6 +274,8 @@
       angle: "DAY1レポ＆本日DAY2（生バンド）"
     - on: "2026-07-26"
       angle: "DAY2レポ＆本日DAY3（フィナーレ）"
+    - on: "2026-07-19"
+      angle: "立見指定席・ステージサイド席先着、本日23:59締切"
     - on: "2026-07-27"
       angle: "閉幕・20thフィナーレ総括レポ"
   used_in:
@@ -292,6 +294,7 @@
     - sogo-iwsf2026-vol2-report  # 7/9配信「続報配信VOL.2で物販・展示情報も判明（会場限定CD・キッチンカー出店等）」
     - godo-iwsf2026-theater-general-sale  # 7/16配信「一部公演で上映館追加・ライブビューイング一般発売は明後日7/18 10:00〜」
     - sogo-iwsf2026-lottery-result  # 7/18配信「先行抽選、昨日13:00より当落発表・入金受付開始」
+    - sogo-iwsf2026-standby-deadline  # 7/19配信「立見指定席・ステージサイド席先着、本日23:59締切」
   notes: "第25回漫画博覧会（台湾、7/23-27）とも会期が重なる。各DAYサブタイトル判明：DAY1-YAKUDOU-・DAY2-ZESSYOU-・DAY3-KYOUMEI-。映画館LV先行抽選は7/5締切済み、当落発表・入金受付は7/17 13:00〜7/20 21:00。立見先着（〜7/19）受付中。続報VOL.2（7/8 20:00〜、MC赤羽根健治、ゲスト茅原実里、バンナム石田裕亮・勝股春樹）にて会場物販（オリジナルグッズ・会場限定CD1会計3枚まで・カードフォリオ専用販売所）と展示エリア（協賛展示＋キッチンカー出店）が判明。会場限定CD3タイトル（各DAY1曲、SACX-1141〜1143）は7/24発売と判明（7/17発表）。物販の具体的な価格・ラインナップ全容は要追検証。海外LV：香港（MCL Telford Cinema、K11 Art House等）チケット7/3 12:00発売、台湾（台北新光威秀、林口三井アウトレット等）チケット7/6 11:00発売、いずれも日本語音声のみ字幕なし。一般発売（先着）は7/18(土)10:00〜、全席指定5,000円（税込）、キャスト生出演なし・録音撮影禁止と判明。各DAYのセットリストは当日要取材。"
 
 - id: shani-songforprism-karma-naraku-event
@@ -483,7 +486,9 @@
     - ml-milishita-champagne-tomorrow  # 6/25配信「明日受注開始」
     - ml-champagne-today  # 6/26配信「本日受注開始」
     - ml-milishita-champagne-details  # 7/5配信「価格11,000円・ロゼで登場、詳細判明」
-  notes: "7/19受注最終日未記事化。"
+    - ml-milishita-champagne-final  # 7/19配信「本日受注最終日」
+  status: done
+  notes: "全publish_plan消化済み。"
 
 - id: godo-starlight-dining-popup
   title: "ポップアップストア2026 ～Starlight Dining～（シンデレラガールズ＆学マス合同）"
@@ -654,7 +659,9 @@
   used_in:
     - cg-onestep-yogurt-collab  # 7/2配信「コラボ決定」
     - cg-onestep-yogurt-tomorrow  # 7/18配信「明日開催予告」
-  notes: "商品ラインナップ詳細は未取得のまま。7/19「本日開催」の記事化が未消化。"
+    - cg-onestep-yogurt-today  # 7/19配信「本日開催」
+  status: done
+  notes: "商品ラインナップ詳細は未取得のまま。全publish_plan消化済み。"
 
 - id: cg-mizuno-sponsor
   title: "ミズノスポーツサービス 総選挙2026スポンサー企画"
@@ -1140,7 +1147,9 @@
     - sidem-hakata-mv-today  # 7/13配信「本日放映開始」
     - sidem-hakata-mv-anniversary-day  # 7/17配信「12周年当日・放映5日目」
     - sidem-12th-anniversary  # 7/17配信「SideM本日12周年」
-  notes: "SideM12周年当日（7/17）は生配信「Our cozy dozen YearZ」とも重なる。最終日（7/19）の記事化が未消化。"
+    - sidem-hakata-mv-final  # 7/19配信「本日最終日」
+  status: done
+  notes: "SideM12周年当日（7/17）は生配信「Our cozy dozen YearZ」とも重なる。全publish_plan消化済み。"
 
 - id: ml-milishita-9th-post-gacha
   title: "ミリシタ「9th ANNIVERSARY 期間限定SSRカード確定ガシャ」"
@@ -1355,3 +1364,30 @@
   used_in:
     - sc-refrac7ions-stillblue-presale  # 7/18配信「現地チケット先行受付開始・DAY1追加出演判明」
   notes: "出演ユニット・セトリ等の詳細は未取得。追加出演発表が今後も続く可能性あり、判明次第factsを更新。"
+
+- id: cg-achi-village-collab
+  title: "シンデレラガールズ×長野県阿智村「Star Village ACHI」コラボレーション2026"
+  brand: cg
+  kind: 公式
+  event_start: "2026-07-18"
+  event_end: "2026-09-23"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-07-19"
+  source: "GAME Watch（game.watch.impress.co.jp/docs/news/2124547.html） / アイドルマスター公式ポータル news/01_18971・01_19356"
+  facts: |
+    名称: 「アイドルマスター シンデレラガールズ」× Star Village ACHI コラボレーション2026
+    会場: 長野県阿智村 富士見台高原ロープウェイ「ヘブンスそのはら」
+    開催期間: 2026年7月18日（土）〜9月23日（水・祝）
+    内容: アナスタシアによる「夏の星座解説」（屋外会場、毎日20:40〜21:00、無料・天候により変更あり）、山頂NorthBase建物内の等身大パネル展示、来場者への山頂受付でのポストカード配布
+    コラボカフェ: ACHI BASEで営業（アナスタシア・神崎蘭子・高峯のあ・新田美波・前川みくのキャラクターメニュー）
+    グッズ: アクリルカード・缶バッジ・クリアファイル・キーホルダー・ステッカー・パズル・アクリルスタンド・タオルなど20種以上
+    参加キャラクター: アナスタシア・神崎蘭子・高峯のあ・新田美波・前川みく
+  publish_plan:
+    - on: "2026-09-22"
+      angle: "明日最終日予告"
+    - on: "2026-09-23"
+      angle: "本日最終日"
+  used_in:
+    - cg-achi-village-collab  # 7/19配信「昨日開幕」
+  notes: "「日本一の星空」で知られる阿智村での開催。最終日（9/23）の記事化が未消化。"
