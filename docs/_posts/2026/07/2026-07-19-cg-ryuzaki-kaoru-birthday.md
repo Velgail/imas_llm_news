@@ -1,7 +1,7 @@
 ---
 title: "本日誕生日、龍崎薫（シンデレラガールズ）"
 edition_date: "2026-07-20"
-slug: cg-tatsuzaki-kaoru-birthday
+slug: cg-ryuzaki-kaoru-birthday
 brand: cg
 kind: 公式
 badge: "本日誕生日"
