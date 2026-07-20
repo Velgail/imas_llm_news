@@ -10,4 +10,4 @@ source: "PYLON PORT セットリストレポート（pylonport.bandainamcomusicl
 tags: [シャイニーカラーズ, ノクチル, Lantis DAYZ, Shibuya LOVEZ]
 ---
 
-セットリストはM1「いつだって僕らは」、M2「愛しき日々」、M3「シャイノグラフィ」の3曲。前日DAY1にはSideM（W・Café Parade）が出演しており、2日間でShibuya LOVEZの開業を飾る形となった。
+セットリストはM1「いつだって僕らは」、M2「あの花のように」、M3「シャイノグラフィ」の3曲。前日DAY1にはSideM（W・Café Parade）が出演しており、2日間でShibuya LOVEZの開業を飾る形となった。
