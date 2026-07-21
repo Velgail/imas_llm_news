@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-07-21"
+  dateLong: "2026年（令和8年）7月21日　火曜日"
+  pages: "全 14 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "続伸"
+  indexNote: "IWSF2026開幕まで残り3日、総選挙2026ポップアップも本日始動で期待感が高まる"
 - date: "2026-07-20"
   dateLong: "2026年（令和8年）7月20日　月曜日（海の日）"
   pages: "全 10 面"
