@@ -274,6 +274,7 @@
     現地チケット公式リセール受付: 6/27 15:00〜7/20（ASOBI TICKET、DAY1〜3・3DAY通しそれぞれ専用ページ）
     配信チケット: 「通常」DAY1-3各5,500円、現地定点カメラ映像が付く「通常＋全景定点セット」各8,000円、通常保有者限定の「全景定点」単体2,500円。プレゼント用視聴チケットもあり。販売期間7/8〜8/17 18:00、アーカイブ視聴は7/27 18:00〜8/17 23:59
     IWSF会場ブース: あじペン広場に765プロ「dual twin live tour」特設ブース出展（現地紙チケット販売・xRダイジェスト映像放映）
+    KAMISABI出展: あじペン広場でバンダイナムコミュージックライブの音楽ゲーム「KAMISABI」を数量限定販売・体験会実施。「MILLION LIVE!×SideM×SHINY COLORS」楽曲を使った特別体験も一部時間帯で実施（7/21発表）
   publish_plan:
     - on: "2026-07-18"
       angle: "本日ライブビューイング一般発売開始"
@@ -312,6 +313,7 @@
     - godo-iwsf2026-resale-deadline  # 7/20配信「現地チケットの公式リセール受付が本日で終了」
     - godo-iwsf2026-zenkei-teiten  # 7/21配信「配信チケットに全景定点オプション新設」
     - as765-dualtwinlive-iwsf-booth  # 7/21配信「IWSF会場にdual twin liveブース出展決定」
+    - godo-iwsf2026-kamisabi-booth  # 7/22配信「KAMISABI会場出展・合同体験会決定」
   notes: "第25回漫画博覧会（台湾、7/23-27）とも会期が重なる。各DAYサブタイトル判明：DAY1-YAKUDOU-・DAY2-ZESSYOU-・DAY3-KYOUMEI-。映画館LV先行抽選は7/5締切済み、当落発表・入金受付は7/17 13:00〜7/20 21:00。立見先着（〜7/19）受付中。続報VOL.2（7/8 20:00〜、MC赤羽根健治、ゲスト茅原実里、バンナム石田裕亮・勝股春樹）にて会場物販（オリジナルグッズ・会場限定CD1会計3枚まで・カードフォリオ専用販売所）と展示エリア（協賛展示＋キッチンカー出店）が判明。会場限定CD3タイトル（各DAY1曲、SACX-1141〜1143）は7/24発売と判明（7/17発表）。物販の具体的な価格・ラインナップ全容は要追検証。海外LV：香港（MCL Telford Cinema、K11 Art House等）チケット7/3 12:00発売、台湾（台北新光威秀、林口三井アウトレット等）チケット7/6 11:00発売、いずれも日本語音声のみ字幕なし。一般発売（先着）は7/18(土)10:00〜、全席指定5,000円（税込）、キャスト生出演なし・録音撮影禁止と判明。各DAYのセットリストは当日要取材。"
 
 - id: shani-songforprism-karma-naraku-event
@@ -465,7 +467,9 @@
       angle: "本日終了"
   used_in:
     - cg-tokyotower-silky-sparkling-ending-soon  # 7/21配信「明日終了予告」
-  notes: "全国タワーコラボの第一弾。次会場（第二弾）の情報は未発表、判明次第追記する。"
+    - cg-tokyotower-silky-sparkling-final  # 7/22配信「本日最終日」
+  status: done
+  notes: "全国タワーコラボの第一弾。次会場（第二弾）の情報は未発表、判明次第追記する。全publish_plan消化済み。"
 
 - id: gaku-chupachups-ikebukuro
   title: "学マス×チュッパチャプス POP UP STORE（JR池袋駅 南改札前）"
@@ -498,6 +502,99 @@
     - gaku-chupachups-tomorrow  # 7/20配信「明日開幕予告・グッズ詳細判明」
     - gaku-chupachups-today  # 7/21配信「本日開幕」
   notes: "先行通販は6/21締切。7/21の初日は15:00まで事前抽選制。最終日（8/3）の記事化が未消化。"
+
+- id: sc-megashaki-collab-vol7
+  title: "シャニマス×メガシャキ 7年目コラボキャンペーン"
+  brand: sc
+  kind: 公式
+  event_start: "2026-07-21"
+  event_end: "2026-10-21"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-07-22"
+  source: "ハウス食品/アイドルマスター公式ポータル news/01_19314（2026年7月21日）"
+  facts: |
+    アンバサダー: 田中摩美々・黛冬優子・斑鳩ルカ（継続）＋西城樹里・樋口円香（新加入、計5名）
+    開催期間: 2026年7月21日〜10月21日
+    第1期プレゼント企画: 7/21〜8/31、法被・ネックストラップ等各50名（外れても壁紙全12種）
+    その他: Xリポストキャンペーン、ゲーム内ログインボーナス（7/31〜8/31）でメガシャキ関連アイテム配布
+  publish_plan:
+    - on: "2026-08-31"
+      angle: "第1期プレゼント企画・ログインボーナス最終日"
+    - on: "2026-10-21"
+      angle: "本日コラボ終了"
+  used_in:
+    - sc-megashaki-collab-vol7  # 7/22配信「7年目コラボ開始」
+  notes: "第2期以降のプレゼント企画詳細は判明次第追記する。"
+
+- id: sc-natsu-special-live-0728
+  title: "シャニマス生配信 ～君と過ごしたあの夏スペシャル～"
+  brand: sc
+  kind: 公式
+  event_start: "2026-07-28"
+  event_end: "2026-07-28"
+  status: pending
+  confidence: confirmed
+  added: "2026-07-22"
+  source: "アイドルマスター公式ポータル（2026年7月21日発表、gameo.jp/imassc/165185）"
+  facts: |
+    日時: 2026年7月28日（火）19:00〜
+    出演: 礒部花凜（月岡恋鐘役）・永井真里子（西城樹里役）・黒木ほの香（大崎甘奈役）、進行: 高山祐介プロデューサー
+    配信: ニコニコ生放送・YouTube Live（アイドルマスターチャンネル）・enza
+  publish_plan:
+    - on: "2026-07-27"
+      angle: "明日生配信予告"
+    - on: "2026-07-28"
+      angle: "本日生配信"
+  used_in:
+    - sc-natsu-special-live-announce  # 7/22配信「7/28開催決定」
+  notes: "ゲーム最新情報の披露が予想される。配信内容判明後にfactsを更新すること。"
+
+- id: sc-stillness-motion-popup
+  title: "シャニマスPOP UP STORE『Stillness＆Motion』（JOL Collab Store）"
+  brand: sc
+  kind: 公式
+  event_start: "2026-08-07"
+  event_end: "2026-08-16"
+  status: pending
+  confidence: confirmed
+  added: "2026-07-22"
+  source: "アイドルマスター公式ポータル news/01_19345（2026年7月21日）"
+  facts: |
+    会場: MAGNET by SHIBUYA109 5F「JOL Collab Store」
+    開催期間: 2026年8月7日（金）〜8月16日（日）、営業時間10:00〜21:00
+    内容: 新規描き下ろしイラストを使用した新商品、来場特典ノベルティ、同名オンライン販売も並行実施
+    関連: 開催記念の書き下ろし4コマ漫画を公開済み（三峰結華・和泉愛依・霧子ら登場）
+  publish_plan:
+    - on: "2026-08-06"
+      angle: "明日開幕予告"
+    - on: "2026-08-07"
+      angle: "本日開幕"
+    - on: "2026-08-16"
+      angle: "本日最終日"
+  used_in:
+    - sc-stillness-motion-popup-announce  # 7/22配信「開催決定」
+  notes: "商品ラインナップ・ノベルティ詳細は開催が近づいてから要追検証。"
+
+- id: as765-chibigurumi-new
+  title: "765プロ「ちびぐるみ」新作（高槻やよい・水瀬伊織と推測）"
+  brand: as765
+  kind: 公式
+  event_start: "2026-07-23"
+  status: pending
+  confidence: unconfirmed
+  added: "2026-07-22"
+  source: "電撃オンライン dengekionline.com/article/202607/81960（2026年7月21日12:45）"
+  facts: |
+    内容: バンダイスピリッツが765プロダクション所属アイドルの「ちびぐるみ」新作シルエットを7/21公開
+    推測: 髪型等の特徴から高槻やよい・水瀬伊織と推測されているが未確定
+    詳細発表・プレミアムバンダイ予約受付開始: 2026年7月23日
+  publish_plan:
+    - on: "2026-07-23"
+      angle: "本日詳細発表・キャラクター確定"
+  used_in:
+    - as765-chibigurumi-silhouette  # 7/22配信「シルエット公開・23日詳細発表予告」
+  notes: "7/23の詳細発表でキャラクター名・価格・受注期間が判明する見込み、要追検証。"
 
 - id: sidem-passion-challenge-vol09
   title: "SideM P@SSION CHALLENGE Vol.09 Legenders CD発売"
@@ -1103,8 +1200,9 @@
       angle: "明日開幕予告"
     - on: "2026-07-23"
       angle: "本日開幕・ステージ内容判明"
-  used_in: []
-  notes: "IWSF2026（7/24〜26・東京）と会期が重なる。出演キャスト・ステージ内容の詳細は開催が近づいてから要追検証。"
+  used_in:
+    - godo-taiwan-manga-expo-tomorrow  # 7/22配信「明日開幕予告」
+  notes: "IWSF2026（7/24〜26・東京）と会期が重なる。特設イベント「アイに行きマス！in 台湾漫画博覧会」が7/23に台北世界貿易センター1館で開催、シャニマスから斑鳩ルカ役・川口莉奈、緋田美琴役・山根綺が出演予定と判明（ブースはD626-717）。ステージ内容の詳細は開催が近づいてから要追検証。"
 
 - id: gaku-riverava2-gashapon
   title: "学園アイドルマスター リバラバ！2（リバーシブルラバーマスコット第2弾）"
