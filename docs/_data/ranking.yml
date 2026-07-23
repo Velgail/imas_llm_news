@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-07-22 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-07-23 集計
 - rank: 1
   name: "花海咲季"
   brand: gaku
   move: up
 - rank: 2
-  name: "樋口円香"
-  brand: sc
-  move: new
-- rank: 3
-  name: "雨夜燕"
-  brand: gaku
-  move: down
-- rank: 4
-  name: "斑鳩ルカ"
-  brand: sc
-  move: new
-- rank: 5
   name: "高槻やよい"
   brand: as765
+  move: up
+- rank: 3
+  name: "斑鳩ルカ"
+  brand: sc
+  move: up
+- rank: 4
+  name: "舞浜歩"
+  brand: ml
+  move: new
+- rank: 5
+  name: "相馬夏美"
+  brand: cg
   move: new
 - rank: 6
+  name: "水瀬伊織"
+  brand: as765
+  move: new
+- rank: 7
+  name: "葛之葉雨彦"
+  brand: sidem
+  move: new
+- rank: 8
   name: "龍崎薫"
   brand: cg
-  move: down
-- rank: 7
-  name: "双海亜美"
-  brand: as765
-  move: down
-- rank: 8
-  name: "北沢志保"
-  brand: ml
   move: down
