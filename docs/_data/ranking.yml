@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-07-26 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-07-27 集計
 - rank: 1
-  name: "斑鳩ルカ"
-  brand: sc
+  name: "天海春香"
+  brand: as765
   move: up
 - rank: 2
-  name: "藤田ことね"
-  brand: gaku
-  move: new
-- rank: 3
-  name: "如月千早"
-  brand: as765
-  move: down
-- rank: 4
-  name: "花海咲季"
-  brand: gaku
-  move: new
-- rank: 5
-  name: "七草にちか"
-  brand: sc
-  move: new
-- rank: 6
-  name: "最上静香"
-  brand: ml
-  move: down
-- rank: 7
-  name: "島村卯月"
+  name: "新田美波"
   brand: cg
   move: new
-- rank: 8
+- rank: 3
+  name: "高槻やよい"
+  brand: as765
+  move: new
+- rank: 4
+  name: "藤田ことね"
+  brand: gaku
+  move: down
+- rank: 5
+  name: "島村卯月"
+  brand: cg
+  move: up
+- rank: 6
   name: "奥空心白"
   brand: sogo
+  move: up
+- rank: 7
+  name: "斑鳩ルカ"
+  brand: sc
+  move: down
+- rank: 8
+  name: "輿水幸子"
+  brand: cg
   move: new
