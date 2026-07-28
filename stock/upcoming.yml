@@ -280,7 +280,33 @@
     - cg-vote-mission-start  # 7/1配信「投票券ミッション本日12:00開始」
     - cg-vote-mission-checkin-expand  # 7/9配信「チェックインスポットにコッペ亭追加・更新あり」
     - cg-sousenkyo-2026-oneweek  # 7/27配信「投票開始まで残り1週間・チェックインスポット61箇所に」
-  notes: "投票券ミッションは7/1配信で記事化済み。中間発表・結果発表日が未確定。日程が出たら on を絶対日付に更新すること。チェックインスポットは順次追加されるため、新規追加店舗が判明次第「更新あり」で継続記事化する。"
+    - cg-sousenkyo-checkin-apology  # 7/28配信「スポットチェックイン重複取得の不具合を訂正（更新あり）」
+    - cg-daisukinobouquet-mv-tomorrow  # 7/28配信「応援曲第3弾『だいすきのブーケ』MV、明日21:00公開予告」
+  notes: "投票券ミッションは7/1配信で記事化済み。中間発表・結果発表日が未確定。日程が出たら on を絶対日付に更新すること。チェックインスポットは順次追加されるため、新規追加店舗が判明次第「更新あり」で継続記事化する。スポットチェックインミッションで7/1 12:00〜7/9 18:15に重複チェックインによる投票券の複数回獲得が発生し、7/22に是正済み（7/28配信・事実確認済み）。応援楽曲は第1弾「シンデレラNo.1」、第2弾「ROSE ～禁じられた愛～」（7/1発売）に続き、第3弾「だいすきのブーケ」（佐久間まゆ・五十嵐響子・相葉夕美、作詞:磯谷佳江／作曲編曲:賀佐泰洋）のMVが7/29 21:00公開予定（別途cg-daisukinobouquetエントリで管理）。"
+
+- id: cg-daisukinobouquet
+  title: "シンデレラガール総選挙2026 応援楽曲第3弾「だいすきのブーケ」"
+  brand: cg
+  kind: 公式
+  event_start: "2026-07-29"
+  event_end: "2026-07-29"
+  status: pending
+  confidence: confirmed
+  added: "2026-07-28"
+  source: "アイドルマスター シンデレラガールズ【ブランド公式】X告知（https://x.com/imas_CGofficial/status/2080235221333495940）"
+  facts: |
+    曲名: だいすきのブーケ（総選挙2026応援楽曲第3弾）
+    歌唱: 佐久間まゆ・五十嵐響子・相葉夕美
+    作詞: 磯谷佳江　作曲・編曲: 賀佐泰洋
+    MV公開: 2026年7月29日（水）21:00
+  publish_plan:
+    - on: "2026-07-28"
+      angle: "明日21:00 MV公開予告"
+    - on: "2026-07-29"
+      angle: "本日MV公開"
+  used_in:
+    - cg-daisukinobouquet-mv-tomorrow  # 7/28配信「明日21:00公開予告」
+  notes: "7/29配信分「本日公開」が未消化。公開後の反響・歌詞内容等は判明次第追記する。"
 
 - id: iwsf2026
   title: "THE IDOLM@STER 20th Anniversary MORE RE@LITY LIVE IDOL WORLD SUPER FESTIVAL 2026"
@@ -370,7 +396,8 @@
     - godo-iwsf2026-food-stalls  # 7/24配信「会場に『おおはらベーカリー』『冬馬のバターチキンカレーパン』出張販売所」
     - godo-iwsf2026-cheering-ad  # 7/24配信「ファン有志『紫電P』応援広告、本日DAY1にあわせ掲出」（ファン企画）
     - cg-vote2026-election-car-iwsf  # 7/24配信「総選挙2026『選挙カー』、本日よりIWSF2026会場に設置」
-  notes: "全publish_plan消化済み。DAY3「-KYOUMEI-」（コール&レスポンス／20周年フィナーレ）は高槻やよい・日高愛「キラメキラリ」で開幕、765PRO・CG・765MILLIONSTARS・315プロ・283プロ・初星学園・876プロ・Project LUMINOUSの8所属15名が全23曲を披露し、「アイ・クライマックスメドレー」〜天海春香ソロ〜全員参加の最終曲で完走（7/27配信・事実確認済み）。公演後「20周年ありがとうSP」（21:00〜、中村繪里子ほか出演、ニコ生/YouTube/X Live）配信、続報として7/31 19:00 APラウンジ振り返り配信も予告（7/27配信・事実確認済み）。DAY3最後に765プロ×961プロ新ライブ「IDOL ULTIMATE ONCE AND FOR ALL」（2027年7月24-25日・京王アリーナTOKYO）が発表、詳細は別スタックエントリで管理（7/27配信・事実確認済み）。第25回漫画博覧会（台湾、7/23-27）とも会期が重なった。アーカイブ配信は7/27 18:00まで。"
+    - godo-iwsf2026-archive-comment  # 7/28配信「コメント付きアーカイブ配信、昨日18:00より開始」
+  notes: "全publish_plan消化済み。DAY3「-KYOUMEI-」（コール&レスポンス／20周年フィナーレ）は高槻やよい・日高愛「キラメキラリ」で開幕、765PRO・CG・765MILLIONSTARS・315プロ・283プロ・初星学園・876プロ・Project LUMINOUSの8所属15名が全23曲を披露し、「アイ・クライマックスメドレー」〜天海春香ソロ〜全員参加の最終曲で完走（7/27配信・事実確認済み）。公演後「20周年ありがとうSP」（21:00〜、中村繪里子ほか出演、ニコ生/YouTube/X Live）配信、続報として7/31 19:00 APラウンジ振り返り配信も予告（7/27配信・事実確認済み）。DAY3最後に765プロ×961プロ新ライブ「IDOL ULTIMATE ONCE AND FOR ALL」（2027年7月24-25日・京王アリーナTOKYO）が発表、詳細は別スタックエントリで管理（7/27配信・事実確認済み）。第25回漫画博覧会（台湾、7/23-27）とも会期が重なった。コメントなしの最速アーカイブは7/27 18:00まで、以降はコメント付きアーカイブが8/17 23:59まで視聴可能（7/28配信・事実確認済み）。"
 
 - id: shani-songforprism-karma-naraku-event
   title: "シャニマス Song for Prism「Karma / Naraku」発売記念イベント"
@@ -573,14 +600,18 @@
     アンバサダー: 田中摩美々・黛冬優子・斑鳩ルカ（継続）＋西城樹里・樋口円香（新加入、計5名）
     開催期間: 2026年7月21日〜10月21日
     第1期プレゼント企画: 7/21〜8/31、法被・ネックストラップ等各50名（外れても壁紙全12種）
-    その他: Xリポストキャンペーン、ゲーム内ログインボーナス（7/31〜8/31）でメガシャキ関連アイテム配布
+    Xリポストキャンペーン: 7/27〜8/7、@housefoods_nowフォロー＆リポストで抽選100名に500円分QUOカードPay
+    その他: ゲーム内ログインボーナス（7/31〜8/31）でメガシャキ関連アイテム配布
   publish_plan:
+    - on: "2026-08-07"
+      angle: "Xリポストキャンペーン最終日"
     - on: "2026-08-31"
       angle: "第1期プレゼント企画・ログインボーナス最終日"
     - on: "2026-10-21"
       angle: "本日コラボ終了"
   used_in:
     - sc-megashaki-collab-vol7  # 7/22配信「7年目コラボ開始」
+    - sc-megashaki-x-campaign  # 7/28配信「Xリポストキャンペーン、昨日開始」
   notes: "第2期以降のプレゼント企画詳細は判明次第追記する。"
 
 - id: sc-natsu-special-live-0728
@@ -589,7 +620,7 @@
   kind: 公式
   event_start: "2026-07-28"
   event_end: "2026-07-28"
-  status: pending
+  status: done
   confidence: confirmed
   added: "2026-07-22"
   source: "アイドルマスター公式ポータル（2026年7月21日発表、gameo.jp/imassc/165185）"
@@ -605,7 +636,8 @@
   used_in:
     - sc-natsu-special-live-announce  # 7/22配信「7/28開催決定」
     - sc-natsu-special-live-tomorrow  # 7/27配信「明日生配信予告」
-  notes: "ゲーム最新情報の披露が予想される。配信内容判明後にfactsを更新すること。本日配信レポ（7/29配信分）が未消化。"
+    - sc-natsu-special-live-today  # 7/28配信「本日19:00配信」
+  notes: "全publish_plan消化済み。配信内容（新楽曲・水着情報等）が判明した場合は続報として新規stockエントリを起票すること。"
 
 - id: sc-stillness-motion-popup
   title: "シャニマスPOP UP STORE『Stillness＆Motion』（JOL Collab Store）"
@@ -634,25 +666,29 @@
   notes: "商品ラインナップ・ノベルティ詳細は開催が近づいてから要追検証。"
 
 - id: as765-chibigurumi-new
-  title: "765プロ「ちびぐるみ」新作（高槻やよい・水瀬伊織と推測）"
+  title: "765プロ「ちびぐるみ」新作（高槻やよい・水瀬伊織で確定）"
   brand: as765
   kind: 公式
   event_start: "2026-07-23"
   status: done
-  confidence: unconfirmed
+  confidence: confirmed
   added: "2026-07-22"
-  source: "電撃オンライン dengekionline.com/article/202607/81960（2026年7月21日12:45）"
+  source: "電撃オンライン dengekionline.com/article/202607/81960（2026年7月21日12:45）／HOBBY Watch hobby.watch.impress.co.jp/docs/news/2127262.html（2026年7月23日14:08）"
   facts: |
-    内容: バンダイスピリッツが765プロダクション所属アイドルの「ちびぐるみ」新作シルエットを7/21公開
-    推測: 髪型等の特徴から高槻やよい・水瀬伊織と推測されているが未確定
-    詳細発表・プレミアムバンダイ予約受付開始: 2026年7月23日
+    商品名: アイドルマスター ちびぐるみ＆ポーチセット～いつまでもなかよし！～
+    キャラクター: 高槻やよい・水瀬伊織（765プロダクション所属、確定）
+    価格: 各4,950円（税込）
+    予約開始: 2026年7月23日12時よりプレミアムバンダイで受付
+    発送予定: 2027年1月
+    特徴: 2025年10月開催の「高槻やよい・水瀬伊織 twin live『いつまでもなかよし！』」の衣装を立体化。ポーチがセット
   publish_plan:
     - on: "2026-07-23"
       angle: "本日詳細発表・キャラクター確定"
   used_in:
     - as765-chibigurumi-silhouette  # 7/22配信「シルエット公開・23日詳細発表予告」
     - as765-chibigurumi-reservation  # 7/23配信「本日プレミアムバンダイで予約開始」
-  notes: "7/23にプレミアムバンダイで予約受付は開始されたが、キャラクター名の正式発表・価格・受注期間は7/23時点のWeb検索でも確認できず（シルエットからの推測「高槻やよい・水瀬伊織」のまま）。詳細が判明次第、続報として記事化する。"
+    - as765-chibigurumi-yayoi-iori  # 7/28配信「高槻やよい・水瀬伊織で確定と判明（更新あり）」
+  notes: "全publish_plan消化済み。キャラクター名・価格・発送時期はHOBBY Watch記事で確定済み。"
 
 - id: sidem-passion-challenge-vol09
   title: "SideM P@SSION CHALLENGE Vol.09 Legenders CD発売"
@@ -660,22 +696,24 @@
   kind: 公式
   event_start: "2026-07-29"
   event_end: "2026-07-29"
-  status: pending
+  status: partially-used
   confidence: confirmed
   added: "2026-06-17"
-  source: "アイドルマスター SideM 公式 / アソビストア（2026年6月）"
+  source: "アイドルマスター SideM 公式 / アソビストア（2026年6月）／CDJapan商品ページ／Lantis SideM特設サイト"
   facts: |
-    タイトル: SideM P@SSION CHALLENGE Vol.09
-    ユニット: Legenders
+    正式タイトル: THE IDOLM@STER SideM ～P@SSION CHALLENGE We are 315！～ MONTHLY THEME SONG 09 Legenders
+    ユニット: Legenders（葛之葉雨彦 CV.笠間淳／北村想楽 CV.汐谷文康／古論クリス CV.駒田航）
+    型番: LACM-24789　価格: 税込2,200円
     発売日: 2026年7月29日（水）
-    内容: P@SSION CHALLENGEシリーズ第9弾、Legendersの新曲CD
+    内容: ユニット新曲＋各アイドルソロバージョン収録。店舗ごとにLサイズブロマイド・ミニ/ロングフォト・缶バッジ・アクリルコースター・トレカ・ましかくブロマイド等の特典あり
   publish_plan:
     - on: "2026-07-28"
       angle: "明日発売予告"
     - on: "2026-07-29"
       angle: "本日発売"
-  used_in: []
-  notes: "収録曲詳細・発売形態は要確認。"
+  used_in:
+    - sidem-passion-challenge-vol09-tomorrow  # 7/28配信「明日発売予告」
+  notes: "ジャケットビジュアルの詳細は未確認。7/29配信分「本日発売」が未消化。"
 
 - id: ml-million-machida-art-rally
   title: "ミリオンライブ×町田市「#ミリオン町田アートラリー」"
@@ -1079,7 +1117,8 @@
     - sidem-costume-museum-closed  # 7/17配信「本日は展示替えのため休館」
     - sidem-costume-museum-final-tomorrow  # 7/26配信「明日最終日予告」
     - sidem-costume-museum-final  # 7/27配信「本日最終日」
-  notes: "当日券（2,900円・会場受付、各回終了15分前まで、1人2枚まで）の販売方法が判明。ただし一般発売（先着）で売り切れとなった回は当日券の取り扱いなし（公式サイト注記）。7/17は展示替えのため休館、7/18より営業再開。7/27最終日は記事化済み。閉幕レポ（7/28配信分）が未消化。"
+    - sidem-costume-museum-finale  # 7/28配信「昨日閉幕」
+  notes: "全publish_plan消化済み。当日券（2,900円・会場受付、各回終了15分前まで、1人2枚まで）の販売方法が判明。ただし一般発売（先着）で売り切れとなった回は当日券の取り扱いなし（公式サイト注記）。7/17は展示替えのため休館、7/18より営業再開。7/27に閉幕、SideM史上初の衣装展として約250点のライブ衣装・全49名の等身大パネルを展示した。"
 
 - id: gaku-supergroupies-vol2
   title: "学園アイドルマスター×SuperGroupies コラボ第2弾（腕時計・バッグ・長財布）"
