@@ -25,6 +25,98 @@
 #   notes: ""
 # ──────────────────────────────────────────────
 
+- id: gaku-sweetsparadise-deepmarine-enoshima
+  title: "学園アイドルマスター×スイーツパラダイス コラボカフェ「Deep Marine Stage」（江ノ島海の家店・神戸店・広島店）"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-07-01"
+  event_end: "2026-07-30"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-07-29"
+  source: "アイドルマスター公式ポータル news/01_19193（2026年7月）／公式スイーツパラダイス（sweets-paradise.jp/collaboration/gakumasu-umi、gakumasu4th）"
+  facts: |
+    名称: 学園アイドルマスター COLLABORATION CAFE～Deep Marine Stage～
+    開催店舗: スイーツパラダイス江ノ島店（海の家）・CONCEPT CAFE KOBE・CONCEPT CAFE HIROSHIMA（いずれも7/30最終日）。名古屋栄店は7/21で終了済み
+    最終日: 2026年7月30日（木）、江ノ島海の家店は通常より早い15時閉店
+  publish_plan:
+    - on: "2026-07-29"
+      angle: "明日最終日予告"
+    - on: "2026-07-30"
+      angle: "本日最終日"
+  used_in:
+    - gaku-sweetsparadise-enoshima-final-tomorrow  # 7/29配信「明日最終日予告」
+  notes: "本日最終日（7/30）の記事化が未消化。"
+
+- id: godo-tours-second-stage-arcade-launch
+  title: "アーケード版アイマスTOURS「Second Stage」新アイドル・新曲実装（8月6日稼働）"
+  brand: godo
+  kind: 公式
+  event_start: "2026-08-06"
+  status: pending
+  confidence: confirmed
+  added: "2026-07-29"
+  source: "ファミ通.com（famitsu.com/article/202607/82620）／電撃オンライン（dengekionline.com/article/202607/82626）"
+  facts: |
+    稼働開始: 2026年8月6日（木）
+    新規実装アイドル: 菊地真・萩原雪歩（765プロオールスターズ）
+    新楽曲: 「GO MY WAY!!」／TOURSオリジナル楽曲「→→→SP」（歌唱: 天海春香・島村卯月・春日未来・天道輝・櫻木真乃・花海咲季）
+    新要素: 新レアリティ「UR」追加
+    続報: 3人目の新アイドルもシルエットで予告済み、正体は近日発表見込み
+  publish_plan:
+    - on: "2026-08-05"
+      angle: "明日稼働予告"
+    - on: "2026-08-06"
+      angle: "本日稼働開始"
+  used_in:
+    - godo-tours-second-stage-new-idols  # 7/29配信「新アイドル実装判明」
+  notes: "3人目の新アイドルの正体が判明次第factsを更新する。"
+
+- id: sidem-transcendent-tales11
+  title: "SideM TRANSCENDENT T@LES 11 CD発売"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-08-05"
+  event_end: "2026-08-05"
+  status: pending
+  confidence: confirmed
+  added: "2026-07-29"
+  source: "アイドルマスター公式ポータル news/01_19077"
+  facts: |
+    発売日: 2026年8月5日（水）
+    出演: 蒼井享介（CV.山谷祥生）・猫柳キリオ（CV.山下大輝）・秋山隼人（CV.千葉翔也）・大河タケル（CV.寺島惇太）
+    品番: LACM-24771　価格: 税込2,200円
+  publish_plan:
+    - on: "2026-08-04"
+      angle: "明日発売予告"
+    - on: "2026-08-05"
+      angle: "本日発売"
+  used_in: []
+  notes: "発表日時は未確認、判明次第追記する。"
+
+- id: sidem-cfirst-release-event
+  title: "SideM C.FIRST「理由あってリリースイベント」"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-08-08"
+  event_end: "2026-08-08"
+  status: pending
+  confidence: confirmed
+  added: "2026-07-29"
+  source: "アイドルマスター公式ポータル news/01_19076 ／アニメイト特設ページ"
+  facts: |
+    日時: 2026年8月8日（土）2回公演（第一回12:30開場/13:30開演、第二回15:30開場/16:30開演）
+    出演: C.FIRST（一世雄輝(CV.尾崎雄輝)役ほか。役柄: 天音秀明・花園桃太郎・真弓瑛人の3名ユニット）
+    内容: トーク＆ミニライブ
+    参加方法: アニメイト通販での対象商品購入シリアルコード応募（受付は6/12〜6/28で終了済み）
+  publish_plan:
+    - on: "2026-08-07"
+      angle: "明日開催予告"
+    - on: "2026-08-08"
+      angle: "本日開催"
+  used_in: []
+  notes: "SideMでトーク&ミニライブ形式のリリースイベントはST@RTING LINEシリーズ以来11年ぶりとファンの間で話題。C.FIRSTは新アプリ『SideM GROWING STARS』でお披露目された新ユニットとみられ、詳細は要追検証。"
+
 - id: cg-genka-youen-ichi
   title: "シンデレラガールズ POP UP SHOP「幻夏妖宴市」（百鬼夜行テーマ）"
   brand: cg
@@ -290,7 +382,7 @@
   kind: 公式
   event_start: "2026-07-29"
   event_end: "2026-07-29"
-  status: pending
+  status: done
   confidence: confirmed
   added: "2026-07-28"
   source: "アイドルマスター シンデレラガールズ【ブランド公式】X告知（https://x.com/imas_CGofficial/status/2080235221333495940）"
@@ -306,7 +398,8 @@
       angle: "本日MV公開"
   used_in:
     - cg-daisukinobouquet-mv-tomorrow  # 7/28配信「明日21:00公開予告」
-  notes: "7/29配信分「本日公開」が未消化。公開後の反響・歌詞内容等は判明次第追記する。"
+    - cg-daisukinobouquet-mv-today  # 7/29配信「本日21:00公開」
+  notes: "全publish_plan消化済み。公開後の反響・歌詞内容等は判明次第新規stockエントリで追記する。"
 
 - id: iwsf2026
   title: "THE IDOLM@STER 20th Anniversary MORE RE@LITY LIVE IDOL WORLD SUPER FESTIVAL 2026"
@@ -625,9 +718,10 @@
   added: "2026-07-22"
   source: "アイドルマスター公式ポータル（2026年7月21日発表、gameo.jp/imassc/165185）"
   facts: |
-    日時: 2026年7月28日（火）19:00〜
+    日時: 2026年7月28日（火）19:00〜（予定）
     出演: 礒部花凜（月岡恋鐘役）・永井真里子（西城樹里役）・黒木ほの香（大崎甘奈役）、進行: 高山祐介プロデューサー
     配信: ニコニコ生放送・YouTube Live（アイドルマスターチャンネル）・enza
+    【更新】7/28 16:27頃発生の「令和8年熊本地震」（M7.1・最大震度7）を受け、同日配信は中止（imas-db.jp番組表で確認）。振替日程は本稿執筆時点で未発表。
   publish_plan:
     - on: "2026-07-27"
       angle: "明日生配信予告"
@@ -637,7 +731,8 @@
     - sc-natsu-special-live-announce  # 7/22配信「7/28開催決定」
     - sc-natsu-special-live-tomorrow  # 7/27配信「明日生配信予告」
     - sc-natsu-special-live-today  # 7/28配信「本日19:00配信」
-  notes: "全publish_plan消化済み。配信内容（新楽曲・水着情報等）が判明した場合は続報として新規stockエントリを起票すること。"
+    - sc-natsu-special-live-cancelled-earthquake  # 7/29配信「昨日、熊本地震のため中止と判明」
+  notes: "当初のpublish_planは消化済みだったが、当日に地震（令和8年熊本地震）のため配信中止となったことが判明し訂正記事を追加。振替配信の日程が発表され次第、新規stockエントリ（sc-natsu-special-live-makeup等）を起票し配信内容の続報も追う。"
 
 - id: sc-stillness-motion-popup
   title: "シャニマスPOP UP STORE『Stillness＆Motion』（JOL Collab Store）"
@@ -696,7 +791,7 @@
   kind: 公式
   event_start: "2026-07-29"
   event_end: "2026-07-29"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-06-17"
   source: "アイドルマスター SideM 公式 / アソビストア（2026年6月）／CDJapan商品ページ／Lantis SideM特設サイト"
@@ -705,7 +800,8 @@
     ユニット: Legenders（葛之葉雨彦 CV.笠間淳／北村想楽 CV.汐谷文康／古論クリス CV.駒田航）
     型番: LACM-24789　価格: 税込2,200円
     発売日: 2026年7月29日（水）
-    内容: ユニット新曲＋各アイドルソロバージョン収録。店舗ごとにLサイズブロマイド・ミニ/ロングフォト・缶バッジ・アクリルコースター・トレカ・ましかくブロマイド等の特典あり
+    内容: ユニット新曲＋各アイドルソロバージョン収録
+    店舗特典: アニメイト＝ミニ写真＆ロング写真／とらのあな(通販含む)・アソビストア・ゲーマーズ＝L判ブロマイド／Amazon＝缶バッジ／ソフマップ・アニメガ＝アクリルコースター(76mm)／タワーレコード＝L判ブロマイド／TSUTAYA RECORDS＝スクエアブロマイド／楽天ブックス＝トレーディングカード／初回特典＝ユニットメンバー全員分の特製ブロマイド
   publish_plan:
     - on: "2026-07-28"
       angle: "明日発売予告"
@@ -713,7 +809,8 @@
       angle: "本日発売"
   used_in:
     - sidem-passion-challenge-vol09-tomorrow  # 7/28配信「明日発売予告」
-  notes: "ジャケットビジュアルの詳細は未確認。7/29配信分「本日発売」が未消化。"
+    - sidem-passion-challenge-vol09-today  # 7/29配信「本日発売・店舗特典判明」
+  notes: "全publish_plan消化済み。ジャケットビジュアルの詳細は未確認のまま。"
 
 - id: ml-million-machida-art-rally
   title: "ミリオンライブ×町田市「#ミリオン町田アートラリー」"
@@ -747,7 +844,8 @@
     - ml-machida-art-rally-today  # 7/14配信「本日ロコモチーフのドリンク販売など先行企画始動」
     - ml-machida-art-rally-craft-sns  # 7/15配信「工芸作品拡散企画も昨日始動・更新あり」
     - ml-machida-art-rally-umiho-report  # 7/21配信「海の日限定営業のロコドリンクに行列（昨日レポ）」
-  notes: "詳細コース・参加スポット・グッズ等は7月に入ってから要確認。アートラリー本編（7/30〜8/30）とは別に、マンホール設置を記念した喫茶けやきのコラボドリンク販売・工芸作品拡散企画が7/14先行開始（〜8/30・〜8/2）。喫茶けやきは通常月曜定休のため、7/20（海の日）はコラボ期間中唯一営業する月曜日となり盛況。本編の7/29明日開幕予告・7/30本日開幕等は未消化。"
+    - ml-machida-art-rally-tomorrow  # 7/29配信「明日本編開幕予告」
+  notes: "詳細コース・参加スポット・グッズ等は7月に入ってから要確認。アートラリー本編（7/30〜8/30）とは別に、マンホール設置を記念した喫茶けやきのコラボドリンク販売・工芸作品拡散企画が7/14先行開始（〜8/30・〜8/2）。喫茶けやきは通常月曜定休のため、7/20（海の日）はコラボ期間中唯一営業する月曜日となり盛況。本編の7/30本日開幕・8/30最終日・8/31閉幕レポが未消化。"
 
 - id: cg-onestep-yogurt-collab
   title: "ワンステップス×「& Yogurt」コラボ"

@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-07-28 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-07-29 集計
 - rank: 1
-  name: "佐久間まゆ"
-  brand: cg
-  move: new
-- rank: 2
-  name: "高槻やよい"
-  brand: as765
-  move: up
-- rank: 3
-  name: "水瀬伊織"
-  brand: as765
-  move: new
-- rank: 4
-  name: "月岡恋鐘"
+  name: "小宮果穂"
   brand: sc
   move: new
+- rank: 2
+  name: "佐久間まゆ"
+  brand: cg
+  move: down
+- rank: 3
+  name: "月岡恋鐘"
+  brand: sc
+  move: up
+- rank: 4
+  name: "五十嵐響子"
+  brand: cg
+  move: new
 - rank: 5
-  name: "天道輝"
+  name: "葛之葉雨彦"
   brand: sidem
   move: new
 - rank: 6
-  name: "所恵美"
-  brand: ml
+  name: "菊地真"
+  brand: as765
   move: new
 - rank: 7
-  name: "新田美波"
+  name: "相葉夕美"
   brand: cg
-  move: down
+  move: new
 - rank: 8
-  name: "輿水幸子"
-  brand: cg
+  name: "高槻やよい"
+  brand: as765
   move: down
