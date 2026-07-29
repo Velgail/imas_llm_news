@@ -26,7 +26,7 @@
 # ──────────────────────────────────────────────
 
 - id: gaku-sweetsparadise-deepmarine-enoshima
-  title: "学園アイドルマスター×スイーツパラダイス コラボカフェ「Deep Marine Stage」（江ノ島海の家店・神戸店・広島店）"
+  title: "学園アイドルマスター×スイーツパラダイス コラボカフェ「Deep Marine Stage」（江ノ島海の家店・神戸店）"
   brand: gaku
   kind: 公式
   event_start: "2026-07-01"
@@ -37,7 +37,7 @@
   source: "アイドルマスター公式ポータル news/01_19193（2026年7月）／公式スイーツパラダイス（sweets-paradise.jp/collaboration/gakumasu-umi、gakumasu4th）"
   facts: |
     名称: 学園アイドルマスター COLLABORATION CAFE～Deep Marine Stage～
-    開催店舗: スイーツパラダイス江ノ島店（海の家）・CONCEPT CAFE KOBE・CONCEPT CAFE HIROSHIMA（いずれも7/30最終日）。名古屋栄店は7/21で終了済み
+    開催店舗: スイーツパラダイス江ノ島店（海の家）・CONCEPT CAFE KOBE（いずれも7/30最終日）。名古屋栄店・CONCEPT CAFE HIROSHIMAは7/21で終了済み
     最終日: 2026年7月30日（木）、江ノ島海の家店は通常より早い15時閉店
   publish_plan:
     - on: "2026-07-29"
