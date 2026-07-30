@@ -1,11 +1,11 @@
 ---
-title: "学マス「ESPRESTO」姫崎莉波プライズフィギュア、本日より登場"
+title: "学マス「ESPRESTO」姫崎莉波プライズフィギュア、昨日より登場開始"
 edition_date: "2026-07-30"
 slug: gaku-espresto-himesaki-riha
 brand: gaku
 kind: 公式
-badge: "本日登場"
-lead: "学園アイドルマスターのプライズフィギュア「ESPRESTO-Sheer frills-姫崎莉波」が、本日7月30日より全国のゲームセンター等で順次登場する。"
+badge: "登場中"
+lead: "学園アイドルマスターのプライズフィギュア「ESPRESTO-Sheer frills-姫崎莉波」が、昨日7月29日より全国のゲームセンター等で順次登場を開始した。"
 source: "bsp-prize.jp（bsp-prize.jp/item/2822801）／HOBBY Watch（hobby.watch.impress.co.jp/docs/news/2120074.html）"
 tags: [学園アイドルマスター, 姫崎莉波, プライズフィギュア]
 ---
