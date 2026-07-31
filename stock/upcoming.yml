@@ -64,7 +64,7 @@
     新楽曲: 「GO MY WAY!!」／TOURSオリジナル楽曲「→→→SP」（歌唱: 天海春香・島村卯月・春日未来・天道輝・櫻木真乃・花海咲季）
     新要素: 新レアリティ「UR」追加
     続報: 3人目の新アイドルもシルエットで予告済み、正体は近日発表見込み
-    新曲先行配信: 「→→→SP」は7/30 16:00よりMVとともに先行配信開始（ゲーム内実装は8/6）
+    新曲先行配信: 「→→→SP」は7/28 0:00より音楽配信サービスで先行配信開始・MVも公開（ゲーム内実装は8/6）
   publish_plan:
     - on: "2026-08-05"
       angle: "明日稼働予告"
@@ -72,7 +72,7 @@
       angle: "本日稼働開始"
   used_in:
     - godo-tours-second-stage-new-idols  # 7/29配信「新アイドル実装判明」
-    - sogo-tours-new-song-sp  # 7/31配信「新曲「→→→SP」昨日より先行配信」
+    - sogo-tours-new-song-sp  # 7/31配信「新曲「→→→SP」7/28より先行配信中と判明」
   notes: "3人目の新アイドルの正体が判明次第factsを更新する。"
 
 - id: sidem-transcendent-tales11
@@ -145,7 +145,7 @@
   title: "シンデレラガールズ全国タワーコラボ第二弾「Silky Sparkling Summer Stage」（仙台アエル）"
   brand: cg
   kind: 公式
-  event_start: "2026-08-01"
+  event_start: "2026-07-31"
   event_end: "2026-08-02"
   status: partially-used
   confidence: confirmed
@@ -153,17 +153,15 @@
   source: "アイドルマスター公式ポータル news/01_19468 / 特設サイト（colabtokyo.hp.peraichi.com/cinderellagirls2026_sendai）"
   facts: |
     会場: 仙台アエル
-    会期: 2026年8月1日（土）〜2日（日）（一部情報で7/31〜との表記もあり、要現地確認）
+    会期: 2026年7月31日（金）〜8月2日（日）（特設サイトで確認済み）
     背景: 全国タワーコラボ第一弾（東京タワー、7/3〜22、渋谷凛・砂塚あきら・速水奏・久川颯・森久保乃々・諸星きらり）に続く第二弾
     出演メンバー・展示内容: 未発表（続報待ち）
   publish_plan:
-    - on: "2026-08-01"
-      angle: "本日開幕"
     - on: "2026-08-02"
       angle: "本日千秋楽"
   used_in:
-    - cg-sendai-tower-tour-tomorrow  # 7/31配信「明日8月1日開幕予告」
-  notes: "出演メンバー詳細が判明次第factsを更新する。"
+    - cg-sendai-tower-tour-today  # 7/31配信「本日開幕」
+  notes: "出演メンバー詳細が判明次第factsを更新する。会期は7/31開幕と特設サイトで確認済み（当初8/1開幕と誤認していたため訂正）。"
 
 - id: as765-hoshii-miki-korea-live
   title: "星井美希 海外ライブ第2弾「THE FUTURE SPOTLIGHT」in KOREA"
