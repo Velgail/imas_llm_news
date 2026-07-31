@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-07-30 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-07-31 集計
 - rank: 1
   name: "佐久間まゆ"
   brand: cg
   move: up
 - rank: 2
+  name: "橘ありす"
+  brand: cg
+  move: new
+- rank: 3
   name: "五十嵐響子"
   brand: cg
-  move: up
-- rank: 3
-  name: "相葉夕美"
-  brand: cg
-  move: up
+  move: down
 - rank: 4
-  name: "城ヶ崎莉嘉"
-  brand: cg
+  name: "星井美希"
+  brand: as765
   move: new
 - rank: 5
-  name: "姫崎莉波"
-  brand: gaku
-  move: new
+  name: "相葉夕美"
+  brand: cg
+  move: down
 - rank: 6
-  name: "徳川まつり"
-  brand: ml
+  name: "一ノ瀬志希"
+  brand: cg
   move: new
 - rank: 7
-  name: "伴田路子"
-  brand: ml
+  name: "宮本フレデリカ"
+  brand: cg
   move: new
 - rank: 8
-  name: "有村麻央"
-  brand: gaku
-  move: new
+  name: "徳川まつり"
+  brand: ml
+  move: down

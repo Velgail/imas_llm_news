@@ -64,6 +64,7 @@
     新楽曲: 「GO MY WAY!!」／TOURSオリジナル楽曲「→→→SP」（歌唱: 天海春香・島村卯月・春日未来・天道輝・櫻木真乃・花海咲季）
     新要素: 新レアリティ「UR」追加
     続報: 3人目の新アイドルもシルエットで予告済み、正体は近日発表見込み
+    新曲先行配信: 「→→→SP」は7/30 16:00よりMVとともに先行配信開始（ゲーム内実装は8/6）
   publish_plan:
     - on: "2026-08-05"
       angle: "明日稼働予告"
@@ -71,6 +72,7 @@
       angle: "本日稼働開始"
   used_in:
     - godo-tours-second-stage-new-idols  # 7/29配信「新アイドル実装判明」
+    - sogo-tours-new-song-sp  # 7/31配信「新曲「→→→SP」昨日より先行配信」
   notes: "3人目の新アイドルの正体が判明次第factsを更新する。"
 
 - id: sidem-transcendent-tales11
@@ -118,6 +120,76 @@
   used_in: []
   notes: "SideMでトーク&ミニライブ形式のリリースイベントはST@RTING LINEシリーズ以来11年ぶりとファンの間で話題。C.FIRSTは新アプリ『SideM GROWING STARS』でお披露目された新ユニットとみられ、詳細は要追検証。"
 
+- id: cg-anideal-shampoo
+  title: "一ノ瀬志希・宮本フレデリカ プロデュース Anidealシャンプー＆ボディソープセット"
+  brand: cg
+  kind: 公式
+  event_start: "2026-07-30"
+  event_end: "2026-08-28"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-07-31"
+  source: "アイドルマスター公式ポータル news/01_19463"
+  facts: |
+    内容: 2in1シャンプー＆ボディソープ（一ノ瀬志希「アヤしい薔薇の香り」・宮本フレデリカ「き・ま・ぐ・れ☆フルーツの香り」）、描き下ろしタオル付き。アクリルスタンド・缶バッジも同時発売
+    受注期間: 2026年7月30日12:00〜8月28日14:59
+    お届け: 12月中旬以降予定
+  publish_plan:
+    - on: "2026-08-28"
+      angle: "本日受注最終日"
+  used_in:
+    - cg-anideal-shampoo  # 7/31配信「昨日より受注開始」
+  notes: "受注最終日（8/28）の記事化が未消化。"
+
+- id: cg-sendai-tower-tour
+  title: "シンデレラガールズ全国タワーコラボ第二弾「Silky Sparkling Summer Stage」（仙台アエル）"
+  brand: cg
+  kind: 公式
+  event_start: "2026-08-01"
+  event_end: "2026-08-02"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-07-31"
+  source: "アイドルマスター公式ポータル news/01_19468 / 特設サイト（colabtokyo.hp.peraichi.com/cinderellagirls2026_sendai）"
+  facts: |
+    会場: 仙台アエル
+    会期: 2026年8月1日（土）〜2日（日）（一部情報で7/31〜との表記もあり、要現地確認）
+    背景: 全国タワーコラボ第一弾（東京タワー、7/3〜22、渋谷凛・砂塚あきら・速水奏・久川颯・森久保乃々・諸星きらり）に続く第二弾
+    出演メンバー・展示内容: 未発表（続報待ち）
+  publish_plan:
+    - on: "2026-08-01"
+      angle: "本日開幕"
+    - on: "2026-08-02"
+      angle: "本日千秋楽"
+  used_in:
+    - cg-sendai-tower-tour-tomorrow  # 7/31配信「明日8月1日開幕予告」
+  notes: "出演メンバー詳細が判明次第factsを更新する。"
+
+- id: as765-hoshii-miki-korea-live
+  title: "星井美希 海外ライブ第2弾「THE FUTURE SPOTLIGHT」in KOREA"
+  brand: as765
+  kind: 公式
+  event_start: "2026-08-09"
+  event_end: "2026-08-09"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-07-31"
+  source: "アイドルマスター公式ポータル news/01_19478"
+  facts: |
+    会場: Gabin Art Hall（韓国・ソウル）
+    日程: 2026年8月9日（日）
+    背景: 音楽フェス「KIMCHIKURA Fes '26」出演記念の単独公演。海外ライブ第2弾
+    チケット: 先着販売、7/30 19:00〜開始
+    配信: 予定なし（現地のみ）
+  publish_plan:
+    - on: "2026-08-08"
+      angle: "明日開催予告"
+    - on: "2026-08-09"
+      angle: "本日開催"
+  used_in:
+    - as765-hoshii-miki-korea-live  # 7/31配信「昨日新発表・韓国開催決定」
+  notes: "セトリ・その他出演等の詳細は未取得、要追検証。"
+
 - id: cg-genka-youen-ichi
   title: "シンデレラガールズ POP UP SHOP「幻夏妖宴市」（百鬼夜行テーマ）"
   brand: cg
@@ -150,7 +222,8 @@
       angle: "本日大阪会場最終日・全会期終了"
   used_in:
     - cg-genka-youen-ichi-details  # 7/12配信「詳細判明」
-  notes: "東京・大阪それぞれの開幕予告・最終日が未消化。"
+    - cg-genka-youen-ichi-tomorrow  # 7/31配信「明日東京会場開幕予告」
+  notes: "東京会場最終日（8/16）・大阪会場開幕予告以降が未消化。"
 
 - id: godo-765x961-ultimate-live
   title: "765 PRODUCTION × 961 PRODUCTION IDOL ULTIMATE ONCE AND FOR ALL"
@@ -232,7 +305,8 @@
       angle: "本日開始"
   used_in:
     - cg-aichi-nagoya-collab-details  # 7/12配信「詳細解禁」
-  notes: "長期コラボのため、開始日以降は大きな進展があった際に随時記事化する。"
+    - cg-aichi-nagoya-tomorrow  # 7/31配信「明日開始予告」
+  notes: "本日8/1開始の記事化と、開始後の進展フォローが未消化。"
 
 - id: sc-refrac7ions-chibi-goods
   title: "シャニマス「PJ: REFRAC7IONS」ちびぐるみ（ナムコオンラインクレーン／店舗展開）"
@@ -846,8 +920,8 @@
   used_in:
     - gaku-seabreeze-collab  # 7/5配信「コラボ開催中・ステッカー配布」
     - gaku-seabreeze-vol2-sticker  # 7/27配信「第2弾ステッカーデザイン、本日公開予定」
-  status: partially-used
-  notes: "第2弾はデザイン公開7/27・配布開始8/1と判明済み（7/27配信で事実確認・訂正）。配布開始日（8/1）の記事化が未消化。"
+    - gaku-seabreeze-vol2-tomorrow  # 7/31配信「明日第2弾配布開始予告」
+  notes: "配布開始日（8/1）の記事化が未消化。"
 
 - id: sc-project-relight-axe8
   title: "Project \"ReLight\" AXE8（シャニマス全ユニット新ロゴ・新衣装・新曲刷新企画）"
@@ -1015,7 +1089,7 @@
   kind: 公式
   event_start: "2026-07-13"
   event_end: "2026-07-31"
-  status: pending
+  status: done
   confidence: confirmed
   added: "2026-07-14"
   source: "ミリシタ公式（アプリ内告知）"
@@ -1029,7 +1103,8 @@
       angle: "本日最終日"
   used_in:
     - ml-milishita-9th-post-gacha  # 7/14配信「開催中・24時間配信も継続」
-  notes: "アプリ内告知が一次情報源。詳細は要ゲーム内再確認。"
+    - ml-milishita-9th-post-gacha-final  # 7/31配信「本日最終日」
+  notes: "全publish_plan消化済み。"
 
 - id: sc-animethon2026
   title: "シャニマス、カナダ「Animethon 2026」出演（北米初ライブパフォーマンス）"
@@ -1077,6 +1152,7 @@
     チケット: 現地9,800円／特典付き現地+xRライブストリーミングセット15,000円／各都市2日間通し券30,000円（税込）
     現地チケットリセール受付: 7/11(土)15:00〜開始、先着発売中
     IWSF2026会場ブース: 7/24〜26、京王アリーナTOKYOあじペン広場に特設ブース出展、6公演分の現地紙チケット販売（各9,800円）と過去765プロ・961プロxRライブダイジェスト映像放映。販売日時は7/24 12:00〜終演後30分程度、7/25・26は11:00〜18:00
+    大阪公演一般先着2次発売・当日券: 7/30発表、7/31 18:00〜一般先着2次発売開始、あわせて当日券販売も決定
   publish_plan:
     - on: "2026-08-05"
       angle: "明日大阪公演開幕予告"
@@ -1099,6 +1175,7 @@
   used_in:
     - as765-dualtwinlive-local-tickets  # 7/14配信「現地チケット先着発売・リセール受付中」
     - as765-dualtwinlive-iwsf-booth  # 7/21配信「IWSF2026会場に特設ブース出展決定」
+    - as765-dualtwinlive-osaka-2nd-presale  # 7/31配信「大阪公演、本日18時より一般先着2次発売・当日券も決定」
   notes: "xRライブストリーミング配信の詳細・セトリ等は開催が近づいてから要追検証。"
 
 - id: cg-poptoybox-live
