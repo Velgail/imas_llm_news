@@ -5,7 +5,7 @@ slug: cg-genka-youen-ichi-today
 brand: cg
 kind: 公式
 badge: "本日開幕"
-lead: "百鬼夜行をテーマにしたシンデレラガールズのPOP UP SHOP「幻夏妖宴市」東京会場が、本日8月1日アニON STATION秋葉原館1Fで開幕する（〜8月16日）。"
+lead: "百鬼夜行をテーマにしたシンデレラガールズのPOP UP SHOP「幻夏妖宴市」東京会場が、本日8月1日コトブキヤ秋葉原館1Fで開幕する（〜8月16日）。"
 source: "アイドルマスター公式ポータル news/01_19347"
 tags: [シンデレラガールズ, POP UP SHOP, 総選挙2026]
 ---
