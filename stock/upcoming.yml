@@ -221,6 +221,7 @@
   used_in:
     - cg-genka-youen-ichi-details  # 7/12配信「詳細判明」
     - cg-genka-youen-ichi-tomorrow  # 7/31配信「明日東京会場開幕予告」
+    - cg-genka-youen-ichi-today  # 8/1配信「本日東京会場開幕」
   notes: "東京会場最終日（8/16）・大阪会場開幕予告以降が未消化。"
 
 - id: godo-765x961-ultimate-live
@@ -288,7 +289,7 @@
   kind: 公式
   event_start: "2026-08-01"
   event_end: "2027-03-31"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-07-12"
   source: "アイドルマスター公式ポータル news/01_19336（2026年7月10日）/ 特設サイト aichi-platform.com/aichiticket-2026"
@@ -304,7 +305,8 @@
   used_in:
     - cg-aichi-nagoya-collab-details  # 7/12配信「詳細解禁」
     - cg-aichi-nagoya-tomorrow  # 7/31配信「明日開始予告」
-  notes: "本日8/1開始の記事化と、開始後の進展フォローが未消化。"
+    - cg-aichi-nagoya-today  # 8/1配信「本日開始」
+  notes: "全publish_plan消化済み。2027年3月末までの長期開催のため、大きな進展があれば新規エントリとして追記する。"
 
 - id: sc-refrac7ions-chibi-goods
   title: "シャニマス「PJ: REFRAC7IONS」ちびぐるみ（ナムコオンラインクレーン／店舗展開）"
@@ -734,7 +736,7 @@
   kind: 公式
   event_start: "2026-07-17"
   event_end: "2026-08-01"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-07-02"
   source: "アイドルマスター公式ポータル news/01_19214（2026年7月、現地HTML直接確認）"
@@ -759,7 +761,8 @@
     - cg-mizuno-launch-today  # 7/17配信「本日発売・フットサル体験プログラム初日」
     - cg-mizuno-futsal-chofu  # 7/25配信「本日フットサル体験会1日目（ミズノフットサルプラザ調布）」
     - cg-mizuno-futsal-chofu-day2  # 7/26配信「本日フットサル体験会2日目（ミズノフットサルプラザ調布）」
-  notes: "公式サイトの現地HTML確認により、発売日・体験プログラム初日は当初伝えられた7/11ではなく7/17であることが判明（7/11・7/12実施分の記載なし）。7/10配信の記事は誤りだったため7/11配信で訂正済み。調布(7/25・26)分は記事化済み、8/1(新百合)のサッカー体験会が未消化。"
+    - cg-mizuno-futsal-shinyuri-final  # 8/1配信「本日サッカー体験会最終回（ミズノフットサルプラザ新百合）」
+  notes: "公式サイトの現地HTML確認により、発売日・体験プログラム初日は当初伝えられた7/11ではなく7/17であることが判明（7/11・7/12実施分の記載なし）。7/10配信の記事は誤りだったため7/11配信で訂正済み。全publish_plan消化済み、体験プログラム全日程完走。"
 
 - id: as765-atre-akihabara-collab
   title: "「アイドルマスター×アトレ秋葉原」（765PRO ALLSTARS13名）"
@@ -900,7 +903,7 @@
   kind: 公式
   event_start: "2026-07-04"
   event_end: "2026-08-31"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-07-05"
   source: "アイドルマスター公式ポータル news/01_19126 / シーブリーズ公式コラボサイト（2026年7月）"
@@ -919,7 +922,8 @@
     - gaku-seabreeze-collab  # 7/5配信「コラボ開催中・ステッカー配布」
     - gaku-seabreeze-vol2-sticker  # 7/27配信「第2弾ステッカーデザイン、本日公開予定」
     - gaku-seabreeze-vol2-tomorrow  # 7/31配信「明日第2弾配布開始予告」
-  notes: "配布開始日（8/1）の記事化が未消化。"
+    - gaku-seabreeze-vol2-today  # 8/1配信「本日第2弾配布開始」
+  notes: "全publish_plan消化済み。コラボ自体は8/31まで継続、新展開があれば追記する。"
 
 - id: sc-project-relight-axe8
   title: "Project \"ReLight\" AXE8（シャニマス全ユニット新ロゴ・新衣装・新曲刷新企画）"
