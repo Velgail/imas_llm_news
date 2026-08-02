@@ -25,30 +25,6 @@
 #   notes: ""
 # ──────────────────────────────────────────────
 
-- id: gaku-sweetsparadise-deepmarine-enoshima
-  title: "学園アイドルマスター×スイーツパラダイス コラボカフェ「Deep Marine Stage」（江ノ島海の家店・神戸店）"
-  brand: gaku
-  kind: 公式
-  event_start: "2026-07-01"
-  event_end: "2026-07-30"
-  status: done
-  confidence: confirmed
-  added: "2026-07-29"
-  source: "アイドルマスター公式ポータル news/01_19193（2026年7月）／公式スイーツパラダイス（sweets-paradise.jp/collaboration/gakumasu-umi、gakumasu4th）"
-  facts: |
-    名称: 学園アイドルマスター COLLABORATION CAFE～Deep Marine Stage～
-    開催店舗: スイーツパラダイス江ノ島店（海の家）・CONCEPT CAFE KOBE（いずれも7/30最終日）。名古屋栄店・CONCEPT CAFE HIROSHIMAは7/21で終了済み
-    最終日: 2026年7月30日（木）、江ノ島海の家店は通常より早い15時閉店
-  publish_plan:
-    - on: "2026-07-29"
-      angle: "明日最終日予告"
-    - on: "2026-07-30"
-      angle: "本日最終日"
-  used_in:
-    - gaku-sweetsparadise-enoshima-final-tomorrow  # 7/29配信「明日最終日予告」
-    - gaku-sweetsparadise-enoshima-final  # 7/30配信「本日最終日」
-  notes: "全publish_plan消化済み。次回コラボの情報は判明次第追記する。"
-
 - id: godo-tours-second-stage-arcade-launch
   title: "アーケード版アイマスTOURS「Second Stage」新アイドル・新曲実装（8月6日稼働）"
   brand: godo
@@ -147,7 +123,7 @@
   kind: 公式
   event_start: "2026-07-31"
   event_end: "2026-08-02"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-07-31"
   source: "アイドルマスター公式ポータル news/01_19468 / 特設サイト（colabtokyo.hp.peraichi.com/cinderellagirls2026_sendai）"
@@ -161,7 +137,8 @@
       angle: "本日千秋楽"
   used_in:
     - cg-sendai-tower-tour-today  # 7/31配信「本日開幕」
-  notes: "出演メンバー詳細が判明次第factsを更新する。会期は7/31開幕と特設サイトで確認済み（当初8/1開幕と誤認していたため訂正）。"
+    - cg-sendai-tower-tour-final  # 8/2配信「本日千秋楽」
+  notes: "全publish_plan消化済み。次会場の発表は判明次第、新規エントリとして追加する。"
 
 - id: as765-hoshii-miki-korea-live
   title: "星井美希 海外ライブ第2弾「THE FUTURE SPOTLIGHT」in KOREA"
@@ -425,6 +402,7 @@
     - cg-vote-mission-checkin-expand  # 7/9配信「チェックインスポットにコッペ亭追加・更新あり」
     - cg-sousenkyo-2026-oneweek  # 7/27配信「投票開始まで残り1週間・チェックインスポット61箇所に」
     - cg-sousenkyo-checkin-apology  # 7/28配信「スポットチェックイン重複取得の不具合を訂正（更新あり）」
+    - cg-sousenkyo-2026-vote-tomorrow  # 8/2配信「明日投票開始予告」
     - cg-daisukinobouquet-mv-tomorrow  # 7/28配信「応援曲第3弾『だいすきのブーケ』MV、明日21:00公開予告」
   notes: "投票券ミッションは7/1配信で記事化済み。中間発表・結果発表日が未確定。日程が出たら on を絶対日付に更新すること。チェックインスポットは順次追加されるため、新規追加店舗が判明次第「更新あり」で継続記事化する。スポットチェックインミッションで7/1 12:00〜7/9 18:15に重複チェックインによる投票券の複数回獲得が発生し、7/22に是正済み（7/28配信・事実確認済み）。応援楽曲は第1弾「シンデレラNo.1」、第2弾「ROSE ～禁じられた愛～」（7/1発売）に続き、第3弾「だいすきのブーケ」（佐久間まゆ・五十嵐響子・相葉夕美、作詞:磯谷佳江／作曲編曲:賀佐泰洋）のMVが7/29 21:00公開予定（別途cg-daisukinobouquetエントリで管理）。"
 
@@ -586,6 +564,7 @@
     - gaku-chupachups-popup-ikebukuro  # 6/17配信「先行通販〜6/21」
     - gaku-chupachups-tomorrow  # 7/20配信「明日開幕予告・グッズ詳細判明」
     - gaku-chupachups-today  # 7/21配信「本日開幕」
+    - gaku-chupachups-ikebukuro-final-tomorrow  # 8/2配信「明日最終日予告」
   notes: "先行通販は6/21締切。7/21の初日は15:00まで事前抽選制。最終日（8/3）の記事化が未消化。"
 
 - id: sc-megashaki-collab-vol7
@@ -730,39 +709,6 @@
   status: done
   notes: "商品ラインナップ詳細は未取得のまま。全publish_plan消化済み。"
 
-- id: cg-mizuno-sponsor
-  title: "ミズノスポーツサービス 総選挙2026スポンサー企画"
-  brand: cg
-  kind: 公式
-  event_start: "2026-07-17"
-  event_end: "2026-08-01"
-  status: done
-  confidence: confirmed
-  added: "2026-07-02"
-  source: "アイドルマスター公式ポータル news/01_19214（2026年7月、現地HTML直接確認）"
-  facts: |
-    位置づけ: シンデレラガール総選挙2026の新スポンサー
-    記念商品発売: 2026年7月17日（金）10:00〜9月30日（水）22:00。投票券に引き換え可能なシリアルコード付き商品あり
-    サッカー（フットサル）体験プログラム: フットサルプラザBumBで7/17(金)20:00〜21:00・7/18(土)17:00〜18:00／18:00〜19:00・7/19(日)17:00〜18:00／18:00〜19:00・7/20(月)17:00〜18:00／18:00〜19:00。ミズノフットサルプラザ調布で7/25(土)・26(日)12:00〜13:00。ミズノフットサルプラザ新百合で8/1(土)11:00〜12:00。
-  publish_plan:
-    - on: "2026-07-16"
-      angle: "明日記念商品発売・フットサルプラザBumBで体験プログラム初日予告"
-    - on: "2026-07-17"
-      angle: "本日記念商品発売・フットサルプラザBumBで体験プログラム初日"
-    - on: "2026-07-25"
-      angle: "本日サッカー体験会1日目"
-    - on: "2026-08-01"
-      angle: "本日サッカー体験会最終日"
-  used_in:
-    - cg-mizuno-sponsor  # 7/2配信「スポンサー決定」
-    - cg-mizuno-goods-tomorrow  # 7/10配信「明日7/11記念商品発売・フットサル体験会初日予告」（後日誤りと判明）
-    - cg-mizuno-goods-correction  # 7/11配信「【訂正】発売日は7月17日」
-    - cg-mizuno-launch-eve  # 7/16配信「明日記念商品発売・フットサル体験プログラム初日予告」
-    - cg-mizuno-launch-today  # 7/17配信「本日発売・フットサル体験プログラム初日」
-    - cg-mizuno-futsal-chofu  # 7/25配信「本日フットサル体験会1日目（ミズノフットサルプラザ調布）」
-    - cg-mizuno-futsal-chofu-day2  # 7/26配信「本日フットサル体験会2日目（ミズノフットサルプラザ調布）」
-    - cg-mizuno-futsal-shinyuri-final  # 8/1配信「本日サッカー体験会最終回（ミズノフットサルプラザ新百合）」
-  notes: "公式サイトの現地HTML確認により、発売日・体験プログラム初日は当初伝えられた7/11ではなく7/17であることが判明（7/11・7/12実施分の記載なし）。7/10配信の記事は誤りだったため7/11配信で訂正済み。全publish_plan消化済み、体験プログラム全日程完走。"
 
 - id: as765-atre-akihabara-collab
   title: "「アイドルマスター×アトレ秋葉原」（765PRO ALLSTARS13名）"
@@ -826,6 +772,7 @@
     内容: コラボ宿泊プラン、「315周遊プラン」、コラボ限定グッズ
     参加事業者: 青柳総本家・えびせんべいの里・大久手山本屋・香源・栄公園振興（オアシス21）・スパゲッティハウスヨコイ・鳥開総本家・名古屋城振興協会・マンガ展・妙香園・名鉄観光サービス・矢場とん・若鯱家（計13社）
     並行企画: JR東海「推し旅」×SideMコラボ「Welcome to NEXT 旅マス！315な旅をお届けしマス！」も同期間実施予定
+    グッズ: 青柳総本家「カエールまんじゅう でらますコラボパッケージver.」を8/3〜9/16に大須本店で発売（オリジナルノベルティ付属、箱裏にペーパークラフト付き）
   publish_plan:
     - on: "2026-08-02"
       angle: "明日開幕予告"
@@ -835,7 +782,42 @@
       angle: "本日最終日"
   used_in:
     - sidem-derasu-ambassador  # 7/3配信「アンバサダー就任決定」
+    - sidem-derasu-ambassador-tomorrow  # 8/2配信「明日開幕予告」
   notes: "宿泊プラン・グッズの詳細は開催が近づいてから要追検証。"
+
+- id: sidem-royal-chess-lounge
+  title: "SideM「Royal Chess Lounge」コラボカフェ（名古屋栄店・心斎橋店・池袋店）"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-08-19"
+  event_end: "2026-10-20"
+  status: pending
+  confidence: confirmed
+  added: "2026-08-02"
+  source: "アイドルマスター公式ポータル news/01_19500・01_19501・01_19502（2026年7月31日19:30公開）／smilebase.co.jp/event/12745/"
+  facts: |
+    名称: THE IDOLM@STER SideM「Royal Chess Lounge」
+    会場・会期: 名古屋栄店 2026年8月19日(水)〜9月1日(火)／心斎橋店 9月12日(土)〜9月24日(木)／池袋店 10月8日(木)〜10月20日(火)
+    3会場を順に巡回する形式のコラボカフェ企画。出演アイドル・メニュー・グッズの詳細は続報待ち
+  publish_plan:
+    - on: "2026-08-18"
+      angle: "明日名古屋栄店開幕予告"
+    - on: "2026-08-19"
+      angle: "本日名古屋栄店開幕"
+    - on: "9/1"
+      angle: "本日名古屋栄店最終日"
+    - on: "2026-09-11"
+      angle: "明日心斎橋店開幕予告"
+    - on: "2026-09-12"
+      angle: "本日心斎橋店開幕"
+    - on: "2026-10-07"
+      angle: "明日池袋店開幕予告"
+    - on: "2026-10-08"
+      angle: "本日池袋店開幕"
+    - on: "2026-10-20"
+      angle: "本日池袋店最終日・全会場完走"
+  used_in: []
+  notes: "出演アイドル・メニュー・グッズ詳細は開催が近づいてから公式サイト（smilebase.co.jp）で要追検証。"
 
 - id: gaku-shikaoi-manhole-kuramoto-china
   title: "北海道鹿追町「ふたマス!!!!!!」倉本千奈マンホール設置"
@@ -1084,29 +1066,6 @@
     - sogo-20th-piano-collection-deadline-tomorrow  # 7/11配信「収録楽曲アンケート、明日7/12締切」
     - sogo-20th-piano-collection-survey-deadline  # 7/12配信「本日23:59締切」
   notes: "CD収録の新規10曲確定はアンケート締切後に発表される見込み、要追検証。CD予約締切は9/6、未消化。"
-
-- id: ml-milishita-9th-post-gacha
-  title: "ミリシタ「9th ANNIVERSARY 期間限定SSRカード確定ガシャ」"
-  brand: ml
-  kind: 公式
-  event_start: "2026-07-13"
-  event_end: "2026-07-31"
-  status: done
-  confidence: confirmed
-  added: "2026-07-14"
-  source: "ミリシタ公式（アプリ内告知）"
-  facts: |
-    開催期間: 2026年7月13日12:00〜7月31日23:59
-    内容: 9周年イベント「最上級：Invit@tion!」総合アニバーサリーミッション達成者に確定ガシャチケット2枚配布。過去のプラチナガシャ登場の期間限定SSRカードから確定入手可能
-    販売: プラチナセレクションチケットセット（有償ミリオンジュエル5,000個）、ミリオンフェスセレクションチケットセット（同5,000ジュエル）
-    並行企画: 24時間ノンストップ配信「Spar9le Showtime!」も継続中
-  publish_plan:
-    - on: "2026-07-31"
-      angle: "本日最終日"
-  used_in:
-    - ml-milishita-9th-post-gacha  # 7/14配信「開催中・24時間配信も継続」
-    - ml-milishita-9th-post-gacha-final  # 7/31配信「本日最終日」
-  notes: "全publish_plan消化済み。"
 
 - id: sc-animethon2026
   title: "シャニマス、カナダ「Animethon 2026」出演（北米初ライブパフォーマンス）"
