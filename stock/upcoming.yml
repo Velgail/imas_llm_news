@@ -70,8 +70,10 @@
       angle: "明日発売予告"
     - on: "2026-08-05"
       angle: "本日発売"
-  used_in: []
-  notes: "発表日時は未確認、判明次第追記する。"
+  used_in:
+    - sidem-transcendent-tales11-tomorrow  # 8/4配信「明日発売予告」
+  status: partially-used
+  notes: "発表日時は未確認、判明次第追記する。本日発売（8/5）が未消化。"
 
 - id: sidem-cfirst-release-event
   title: "SideM C.FIRST「理由あってリリースイベント」"
@@ -250,6 +252,7 @@
     位置づけ: 総選挙2026（8/3投票開始〜9/18）の結果発表後に控える15周年本編ライブと見られる
     関連発表: ソロ楽曲全98曲収録のCD-BOX「FIRST SONG COLLECTION」が11月28日発売予定／2026年春にフルサイズ楽曲のサブスク追加配信も予定（いずれもファミ通2025年9月7日記事で言及）
     【8/2生配信「CG総選挙ST@TION」で解禁】DAY1: LOVE-Party・CHILL-Party各12名、DAY2: FABULOUS-Party13名・MIRACLE-Party12名の4グループ編成、出演声優は両日で約49名。生バンド「Cinderella Band」も出演予定
+    【出演声優 第一弾判明（8/2付・8/4配信で記事化）】DAY1メインキャスト: 大橋彩香（島村卯月役）・藍原ことみ（一ノ瀬志希役）・小森結梨（古賀小春役）・種﨑敦美（五十嵐響子役）ほか計12名、CHILL-Party: 天野聡美・五十嵐裕美・大坪由佳ほか計12名、特別ゲスト: 武内駿輔・米内佑希（プロデューサー役）。DAY2メインキャスト: 福原綾香（渋谷凛役）・関口理咲（白雪千夜役）ほか計13名、MIRACLE-Party: 会沢紗弥・安齋由香里ほか計12名、特別ゲスト: 佐藤利奈（千川ちひろ役）・たくみ靖明（プロデューサー役）
     チケット等の詳細は追って発表予定
   publish_plan:
     - on: "2026-11-27"
@@ -258,8 +261,10 @@
       angle: "本日開幕・DAY1"
     - on: "2026-11-29"
       angle: "本日千秋楽・15周年本編完走"
-  used_in: []
-  notes: "事実確認（PR#62レビュー）でsourceの年表記の誤り（ファミ通の掲載は2026年9月ではなく2025年9月）を修正。総選挙2026の結果発表時期・詳細タイトル・出演者・チケット情報など要追検証。判明次第factsを更新すること。"
+  used_in:
+    - cg-15th-anniversary-cast-reveal  # 8/4配信「出演声優の第一弾が判明（更新あり）」
+  status: partially-used
+  notes: "事実確認（PR#62レビュー）でsourceの年表記の誤り（ファミ通の掲載は2026年9月ではなく2025年9月）を修正。総選挙2026の結果発表時期・詳細タイトル・出演者フル一覧・チケット情報など要追検証。判明次第factsを更新すること。"
 
 - id: cg-aichi-nagoya-collab
   title: "「旅ろっ！愛知」×シンデレラガールズ コラボイベント"
@@ -408,6 +413,7 @@
     - cg-sousenkyo-2026-vote-today  # 8/3配信「本日投票開始」
     - cg-sousenkyo-station-broadcast  # 8/3配信「決戦前日特番『CG総選挙ST@TION』昨日生配信、15周年イベント詳細解禁」
     - cg-sousenkyo-goods-cardfolio  # 8/3配信「公式グッズ（190人描き下ろしカードフォリオ）昨日受注開始」
+    - cg-sousenkyo-cd-4th-song  # 8/4配信「応援曲第4弾『すりーぷすきっぷ』判明・CDは8/26発売」
   notes: "投票券ミッションは7/1配信で記事化済み。中間発表・結果発表日が未確定。日程が出たら on を絶対日付に更新すること。チェックインスポットは順次追加されるため、新規追加店舗が判明次第「更新あり」で継続記事化する。スポットチェックインミッションで7/1 12:00〜7/9 18:15に重複チェックインによる投票券の複数回獲得が発生し、7/22に是正済み（7/28配信・事実確認済み）。応援楽曲は第1弾「シンデレラNo.1」、第2弾「ROSE ～禁じられた愛～」（7/1発売）に続き、第3弾「だいすきのブーケ」（佐久間まゆ・五十嵐響子・相葉夕美、作詞:磯谷佳江／作曲編曲:賀佐泰洋）のMVが7/29 21:00公開予定（別途cg-daisukinobouquetエントリで管理）。投票フェーズは8/3正午に開始済み（8/3配信で記事化）。8/2の生配信「CG総選挙ST@TION」で15周年記念イベント（11/28-29 Kアリーナ横浜）の詳細（DAY1 LOVE/CHILL・DAY2 FABULOUS/MIRACLEの4グループ編成、出演声優約49名、生バンドCinderella Band出演）が解禁され、cg-15th-anniversary-liveのfactsを更新。総選挙公式グッズ（190人描き下ろしカードフォリオVol.4-6）が8/2 16:00より受注開始（〜9/13）。中間発表・結果発表日は引き続き未確定、判明次第on を絶対日付に更新。"
 
 - id: shani-songforprism-karma-naraku-event
@@ -1210,7 +1216,9 @@
       angle: "本日千秋楽"
   used_in:
     - sc-refrac7ions-stillblue-presale  # 7/18配信「現地チケット先行受付開始・DAY1追加出演判明」
-  notes: "出演ユニット・セトリ等の詳細は未取得。追加出演発表が今後も続く可能性あり、判明次第factsを更新。"
+    - sc-refrac7ions-stillblue-presale-deadline-today  # 8/4配信「現地チケット先行受付、本日23:59締切」
+  status: partially-used
+  notes: "出演ユニット・セトリ等の詳細は未取得。追加出演発表が今後も続く可能性あり、判明次第factsを更新。当落発表8/21・開幕予告以降が未消化。"
 
 - id: sc-c108-chugai-goods
   title: "シャニマス×中外鉱業「コミックマーケット108」新作グッズ"
@@ -1254,6 +1262,52 @@
       angle: "本日展開開始"
   used_in: []
   notes: "7/27発表。対象アイドル・商品詳細は開催が近づいてから要追検証。"
+
+- id: sidem-tabimasu-jrc
+  title: "SideM×JR東海「旅マス」（Welcome to NEXT 旅マス！315な旅をお届けしマス！）"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-08-03"
+  event_end: "2026-10-31"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-04"
+  source: "JR東海「推し旅」公式サイト（recommend.jr-central.co.jp/oshi-tabi/idolmaster_sidem/）／アイドルマスター公式ポータル news/01_19449"
+  facts: |
+    出演: 315プロダクション所属のF-LAGS・C.FIRST計6名
+    実施期間: 前半2026年8月3日〜9月16日、後半9月17日〜10月31日
+    内容: 東海道新幹線車内限定の往路・復路オリジナルボイスドラマ配信（速度検出時にアクセス可）、視聴後の「乗車証明」提示でサカエサウススクエアのポップアップストアにて記念品と交換、名古屋駅サカエチカ クリスタル広場・サカエサウススクエアでのスポットボイスドラマ、オリジナルグッズ（アクリルスタンド・缶バッジ等）、「ぴよりん」コラボグッズ
+    並行企画: 名鉄観光サービス×DRAMATIC STARS「でらます」（同じく8/3開始、10/31まで）
+  publish_plan:
+    - on: "2026-09-16"
+      angle: "前半終了・後半切替"
+    - on: "2026-10-31"
+      angle: "本日最終日・全期間終了"
+  used_in:
+    - sidem-tabimasu-jrc-start  # 8/4配信「昨日名古屋でスタート」
+  notes: "8/3開始分は記事化済み。前半終了（9/16）・後半（9/17〜10/31）・最終日が未消化。"
+
+- id: gaku-hatsuboshistore-shibuya
+  title: "学園アイドルマスター「ハツボシストア」渋谷サクラステージ店オープン"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-08-07"
+  status: pending
+  confidence: confirmed
+  added: "2026-08-04"
+  source: "アイドルマスター公式ポータル／ハツボシストア公式X（@hatsuboshistore）（2026年7月28日頃発表と推定）"
+  facts: |
+    店舗名: 学園アイドルマスター ハツボシストア
+    場所: 渋谷サクラステージ3F
+    開店日: 2026年8月7日（金）
+    内容: クラシカルテーマな制服風衣装のイラストグッズを中心に、オリジナルグッズが多数登場予定
+  publish_plan:
+    - on: "2026-08-06"
+      angle: "明日オープン予告"
+    - on: "2026-08-07"
+      angle: "本日オープン"
+  used_in: []
+  notes: "発表の正確な日時は未確認（7/28頃と推定）。グッズラインナップの詳細は開店が近づいてから要追検証。"
 
 - id: cg-achi-village-collab
   title: "シンデレラガールズ×長野県阿智村「Star Village ACHI」コラボレーション2026"
