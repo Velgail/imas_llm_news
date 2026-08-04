@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-08-04"
+  dateLong: "2026年（令和8年）8月4日　火曜日"
+  pages: "全 9 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "シャニマス新曲「泡沫に染まる」昨日配信開始・日野茜本日誕生日"
+  indexNote: "SideM「旅マス」も昨日名古屋で始動、総選挙2026は投票2日目へ。"
 - date: "2026-08-03"
   dateLong: "2026年（令和8年）8月3日　月曜日"
   pages: "全 10 面"

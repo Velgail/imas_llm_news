@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-08-03 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-08-04 集計
 - rank: 1
-  name: "海老原菜帆"
+  name: "日野茜"
   brand: cg
   move: new
 - rank: 2
-  name: "白菊ほたる"
-  brand: cg
+  name: "鈴木羽那"
+  brand: sc
   move: new
 - rank: 3
-  name: "双海亜美"
-  brand: as765
-  move: up
+  name: "西城樹里"
+  brand: sc
+  move: new
 - rank: 4
-  name: "双海真美"
-  brand: as765
+  name: "神崎蘭子"
+  brand: cg
   move: new
 - rank: 5
-  name: "倉本千奈"
-  brand: gaku
+  name: "白菊ほたる"
+  brand: cg
   move: down
 - rank: 6
-  name: "桜庭薫"
-  brand: sidem
-  move: up
+  name: "双海亜美"
+  brand: as765
+  move: down
 - rank: 7
-  name: "伴田路子"
-  brand: ml
-  move: new
+  name: "双海真美"
+  brand: as765
+  move: down
 - rank: 8
-  name: "速水奏"
-  brand: cg
+  name: "一世雄輝"
+  brand: sidem
   move: new
