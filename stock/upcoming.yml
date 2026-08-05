@@ -49,7 +49,8 @@
   used_in:
     - godo-tours-second-stage-new-idols  # 7/29配信「新アイドル実装判明」
     - sogo-tours-new-song-sp  # 7/31配信「新曲「→→→SP」7/28より先行配信中と判明」
-  notes: "3人目の新アイドルの正体が判明次第factsを更新する。"
+    - godo-tours-second-stage-launch-tomorrow  # 8/5配信「明日稼働開始予告」
+  notes: "3人目の新アイドルの正体が判明次第factsを更新する。本日稼働開始（8/6）分が未消化。"
 
 - id: sidem-transcendent-tales11
   title: "SideM TRANSCENDENT T@LES 11 CD発売"
@@ -72,8 +73,9 @@
       angle: "本日発売"
   used_in:
     - sidem-transcendent-tales11-tomorrow  # 8/4配信「明日発売予告」
-  status: partially-used
-  notes: "発表日時は未確認、判明次第追記する。本日発売（8/5）が未消化。"
+    - sidem-transcendent-tales11-today  # 8/5配信「本日発売」
+  status: done
+  notes: "全publish_plan消化済み。"
 
 - id: sidem-cfirst-release-event
   title: "SideM C.FIRST「理由あってリリースイベント」"
@@ -340,7 +342,8 @@
       angle: "本日最終日"
   used_in:
     - other-namco-summer-market-hakuhinkan  # 7/12配信「昨日開幕」
-  notes: "アイドルマスター関連の具体的な出展グッズは未取得、要追検証。"
+    - other-namco-summer-market-hakuhinkan-final-tomorrow  # 8/5配信「明日最終日予告」
+  notes: "アイドルマスター関連の具体的な出展グッズは未取得、要追検証。本日最終日（8/6）分が未消化。"
 
 - id: cg-gatamas-niigata-sado
   title: "シンデレラガールズ×新潟市・佐渡市コラボ「がたます」"
@@ -414,6 +417,7 @@
     - cg-sousenkyo-station-broadcast  # 8/3配信「決戦前日特番『CG総選挙ST@TION』昨日生配信、15周年イベント詳細解禁」
     - cg-sousenkyo-goods-cardfolio  # 8/3配信「公式グッズ（190人描き下ろしカードフォリオ）昨日受注開始」
     - cg-sousenkyo-cd-4th-song  # 8/4配信「応援曲第4弾『すりーぷすきっぷ』判明・CDは8/26発売」
+    - cg-sousenkyo-fan-yojijukugo  # 8/5配信「候補190人の公約四字熟語、ファンの間で考察に（ファン話題）」
   notes: "投票券ミッションは7/1配信で記事化済み。中間発表・結果発表日が未確定。日程が出たら on を絶対日付に更新すること。チェックインスポットは順次追加されるため、新規追加店舗が判明次第「更新あり」で継続記事化する。スポットチェックインミッションで7/1 12:00〜7/9 18:15に重複チェックインによる投票券の複数回獲得が発生し、7/22に是正済み（7/28配信・事実確認済み）。応援楽曲は第1弾「シンデレラNo.1」、第2弾「ROSE ～禁じられた愛～」（7/1発売）に続き、第3弾「だいすきのブーケ」（佐久間まゆ・五十嵐響子・相葉夕美、作詞:磯谷佳江／作曲編曲:賀佐泰洋）のMVが7/29 21:00公開予定（別途cg-daisukinobouquetエントリで管理）。投票フェーズは8/3正午に開始済み（8/3配信で記事化）。8/2の生配信「CG総選挙ST@TION」で15周年記念イベント（11/28-29 Kアリーナ横浜）の詳細（DAY1 LOVE/CHILL・DAY2 FABULOUS/MIRACLEの4グループ編成、出演声優約49名、生バンドCinderella Band出演）が解禁され、cg-15th-anniversary-liveのfactsを更新。総選挙公式グッズ（190人描き下ろしカードフォリオVol.4-6）が8/2 16:00より受注開始（〜9/13）。中間発表・結果発表日は引き続き未確定、判明次第on を絶対日付に更新。"
 
 - id: shani-songforprism-karma-naraku-event
@@ -747,7 +751,8 @@
       angle: "本日最終日"
   used_in:
     - as765-atre-akihabara-collab  # 7/25配信「昨日開幕」
-  notes: "最終日（8/6）の記事化が未消化。"
+    - as765-atre-akihabara-collab-final-tomorrow  # 8/5配信「明日最終日予告」
+  notes: "本日最終日（8/6）分が未消化。"
 
 - id: valiv-akari-birthday-live-postponed
   title: "vα-liv 灯里愛夏バースデーライブ 振替日程"
@@ -874,6 +879,8 @@
     日程: 2026年9月12日（土）・13日（日）
     チケット: 2次先行（アソビストアプレミアム12ヶ月会員限定、受付6/25〜7/5、当落発表7/17 13:00〜、入金7/17〜7/21）
     グッズ事前販売第2弾: 6/18〜7/5受付。公式パンフレット5,800円・Tシャツ3,600円・タオル2,200円ほか一部限定数商品（コンサートライト・ミニライト・ビーズストラップ・サコッシュ等）。配送8月末〜9月上旬予定
+    配信チケット: 8/4 12:00〜9/21 18:00受付。DAY1+DAY2通し12,000円、DAY1・DAY2単日各6,000円（税込・機能利用料込）。アーカイブは最速版（各公演終了1時間後〜9/14 18:00）・正式版（9/14 18:00〜9/21 23:59）
+    現地チケット価格帯: 全席指定13,500円、見切れ席13,000円、スイート25,000円、テラススイート50,000円〜（いずれも税込）
   publish_plan:
     - on: "2026-07-17"
       angle: "本日チケット2次先行当落発表"
@@ -891,6 +898,7 @@
     - sidem-11th-stage-deadline  # 7/5配信「チケット2次先行・グッズ事前販売第2弾、本日23:59締切」
     - sidem-11th-stage-lottery-result  # 7/17配信「本日13:00チケット2次先行当落発表」
     - sidem-11th-stage-payment-deadline  # 7/21配信「本日2次先行入金締切」
+    - sidem-11th-stage-stream-ticket  # 8/5配信「配信チケットが昨日発売開始」
   notes: "出演者・セトリ等の詳細は未取得。明日9/11開幕予告以降が未消化。"
 
 - id: gaku-seabreeze-collab
@@ -954,6 +962,7 @@
     一般会員2次先行抽選: 6/23 12:00〜7/5 23:59受付、当落発表7/18 13:00〜、入金7/18〜7/22 23:59
     ファイナル公演(Kアリーナ横浜): 13名出演予定、開場15:30/開演17:00(予定・両日)。チケット全席指定14,000円・バルコニー席17,000円・SPラウンジ席70,000円（税込）。プレミアム会員先行（抽選）当落発表7/9。一般会員先行（抽選）は7/15 12:00〜7/26 23:59受付、当落発表8/11 13:00〜。
     ファイナル公演イベント公式グッズ事前販売: 7/9 16:00〜7/20 23:59受付（ASOBI STORE）、描き下ろしイラストグッズ・応援グッズ、発送10月下旬以降順次
+    福井公演 一般先着・リセール: 一般先着は7/25 12:00〜8/4 23:59、リセールは7/25 15:00〜8/5 9:59。会場はフェニックス・プラザ エルピス大ホール、全席指定11,000円（税込）。出演: 七瀬つむぎ(有村麻央役)・花岩香奈(葛城リーリヤ役)・薄井友里(姫崎莉波役)・松田彩音(花海佑芽役)
   publish_plan:
     - on: "2026-07-09"
       angle: "本日ファイナル公演プレミアム会員先行当落発表"
@@ -978,7 +987,8 @@
     - gaku-shirube-lottery2-result  # 7/18配信「一般会員2次先行、本日13:00当落発表」
     - gaku-shirube-final-goods-deadline  # 7/20配信「ファイナル公演グッズ事前販売、本日23:59締切」
     - gaku-shirube-lottery2-payment-deadline  # 7/23配信「福井・福岡・岩手公演2次先行入金、昨日23:59締切」
-  notes: "出演者・セトリ等の詳細は未取得。ファイナル公演のチケット価格・出演人数は公式サイト（live_event/gkmas_livetour_shirube配下）で確認済み。ファイナル公演一般会員先行の当落発表8/11が未消化。"
+    - gaku-shirube-fukui-ticket-deadline  # 8/5配信「福井公演、一般チケット販売が昨日締切」
+  notes: "出演者・セトリ等の詳細は未取得。ファイナル公演のチケット価格・出演人数は公式サイト（live_event/gkmas_livetour_shirube配下）で確認済み。福井公演の出演者が判明済み（七瀬つむぎ・花岩香奈・薄井友里・松田彩音）。ファイナル公演一般会員先行の当落発表8/11が未消化。"
 
 - id: sc-maneki-neko-collab-2026
   title: "アイドルマスター シャイニーカラーズ×カラオケまねきねこ コラボ"
@@ -1155,7 +1165,8 @@
     - as765-dualtwinlive-iwsf-booth  # 7/21配信「IWSF2026会場に特設ブース出展決定」
     - as765-dualtwinlive-osaka-2nd-presale  # 7/31配信「大阪公演、本日18時より一般先着2次発売・当日券も決定」
     - as765-dualtwinlive-nagoya-presale-deadline  # 8/3配信「名古屋公演、一般先着発売が昨日23:59締切」
-  notes: "xRライブストリーミング配信の詳細・セトリ等は開催が近づいてから要追検証。名古屋の一般先着発売は大阪の「2次」ラウンドとは別枠（通常の一般先着）で、8/2 23:59に締切済み（事実確認済み・8/3配信）。"
+    - as765-dualtwinlive-osaka-tomorrow  # 8/5配信「明日大阪公演開幕予告」
+  notes: "xRライブストリーミング配信の詳細・セトリ等は開催が近づいてから要追検証。名古屋の一般先着発売は大阪の「2次」ラウンドとは別枠（通常の一般先着）で、8/2 23:59に締切済み（事実確認済み・8/3配信）。本日大阪DAY1（8/6）以降が未消化。"
 
 - id: cg-poptoybox-live
   title: "シンデレラガールズ CONCEPT xR LIVE「Pop'n ToyBox!!」"
@@ -1335,3 +1346,73 @@
   used_in:
     - cg-achi-village-collab  # 7/19配信「昨日開幕」
   notes: "「日本一の星空」で知られる阿智村での開催。最終日（9/23）の記事化が未消化。"
+
+- id: sidem-remembershot-fair4
+  title: "SideM「リメンバーショット」フェア第4弾"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-10-03"
+  event_end: "2026-10-25"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-05"
+  source: "アイドルマスター公式ポータル news/01_19438（2026年8月4日17:00）"
+  facts: |
+    会場: 全国アニメイト、アニメイト通販
+    開催期間: 2026年10月3日（土）〜10月25日（日）
+    対象アイドル（10名描き下ろし）: 柏木翼・神楽麗・渡辺みのり・蒼井享介・榊夏来・伊瀬谷四季・紅井朱雀・卯月巻緒・姫野かのん・北村想楽
+    特典: 対象商品購入・予約内金1,100円（税込）ごとに切手風ステッカー（全10種）を1枚プレゼント（選択不可、なくなり次第終了）
+  publish_plan:
+    - on: "2026-10-02"
+      angle: "明日開幕予告"
+    - on: "2026-10-03"
+      angle: "本日開幕"
+  used_in:
+    - sidem-remembershot-fair4  # 8/5配信「詳細解禁」
+  notes: "第1〜3弾の対象アイドルとの重複有無は未確認、要追検証。"
+
+- id: sogo-apkasshi-graduation
+  title: "アイドルマスターチャンネル APかっしー卒業配信"
+  brand: sogo
+  kind: 公式
+  event_start: "2026-08-26"
+  event_end: "2026-08-26"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-05"
+  source: "アイドルマスター公式ポータル news/01_19527（2026年8月4日22:10）"
+  facts: |
+    配信名: APかっしー卒業配信〜6年間ありがとうございました！〜
+    配信日時: 2026年8月26日（水）19:00〜
+    配信先: YouTube「アイドルマスターチャンネル」APラウンジ
+    背景: アイドルマスターチャンネルMCを6年間務めたAPかっしーが2026年8月いっぱいで卒業。かつてAPさとほのとの二人体制でスタートし、その卒業後は一人でチャンネルを支えてきた
+  publish_plan:
+    - on: "2026-08-25"
+      angle: "明日卒業配信予告"
+    - on: "2026-08-26"
+      angle: "本日卒業配信・APラウンジ最終回"
+  used_in:
+    - sogo-apkasshi-graduation  # 8/5配信「昨日発表」
+  notes: "卒業後のアイマスチャンネルMC体制は本稿時点で未発表、判明次第追記する。"
+
+- id: gaku-suntory-vending-collab2
+  title: "学マス×サントリー自販機タイアップキャンペーン第2弾"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-08-04"
+  event_end: "2026-09-14"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-05"
+  source: "アイドルマスター公式ポータル news/01_19418（2026年8月4日11:00）"
+  facts: |
+    名称: 「輝く汗を、全力応援！ 水分補給大作戦キャンペーン」第2弾
+    開催期間: 2026年8月4日（火）〜9月14日（月）
+    内容: 対象のサントリー自販機で飲料購入ごとに抽選でオリジナルアクリルスタンドが当たる。ハズレでも限定スマホ壁紙（全17種）を配布
+    参加方法: LINEミニアプリの特設ページから
+  publish_plan:
+    - on: "2026-09-14"
+      angle: "本日キャンペーン終了"
+  used_in:
+    - gaku-suntory-vending-collab2  # 8/5配信「昨日開始」
+  notes: "第1弾からの継続キャンペーン。対象アイドル・グッズデザインの詳細は未取得、要追検証。"
