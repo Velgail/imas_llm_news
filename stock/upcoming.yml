@@ -50,7 +50,9 @@
     - godo-tours-second-stage-new-idols  # 7/29配信「新アイドル実装判明」
     - sogo-tours-new-song-sp  # 7/31配信「新曲「→→→SP」7/28より先行配信中と判明」
     - godo-tours-second-stage-launch-tomorrow  # 8/5配信「明日稼働開始予告」
-  notes: "3人目の新アイドルの正体が判明次第factsを更新する。本日稼働開始（8/6）分が未消化。"
+    - godo-tours-second-stage-launch-today  # 8/6配信「本日稼働開始」
+  status: done
+  notes: "全publish_plan消化済み。3人目の新アイドルの正体が判明次第、新規エントリとして追記する。"
 
 - id: sidem-transcendent-tales11
   title: "SideM TRANSCENDENT T@LES 11 CD発売"
@@ -343,7 +345,9 @@
   used_in:
     - other-namco-summer-market-hakuhinkan  # 7/12配信「昨日開幕」
     - other-namco-summer-market-hakuhinkan-final-tomorrow  # 8/5配信「明日最終日予告」
-  notes: "アイドルマスター関連の具体的な出展グッズは未取得、要追検証。本日最終日（8/6）分が未消化。"
+    - other-namco-summer-market-hakuhinkan-final-today  # 8/6配信「本日最終日」
+  status: done
+  notes: "全publish_plan消化済み。アイドルマスター関連の具体的な出展グッズは未取得のままだった。"
 
 - id: cg-gatamas-niigata-sado
   title: "シンデレラガールズ×新潟市・佐渡市コラボ「がたます」"
@@ -635,7 +639,8 @@
       angle: "本日最終日"
   used_in:
     - sc-stillness-motion-popup-announce  # 7/22配信「開催決定」
-  notes: "商品ラインナップ・ノベルティ詳細は開催が近づいてから要追検証。"
+    - sc-stillness-motion-popup-tomorrow  # 8/6配信「明日開幕予告」
+  notes: "商品ラインナップ・ノベルティ詳細は開催が近づいてから要追検証。本日開幕（8/7）・千秋楽（8/16）が未消化。"
 
 - id: as765-chibigurumi-new
   title: "765プロ「ちびぐるみ」新作（高槻やよい・水瀬伊織で確定）"
@@ -752,7 +757,9 @@
   used_in:
     - as765-atre-akihabara-collab  # 7/25配信「昨日開幕」
     - as765-atre-akihabara-collab-final-tomorrow  # 8/5配信「明日最終日予告」
-  notes: "本日最終日（8/6）分が未消化。"
+    - as765-atre-akihabara-collab-final-today  # 8/6配信「本日最終日」
+  status: done
+  notes: "全publish_plan消化済み。"
 
 - id: valiv-akari-birthday-live-postponed
   title: "vα-liv 灯里愛夏バースデーライブ 振替日程"
@@ -802,7 +809,8 @@
     - sidem-derasu-ambassador  # 7/3配信「アンバサダー就任決定」
     - sidem-derasu-ambassador-tomorrow  # 8/2配信「明日開幕予告」
     - sidem-derasu-ambassador-today  # 8/3配信「本日開幕」
-  notes: "宿泊プラン・グッズの詳細は開催が近づいてから要追検証。8/3開幕分は記事化済み、10/31最終日が未消化。"
+    - sidem-derasu-manga10-popup  # 8/6配信「POP UP Store at マンガ展（バレエコア新衣装）判明・更新あり」
+  notes: "宿泊プラン・グッズの詳細は開催が近づいてから要追検証。8/3開幕分は記事化済み。でらます関連の派生企画としてマンガ展POP UP（3D CREMA GALLERY、8/3〜10/31、バレエコア衣装、神楽麗・鷹城恭二・握野英雄・若里春名・舞田類の5名）が判明・記事化済み（8/6配信）。10/31最終日が未消化。"
 
 - id: sidem-royal-chess-lounge
   title: "SideM「Royal Chess Lounge」コラボカフェ（名古屋栄店・心斎橋店・池袋店）"
@@ -1166,7 +1174,8 @@
     - as765-dualtwinlive-osaka-2nd-presale  # 7/31配信「大阪公演、本日18時より一般先着2次発売・当日券も決定」
     - as765-dualtwinlive-nagoya-presale-deadline  # 8/3配信「名古屋公演、一般先着発売が昨日23:59締切」
     - as765-dualtwinlive-osaka-tomorrow  # 8/5配信「明日大阪公演開幕予告」
-  notes: "xRライブストリーミング配信の詳細・セトリ等は開催が近づいてから要追検証。名古屋の一般先着発売は大阪の「2次」ラウンドとは別枠（通常の一般先着）で、8/2 23:59に締切済み（事実確認済み・8/3配信）。本日大阪DAY1（8/6）以降が未消化。"
+    - as765-dualtwinlive-osaka-today  # 8/6配信「本日大阪公演DAY1（ふたごぼしのつばさ）・終演後トークイベント判明」
+  notes: "xRライブストリーミング配信の詳細・セトリ等は開催が近づいてから要追検証。名古屋の一般先着発売は大阪の「2次」ラウンドとは別枠（通常の一般先着）で、8/2 23:59に締切済み（事実確認済み・8/3配信）。8/6大阪DAY1終演後に下田麻美・若林直美によるトークイベント「ツアー始動ミーティング」が判明（8/6配信で記事化）。本日大阪DAY2（8/7）以降が未消化。"
 
 - id: cg-poptoybox-live
   title: "シンデレラガールズ CONCEPT xR LIVE「Pop'n ToyBox!!」"
@@ -1303,7 +1312,7 @@
   brand: gaku
   kind: 公式
   event_start: "2026-08-07"
-  status: pending
+  status: partially-used
   confidence: confirmed
   added: "2026-08-04"
   source: "アイドルマスター公式ポータル／ハツボシストア公式X（@hatsuboshistore）（2026年7月28日頃発表と推定）"
@@ -1317,8 +1326,9 @@
       angle: "明日オープン予告"
     - on: "2026-08-07"
       angle: "本日オープン"
-  used_in: []
-  notes: "発表の正確な日時は未確認（7/28頃と推定）。グッズラインナップの詳細は開店が近づいてから要追検証。"
+  used_in:
+    - gaku-hatsuboshistore-shibuya-tomorrow  # 8/6配信「明日オープン予告」
+  notes: "発表の正確な日時は未確認（7/28頃と推定）。グッズラインナップの詳細は開店が近づいてから要追検証。本日オープン（8/7）が未消化。"
 
 - id: cg-achi-village-collab
   title: "シンデレラガールズ×長野県阿智村「Star Village ACHI」コラボレーション2026"
@@ -1416,3 +1426,69 @@
   used_in:
     - gaku-suntory-vending-collab2  # 8/5配信「昨日開始」
   notes: "第1弾からの継続キャンペーン。対象アイドル・グッズデザインの詳細は未取得、要追検証。"
+
+- id: cg-jol-collabstore-legend-pinyacorata
+  title: "シンデレラガールズ JOL Collab Store POP UP STORE『Legend of Cinderella～ぴにゃこら太の伝説～』"
+  brand: cg
+  kind: 公式
+  event_start: "2026-08-21"
+  status: pending
+  confidence: confirmed
+  added: "2026-08-06"
+  source: "アイドルマスター公式ポータル news/01_19465"
+  facts: |
+    会場: MAGNET by SHIBUYA109「JOL Collab Store」
+    開催開始: 2026年8月21日（金）
+    総選挙2026連動: 購入特典に投票券コードが付与される見込み
+  publish_plan:
+    - on: "2026-08-20"
+      angle: "明日開幕予告"
+    - on: "2026-08-21"
+      angle: "本日開幕"
+  used_in: []
+  notes: "終了日・出演アイドル・商品詳細は未取得、開催が近づいてから要追検証。"
+
+- id: cg-toppa-base-popup
+  title: "シンデレラガールズ TOPPA!!!BASE 全国POP UP SHOP（バトルゲームワールド）"
+  brand: cg
+  kind: 公式
+  event_start: "2026-08-27"
+  event_end: "2026-09-14"
+  status: pending
+  confidence: confirmed
+  added: "2026-08-06"
+  source: "アイドルマスター公式ポータル news/01_19246"
+  facts: |
+    テーマ: バトルゲームワールド
+    展開: 札幌・仙台・名古屋・大阪など全国のTOPPA!!!BASE店舗
+    出演: 6アイドルをフィーチャーしたグッズ展開（詳細未取得）
+  publish_plan:
+    - on: "2026-08-26"
+      angle: "明日開幕予告"
+    - on: "2026-08-27"
+      angle: "本日開幕"
+    - on: "2026-09-14"
+      angle: "本日最終日"
+  used_in: []
+  notes: "対象6アイドル・各店舗ごとの会期詳細は未取得、開催が近づいてから要追検証。"
+
+- id: gaku-ftoys-photostyle-acstand2
+  title: "学園アイドルマスター フォトスタイルアクスタ2（エフトイズ食玩）"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-08-10"
+  status: pending
+  confidence: confirmed
+  added: "2026-08-06"
+  source: "電撃ホビーウェブ（hobby.dengeki.com/news/2983491）／エフトイズ・コンフェクト公式（f-toys.net/item/gakumasu_photosta/）"
+  facts: |
+    商品名: 学園アイドルマスター フォトスタイルアクスタ2（食玩）
+    発売日: 2026年8月10日（月）、沖縄を除く全国
+    第1弾（2025年9月発売）に続くシリーズ第2弾
+  publish_plan:
+    - on: "2026-08-09"
+      angle: "明日発売予告"
+    - on: "2026-08-10"
+      angle: "本日発売"
+  used_in: []
+  notes: "収録アイドル・全種数は未取得、要追検証。"

@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-08-06"
+  dateLong: "2026年（令和8年）8月6日　木曜日"
+  pages: "全 9 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "アーケードTOURS「Second Stage」本日稼働開始・765プロdual twin live大阪本日開幕"
+  indexNote: "昨日（8/5）：学マス公式ラジオ「初星学園放送部」が放送100回＆YouTube配信スタートを記念した映像付き生配信を19時より実施／アイマスMOIW2025を振り返るラジオ「\"アイ\"のキセキR@DIO vol.10」配信を記念したサイン入りグッズプレゼントキャンペーンが20:30より開始／SideM「でらます」の派生企画「POP UP Store at マンガ展」（名古屋・サカエサウススクエア、バレエコア新衣装）が8/3開幕分から更新あり。本日（8/6）：アーケード版『アイドルマスター TOURS』新シリーズ「Second Stage」が稼働開始／「アイドルマスター×アトレ秋葉原」コラボが最終日／ナムコ サマーマーケットin博品館TOY PARKが最終日／765プロ「dual twin live tour」大阪公演が双海亜美・双海真美「ふたごぼしのつばさ」で開幕。明日（8/7）：学マス「ハツボシストア」渋谷サクラステージ店がオープン予定／シャニマスPOP UP STORE『Stillness＆Motion』がJOL Collab Storeで開幕予定／765プロ大阪公演DAY2「つみまつよるまち」も控える。"
 - date: "2026-08-05"
   dateLong: "2026年（令和8年）8月5日　水曜日"
   pages: "全 12 面"
