@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-08-07"
+  dateLong: "2026年（令和8年）8月7日　金曜日"
+  pages: "全 10 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "本日765プロ大阪公演DAY2・ハツボシストア渋谷店＆『Stillness＆Motion』本日開幕"
+  indexNote: "昨日（8/6）：アーケード版TOURS「Second Stage」が稼働開始し、日本武道館ステージや90種以上の新規描き下ろしカードなど新要素の全貌も判明／765プロ「dual twin live tour」大阪公演DAY1が双海亜美・双海真美「ふたごぼしのつばさ」で開幕／ミリシタ《SEASONAL SNAPSHOT》11月分グッズ受注開始／学マスLIVE TOUR「標」ファイナル公演グッズ事前販売ファイナルが16時受注開始／シャニマス「バースデープレート」第1弾受注開始。本日（8/7）：765プロ大阪公演DAY2「つみまつよるまち」開催／学マス「ハツボシストア」渋谷サクラステージ店オープン／シャニマスPOP UP STORE『Stillness＆Motion』がJOL Collab Storeで開幕／シャニマス×メガシャキ Xリポストキャンペーンが14:59終了／シンデレラガールズの向井拓海が誕生日。明日（8/8）：シャニマスがカナダ「Animethon 2026」でシリーズ北米初のライブパフォーマンスを披露予定。"
 - date: "2026-08-06"
   dateLong: "2026年（令和8年）8月6日　木曜日"
   pages: "全 9 面"

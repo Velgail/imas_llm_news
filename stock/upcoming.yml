@@ -613,7 +613,8 @@
   used_in:
     - sc-megashaki-collab-vol7  # 7/22配信「7年目コラボ開始」
     - sc-megashaki-x-campaign  # 7/28配信「Xリポストキャンペーン、昨日開始」
-  notes: "第2期以降のプレゼント企画詳細は判明次第追記する。"
+    - sc-megashaki-x-campaign-end  # 8/7配信「Xリポストキャンペーン、本日14:59終了」
+  notes: "第2期以降のプレゼント企画詳細は判明次第追記する。第1期プレゼント企画・ログインボーナス最終日（8/31）・コラボ終了（10/21）が未消化。"
 
 - id: sc-stillness-motion-popup
   title: "シャニマスPOP UP STORE『Stillness＆Motion』（JOL Collab Store）"
@@ -640,7 +641,8 @@
   used_in:
     - sc-stillness-motion-popup-announce  # 7/22配信「開催決定」
     - sc-stillness-motion-popup-tomorrow  # 8/6配信「明日開幕予告」
-  notes: "商品ラインナップ・ノベルティ詳細は開催が近づいてから要追検証。本日開幕（8/7）・千秋楽（8/16）が未消化。"
+    - sc-stillness-motion-popup-today  # 8/7配信「本日開幕」
+  notes: "商品ラインナップ・ノベルティ詳細は開催が近づいてから要追検証。千秋楽（8/16）が未消化。"
 
 - id: as765-chibigurumi-new
   title: "765プロ「ちびぐるみ」新作（高槻やよい・水瀬伊織で確定）"
@@ -978,6 +980,8 @@
       angle: "本日チケット2次先行当落発表"
     - on: "2026-08-11"
       angle: "本日ファイナル公演一般会員先行の当落発表"
+    - on: "2026-08-16"
+      angle: "ファイナル公演グッズ事前販売ファイナル、本日23:59締切"
     - on: "2026-08-19"
       angle: "明日福井公演開幕予告"
     - on: "2026-08-20"
@@ -996,7 +1000,8 @@
     - gaku-shirube-final-goods-deadline  # 7/20配信「ファイナル公演グッズ事前販売、本日23:59締切」
     - gaku-shirube-lottery2-payment-deadline  # 7/23配信「福井・福岡・岩手公演2次先行入金、昨日23:59締切」
     - gaku-shirube-fukui-ticket-deadline  # 8/5配信「福井公演、一般チケット販売が昨日締切」
-  notes: "出演者・セトリ等の詳細は未取得。ファイナル公演のチケット価格・出演人数は公式サイト（live_event/gkmas_livetour_shirube配下）で確認済み。福井公演の出演者が判明済み（七瀬つむぎ・花岩香奈・薄井友里・松田彩音）。ファイナル公演一般会員先行の当落発表8/11が未消化。"
+    - gaku-shirube-final-goods-presale-final  # 8/7配信「ファイナル公演グッズ事前販売ファイナル、昨日8/6 16時受注開始」
+  notes: "出演者・セトリ等の詳細は未取得。ファイナル公演のチケット価格・出演人数は公式サイト（live_event/gkmas_livetour_shirube配下）で確認済み。福井公演の出演者が判明済み（七瀬つむぎ・花岩香奈・薄井友里・松田彩音）。グッズ事前販売ファイナルは8/6 16:00〜8/16 23:59受付（8/7配信で記事化）。ファイナル公演一般会員先行の当落発表（8/11）・グッズ事前販売ファイナル締切（8/16）以降が未消化。"
 
 - id: sc-maneki-neko-collab-2026
   title: "アイドルマスター シャイニーカラーズ×カラオケまねきねこ コラボ"
@@ -1126,7 +1131,9 @@
       angle: "昨日出演レポ"
   used_in:
     - sc-animethon2026  # 7/14配信「出演決定・新発表」
-  notes: "発表の正確な日付は未確定（news/01_19372は7/13〜7/14頃と推定）。トークパネル・サイン会の詳細スケジュールは後日発表見込み、要追検証。"
+    - sc-animethon2026-tomorrow  # 8/7配信「明日8/8ライブパフォーマンス予告」
+  status: partially-used
+  notes: "発表の正確な日付は未確定（news/01_19372は7/13〜7/14頃と推定）。トークパネル・サイン会の詳細スケジュールは後日発表見込み、要追検証。本日出演（8/8）・昨日出演レポ（8/9）が未消化。"
 
 - id: as765-dualtwinlive-765pro
   title: "765プロ「dual twin live tour」（双海亜美・双海真美／三浦あずさ・秋月律子）"
@@ -1175,7 +1182,8 @@
     - as765-dualtwinlive-nagoya-presale-deadline  # 8/3配信「名古屋公演、一般先着発売が昨日23:59締切」
     - as765-dualtwinlive-osaka-tomorrow  # 8/5配信「明日大阪公演開幕予告」
     - as765-dualtwinlive-osaka-today  # 8/6配信「本日大阪公演DAY1（ふたごぼしのつばさ）・終演後トークイベント判明」
-  notes: "xRライブストリーミング配信の詳細・セトリ等は開催が近づいてから要追検証。名古屋の一般先着発売は大阪の「2次」ラウンドとは別枠（通常の一般先着）で、8/2 23:59に締切済み（事実確認済み・8/3配信）。8/6大阪DAY1終演後に下田麻美・若林直美によるトークイベント「ツアー始動ミーティング」が判明（8/6配信で記事化）。本日大阪DAY2（8/7）以降が未消化。"
+    - as765-dualtwinlive-osaka-day2-today  # 8/7配信「本日大阪公演DAY2（つみまつよるまち）・アーカイブ配信期間判明」
+  notes: "xRライブストリーミング配信の詳細・セトリ等は開催が近づいてから要追検証。名古屋の一般先着発売は大阪の「2次」ラウンドとは別枠（通常の一般先着）で、8/2 23:59に締切済み（事実確認済み・8/3配信）。8/6大阪DAY1終演後に下田麻美・若林直美によるトークイベント「ツアー始動ミーティング」が判明（8/6配信で記事化）。大阪DAY1・DAY2両公演のアーカイブ配信は8/8 18:00〜9/27 23:59に決定（8/7配信で記事化）。名古屋公演（8/13・14）以降が未消化。"
 
 - id: cg-poptoybox-live
   title: "シンデレラガールズ CONCEPT xR LIVE「Pop'n ToyBox!!」"
@@ -1328,7 +1336,9 @@
       angle: "本日オープン"
   used_in:
     - gaku-hatsuboshistore-shibuya-tomorrow  # 8/6配信「明日オープン予告」
-  notes: "発表の正確な日時は未確認（7/28頃と推定）。グッズラインナップの詳細は開店が近づいてから要追検証。本日オープン（8/7）が未消化。"
+    - gaku-hatsuboshistore-shibuya-today  # 8/7配信「本日オープン」
+  status: done
+  notes: "発表の正確な日時は未確認（7/28頃と推定）。グッズラインナップの詳細は開店が近づいてから要追検証。全publish_plan消化済み。8/7〜9はWeb整理券制での運用。"
 
 - id: cg-achi-village-collab
   title: "シンデレラガールズ×長野県阿智村「Star Village ACHI」コラボレーション2026"
@@ -1492,3 +1502,25 @@
       angle: "本日発売"
   used_in: []
   notes: "収録アイドル・全種数は未取得、要追検証。"
+
+- id: sc-birthday-plate-vol1
+  title: "シャニマス「バースデープレート」第1弾"
+  brand: sc
+  kind: 公式
+  event_start: "2026-08-06"
+  event_end: "2026-08-31"
+  status: partially-used
+  confidence: unconfirmed
+  added: "2026-08-07"
+  source: "ASOBI STORE商品ページ（shop.asobistore.jp）／キャラホビまとめ（premium.gamepedia.jp/hobby/archives/222178）"
+  facts: |
+    内容: 8月〜10月生まれのアイドル計7名分のアルミ製バースデー記念プレート（各5,000円、305×153mm）
+    受注期間: 2026年8月6日（木）〜8月31日（月）
+    お届け: 2026年11月以降予定
+    ASOBI STORE商品ページで確認できた対象アイドル: 鈴木羽那（ほか計7名、全員分は未確認）
+  publish_plan:
+    - on: "2026-08-31"
+      angle: "本日受注最終日"
+  used_in:
+    - sc-birthday-plate-vol1  # 8/7配信「昨日受注開始」
+  notes: "公式ポータル（idolmaster-official.jp）上の一次ソース記事IDは未特定、確度はやや二次情報寄り。対象アイドル7名のフルリストは開催が近づいてから要追検証。"
