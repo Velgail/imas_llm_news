@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-08-07 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-08-08 集計
 - rank: 1
-  name: "三浦あずさ"
-  brand: as765
-  move: new
-- rank: 2
   name: "秋月律子"
   brand: as765
   move: up
+- rank: 2
+  name: "三浦あずさ"
+  brand: as765
+  move: down
 - rank: 3
-  name: "向井拓海"
+  name: "木場真奈美"
   brand: cg
   move: new
 - rank: 4
-  name: "菊地真"
-  brand: godo
-  move: down
+  name: "舞田類"
+  brand: sidem
+  move: new
 - rank: 5
-  name: "萩原雪歩"
-  brand: godo
-  move: down
+  name: "天音秀明"
+  brand: sidem
+  move: new
 - rank: 6
-  name: "三峰結華"
+  name: "和泉愛依"
   brand: sc
   move: new
 - rank: 7
-  name: "双海亜美"
-  brand: as765
-  move: down
+  name: "花海咲季"
+  brand: gaku
+  move: new
 - rank: 8
-  name: "双海真美"
-  brand: as765
+  name: "向井拓海"
+  brand: cg
   move: down
