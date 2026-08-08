@@ -85,22 +85,25 @@
   kind: 公式
   event_start: "2026-08-08"
   event_end: "2026-08-08"
-  status: pending
+  status: done
   confidence: confirmed
   added: "2026-07-29"
   source: "アイドルマスター公式ポータル news/01_19076 ／アニメイト特設ページ"
   facts: |
     日時: 2026年8月8日（土）2回公演（第一回12:30開場/13:30開演、第二回15:30開場/16:30開演）
-    出演: C.FIRST（一世雄輝(CV.尾崎雄輝)役ほか。役柄: 天音秀明・花園桃太郎・真弓瑛人の3名ユニット）
+    会場: 関東近郊（公式発表では「都内」ではなく「関東近郊」。詳細は当選者にのみ別途案内、未公開）
+    出演: C.FIRST（天峰秀(CV.伊瀬結陸)・花園百々人(CV.宮﨑雅也)・眉見鋭心(CV.大塚剛央)の3名ユニット）
     内容: トーク＆ミニライブ
     参加方法: アニメイト通販での対象商品購入シリアルコード応募（受付は6/12〜6/28で終了済み）
+    出演メンバー: 天峰秀・花園百々人・眉見鋭心の3名（8/8配信で確認済み）
   publish_plan:
     - on: "2026-08-07"
       angle: "明日開催予告"
     - on: "2026-08-08"
       angle: "本日開催"
-  used_in: []
-  notes: "SideMでトーク&ミニライブ形式のリリースイベントはST@RTING LINEシリーズ以来11年ぶりとファンの間で話題。C.FIRSTは新アプリ『SideM GROWING STARS』でお披露目された新ユニットとみられ、詳細は要追検証。"
+  used_in:
+    - sidem-cfirst-release-event-today  # 8/8配信「本日開催」
+  notes: "明日開催予告（8/7配信分）は未消化のまま8/8に本日開催記事のみ配信。8/8配信時に会場「都内」表記の誤りと出演者名の誤りを訂正済み。"
 
 - id: cg-anideal-shampoo
   title: "一ノ瀬志希・宮本フレデリカ プロデュース Anidealシャンプー＆ボディソープセット"
@@ -169,7 +172,8 @@
       angle: "本日開催"
   used_in:
     - as765-hoshii-miki-korea-live  # 7/31配信「昨日新発表・韓国開催決定」
-  notes: "セトリ・その他出演等の詳細は未取得、要追検証。"
+    - as765-hoshii-miki-korea-live-tomorrow  # 8/8配信「明日開催予告」
+  notes: "セトリ・その他出演等の詳細は未取得、要追検証。本日開催（8/9）分が未消化。"
 
 - id: cg-genka-youen-ichi
   title: "シンデレラガールズ POP UP SHOP「幻夏妖宴市」（百鬼夜行テーマ）"
@@ -491,7 +495,7 @@
     - ml-14thlive-general-member-lottery  # 7/12配信「一般会員先行(抽選)7/10より受付開始」
     - ml-14thlive-support-set-panel-campaign  # 7/12配信「ミリシタ『14thLIVE応援セット』発売・パネルプレゼント」
   status: partially-used
-  notes: "出演者・タイトル・チケット詳細は6/13生配信後に facts を更新済み。一般会員先行の当落発表（8/11）・9月の開幕予告〜閉幕レポが未消化。"
+  notes: "出演者・タイトル・チケット詳細は6/13生配信後に facts を更新済み。一般会員先行の当落発表（8/11）・9月の開幕予告〜閉幕レポが未消化。【8/7判明・更新】イベントグッズ事前二次販売が数量限定で8/6〜8/16受付中（主演4名描き下ろしグッズ・公式招待状ブロマイド等）。またアソビストア一般会員2次先行（全席指定14,000円等）が7/31 12:00〜8/16 23:59で受付中、当落発表は8/27 13:00〜（既存の一般会員先行＝当落発表8/11とは別枠の2次先行）。"
 
 - id: ml-milishita-karaoke-tetsuji
   title: "ミリシタ9周年×カラオケの鉄人 SPECIAL COLLABORATION"
@@ -1132,8 +1136,9 @@
   used_in:
     - sc-animethon2026  # 7/14配信「出演決定・新発表」
     - sc-animethon2026-tomorrow  # 8/7配信「明日8/8ライブパフォーマンス予告」
+    - sc-animethon2026-today  # 8/8配信「本日Animethon MusicFesで北米初ライブ」
   status: partially-used
-  notes: "発表の正確な日付は未確定（news/01_19372は7/13〜7/14頃と推定）。トークパネル・サイン会の詳細スケジュールは後日発表見込み、要追検証。本日出演（8/8）・昨日出演レポ（8/9）が未消化。"
+  notes: "発表の正確な日付は未確定（news/01_19372は7/13〜7/14頃と推定）。トークパネル・サイン会の詳細スケジュールは後日発表見込み、要追検証。昨日出演レポ（8/9配信分）が未消化。"
 
 - id: as765-dualtwinlive-765pro
   title: "765プロ「dual twin live tour」（双海亜美・双海真美／三浦あずさ・秋月律子）"
@@ -1183,7 +1188,8 @@
     - as765-dualtwinlive-osaka-tomorrow  # 8/5配信「明日大阪公演開幕予告」
     - as765-dualtwinlive-osaka-today  # 8/6配信「本日大阪公演DAY1（ふたごぼしのつばさ）・終演後トークイベント判明」
     - as765-dualtwinlive-osaka-day2-today  # 8/7配信「本日大阪公演DAY2（つみまつよるまち）・アーカイブ配信期間判明」
-  notes: "xRライブストリーミング配信の詳細・セトリ等は開催が近づいてから要追検証。名古屋の一般先着発売は大阪の「2次」ラウンドとは別枠（通常の一般先着）で、8/2 23:59に締切済み（事実確認済み・8/3配信）。8/6大阪DAY1終演後に下田麻美・若林直美によるトークイベント「ツアー始動ミーティング」が判明（8/6配信で記事化）。大阪DAY1・DAY2両公演のアーカイブ配信は8/8 18:00〜9/27 23:59に決定（8/7配信で記事化）。名古屋公演（8/13・14）以降が未消化。"
+    - as765-dualtwinlive-osaka-final-report  # 8/8配信「昨日2日間で完走・千秋楽レポ」
+  notes: "xRライブストリーミング配信の詳細・セトリ等は開催が近づいてから要追検証。名古屋の一般先着発売は大阪の「2次」ラウンドとは別枠（通常の一般先着）で、8/2 23:59に締切済み（事実確認済み・8/3配信）。8/6大阪DAY1終演後に下田麻美・若林直美によるトークイベント「ツアー始動ミーティング」が判明（8/6配信で記事化）。大阪DAY1・DAY2両公演のアーカイブ配信は8/8 18:00〜9/27 23:59に決定（8/7配信で記事化）。大阪公演千秋楽・秋月律子役若林直美の特別スペース配信・プロデュースショット投稿キャンペーンを8/8配信で記事化済み。名古屋公演（8/13・14）以降が未消化。"
 
 - id: cg-poptoybox-live
   title: "シンデレラガールズ CONCEPT xR LIVE「Pop'n ToyBox!!」"
@@ -1524,3 +1530,82 @@
   used_in:
     - sc-birthday-plate-vol1  # 8/7配信「昨日受注開始」
   notes: "公式ポータル（idolmaster-official.jp）上の一次ソース記事IDは未特定、確度はやや二次情報寄り。対象アイドル7名のフルリストは開催が近づいてから要追検証。"
+
+- id: cg-sousenkyo-oendo-tokoshasai
+  title: "シンデレラガール総選挙2026「応援投稿祭」（ニコニコ動画）"
+  brand: cg
+  kind: 公式
+  event_start: "2026-09-04"
+  event_end: "2026-09-06"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-08"
+  source: "アイドルマスター公式ポータル news/01_19577（2026年8月7日19:30公開）"
+  facts: |
+    投稿期間: 2026年9月4日(金)17:00〜9月6日(日)23:59
+    参加方法: ニコニコ動画で応援動画投稿（規約は後日公開予定）
+    特典: 投稿者全員に投票券100枚（1名1回のみ）。各部門賞（計5部門・入賞15名）には190人描き下ろし「真纏麗羅武闘服♥」の屏風風色紙
+    背景: 11月開催予定の15周年イベント「THE IDOLM@STER CINDERELLA GIRLS 15th ANNIVERSARY PARTY!!!! ~ for your ONE ~」の各部門をモチーフにした5部門構成
+  publish_plan:
+    - on: "2026-09-03"
+      angle: "明日投稿祭開幕予告"
+    - on: "2026-09-04"
+      angle: "本日投稿祭開幕"
+    - on: "2026-09-06"
+      angle: "本日投稿祭最終日"
+  used_in:
+    - cg-sousenkyo-oendo-tokoshasai  # 8/8配信「新発表」
+  notes: "投稿規約の詳細は後日公開予定、要追検証。"
+
+- id: gaku-chugai-grace-cafe-revival
+  title: "学園アイドルマスター×Chugai Grace Café リバイバル（渋谷モディ店）"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-09-03"
+  event_end: "2026-09-27"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-08"
+  source: "アイドルマスター公式ポータル news/01_19534（2026年8月7日12:05公開）"
+  facts: |
+    会場: Chugai Grace Café 渋谷モディ店
+    開催期間: 2026年9月3日(木)〜9月27日(日)
+    背景: 2026年1月開催コラボカフェのリバイバル
+    内容: 前回メニューに加え新規コラボメニュー・注文特典、グッズは再販に加え新商品3種（アクリルコレクションスタンド・ハート型キャンディー付きキーホルダー・クリアうちわ、いずれもスイーツver.）
+  publish_plan:
+    - on: "2026-09-02"
+      angle: "明日開幕予告"
+    - on: "2026-09-03"
+      angle: "本日開幕"
+    - on: "2026-09-27"
+      angle: "本日最終日"
+  used_in:
+    - gaku-chugai-grace-cafe-revival  # 8/8配信「新発表」
+  notes: "新メニューの詳細は後日公開予定、要追検証。"
+
+- id: ml-operaseria-popup
+  title: "ミリオンライブ POP UP SHOP「オペラセリア」（コトブキヤ秋葉原館）"
+  brand: ml
+  kind: 公式
+  event_start: "2026-09-11"
+  event_end: "2026-09-27"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-08"
+  source: "アイドルマスター公式ポータル news/01_19483（2026年8月7日18:01公開）"
+  facts: |
+    会場: コトブキヤ秋葉原館5F
+    開催期間: 2026年9月11日(金)〜9月27日(日)
+    題材: 「ミリオンリンケージ〜オペラセリア・きらめきの幼馴染編〜」
+    登場キャラクター（計6名）: Ashley Norris・Oscar Talbot・Ariel Howard・Harvey Bertie（既発表）＋Raphael・Clara（8/7新規判明）
+    グッズ詳細: 続報予定
+  publish_plan:
+    - on: "2026-09-10"
+      angle: "明日開幕予告"
+    - on: "2026-09-11"
+      angle: "本日開幕"
+    - on: "2026-09-27"
+      angle: "本日最終日"
+  used_in:
+    - ml-operaseria-vol2-cast  # 8/8配信「追加キャラ2名判明」
+  notes: "グッズラインナップは続報待ち、要追検証。"
