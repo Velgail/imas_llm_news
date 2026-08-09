@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-08-09"
+  dateLong: "2026年（令和8年）8月9日　日曜日"
+  pages: "全 10 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "星井美希、本日ソウルで海外ライブ第2弾"
+  indexNote: "昨日は765プロ・ミリオンスターズがKIMCHIKURA Fes '26に出演、シャニマスも北米初ライブ。明日は学マス新ガシャ「セミブルー」「冠菊」開催。"
 - date: "2026-08-08"
   dateLong: "2026年（令和8年）8月8日　土曜日"
   pages: "全 19 面"

@@ -155,7 +155,7 @@
   kind: 公式
   event_start: "2026-08-09"
   event_end: "2026-08-09"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-07-31"
   source: "アイドルマスター公式ポータル news/01_19478"
@@ -165,6 +165,7 @@
     背景: 音楽フェス「KIMCHIKURA Fes '26」出演記念の単独公演。海外ライブ第2弾
     チケット: 先着販売、7/30 19:00〜開始
     配信: 予定なし（現地のみ）
+    【8/8判明】星井美希役・長谷川明子は前日8/8のKIMCHIKURA Fes '26（765PRO ALLSTARSとして出演）に続き、本公演にも臨んだ（現地滞在の詳細は未確認）
   publish_plan:
     - on: "2026-08-08"
       angle: "明日開催予告"
@@ -173,7 +174,8 @@
   used_in:
     - as765-hoshii-miki-korea-live  # 7/31配信「昨日新発表・韓国開催決定」
     - as765-hoshii-miki-korea-live-tomorrow  # 8/8配信「明日開催予告」
-  notes: "セトリ・その他出演等の詳細は未取得、要追検証。本日開催（8/9）分が未消化。"
+    - as765-hoshii-miki-korea-live-today  # 8/9配信「本日開催」
+  notes: "全publish_plan消化済み。セトリ・現地の様子等の詳細は未取得、続報が出れば追記する。"
 
 - id: cg-genka-youen-ichi
   title: "シンデレラガールズ POP UP SHOP「幻夏妖宴市」（百鬼夜行テーマ）"
@@ -1116,7 +1118,7 @@
   kind: 公式
   event_start: "2026-08-07"
   event_end: "2026-08-09"
-  status: pending
+  status: done
   confidence: confirmed
   added: "2026-07-14"
   source: "アイドルマスター公式ポータル news/01_19372"
@@ -1137,8 +1139,8 @@
     - sc-animethon2026  # 7/14配信「出演決定・新発表」
     - sc-animethon2026-tomorrow  # 8/7配信「明日8/8ライブパフォーマンス予告」
     - sc-animethon2026-today  # 8/8配信「本日Animethon MusicFesで北米初ライブ」
-  status: partially-used
-  notes: "発表の正確な日付は未確定（news/01_19372は7/13〜7/14頃と推定）。トークパネル・サイン会の詳細スケジュールは後日発表見込み、要追検証。昨日出演レポ（8/9配信分）が未消化。"
+    - sc-animethon2026-report  # 8/9配信「昨日出演レポ」
+  notes: "全publish_plan消化済み。発表の正確な日付は未確定（news/01_19372は7/13〜7/14頃と推定）。8/9配信時点で現地セットリスト・会場の反応等の詳細レポートは未着、続報が出れば追記する。"
 
 - id: as765-dualtwinlive-765pro
   title: "765プロ「dual twin live tour」（双海亜美・双海真美／三浦あずさ・秋月律子）"
@@ -1506,8 +1508,10 @@
       angle: "明日発売予告"
     - on: "2026-08-10"
       angle: "本日発売"
-  used_in: []
-  notes: "収録アイドル・全種数は未取得、要追検証。"
+  used_in:
+    - gaku-ftoys-photostyle-acstand2-tomorrow  # 8/9配信「明日発売予告」
+  status: partially-used
+  notes: "収録アイドル・全種数は未取得、要追検証。本日発売（8/10）分が未消化。"
 
 - id: sc-birthday-plate-vol1
   title: "シャニマス「バースデープレート」第1弾"
@@ -1609,3 +1613,25 @@
   used_in:
     - ml-operaseria-vol2-cast  # 8/8配信「追加キャラ2名判明」
   notes: "グッズラインナップは続報待ち、要追検証。"
+
+- id: sogo-iwsf2026-douji-shichou
+  title: "IWSF2026 同時視聴上映会（DAY1〜DAY3）"
+  brand: sogo
+  kind: 公式
+  event_start: "2026-08-08"
+  event_end: "2026-08-11"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-09"
+  source: "アイドルマスター公式ポータル news/01_19434"
+  facts: |
+    内容: 7/24〜26開催「IDOL WORLD SUPER FESTIVAL 2026」本編を、アソビステージのチケット購入者向けにライブコメント付きで見返せる企画
+    DAY1: 8月8日(土)21:00〜
+    DAY2: 8月9日(日)21:00〜
+    DAY3: 8月11日(火)21:00〜
+  publish_plan:
+    - on: "2026-08-11"
+      angle: "本日DAY3・全日程終了"
+  used_in:
+    - sogo-iwsf-douji-shichou-day2  # 8/9配信「本日DAY2が21時配信（昨日DAY1に言及）」
+  notes: "DAY1（8/8）は本日DAY2の記事内で言及済み、単独記事化はせず。DAY3（8/11）が未消化。"
