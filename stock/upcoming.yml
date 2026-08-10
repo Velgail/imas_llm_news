@@ -175,7 +175,8 @@
     - as765-hoshii-miki-korea-live  # 7/31配信「昨日新発表・韓国開催決定」
     - as765-hoshii-miki-korea-live-tomorrow  # 8/8配信「明日開催予告」
     - as765-hoshii-miki-korea-live-today  # 8/9配信「本日開催」
-  notes: "全publish_plan消化済み。セトリ・現地の様子等の詳細は未取得、続報が出れば追記する。"
+    - as765-hoshii-miki-korea-live-report  # 8/10配信「昨日開催（セトリ・現地レポート未着）」
+  notes: "全publish_plan消化済み。セトリ・現地の様子等の詳細は8/10配信時点でも未取得、続報が出れば追記する。"
 
 - id: cg-genka-youen-ichi
   title: "シンデレラガールズ POP UP SHOP「幻夏妖宴市」（百鬼夜行テーマ）"
@@ -386,7 +387,8 @@
   used_in:
     - cg-gatamas-niigata-sado  # 6/16配信「開催決定」
     - cg-gatamas-niigata-sado-details  # 7/21配信「詳細判明」
-  notes: "コラボグッズ販売内容は後日公開予定、判明次第factsを更新すること。"
+    - cg-gatamas-niigata-sado-tomorrow  # 8/10配信「明日開幕予告（詳細まとめ）」
+  notes: "コラボグッズ販売内容は後日公開予定、判明次第factsを更新すること。本日開幕（8/11）分が未消化。"
 
 - id: cg-sousenkyo-2026-vote
   title: "シンデレラガール総選挙2026 投票フェーズ（15周年）"
@@ -1510,8 +1512,9 @@
       angle: "本日発売"
   used_in:
     - gaku-ftoys-photostyle-acstand2-tomorrow  # 8/9配信「明日発売予告」
-  status: partially-used
-  notes: "収録アイドル・全種数は未取得、要追検証。本日発売（8/10）分が未消化。"
+    - gaku-ftoys-photostyle-acstand2-today  # 8/10配信「本日発売」
+  status: done
+  notes: "全publish_plan消化済み。収録アイドル・全種数は未取得のまま、判明次第追記する。"
 
 - id: sc-birthday-plate-vol1
   title: "シャニマス「バースデープレート」第1弾"
@@ -1534,6 +1537,28 @@
   used_in:
     - sc-birthday-plate-vol1  # 8/7配信「昨日受注開始」
   notes: "公式ポータル（idolmaster-official.jp）上の一次ソース記事IDは未特定、確度はやや二次情報寄り。対象アイドル7名のフルリストは開催が近づいてから要追検証。"
+
+- id: gaku-semiblue-kangiku-skincard-gacha
+  title: "学マス 新スキルカードスキン付きガシャ「セミブルー」「冠菊」"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-08-10"
+  event_end: "2026-08-17"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-09"
+  source: "学マス公式X（@gkmas_official）／Game8（game8.jp/gakuen-idolmaster/753524）"
+  facts: |
+    対象: 紫雲清夏・姫崎莉波（「キミとセミブルー 清夏＆莉波ガシャ」）、葛城リーリヤ・藤田ことね（「冠菊 リーリヤ＆ことねガシャ」）
+    新要素: プレイ中のカードイラストが専用デザインに変化する「スキルカードスキン」を初実装。対象Pアイドルには特訓7段階目も新規実装
+    開催期間: 2026年8月10日（月）11:00〜8月17日（月）10:59（予定）
+  publish_plan:
+    - on: "2026-08-17"
+      angle: "本日終了"
+  used_in:
+    - gaku-new-gacha-tomorrow  # 8/9配信「明日8/10開催予告」
+    - gaku-new-gacha-today  # 8/10配信「本日開始」
+  notes: "終了日は複数の攻略サイトで「予定」扱いのため要追検証。スキンの排出率・詳細は未確認。"
 
 - id: cg-sousenkyo-oendo-tokoshasai
   title: "シンデレラガール総選挙2026「応援投稿祭」（ニコニコ動画）"
