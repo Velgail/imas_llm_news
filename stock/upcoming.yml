@@ -54,57 +54,6 @@
   status: done
   notes: "全publish_plan消化済み。3人目の新アイドルの正体が判明次第、新規エントリとして追記する。"
 
-- id: sidem-transcendent-tales11
-  title: "SideM TRANSCENDENT T@LES 11 CD発売"
-  brand: sidem
-  kind: 公式
-  event_start: "2026-08-05"
-  event_end: "2026-08-05"
-  status: pending
-  confidence: confirmed
-  added: "2026-07-29"
-  source: "アイドルマスター公式ポータル news/01_19077"
-  facts: |
-    発売日: 2026年8月5日（水）
-    出演: 蒼井享介（CV.山谷祥生）・猫柳キリオ（CV.山下大輝）・秋山隼人（CV.千葉翔也）・大河タケル（CV.寺島惇太）
-    品番: LACM-24771　価格: 税込2,200円
-  publish_plan:
-    - on: "2026-08-04"
-      angle: "明日発売予告"
-    - on: "2026-08-05"
-      angle: "本日発売"
-  used_in:
-    - sidem-transcendent-tales11-tomorrow  # 8/4配信「明日発売予告」
-    - sidem-transcendent-tales11-today  # 8/5配信「本日発売」
-  status: done
-  notes: "全publish_plan消化済み。"
-
-- id: sidem-cfirst-release-event
-  title: "SideM C.FIRST「理由あってリリースイベント」"
-  brand: sidem
-  kind: 公式
-  event_start: "2026-08-08"
-  event_end: "2026-08-08"
-  status: done
-  confidence: confirmed
-  added: "2026-07-29"
-  source: "アイドルマスター公式ポータル news/01_19076 ／アニメイト特設ページ"
-  facts: |
-    日時: 2026年8月8日（土）2回公演（第一回12:30開場/13:30開演、第二回15:30開場/16:30開演）
-    会場: 関東近郊（公式発表では「都内」ではなく「関東近郊」。詳細は当選者にのみ別途案内、未公開）
-    出演: C.FIRST（天峰秀(CV.伊瀬結陸)・花園百々人(CV.宮﨑雅也)・眉見鋭心(CV.大塚剛央)の3名ユニット）
-    内容: トーク＆ミニライブ
-    参加方法: アニメイト通販での対象商品購入シリアルコード応募（受付は6/12〜6/28で終了済み）
-    出演メンバー: 天峰秀・花園百々人・眉見鋭心の3名（8/8配信で確認済み）
-  publish_plan:
-    - on: "2026-08-07"
-      angle: "明日開催予告"
-    - on: "2026-08-08"
-      angle: "本日開催"
-  used_in:
-    - sidem-cfirst-release-event-today  # 8/8配信「本日開催」
-  notes: "明日開催予告（8/7配信分）は未消化のまま8/8に本日開催記事のみ配信。8/8配信時に会場「都内」表記の誤りと出演者名の誤りを訂正済み。"
-
 - id: cg-anideal-shampoo
   title: "一ノ瀬志希・宮本フレデリカ プロデュース Anidealシャンプー＆ボディソープセット"
   brand: cg
@@ -125,58 +74,6 @@
   used_in:
     - cg-anideal-shampoo  # 7/31配信「昨日より受注開始」
   notes: "受注最終日（8/28）の記事化が未消化。"
-
-- id: cg-sendai-tower-tour
-  title: "シンデレラガールズ全国タワーコラボ第二弾「Silky Sparkling Summer Stage」（仙台アエル）"
-  brand: cg
-  kind: 公式
-  event_start: "2026-07-31"
-  event_end: "2026-08-02"
-  status: done
-  confidence: confirmed
-  added: "2026-07-31"
-  source: "アイドルマスター公式ポータル news/01_19468 / 特設サイト（colabtokyo.hp.peraichi.com/cinderellagirls2026_sendai）"
-  facts: |
-    会場: 仙台アエル
-    会期: 2026年7月31日（金）〜8月2日（日）（特設サイトで確認済み）
-    背景: 全国タワーコラボ第一弾（東京タワー、7/3〜22、渋谷凛・砂塚あきら・速水奏・久川颯・森久保乃々・諸星きらり）に続く第二弾
-    出演メンバー・展示内容: 未発表（続報待ち）
-  publish_plan:
-    - on: "2026-08-02"
-      angle: "本日千秋楽"
-  used_in:
-    - cg-sendai-tower-tour-today  # 7/31配信「本日開幕」
-    - cg-sendai-tower-tour-final  # 8/2配信「本日千秋楽」
-  notes: "全publish_plan消化済み。次会場の発表は判明次第、新規エントリとして追加する。"
-
-- id: as765-hoshii-miki-korea-live
-  title: "星井美希 海外ライブ第2弾「THE FUTURE SPOTLIGHT」in KOREA"
-  brand: as765
-  kind: 公式
-  event_start: "2026-08-09"
-  event_end: "2026-08-09"
-  status: done
-  confidence: confirmed
-  added: "2026-07-31"
-  source: "アイドルマスター公式ポータル news/01_19478"
-  facts: |
-    会場: Gabin Art Hall（韓国・ソウル）
-    日程: 2026年8月9日（日）
-    背景: 音楽フェス「KIMCHIKURA Fes '26」出演記念の単独公演。海外ライブ第2弾
-    チケット: 先着販売、7/30 19:00〜開始
-    配信: 予定なし（現地のみ）
-    【8/8判明】星井美希役・長谷川明子は前日8/8のKIMCHIKURA Fes '26（765PRO ALLSTARSとして出演）に続き、本公演にも臨んだ（現地滞在の詳細は未確認）
-  publish_plan:
-    - on: "2026-08-08"
-      angle: "明日開催予告"
-    - on: "2026-08-09"
-      angle: "本日開催"
-  used_in:
-    - as765-hoshii-miki-korea-live  # 7/31配信「昨日新発表・韓国開催決定」
-    - as765-hoshii-miki-korea-live-tomorrow  # 8/8配信「明日開催予告」
-    - as765-hoshii-miki-korea-live-today  # 8/9配信「本日開催」
-    - as765-hoshii-miki-korea-live-report  # 8/10配信「昨日開催（セトリ・現地レポート未着）」
-  notes: "全publish_plan消化済み。セトリ・現地の様子等の詳細は8/10配信時点でも未取得、続報が出れば追記する。"
 
 - id: cg-genka-youen-ichi
   title: "シンデレラガールズ POP UP SHOP「幻夏妖宴市」（百鬼夜行テーマ）"
@@ -329,33 +226,6 @@
     - sc-refrac7ions-vol56-crane  # 7/24配信「本日Vol.5・6先行プレイ開始」
   notes: "オンラインクレーン先行プレイは全Vol消化済み。実店舗展開開始（11月以降、正確な開始日は近づいたら要再確認）のみ未消化。"
 
-- id: other-namco-summer-market-hakuhinkan
-  title: "ナムコ ゲームセレクション サマーマーケット in 博品館TOY PARK"
-  brand: other
-  kind: 公式
-  event_start: "2026-07-11"
-  event_end: "2026-08-06"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-07-12"
-  source: "アイドルマスター公式ポータル news/01_19360（2026年7月11日）"
-  facts: |
-    会場: 博品館TOY PARK銀座本店1F
-    参加IP: アイドルマスター、パックマン、太鼓の達人、塊魂、ディグダグ、マッピー、ワンダーモモ、鉄拳、テイルズ オブ 等
-    特典: 対象商品税込2,000円ごとにオリジナルポストカード（全5種）をランダム進呈
-    企画: どんちゃん・パックマンのグリーティング／フォトスポットあり
-  publish_plan:
-    - on: "2026-08-05"
-      angle: "明日最終日予告"
-    - on: "2026-08-06"
-      angle: "本日最終日"
-  used_in:
-    - other-namco-summer-market-hakuhinkan  # 7/12配信「昨日開幕」
-    - other-namco-summer-market-hakuhinkan-final-tomorrow  # 8/5配信「明日最終日予告」
-    - other-namco-summer-market-hakuhinkan-final-today  # 8/6配信「本日最終日」
-  status: done
-  notes: "全publish_plan消化済み。アイドルマスター関連の具体的な出展グッズは未取得のままだった。"
-
 - id: cg-gatamas-niigata-sado
   title: "シンデレラガールズ×新潟市・佐渡市コラボ「がたます」"
   brand: cg
@@ -388,7 +258,9 @@
     - cg-gatamas-niigata-sado  # 6/16配信「開催決定」
     - cg-gatamas-niigata-sado-details  # 7/21配信「詳細判明」
     - cg-gatamas-niigata-sado-tomorrow  # 8/10配信「明日開幕予告（詳細まとめ）」
-  notes: "コラボグッズ販売内容は後日公開予定、判明次第factsを更新すること。本日開幕（8/11）分が未消化。"
+    - cg-gatamas-niigata-sado-today  # 8/11配信「本日開幕」
+  status: done
+  notes: "全publish_plan消化済み。コラボグッズ販売内容は後日公開予定、判明次第新規エントリとして追記する。"
 
 - id: cg-sousenkyo-2026-vote
   title: "シンデレラガール総選挙2026 投票フェーズ（15周年）"
@@ -498,8 +370,9 @@
     - ml-14thlive-goods-deadline  # 7/6配信「イベントグッズ事前販売、昨日23:59締切」
     - ml-14thlive-general-member-lottery  # 7/12配信「一般会員先行(抽選)7/10より受付開始」
     - ml-14thlive-support-set-panel-campaign  # 7/12配信「ミリシタ『14thLIVE応援セット』発売・パネルプレゼント」
+    - ml-14thlive-general-lottery-result  # 8/11配信「本日一般会員先行抽選の当落発表」
   status: partially-used
-  notes: "出演者・タイトル・チケット詳細は6/13生配信後に facts を更新済み。一般会員先行の当落発表（8/11）・9月の開幕予告〜閉幕レポが未消化。【8/7判明・更新】イベントグッズ事前二次販売が数量限定で8/6〜8/16受付中（主演4名描き下ろしグッズ・公式招待状ブロマイド等）。またアソビストア一般会員2次先行（全席指定14,000円等）が7/31 12:00〜8/16 23:59で受付中、当落発表は8/27 13:00〜（既存の一般会員先行＝当落発表8/11とは別枠の2次先行）。"
+  notes: "出演者・タイトル・チケット詳細は6/13生配信後に facts を更新済み。9月の開幕予告〜閉幕レポが未消化。【8/7判明・更新】イベントグッズ事前二次販売が数量限定で8/6〜8/16受付中（主演4名描き下ろしグッズ・公式招待状ブロマイド等）。またアソビストア一般会員2次先行（全席指定14,000円等）が7/31 12:00〜8/16 23:59で受付中、当落発表は8/27 13:00〜（既存の一般会員先行＝当落発表8/11とは別枠の2次先行）。"
 
 - id: ml-milishita-karaoke-tetsuji
   title: "ミリシタ9周年×カラオケの鉄人 SPECIAL COLLABORATION"
@@ -559,41 +432,6 @@
   used_in:
     - cg-vote2026-atre-kawasaki-popup-today  # 7/21配信「本日開幕」
   notes: "Starlight Dining閉幕の翌日に同フロアで開幕。最終日（8/17）の記事化が未消化。"
-
-- id: gaku-chupachups-ikebukuro
-  title: "学マス×チュッパチャプス POP UP STORE（JR池袋駅 南改札前）"
-  brand: gaku
-  kind: 公式
-  event_start: "2026-07-21"
-  event_end: "2026-08-03"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-06-17"
-  source: "チュッパチャプス公式 / アイドルマスター公式ポータル news/01_19105 / eeo Store特設サイト（gkms-chupachups-ikebukuro）"
-  facts: |
-    名称: 学園アイドルマスター×チュッパチャプス POP UP STORE
-    会場: JR池袋駅 南改札前
-    開催期間: 2026年7月21日（火）〜8月3日（月）
-    先行通販: 2026年6月15日〜6月21日（先着順、受付終了）
-    内容: コラボ限定描き下ろしイラスト・ミニキャラ使用の新商品。2,200円（税込）購入ごとにイラストカード（全13種）をランダム進呈
-    入場方法: 7/21 15:00までの入場は事前抽選制、混雑時は当日限定整理券を配布の可能性あり
-  publish_plan:
-    - on: "2026-07-20"
-      angle: "明日開幕予告"
-    - on: "2026-07-21"
-      angle: "本日開幕"
-    - on: "2026-08-02"
-      angle: "明日最終日予告"
-    - on: "2026-08-03"
-      angle: "本日最終日"
-  used_in:
-    - gaku-chupachups-popup-ikebukuro  # 6/17配信「先行通販〜6/21」
-    - gaku-chupachups-tomorrow  # 7/20配信「明日開幕予告・グッズ詳細判明」
-    - gaku-chupachups-today  # 7/21配信「本日開幕」
-    - gaku-chupachups-ikebukuro-final-tomorrow  # 8/2配信「明日最終日予告」
-    - gaku-chupachups-ikebukuro-final-today  # 8/3配信「本日最終日」
-  status: done
-  notes: "先行通販は6/21締切。7/21の初日は15:00まで事前抽選制。全publish_plan消化済み。"
 
 - id: sc-megashaki-collab-vol7
   title: "シャニマス×メガシャキ 7年目コラボキャンペーン"
@@ -741,35 +579,6 @@
   status: done
   notes: "商品ラインナップ詳細は未取得のまま。全publish_plan消化済み。"
 
-
-- id: as765-atre-akihabara-collab
-  title: "「アイドルマスター×アトレ秋葉原」（765PRO ALLSTARS13名）"
-  brand: as765
-  kind: 公式
-  event_start: "2026-07-24"
-  event_end: "2026-08-06"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-07-25"
-  source: "アイドルマスター公式ポータル news/01_19419、01_19367（2026年7月23〜24日）"
-  facts: |
-    対象: 天海春香・如月千早・星井美希・萩原雪歩・高槻やよい・三浦あずさ・秋月律子・双海亜美・双海真美・我那覇響・四条貴音・水瀬伊織・田中琴葉の13名
-    会場: アトレ秋葉原（東京都千代田区外神田1-17-6）
-    開催期間: 2026年7月24日（金）〜8月6日（木）
-    内容: 描き下ろしイラスト「アルバス・アストロラーベver.」使用グッズ、建物ラッピング、購入特典（オリジナルステッカー全13種、1会計1,000円ごとにランダム1枚）
-    同時展開: 一部グッズを仙台・名古屋駅前・大阪日本橋・博多の公式ショップでも同日発売
-    入場規制: 混雑緩和のため一部日程で事前予約制の可能性あり
-  publish_plan:
-    - on: "2026-08-05"
-      angle: "明日最終日予告"
-    - on: "2026-08-06"
-      angle: "本日最終日"
-  used_in:
-    - as765-atre-akihabara-collab  # 7/25配信「昨日開幕」
-    - as765-atre-akihabara-collab-final-tomorrow  # 8/5配信「明日最終日予告」
-    - as765-atre-akihabara-collab-final-today  # 8/6配信「本日最終日」
-  status: done
-  notes: "全publish_plan消化済み。"
 
 - id: valiv-akari-birthday-live-postponed
   title: "vα-liv 灯里愛夏バースデーライブ 振替日程"
@@ -1009,7 +818,8 @@
     - gaku-shirube-lottery2-payment-deadline  # 7/23配信「福井・福岡・岩手公演2次先行入金、昨日23:59締切」
     - gaku-shirube-fukui-ticket-deadline  # 8/5配信「福井公演、一般チケット販売が昨日締切」
     - gaku-shirube-final-goods-presale-final  # 8/7配信「ファイナル公演グッズ事前販売ファイナル、昨日8/6 16時受注開始」
-  notes: "出演者・セトリ等の詳細は未取得。ファイナル公演のチケット価格・出演人数は公式サイト（live_event/gkmas_livetour_shirube配下）で確認済み。福井公演の出演者が判明済み（七瀬つむぎ・花岩香奈・薄井友里・松田彩音）。グッズ事前販売ファイナルは8/6 16:00〜8/16 23:59受付（8/7配信で記事化）。ファイナル公演一般会員先行の当落発表（8/11）・グッズ事前販売ファイナル締切（8/16）以降が未消化。"
+    - gaku-shirube-final-general-lottery-result  # 8/11配信「本日ファイナル公演一般会員先行の当落発表」
+  notes: "出演者・セトリ等の詳細は未取得。ファイナル公演のチケット価格・出演人数は公式サイト（live_event/gkmas_livetour_shirube配下）で確認済み。福井公演の出演者が判明済み（七瀬つむぎ・花岩香奈・薄井友里・松田彩音）。グッズ事前販売ファイナルは8/6 16:00〜8/16 23:59受付（8/7配信で記事化）。グッズ事前販売ファイナル締切（8/16）以降が未消化。"
 
 - id: sc-maneki-neko-collab-2026
   title: "アイドルマスター シャイニーカラーズ×カラオケまねきねこ コラボ"
@@ -1037,29 +847,6 @@
     - sc-maneki-neko-tomorrow  # 7/13配信「明日開催予告」
     - sc-maneki-neko-today  # 7/14配信「本日13:00開催」
   notes: "開始時刻13:00判明。詳細メニュー・グッズラインナップは開催が近づいてから要追検証。8/30最終日の記事化が未消化。"
-
-- id: gaku-supergroupies-vol2
-  title: "学園アイドルマスター×SuperGroupies コラボ第2弾（腕時計・バッグ・長財布）"
-  brand: gaku
-  kind: 公式
-  event_start: "2026-07-06"
-  event_end: "2026-08-03"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-07-07"
-  source: "アイドルマスター公式ポータル news/01_19168 / 電ファミニコゲーマー（2026年7月6日）"
-  facts: |
-    対象アイドル: 有村麻央・葛城リーリヤ・倉本千奈
-    商品: 腕時計22,000円（お届け2027年1月上旬）・バッグ19,800円（お届け2026年11月上旬）・長財布15,400円（お届け2026年11月上旬）、いずれも税込
-    予約受付期間: 2026年7月6日12:00〜8月3日12:00
-  publish_plan:
-    - on: "2026-08-03"
-      angle: "本日予約最終日"
-  used_in:
-    - gaku-supergroupies-watch-bag  # 7/7配信「昨日12:00より予約開始」
-    - gaku-supergroupies-vol2-final  # 8/3配信「本日予約最終日」
-  status: done
-  notes: "全publish_plan消化済み。"
 
 - id: sc-283pro-solo-live-msp
   title: "283 PRODUCTION Solo Live Collection -Master ShowPiece-"
@@ -1113,36 +900,6 @@
     - sogo-20th-piano-collection-deadline-tomorrow  # 7/11配信「収録楽曲アンケート、明日7/12締切」
     - sogo-20th-piano-collection-survey-deadline  # 7/12配信「本日23:59締切」
   notes: "CD収録の新規10曲確定はアンケート締切後に発表される見込み、要追検証。CD予約締切は9/6、未消化。"
-
-- id: sc-animethon2026
-  title: "シャニマス、カナダ「Animethon 2026」出演（北米初ライブパフォーマンス）"
-  brand: sc
-  kind: 公式
-  event_start: "2026-08-07"
-  event_end: "2026-08-09"
-  status: done
-  confidence: confirmed
-  added: "2026-07-14"
-  source: "アイドルマスター公式ポータル news/01_19372"
-  facts: |
-    会場: エドモントン・コンベンションセンター（カナダ・エドモントン）
-    開催期間: 2026年8月7日（金）〜9日（日）
-    シャニマスのパフォーマンス: 8月8日（土）「Animethon MusicFes」枠で実施。シリーズ北米初のライブパフォーマンス
-    出演: 北原沙弥香（和泉愛依役）・田嶌紗蘭（福丸小糸役）・紫月杏朱彩（七草にちか役）
-    その他企画: トークパネル・サイン会も期間中に実施予定
-  publish_plan:
-    - on: "2026-08-07"
-      angle: "明日8/8ライブパフォーマンス予告"
-    - on: "2026-08-08"
-      angle: "本日Animethon MusicFesで北米初ライブ"
-    - on: "2026-08-09"
-      angle: "昨日出演レポ"
-  used_in:
-    - sc-animethon2026  # 7/14配信「出演決定・新発表」
-    - sc-animethon2026-tomorrow  # 8/7配信「明日8/8ライブパフォーマンス予告」
-    - sc-animethon2026-today  # 8/8配信「本日Animethon MusicFesで北米初ライブ」
-    - sc-animethon2026-report  # 8/9配信「昨日出演レポ」
-  notes: "全publish_plan消化済み。発表の正確な日付は未確定（news/01_19372は7/13〜7/14頃と推定）。8/9配信時点で現地セットリスト・会場の反応等の詳細レポートは未着、続報が出れば追記する。"
 
 - id: as765-dualtwinlive-765pro
   title: "765プロ「dual twin live tour」（双海亜美・双海真美／三浦あずさ・秋月律子）"
@@ -1223,7 +980,8 @@
   used_in:
     - cg-poptoybox-venue-cd  # 7/18配信「会場限定CD発売判明」
     - cg-poptoybox-general-sale  # 7/21配信「現地チケット一般発売・xR配信チケット受付中」
-  notes: "出演者・各公演の具体的なメンバー構成は未取得、要追検証。"
+    - cg-poptoybox-cast-reveal  # 8/11配信「出演メンバー判明」
+  notes: "【8/11判明】全6公演は夕方公演（こども側・おとな側そろい踏み）・昼公演（こども側中心）・夜公演（おとな側中心）の3種構成。新曲「Poppin' para Pong!」は赤城みりあ・市原仁奈・椎名法子、「Cookie Dough」は高垣楓・三船美優・大和亜季が歌唱。龍崎薫・浅利七海・佐城雪美は昼・夕公演限定出演。開幕予告（8/12）・本日開幕（8/13）・千秋楽（8/16）が未消化。"
 
 - id: sc-refrac7ions-stillblue-live
   title: "シャニマス「shiny, the first REFRAC7IONS \"Still blue\"」"
@@ -1659,4 +1417,6 @@
       angle: "本日DAY3・全日程終了"
   used_in:
     - sogo-iwsf-douji-shichou-day2  # 8/9配信「本日DAY2が21時配信（昨日DAY1に言及）」
-  notes: "DAY1（8/8）は本日DAY2の記事内で言及済み、単独記事化はせず。DAY3（8/11）が未消化。"
+    - sogo-iwsf-douji-shichou-day3  # 8/11配信「本日DAY3・全日程終了」
+  status: done
+  notes: "DAY1（8/8）は本日DAY2の記事内で言及済み、単独記事化はせず。全publish_plan消化済み。"
