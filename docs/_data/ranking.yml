@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-08-11 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-08-12 集計
 - rank: 1
-  name: "紫雲清夏"
-  brand: gaku
-  move: same
-- rank: 2
-  name: "砂塚あきら"
+  name: "赤城みりあ"
   brand: cg
   move: new
+- rank: 2
+  name: "双海亜美"
+  brand: as765
+  move: new
 - rank: 3
-  name: "姫崎莉波"
+  name: "紫雲清夏"
   brand: gaku
   move: down
 - rank: 4
-  name: "葛城リーリヤ"
-  brand: gaku
+  name: "砂塚あきら"
+  brand: cg
   move: down
 - rank: 5
-  name: "藤田ことね"
+  name: "馬場このみ"
+  brand: ml
+  move: new
+- rank: 6
+  name: "姫崎莉波"
   brand: gaku
   move: down
-- rank: 6
-  name: "渋谷凛"
-  brand: cg
-  move: down
 - rank: 7
-  name: "星井美希"
-  brand: as765
-  move: up
-- rank: 8
-  name: "難波笑美"
+  name: "高垣楓"
   brand: cg
   move: new
+- rank: 8
+  name: "星井美希"
+  brand: as765
+  move: down
