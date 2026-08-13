@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-08-13"
+  dateLong: "2026年（令和8年）8月13日　木曜日"
+  pages: "全 2 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "「Pop'n ToyBox!!」「dual twin live tour」名古屋公演、本日ともに開幕"
+  indexNote: "昨日は小休止、本日はcg・as765の2大ライブが同時開幕。"
 - date: "2026-08-12"
   dateLong: "2026年（令和8年）8月12日　水曜日"
   pages: "全 13 面"
