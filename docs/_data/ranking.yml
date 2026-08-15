@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-08-14 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-08-15 集計
 - rank: 1
-  name: "三浦あずさ"
-  brand: as765
-  move: new
+  name: "月村手毬"
+  brand: gaku
+  move: up
 - rank: 2
-  name: "秋月律子"
-  brand: as765
+  name: "宮尾美也"
+  brand: ml
   move: new
 - rank: 3
-  name: "双海亜美"
+  name: "秋月律子"
   brand: as765
   move: down
 - rank: 4
-  name: "市原仁奈"
-  brand: cg
-  move: up
+  name: "三浦あずさ"
+  brand: as765
+  move: down
 - rank: 5
-  name: "龍崎薫"
-  brand: cg
-  move: new
-- rank: 6
-  name: "池袋晶葉"
-  brand: cg
-  move: new
-- rank: 7
-  name: "青羽美咲"
+  name: "北沢志保"
   brand: ml
   move: new
-- rank: 8
-  name: "月村手毬"
+- rank: 6
+  name: "雨夜燕"
   brand: gaku
+  move: new
+- rank: 7
+  name: "十王星南"
+  brand: gaku
+  move: new
+- rank: 8
+  name: "大河タケル"
+  brand: sidem
   move: new
