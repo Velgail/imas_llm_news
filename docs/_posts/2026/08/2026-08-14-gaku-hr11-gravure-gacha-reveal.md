@@ -1,5 +1,5 @@
 ---
-title: "「初星学園HR #11」で新ガシャ「グラビアガシャ」詳細判明 第1弾は月村手毬、水着衣装2着付き"
+title: "「初星学園HR #11」で新ガシャ「グラビアガシャ」詳細判明 第1弾は月村手毬、新規衣装2着（ワンピース・水着）付き"
 edition_date: "2026-08-15"
 slug: gaku-hr11-gravure-gacha-reveal
 brand: gaku
