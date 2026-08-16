@@ -81,7 +81,8 @@
     - cg-genka-youen-ichi-tomorrow  # 7/31配信「明日東京会場開幕予告」
     - cg-genka-youen-ichi-today  # 8/1配信「本日東京会場開幕」
     - cg-genka-youen-ichi-tokyo-remaining  # 8/15配信「東京会場、残り2日」
-  notes: "東京会場最終日（8/16）・大阪会場開幕予告以降が未消化。"
+    - cg-genka-youen-ichi-tokyo-final  # 8/16配信「東京会場、本日最終日」
+  notes: "東京会場最終日（8/16）消化済み。大阪会場開幕予告（8/20）・本日開幕（8/21）・最終日（9/6）以降が未消化。"
 
 - id: godo-765x961-ultimate-live
   title: "765 PRODUCTION × 961 PRODUCTION IDOL ULTIMATE ONCE AND FOR ALL"
@@ -352,7 +353,7 @@
   kind: 公式
   event_start: "2026-06-26"
   event_end: "2026-08-16"
-  status: pending
+  status: done
   confidence: confirmed
   added: "2026-06-17"
   source: "カラオケの鉄人公式 / アイドルマスター公式ポータル"
@@ -375,7 +376,8 @@
     - ml-karaoke-tetsuji-2days  # 6/24配信「明後日開幕2日前」
     - ml-karaoke-tetsuji-tomorrow  # 6/25配信「明日コラボ開幕」
     - ml-karaoke-tetsuji-today  # 6/26配信「本日コラボ開幕」
-  notes: "特典内容・グッズラインナップの詳細は後日公開予定。"
+    - ml-karaoke-tetsuji-final  # 8/16配信「本日最終日」
+  notes: "全publish_plan消化済み（最終日は当初未設定だったが追記の上で消化）。"
 
 - id: cg-vote2026-atre-kawasaki-popup
   title: "アイドルマスター オフィシャルショップ POPUP シンデレラガール総選挙2026 アトレ川崎店"
@@ -403,7 +405,8 @@
       angle: "本日最終日"
   used_in:
     - cg-vote2026-atre-kawasaki-popup-today  # 7/21配信「本日開幕」
-  notes: "Starlight Dining閉幕の翌日に同フロアで開幕。最終日（8/17）の記事化が未消化。"
+    - cg-vote2026-atre-kawasaki-tomorrow  # 8/16配信「明日最終日予告」
+  notes: "Starlight Dining閉幕の翌日に同フロアで開幕。最終日（8/17）本日記事化分が未消化。"
 
 - id: sc-megashaki-collab-vol7
   title: "シャニマス×メガシャキ 7年目コラボキャンペーン"
@@ -440,7 +443,7 @@
   kind: 公式
   event_start: "2026-08-07"
   event_end: "2026-08-16"
-  status: pending
+  status: done
   confidence: confirmed
   added: "2026-07-22"
   source: "アイドルマスター公式ポータル news/01_19345（2026年7月21日）"
@@ -461,7 +464,8 @@
     - sc-stillness-motion-popup-tomorrow  # 8/6配信「明日開幕予告」
     - sc-stillness-motion-popup-today  # 8/7配信「本日開幕」
     - sc-stillness-motion-remaining  # 8/15配信「まもなく最終日（明日8/16まで）」
-  notes: "商品ラインナップ・ノベルティ詳細は開催が近づいてから要追検証。千秋楽（8/16）が未消化。"
+    - sc-stillness-motion-final  # 8/16配信「本日最終日」
+  notes: "全publish_plan消化済み。"
 
 - id: ml-million-machida-art-rally
   title: "ミリオンライブ×町田市「#ミリオン町田アートラリー」"
@@ -767,7 +771,8 @@
     - gaku-shirube-fukui-ticket-deadline  # 8/5配信「福井公演、一般チケット販売が昨日締切」
     - gaku-shirube-final-goods-presale-final  # 8/7配信「ファイナル公演グッズ事前販売ファイナル、昨日8/6 16時受注開始」
     - gaku-shirube-final-general-lottery-result  # 8/11配信「本日ファイナル公演一般会員先行の当落発表」
-  notes: "出演者・セトリ等の詳細は未取得。ファイナル公演のチケット価格・出演人数は公式サイト（live_event/gkmas_livetour_shirube配下）で確認済み。福井公演の出演者が判明済み（七瀬つむぎ・花岩香奈・薄井友里・松田彩音）。グッズ事前販売ファイナルは8/6 16:00〜8/16 23:59受付（8/7配信で記事化）。グッズ事前販売ファイナル締切（8/16）以降が未消化。"
+    - gaku-shirube-final-goods-deadline  # 8/16配信「ファイナル公演グッズ事前販売、本日23:59締切」
+  notes: "出演者・セトリ等の詳細は未取得。ファイナル公演のチケット価格・出演人数は公式サイト（live_event/gkmas_livetour_shirube配下）で確認済み。福井公演の出演者が判明済み（七瀬つむぎ・花岩香奈・薄井友里・松田彩音）。グッズ事前販売ファイナル締切（8/16）消化済み。福井公演開幕予告（8/19）以降が未消化。"
 
 - id: sc-maneki-neko-collab-2026
   title: "アイドルマスター シャイニーカラーズ×カラオケまねきねこ コラボ"
@@ -912,7 +917,7 @@
   kind: 公式
   event_start: "2026-08-13"
   event_end: "2026-08-16"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-07-18"
   source: "日本コロムビア公式サイト columbia.jp/idolmaster/imasnews/260717.html / アイドルマスター公式ポータル live_event/cg_ptb/、news/01_19391 / 公式X @imas_CGofficial"
@@ -940,6 +945,7 @@
     - cg-poptoybox-day2-cast  # 8/14配信「DAY2、こども・おとな二部制で開催」
     - cg-poptoybox-drink-goods-schedule  # 8/14配信「コラボドリンク・会場物販スケジュール判明」
     - cg-poptoybox-day3-single-show  # 8/15配信「DAY3、本日は16:00公演1回のみ」
+    - cg-poptoybox-finale  # 8/16配信「本日千秋楽」
   notes: "【8/11判明】全6公演は夕方公演（こども側・おとな側そろい踏み）・昼公演（こども側中心）・夜公演（おとな側中心）の3種構成。新曲「Poppin' para Pong!」は赤城みりあ・市原仁奈・椎名法子、「Cookie Dough」は高垣楓・三船美優・大和亜季が歌唱。龍崎薫・浅利七海・佐城雪美は昼・夕公演限定出演。会場限定CD2タイトル（SACX-1144/1145、各3,500円、総選挙投票券700枚分シリアル封入）・前日譚Web小説の連載中であることが判明（8/12配信「明日開幕」で記事化）。【8/13判明】公演スケジュールは8/13(木)16:00開演(15:00開場)・8/14(金)14:00＆19:00・8/15(土)16:00・8/16(日)14:00＆19:00の全6公演。当日券は会場販売なしWeb先着のみ。会場物販（マルチ推しライト等）・コラボドリンクも展開（8/13配信「本日開幕」で記事化）。DAY2（8/14）は昼公演「こども」側中心・夜公演「おとな」側中心の完全二部制で、池袋晶葉は夜公演VTR出演のみ（8/14配信で記事化）。コラボドリンク・会場物販の販売時間帯詳細も判明（8/14配信で記事化）。DAY3（8/15）は16:00公演1回のみで記事化済み。千秋楽（8/16）が未消化。"
 
 - id: sc-refrac7ions-stillblue-live
@@ -1452,7 +1458,8 @@
       angle: "本日終了"
   used_in:
     - gaku-hr11-gravure-gacha-reveal  # 8/15配信「初星学園HR #11で詳細判明」
-  notes: "8/14放送の生配信で発表された内容。開催直前・当日の続報は公式ポータル（idolmaster-official.jp/news/）で要追検証。"
+    - gaku-gravure-gacha-tomorrow  # 8/16配信「明日開始予告・現行ガシャは本日終了」
+  notes: "8/14放送の生配信で発表された内容。明日開始予告（8/16）消化済み。第2弾切替（8/26）・終了（9/4）が未消化。"
 
 - id: gaku-amayo-tsubame-another-gacha
   title: "学マス「雨夜燕アナザーピックアップガシャ」"
