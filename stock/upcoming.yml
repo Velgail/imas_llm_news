@@ -386,7 +386,6 @@
   kind: 公式
   event_start: "2026-07-21"
   event_end: "2026-08-17"
-  status: partially-used
   confidence: confirmed
   added: "2026-07-21"
   source: "バンダイナムコアミューズメント公式（アトレ川崎店ニュース 20260701.html・20260716.html）"
@@ -407,7 +406,9 @@
   used_in:
     - cg-vote2026-atre-kawasaki-popup-today  # 7/21配信「本日開幕」
     - cg-vote2026-atre-kawasaki-tomorrow  # 8/16配信「明日最終日予告」
-  notes: "Starlight Dining閉幕の翌日に同フロアで開幕。最終日（8/17）本日記事化分が未消化。"
+    - cg-vote2026-atre-kawasaki-today  # 8/17配信「本日最終日」
+  status: done
+  notes: "全publish_plan消化済み。後継の「アイドルマスター オフィシャルショップ出張所」（8/18〜）はimas-shop-atre-kawasaki-branchエントリで別途管理。"
 
 - id: sc-megashaki-collab-vol7
   title: "シャニマス×メガシャキ 7年目コラボキャンペーン"
@@ -911,6 +912,7 @@
     - as765-dualtwinlive-nagoya-day2-today  # 8/14配信「名古屋公演、本日DAY2『つみまつよるまち』開催」
     - as765-dualtwinlive-nagoya-final-report  # 8/15配信「名古屋公演、昨日2日間で完走・会場限定CD新曲『Binary Star』判明」
     - as765-dualtwinlive-tokyo-ticket-deadline  # 8/16配信「東京公演、一般発売チケット本日23:59締切・ばくすて！とーく出演者確定」
+    - as765-dualtwinlive-tokyo-secondsale  # 8/17配信「東京公演、昨日18時より一般先着2次発売・当日券販売もスタート」
   facts: |
     公演: 双海亜美・双海真美 twin live「ふたごぼしのつばさ」／三浦あずさ・秋月律子 twin live「つみまつよるまち」
     大阪: Zepp Namba（OSAKA）8/6(木)「ふたごぼしのつばさ」・8/7(金)「つみまつよるまち」
@@ -1020,7 +1022,8 @@
     - sc-c108-chugai-details  # 8/12配信「新商品ラインナップ・価格判明」
     - sc-c108-chugai-tomorrow  # 8/14配信「明日開幕予告」
     - sc-c108-chugai-today  # 8/15配信「本日開幕・グッズ販売開始」
-  notes: "7/30発表・8/2追加情報判明。8/11に価格・オンライン通販締切が判明（8/12配信で記事化）。全publish_plan消化済み。"
+    - sc-c108-chugai-online-deadline  # 8/17配信「オンライン事前通販、本日23:59締切」
+  notes: "7/30発表・8/2追加情報判明。8/11に価格・オンライン通販締切が判明（8/12配信で記事化）。オンライン通販締切（8/17）も記事化済み。"
 
 - id: sc-chibigurumi-team-sol
   title: "シャニマス「ちびぐるみ～Team.Sol～」vol.1/vol.2"
@@ -1245,7 +1248,6 @@
   kind: 公式
   event_start: "2026-08-10"
   event_end: "2026-08-17"
-  status: partially-used
   confidence: confirmed
   added: "2026-08-09"
   source: "学マス公式X（@gkmas_official）／Game8（game8.jp/gakuen-idolmaster/753524）"
@@ -1259,7 +1261,9 @@
   used_in:
     - gaku-new-gacha-tomorrow  # 8/9配信「明日8/10開催予告」
     - gaku-new-gacha-today  # 8/10配信「本日開始」
-  notes: "終了日は複数の攻略サイトで「予定」扱いのため要追検証。スキンの排出率・詳細は未確認。"
+    - gaku-semiblue-kangiku-end  # 8/17配信「本日10:59終了」
+  status: done
+  notes: "全publish_plan消化済み。スキンの排出率・詳細は未確認のまま終了。"
 
 - id: cg-sousenkyo-oendo-tokoshasai
   title: "シンデレラガール総選挙2026「応援投稿祭」（ニコニコ動画）"
@@ -1418,8 +1422,10 @@
       angle: "本日開幕"
     - on: "2026-09-03"
       angle: "本日最終日"
-  used_in: []
-  notes: "対象ブランド・グッズ内容が未掲載のため確度はunconfirmed。開催が近づいたら公式X（@ImasShop_bnam）等で詳細を要追検証。"
+  used_in:
+    - other-imas-shop-atre-kawasaki-tomorrow  # 8/17配信「明日開幕予告」
+  status: partially-used
+  notes: "対象ブランド・グッズ内容が未掲載のため確度はunconfirmed。開催が近づいたら公式X（@ImasShop_bnam）等で詳細を要追検証。本日開幕（8/18）・最終日（9/3）が未消化。"
 
 - id: sidem-karatetsu-vol3
   title: "SideM×カラオケの鉄人 Vol.3「カラ鉄妖宴 百鬼夜行」"
@@ -1473,7 +1479,8 @@
   used_in:
     - gaku-hr11-gravure-gacha-reveal  # 8/15配信「初星学園HR #11で詳細判明」
     - gaku-gravure-gacha-tomorrow  # 8/16配信「明日開始予告・現行ガシャは本日終了」
-  notes: "8/14放送の生配信で発表された内容。明日開始予告（8/16）消化済み。第2弾切替（8/26）・終了（9/4）が未消化。"
+    - gaku-gravure-gacha-today  # 8/17配信「本日開始・グラビアガシャ第1弾＆水着アナザーガシャ＆夏風ワンピースイベント」
+  notes: "8/14放送の生配信で発表された内容。本日開始（8/17）分は記事化済み。第2弾切替（8/26）・終了（9/4）が未消化。"
 
 - id: ml-milpro-resort-akihabara
   title: "ミリプロサマー2026 POP UPイベント「ミリプロリゾート from Akihabara to ???」"
@@ -1481,8 +1488,8 @@
   kind: 公式
   event_start: "2026-08-29"
   event_end: "2026-08-29"
-  status: pending
-  confidence: confirmed
+  status: dropped
+  confidence: unconfirmed
   added: "2026-08-16"
   source: "milpr.com/news/milpr_resort／公式X（@Mil_Pro_）"
   facts: |
@@ -1492,12 +1499,12 @@
     位置づけ: 8/2開会式配信で始まった「ミリプロサマー2026」の集大成となるリアルイベント
   publish_plan:
     - on: "2026-08-28"
-      angle: "明日開催予告"
+      angle: "明日開催予告（要ブランド再確認）"
     - on: "2026-08-29"
-      angle: "本日開催"
+      angle: "本日開催（要ブランド再確認）"
   used_in:
     - ml-milpro-summer2026-ongoing  # 8/16配信「ミリプロサマー2026開催中・8/29に大型POP UP予告」
-  notes: "詳細タイムテーブル・出演者は続報待ち、開催が近づいてから要追検証。"
+  notes: "【8/17事実確認・重要】8/17の記事化に向けた追検証で、「ミリプロ（Million Production／@Mil_Pro_）」はバンダイナムコの「アイドルマスター ミリオンライブ！」IPとは無関係の独立系VTuber事務所であると判明（バンダイナムコエンターテインメント等からの出資は受けているがIP上の関係はない）。8/16配信済みのml-milpro-summer2026-ongoingはブランド誤り（ml不適切）の可能性が高く、要事実確認・訂正検討。本エントリはstatus:droppedとし、8/29のPOP UPは以後mlブランドの記事化候補から除外する。"
 
 - id: sc-admiral-sneaker-collab
   title: "シャニマス×Admiralコラボスニーカー「CAMBRIDGE THE IDOLM@STER SHINY COLORS Edition」"
