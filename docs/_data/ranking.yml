@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-08-16 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-08-17 集計
 - rank: 1
-  name: "有栖川夏葉"
-  brand: sc
-  move: new
-- rank: 2
-  name: "秋月律子"
-  brand: as765
-  move: up
-- rank: 3
-  name: "双海亜美"
-  brand: as765
-  move: new
-- rank: 4
   name: "月村手毬"
   brand: gaku
+  move: up
+- rank: 2
+  name: "関裕美"
+  brand: cg
+  move: new
+- rank: 3
+  name: "西島櫂"
+  brand: cg
+  move: new
+- rank: 4
+  name: "双海亜美"
+  brand: as765
   move: down
 - rank: 5
-  name: "藤田ことね"
+  name: "十王星南"
   brand: gaku
-  move: new
+  move: up
 - rank: 6
-  name: "鷺沢文香"
+  name: "市原仁奈"
   brand: cg
   move: new
 - rank: 7
-  name: "十王星南"
-  brand: gaku
+  name: "有栖川夏葉"
+  brand: sc
   move: down
 - rank: 8
-  name: "赤城みりあ"
-  brand: cg
+  name: "秦谷美鈴"
+  brand: gaku
   move: new
