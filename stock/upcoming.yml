@@ -553,6 +553,32 @@
   used_in: []
   notes: "振替日程が発表されたら speed に記事化し、facts・publish_planを更新する。"
 
+- id: valiv-kamitsuru-sora-birthday-live
+  title: "vα-liv 上水流宇宙バースデーライブ"
+  brand: valiv
+  kind: 公式
+  event_start: "2026-09-12"
+  event_end: "2026-09-12"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-18"
+  source: "アイドルマスター公式ポータル news/01_19569"
+  facts: |
+    名称: 876プロダクション「vα-liv」所属・上水流宇宙のバースデーオンラインライブ
+    開催日: 2026年9月12日（土）
+    現地ライブビューイング会場: ユナイテッド・シネマ アクアシティお台場
+    限定グッズ付きライブビューイングチケット: 先行抽選申込を8月17日19:00より受付開始。受付締切・当落発表日は続報待ち
+  publish_plan:
+    - on: "受付締切日（未定）"
+      angle: "先行抽選受付締切"
+    - on: "2026-09-11"
+      angle: "明日開催予告"
+    - on: "2026-09-12"
+      angle: "本日開催"
+  used_in:
+    - valiv-kamitsuru-birthday-live-announce  # 8/18配信「新発表・先行抽選、昨日19時受付開始」
+  notes: "先行抽選の受付締切・当落発表日、グッズ内容の詳細は続報待ち、要追検証。"
+
 - id: sidem-derasu-ambassador
   title: "「でらます」×SideM DRAMATIC STARS 名鉄観光サービス公式アンバサダー"
   brand: sidem
@@ -591,7 +617,7 @@
   kind: 公式
   event_start: "2026-08-19"
   event_end: "2026-10-20"
-  status: pending
+  status: partially-used
   confidence: confirmed
   added: "2026-08-02"
   source: "アイドルマスター公式ポータル news/01_19500・01_19501・01_19502（2026年7月31日19:30公開）／smilebase.co.jp/event/12745/"
@@ -616,7 +642,8 @@
       angle: "本日池袋店開幕"
     - on: "2026-10-20"
       angle: "本日池袋店最終日・全会場完走"
-  used_in: []
+  used_in:
+    - sidem-royal-chess-lounge-tomorrow  # 8/18配信「明日名古屋栄店開幕予告」
   notes: "出演アイドル・メニュー・グッズ詳細は開催が近づいてから公式サイト（smilebase.co.jp）で要追検証。"
 
 - id: gaku-shikaoi-manhole-kuramoto-china
@@ -1194,30 +1221,31 @@
       angle: "本日最終日"
   used_in:
     - cg-jol-legend-pinyacorata-announce  # 8/12配信「8月21日開幕、開催概要判明」
-  notes: "終了日が判明（9/6）。出演アイドル・商品ラインナップ詳細は未取得、開催が近づいてから要追検証。"
+  notes: "終了日が判明（9/6）。出演アイドル・商品ラインナップ詳細は未取得、開催が近づいてから要追検証。【8/17調査】一部ソースで会期を10/6までとする記述があったが公式ページで日付を直接確認できず未確定。次回の追検証時に公式サイトで会期を再確認すること。"
 
 - id: cg-toppa-base-popup
   title: "シンデレラガールズ TOPPA!!!BASE 全国POP UP SHOP（バトルゲームワールド）"
   brand: cg
   kind: 公式
   event_start: "2026-08-27"
-  event_end: "2026-09-14"
-  status: pending
+  event_end: "2026-09-16"
+  status: partially-used
   confidence: confirmed
   added: "2026-08-06"
   source: "アイドルマスター公式ポータル news/01_19246"
   facts: |
     テーマ: バトルゲームワールド
     展開: 札幌・仙台・名古屋・大阪など全国のTOPPA!!!BASE店舗
-    出演: 6アイドルをフィーチャーしたグッズ展開（詳細未取得）
+    出演（8/17判明）: 諸星きらり・赤城みりあ・城ケ崎莉嘉・安部菜々・佐藤心・関裕美の6名。躍動感あふれる描き下ろしイラストを使用したグッズを展開
   publish_plan:
     - on: "2026-08-26"
       angle: "明日開幕予告"
     - on: "2026-08-27"
       angle: "本日開幕"
-    - on: "2026-09-14"
+    - on: "2026-09-16"
       angle: "本日最終日"
-  used_in: []
+  used_in:
+    - cg-toppa-base-cast-reveal  # 8/18配信「対象6アイドル判明」
   notes: "対象6アイドル・各店舗ごとの会期詳細は未取得、開催が近づいてから要追検証。"
 
 - id: sc-birthday-plate-vol1
@@ -1350,7 +1378,7 @@
   kind: 公式
   event_start: "2026-08-21"
   event_end: "2026-09-13"
-  status: pending
+  status: partially-used
   confidence: confirmed
   added: "2026-08-13"
   source: "アイドルマスター公式ポータル news/01_19396／ハンズ各店舗イベントページ（store.hands.net, event.hands.net）"
@@ -1361,6 +1389,7 @@
     展開店舗: ハンズ全国15店舗（札幌・仙台・大宮・新宿・渋谷・横浜・千葉・静岡・名古屋・心斎橋・あべのキューズモール・京都・広島・岡山・博多）＋紀伊國屋書店17店舗＋ANICLOSET（オンライン）
     混雑対策: 8/21は入場整理券配布の可能性、8/22以降も混雑時は同様の対応の可能性
     商品: オリジナルエプロングッズ、動物モチーフ商品、会場限定ノベルティ、オンライン限定商品など
+    事前WEB抽選結果（8/17 12:00発表）: 当選番号・入場時間帯の整列順を発表。フリー入場は初日8/21 13:30以降
   publish_plan:
     - on: "2026-08-20"
       angle: "明日開幕予告"
@@ -1368,7 +1397,8 @@
       angle: "本日開幕"
     - on: "2026-09-13"
       angle: "本日最終日"
-  used_in: []
+  used_in:
+    - sidem-knickknacks-lottery-result  # 8/18配信「事前WEB抽選結果、昨日12:00発表」
   notes: "混雑対策の詳細（整理券配布条件等）は各店舗ページで開催が近づいてから要追検証。"
 
 - id: sidem-smilebase-royal-chess-lounge
@@ -1405,16 +1435,16 @@
   kind: 公式
   event_start: "2026-08-18"
   event_end: "2026-09-03"
-  status: pending
-  confidence: unconfirmed
+  status: partially-used
+  confidence: confirmed
   added: "2026-08-13"
   source: "バンダイナムコアミューズメント公式 chara_shop/idolmaster/（2026年8月10日掲載）"
   facts: |
     名称: アイドルマスター オフィシャルショップ出張所
-    会場: アトレ川崎
+    会場: アトレ川崎4Fシャン・ド・エルブ（総選挙2026POPUPと同フロア）
     開催期間: 2026年8月18日（火）〜9月3日（木）
-    位置づけ: 現行の「シンデレラガール総選挙2026 アトレ川崎店」ポップアップ（〜8/17）の後継とみられる
-    対象ブランド・取扱商品の詳細は未掲載
+    位置づけ: 「シンデレラガール総選挙2026 アトレ川崎店」ポップアップ（〜8/17）の後継、ブランド横断ラインナップ
+    商品（8/17判明）: 担当ネームプレート・アイドルフォトパネル・ロゴアクリルオブジェ・ツインキーホルダー・マスコットチャーム・メタル名刺ケース・Tシャツ・キャップ等。購入制限は担当ネームプレート各1点まで、他は各2点まで
   publish_plan:
     - on: "2026-08-17"
       angle: "明日開幕予告（詳細判明していれば）"
@@ -1424,8 +1454,8 @@
       angle: "本日最終日"
   used_in:
     - other-imas-shop-atre-kawasaki-tomorrow  # 8/17配信「明日開幕予告」
-  status: partially-used
-  notes: "対象ブランド・グッズ内容が未掲載のため確度はunconfirmed。開催が近づいたら公式X（@ImasShop_bnam）等で詳細を要追検証。本日開幕（8/18）・最終日（9/3）が未消化。"
+    - other-imas-shop-atre-kawasaki-today  # 8/18配信「本日開幕」
+  notes: "8/17に商品ラインナップ判明、confidenceをconfirmedに更新。開催が近づいたら公式X（@ImasShop_bnam）等で詳細を要追検証。最終日（9/3）が未消化。"
 
 - id: sidem-karatetsu-vol3
   title: "SideM×カラオケの鉄人 Vol.3「カラ鉄妖宴 百鬼夜行」"
@@ -1467,6 +1497,9 @@
     アナザーアイドル水着ガシャ: 8月17日（月）〜9月4日（金）。全アイドルに水着衣装2着付属、初回10連無料、有償限定SSR確定セレクトガシャも同時開催
     ストーリーイベント「夏風ワンピース」: 8月17日（月）11:00開始予定。報酬でSSR「十王星南」獲得可能。新規スキル「見惚れる横顔+」（集中+3、集中強化15%など）実装
     現行ガシャ「セミブルー」「冠菊」は8月17日で終了予定（入れ替わりで本シリーズが開始）
+    新曲「ねえ、言っちゃうよ。」（歌唱:月村手毬、作詞・作曲・編曲:アオワイファイ）: 8月18日より音楽配信開始。収録CD「Gravure Solo Collection Vol.1」（BNEI-429）は11月18日発売予定
+    新機能「360°ライブ」（8/17実装）: グラビア限定アイドルのライブシーンをカメラ5種で見渡せる新機能。撮影ロケーション「スタジオ（海辺）」も同時追加
+    ハッシュタグ投稿キャンペーン（8/17開始）: 「#夏の学マス水着配信」「#学マス真夏の観測記録」投稿で抽選100万ジュエル山分け
   publish_plan:
     - on: "2026-08-16"
       angle: "明日開始予告"
@@ -1480,7 +1513,10 @@
     - gaku-hr11-gravure-gacha-reveal  # 8/15配信「初星学園HR #11で詳細判明」
     - gaku-gravure-gacha-tomorrow  # 8/16配信「明日開始予告・現行ガシャは本日終了」
     - gaku-gravure-gacha-today  # 8/17配信「本日開始・グラビアガシャ第1弾＆水着アナザーガシャ＆夏風ワンピースイベント」
-  notes: "8/14放送の生配信で発表された内容。本日開始（8/17）分は記事化済み。第2弾切替（8/26）・終了（9/4）が未消化。"
+    - gaku-nee-icchauyo-song-release  # 8/18配信「新曲、本日より音楽配信開始」
+    - gaku-360live-seaside-studio  # 8/18配信「新機能『360°ライブ』・新ロケーション実装（更新あり）」
+    - gaku-summer-hashtag-campaign  # 8/18配信「ハッシュタグ投稿キャンペーン開始」
+  notes: "8/14放送の生配信で発表された内容。本日開始（8/17）分・新曲配信/新機能/キャンペーン（8/18）は記事化済み。第2弾切替（8/26）・終了（9/4）が未消化。"
 
 - id: ml-milpro-resort-akihabara
   title: "ミリプロサマー2026 POP UPイベント「ミリプロリゾート from Akihabara to ???」"
@@ -1594,4 +1630,29 @@
   used_in:
     - gaku-amayo-tsubame-another-gacha  # 8/15配信「昨日開始」
   notes: "開始（8/14）分は記事化済み。終了（9/4）が未消化。"
+
+- id: cg-kotobukiya-magicalcheers-popup
+  title: "シンデレラガールズ×寿屋 POP UP SHOP「A MAGICAL CHEERS」"
+  brand: cg
+  kind: 公式
+  event_start: "2026-08-21"
+  event_end: "2026-09-06"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-18"
+  source: "アイドルマスター公式ポータル news/01_19617／寿屋公式（kotobukiya.co.jp/event/detail/1258/）"
+  facts: |
+    名称: A MAGICAL CHEERS（シンデレラガールズ×寿屋コラボPOP UP SHOP）
+    開催期間: 2026年8月21日（金）〜9月6日（日）
+    出演アイドル・グッズラインナップの詳細は続報待ち
+  publish_plan:
+    - on: "2026-08-20"
+      angle: "明日開幕予告"
+    - on: "2026-08-21"
+      angle: "本日開幕"
+    - on: "2026-09-06"
+      angle: "本日最終日"
+  used_in:
+    - cg-kotobukiya-magicalcheers-popup  # 8/18配信「新発表」
+  notes: "出演アイドル・グッズ詳細は開催が近づいてから寿屋公式サイトで要追検証。"
 
