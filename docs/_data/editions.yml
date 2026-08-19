@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-08-19"
+  dateLong: "2026年（令和8年）8月19日　水曜日"
+  pages: "全 10 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "SideM「姫野かのん」役、村瀬歩さんが卒業"
+  indexNote: "10年演じた役から円満卒業、新キャストは後日発表。本日は「Royal Chess Lounge」が名古屋栄で開幕。"
 - date: "2026-08-18"
   dateLong: "2026年（令和8年）8月18日　火曜日"
   pages: "全 13 面"
