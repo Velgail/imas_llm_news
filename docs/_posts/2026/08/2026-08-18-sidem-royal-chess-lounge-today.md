@@ -6,7 +6,7 @@ brand: sidem
 kind: 公式
 badge: "本日開幕"
 lead: "SideMコラボカフェ「Royal Chess Lounge」が、本日8月19日より名古屋栄のSMILE BASE CAFEで開幕する。"
-source: "アイドルマスター公式ポータル news/01_19500・01_19501・01_19502／smilebase.co.jp/event/12745/"
+source: "アイドルマスター公式ポータル news/01_19442／smilebase.co.jp/event/12745/"
 tags: [SideM, コラボカフェ, Royal Chess Lounge, 名古屋]
 ---
 
