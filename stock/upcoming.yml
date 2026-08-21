@@ -83,7 +83,8 @@
     - cg-genka-youen-ichi-tokyo-remaining  # 8/15配信「東京会場、残り2日」
     - cg-genka-youen-ichi-osaka-tomorrow  # 8/20配信「明日大阪会場開幕予告」
     - cg-genka-youen-ichi-tokyo-final  # 8/16配信「東京会場、本日最終日」
-  notes: "東京会場最終日（8/16）・大阪会場開幕予告（8/20）消化済み。本日開幕（8/21）・最終日（9/6）が未消化。"
+    - cg-genka-youen-ichi-osaka-today  # 8/21配信「本日大阪会場開幕」
+  notes: "東京会場最終日（8/16）・大阪会場開幕予告（8/20）・本日大阪会場開幕（8/21）消化済み。大阪会場最終日（9/6）が未消化。"
 
 - id: godo-765x961-ultimate-live
   title: "765 PRODUCTION × 961 PRODUCTION IDOL ULTIMATE ONCE AND FOR ALL"
@@ -713,7 +714,9 @@
     - gaku-shirube-final-goods-deadline  # 8/16配信「ファイナル公演グッズ事前販売、本日23:59締切」
     - gaku-live-tour-shirube-fukui-tomorrow  # 8/19配信「明日福井公演開幕予告」
     - gaku-live-tour-shirube-fukui-today  # 8/20配信「本日福井公演開幕・眼鏡堅麺麭コラボ物販判明」
-  notes: "出演者・セトリ等の詳細は未取得。ファイナル公演のチケット価格・出演人数は公式サイト（live_event/gkmas_livetour_shirube配下）で確認済み。福井公演の出演者が判明済み（七瀬つむぎ・花岩香奈・薄井友里・松田彩音）。グッズ事前販売ファイナル締切（8/16）・福井公演開幕予告（8/19）・本日福井公演開幕（8/20、会場で福井県銘品「眼鏡堅麺麭」コラボ商品販売）消化済み。福岡・岩手公演、ファイナル公演開幕予告以降が未消化。"
+    - gaku-live-tour-shirube-fukui-day1-report  # 8/21配信「昨日DAY1、有村麻央・花海佑芽が新曲サプライズ披露」
+    - gaku-arimura-hanami-newsongs-release  # 8/21配信「新曲2曲、本日配信スタート」
+  notes: "出演者・セトリ等の詳細は未取得。ファイナル公演のチケット価格・出演人数は公式サイト（live_event/gkmas_livetour_shirube配下）で確認済み。福井公演の出演者が判明済み（七瀬つむぎ・花岩香奈・薄井友里・松田彩音）。グッズ事前販売ファイナル締切（8/16）・福井公演開幕予告（8/19）・本日福井公演開幕（8/20、会場で福井県銘品「眼鏡堅麺麭」コラボ商品販売）・DAY1レポ＆新曲配信（8/21）消化済み。福井公演2日目千秋楽（8/21）・福岡・岩手公演、ファイナル公演開幕予告以降が未消化。"
 
 - id: sc-maneki-neko-collab-2026
   title: "アイドルマスター シャイニーカラーズ×カラオケまねきねこ コラボ"
@@ -896,8 +899,9 @@
   used_in:
     - sc-refrac7ions-stillblue-presale  # 7/18配信「現地チケット先行受付開始・DAY1追加出演判明」
     - sc-refrac7ions-stillblue-presale-deadline-today  # 8/4配信「現地チケット先行受付、本日23:59締切」
+    - sc-refrac7ions-stillblue-lottery-result  # 8/21配信「本日当落発表」
   status: partially-used
-  notes: "出演ユニット・セトリ等の詳細は未取得。追加出演発表が今後も続く可能性あり、判明次第factsを更新。当落発表8/21・開幕予告以降が未消化。"
+  notes: "出演ユニット・セトリ等の詳細は未取得。追加出演発表が今後も続く可能性あり、判明次第factsを更新。当落発表（8/21）消化済み。開幕予告以降が未消化。"
 
 - id: sc-chibigurumi-team-sol
   title: "シャニマス「ちびぐるみ～Team.Sol～」vol.1/vol.2"
@@ -1071,7 +1075,8 @@
   used_in:
     - cg-jol-legend-pinyacorata-announce  # 8/12配信「8月21日開幕、開催概要判明」
     - cg-jol-legend-pinyacorata-tomorrow  # 8/20配信「明日開幕予告」
-  notes: "終了日が判明（9/6）。出演アイドル・商品ラインナップ詳細は未取得、開催が近づいてから要追検証。【8/17調査】一部ソースで会期を10/6までとする記述があったが公式ページで日付を直接確認できず未確定。次回の追検証時に公式サイトで会期を再確認すること。明日開幕予告（8/20）消化済み。本日開幕（8/21）・最終日（9/6）が未消化。"
+    - cg-jol-legend-pinyacorata-today  # 8/21配信「本日開幕」
+  notes: "終了日が判明（9/6）。出演アイドル・商品ラインナップ詳細は未取得、開催が近づいてから要追検証。【8/17調査】一部ソースで会期を10/6までとする記述があったが公式ページで日付を直接確認できず未確定。次回の追検証時に公式サイトで会期を再確認すること。明日開幕予告（8/20）・本日開幕（8/21）消化済み。最終日（9/6）が未消化。"
 
 - id: cg-toppa-base-popup
   title: "シンデレラガールズ TOPPA!!!BASE 全国POP UP SHOP（バトルゲームワールド）"
@@ -1231,7 +1236,8 @@
   used_in:
     - sidem-knickknacks-lottery-result  # 8/18配信「事前WEB抽選結果、昨日12:00発表」
     - sidem-hands-knickknacks-vol1-tomorrow  # 8/20配信「明日開幕予告」
-  notes: "混雑対策の詳細（整理券配布条件等）は各店舗ページで開催が近づいてから要追検証。明日開幕予告（8/20）消化済み。本日開幕（8/21）・最終日（9/13）が未消化。"
+    - sidem-hands-knickknacks-vol1-today  # 8/21配信「本日開幕」
+  notes: "混雑対策の詳細（整理券配布条件等）は各店舗ページで開催が近づいてから要追検証。明日開幕予告（8/20）・本日開幕（8/21）消化済み。最終日（9/13）が未消化。"
 
 - id: sidem-smilebase-royal-chess-lounge
   title: "「アイドルマスター SideM」コラボカフェ（SMILE BASE CAFE Royal Chess Lounge）"
@@ -1452,7 +1458,8 @@
   facts: |
     名称: A MAGICAL CHEERS（シンデレラガールズ×寿屋コラボPOP UP SHOP）
     開催期間: 2026年8月21日（金）〜9月6日（日）
-    出演アイドル・グッズラインナップの詳細は続報待ち
+    シンデレラガール総選挙2026（15周年記念）と連動。190名全アイドル分の新規グッズに加え、11名分の新規撮り下ろしグッズを展開予定
+    購入特典に総選挙2026投票券引換シリアルコード付与商品あり（詳細は続報待ち）
   publish_plan:
     - on: "2026-08-20"
       angle: "明日開幕予告"
@@ -1463,5 +1470,6 @@
   used_in:
     - cg-kotobukiya-magicalcheers-popup  # 8/18配信「新発表」
     - cg-kotobukiya-magicalcheers-popup-tomorrow  # 8/20配信「明日開幕予告」
-  notes: "出演アイドル・グッズ詳細は開催が近づいてから寿屋公式サイトで要追検証。明日開幕予告（8/20）消化済み。本日開幕（8/21）・最終日（9/6）が未消化。"
+    - cg-kotobukiya-magicalcheers-popup-today  # 8/21配信「本日開幕」
+  notes: "出演アイドル・グッズ詳細は開催が近づいてから寿屋公式サイトで要追検証。明日開幕予告（8/20）・本日開幕（8/21）消化済み。最終日（9/6）が未消化。"
 

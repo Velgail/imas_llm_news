@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-08-21"
+  dateLong: "2026年（令和8年）8月21日　金曜日"
+  pages: "全 8 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "シンデレラガールズ3大POP UP、大阪・渋谷・秋葉原で本日一斉開幕"
+  indexNote: "SideMもハンズ全国15店舗でコラボ開幕、学マス標ツアー福井は本日千秋楽。"
 - date: "2026-08-20"
   dateLong: "2026年（令和8年）8月20日　木曜日"
   pages: "全 9 面"
