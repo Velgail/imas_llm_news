@@ -625,7 +625,7 @@
   facts: |
     会場: TOYOTA ARENA TOKYO
     日程: 2026年9月12日（土）・13日（日）
-    会場物販: 公式パンフレット5,800円・Tシャツ3,600円・タオル2,200円ほか
+    会場物販: 両日11:00〜17:30、TOYOTA ARENA TOKYOサブアリーナで実施。混雑緩和のため一部時間帯は事前抽選整理券制（ASOBI TICKET受付8/28 13:00〜9/2 23:59、当落発表9/8 13:00〜）。具体的な商品ラインナップは公式サイト物販ページで確認可能、価格等は未取得のため要追検証。
     新CD: 「SideM 10th ANNIVERSARY P@SSION SOLO COLLECTION 04」2,750円（税込）、THE 虎牙道・F-LAGS・Legenders・C.FIRSTメンバーのソロ楽曲収録
     配信チケット: 8/4 12:00〜9/21 18:00受付。DAY1+DAY2通し12,000円、DAY1・DAY2単日各6,000円（税込・機能利用料込）
   notes: "出演者・セトリ等の詳細は未取得。会場物販・CD情報（8/22）消化済み。明日9/11開幕予告以降が未消化。"
@@ -1065,7 +1065,7 @@
   brand: sidem
   kind: 公式
   event_start: "2026-09-04"
-  status: pending
+  status: partially-used
   confidence: confirmed
   added: "2026-08-22"
   source: "アイドルマスター公式ポータル news/01_19664"
@@ -1082,7 +1082,6 @@
       angle: "本日開幕"
   used_in:
     - sidem-divercity-tokyo-plaza-announce  # 8/22配信「新発表」
-  status: partially-used
   notes: "終了日・詳細は続報待ち、要追検証。"
 
 - id: ml-milpro-resort-akihabara
@@ -1113,19 +1112,19 @@
   title: "コトブキヤくじ「アイドルマスター Summer Live st@ge」"
   brand: as765
   kind: 公式
-  status: watching
+  status: pending
   confidence: unconfirmed
   added: "2026-08-22"
-  source: "コトブキヤくじ公式（kuji.kotobukiya.co.jp）／キャラホビ"
+  source: "アイドルマスター公式ポータル news/01_19428（2026年7月27日掲載）／コトブキヤくじ公式（kuji.kotobukiya.co.jp）"
   facts: |
     内容: 765プロダクション5名（天海春香・如月千早・星井美希・秋月律子・三浦あずさ）の夏空を背景にした描き下ろしイラスト
-    発売・賞品構成・販売方法の詳細は2026年8月下旬にコトブキヤくじ公式サイト・X（@kotobukiya_kuji）で発表予定
+    開催決定の発表自体は2026年7月27日付（新規性なし、記事化は詳細判明後に行う）
+    発売・賞品構成・販売方法の詳細は後日コトブキヤくじ公式サイト・X（@kotobukiya_kuji）で発表予定（8月下旬との情報は未確認のため要追検証）
   publish_plan:
     - on: "詳細発表後（未定）"
       angle: "賞品構成・発売日判明"
-  used_in:
-    - as765-kotobukiya-kuji-summerlive-announce  # 8/22配信「新発表」
-  notes: "8月下旬に詳細発表予定、event_startは詳細判明後に確定させる。"
+  used_in: []
+  notes: "8/22時点では7/27発表の内容そのままで新規性がないため記事化を見送り。詳細発表を待って記事化する。"
 
 - id: cg-jol-collabstore-legend-pinyacorata
   title: "シンデレラガールズ JOL Collab Store POP UP STORE『Legend of Cinderella～ぴにゃこら太の伝説～』"
