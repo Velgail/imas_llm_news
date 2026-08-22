@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-08-21 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-08-22 集計
 - rank: 1
-  name: "有村麻央"
+  name: "葛城リーリヤ"
   brand: gaku
   move: new
 - rank: 2
-  name: "花海佑芽"
+  name: "姫崎莉波"
   brand: gaku
   move: new
 - rank: 3
-  name: "ぴにゃこら太"
-  brand: cg
-  move: up
-- rank: 4
-  name: "鷺沢文香"
-  brand: cg
-  move: new
-- rank: 5
-  name: "白坂小梅"
-  brand: cg
-  move: new
-- rank: 6
-  name: "浅倉透"
-  brand: sc
-  move: down
-- rank: 7
-  name: "月村手毬"
+  name: "有村麻央"
   brand: gaku
   move: down
+- rank: 4
+  name: "花海佑芽"
+  brand: gaku
+  move: down
+- rank: 5
+  name: "浅倉透"
+  brand: sc
+  move: up
+- rank: 6
+  name: "倉本千奈"
+  brand: gaku
+  move: new
+- rank: 7
+  name: "緋田美琴"
+  brand: sc
+  move: new
 - rank: 8
-  name: "双海亜美"
-  brand: as765
-  move: keep
+  name: "ぴにゃこら太"
+  brand: cg
+  move: down

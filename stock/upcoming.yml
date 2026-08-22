@@ -84,7 +84,8 @@
     - cg-genka-youen-ichi-osaka-tomorrow  # 8/20配信「明日大阪会場開幕予告」
     - cg-genka-youen-ichi-tokyo-final  # 8/16配信「東京会場、本日最終日」
     - cg-genka-youen-ichi-osaka-today  # 8/21配信「本日大阪会場開幕」
-  notes: "東京会場最終日（8/16）・大阪会場開幕予告（8/20）・本日大阪会場開幕（8/21）消化済み。大阪会場最終日（9/6）が未消化。"
+    - cg-genka-youen-ichi-osaka-opening-crowd  # 8/22配信「大阪会場、初日は混雑緩和のため整理券配布」
+  notes: "東京会場最終日（8/16）・大阪会場開幕予告（8/20）・本日大阪会場開幕（8/21）・初日整理券配布レポ（8/22）消化済み。大阪会場最終日（9/6）が未消化。"
 
 - id: godo-765x961-ultimate-live
   title: "765 PRODUCTION × 961 PRODUCTION IDOL ULTIMATE ONCE AND FOR ALL"
@@ -302,8 +303,9 @@
       angle: "明日開催予告"
     - on: "2026-08-23"
       angle: "本日開催"
-  used_in: []
-  notes: "配信なしのため当日レポは現地・SNS情報依存。"
+  used_in:
+    - shani-songforprism-karma-naraku-tomorrow  # 8/22配信「明日開催予告」
+  notes: "配信なしのため当日レポは現地・SNS情報依存。明日開催予告（8/22）消化済み。本日開催（8/23）が未消化。"
 
 - id: million-14th-live
   title: "THE IDOLM@STER MILLION LIVE! 14thLIVE"
@@ -581,7 +583,8 @@
       angle: "本日設置お披露目"
   used_in:
     - gaku-shikaoi-manhole-kuramoto-china  # 7/3配信「担当決定」
-  notes: "他自治体の「ふたマス」進捗も随時要確認。"
+    - gaku-shikaoi-manhole-tomorrow  # 8/22配信「明日設置お披露目予告」
+  notes: "他自治体の「ふたマス」進捗も随時要確認。明日設置お披露目予告（8/22）消化済み。本日設置お披露目（8/23）が未消化。"
 
 - id: sidem-11th-stage
   title: "THE IDOLM@STER SideM 11th STAGE ～EVER EVER＠FTER～"
@@ -618,7 +621,14 @@
     - sidem-11th-stage-lottery-result  # 7/17配信「本日13:00チケット2次先行当落発表」
     - sidem-11th-stage-payment-deadline  # 7/21配信「本日2次先行入金締切」
     - sidem-11th-stage-stream-ticket  # 8/5配信「配信チケットが昨日発売開始」
-  notes: "出演者・セトリ等の詳細は未取得。明日9/11開幕予告以降が未消化。"
+    - sidem-11th-stage-goods-cd-reveal  # 8/22配信「会場物販・CD情報が公開」
+  facts: |
+    会場: TOYOTA ARENA TOKYO
+    日程: 2026年9月12日（土）・13日（日）
+    会場物販: 両日11:00〜17:30、TOYOTA ARENA TOKYOサブアリーナで実施。混雑緩和のため一部時間帯は事前抽選整理券制（ASOBI TICKET受付8/28 13:00〜9/2 23:59、当落発表9/8 13:00〜）。具体的な商品ラインナップは公式サイト物販ページで確認可能、価格等は未取得のため要追検証。
+    新CD: 「SideM 10th ANNIVERSARY P@SSION SOLO COLLECTION 04」2,750円（税込）、THE 虎牙道・F-LAGS・Legenders・C.FIRSTメンバーのソロ楽曲収録
+    配信チケット: 8/4 12:00〜9/21 18:00受付。DAY1+DAY2通し12,000円、DAY1・DAY2単日各6,000円（税込・機能利用料込）
+  notes: "出演者・セトリ等の詳細は未取得。会場物販・CD情報（8/22）消化済み。明日9/11開幕予告以降が未消化。"
 
 - id: gaku-seabreeze-collab
   title: "「シーブリーズ」×学園アイドルマスター コラボキャンペーン"
@@ -716,7 +726,8 @@
     - gaku-live-tour-shirube-fukui-today  # 8/20配信「本日福井公演開幕・眼鏡堅麺麭コラボ物販判明」
     - gaku-live-tour-shirube-fukui-day1-report  # 8/21配信「昨日DAY1、有村麻央・花海佑芽が新曲サプライズ披露」
     - gaku-arimura-hanami-newsongs-release  # 8/21配信「新曲2曲、本日配信スタート」
-  notes: "出演者・セトリ等の詳細は未取得。ファイナル公演のチケット価格・出演人数は公式サイト（live_event/gkmas_livetour_shirube配下）で確認済み。福井公演の出演者が判明済み（七瀬つむぎ・花岩香奈・薄井友里・松田彩音）。グッズ事前販売ファイナル締切（8/16）・福井公演開幕予告（8/19）・本日福井公演開幕（8/20、会場で福井県銘品「眼鏡堅麺麭」コラボ商品販売）・DAY1レポ＆新曲配信（8/21）消化済み。福井公演2日目千秋楽（8/21）・福岡・岩手公演、ファイナル公演開幕予告以降が未消化。"
+    - gaku-live-tour-shirube-fukui-finale-report  # 8/22配信「福井千秋楽、ソロ曲12曲総入れ替え・新曲2曲サプライズ披露、CD『修楽旅行』予約開始」
+  notes: "出演者・セトリ等の詳細は未取得。ファイナル公演のチケット価格・出演人数は公式サイト（live_event/gkmas_livetour_shirube配下）で確認済み。福井公演の出演者が判明済み（七瀬つむぎ・花岩香奈・薄井友里・松田彩音）。グッズ事前販売ファイナル締切（8/16）・福井公演開幕予告（8/19）・本日福井公演開幕（8/20、会場で福井県銘品「眼鏡堅麺麭」コラボ商品販売）・DAY1レポ＆新曲配信（8/21）・福井千秋楽レポ（8/22、DAY2はDAY1から13曲入れ替え・葛城リーリヤ「いつかのわたし」＆姫崎莉波「重なる夜空の痕跡に」新曲披露、CD「修楽旅行」予約開始9/23締切）消化済み。福岡・岩手公演、ファイナル公演開幕予告以降が未消化。"
 
 - id: sc-maneki-neko-collab-2026
   title: "アイドルマスター シャイニーカラーズ×カラオケまねきねこ コラボ"
@@ -1049,6 +1060,72 @@
     - gaku-suntory-vending-collab2  # 8/5配信「昨日開始」
   notes: "第1弾からの継続キャンペーン。対象アイドル・グッズデザインの詳細は未取得、要追検証。"
 
+- id: sidem-divercity-tokyo-plaza
+  title: "アイドルマスター SideM in ダイバーシティ東京 プラザ"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-09-04"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-22"
+  source: "アイドルマスター公式ポータル news/01_19664"
+  facts: |
+    会場: ダイバーシティ東京 プラザ（お台場）
+    開始日: 2026年9月4日（金）
+    出演: Café Parade・Legenders
+    テーマ: お台場の夕景をイメージした新規描き下ろしイラスト
+    終了日・コラボメニュー・グッズ等の詳細は続報待ち
+  publish_plan:
+    - on: "2026-09-03"
+      angle: "明日開幕予告"
+    - on: "2026-09-04"
+      angle: "本日開幕"
+  used_in:
+    - sidem-divercity-tokyo-plaza-announce  # 8/22配信「新発表」
+  notes: "終了日・詳細は続報待ち、要追検証。"
+
+- id: ml-milpro-resort-akihabara
+  title: "ミリプロサマー2026「ミリプロリゾート from Akihabara to ???」"
+  brand: ml
+  kind: 公式
+  event_start: "2026-08-29"
+  event_end: "2026-08-29"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-22"
+  source: "ミリプロコーポレートサイト milpr.com／ローソンチケット"
+  facts: |
+    開催日時: 2026年8月29日（土）11:00〜20:00（予定）
+    会場: 秋葉原UDXギャラリー イベントホールL／ギャラリーNEXT1・NEXT2
+    内容: ファンミーティング、ミリプロTCG サマーカップ2026、POP UP展示＆グッズ販売
+    参加方式: 事前申込制（フリー入場ではない）。ファンミーティングのチケット抽選結果は発表済み（入金期間7/31〜8/3、終了済み）
+  publish_plan:
+    - on: "2026-08-28"
+      angle: "明日開催予告"
+    - on: "2026-08-29"
+      angle: "本日開催"
+  used_in:
+    - ml-milpro-resort-akihabara-announce  # 8/22配信「詳細判明」
+  notes: "詳細判明（8/22）消化済み。明日開催予告・本日開催が未消化。"
+
+- id: as765-kotobukiya-kuji-summerlive
+  title: "コトブキヤくじ「アイドルマスター Summer Live st@ge」"
+  brand: as765
+  kind: 公式
+  status: pending
+  confidence: unconfirmed
+  added: "2026-08-22"
+  source: "アイドルマスター公式ポータル news/01_19428（2026年7月27日掲載）／コトブキヤくじ公式（kuji.kotobukiya.co.jp）"
+  facts: |
+    内容: 765プロダクション5名（天海春香・如月千早・星井美希・秋月律子・三浦あずさ）の夏空を背景にした描き下ろしイラスト
+    開催決定の発表自体は2026年7月27日付（新規性なし、記事化は詳細判明後に行う）
+    発売・賞品構成・販売方法の詳細は後日コトブキヤくじ公式サイト・X（@kotobukiya_kuji）で発表予定（8月下旬との情報は未確認のため要追検証）
+  publish_plan:
+    - on: "詳細発表後（未定）"
+      angle: "賞品構成・発売日判明"
+  used_in: []
+  notes: "8/22時点では7/27発表の内容そのままで新規性がないため記事化を見送り。詳細発表を待って記事化する。"
+
 - id: cg-jol-collabstore-legend-pinyacorata
   title: "シンデレラガールズ JOL Collab Store POP UP STORE『Legend of Cinderella～ぴにゃこら太の伝説～』"
   brand: cg
@@ -1237,7 +1314,8 @@
     - sidem-knickknacks-lottery-result  # 8/18配信「事前WEB抽選結果、昨日12:00発表」
     - sidem-hands-knickknacks-vol1-tomorrow  # 8/20配信「明日開幕予告」
     - sidem-hands-knickknacks-vol1-today  # 8/21配信「本日開幕」
-  notes: "混雑対策の詳細（整理券配布条件等）は各店舗ページで開催が近づいてから要追検証。明日開幕予告（8/20）・本日開幕（8/21）消化済み。最終日（9/13）が未消化。"
+    - sidem-knickknacks-vol1-opening-note  # 8/22配信「初日は事前抽選制、本日以降も混雑時整理券の可能性」
+  notes: "混雑対策の詳細（整理券配布条件等）は各店舗ページで開催が近づいてから要追検証。明日開幕予告（8/20）・本日開幕（8/21）・初日運用レポ（8/22）消化済み。最終日（9/13）が未消化。"
 
 - id: sidem-smilebase-royal-chess-lounge
   title: "「アイドルマスター SideM」コラボカフェ（SMILE BASE CAFE Royal Chess Lounge）"
