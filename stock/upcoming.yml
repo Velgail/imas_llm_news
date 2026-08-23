@@ -148,6 +148,7 @@
   used_in:
     - cg-15th-anniversary-cast-reveal  # 8/4配信「出演声優の第一弾が判明（更新あり）」
     - cg-15th-anniversary-ticket-reception  # 8/16配信「アソビストアプレミアム会員先行抽選受付中・当落発表9/5」
+    - cg-15th-anniversary-ticket-deadline  # 8/23配信「最速先行抽選、本日23:59締切」
   status: partially-used
   notes: "事実確認（PR#62レビュー）でsourceの年表記の誤り（ファミ通の掲載は2026年9月ではなく2025年9月）を修正。イベント名称は「for your ONE」（総選挙結果発表後に控える15周年本編ライブ）。チケットはアソビストアプレミアム会員最速先行抽選（8/2 16:00〜8/23 23:59、一般受付ではない）、価格帯はSPラウンジ席81,500円・バルコニー席18,500円・一般席/着席指定席15,500円、当落発表9/5 13:00（8/16配信で記事化。事実確認によりプレミアム席21,000円→SPラウンジ席81,500円、一般受付→会員先行抽選に訂正）。総選挙2026の結果発表時期・出演者フル一覧・一般発売の有無など要追検証。"
 
@@ -279,6 +280,7 @@
     - cg-sousenkyo-goods-cardfolio  # 8/3配信「公式グッズ（190人描き下ろしカードフォリオ）昨日受注開始」
     - cg-sousenkyo-cd-4th-song  # 8/4配信「応援曲第4弾『すりーぷすきっぷ』判明・CDは8/26発売」
     - cg-sousenkyo-fan-yojijukugo  # 8/5配信「候補190人の公約四字熟語、ファンの間で考察に（ファン話題）」
+    - cg-sousenkyo-animate-fair-end  # 8/23配信「アニメイト通販開催記念フェア、本日最終日」
   notes: "投票券ミッションは7/1配信で記事化済み。中間発表・結果発表日が未確定。日程が出たら on を絶対日付に更新すること。チェックインスポットは順次追加されるため、新規追加店舗が判明次第「更新あり」で継続記事化する。スポットチェックインミッションで7/1 12:00〜7/9 18:15に重複チェックインによる投票券の複数回獲得が発生し、7/22に是正済み（7/28配信・事実確認済み）。応援楽曲は第1弾「シンデレラNo.1」、第2弾「ROSE ～禁じられた愛～」（7/1発売）に続き、第3弾「だいすきのブーケ」（佐久間まゆ・五十嵐響子・相葉夕美、作詞:磯谷佳江／作曲編曲:賀佐泰洋）のMVが7/29 21:00公開予定（別途cg-daisukinobouquetエントリで管理）。投票フェーズは8/3正午に開始済み（8/3配信で記事化）。8/2の生配信「CG総選挙ST@TION」で15周年記念イベント（11/28-29 Kアリーナ横浜）の詳細（DAY1 LOVE/CHILL・DAY2 FABULOUS/MIRACLEの4グループ編成、出演声優約49名、生バンドCinderella Band出演）が解禁され、cg-15th-anniversary-liveのfactsを更新。総選挙公式グッズ（190人描き下ろしカードフォリオVol.4-6）が8/2 16:00より受注開始（〜9/13）。中間発表・結果発表日は引き続き未確定、判明次第on を絶対日付に更新。"
 
 - id: shani-songforprism-karma-naraku-event
@@ -305,7 +307,9 @@
       angle: "本日開催"
   used_in:
     - shani-songforprism-karma-naraku-tomorrow  # 8/22配信「明日開催予告」
-  notes: "配信なしのため当日レポは現地・SNS情報依存。明日開催予告（8/22）消化済み。本日開催（8/23）が未消化。"
+    - shani-songforprism-karma-naraku-today  # 8/23配信「本日開催」
+  status: done
+  notes: "配信なしのため当日レポは現地・SNS情報依存。全publish_plan消化済み。"
 
 - id: million-14th-live
   title: "THE IDOLM@STER MILLION LIVE! 14thLIVE"
@@ -584,7 +588,9 @@
   used_in:
     - gaku-shikaoi-manhole-kuramoto-china  # 7/3配信「担当決定」
     - gaku-shikaoi-manhole-tomorrow  # 8/22配信「明日設置お披露目予告」
-  notes: "他自治体の「ふたマス」進捗も随時要確認。明日設置お披露目予告（8/22）消化済み。本日設置お披露目（8/23）が未消化。"
+    - gaku-shikaoi-manhole-today  # 8/23配信「本日設置お披露目」
+  status: done
+  notes: "他自治体の「ふたマス」進捗も随時要確認。全publish_plan消化済み。"
 
 - id: sidem-11th-stage
   title: "THE IDOLM@STER SideM 11th STAGE ～EVER EVER＠FTER～"
@@ -622,13 +628,16 @@
     - sidem-11th-stage-payment-deadline  # 7/21配信「本日2次先行入金締切」
     - sidem-11th-stage-stream-ticket  # 8/5配信「配信チケットが昨日発売開始」
     - sidem-11th-stage-goods-cd-reveal  # 8/22配信「会場物販・CD情報が公開」
+    - sidem-11th-stage-general-sale  # 8/23配信「現地引換チケット一般発売が昨日正午より開始」
   facts: |
     会場: TOYOTA ARENA TOKYO
     日程: 2026年9月12日（土）・13日（日）
     会場物販: 両日11:00〜17:30、TOYOTA ARENA TOKYOサブアリーナで実施。混雑緩和のため一部時間帯は事前抽選整理券制（ASOBI TICKET受付8/28 13:00〜9/2 23:59、当落発表9/8 13:00〜）。具体的な商品ラインナップは公式サイト物販ページで確認可能、価格等は未取得のため要追検証。
     新CD: 「SideM 10th ANNIVERSARY P@SSION SOLO COLLECTION 04」2,750円（税込）、THE 虎牙道・F-LAGS・Legenders・C.FIRSTメンバーのソロ楽曲収録
     配信チケット: 8/4 12:00〜9/21 18:00受付。DAY1+DAY2通し12,000円、DAY1・DAY2単日各6,000円（税込・機能利用料込）
-  notes: "出演者・セトリ等の詳細は未取得。会場物販・CD情報（8/22）消化済み。明日9/11開幕予告以降が未消化。"
+    現地引換チケット一般発売: 8/22(土)12:00〜開始。あわせてASOBI TICKET公式リセールも8/22 15:00〜9/6 9:59受付
+    現地チケット価格帯: 全席指定13,500円、見切れ席13,000円、スイート25,000円、テラススイート50,000円〜（いずれも税込）
+  notes: "出演者・セトリ等の詳細は未取得。会場物販・CD情報（8/22）・現地引換チケット一般発売開始（8/23）消化済み。明日9/11開幕予告以降が未消化。"
 
 - id: gaku-seabreeze-collab
   title: "「シーブリーズ」×学園アイドルマスター コラボキャンペーン"
@@ -782,7 +791,8 @@
     - sc-283pro-msp-presale-final  # 7/9配信「グッズ事前販売ファイナル受付中（〜7/12）」
     - sc-283pro-msp-presale-deadline-tomorrow  # 7/11配信「グッズ事前販売ファイナル、明日7/12締切」
     - sc-283pro-msp-presale-deadline-today  # 7/12配信「グッズ事前販売ファイナル、本日23:59締切」
-  notes: "出演者・セトリ等の詳細は未取得。チケット情報は開催が近づいてから要追検証。"
+    - sc-283pro-msp-hanaboard  # 8/23配信「楽屋花・プレゼントの受付方法が判明」
+  notes: "出演者・セトリ等の詳細は未取得。楽屋花・プレゼント受付方法（送付先: 京王アリーナTOKYO、サイズ上限40cm、受付は両日11:00〜開演前）が判明（8/23配信）。チケット情報は開催が近づいてから要追検証。"
 
 - id: sogo-20th-piano-collection
   title: "THE IDOLM@STER 20th Anniversary Piano Collection（CD化・収録楽曲アンケート）"
@@ -914,31 +924,6 @@
   status: partially-used
   notes: "出演ユニット・セトリ等の詳細は未取得。追加出演発表が今後も続く可能性あり、判明次第factsを更新。当落発表（8/21）消化済み。開幕予告以降が未消化。"
 
-- id: sc-chibigurumi-team-sol
-  title: "シャニマス「ちびぐるみ～Team.Sol～」vol.1/vol.2"
-  brand: sc
-  kind: 公式
-  event_start: "2026-08-20"
-  status: done
-  confidence: confirmed
-  added: "2026-08-03"
-  source: "HOBBY Watch（hobby.watch.impress.co.jp/docs/news/2128062.html、2026年7月27日）"
-  facts: |
-    展開開始: 2026年8月20日
-    対象ユニット: Team.Sol（Team.Luna・Team.Stellaに続くシリーズ第3弾）
-    Team.Luna・Team.Stellaは既に展開済み。Team.Solのみ今回新規
-    対象アイドル判明（8/11）: vol.1＝八宮めぐる・西城樹里・桑山千雪・浅倉透・七草にちか、vol.2＝白瀬咲耶・有栖川夏葉・黛冬優子・市川雛菜・郁田はるき（計10名）
-  publish_plan:
-    - on: "2026-08-19"
-      angle: "明日展開開始予告"
-    - on: "2026-08-20"
-      angle: "本日展開開始"
-  used_in:
-    - sc-chibigurumi-team-sol-cast  # 8/12配信「対象アイドル判明」
-    - sc-chibigurumi-team-sol-tomorrow  # 8/19配信「明日展開スタート予告」
-    - sc-chibigurumi-team-sol-today  # 8/20配信「本日展開開始」
-  notes: "7/27発表。8/11に対象アイドル判明（8/12配信で記事化）。全publish_plan消化済み。商品詳細は未取得のまま展開開始。"
-
 - id: sidem-tabimasu-jrc
   title: "SideM×JR東海「旅マス」（Welcome to NEXT 旅マス！315な旅をお届けしマス！）"
   brand: sidem
@@ -1036,7 +1021,8 @@
       angle: "本日卒業配信・APラウンジ最終回"
   used_in:
     - sogo-apkasshi-graduation  # 8/5配信「昨日発表」
-  notes: "卒業後のアイマスチャンネルMC体制は本稿時点で未発表、判明次第追記する。"
+    - sogo-apkasshi-message-recruit  # 8/23配信「視聴者メッセージ募集中（更新あり）」
+  notes: "卒業後のアイマスチャンネルMC体制は本稿時点で未発表、判明次第追記する。視聴者メッセージ募集中（8/23配信）。"
 
 - id: gaku-suntory-vending-collab2
   title: "学マス×サントリー自販機タイアップキャンペーン第2弾"
@@ -1182,7 +1168,8 @@
   used_in:
     - cg-toppa-base-cast-reveal  # 8/18配信「対象6アイドル判明」
     - cg-toppa-base-akiba-satellite  # 8/19配信「サテライトショップ5会場判明」
-  notes: "各店舗ごとの詳細な商品ラインナップは未取得、開催が近づいてから要追検証。サテライトショップ会期（9/14）は本会場（9/16）より2日短い点に注意。"
+    - cg-toppa-base-goods-reveal  # 8/23配信「グッズラインナップが判明」
+  notes: "各店舗ごとの詳細な商品ラインナップ（アクリルスタンド6種・トレーディング缶バッジ6種・ドットフレークシール10種セット）が判明（8/23配信）。サテライトショップ会期（9/14）は本会場（9/16）より2日短い点に注意。"
 
 - id: sc-birthday-plate-vol1
   title: "シャニマス「バースデープレート」第1弾"
@@ -1522,6 +1509,52 @@
   used_in:
     - gaku-amayo-tsubame-another-gacha  # 8/15配信「昨日開始」
   notes: "開始（8/14）分は記事化済み。終了（9/4）が未消化。"
+
+- id: sogo-20th-cd-mailorder
+  title: "20周年記念CD計5種（Pop'n ToyBox!!／IWSF2026会場限定盤）事後通販"
+  brand: sogo
+  kind: 公式
+  event_start: "2026-08-21"
+  event_end: "2026-08-31"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-23"
+  source: "日本コロムビア columbia.jp/idolmaster/imasnews/260821.html"
+  facts: |
+    対象: 「Pop'n ToyBox!!」渋谷LOVEZ会場限定CD2種（新曲「Poppin' para Pong!」「Cookie Dough」収録）＋「MORE RE@LITY LIVE IDOL WORLD SUPER FESTIVAL 2026」（京王アリーナ）会場限定CD3種、計5種
+    受付期間: 2026年8月21日18:00〜8月31日23:59
+    発送予定: 2026年9月11日（金）
+  publish_plan:
+    - on: "2026-08-31"
+      angle: "本日受注最終日"
+  used_in:
+    - sogo-20th-cd-mailorder  # 8/23配信「事後通販受付中」
+  notes: "受注最終日（8/31）が未消化。"
+
+- id: ml-mirishita-extreme-live
+  title: "ミリシタ Extreme 生配信「10年目の新シリーズ」発表"
+  brand: ml
+  kind: 公式
+  event_start: "2026-09-02"
+  event_end: "2026-09-02"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-23"
+  source: "アイドルマスター公式ポータル／ミリシタ公式"
+  facts: |
+    配信名: ミリシタ Extreme 生配信「10年目の新シリーズ発表！」
+    配信日時: 2026年9月2日（水）19:00〜
+    出演: 夏川椎菜・南早紀・山口立花子・渡部恵子
+    本編後22:00〜「Sai-Jo-9 DJ NIGHT！」アーカイブ動画プレミア公開
+    ミリシタは2026年で10周年、新シリーズの詳細が本配信で発表される見込み
+  publish_plan:
+    - on: "2026-09-01"
+      angle: "明日生配信予告"
+    - on: "2026-09-02"
+      angle: "本日生配信・新シリーズ発表"
+  used_in:
+    - ml-mirishita-extreme-preview  # 8/23配信「9月2日19時に決定」
+  notes: "新シリーズの具体的な内容は9/2配信を待って要追検証。"
 
 - id: cg-kotobukiya-magicalcheers-popup
   title: "シンデレラガールズ×寿屋 POP UP SHOP「A MAGICAL CHEERS」"
