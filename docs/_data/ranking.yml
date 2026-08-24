@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-08-23 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-08-24 集計
 - rank: 1
+  name: "有栖川夏葉"
+  brand: sc
+  move: new
+- rank: 2
   name: "倉本千奈"
   brand: gaku
-  move: up
-- rank: 2
-  name: "浅倉透"
-  brand: sc
-  move: up
+  move: down
 - rank: 3
-  name: "幽谷霧子"
-  brand: sc
-  move: new
-- rank: 4
-  name: "諸星きらり"
-  brand: cg
-  move: new
-- rank: 5
-  name: "姫崎莉波"
-  brand: gaku
-  move: down
-- rank: 6
-  name: "有村麻央"
-  brand: gaku
-  move: down
-- rank: 7
-  name: "花海佑芽"
-  brand: gaku
-  move: down
-- rank: 8
   name: "緋田美琴"
   brand: sc
+  move: up
+- rank: 4
+  name: "浅倉透"
+  brand: sc
+  move: down
+- rank: 5
+  name: "幽谷霧子"
+  brand: sc
+  move: down
+- rank: 6
+  name: "杜野凛世"
+  brand: sc
+  move: new
+- rank: 7
+  name: "諸星きらり"
+  brand: cg
+  move: down
+- rank: 8
+  name: "姫崎莉波"
+  brand: gaku
   move: down
