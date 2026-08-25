@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-08-25"
+  dateLong: "2026年（令和8年）8月25日　火曜日"
+  pages: "全 12 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "学マス標ツアー福岡、会場限定グッズ判明"
+  indexNote: "765プロ「dual twin live tour」東京公演の会場限定グッズも判明、ツアー完走ムード高まる。"
 - date: "2026-08-24"
   dateLong: "2026年（令和8年）8月24日　月曜日"
   pages: "全 11 面"
