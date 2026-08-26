@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-08-26"
+  dateLong: "2026年（令和8年）8月26日　水曜日"
+  pages: "全 13 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "デレ・ミリ公式、本日12時に合同新発表予告"
+  indexNote: "765プロ東京公演は明日開幕、TOPPA!!!BASE・パラレル回廊も開催決定と続報ラッシュ。"
 - date: "2026-08-25"
   dateLong: "2026年（令和8年）8月25日　火曜日"
   pages: "全 12 面"

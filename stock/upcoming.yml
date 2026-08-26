@@ -927,6 +927,7 @@
     - as765-dualtwinlive-local-tickets  # 7/14配信「現地チケット先着発売・リセール受付中」
     - as765-dualtwinlive-iwsf-booth  # 7/21配信「IWSF2026会場に特設ブース出展決定」
     - as765-dualtwinlive-osaka-2nd-presale  # 7/31配信「大阪公演、本日18時より一般先着2次発売・当日券も決定」
+    - as765-dualtwinlive-tokyo-tomorrow  # 8/26配信「明日東京公演開幕予告」
     - as765-dualtwinlive-nagoya-presale-deadline  # 8/3配信「名古屋公演、一般先着発売が昨日23:59締切」
     - as765-dualtwinlive-osaka-tomorrow  # 8/5配信「明日大阪公演開幕予告」
     - as765-dualtwinlive-osaka-today  # 8/6配信「本日大阪公演DAY1（ふたごぼしのつばさ）・終演後トークイベント判明」
@@ -1091,8 +1092,9 @@
     - sogo-apkasshi-graduation  # 8/5配信「昨日発表」
     - sogo-apkasshi-message-recruit  # 8/23配信「視聴者メッセージ募集中（更新あり）」
     - sogo-apkasshi-graduation-tomorrow  # 8/25配信「明日卒業配信予告」
-  status: partially-used
-  notes: "卒業後のアイマスチャンネルMC体制は本稿時点で未発表、判明次第追記する。明日卒業配信予告（8/25）消化済み。本日卒業配信・最終回（8/26）が未消化。"
+    - sogo-apkasshi-graduation-today  # 8/26配信「本日卒業配信・APラウンジ最終回」
+  status: done
+  notes: "卒業後のアイマスチャンネルMC体制は本稿時点で未発表、判明次第追記する。全publish_plan消化済み。"
 
 - id: gaku-suntory-vending-collab2
   title: "学マス×サントリー自販機タイアップキャンペーン第2弾"
@@ -1242,6 +1244,7 @@
   used_in:
     - cg-toppa-base-cast-reveal  # 8/18配信「対象6アイドル判明」
     - cg-toppa-base-akiba-satellite  # 8/19配信「サテライトショップ5会場判明」
+    - cg-toppa-base-popup-tomorrow  # 8/26配信「明日開幕予告」
     - cg-toppa-base-goods-reveal  # 8/23配信「グッズラインナップが判明」
     - cg-toppa-base-store-novelty  # 8/25配信「店舗別ノベルティの詳細判明」
   notes: "各店舗ごとの詳細な商品ラインナップ（アクリルスタンド6種・トレーディング缶バッジ6種・ドットフレークシール10種セット）が判明（8/23配信）。店舗別ノベルティ（本会場は来場記念ステッカー、各サテライト店舗は店舗別デザイン缶バッジ）判明（8/25配信）。サテライトショップ会期（9/14）は本会場（9/16）より2日短い点に注意。"
@@ -1495,7 +1498,8 @@
     - gaku-nee-icchauyo-song-release  # 8/18配信「新曲、本日より音楽配信開始」
     - gaku-360live-seaside-studio  # 8/18配信「新機能『360°ライブ』・新ロケーション実装（更新あり）」
     - gaku-summer-hashtag-campaign  # 8/18配信「ハッシュタグ投稿キャンペーン開始」
-  notes: "8/14放送の生配信で発表された内容。本日開始（8/17）分・新曲配信/新機能/キャンペーン（8/18）は記事化済み。第2弾切替（8/26）・終了（9/4）が未消化。"
+    - gaku-gravure-gacha-vol2-switch  # 8/26配信「グラビアガシャ第2弾（秦谷美鈴）切替」
+  notes: "8/14放送の生配信で発表された内容。本日開始（8/17）分・新曲配信/新機能/キャンペーン（8/18）・第2弾切替（8/26）は記事化済み。終了（9/4）が未消化。"
 
 - id: sc-admiral-sneaker-collab
   title: "シャニマス×Admiralコラボスニーカー「CAMBRIDGE THE IDOLM@STER SHINY COLORS Edition」"
@@ -1542,8 +1546,9 @@
   used_in:
     - gaku-housoubu-0826-preview  # 8/16配信「次回放送決定・小鹿なおゲスト出演」
     - gaku-housoubu-0826-tomorrow  # 8/25配信「明日放送予告」
-  status: partially-used
-  notes: "放送時間・配信先は続報待ち、要追検証。明日放送予告（8/25）消化済み。本日放送（8/26）が未消化。"
+    - gaku-housoubu-0826-today  # 8/26配信「本日放送・小鹿なおゲスト出演」
+  status: done
+  notes: "放送は毎週水曜21:00（news/01_19430で確認）。全publish_plan消化済み。"
 
 - id: sidem-remembershot-fair3
   title: "SideM「リメンバーショット」フェア第3弾"
@@ -1661,4 +1666,77 @@
     - cg-kotobukiya-magicalcheers-popup-tomorrow  # 8/20配信「明日開幕予告」
     - cg-kotobukiya-magicalcheers-popup-today  # 8/21配信「本日開幕」
   notes: "出演アイドル・グッズ詳細は開催が近づいてから寿屋公式サイトで要追検証。明日開幕予告（8/20）・本日開幕（8/21）消化済み。最終日（9/6）が未消化。"
+
+- id: sc-parallel-corridor-popup
+  title: "シャニマス POP UP SHOP「パラレル回廊」"
+  brand: sc
+  kind: 公式
+  event_start: "2026-09-20"
+  event_end: "2026-09-27"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-26"
+  source: "アイドルマスター公式ポータル schedule/01_19701（283プロダクション SHOP関連告知）"
+  facts: |
+    名称: パラレル回廊
+    開催期間: 2026年9月20日（日）〜9月27日（日）
+    283プロダクション SHOP（@283prosh_akb）関連の企画として告知。会場・出演アイドル・グッズ内容は続報待ち
+  publish_plan:
+    - on: "2026-09-19"
+      angle: "明日開幕予告"
+    - on: "2026-09-20"
+      angle: "本日開幕"
+    - on: "2026-09-27"
+      angle: "本日最終日"
+  used_in:
+    - sc-parallel-corridor-popup  # 8/26配信「新発表」
+  notes: "会場・出演アイドル・グッズ詳細は続報待ち、要追検証。"
+
+- id: sc-masterlivepiece-solo-live
+  title: "283 PRODUCTION Solo Live Collection -Master ShowPiece-"
+  brand: sc
+  kind: 公式
+  event_start: "2026-09-26"
+  event_end: "2026-09-27"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-26"
+  source: "アイドルマスター公式ポータル news/01_19705"
+  facts: |
+    会場: 京王アリーナTOKYO
+    日程: 2026年9月26日（土）・27日（日）
+    配信チケット: 販売期間8月25日19:00〜10月5日18:00（予定）、アーカイブ視聴期間9月28日18:00〜10月5日23:59（予定）
+    現地チケット一般発売（先着）: 8月29日12:00受付開始〜9月15日23:59、対象は全席指定・見切れ席・立見指定
+    公式リセール: 9月5日15:00受付開始、公演日ごとに受付URLが異なる。9/26公演分は9月16日9:59まで
+  publish_plan:
+    - on: "2026-08-29"
+      angle: "本日現地チケット一般発売（先着）開始"
+    - on: "2026-09-25"
+      angle: "明日開幕予告"
+    - on: "2026-09-26"
+      angle: "本日開幕・DAY1"
+    - on: "2026-09-27"
+      angle: "DAY1レポ＆本日DAY2・千秋楽"
+  used_in:
+    - sc-masterlivepiece-stream-ticket  # 8/26配信「配信チケット本日発売開始」
+  notes: "出演者・セトリ等の詳細は続報待ち、要追検証。"
+
+- id: godo-cg-ml-joint-announce
+  title: "シンデレラガールズ×ミリオンライブ 合同新発表"
+  brand: godo
+  kind: 公式
+  status: pending
+  confidence: unconfirmed
+  added: "2026-08-26"
+  source: "SNS（X）公式アカウント投稿／ファンブログ経由（sorekarano.blog.jp、mirishita.2chblog.jp）"
+  facts: |
+    経緯: シンデレラガールズ・ミリオンライブ両公式Xが8月23日よりロゴ・キャラクター掛け合いビジュアルで「Coming soon」ティザーを共同投稿
+    発表予定日時: 2026年8月26日（水）12:00
+    発表内容は本稿時点で未公開。ファンの間では合同企画（xRライブ等）の可能性が取り沙汰されている
+  publish_plan:
+    - on: "発表内容判明後（2026-08-26以降）"
+      angle: "発表内容詳報"
+  used_in:
+    - godo-cg-ml-teaser-today  # 8/26配信「本日12時発表予告」
+  notes: "8/26 12:00の発表内容が判明次第、詳報記事を作成する。"
 
