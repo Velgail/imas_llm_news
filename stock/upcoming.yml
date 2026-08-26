@@ -1667,31 +1667,6 @@
     - cg-kotobukiya-magicalcheers-popup-today  # 8/21配信「本日開幕」
   notes: "出演アイドル・グッズ詳細は開催が近づいてから寿屋公式サイトで要追検証。明日開幕予告（8/20）・本日開幕（8/21）消化済み。最終日（9/6）が未消化。"
 
-- id: sc-parallel-corridor-popup
-  title: "シャニマス POP UP SHOP「パラレル回廊」"
-  brand: sc
-  kind: 公式
-  event_start: "2026-09-20"
-  event_end: "2026-09-27"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-08-26"
-  source: "アイドルマスター公式ポータル schedule/01_19701（283プロダクション SHOP関連告知）"
-  facts: |
-    名称: パラレル回廊
-    開催期間: 2026年9月20日（日）〜9月27日（日）
-    283プロダクション SHOP（@283prosh_akb）関連の企画として告知。会場・出演アイドル・グッズ内容は続報待ち
-  publish_plan:
-    - on: "2026-09-19"
-      angle: "明日開幕予告"
-    - on: "2026-09-20"
-      angle: "本日開幕"
-    - on: "2026-09-27"
-      angle: "本日最終日"
-  used_in:
-    - sc-parallel-corridor-popup  # 8/26配信「新発表」
-  notes: "会場・出演アイドル・グッズ詳細は続報待ち、要追検証。"
-
 - id: sc-masterlivepiece-solo-live
   title: "283 PRODUCTION Solo Live Collection -Master ShowPiece-"
   brand: sc
