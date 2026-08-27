@@ -316,35 +316,6 @@
     - cg-sousenkyo-checkin-expand  # 8/25配信「スポットチェックインに新たに5箇所追加」
   notes: "投票券ミッションは7/1配信で記事化済み。中間発表・結果発表日が未確定。日程が出たら on を絶対日付に更新すること。チェックインスポットは順次追加されるため、新規追加店舗が判明次第「更新あり」で継続記事化する。スポットチェックインミッションで7/1 12:00〜7/9 18:15に重複チェックインによる投票券の複数回獲得が発生し、7/22に是正済み（7/28配信・事実確認済み）。応援楽曲は第1弾「シンデレラNo.1」、第2弾「ROSE ～禁じられた愛～」（7/1発売）に続き、第3弾「だいすきのブーケ」（佐久間まゆ・五十嵐響子・相葉夕美、作詞:磯谷佳江／作曲編曲:賀佐泰洋）のMVが7/29 21:00公開予定（別途cg-daisukinobouquetエントリで管理）。投票フェーズは8/3正午に開始済み（8/3配信で記事化）。8/2の生配信「CG総選挙ST@TION」で15周年記念イベント（11/28-29 Kアリーナ横浜）の詳細（DAY1 LOVE/CHILL・DAY2 FABULOUS/MIRACLEの4グループ編成、出演声優約49名、生バンドCinderella Band出演）が解禁され、cg-15th-anniversary-liveのfactsを更新。総選挙公式グッズ（190人描き下ろしカードフォリオVol.4-6）が8/2 16:00より受注開始（〜9/13）。中間発表・結果発表日は引き続き未確定、判明次第on を絶対日付に更新。"
 
-- id: shani-songforprism-karma-naraku-event
-  title: "シャニマス Song for Prism「Karma / Naraku」発売記念イベント"
-  brand: sc
-  kind: 公式
-  event_start: "2026-08-23"
-  event_end: "2026-08-23"
-  status: pending
-  confidence: confirmed
-  added: "2026-06-06"
-  source: "アイドルマスター シャイニーカラーズ 公式 / Lantis"
-  facts: |
-    日時: 2026年8月23日（日）東京都内
-    第一回: 開場14:15 / 開演15:00
-    第二回: 開場16:45 / 開演17:30
-    内容: トーク＆ミニライブ
-    出演: 和久井優（浅倉透 役）、結名美月（幽谷霧子 役）
-    参加方法: 抽選招待制（配信なし）、受付 2026/2/3 12:00〜8/2 23:59
-  publish_plan:
-    - on: "2026-08-22"
-      angle: "明日開催予告"
-    - on: "2026-08-23"
-      angle: "本日開催"
-  used_in:
-    - shani-songforprism-karma-naraku-tomorrow  # 8/22配信「明日開催予告」
-    - shani-songforprism-karma-naraku-today  # 8/23配信「本日開催」
-    - shani-songforprism-karma-naraku-report  # 8/24配信「昨日開催・当選者からSNSに反響（閉幕レポ）」
-  status: done
-  notes: "配信なしのため当日レポは現地・SNS情報依存。全publish_plan消化済み。閉幕レポ（8/24）で完全消化。"
-
 - id: million-14th-live
   title: "THE IDOLM@STER MILLION LIVE! 14thLIVE"
   brand: ml
@@ -943,6 +914,7 @@
     - as765-dualtwinlive-tokyo-secondsale  # 8/17配信「東京公演、昨日18時より一般先着2次発売・当日券販売もスタート」
     - as765-dualtwinlive-tokyo-times  # 8/24配信「東京公演、開場・開演時刻が判明」
     - as765-dualtwinlive-tokyo-goods-reveal  # 8/25配信「東京公演、会場限定グッズが判明」
+    - as765-dualtwinlive-tokyo-today  # 8/27配信「本日東京公演DAY1（ふたごぼしのつばさ）」
   facts: |
     公演: 双海亜美・双海真美 twin live「ふたごぼしのつばさ」／三浦あずさ・秋月律子 twin live「つみまつよるまち」
     大阪: Zepp Namba（OSAKA）8/6(木)「ふたごぼしのつばさ」・8/7(金)「つみまつよるまち」
@@ -1247,6 +1219,7 @@
     - cg-toppa-base-popup-tomorrow  # 8/26配信「明日開幕予告」
     - cg-toppa-base-goods-reveal  # 8/23配信「グッズラインナップが判明」
     - cg-toppa-base-store-novelty  # 8/25配信「店舗別ノベルティの詳細判明」
+    - cg-toppa-base-popup-today  # 8/27配信「本日全国一斉開幕」
   notes: "各店舗ごとの詳細な商品ラインナップ（アクリルスタンド6種・トレーディング缶バッジ6種・ドットフレークシール10種セット）が判明（8/23配信）。店舗別ノベルティ（本会場は来場記念ステッカー、各サテライト店舗は店舗別デザイン缶バッジ）判明（8/25配信）。サテライトショップ会期（9/14）は本会場（9/16）より2日短い点に注意。"
 
 - id: sc-birthday-plate-vol1
@@ -1700,7 +1673,6 @@
   title: "シンデレラガールズ×ミリオンライブ 合同新発表"
   brand: godo
   kind: 公式
-  status: pending
   confidence: unconfirmed
   added: "2026-08-26"
   source: "SNS（X）公式アカウント投稿／ファンブログ経由（sorekarano.blog.jp、mirishita.2chblog.jp）"
@@ -1713,5 +1685,60 @@
       angle: "発表内容詳報"
   used_in:
     - godo-cg-ml-teaser-today  # 8/26配信「本日12時発表予告」
-  notes: "8/26 12:00の発表内容が判明次第、詳報記事を作成する。"
+    - godo-clashmatch-announce  # 8/27配信「発表内容詳報：合同ライブ『CLASH M@TCH!!』開催決定」
+    - godo-millionstrings-buzz  # 8/27配信「新ユニット『MILLION STRINGS』にファン反響」
+  status: done
+  notes: "8/26 12:00の発表内容が判明（合同ライブ『CLASH M@TCH!!』開催決定）。以降の続報は新規エントリ godo-clashmatch-live で管理する。"
 
+- id: godo-clashmatch-live
+  title: "THE IDOLM@STER CINDERELLA GIRLS × MILLION LIVE! CLASH M@TCH!!"
+  brand: godo
+  kind: 公式
+  event_start: "2027-02-27"
+  event_end: "2027-02-28"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-27"
+  source: "アイドルマスター公式ポータル news/01_19720（2026年8月26日12:00発表）"
+  facts: |
+    イベント名: THE IDOLM@STER CINDERELLA GIRLS × MILLION LIVE! CLASH M@TCH!!
+    開催日: 2027年2月27日（土）・28日（日）
+    会場: 愛知県・IGアリーナ
+    出演: シンデレラガールズ側CINDERELLA BAND、ミリオンライブ！側は新規ユニット「MILLION STRINGS」（弦楽器編成、ミリオンライブ！本編初）
+    背景: 両公式Xが8月23日から「Coming soon」ティザーを共同投稿、8月26日12:00に発表
+    アソビストアプレミアム会員先行（抽選）: 8月26日12:00〜9月13日23:59受付
+  publish_plan:
+    - on: "2026-09-13"
+      angle: "本日プレミアム会員先行受付締切"
+    - on: "2027-02-26"
+      angle: "明日開幕予告"
+    - on: "2027-02-27"
+      angle: "本日開幕・DAY1"
+    - on: "2027-02-28"
+      angle: "DAY1レポ＆本日DAY2・千秋楽"
+  used_in:
+    - godo-clashmatch-announce  # 8/27配信「開催決定・本日チケット先行受付開始」
+  notes: "MILLION STRINGSのメンバー構成・出演者詳細は続報待ち、要追検証。一般発売日程も未発表。"
+
+- id: sc-natsumo-atsui-sp-followup-releases
+  title: "シャニマス生配信「～8月も意外と暑い～ズSP～」発表楽曲・アルバム"
+  brand: sc
+  kind: 公式
+  event_start: "2026-09-06"
+  event_end: "2026-09-16"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-27"
+  source: "アイドルマスター公式ポータル news/01_19509"
+  facts: |
+    2026年サマーシャニソン楽曲「泡沫に染まる」: 2026年9月6日より配信開始
+    アルバム「HOPEFUL FE@THERS」: 多数のアイドルのソロ曲28曲収録、2026年9月16日発売
+    発表元: 8月25日19時放送のニコニコ生放送「シャニマス生配信 ～8月も意外と暑い～ズSP～」（出演: 峯田茉優〈八宮めぐる役〉・前川涼子〈大崎甜花役〉）
+  publish_plan:
+    - on: "2026-09-06"
+      angle: "本日「泡沫に染まる」配信開始"
+    - on: "2026-09-16"
+      angle: "本日アルバム『HOPEFUL FE@THERS』発売"
+  used_in:
+    - sc-natsumo-atsui-sp-content-reveal  # 8/27配信「配信内容判明（更新あり）」
+  notes: "アルバム収録アイドルの内訳は続報待ち、要追検証。"
