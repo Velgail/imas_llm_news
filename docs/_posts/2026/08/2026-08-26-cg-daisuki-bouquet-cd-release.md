@@ -1,11 +1,11 @@
 ---
-title: "CD「大好きのブーケ／すりーぷすきっぷ」本日発売"
+title: "CD「大好きのブーケ／すりーぷすきっぷ」昨日発売"
 edition_date: "2026-08-27"
 slug: cg-daisuki-bouquet-cd-release
 brand: cg
 kind: 公式
-badge: "本日発売"
-lead: "シンデレラガールズ応援ソングシリーズの最新作「THE IDOLM@STER CINDERELLA MASTER NUMBER ONE! 大好きのブーケ ＆ すりーぷすきっぷ」が、本日8月26日に発売された。"
+badge: "昨日発売"
+lead: "シンデレラガールズ応援ソングシリーズの最新作「THE IDOLM@STER CINDERELLA MASTER NUMBER ONE! 大好きのブーケ ＆ すりーぷすきっぷ」が、昨日8月26日に発売された。"
 source: "shop.asobistore.jp／コロムビア公式（columbia.jp/idolmaster）"
 tags: [シンデレラガールズ, CD, 大好きのブーケ, すりーぷすきっぷ]
 ---
