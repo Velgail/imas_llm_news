@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-08-27"
+  dateLong: "2026年（令和8年）8月27日　木曜日"
+  pages: "全 8 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "デレ・ミリ合同ライブ「CLASH M@TCH!!」来年2月開催決定"
+  indexNote: "765プロ東京公演とTOPPA!!!BASEが本日全国開幕、新ユニット「MILLION STRINGS」にも反響。"
 - date: "2026-08-26"
   dateLong: "2026年（令和8年）8月26日　水曜日"
   pages: "全 12 面"
