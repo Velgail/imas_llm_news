@@ -6,7 +6,7 @@ brand: sidem
 kind: 公式
 badge: "本日受付開始"
 lead: "9月12日・13日開催「THE IDOLM@STER SideM 11th STAGE ～EVER EVER＠FTER～」の会場物販混雑緩和のため、ASOBI TICKETでの事前抽選整理券受付が本日13:00に始まった。"
-source: "アイドルマスター公式ポータル news/01_19177、01_19092"
+source: "THE IDOLM@STER SideM 11th STAGE 公式サイト GOODSページ（live_event/sidem11th/goods）"
 tags: [SideM, 11th STAGE, TOYOTA ARENA TOKYO, グッズ]
 ---
 
