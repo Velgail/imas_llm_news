@@ -1705,7 +1705,7 @@
     経緯: 8月18日に村瀬歩さんの姫野かのん役卒業が発表され、8月28日に後任オーディションの結果として新人声優・伊能幸輝さんへの交代が発表された
     伊能幸輝さんの経歴: 『パズドラ』ミズー星人役、『ひらけ！みらいのとびら～未来へつながる特別な場所～』チコリン役など
     お披露目特別生配信: 9月1日（火）19:00〜、YouTube・ニコニコ生放送
-    出演: 仲村宗悟さん・狩野翔さん・矢野奨吾さん・古畑恵介さん（もふもふえん既存キャスト）、伊能幸輝さん、コンテンツプロデューサー石澤雪枝氏
+    出演: 矢野奨吾さん（岡村直央役）・古畑恵介さん（橘志狼役）（もふもふえん既存キャスト）、仲村宗悟さん（天道輝役）・狩野翔さん（神谷幸広役）、伊能幸輝さん、コンテンツプロデューサー石澤雪枝氏
     配信内容: 姫野かのんの今後のボイススケジュール発表、イベント「315 Production presents F@NTASTIC BATTLE FES ～Wanna step in～」最新情報
     既存音声の差し替え: 現時点で予定なし
   publish_plan:
@@ -1742,25 +1742,6 @@
     - sogo-imasradio-announce  # 8/29配信「9月15日スタート決定」
   notes: "初回ゲスト・具体的なコーナー内容は続報待ち、要追検証。"
 
-- id: sc-songforprism-as765-crossover-release
-  title: "シャニソン「Song for Prism」765プロ4人クロスオーバー配信開始日"
-  brand: sc
-  kind: 公式
-  status: watching
-  confidence: unconfirmed
-  added: "2026-08-29"
-  source: "ファミ通 article/202608/85942"
-  facts: |
-    内容: 『Song for Prism』の楽曲「アイ NEED YOU」3DMVに、双海亜美・双海真美・三浦あずさ・秋月律子（765プロ）の歌い分けパートが追加登場
-    発表日: 2026年8月28日（765プロ「dual twin live tour」東京公演完結にあわせたクロスオーバー企画として発表）
-    配信開始時期: 記事では明記されておらず未確定
-  publish_plan:
-    - on: "配信開始日判明後（未定）"
-      angle: "本日配信開始"
-  used_in:
-    - sc-songforprism-as765-guest  # 8/29配信「新発表」
-  notes: "配信開始の具体的な日付は要追検証。判明次第 event_start を設定し publish_plan を更新する。"
-
 - id: gaku-chugai-cafe-revival
   title: "「学園アイドルマスター」× Chugai Grace Café リバイバル（渋谷モディ）"
   brand: gaku
@@ -1785,5 +1766,6 @@
       angle: "本日開幕"
     - on: "2026-09-27"
       angle: "本日最終日"
-  used_in: []
-  notes: "発表自体は8/8で既に少し前のニュースのため8/29時点では記事化を見送り、ストックのみ。開幕直前に改めて追検証のうえ記事化する。"
+  used_in:
+    - gaku-chugai-grace-cafe-revival  # 8/8配信「9月3日からリバイバル開催」（発表時点の記事、既存）
+  notes: "発表自体は8/8に既存記事で記事化済み（gaku-chugai-grace-cafe-revival）。8/29時点では開幕前continuity記事化を見送り、ストックのみ更新。開幕直前に改めて追検証のうえ記事化する。"
