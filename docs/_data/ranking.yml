@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-08-28 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-08-29 集計
 - rank: 1
+  name: "姫野かのん"
+  brand: sidem
+  move: up
+- rank: 2
   name: "三浦あずさ"
   brand: as765
-  move: new
-- rank: 2
+  move: down
+- rank: 3
   name: "秋月律子"
   brand: as765
-  move: new
-- rank: 3
-  name: "涼宮星花"
-  brand: cg
-  move: new
+  move: down
 - rank: 4
+  name: "菊地真"
+  brand: ml
+  move: new
+- rank: 5
   name: "双海亜美"
   brand: as765
   move: down
-- rank: 5
+- rank: 6
   name: "双海真美"
   brand: as765
   move: down
-- rank: 6
+- rank: 7
+  name: "涼宮星花"
+  brand: cg
+  move: down
+- rank: 8
   name: "諸星きらり"
   brand: cg
   move: same
-- rank: 7
-  name: "姫野かのん"
-  brand: sidem
-  move: down
-- rank: 8
-  name: "佐久間まゆ"
-  brand: cg
-  move: down
