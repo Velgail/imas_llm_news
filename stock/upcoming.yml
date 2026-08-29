@@ -858,84 +858,6 @@
     - sogo-20th-piano-collection-survey-deadline  # 7/12配信「本日23:59締切」
   notes: "CD収録の新規10曲確定はアンケート締切後に発表される見込み、要追検証。CD予約締切は9/6、未消化。"
 
-- id: as765-dualtwinlive-765pro
-  title: "765プロ「dual twin live tour」（双海亜美・双海真美／三浦あずさ・秋月律子）"
-  brand: as765
-  kind: 公式
-  event_start: "2026-08-06"
-  event_end: "2026-08-28"
-  status: done
-  confidence: confirmed
-  added: "2026-07-14"
-  source: "アイドルマスター公式ポータル news/01_19365、news/01_19321、news/01_19400 / 電撃オンライン・ファミ通（2026年3月）"
-  facts: |
-    公演: 双海亜美・双海真美 twin live「ふたごぼしのつばさ」／三浦あずさ・秋月律子 twin live「つみまつよるまち」
-    大阪: Zepp Namba（OSAKA）8/6(木)「ふたごぼしのつばさ」・8/7(金)「つみまつよるまち」
-    名古屋: Zepp Nagoya 8/13(木)「ふたごぼしのつばさ」・8/14(金)「つみまつよるまち」
-    東京: Zepp Haneda（TOKYO）8/27(木)「ふたごぼしのつばさ」・8/28(金)「つみまつよるまち」
-    各公演サブタイトル: 大阪＜ふたごぼしのつばさ＞ワクワクフタリボシ／＜つみまつよるまち＞OSAKA SILENTCITY LOVE、名古屋＜ふたごぼしのつばさ＞ソワソワフタリボシ／＜つみまつよるまち＞NAGOYA MISTY NIGHT、東京＜ふたごぼしのつばさ＞キラキラフタリボシ／＜つみまつよるまち＞TOKYO LAST CHOICE
-    チケット: 現地9,800円／特典付き現地+xRライブストリーミングセット15,000円／各都市2日間通し券30,000円（税込）
-    現地チケットリセール受付: 7/11(土)15:00〜開始、先着発売中
-    IWSF2026会場ブース: 7/24〜26、京王アリーナTOKYOあじペン広場に特設ブース出展、6公演分の現地紙チケット販売（各9,800円）と過去765プロ・961プロxRライブダイジェスト映像放映。販売日時は7/24 12:00〜終演後30分程度、7/25・26は11:00〜18:00
-    大阪公演一般先着2次発売・当日券: 7/30発表、7/31 18:00〜一般先着2次発売開始、あわせて当日券販売も決定
-    名古屋公演一般先着発売: 7/4 13:00〜開始（大阪のような「2次」ラウンドではなく通常の一般先着枠）、8/2 23:59締切
-  publish_plan:
-    - on: "2026-08-05"
-      angle: "明日大阪公演開幕予告"
-    - on: "2026-08-06"
-      angle: "本日大阪公演DAY1（ふたごぼしのつばさ）"
-    - on: "2026-08-07"
-      angle: "本日大阪公演DAY2（つみまつよるまち）"
-    - on: "2026-08-12"
-      angle: "明日名古屋公演開幕予告"
-    - on: "2026-08-13"
-      angle: "本日名古屋公演DAY1"
-    - on: "2026-08-14"
-      angle: "本日名古屋公演DAY2"
-    - on: "2026-08-26"
-      angle: "明日東京公演開幕予告"
-    - on: "2026-08-27"
-      angle: "本日東京公演DAY1"
-    - on: "2026-08-28"
-      angle: "本日東京公演DAY2・ツアー完走"
-  used_in:
-    - as765-dualtwinlive-local-tickets  # 7/14配信「現地チケット先着発売・リセール受付中」
-    - as765-dualtwinlive-iwsf-booth  # 7/21配信「IWSF2026会場に特設ブース出展決定」
-    - as765-dualtwinlive-osaka-2nd-presale  # 7/31配信「大阪公演、本日18時より一般先着2次発売・当日券も決定」
-    - as765-dualtwinlive-tokyo-tomorrow  # 8/26配信「明日東京公演開幕予告」
-    - as765-dualtwinlive-nagoya-presale-deadline  # 8/3配信「名古屋公演、一般先着発売が昨日23:59締切」
-    - as765-dualtwinlive-osaka-tomorrow  # 8/5配信「明日大阪公演開幕予告」
-    - as765-dualtwinlive-osaka-today  # 8/6配信「本日大阪公演DAY1（ふたごぼしのつばさ）・終演後トークイベント判明」
-    - as765-dualtwinlive-osaka-day2-today  # 8/7配信「本日大阪公演DAY2（つみまつよるまち）・アーカイブ配信期間判明」
-    - as765-dualtwinlive-osaka-final-report  # 8/8配信「昨日2日間で完走・千秋楽レポ」
-    - as765-dualtwinlive-nagoya-tomorrow  # 8/12配信「名古屋公演、明日開幕」
-    - as765-dualtwinlive-osaka-archive-comment  # 8/12配信「大阪公演、コメント付きアーカイブ配信・アンケート実施（更新あり）」
-    - as765-dualtwinlive-nagoya-today  # 8/13配信「名古屋公演、本日開幕（DAY1）」
-    - as765-dualtwinlive-nagoya-halfway-space  # 8/14配信「名古屋DAY1完走・折り返し記念スペース配信（更新あり）」
-    - as765-dualtwinlive-nagoya-day2-today  # 8/14配信「名古屋公演、本日DAY2『つみまつよるまち』開催」
-    - as765-dualtwinlive-nagoya-final-report  # 8/15配信「名古屋公演、昨日2日間で完走・会場限定CD新曲『Binary Star』判明」
-    - as765-dualtwinlive-tokyo-ticket-deadline  # 8/16配信「東京公演、一般発売チケット本日23:59締切・ばくすて！とーく出演者確定」
-    - as765-dualtwinlive-tokyo-secondsale  # 8/17配信「東京公演、昨日18時より一般先着2次発売・当日券販売もスタート」
-    - as765-dualtwinlive-tokyo-times  # 8/24配信「東京公演、開場・開演時刻が判明」
-    - as765-dualtwinlive-tokyo-goods-reveal  # 8/25配信「東京公演、会場限定グッズが判明」
-    - as765-dualtwinlive-tokyo-today  # 8/27配信「本日東京公演DAY1（ふたごぼしのつばさ）」
-    - as765-dualtwinlive-tokyo-final  # 8/28配信「本日東京公演DAY2・ツアー完走」
-  facts: |
-    公演: 双海亜美・双海真美 twin live「ふたごぼしのつばさ」／三浦あずさ・秋月律子 twin live「つみまつよるまち」
-    大阪: Zepp Namba（OSAKA）8/6(木)「ふたごぼしのつばさ」・8/7(金)「つみまつよるまち」
-    名古屋: Zepp Nagoya 8/13(木)「ふたごぼしのつばさ」・8/14(金)「つみまつよるまち」
-    東京: Zepp Haneda（TOKYO）8/27(木)「ふたごぼしのつばさ」・8/28(金)「つみまつよるまち」
-    各公演サブタイトル: 大阪＜ふたごぼしのつばさ＞ワクワクフタリボシ／＜つみまつよるまち＞OSAKA SILENTCITY LOVE、名古屋＜ふたごぼしのつばさ＞ソワソワフタリボシ／＜つみまつよるまち＞NAGOYA MISTY NIGHT、東京＜ふたごぼしのつばさ＞キラキラフタリボシ／＜つみまつよるまち＞TOKYO LAST CHOICE
-    チケット: 現地9,800円／特典付き現地+xRライブストリーミングセット15,000円／各都市2日間通し券30,000円（税込）
-    東京公演一般発売チケット: 7/4 13:00〜8/16(日)23:59受付、8/14 0:00以降はクレジットカード決済のみ
-    東京公演「ばくすて！とーく」配信: 8/27公演後は下田麻美（双海亜美・真美役）×浅倉杏美（萩原雪歩役ゲスト）、8/28公演後は若林直美（秋月律子役）×たかはし智秋（三浦あずさ役）、アイドルマスターチャンネルで終演直後から配信
-    東京公演 開場・開演時刻: 8/27(木)「ふたごぼしのつばさ」開場18:00・開演19:00、8/28(金)「つみまつよるまち」開場18:00・開演19:00
-    東京公演 会場限定グッズ（8/25判明）: 会場限定CD「Binary Star」、公演ロゴタオル、コンサートライト、パンフレット等
-    IWSF2026会場ブース: 7/24〜26、京王アリーナTOKYOあじペン広場に特設ブース出展、6公演分の現地紙チケット販売（各9,800円）と過去765プロ・961プロxRライブダイジェスト映像放映
-    大阪公演一般先着2次発売・当日券: 7/30発表、7/31 18:00〜一般先着2次発売開始、あわせて当日券販売も決定
-    名古屋公演一般先着発売: 7/4 13:00〜開始、8/2 23:59締切
-  notes: "xRライブストリーミング配信の詳細・セトリ等は開催が近づいてから要追検証。全publish_plan消化済み（東京公演DAY2・ツアー完走を8/28配信で記事化）。大阪・名古屋・東京の3都市6公演が完走。千秋楽レポ（東京公演後）は続報待ち、判明次第新規エントリで管理する。"
-
 - id: sc-refrac7ions-stillblue-live
   title: "シャニマス「shiny, the first REFRAC7IONS \"Still blue\"」"
   brand: sc
@@ -1134,7 +1056,7 @@
   kind: 公式
   event_start: "2026-08-29"
   event_end: "2026-08-29"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-08-22"
   source: "ミリプロコーポレートサイト milpr.com／ローソンチケット"
@@ -1151,7 +1073,8 @@
   used_in:
     - ml-milpro-resort-akihabara-announce  # 8/22配信「詳細判明」
     - ml-milpro-resort-akihabara-tomorrow  # 8/28配信「明日開催予告」
-  notes: "詳細判明（8/22）・明日開催予告（8/28）消化済み。本日開催（8/29）が未消化。"
+    - ml-milpro-resort-akihabara-today  # 8/29配信「本日開催」
+  notes: "全publish_plan消化済み。event_end超過につき次回整理で削除可。"
 
 - id: as765-kotobukiya-kuji-summerlive
   title: "コトブキヤくじ「アイドルマスター Summer Live st@ge」"
@@ -1679,7 +1602,8 @@
       angle: "DAY1レポ＆本日DAY2・千秋楽"
   used_in:
     - sc-masterlivepiece-stream-ticket  # 8/26配信「配信チケット本日発売開始」
-  notes: "出演者・セトリ等の詳細は続報待ち、要追検証。"
+    - sc-masterlivepiece-general-onsale-today  # 8/29配信「本日現地チケット一般発売（先着）開始」
+  notes: "出演者・セトリ等の詳細は続報待ち、要追検証。明日開幕予告（9/25）以降が未消化。"
 
 - id: godo-cg-ml-joint-announce
   title: "シンデレラガールズ×ミリオンライブ 合同新発表"
@@ -1741,20 +1665,107 @@
   brand: sc
   kind: 公式
   event_start: "2026-09-06"
-  event_end: "2026-09-16"
+  event_end: "2026-09-27"
   status: partially-used
   confidence: confirmed
   added: "2026-08-27"
-  source: "アイドルマスター公式ポータル news/01_19509"
+  source: "アイドルマスター公式ポータル news/01_19509、news/01_19700"
   facts: |
     2026年サマーシャニソン楽曲「泡沫に染まる」: 2026年9月6日より配信開始
     アルバム「HOPEFUL FE@THERS」: 多数のアイドルのソロ曲28曲収録、2026年9月16日発売
     発表元: 8月25日19時放送のニコニコ生放送「シャニマス生配信 ～8月も意外と暑い～ズSP～」（出演: 峯田茉優〈八宮めぐる役〉・前川涼子〈大崎甜花役〉）
+    POP UP SHOP「パラレル回廊」（同放送で発表）: 2026年9月20日（日）〜27日（日）、秋葉原UDX（4Fギャラリー）で開催。テーマはガシャシリーズ「パラレルコレクション」（アイドルたちの「もしもの未来」を描く）。描き下ろしイラスト使用の新商品、パラレルコレクション関連イラストグッズ、制作コメント・ラフ画の一部展示を予定（8/29配信で詳細記事化済み、商品ラインナップ・対象アイドルは続報待ち）
   publish_plan:
     - on: "2026-09-06"
       angle: "本日「泡沫に染まる」配信開始"
     - on: "2026-09-16"
       angle: "本日アルバム『HOPEFUL FE@THERS』発売"
+    - on: "2026-09-19"
+      angle: "パラレル回廊、明日開幕予告"
+    - on: "2026-09-20"
+      angle: "パラレル回廊、本日開幕"
+    - on: "2026-09-27"
+      angle: "パラレル回廊、本日最終日"
   used_in:
     - sc-natsumo-atsui-sp-content-reveal  # 8/27配信「配信内容判明（更新あり）」
-  notes: "アルバム収録アイドルの内訳は続報待ち、要追検証。"
+    - sc-parallel-korou-popup-announce  # 8/29配信「パラレル回廊、開催詳細判明」
+  notes: "アルバム収録アイドルの内訳は続報待ち、要追検証。パラレル回廊の商品ラインナップ・対象アイドルの詳細も続報待ち。"
+
+- id: sidem-himeno-kanon-newcast-reveal
+  title: "SideM「姫野かのん」新キャスト・伊能幸輝さんお披露目生配信"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-09-01"
+  event_end: "2026-09-01"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-29"
+  source: "アイドルマスター公式ポータル news/01_19734／4Gamer／伊能幸輝さん公式X"
+  facts: |
+    経緯: 8月18日に村瀬歩さんの姫野かのん役卒業が発表され、8月28日に後任オーディションの結果として新人声優・伊能幸輝さんへの交代が発表された
+    伊能幸輝さんの経歴: 『パズドラ』ミズー星人役、『ひらけ！みらいのとびら～未来へつながる特別な場所～』チコリン役など
+    お披露目特別生配信: 9月1日（火）19:00〜、YouTube・ニコニコ生放送
+    出演: 矢野奨吾さん（岡村直央役）・古畑恵介さん（橘志狼役）（もふもふえん既存キャスト）、仲村宗悟さん（天道輝役）・狩野翔さん（神谷幸広役）、伊能幸輝さん、コンテンツプロデューサー石澤雪枝氏
+    配信内容: 姫野かのんの今後のボイススケジュール発表、イベント「315 Production presents F@NTASTIC BATTLE FES ～Wanna step in～」最新情報
+    既存音声の差し替え: 現時点で予定なし
+  publish_plan:
+    - on: "2026-08-31"
+      angle: "明日お披露目配信予告"
+    - on: "2026-09-01"
+      angle: "本日お披露目配信"
+  used_in:
+    - sidem-himeno-kanon-new-cast  # 8/29配信「新キャスト伊能幸輝さんに決定・9/1お披露目配信」
+  notes: "新キャスト決定自体は8/29配信で記事化済み。9/1お披露目配信当日の内容（新規ボイス初披露の有無等）は続報待ち。"
+
+- id: sogo-imasradio-launch
+  title: "新ラジオ番組「IM@S RADIO」放送開始"
+  brand: sogo
+  kind: 公式
+  event_start: "2026-09-15"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-29"
+  source: "ファミ通 article/202608/85942"
+  facts: |
+    番組名: IM@S RADIO（アイドルマスターチャンネル）
+    初回配信: 2026年9月15日（火）20:00〜
+    パーソナリティ: 平田宏美さん（菊地真役）、若林直美さん（秋月律子役）
+    配信頻度: 以降隔週火曜日配信予定
+    内容: 各回でシリーズ各ブランドの出演キャストをゲストに招く。メンバーシップ限定アフタートークも実施予定
+    発表: 765プロ「dual twin live tour」東京公演後（8月28日）に発表
+  publish_plan:
+    - on: "2026-09-14"
+      angle: "明日初回配信予告"
+    - on: "2026-09-15"
+      angle: "本日初回配信・ゲスト判明"
+  used_in:
+    - sogo-imasradio-announce  # 8/29配信「9月15日スタート決定」
+  notes: "初回ゲスト・具体的なコーナー内容は続報待ち、要追検証。"
+
+- id: gaku-chugai-cafe-revival
+  title: "「学園アイドルマスター」× Chugai Grace Café リバイバル（渋谷モディ）"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-09-03"
+  event_end: "2026-09-27"
+  status: pending
+  confidence: confirmed
+  added: "2026-08-29"
+  source: "アイドルマスター公式ポータル news/01_19534（2026年8月8日発表）／Chugai Grace Cafe公式サイト（chugai-grace-cafe.jp/collaboration/gakuen_idolmaster_revival_shibuya/）"
+  facts: |
+    名称: 「学園アイドルマスター」× Chugai Grace Café リバイバル
+    開催期間: 2026年9月3日（木）〜9月27日（日）
+    会場: Chugai Grace Café 渋谷モディ店（7F）
+    位置づけ: 2026年1月開催コラボカフェのリバイバル開催
+    コラボメニュー: 描き下ろしイラストの衣装と連動したメニュー。前半（9/3〜14）注文特典クリアしおり、後半（9/15〜27）はスタンディコースター
+    新作グッズ: アクリルコレクションスタンド スイーツver.、ハート型キャンディー付きキーホルダー スイーツver.、クリアうちわ スイーツver.（購入3,000円ごとに前半デスクカード・後半ポイントカード風イラスト特典）
+  publish_plan:
+    - on: "2026-09-02"
+      angle: "明日開幕予告"
+    - on: "2026-09-03"
+      angle: "本日開幕"
+    - on: "2026-09-27"
+      angle: "本日最終日"
+  used_in:
+    - gaku-chugai-grace-cafe-revival  # 8/8配信「9月3日からリバイバル開催」（発表時点の記事、既存）
+  notes: "発表自体は8/8に既存記事で記事化済み（gaku-chugai-grace-cafe-revival）。8/29時点では開幕前continuity記事化を見送り、ストックのみ更新。開幕直前に改めて追検証のうえ記事化する。"
