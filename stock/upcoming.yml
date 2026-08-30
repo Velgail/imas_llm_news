@@ -15,7 +15,7 @@
   facts: |
     内容: 「シンデレラガールズ スターライトステージ 10th ANNIVERSARY TOUR Let's AMUSEMENT!!!」沖縄・福岡公演を収録したBlu-ray BOX（8枚組・44,900円、フォトブック4冊付属）
     発売日: 2026年9月2日
-    特典映像: メイキング、マルチアングル映像、ドキュメンタリー「The Clock of the Cinderella」（沖縄公演は沖依子、福岡公演は鈴木絵理に焦点）、キャスト衣装紹介映像「CINDERELLA GIRLS COLLECTION」
+    特典映像: メイキング、マルチアングル映像、ドキュメンタリー「The Clock of the Cinderella」（沖縄公演は大木咲絵子、福岡公演は鈴木絵理に焦点）、キャスト衣装紹介映像「CINDERELLA GIRLS COLLECTION」
     販促PV: 沖縄公演PV第1弾・第2弾（7/31プレミア公開）、福岡公演PV第1弾・第2弾（8/29プレミア公開）を順次YouTube公開
   publish_plan:
     - on: "2026-09-02"
@@ -488,8 +488,7 @@
     - ml-machida-art-rally-honpen-today  # 7/30配信「本日本編開幕」
     - ml-machida-art-rally-craft-sns-end  # 8/3配信「工芸作品拡散企画、昨日8/2終了」
     - ml-machida-art-rally-final  # 8/30配信「本日最終日」
-  status: done
-  notes: "詳細コース・参加スポット・グッズ等は7月に入ってから要確認。アートラリー本編（7/30〜8/30）とは別に、マンホール設置を記念した喫茶けやきのコラボドリンク販売・工芸作品拡散企画が7/14先行開始。工芸作品拡散企画は8/2で終了済み（記事化済み）。喫茶けやきのドリンク販売は8/30まで継続。喫茶けやきは通常月曜定休のため、7/20（海の日）はコラボ期間中唯一営業する月曜日となり盛況。全publish_plan消化済み（8/30最終日で完全消化）。"
+  notes: "詳細コース・参加スポット・グッズ等は7月に入ってから要確認。アートラリー本編（7/30〜8/30）とは別に、マンホール設置を記念した喫茶けやきのコラボドリンク販売・工芸作品拡散企画が7/14先行開始。工芸作品拡散企画は8/2で終了済み（記事化済み）。喫茶けやきのドリンク販売は8/30まで継続。喫茶けやきは通常月曜定休のため、7/20（海の日）はコラボ期間中唯一営業する月曜日となり盛況。本日最終日（8/30）を記事化済み。8/31の閉幕レポが未消化のためstatusはpartially-usedのまま。"
 
 - id: cg-onestep-yogurt-collab
   title: "ワンステップス×「& Yogurt」コラボ"
@@ -831,7 +830,7 @@
   kind: 公式
   event_start: "2026-07-14"
   event_end: "2026-08-30"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-07-06"
   source: "アイドルマスター公式ポータル news/01_19269 / カラオケまねきねこコラボ特設サイト（2026年7月）"
@@ -851,7 +850,6 @@
     - sc-maneki-neko-tomorrow  # 7/13配信「明日開催予告」
     - sc-maneki-neko-today  # 7/14配信「本日13:00開催」
     - sc-maneki-neko-final  # 8/30配信「本日最終日」
-  status: done
   notes: "開始時刻13:00判明。詳細メニュー・グッズラインナップは未取得のまま。全publish_plan消化済み（8/30最終日で完全消化）。"
 
 - id: sc-283pro-solo-live-msp
@@ -1471,7 +1469,7 @@
   kind: 公式
   event_start: "2026-06-26"
   event_end: "2026-08-30"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-08-16"
   source: "アイドルマスター公式ポータル news/01_19054／ファミ通"
@@ -1486,7 +1484,6 @@
   used_in:
     - sc-admiral-sneaker-popup-namba  # 8/16配信「なんばマルイで開催中」
     - sc-admiral-sneaker-namba-final  # 8/30配信「本日最終日」
-  status: done
   notes: "全publish_plan消化済み（8/30なんばマルイ会場最終日・受注販売終了で完全消化）。"
 
 - id: gaku-housoubu-0826
@@ -1728,11 +1725,6 @@
   confidence: confirmed
   added: "2026-08-27"
   source: "アイドルマスター公式ポータル news/01_19509、news/01_19700"
-  facts: |
-    2026年サマーシャニソン楽曲「泡沫に染まる」: 2026年9月6日より配信開始
-    アルバム「HOPEFUL FE@THERS」: 多数のアイドルのソロ曲28曲収録、2026年9月16日発売
-    発表元: 8月25日19時放送のニコニコ生放送「シャニマス生配信 ～8月も意外と暑い～ズSP～」（出演: 峯田茉優〈八宮めぐる役〉・前川涼子〈大崎甜花役〉）
-    POP UP SHOP「パラレル回廊」（同放送で発表）: 2026年9月20日（日）〜27日（日）、秋葉原UDX（4Fギャラリー）で開催。テーマはガシャシリーズ「パラレルコレクション」（アイドルたちの「もしもの未来」を描く）。描き下ろしイラスト使用の新商品、パラレルコレクション関連イラストグッズ、制作コメント・ラフ画の一部展示を予定（8/29配信で詳細記事化済み、商品ラインナップ・対象アイドルは続報待ち）
   publish_plan:
     - on: "2026-09-06"
       angle: "本日「泡沫に染まる」配信開始"
