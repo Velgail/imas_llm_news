@@ -435,7 +435,9 @@
     - ml-machida-art-rally-tomorrow  # 7/29配信「明日本編開幕予告」
     - ml-machida-art-rally-honpen-today  # 7/30配信「本日本編開幕」
     - ml-machida-art-rally-craft-sns-end  # 8/3配信「工芸作品拡散企画、昨日8/2終了」
-  notes: "詳細コース・参加スポット・グッズ等は7月に入ってから要確認。アートラリー本編（7/30〜8/30）とは別に、マンホール設置を記念した喫茶けやきのコラボドリンク販売・工芸作品拡散企画が7/14先行開始。工芸作品拡散企画は8/2で終了済み（記事化済み）。喫茶けやきのドリンク販売は8/30まで継続。喫茶けやきは通常月曜定休のため、7/20（海の日）はコラボ期間中唯一営業する月曜日となり盛況。本編開幕（7/30）は記事化済み。8/30最終日・8/31閉幕レポが未消化。"
+    - ml-machida-art-rally-final  # 8/30配信「本日最終日」
+  status: done
+  notes: "詳細コース・参加スポット・グッズ等は7月に入ってから要確認。アートラリー本編（7/30〜8/30）とは別に、マンホール設置を記念した喫茶けやきのコラボドリンク販売・工芸作品拡散企画が7/14先行開始。工芸作品拡散企画は8/2で終了済み（記事化済み）。喫茶けやきのドリンク販売は8/30まで継続。喫茶けやきは通常月曜定休のため、7/20（海の日）はコラボ期間中唯一営業する月曜日となり盛況。全publish_plan消化済み（8/30最終日で完全消化）。"
 
 - id: cg-onestep-yogurt-collab
   title: "ワンステップス×「& Yogurt」コラボ"
@@ -796,7 +798,9 @@
     - sc-maneki-neko-collab  # 7/6配信「7/14よりコラボ開催決定」
     - sc-maneki-neko-tomorrow  # 7/13配信「明日開催予告」
     - sc-maneki-neko-today  # 7/14配信「本日13:00開催」
-  notes: "開始時刻13:00判明。詳細メニュー・グッズラインナップは開催が近づいてから要追検証。8/30最終日の記事化が未消化。"
+    - sc-maneki-neko-final  # 8/30配信「本日最終日」
+  status: done
+  notes: "開始時刻13:00判明。詳細メニュー・グッズラインナップは未取得のまま。全publish_plan消化済み（8/30最終日で完全消化）。"
 
 - id: sc-283pro-solo-live-msp
   title: "283 PRODUCTION Solo Live Collection -Master ShowPiece-"
@@ -1429,7 +1433,9 @@
       angle: "本日なんばマルイ店最終日・受注販売終了"
   used_in:
     - sc-admiral-sneaker-popup-namba  # 8/16配信「なんばマルイで開催中」
-  notes: "なんばマルイ会場の最終日（8/30）が未消化。"
+    - sc-admiral-sneaker-namba-final  # 8/30配信「本日最終日」
+  status: done
+  notes: "全publish_plan消化済み（8/30なんばマルイ会場最終日・受注販売終了で完全消化）。"
 
 - id: gaku-housoubu-0826
   title: "初星学園放送部（第◯回・小鹿なおゲスト回）"
