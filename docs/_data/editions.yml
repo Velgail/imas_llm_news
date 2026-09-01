@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-09-01"
+  dateLong: "2026年（令和8年）9月1日　火曜日"
+  pages: "全 7 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "SideM姫野かのん、新キャスト伊能幸輝さんが本日19時お披露目"
+  indexNote: "シャニソンに「FELICE」実装、デレステ10thツアーBlu-rayは明日発売。"
 - date: "2026-08-31"
   dateLong: "2026年（令和8年）8月31日　月曜日"
   pages: "全 10 面"
