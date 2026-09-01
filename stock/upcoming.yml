@@ -23,6 +23,7 @@
   used_in:
     - cg-cinderella-okinawa-pv2  # 8/1配信「沖縄公演PV第2弾、昨日プレミア公開」
     - cg-cinderella-fukuoka-pv2  # 8/30配信「福岡公演PV第2弾、昨日プレミア公開・ドキュメンタリー詳細判明」
+    - cg-10th-tour-bluray-tomorrow  # 9/1配信「明日9/2発売予告」
   notes: "大阪・東京公演のPVも別途公開済み（YouTube）。本日発売（9/2）が未消化。"
 
 - id: cg-yamanashi-walkwander
@@ -628,12 +629,13 @@
     - sidem-royal-chess-lounge-tomorrow  # 8/18配信「明日名古屋栄店開幕予告」
     - sidem-royal-chess-lounge-today  # 8/19配信「本日名古屋栄店開幕」
     - sidem-royal-chess-lounge-menu-reveal  # 8/25配信「名古屋栄店、コラボメニュー・グッズ詳細判明」
+    - sidem-royal-chess-lounge-nagoya-final  # 9/1配信「名古屋栄店、本日最終日」
   facts: |
     名称: THE IDOLM@STER SideM「Royal Chess Lounge」
     会場・会期: 名古屋栄店 2026年8月19日(水)〜9月1日(火)／心斎橋店 9月12日(土)〜9月24日(木)／池袋店 10月8日(木)〜10月20日(火)
     3会場を順に巡回する形式のコラボカフェ企画
     コラボメニュー・グッズ（8/25判明）: チェス駒モチーフのフード・ドリンクメニュー、来店特典ランダムコースター（全12種）、物販はアクリルスタンド・アクリルコースター・ミニ色紙等
-  notes: "出演アイドルの詳細は開催が近づいてから公式サイト（smilebase.co.jp）で要追検証。コラボメニュー・グッズ詳細判明（8/25配信）。名古屋栄店最終日（9/1）以降が未消化。"
+  notes: "出演アイドルの詳細は開催が近づいてから公式サイト（smilebase.co.jp）で要追検証。コラボメニュー・グッズ詳細判明（8/25配信）。名古屋栄店最終日（9/1配信で記事化済み）。心斎橋店開幕予告（9/11）以降が未消化。"
 
 - id: gaku-shikaoi-manhole-kuramoto-china
   title: "北海道鹿追町「ふたマス!!!!!!」倉本千奈マンホール設置"
@@ -1597,7 +1599,8 @@
       angle: "本日生配信・新シリーズ発表"
   used_in:
     - ml-mirishita-extreme-preview  # 8/23配信「9月2日19時に決定」
-  notes: "新シリーズの具体的な内容は9/2配信を待って要追検証。"
+    - ml-mirishita-extreme-tomorrow  # 9/1配信「明日9/2 19時生配信予告」
+  notes: "新シリーズの具体的な内容は9/2配信を待って要追検証。明日9/2生配信予告は9/1配信で記事化済み、本日生配信・新シリーズ発表（9/2）が未消化。"
 
 - id: cg-kotobukiya-magicalcheers-popup
   title: "シンデレラガールズ×寿屋 POP UP SHOP「A MAGICAL CHEERS」"
@@ -1750,7 +1753,7 @@
   kind: 公式
   event_start: "2026-09-01"
   event_end: "2026-09-01"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-08-29"
   source: "アイドルマスター公式ポータル news/01_19734／4Gamer／伊能幸輝さん公式X"
@@ -1769,7 +1772,8 @@
   used_in:
     - sidem-himeno-kanon-new-cast  # 8/29配信「新キャスト伊能幸輝さんに決定・9/1お披露目配信」
     - sidem-himeno-kanon-newcast-tomorrow  # 8/31配信「明日19時からお披露目配信」
-  notes: "新キャスト決定自体は8/29配信、明日お披露目配信予告は8/31配信で記事化済み。9/1お披露目配信当日の内容（新規ボイス初披露の有無等）が未消化。"
+    - sidem-himeno-kanon-newcast-reveal  # 9/1配信「本日19時お披露目生配信」
+  notes: "新キャスト決定自体は8/29配信、明日お披露目配信予告は8/31配信、本日お披露目配信は9/1配信で記事化済み。全publish_plan消化済み。配信内容（新規ボイス初披露の有無、F@NTASTIC BATTLE FES最新情報等）は放送後に判明次第、新規エントリとして追記する。"
 
 - id: sogo-imasradio-launch
   title: "新ラジオ番組「IM@S RADIO」放送開始"
