@@ -2,7 +2,7 @@
 - rank: 1
   name: "姫野かのん"
   brand: sidem
-  move: up
+  move: same
 - rank: 2
   name: "松本沙理奈"
   brand: cg
@@ -22,7 +22,7 @@
 - rank: 6
   name: "鈴木絵理"
   brand: cg
-  move: down
+  move: new
 - rank: 7
   name: "山下次郎"
   brand: sidem
