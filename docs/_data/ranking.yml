@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-09-01 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-09-02 集計
 - rank: 1
   name: "姫野かのん"
   brand: sidem
   move: same
 - rank: 2
-  name: "松本沙理奈"
+  name: "双葉杏"
   brand: cg
   move: new
 - rank: 3
-  name: "諸星きらり"
-  brand: cg
+  name: "豊川風花"
+  brand: ml
   move: new
 - rank: 4
-  name: "真乃"
-  brand: sc
-  move: new
-- rank: 5
   name: "大木咲絵子"
   brand: cg
-  move: new
-- rank: 6
+  move: up
+- rank: 5
   name: "鈴木絵理"
   brand: cg
+  move: same
+- rank: 6
+  name: "岡村直央"
+  brand: sidem
   move: new
 - rank: 7
-  name: "山下次郎"
+  name: "橘志狼"
   brand: sidem
   move: new
 - rank: 8
-  name: "若林智香"
-  brand: cg
+  name: "山下次郎"
+  brand: sidem
   move: down

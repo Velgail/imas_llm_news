@@ -2,13 +2,113 @@
 # event_start 昇順（直近が先頭）。配信日に該当する予定があれば取り出して記事化する。
 #
 
+- id: sidem-seibuen-retrose-party
+  title: "SideM×西武園ゆうえんち「超!!レトローズパーティ」"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-10-30"
+  event_end: "2026-12-01"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-09-02"
+  source: "西武園ゆうえんち公式／横浜八景島プレスリリース（PR TIMES, prtimes.jp/main/html/rd/p/000000975.000011571.html、2026年9月1日20:10発表）"
+  facts: |
+    名称: アイドルマスター SideM 超!!レトローズパーティ
+    会場: 西武園ゆうえんち（埼玉県所沢市）
+    開催期間: 2026年10月30日（金）〜12月1日（火）
+    出演: SideM49人の男性アイドル（秋バラを手に来場者を出迎える演出）
+    声優トークショー: 10月31日・11月1日・11月22日 18:00〜19:00
+    チケット: イベント参加1日券10,000円（入園・アトラクション乗り放題・イベント参加込み）
+    連動企画: 東京ジョイポリスとの周遊スタンプラリー、達成者にA5サイズイラストカード進呈
+  publish_plan:
+    - on: "2026-10-29"
+      angle: "明日開幕予告"
+    - on: "2026-10-30"
+      angle: "本日開幕"
+    - on: "2026-10-31"
+      angle: "本日トークショー初日"
+    - on: "2026-12-01"
+      angle: "本日最終日"
+  used_in:
+    - sidem-seibuen-retrose-party  # 9/2配信「昨日新発表」
+  notes: "トークショー出演声優・グッズ詳細は続報待ち、要追検証。"
+
+- id: gaku-ichibankuji-part6
+  title: "一番くじ 学園アイドルマスター Part6"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-09-19"
+  event_end: "2026-09-19"
+  status: pending
+  confidence: confirmed
+  added: "2026-09-02"
+  source: "アイドルマスター公式ポータル news/01_19668"
+  facts: |
+    内容: 一番くじ「学園アイドルマスター Part6」。有村麻央・倉本千奈・篠澤広の1/7フィギュア（「Gracemaster」シリーズ）を含む全13アイドル分のグッズ、Kiraraizuマスコット等
+    価格: 1回850円
+    店頭販売開始: 2026年9月19日（土）
+    オンライン販売開始: 2026年9月24日（木）17:00
+  publish_plan:
+    - on: "2026-09-18"
+      angle: "明日店頭発売予告"
+    - on: "2026-09-19"
+      angle: "本日店頭発売開始"
+    - on: "2026-09-24"
+      angle: "本日オンライン販売開始"
+  used_in: []
+  notes: "くじ自体の企画発表は2026年4月時点で既出の可能性あり、販売チャネル・日程の詳細が9月に入り判明。"
+
+- id: sc-283-solo-live-collection
+  title: "283 PRODUCTION Solo Live Collection ーMaster ShowPieceー"
+  brand: sc
+  kind: 公式
+  event_start: "2026-09-26"
+  event_end: "2026-09-27"
+  status: pending
+  confidence: unconfirmed
+  added: "2026-09-02"
+  source: "アイドルマスター公式ポータル news/01_18438（要再確認）"
+  facts: |
+    名称: 283 PRODUCTION Solo Live Collection ーMaster ShowPieceー
+    会場: 京王アリーナTOKYO
+    日程: 2026年9月26日（土）・27日（日）
+    背景: シャニマス8周年テーマ「l∞ve」に関連するソロ楽曲中心のライブと見られる
+  publish_plan:
+    - on: "2026-09-25"
+      angle: "明日開幕予告"
+    - on: "2026-09-26"
+      angle: "本日開幕・DAY1"
+    - on: "2026-09-27"
+      angle: "本日千秋楽"
+  used_in: []
+  notes: "日程・会場の確度が要再確認（confidence: unconfirmed）。出演者・チケット情報も含め記事化前に公式サイトで再検証すること。"
+
+- id: other-tours-s1ex
+  title: "アイドルマスター TOURS「S1弾Ex」アップデート"
+  brand: other
+  kind: 公式
+  status: watching
+  confidence: unconfirmed
+  added: "2026-09-02"
+  source: "TOURS公式ティザーPV（YouTube）／アイドルマスター公式ポータル news/01_19544"
+  facts: |
+    内容: アーケード「アイドルマスター TOURS」（765プロ・シンデレラガールズ・ミリオンライブ・学園アイドルマスター等ブランド横断キャスト）の新弾アップデート「S1弾Ex」
+    追加キャラクター: 諏訪部ももこ（ミリオンライブ）
+    新曲追加も予告
+    具体的な実装日は未確定（9月中の見込みとティザーで示唆）
+  publish_plan:
+    - on: "実装日確定後（未定）"
+      angle: "実装日判明・詳細発表"
+  used_in: []
+  notes: "具体的な実装日が判明次第、publish_planを更新して記事化する。"
+
 - id: cg-10th-tour-bluray
   title: "デレステ10th ANNIVERSARY TOUR Let's AMUSEMENT!!! Blu-ray BOX"
   brand: cg
   kind: 公式
   event_start: "2026-09-02"
   event_end: "2026-09-02"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-08-30"
   source: "日本コロムビア公式サイト（columbia.jp/idolmaster/imasnews/260828.html）"
@@ -24,7 +124,8 @@
     - cg-cinderella-okinawa-pv2  # 8/1配信「沖縄公演PV第2弾、昨日プレミア公開」
     - cg-cinderella-fukuoka-pv2  # 8/30配信「福岡公演PV第2弾、昨日プレミア公開・ドキュメンタリー詳細判明」
     - cg-10th-tour-bluray-tomorrow  # 9/1配信「明日9/2発売予告」
-  notes: "大阪・東京公演のPVも別途公開済み（YouTube）。本日発売（9/2）が未消化。"
+    - cg-10th-tour-bluray-release  # 9/2配信「本日発売」
+  notes: "全publish_plan消化済み。沖縄・福岡・大阪・東京の全4公演のBlu-ray BOXが出そろった。"
 
 - id: cg-yamanashi-walkwander
   title: "シンデレラガールズ×山梨「やまなし WALK & WANDER」"
@@ -1267,12 +1368,14 @@
   status: partially-used
   confidence: confirmed
   added: "2026-08-08"
-  source: "アイドルマスター公式ポータル news/01_19534（2026年8月7日12:05公開）"
+  source: "アイドルマスター公式ポータル news/01_19534（2026年8月7日12:05公開）／Chugai Grace Cafe公式サイト（chugai-grace-cafe.jp/collaboration/gakuen_idolmaster_revival_shibuya/）"
   facts: |
-    会場: Chugai Grace Café 渋谷モディ店
+    会場: Chugai Grace Café 渋谷モディ店（7F）
     開催期間: 2026年9月3日(木)〜9月27日(日)
     背景: 2026年1月開催コラボカフェのリバイバル
     内容: 前回メニューに加え新規コラボメニュー・注文特典、グッズは再販に加え新商品3種（アクリルコレクションスタンド・ハート型キャンディー付きキーホルダー・クリアうちわ、いずれもスイーツver.）
+    コラボメニュー詳細: 描き下ろしイラストの衣装と連動したメニュー。前半（9/3〜14）注文特典クリアしおり、後半（9/15〜27）はスタンディコースター
+    新作グッズ詳細: 購入3,000円ごとに前半デスクカード・後半ポイントカード風イラスト特典
   publish_plan:
     - on: "2026-09-02"
       angle: "明日開幕予告"
@@ -1282,7 +1385,8 @@
       angle: "本日最終日"
   used_in:
     - gaku-chugai-grace-cafe-revival  # 8/8配信「新発表」
-  notes: "新メニューの詳細は後日公開予定、要追検証。"
+    - gaku-chugai-cafe-tomorrow  # 9/2配信「明日9/3開幕予告」
+  notes: "重複していたstockエントリ（gaku-chugai-cafe-revival, added 8/29）を本エントリに統合（2026-09-02）。開幕当日・最終日の記事化が未消化。"
 
 - id: ml-operaseria-popup
   title: "ミリオンライブ POP UP SHOP「オペラセリア」（コトブキヤ秋葉原館）"
@@ -1764,6 +1868,7 @@
     出演: 矢野奨吾さん（岡村直央役）・古畑恵介さん（橘志狼役）（もふもふえん既存キャスト）、仲村宗悟さん（天道輝役）・狩野翔さん（神谷幸広役）、伊能幸輝さん、コンテンツプロデューサー石澤雪枝氏
     配信内容: 姫野かのんの今後のボイススケジュール発表、イベント「315 Production presents F@NTASTIC BATTLE FES ～Wanna step in～」最新情報
     既存音声の差し替え: 現時点で予定なし
+    【配信実施後判明・9/2追記】発表内容: 姫野かのんの今後のボイス収録スケジュール案内、「315 Production presents F@NTASTIC BATTLE FES ～Wanna step in～」（12/26-27ホクト文化ホール、'27/1/23-24幕張イベントホール）最新情報、SideM 11th STAGE「～EVER EVER＠FTER～」（9/12-13 TOYOTA ARENA TOKYO）のテーマが「語り継がれる物語」と発表されCDシリーズ「TRANSCENDENT T@LES」を軸にした315プロの物語を紹介、会場では同テーマのフード・ドリンク展開を告知。フレグランスブランドAnidealとのコラボ（THE虎牙道・F-LAGS等イメージ香水、11th STAGE会場に試香スペース設置）も発表。SNSでは「かのんくん」がトレンド1位となり、伊能さんには「異能バトルくん」の愛称が定着。
   publish_plan:
     - on: "2026-08-31"
       angle: "明日お披露目配信予告"
@@ -1773,7 +1878,8 @@
     - sidem-himeno-kanon-new-cast  # 8/29配信「新キャスト伊能幸輝さんに決定・9/1お披露目配信」
     - sidem-himeno-kanon-newcast-tomorrow  # 8/31配信「明日19時からお披露目配信」
     - sidem-himeno-kanon-newcast-reveal  # 9/1配信「本日19時お披露目生配信」
-  notes: "新キャスト決定自体は8/29配信、明日お披露目配信予告は8/31配信、本日お披露目配信は9/1配信で記事化済み。全publish_plan消化済み。配信内容（新規ボイス初披露の有無、F@NTASTIC BATTLE FES最新情報等）は放送後に判明次第、新規エントリとして追記する。"
+    - sidem-himeno-kanon-newcast-report  # 9/2配信「昨日のお披露目生配信で判明した新情報まとめ」
+  notes: "新キャスト決定自体は8/29配信、明日お披露目配信予告は8/31配信、本日お披露目配信は9/1配信、配信内容の詳細は9/2配信で記事化済み。全publish_plan消化済み。"
 
 - id: sogo-imasradio-launch
   title: "新ラジオ番組「IM@S RADIO」放送開始"
@@ -1799,31 +1905,3 @@
   used_in:
     - sogo-imasradio-announce  # 8/29配信「9月15日スタート決定」
   notes: "初回ゲスト・具体的なコーナー内容は続報待ち、要追検証。"
-
-- id: gaku-chugai-cafe-revival
-  title: "「学園アイドルマスター」× Chugai Grace Café リバイバル（渋谷モディ）"
-  brand: gaku
-  kind: 公式
-  event_start: "2026-09-03"
-  event_end: "2026-09-27"
-  status: pending
-  confidence: confirmed
-  added: "2026-08-29"
-  source: "アイドルマスター公式ポータル news/01_19534（2026年8月8日発表）／Chugai Grace Cafe公式サイト（chugai-grace-cafe.jp/collaboration/gakuen_idolmaster_revival_shibuya/）"
-  facts: |
-    名称: 「学園アイドルマスター」× Chugai Grace Café リバイバル
-    開催期間: 2026年9月3日（木）〜9月27日（日）
-    会場: Chugai Grace Café 渋谷モディ店（7F）
-    位置づけ: 2026年1月開催コラボカフェのリバイバル開催
-    コラボメニュー: 描き下ろしイラストの衣装と連動したメニュー。前半（9/3〜14）注文特典クリアしおり、後半（9/15〜27）はスタンディコースター
-    新作グッズ: アクリルコレクションスタンド スイーツver.、ハート型キャンディー付きキーホルダー スイーツver.、クリアうちわ スイーツver.（購入3,000円ごとに前半デスクカード・後半ポイントカード風イラスト特典）
-  publish_plan:
-    - on: "2026-09-02"
-      angle: "明日開幕予告"
-    - on: "2026-09-03"
-      angle: "本日開幕"
-    - on: "2026-09-27"
-      angle: "本日最終日"
-  used_in:
-    - gaku-chugai-grace-cafe-revival  # 8/8配信「9月3日からリバイバル開催」（発表時点の記事、既存）
-  notes: "発表自体は8/8に既存記事で記事化済み（gaku-chugai-grace-cafe-revival）。8/29時点では開幕前continuity記事化を見送り、ストックのみ更新。開幕直前に改めて追検証のうえ記事化する。"
