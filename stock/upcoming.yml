@@ -58,31 +58,6 @@
   used_in: []
   notes: "くじ自体の企画発表は2026年4月時点で既出の可能性あり、販売チャネル・日程の詳細が9月に入り判明。"
 
-- id: sc-283-solo-live-collection
-  title: "283 PRODUCTION Solo Live Collection ーMaster ShowPieceー"
-  brand: sc
-  kind: 公式
-  event_start: "2026-09-26"
-  event_end: "2026-09-27"
-  status: pending
-  confidence: unconfirmed
-  added: "2026-09-02"
-  source: "アイドルマスター公式ポータル news/01_18438（要再確認）"
-  facts: |
-    名称: 283 PRODUCTION Solo Live Collection ーMaster ShowPieceー
-    会場: 京王アリーナTOKYO
-    日程: 2026年9月26日（土）・27日（日）
-    背景: シャニマス8周年テーマ「l∞ve」に関連するソロ楽曲中心のライブと見られる
-  publish_plan:
-    - on: "2026-09-25"
-      angle: "明日開幕予告"
-    - on: "2026-09-26"
-      angle: "本日開幕・DAY1"
-    - on: "2026-09-27"
-      angle: "本日千秋楽"
-  used_in: []
-  notes: "日程・会場の確度が要再確認（confidence: unconfirmed）。出演者・チケット情報も含め記事化前に公式サイトで再検証すること。"
-
 - id: other-tours-s1ex
   title: "アイドルマスター TOURS「S1弾Ex」アップデート"
   brand: other
@@ -101,31 +76,6 @@
       angle: "実装日判明・詳細発表"
   used_in: []
   notes: "具体的な実装日が判明次第、publish_planを更新して記事化する。"
-
-- id: cg-10th-tour-bluray
-  title: "デレステ10th ANNIVERSARY TOUR Let's AMUSEMENT!!! Blu-ray BOX"
-  brand: cg
-  kind: 公式
-  event_start: "2026-09-02"
-  event_end: "2026-09-02"
-  status: done
-  confidence: confirmed
-  added: "2026-08-30"
-  source: "日本コロムビア公式サイト（columbia.jp/idolmaster/imasnews/260828.html）"
-  facts: |
-    内容: 「シンデレラガールズ スターライトステージ 10th ANNIVERSARY TOUR Let's AMUSEMENT!!!」沖縄・福岡公演を収録したBlu-ray BOX（8枚組・44,900円、フォトブック4冊付属）
-    発売日: 2026年9月2日
-    特典映像: メイキング、マルチアングル映像、ドキュメンタリー「The Clock of the Cinderella」（沖縄公演は大木咲絵子、福岡公演は鈴木絵理に焦点）、キャスト衣装紹介映像「CINDERELLA GIRLS COLLECTION」
-    販促PV: 沖縄公演PV第1弾・第2弾（7/31プレミア公開）、福岡公演PV第1弾・第2弾（8/29プレミア公開）を順次YouTube公開
-  publish_plan:
-    - on: "2026-09-02"
-      angle: "本日発売"
-  used_in:
-    - cg-cinderella-okinawa-pv2  # 8/1配信「沖縄公演PV第2弾、昨日プレミア公開」
-    - cg-cinderella-fukuoka-pv2  # 8/30配信「福岡公演PV第2弾、昨日プレミア公開・ドキュメンタリー詳細判明」
-    - cg-10th-tour-bluray-tomorrow  # 9/1配信「明日9/2発売予告」
-    - cg-10th-tour-bluray-release  # 9/2配信「本日発売」
-  notes: "全publish_plan消化済み。沖縄・福岡・大阪・東京の全4公演のBlu-ray BOXが出そろった。"
 
 - id: cg-yamanashi-walkwander
   title: "シンデレラガールズ×山梨「やまなし WALK & WANDER」"
@@ -209,28 +159,6 @@
   used_in:
     - sc-futamasu-fukuroi-arisugawa  # 8/24配信「新パートナー決定」
   notes: "設置お披露目の具体的日程は続報待ち、要追検証。"
-
-- id: cg-anideal-shampoo
-  title: "一ノ瀬志希・宮本フレデリカ プロデュース Anidealシャンプー＆ボディソープセット"
-  brand: cg
-  kind: 公式
-  event_start: "2026-07-30"
-  event_end: "2026-08-28"
-  status: done
-  confidence: confirmed
-  added: "2026-07-31"
-  source: "アイドルマスター公式ポータル news/01_19463"
-  facts: |
-    内容: 2in1シャンプー＆ボディソープ（一ノ瀬志希「アヤしい薔薇の香り」・宮本フレデリカ「き・ま・ぐ・れ☆フルーツの香り」）、描き下ろしタオル付き。アクリルスタンド・缶バッジも同時発売
-    受注期間: 2026年7月30日12:00〜8月28日14:59
-    お届け: 12月中旬以降予定
-  publish_plan:
-    - on: "2026-08-28"
-      angle: "本日受注最終日"
-  used_in:
-    - cg-anideal-shampoo  # 7/31配信「昨日より受注開始」
-    - cg-anideal-shampoo-deadline  # 8/28配信「本日受注最終日」
-  notes: "全publish_plan消化済み。"
 
 - id: cg-genka-youen-ichi
   title: "シンデレラガールズ POP UP SHOP「幻夏妖宴市」（百鬼夜行テーマ）"
@@ -738,36 +666,6 @@
     コラボメニュー・グッズ（8/25判明）: チェス駒モチーフのフード・ドリンクメニュー、来店特典ランダムコースター（全12種）、物販はアクリルスタンド・アクリルコースター・ミニ色紙等
   notes: "出演アイドルの詳細は開催が近づいてから公式サイト（smilebase.co.jp）で要追検証。コラボメニュー・グッズ詳細判明（8/25配信）。名古屋栄店最終日（9/1配信で記事化済み）。心斎橋店開幕予告（9/11）以降が未消化。"
 
-- id: gaku-shikaoi-manhole-kuramoto-china
-  title: "北海道鹿追町「ふたマス!!!!!!」倉本千奈マンホール設置"
-  brand: gaku
-  kind: 公式
-  event_start: "2026-08-23"
-  event_end: "2026-08-23"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-07-03"
-  source: "アイドルマスター公式ポータル news/01_19128（2026年6月30日）"
-  facts: |
-    プロジェクト名: ふたマス!!!!!!（アイマス20周年記念マンホール企画）
-    担当地域: 北海道河東郡鹿追町
-    担当アイドル: 倉本千奈（学園アイドルマスター）
-    デザイン: 然別湖の湖底線路・ピカ（エゾナキウサギ）・ミヤベイワナ
-    設置日: 8月23日（日）11:00〜
-    お披露目会場: 道の駅しかおい 特設デッキ
-  publish_plan:
-    - on: "2026-08-22"
-      angle: "明日設置お披露目予告"
-    - on: "2026-08-23"
-      angle: "本日設置お披露目"
-  used_in:
-    - gaku-shikaoi-manhole-kuramoto-china  # 7/3配信「担当決定」
-    - gaku-shikaoi-manhole-tomorrow  # 8/22配信「明日設置お披露目予告」
-    - gaku-shikaoi-manhole-today  # 8/23配信「本日設置お披露目」
-    - gaku-shikaoi-manhole-report  # 8/24配信「昨日お披露目・てくてくマルシェで賑わう（閉幕レポ）」
-  status: done
-  notes: "他自治体の「ふたマス」進捗も随時要確認。全publish_plan消化済み（閉幕レポ8/24で完全消化）。静岡県袋井市（担当：有栖川夏葉）の新規連携が8/24配信で別エントリ化。"
-
 - id: sidem-11th-stage
   title: "THE IDOLM@STER SideM 11th STAGE ～EVER EVER＠FTER～"
   brand: sidem
@@ -1200,33 +1098,37 @@
     - sidem-divercity-tokyo-plaza-announce  # 8/22配信「新発表」
     - sidem-divercity-tokyo-plaza-stamprally  # 8/24配信「スタンプラリー詳細が判明」
     - sidem-divercity-tokyo-plaza-menu  # 8/25配信「コラボメニューの一部が判明」
-  notes: "終了日の詳細は続報待ち、要追検証。コラボメニュー（Café Parade・Legendersイメージのドリンク・スイーツ）判明（8/25配信）。"
+    - sidem-divercity-tokyo-plaza-tomorrow  # 9/3配信「明日開幕予告」
+  notes: "終了日の詳細は続報待ち、要追検証。コラボメニュー（Café Parade・Legendersイメージのドリンク・スイーツ）判明（8/25配信）。明日開幕予告（9/3配信）消化済み、本日開幕（9/4）が未消化。"
 
-- id: ml-milpro-resort-akihabara
-  title: "ミリプロサマー2026「ミリプロリゾート from Akihabara to ???」"
-  brand: ml
+- id: sidem-teddys-collection2
+  title: "SideM Teddy's Collection II POP UP STORE"
+  brand: sidem
   kind: 公式
-  event_start: "2026-08-29"
-  event_end: "2026-08-29"
-  status: done
+  event_start: "2026-09-04"
+  event_end: "2026-09-27"
+  status: partially-used
   confidence: confirmed
-  added: "2026-08-22"
-  source: "ミリプロコーポレートサイト milpr.com／ローソンチケット"
+  added: "2026-09-03"
+  source: "アイドルマスター公式ポータル news/01_19646／fanitto公式X（@fanitto_csf）"
   facts: |
-    開催日時: 2026年8月29日（土）11:00〜20:00（予定）
-    会場: 秋葉原UDXギャラリー イベントホールL／ギャラリーNEXT1・NEXT2
-    内容: ファンミーティング、ミリプロTCG サマーカップ2026、POP UP展示＆グッズ販売
-    参加方式: 事前申込制（フリー入場ではない）。ファンミーティングのチケット抽選結果は発表済み（入金期間7/31〜8/3、終了済み）
+    名称: アイドルマスター SideM Teddy's Collection II POP UP STORE（テディベアブランドとのコラボ第2弾）
+    モデル起用: Jupiter・Beit・もふもふえん
+    新宿マルイ アネックス6Fカレンダリウム: 2026年9月4日(金)〜13日(日)、平日11:00〜19:00・土日祝10:30〜19:00
+    難波マルイ5Fイベントスペース: 2026年9月18日(木)〜27日(日)、11:00〜19:00
+    オンライン予約: 9月4日12:00〜27日23:59、Crystサイトにて。発送は11月下旬予定
   publish_plan:
-    - on: "2026-08-28"
-      angle: "明日開催予告"
-    - on: "2026-08-29"
-      angle: "本日開催"
+    - on: "2026-09-03"
+      angle: "明日新宿マルイアネックス開幕予告"
+    - on: "2026-09-04"
+      angle: "本日新宿マルイアネックス開幕"
+    - on: "2026-09-18"
+      angle: "本日難波マルイ開幕"
+    - on: "2026-09-27"
+      angle: "本日全会場終了"
   used_in:
-    - ml-milpro-resort-akihabara-announce  # 8/22配信「詳細判明」
-    - ml-milpro-resort-akihabara-tomorrow  # 8/28配信「明日開催予告」
-    - ml-milpro-resort-akihabara-today  # 8/29配信「本日開催」
-  notes: "全publish_plan消化済み。event_end超過につき次回整理で削除可。"
+    - sidem-teddys-collection2-tomorrow  # 9/3配信「明日新宿マルイアネックス開幕予告」
+  notes: "第1弾（2026年1月開催）の好評を受けた第2弾。グッズラインナップの詳細は続報待ち。"
 
 - id: as765-kotobukiya-kuji-summerlive
   title: "コトブキヤくじ「アイドルマスター Summer Live st@ge」"
@@ -1309,30 +1211,6 @@
     - cg-toppa-base-popup-today  # 8/27配信「本日全国一斉開幕」
   notes: "各店舗ごとの詳細な商品ラインナップ（アクリルスタンド6種・トレーディング缶バッジ6種・ドットフレークシール10種セット）が判明（8/23配信）。店舗別ノベルティ（本会場は来場記念ステッカー、各サテライト店舗は店舗別デザイン缶バッジ）判明（8/25配信）。サテライトショップ会期（9/14）は本会場（9/16）より2日短い点に注意。"
 
-- id: sc-birthday-plate-vol1
-  title: "シャニマス「バースデープレート」第1弾"
-  brand: sc
-  kind: 公式
-  event_start: "2026-08-06"
-  event_end: "2026-08-31"
-  status: done
-  confidence: unconfirmed
-  added: "2026-08-07"
-  source: "ASOBI STORE商品ページ（shop.asobistore.jp）／キャラホビまとめ（premium.gamepedia.jp/hobby/archives/222178）"
-  facts: |
-    内容: 8月〜10月生まれのアイドル計7名分のアルミ製バースデー記念プレート（各5,000円、305×153mm）
-    受注期間: 2026年8月6日（木）〜8月31日（月）
-    お届け: 2026年11月以降予定
-    対象アイドル7名（全員判明・8/24事実確認済み）: 和泉愛依（8/2）・有栖川夏葉（8/16）・緋田美琴（9/8）・幽谷霧子（9/23）・鈴木羽那（10/2）・杜野凛世（10/19）・樋口円香（10/27）
-  publish_plan:
-    - on: "2026-08-31"
-      angle: "本日受注最終日"
-  used_in:
-    - sc-birthday-plate-vol1  # 8/7配信「昨日受注開始」
-    - sc-birthday-plate-lineup  # 8/24配信「対象7名全員のラインナップが判明」
-    - sc-birthday-plate-vol1-deadline  # 8/31配信「本日受注最終日」
-  notes: "全publish_plan消化済み。対象アイドル7名全員のラインナップは公式プレスリリース（prtimes.jp/main/html/rd/p/000000465.000159118.html）および公式ポータル news/01_19480 で確認済み（8/24事実確認）。"
-
 - id: cg-sousenkyo-oendo-tokoshasai
   title: "シンデレラガール総選挙2026「応援投稿祭」（ニコニコ動画）"
   brand: cg
@@ -1357,7 +1235,8 @@
       angle: "本日投稿祭最終日"
   used_in:
     - cg-sousenkyo-oendo-tokoshasai  # 8/8配信「新発表」
-  notes: "投稿規約の詳細は後日公開予定、要追検証。"
+    - cg-sousenkyo-oendo-tokoshasai-tomorrow  # 9/3配信「明日投稿祭開幕予告」
+  notes: "投稿規約の詳細は後日公開予定、要追検証。明日開幕予告（9/3配信）消化済み、本日開幕（9/4）・最終日（9/6）が未消化。"
 
 - id: gaku-chugai-grace-cafe-revival
   title: "学園アイドルマスター×Chugai Grace Café リバイバル（渋谷モディ店）"
@@ -1386,7 +1265,8 @@
   used_in:
     - gaku-chugai-grace-cafe-revival  # 8/8配信「新発表」
     - gaku-chugai-cafe-tomorrow  # 9/2配信「明日9/3開幕予告」
-  notes: "重複していたstockエントリ（gaku-chugai-cafe-revival, added 8/29）を本エントリに統合（2026-09-02）。開幕当日・最終日の記事化が未消化。"
+    - gaku-chugai-cafe-today  # 9/3配信「本日渋谷モディ店で開幕」
+  notes: "重複していたstockエントリ（gaku-chugai-cafe-revival, added 8/29）を本エントリに統合（2026-09-02）。最終日（9/27）が未消化。"
 
 - id: ml-operaseria-popup
   title: "ミリオンライブ POP UP SHOP「オペラセリア」（コトブキヤ秋葉原館）"
@@ -1501,7 +1381,9 @@
   used_in:
     - other-imas-shop-atre-kawasaki-tomorrow  # 8/17配信「明日開幕予告」
     - other-imas-shop-atre-kawasaki-today  # 8/18配信「本日開幕」
-  notes: "8/17に商品ラインナップ判明、confidenceをconfirmedに更新。開催が近づいたら公式X（@ImasShop_bnam）等で詳細を要追検証。最終日（9/3）が未消化。"
+    - other-imas-shop-atre-kawasaki-final  # 9/3配信「本日最終日」
+  status: done
+  notes: "8/17に商品ラインナップ判明、confidenceをconfirmedに更新。全publish_plan消化済み。"
 
 - id: sidem-karatetsu-vol3
   title: "SideM×カラオケの鉄人 Vol.3「カラ鉄妖宴 百鬼夜行」"
@@ -1658,54 +1540,6 @@
     - gaku-amayo-tsubame-another-gacha  # 8/15配信「昨日開始」
   notes: "開始（8/14）分は記事化済み。終了（9/4）が未消化。"
 
-- id: sogo-20th-cd-mailorder
-  title: "20周年記念CD計5種（Pop'n ToyBox!!／IWSF2026会場限定盤）事後通販"
-  brand: sogo
-  kind: 公式
-  event_start: "2026-08-21"
-  event_end: "2026-08-31"
-  status: done
-  confidence: confirmed
-  added: "2026-08-23"
-  source: "日本コロムビア columbia.jp/idolmaster/imasnews/260821.html"
-  facts: |
-    対象: 「Pop'n ToyBox!!」渋谷LOVEZ会場限定CD2種（新曲「Poppin' para Pong!」「Cookie Dough」収録）＋「MORE RE@LITY LIVE IDOL WORLD SUPER FESTIVAL 2026」（京王アリーナ）会場限定CD3種、計5種
-    受付期間: 2026年8月21日18:00〜8月31日23:59
-    発送予定: 2026年9月11日（金）
-  publish_plan:
-    - on: "2026-08-31"
-      angle: "本日受注最終日"
-  used_in:
-    - sogo-20th-cd-mailorder  # 8/23配信「事後通販受付中」
-    - sogo-20th-cd-mailorder-deadline  # 8/31配信「本日受注最終日」
-  notes: "全publish_plan消化済み。"
-
-- id: ml-mirishita-extreme-live
-  title: "ミリシタ Extreme 生配信「10年目の新シリーズ」発表"
-  brand: ml
-  kind: 公式
-  event_start: "2026-09-02"
-  event_end: "2026-09-02"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-08-23"
-  source: "アイドルマスター公式ポータル／ミリシタ公式"
-  facts: |
-    配信名: ミリシタ Extreme 生配信「10年目の新シリーズ発表！」
-    配信日時: 2026年9月2日（水）19:00〜
-    出演: 夏川椎菜・南早紀・山口立花子・渡部恵子
-    本編後22:00〜「Sai-Jo-9 DJ NIGHT！」アーカイブ動画プレミア公開
-    ミリシタは2026年で10周年、新シリーズの詳細が本配信で発表される見込み
-  publish_plan:
-    - on: "2026-09-01"
-      angle: "明日生配信予告"
-    - on: "2026-09-02"
-      angle: "本日生配信・新シリーズ発表"
-  used_in:
-    - ml-mirishita-extreme-preview  # 8/23配信「9月2日19時に決定」
-    - ml-mirishita-extreme-tomorrow  # 9/1配信「明日9/2 19時生配信予告」
-  notes: "新シリーズの具体的な内容は9/2配信を待って要追検証。明日9/2生配信予告は9/1配信で記事化済み、本日生配信・新シリーズ発表（9/2）が未消化。"
-
 - id: cg-kotobukiya-magicalcheers-popup
   title: "シンデレラガールズ×寿屋 POP UP SHOP「A MAGICAL CHEERS」"
   brand: cg
@@ -1850,36 +1684,6 @@
     発表元: 8月25日19時放送のニコニコ生放送「シャニマス生配信 ～8月も意外と暑い～ズSP～」（出演: 峯田茉優〈八宮めぐる役〉・前川涼子〈大崎甜花役〉）
     POP UP SHOP「パラレル回廊」（同放送で発表）: 2026年9月20日（日）〜27日（日）、秋葉原UDX（4Fギャラリー）で開催。テーマはガシャシリーズ「パラレルコレクション」（アイドルたちの「もしもの未来」を描く）。描き下ろしイラスト使用の新商品、パラレルコレクション関連イラストグッズ、制作コメント・ラフ画の一部展示を予定（8/29配信で詳細記事化済み、商品ラインナップ・対象アイドルは続報待ち）
   notes: "アルバム収録アイドルの内訳・各形態の振り分けは続報待ち、要追検証。3形態・価格判明（8/30配信）。パラレル回廊の商品ラインナップ・対象アイドルの詳細も続報待ち。"
-
-- id: sidem-himeno-kanon-newcast-reveal
-  title: "SideM「姫野かのん」新キャスト・伊能幸輝さんお披露目生配信"
-  brand: sidem
-  kind: 公式
-  event_start: "2026-09-01"
-  event_end: "2026-09-01"
-  status: done
-  confidence: confirmed
-  added: "2026-08-29"
-  source: "アイドルマスター公式ポータル news/01_19734／4Gamer／伊能幸輝さん公式X"
-  facts: |
-    経緯: 8月18日に村瀬歩さんの姫野かのん役卒業が発表され、8月28日に後任オーディションの結果として新人声優・伊能幸輝さんへの交代が発表された
-    伊能幸輝さんの経歴: 『パズドラ』ミズー星人役、『ひらけ！みらいのとびら～未来へつながる特別な場所～』チコリン役など
-    お披露目特別生配信: 9月1日（火）19:00〜、YouTube・ニコニコ生放送
-    出演: 矢野奨吾さん（岡村直央役）・古畑恵介さん（橘志狼役）（もふもふえん既存キャスト）、仲村宗悟さん（天道輝役）・狩野翔さん（神谷幸広役）、伊能幸輝さん、コンテンツプロデューサー石澤雪枝氏
-    配信内容: 姫野かのんの今後のボイススケジュール発表、イベント「315 Production presents F@NTASTIC BATTLE FES ～Wanna step in～」最新情報
-    既存音声の差し替え: 現時点で予定なし
-    【配信実施後判明・9/2追記】発表内容: 姫野かのんの今後のボイス収録スケジュール案内、「315 Production presents F@NTASTIC BATTLE FES ～Wanna step in～」（12/26-27ホクト文化ホール、'27/1/23-24幕張イベントホール）最新情報、SideM 11th STAGE「～EVER EVER＠FTER～」（9/12-13 TOYOTA ARENA TOKYO）のテーマが「語り継がれる物語」と発表されCDシリーズ「TRANSCENDENT T@LES」を軸にした315プロの物語を紹介、会場では同テーマのフード・ドリンク展開を告知。フレグランスブランドAnidealとのコラボ（THE虎牙道・F-LAGS等イメージ香水、11th STAGE会場に試香スペース設置）も発表。SNSでは「かのんくん」がトレンド1位となり、伊能さんには「異能バトルくん」の愛称が定着。
-  publish_plan:
-    - on: "2026-08-31"
-      angle: "明日お披露目配信予告"
-    - on: "2026-09-01"
-      angle: "本日お披露目配信"
-  used_in:
-    - sidem-himeno-kanon-new-cast  # 8/29配信「新キャスト伊能幸輝さんに決定・9/1お披露目配信」
-    - sidem-himeno-kanon-newcast-tomorrow  # 8/31配信「明日19時からお披露目配信」
-    - sidem-himeno-kanon-newcast-reveal  # 9/1配信「本日19時お披露目生配信」
-    - sidem-himeno-kanon-newcast-report  # 9/2配信「昨日のお披露目生配信で判明した新情報まとめ」
-  notes: "新キャスト決定自体は8/29配信、明日お披露目配信予告は8/31配信、本日お披露目配信は9/1配信、配信内容の詳細は9/2配信で記事化済み。全publish_plan消化済み。"
 
 - id: sogo-imasradio-launch
   title: "新ラジオ番組「IM@S RADIO」放送開始"
