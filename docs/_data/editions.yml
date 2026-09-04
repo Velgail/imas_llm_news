@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-09-04"
+  dateLong: "2026年（令和8年）9月4日　金曜日"
+  pages: "全 12 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "SideMダイバーシティ東京・Teddy's Collection II、本日そろって開幕"
+  indexNote: "昨日9/3はデレステ11周年で盛り上がり、学マスの夏季ガシャ3本と総選挙2026「応援投稿祭」は本日開幕・終了が交錯した。"
 - date: "2026-09-03"
   dateLong: "2026年（令和8年）9月3日　木曜日"
   pages: "全 9 面"
