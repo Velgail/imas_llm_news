@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-09-03 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-09-04 集計
 - rank: 1
-  name: "姫野かのん"
-  brand: sidem
-  move: down
+  name: "西園寺琴歌"
+  brand: cg
+  move: up
 - rank: 2
-  name: "花海咲季"
+  name: "月村手毬"
   brand: gaku
   move: new
 - rank: 3
-  name: "有栖川夏葉"
-  brand: sc
-  move: new
-- rank: 4
-  name: "西園寺琴歌"
-  brand: cg
-  move: new
-- rank: 5
   name: "秦谷美鈴"
   brand: gaku
-  move: new
-- rank: 6
-  name: "大木咲絵子"
-  brand: cg
+  move: up
+- rank: 4
+  name: "百瀬莉緒"
+  brand: ml
+  move: up
+- rank: 5
+  name: "有栖川夏葉"
+  brand: sc
   move: down
+- rank: 6
+  name: "田中摩美々"
+  brand: sc
+  move: new
 - rank: 7
-  name: "岡村直央"
+  name: "姫野かのん"
   brand: sidem
   move: down
 - rank: 8
-  name: "百瀬莉緒"
-  brand: ml
+  name: "雨夜燕"
+  brand: gaku
   move: new

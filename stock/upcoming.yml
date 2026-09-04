@@ -74,7 +74,8 @@
   publish_plan:
     - on: "実装日確定後（未定）"
       angle: "実装日判明・詳細発表"
-  used_in: []
+  used_in:
+    - other-tours-s1ex-speculation  # 9/4配信「実装日巡りファンが考察合戦（ファン話題）」
   notes: "具体的な実装日が判明次第、publish_planを更新して記事化する。"
 
 - id: cg-yamanashi-walkwander
@@ -442,6 +443,7 @@
     - ml-14thlive-support-set-panel-campaign  # 7/12配信「ミリシタ『14thLIVE応援セット』発売・パネルプレゼント」
     - ml-14thlive-general-lottery-result  # 8/11配信「本日一般会員先行抽選の当落発表」
     - ml-14thlive-secondlottery-result  # 8/28配信「一般会員2次先行の当落発表は昨日」
+    - ml-14thlive-countdown-buzz  # 9/4配信「開幕まで2週間、百瀬莉緒への期待続々（ファン話題）」
   status: partially-used
   notes: "出演者・タイトル・チケット詳細は6/13生配信後に facts を更新済み。9月の開幕予告〜閉幕レポが未消化。【8/7判明・更新】イベントグッズ事前二次販売が数量限定で8/6〜8/16受付中（主演4名描き下ろしグッズ・公式招待状ブロマイド等）。アソビストア一般会員2次先行（全席指定14,000円等、7/31 12:00〜8/16 23:59受付）の当落発表（8/27 13:00〜）は8/28配信で記事化済み。入金期間は続報待ち。"
 
@@ -466,6 +468,8 @@
       angle: "Xリポストキャンペーン最終日"
     - on: "2026-08-31"
       angle: "第1期プレゼント企画・ログインボーナス最終日"
+    - on: "2026-09-04"
+      angle: "第2期プレゼント企画スタート"
     - on: "2026-10-21"
       angle: "本日コラボ終了"
   used_in:
@@ -474,14 +478,15 @@
     - sc-megashaki-x-campaign-end  # 8/7配信「Xリポストキャンペーン、本日14:59終了」
     - sc-megashaki-collab-vol7-phase2  # 8/25配信「第2期プレゼント企画の詳細判明」
     - sc-megashaki-phase1-end  # 8/31配信「第1期プレゼント企画・ログインボーナス、本日最終日」
+    - sc-megashaki-phase2-start  # 9/4配信「第2期プレゼント企画、本日スタート」
   facts: |
     アンバサダー: 田中摩美々・黛冬優子・斑鳩ルカ（継続）＋西城樹里・樋口円香（新加入、計5名）
     開催期間: 2026年7月21日〜10月21日
     第1期プレゼント企画: 7/21〜8/31、法被・ネックストラップ等各50名（外れても壁紙全12種）
     Xリポストキャンペーン: 7/27〜8/7、@housefoods_nowフォロー＆リポストで抽選100名に500円分QUOカードPay
-    第2期プレゼント企画（8/25判明）: 9月開始、新規描き下ろしビジュアルを使用したクリアファイル・缶バッジ等を抽選でプレゼント予定
+    第2期プレゼント企画: 9/4開始、新規描き下ろしビジュアルを使用したクリアファイル・缶バッジ等を抽選でプレゼント
     その他: ゲーム内ログインボーナス（7/31〜8/31）でメガシャキ関連アイテム配布
-  notes: "第2期プレゼント企画の詳細判明（8/25配信）。第1期プレゼント企画・ログインボーナス最終日（8/31）・コラボ終了（10/21）が未消化。"
+  notes: "第2期プレゼント企画の詳細判明（8/25配信）、本日9/4スタート（9/4配信で記事化）。コラボ終了（10/21）が未消化。"
 
 - id: cg-onestep-yogurt-collab
   title: "ワンステップス×「& Yogurt」コラボ"
@@ -794,6 +799,8 @@
       angle: "明日福井公演開幕予告"
     - on: "2026-08-20"
       angle: "本日福井公演開幕"
+    - on: "2026-09-04"
+      angle: "明日福岡公演開幕予告"
     - on: "2026-11-06"
       angle: "明日ファイナル公演(Kアリーナ横浜)開幕予告"
     - on: "2026-11-07"
@@ -818,6 +825,7 @@
     - gaku-live-tour-shirube-fukui-finale-report  # 8/22配信「福井千秋楽、ソロ曲12曲総入れ替え・新曲2曲サプライズ披露、CD『修楽旅行』予約開始」
     - gaku-live-tour-shirube-fukuoka-general-sale  # 8/24配信「福岡公演、一般発売開始・顔写真登録システム導入」
     - gaku-live-tour-shirube-fukuoka-goods  # 8/25配信「福岡公演、会場限定グッズラインナップ判明」
+    - gaku-shirube-fukuoka-tomorrow  # 9/4配信「明日福岡公演開幕予告」
   notes: "出演者・セトリ等の詳細は未取得。ファイナル公演のチケット価格・出演人数は公式サイト（live_event/gkmas_livetour_shirube配下）で確認済み。福井公演の出演者が判明済み（七瀬つむぎ・花岩香奈・薄井友里・松田彩音）。グッズ事前販売ファイナル締切（8/16）・福井公演開幕予告（8/19）・本日福井公演開幕（8/20、会場で福井県銘品「眼鏡堅麺麭」コラボ商品販売）・DAY1レポ＆新曲配信（8/21）・福井千秋楽レポ（8/22、DAY2はDAY1から13曲入れ替え・葛城リーリヤ「いつかのわたし」＆姫崎莉波「重なる夜空の痕跡に」新曲披露、CD「修楽旅行」予約開始9/23締切）・福岡公演一般発売開始（8/24、顔写真登録システム導入）・福岡公演グッズラインナップ判明（8/25、事前販売は4/30〜5/17で終了済み・公演直前の追加販売予定なしと事実確認済み）消化済み。岩手公演、ファイナル公演開幕予告以降が未消化。"
 
 - id: sc-maneki-neko-collab-2026
@@ -1099,7 +1107,9 @@
     - sidem-divercity-tokyo-plaza-stamprally  # 8/24配信「スタンプラリー詳細が判明」
     - sidem-divercity-tokyo-plaza-menu  # 8/25配信「コラボメニューの一部が判明」
     - sidem-divercity-tokyo-plaza-tomorrow  # 9/3配信「明日開幕予告」
-  notes: "終了日の詳細は続報待ち、要追検証。コラボメニュー（Café Parade・Legendersイメージのドリンク・スイーツ）判明（8/25配信）。明日開幕予告（9/3配信）消化済み、本日開幕（9/4）が未消化。"
+    - sidem-divercity-tokyo-plaza-today  # 9/4配信「本日開幕」
+  status: done
+  notes: "終了日の詳細は続報待ち、要追検証。コラボメニュー（Café Parade・Legendersイメージのドリンク・スイーツ）判明（8/25配信）。開幕予告（9/3）・本日開幕（9/4）は消化済み。終了日判明後、新規エントリで継続記事化する。"
 
 - id: sidem-teddys-collection2
   title: "SideM Teddy's Collection II POP UP STORE"
@@ -1128,7 +1138,8 @@
       angle: "本日全会場終了"
   used_in:
     - sidem-teddys-collection2-tomorrow  # 9/3配信「明日新宿マルイアネックス開幕予告」
-  notes: "第1弾（2026年1月開催）の好評を受けた第2弾。グッズラインナップの詳細は続報待ち。"
+    - sidem-teddys-collection2-today  # 9/4配信「本日新宿マルイアネックス開幕」
+  notes: "第1弾（2026年1月開催）の好評を受けた第2弾。グッズラインナップの詳細は続報待ち。新宿マルイアネックス開幕（9/4）消化済み、難波マルイ開幕（9/18）・全会場終了（9/27）が未消化。"
 
 - id: as765-kotobukiya-kuji-summerlive
   title: "コトブキヤくじ「アイドルマスター Summer Live st@ge」"
@@ -1236,7 +1247,8 @@
   used_in:
     - cg-sousenkyo-oendo-tokoshasai  # 8/8配信「新発表」
     - cg-sousenkyo-oendo-tokoshasai-tomorrow  # 9/3配信「明日投稿祭開幕予告」
-  notes: "投稿規約の詳細は後日公開予定、要追検証。明日開幕予告（9/3配信）消化済み、本日開幕（9/4）・最終日（9/6）が未消化。"
+    - cg-sousenkyo-oendo-tokoshasai-today  # 9/4配信「本日投稿祭開幕」
+  notes: "投稿規約の詳細は後日公開予定、要追検証。開幕予告（9/3）・本日開幕（9/4）消化済み。最終日（9/6）が未消化。"
 
 - id: gaku-chugai-grace-cafe-revival
   title: "学園アイドルマスター×Chugai Grace Café リバイバル（渋谷モディ店）"
@@ -1445,7 +1457,9 @@
     - gaku-360live-seaside-studio  # 8/18配信「新機能『360°ライブ』・新ロケーション実装（更新あり）」
     - gaku-summer-hashtag-campaign  # 8/18配信「ハッシュタグ投稿キャンペーン開始」
     - gaku-gravure-gacha-vol2-switch  # 8/26配信「グラビアガシャ第2弾（秦谷美鈴）切替」
-  notes: "8/14放送の生配信で発表された内容。本日開始（8/17）分・新曲配信/新機能/キャンペーン（8/18）・第2弾切替（8/26）は記事化済み。終了（9/4）が未消化。"
+    - gaku-gravure-gacha-end  # 9/4配信「本日終了」
+  status: done
+  notes: "8/14放送の生配信で発表された内容。全publish_plan消化済み（終了は9/4配信で記事化）。"
 
 - id: sc-admiral-sneaker-collab
   title: "シャニマス×Admiralコラボスニーカー「CAMBRIDGE THE IDOLM@STER SHINY COLORS Edition」"
@@ -1538,7 +1552,9 @@
       angle: "本日終了"
   used_in:
     - gaku-amayo-tsubame-another-gacha  # 8/15配信「昨日開始」
-  notes: "開始（8/14）分は記事化済み。終了（9/4）が未消化。"
+    - gaku-amayo-tsubame-gacha-end  # 9/4配信「本日終了」
+  status: done
+  notes: "全publish_plan消化済み。"
 
 - id: cg-kotobukiya-magicalcheers-popup
   title: "シンデレラガールズ×寿屋 POP UP SHOP「A MAGICAL CHEERS」"
