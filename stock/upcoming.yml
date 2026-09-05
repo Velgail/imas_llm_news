@@ -1280,7 +1280,8 @@
     - gaku-chugai-grace-cafe-revival  # 8/8配信「新発表」
     - gaku-chugai-cafe-tomorrow  # 9/2配信「明日9/3開幕予告」
     - gaku-chugai-cafe-today  # 9/3配信「本日渋谷モディ店で開幕」
-  notes: "重複していたstockエントリ（gaku-chugai-cafe-revival, added 8/29）を本エントリに統合（2026-09-02）。最終日（9/27）が未消化。"
+    - gaku-chugai-cafe-menu-detail  # 9/5配信「メニュー詳細判明（更新あり）」
+  notes: "重複していたstockエントリ（gaku-chugai-cafe-revival, added 8/29）を本エントリに統合（2026-09-02）。メニュー・グッズ詳細を9/5配信で記事化済み（事実確認: 各社ニュースサイト掲載のChugai Grace Cafe公式リリース内容と一致）。最終日（9/27）が未消化。"
 
 - id: ml-operaseria-popup
   title: "ミリオンライブ POP UP SHOP「オペラセリア」（コトブキヤ秋葉原館）"
