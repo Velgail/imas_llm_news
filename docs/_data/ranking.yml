@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-09-04 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-09-05 集計
 - rank: 1
-  name: "西園寺琴歌"
+  name: "北条加蓮"
   brand: cg
-  move: up
+  move: new
 - rank: 2
-  name: "月村手毬"
+  name: "有村麻央"
+  brand: gaku
+  move: up
+- rank: 3
+  name: "倉本千奈"
   brand: gaku
   move: new
-- rank: 3
-  name: "秦谷美鈴"
-  brand: gaku
-  move: up
 - rank: 4
+  name: "紫雲清夏"
+  brand: gaku
+  move: new
+- rank: 5
   name: "百瀬莉緒"
   brand: ml
-  move: up
-- rank: 5
-  name: "有栖川夏葉"
-  brand: sc
   move: down
 - rank: 6
   name: "田中摩美々"
   brand: sc
-  move: new
+  move: down
 - rank: 7
   name: "姫野かのん"
   brand: sidem
   move: down
 - rank: 8
-  name: "雨夜燕"
+  name: "秦谷美鈴"
   brand: gaku
-  move: new
+  move: down
