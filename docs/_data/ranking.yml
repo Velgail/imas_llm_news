@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-09-05 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-09-06 集計
 - rank: 1
-  name: "北条加蓮"
-  brand: cg
+  name: "十王星南"
+  brand: gaku
   move: new
 - rank: 2
-  name: "有村麻央"
+  name: "藤田ことね"
   brand: gaku
-  move: up
+  move: new
 - rank: 3
-  name: "倉本千奈"
-  brand: gaku
+  name: "黒井崇男"
+  brand: sogo
   move: new
 - rank: 4
-  name: "紫雲清夏"
-  brand: gaku
+  name: "亜夜"
+  brand: sogo
   move: new
 - rank: 5
-  name: "百瀬莉緒"
-  brand: ml
+  name: "北条加蓮"
+  brand: cg
   move: down
 - rank: 6
-  name: "田中摩美々"
-  brand: sc
+  name: "有村麻央"
+  brand: gaku
   move: down
 - rank: 7
   name: "姫野かのん"
   brand: sidem
   move: down
 - rank: 8
-  name: "秦谷美鈴"
-  brand: gaku
+  name: "田中摩美々"
+  brand: sc
   move: down

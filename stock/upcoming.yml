@@ -167,7 +167,7 @@
   kind: 公式
   event_start: "2026-08-01"
   event_end: "2026-09-06"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-07-12"
   source: "アイドルマスター公式ポータル news/01_19347（2026年7月10日）"
@@ -200,7 +200,8 @@
     - cg-genka-youen-ichi-tokyo-final  # 8/16配信「東京会場、本日最終日」
     - cg-genka-youen-ichi-osaka-today  # 8/21配信「本日大阪会場開幕」
     - cg-genka-youen-ichi-osaka-opening-crowd  # 8/22配信「大阪会場、初日は混雑緩和のため整理券配布」
-  notes: "東京会場最終日（8/16）・大阪会場開幕予告（8/20）・本日大阪会場開幕（8/21）・初日整理券配布レポ（8/22）消化済み。大阪会場最終日（9/6）が未消化。"
+    - cg-genka-youen-ichi-final  # 9/6配信「本日大阪会場最終日・全会期終了」
+  notes: "全publish_plan消化済み（9/6大阪会場最終日・全会期終了で完全消化）。"
 
 - id: godo-765x961-ultimate-live
   title: "765 PRODUCTION × 961 PRODUCTION IDOL ULTIMATE ONCE AND FOR ALL"
@@ -711,46 +712,18 @@
     - sidem-11th-stage-general-sale  # 8/23配信「現地引換チケット一般発売が昨日正午より開始」
     - sidem-11th-stage-costume-reveal  # 8/24配信「新衣装『トランセンデントリルード』ビジュアル公開」
     - sidem-11th-stage-goods-lottery-start  # 8/28配信「会場物販の抽選整理券受付が本日開始」
+    - sidem-11th-stage-general-sale-closed  # 9/6配信「現地チケット一般発売が昨日23:59に受付終了」
   facts: |
     会場: TOYOTA ARENA TOKYO
     日程: 2026年9月12日（土）・13日（日）
     会場物販: 両日11:00〜17:30、TOYOTA ARENA TOKYOサブアリーナで実施。混雑緩和のため一部時間帯は事前抽選整理券制（ASOBI TICKET受付8/28 13:00〜9/2 23:59、当落発表9/8 13:00〜）。具体的な商品ラインナップは公式サイト物販ページで確認可能、価格等は未取得のため要追検証。
     新CD: 「SideM 10th ANNIVERSARY P@SSION SOLO COLLECTION 04」2,750円（税込）、THE 虎牙道・F-LAGS・Legenders・C.FIRSTメンバーのソロ楽曲収録
     配信チケット: 8/4 12:00〜9/21 18:00受付。DAY1+DAY2通し12,000円、DAY1・DAY2単日各6,000円（税込・機能利用料込）
-    現地引換チケット一般発売: 8/22(土)12:00〜開始。あわせてASOBI TICKET公式リセールも8/22 15:00〜9/6 9:59受付
+    現地引換チケット一般発売: 8/22(土)12:00〜9/5(土)23:59受付。あわせてASOBI TICKET公式リセールも8/22 15:00〜9/6 9:59受付
     現地チケット価格帯: 全席指定13,500円、見切れ席13,000円、スイート25,000円、テラススイート50,000円〜（いずれも税込）
     公演テーマ: 「語り継がれる物語」。CDシリーズ「TRANSCENDENT T@LES」で描かれる315プロダクションの物語が軸。新衣装「トランセンデントリルード」のビジュアルが公開中
     会場物販整理券: ASOBI TICKET受付8/28 13:00〜9/2 23:59、当落発表9/8 13:00〜（8/28配信で記事化済み）
-  notes: "出演者・セトリ等の詳細は未取得。会場物販・CD情報（8/22）・現地引換チケット一般発売開始（8/23）・新衣装ビジュアル公開（8/24）消化済み。明日9/11開幕予告以降が未消化。"
-
-- id: gaku-seabreeze-collab
-  title: "「シーブリーズ」×学園アイドルマスター コラボキャンペーン"
-  brand: gaku
-  kind: 公式
-  event_start: "2026-07-04"
-  event_end: "2026-08-31"
-  status: done
-  confidence: confirmed
-  added: "2026-07-05"
-  source: "アイドルマスター公式ポータル news/01_19126 / シーブリーズ公式コラボサイト（2026年7月）"
-  facts: |
-    テーマ: 「瞬間クールに、もっと輝け！」
-    会場: マツモトキヨシ・ココカラファイングループ対象店舗
-    第1弾: 7月4日（土）開始、対象商品購入で非売品コラボステッカー進呈
-    第2弾: デザイン公開が7/27（月）、配布開始は8/1（土）と公式サイトで判明（当初の日付食い違いを解消）
-    SNSキャンペーン: 「#シーブリーズ学マスコラボ」投稿で抽選30名にオリジナルクリアポスター進呈（7/4〜8/31）
-  publish_plan:
-    - on: "2026-07-31"
-      angle: "明日第2弾配布開始予告"
-    - on: "2026-08-01"
-      angle: "本日第2弾配布開始"
-  used_in:
-    - gaku-seabreeze-collab  # 7/5配信「コラボ開催中・ステッカー配布」
-    - gaku-seabreeze-vol2-sticker  # 7/27配信「第2弾ステッカーデザイン、本日公開予定」
-    - gaku-seabreeze-vol2-tomorrow  # 7/31配信「明日第2弾配布開始予告」
-    - gaku-seabreeze-vol2-today  # 8/1配信「本日第2弾配布開始」
-    - gaku-seabreeze-collab-end  # 8/31配信「本日で全企画終了」
-  notes: "全publish_plan消化済み、コラボも8/31で終了。"
+  notes: "出演者・セトリ等の詳細は未取得。会場物販・CD情報（8/22）・現地引換チケット一般発売開始（8/23）・新衣装ビジュアル公開（8/24）・現地チケット一般発売、昨日23:59受付終了（9/6）消化済み。明日9/11開幕予告以降が未消化。"
 
 - id: sc-project-relight-axe8
   title: "Project \"ReLight\" AXE8（シャニマス全ユニット新ロゴ・新衣装・新曲刷新企画）"
@@ -787,6 +760,7 @@
     ファイナル公演イベント公式グッズ事前販売: 7/9 16:00〜7/20 23:59受付（ASOBI STORE）、描き下ろしイラストグッズ・応援グッズ、発送10月下旬以降順次
     福井公演 一般先着・リセール: 一般先着は7/25 12:00〜8/4 23:59、リセールは7/25 15:00〜8/5 9:59。会場はフェニックス・プラザ エルピス大ホール、全席指定11,000円（税込）。出演: 七瀬つむぎ(有村麻央役)・花岩香奈(葛城リーリヤ役)・薄井友里(姫崎莉波役)・松田彩音(花海佑芽役)
     福岡公演 一般先着・リセール: 8/22(土)より受付開始。会場は福岡サンパレス ホテル&ホール、全席指定11,000円・スタンディング指定10,500円（税込）。なりすまし・不正転売防止の顔写真登録システムを導入（登録1枚220円）
+    福岡公演DAY1（9/5）: サプライズ新曲3曲「Be proud」「神かわいい」「nazonazo」を披露、9/6 0時より配信開始。新ガシャ「【ガラクタロード】星南ガシャ」開催と十王星南＆藤田ことねの新エピソード「H.I.F編」実装を予告
   publish_plan:
     - on: "2026-07-09"
       angle: "本日ファイナル公演プレミアム会員先行当落発表"
@@ -828,35 +802,8 @@
     - gaku-live-tour-shirube-fukuoka-goods  # 8/25配信「福岡公演、会場限定グッズラインナップ判明」
     - gaku-shirube-fukuoka-tomorrow  # 9/4配信「明日福岡公演開幕予告」
     - gaku-live-tour-shirube-fukuoka-today  # 9/5配信「本日福岡公演開幕」
-  notes: "出演者・セトリ等の詳細は未取得。ファイナル公演のチケット価格・出演人数は公式サイト（live_event/gkmas_livetour_shirube配下）で確認済み。福井公演の出演者が判明済み（七瀬つむぎ・花岩香奈・薄井友里・松田彩音）。グッズ事前販売ファイナル締切（8/16）・福井公演開幕予告（8/19）・本日福井公演開幕（8/20、会場で福井県銘品「眼鏡堅麺麭」コラボ商品販売）・DAY1レポ＆新曲配信（8/21）・福井千秋楽レポ（8/22、DAY2はDAY1から13曲入れ替え・葛城リーリヤ「いつかのわたし」＆姫崎莉波「重なる夜空の痕跡に」新曲披露、CD「修楽旅行」予約開始9/23締切）・福岡公演一般発売開始（8/24、顔写真登録システム導入）・福岡公演グッズラインナップ判明（8/25、事前販売は4/30〜5/17で終了済み・公演直前の追加販売予定なしと事実確認済み）・福岡公演開幕予告（9/4）・本日福岡公演開幕（9/5）消化済み。DAY1レポ・岩手公演・ファイナル公演開幕予告以降が未消化。"
-
-- id: sc-maneki-neko-collab-2026
-  title: "アイドルマスター シャイニーカラーズ×カラオケまねきねこ コラボ"
-  brand: sc
-  kind: 公式
-  event_start: "2026-07-14"
-  event_end: "2026-08-30"
-  status: done
-  confidence: confirmed
-  added: "2026-07-06"
-  source: "アイドルマスター公式ポータル news/01_19269 / カラオケまねきねこコラボ特設サイト（2026年7月）"
-  facts: |
-    テーマ: 夏の海辺・水着アイドル
-    登場アイドル: 七草にちか・緋田美琴・斑鳩ルカ・鈴木羽那・郁田はるき
-    内容: ノベルティ付きコラボドリンク、コラボグッズ店舗・通販販売、歌唱キャンペーン
-  publish_plan:
-    - on: "2026-07-13"
-      angle: "明日開催予告（詳細判明していれば）"
-    - on: "2026-07-14"
-      angle: "本日開催"
-    - on: "2026-08-30"
-      angle: "本日最終日"
-  used_in:
-    - sc-maneki-neko-collab  # 7/6配信「7/14よりコラボ開催決定」
-    - sc-maneki-neko-tomorrow  # 7/13配信「明日開催予告」
-    - sc-maneki-neko-today  # 7/14配信「本日13:00開催」
-    - sc-maneki-neko-final  # 8/30配信「本日最終日」
-  notes: "開始時刻13:00判明。詳細メニュー・グッズラインナップは未取得のまま。全publish_plan消化済み（8/30最終日で完全消化）。"
+    - gaku-shirube-fukuoka-day1-newsongs  # 9/6配信「福岡DAY1のサプライズ新曲、本日0時より配信開始」
+  notes: "出演者・セトリ等の詳細は未取得。ファイナル公演のチケット価格・出演人数は公式サイト（live_event/gkmas_livetour_shirube配下）で確認済み。福井公演の出演者が判明済み（七瀬つむぎ・花岩香奈・薄井友里・松田彩音）。グッズ事前販売ファイナル締切（8/16）・福井公演開幕予告（8/19）・本日福井公演開幕（8/20、会場で福井県銘品「眼鏡堅麺麭」コラボ商品販売）・DAY1レポ＆新曲配信（8/21）・福井千秋楽レポ（8/22、DAY2はDAY1から13曲入れ替え・葛城リーリヤ「いつかのわたし」＆姫崎莉波「重なる夜空の痕跡に」新曲披露、CD「修楽旅行」予約開始9/23締切）・福岡公演一般発売開始（8/24、顔写真登録システム導入）・福岡公演グッズラインナップ判明（8/25、事前販売は4/30〜5/17で終了済み・公演直前の追加販売予定なしと事実確認済み）・福岡公演開幕予告（9/4）・本日福岡公演開幕（9/5）・福岡DAY1新曲配信開始（9/6）消化済み。福岡公演DAY2セトリレポ・岩手公演・ファイナル公演開幕予告以降が未消化。"
 
 - id: sc-283pro-solo-live-msp
   title: "283 PRODUCTION Solo Live Collection -Master ShowPiece-"
@@ -899,7 +846,7 @@
   kind: 公式
   event_start: "2026-07-09"
   event_end: "2026-09-06"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-07-10"
   source: "アイドルマスター公式ポータル news/01_19328（2026年7月9日）"
@@ -916,7 +863,8 @@
     - sogo-20th-piano-collection  # 7/10配信「昨日配信開始・CD化決定」
     - sogo-20th-piano-collection-deadline-tomorrow  # 7/11配信「収録楽曲アンケート、明日7/12締切」
     - sogo-20th-piano-collection-survey-deadline  # 7/12配信「本日23:59締切」
-  notes: "CD収録の新規10曲確定はアンケート締切後に発表される見込み、要追検証。CD予約締切は9/6、未消化。"
+    - sogo-20th-piano-collection-cd-deadline  # 9/6配信「CD予約、本日23:59締切」
+  notes: "全publish_plan消化済み（CD予約締切9/6で完全消化）。CD収録の新規10曲確定はアンケート締切後に発表される見込み、要追検証。"
 
 - id: sc-refrac7ions-stillblue-live
   title: "シャニマス「shiny, the first REFRAC7IONS \"Still blue\"」"
@@ -1033,34 +981,6 @@
     - sidem-remembershot-fair4  # 8/5配信「詳細解禁」
   notes: "第1〜3弾の対象アイドルとの重複有無は未確認、要追検証。"
 
-- id: sogo-apkasshi-graduation
-  title: "アイドルマスターチャンネル APかっしー卒業配信"
-  brand: sogo
-  kind: 公式
-  event_start: "2026-08-26"
-  event_end: "2026-08-26"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-08-05"
-  source: "アイドルマスター公式ポータル news/01_19527（2026年8月4日22:10）"
-  facts: |
-    配信名: APかっしー卒業配信〜6年間ありがとうございました！〜
-    配信日時: 2026年8月26日（水）19:00〜
-    配信先: YouTube「アイドルマスターチャンネル」APラウンジ
-    背景: アイドルマスターチャンネルMCを6年間務めたAPかっしーが2026年8月いっぱいで卒業。かつてAPさとほのとの二人体制でスタートし、その卒業後は一人でチャンネルを支えてきた
-  publish_plan:
-    - on: "2026-08-25"
-      angle: "明日卒業配信予告"
-    - on: "2026-08-26"
-      angle: "本日卒業配信・APラウンジ最終回"
-  used_in:
-    - sogo-apkasshi-graduation  # 8/5配信「昨日発表」
-    - sogo-apkasshi-message-recruit  # 8/23配信「視聴者メッセージ募集中（更新あり）」
-    - sogo-apkasshi-graduation-tomorrow  # 8/25配信「明日卒業配信予告」
-    - sogo-apkasshi-graduation-today  # 8/26配信「本日卒業配信・APラウンジ最終回」
-  status: done
-  notes: "卒業後のアイマスチャンネルMC体制は本稿時点で未発表、判明次第追記する。全publish_plan消化済み。"
-
 - id: gaku-suntory-vending-collab2
   title: "学マス×サントリー自販機タイアップキャンペーン第2弾"
   brand: gaku
@@ -1167,7 +1087,7 @@
   kind: 公式
   event_start: "2026-08-21"
   event_end: "2026-09-06"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-08-06"
   source: "アイドルマスター公式ポータル news/01_19465"
@@ -1189,7 +1109,8 @@
     - cg-jol-legend-pinyacorata-tomorrow  # 8/20配信「明日開幕予告」
     - cg-jol-legend-pinyacorata-today  # 8/21配信「本日開幕」
     - cg-jol-legend-pinyacorata-dates-confirmed  # 8/24配信「会期は9月6日までと確認」
-  notes: "終了日は9/6で確定（8/24配信で再確認、10/6説は誤りと判明）。出演アイドル・商品ラインナップ詳細は未取得、開催が近づいてから要追検証。明日開幕予告（8/20）・本日開幕（8/21）・会期再確認（8/24）消化済み。最終日（9/6）が未消化。"
+    - cg-jol-legend-pinyacorata-final  # 9/6配信「本日最終日」
+  notes: "全publish_plan消化済み（最終日9/6で完全消化）。出演アイドル・商品ラインナップ詳細は取得できず終了。"
 
 - id: cg-toppa-base-popup
   title: "シンデレラガールズ TOPPA!!!BASE 全国POP UP SHOP（バトルゲームワールド）"
@@ -1230,7 +1151,7 @@
   kind: 公式
   event_start: "2026-09-04"
   event_end: "2026-09-06"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-08-08"
   source: "アイドルマスター公式ポータル news/01_19577（2026年8月7日19:30公開）"
@@ -1250,7 +1171,8 @@
     - cg-sousenkyo-oendo-tokoshasai  # 8/8配信「新発表」
     - cg-sousenkyo-oendo-tokoshasai-tomorrow  # 9/3配信「明日投稿祭開幕予告」
     - cg-sousenkyo-oendo-tokoshasai-today  # 9/4配信「本日投稿祭開幕」
-  notes: "投稿規約の詳細は後日公開予定、要追検証。開幕予告（9/3）・本日開幕（9/4）消化済み。最終日（9/6）が未消化。"
+    - cg-sousenkyo-oendo-tokoshasai-final  # 9/6配信「本日23:59で最終日」
+  notes: "全publish_plan消化済み（最終日9/6で完全消化）。投稿規約の詳細は取得できず終了。"
 
 - id: gaku-chugai-grace-cafe-revival
   title: "学園アイドルマスター×Chugai Grace Café リバイバル（渋谷モディ店）"
@@ -1370,36 +1292,6 @@
   used_in: []
   notes: "開催がかなり先のため、コラボメニュー・物販詳細は近づいてから要追検証。"
 
-- id: imas-shop-atre-kawasaki-branch
-  title: "アイドルマスター オフィシャルショップ出張所（アトレ川崎）"
-  brand: other
-  kind: 公式
-  event_start: "2026-08-18"
-  event_end: "2026-09-03"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-08-13"
-  source: "バンダイナムコアミューズメント公式 chara_shop/idolmaster/（2026年8月10日掲載）"
-  facts: |
-    名称: アイドルマスター オフィシャルショップ出張所
-    会場: アトレ川崎4Fシャン・ド・エルブ（総選挙2026POPUPと同フロア）
-    開催期間: 2026年8月18日（火）〜9月3日（木）
-    位置づけ: 「シンデレラガール総選挙2026 アトレ川崎店」ポップアップ（〜8/17）の後継、ブランド横断ラインナップ
-    商品（8/17判明）: 担当ネームプレート・アイドルフォトパネル・ロゴアクリルオブジェ・ツインキーホルダー・マスコットチャーム・メタル名刺ケース・Tシャツ・キャップ等。購入制限は担当ネームプレート各1点まで、他は各2点まで
-  publish_plan:
-    - on: "2026-08-17"
-      angle: "明日開幕予告（詳細判明していれば）"
-    - on: "2026-08-18"
-      angle: "本日開幕"
-    - on: "2026-09-03"
-      angle: "本日最終日"
-  used_in:
-    - other-imas-shop-atre-kawasaki-tomorrow  # 8/17配信「明日開幕予告」
-    - other-imas-shop-atre-kawasaki-today  # 8/18配信「本日開幕」
-    - other-imas-shop-atre-kawasaki-final  # 9/3配信「本日最終日」
-  status: done
-  notes: "8/17に商品ラインナップ判明、confidenceをconfirmedに更新。全publish_plan消化済み。"
-
 - id: sidem-karatetsu-vol3
   title: "SideM×カラオケの鉄人 Vol.3「カラ鉄妖宴 百鬼夜行」"
   brand: sidem
@@ -1424,103 +1316,13 @@
     - sidem-karatetsu-vol3-today  # 8/14配信「昨日全国10店舗で開幕」
   notes: "開幕（8/13）分は記事化済み。コラボ終了（10/5）が未消化。"
 
-- id: gaku-gravure-gacha-summer2026
-  title: "学マス 新ガシャシリーズ「グラビアガシャ」＆「アナザーアイドル水着ガシャ」／ストーリーイベント「夏風ワンピース」"
-  brand: gaku
-  kind: 公式
-  event_start: "2026-08-17"
-  event_end: "2026-09-04"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-08-15"
-  source: "生配信「初星学園HR #11」（2026年8月14日18:00放送）／公式X（@gkmas_official）"
-  facts: |
-    グラビアガシャ第1弾: 「ねえ、言っちゃうよ。」月村手毬ガシャ、8月17日（月）〜26日（水）。SSR新規衣装はワンピース・水着の2着付属
-    グラビアガシャ第2弾: 8月26日（水）〜9月4日（金）、秦谷美鈴がピックアップ予告
-    アナザーアイドル水着ガシャ: 8月17日（月）〜9月4日（金）。全アイドルに水着衣装2着付属、初回10連無料、有償限定SSR確定セレクトガシャも同時開催
-    ストーリーイベント「夏風ワンピース」: 8月17日（月）11:00開始予定。報酬でSSR「十王星南」獲得可能。新規スキル「見惚れる横顔+」（集中+3、集中強化15%など）実装
-    現行ガシャ「セミブルー」「冠菊」は8月17日で終了予定（入れ替わりで本シリーズが開始）
-    新曲「ねえ、言っちゃうよ。」（歌唱:月村手毬、作詞・作曲・編曲:アオワイファイ）: 8月18日より音楽配信開始。収録CD「Gravure Solo Collection Vol.1」（BNEI-429）は11月18日発売予定
-    新機能「360°ライブ」（8/17実装）: グラビア限定アイドルのライブシーンをカメラ5種で見渡せる新機能。撮影ロケーション「スタジオ（海辺）」も同時追加
-    ハッシュタグ投稿キャンペーン（8/17開始）: 「#夏の学マス水着配信」「#学マス真夏の観測記録」投稿で抽選100万ジュエル山分け
-  publish_plan:
-    - on: "2026-08-16"
-      angle: "明日開始予告"
-    - on: "2026-08-17"
-      angle: "本日開始・グラビアガシャ第1弾＆水着アナザーガシャ＆夏風ワンピースイベント"
-    - on: "2026-08-26"
-      angle: "グラビアガシャ第2弾（秦谷美鈴）切替"
-    - on: "2026-09-04"
-      angle: "本日終了"
-  used_in:
-    - gaku-hr11-gravure-gacha-reveal  # 8/15配信「初星学園HR #11で詳細判明」
-    - gaku-gravure-gacha-tomorrow  # 8/16配信「明日開始予告・現行ガシャは本日終了」
-    - gaku-gravure-gacha-today  # 8/17配信「本日開始・グラビアガシャ第1弾＆水着アナザーガシャ＆夏風ワンピースイベント」
-    - gaku-nee-icchauyo-song-release  # 8/18配信「新曲、本日より音楽配信開始」
-    - gaku-360live-seaside-studio  # 8/18配信「新機能『360°ライブ』・新ロケーション実装（更新あり）」
-    - gaku-summer-hashtag-campaign  # 8/18配信「ハッシュタグ投稿キャンペーン開始」
-    - gaku-gravure-gacha-vol2-switch  # 8/26配信「グラビアガシャ第2弾（秦谷美鈴）切替」
-    - gaku-gravure-gacha-end  # 9/4配信「本日終了」
-  status: done
-  notes: "8/14放送の生配信で発表された内容。全publish_plan消化済み（終了は9/4配信で記事化）。"
-
-- id: sc-admiral-sneaker-collab
-  title: "シャニマス×Admiralコラボスニーカー「CAMBRIDGE THE IDOLM@STER SHINY COLORS Edition」"
-  brand: sc
-  kind: 公式
-  event_start: "2026-06-26"
-  event_end: "2026-08-30"
-  status: done
-  confidence: confirmed
-  added: "2026-08-16"
-  source: "アイドルマスター公式ポータル news/01_19054／ファミ通"
-  facts: |
-    商品: 283プロダクション全8ユニットをイメージしたコラボスニーカー（各13,500円）
-    渋谷モディ店先行開催: 6/26〜7/12
-    なんばマルイ店POP UP＆試着会: 8/14（金）〜8/30（日）、5Fイベントスペース
-    受注販売: マルイウェブチャネルで6/26〜8/30まで並行実施
-  publish_plan:
-    - on: "2026-08-30"
-      angle: "本日なんばマルイ店最終日・受注販売終了"
-  used_in:
-    - sc-admiral-sneaker-popup-namba  # 8/16配信「なんばマルイで開催中」
-    - sc-admiral-sneaker-namba-final  # 8/30配信「本日最終日」
-  notes: "全publish_plan消化済み（8/30なんばマルイ会場最終日・受注販売終了で完全消化）。"
-
-- id: gaku-housoubu-0826
-  title: "初星学園放送部（第◯回・小鹿なおゲスト回）"
-  brand: gaku
-  kind: 公式
-  event_start: "2026-08-26"
-  event_end: "2026-08-26"
-  status: pending
-  confidence: confirmed
-  added: "2026-08-16"
-  source: "アイドルマスター公式ポータル news/01_19430"
-  facts: |
-    配信名: 学マス公式Webラジオ「初星学園放送部」次回放送
-    放送日: 2026年8月26日（水）
-    ゲスト: 月村手毬役・小鹿なお
-    放送時間・配信先の詳細は続報待ち
-  publish_plan:
-    - on: "2026-08-25"
-      angle: "明日放送予告"
-    - on: "2026-08-26"
-      angle: "本日放送・小鹿なおゲスト出演"
-  used_in:
-    - gaku-housoubu-0826-preview  # 8/16配信「次回放送決定・小鹿なおゲスト出演」
-    - gaku-housoubu-0826-tomorrow  # 8/25配信「明日放送予告」
-    - gaku-housoubu-0826-today  # 8/26配信「本日放送・小鹿なおゲスト出演」
-  status: done
-  notes: "放送は毎週水曜21:00（news/01_19430で確認）。全publish_plan消化済み。"
-
 - id: sidem-remembershot-fair3
   title: "SideM「リメンバーショット」フェア第3弾"
   brand: sidem
   kind: 公式
   event_start: "2026-08-15"
   event_end: "2026-09-06"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-08-16"
   source: "アイドルマスター公式ポータル news/01_19076／アニメイト通販"
@@ -1534,30 +1336,8 @@
       angle: "本日最終日"
   used_in:
     - sidem-remembershot-fair3-today  # 8/16配信「本日開始」
-  notes: "第4弾（10/3〜、柏木翼ら10名）とは対象アイドル別枠。最終日（9/6）が未消化。"
-
-- id: gaku-amayo-tsubame-another-gacha
-  title: "学マス「雨夜燕アナザーピックアップガシャ」"
-  brand: gaku
-  kind: 公式
-  event_start: "2026-08-14"
-  event_end: "2026-09-04"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-08-15"
-  source: "ゲーム内告知"
-  facts: |
-    内容: 雨夜燕のアナザーアイドルが一挙登場するピックアップガシャ
-    開催期間: 2026年8月14日（金）〜9月4日（金）
-    初回10連無料、有償限定SSR確定セレクトガシャも同時開催
-  publish_plan:
-    - on: "2026-09-04"
-      angle: "本日終了"
-  used_in:
-    - gaku-amayo-tsubame-another-gacha  # 8/15配信「昨日開始」
-    - gaku-amayo-tsubame-gacha-end  # 9/4配信「本日終了」
-  status: done
-  notes: "全publish_plan消化済み。"
+    - sidem-remembershot-fair3-final  # 9/6配信「本日最終日」
+  notes: "全publish_plan消化済み（最終日9/6で完全消化）。第4弾（10/3〜、柏木翼ら10名）とは対象アイドル別枠。"
 
 - id: cg-kotobukiya-magicalcheers-popup
   title: "シンデレラガールズ×寿屋 POP UP SHOP「A MAGICAL CHEERS」"
@@ -1565,7 +1345,7 @@
   kind: 公式
   event_start: "2026-08-21"
   event_end: "2026-09-06"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-08-18"
   source: "アイドルマスター公式ポータル news/01_19617／寿屋公式（kotobukiya.co.jp/event/detail/1258/）"
@@ -1585,7 +1365,8 @@
     - cg-kotobukiya-magicalcheers-popup  # 8/18配信「新発表」
     - cg-kotobukiya-magicalcheers-popup-tomorrow  # 8/20配信「明日開幕予告」
     - cg-kotobukiya-magicalcheers-popup-today  # 8/21配信「本日開幕」
-  notes: "出演アイドル・グッズ詳細は開催が近づいてから寿屋公式サイトで要追検証。明日開幕予告（8/20）・本日開幕（8/21）消化済み。最終日（9/6）が未消化。"
+    - cg-kotobukiya-magicalcheers-final  # 9/6配信「本日最終日」
+  notes: "全publish_plan消化済み（最終日9/6で完全消化）。出演アイドル・グッズ詳細は取得できず終了。"
 
 - id: sc-masterlivepiece-solo-live
   title: "283 PRODUCTION Solo Live Collection -Master ShowPiece-"
@@ -1699,13 +1480,36 @@
     - sc-parallel-korou-popup-announce  # 8/29配信「パラレル回廊、開催詳細判明」
     - sc-hopeful-feathers-edition-price  # 8/30配信「アルバム3形態・価格判明（更新あり）」
     - sc-parallel-korou-reservation-start  # 9/5配信「パラレル回廊、昨日事前予約受付開始」
+    - sc-natsumo-atsui-newsong-release  # 9/6配信「新曲『泡沫に染まる』、本日配信開始」
   facts: |
     パラレル回廊 入場事前予約: 2026年9月4日12:00〜9月13日23:59受付（news/01_19792）
     2026年サマーシャニソン楽曲「泡沫に染まる」: 2026年9月6日より配信開始
     アルバム「HOPEFUL FE@THERS」: 283プロダクション所属アイドルのソロ曲を多数収録、2026年9月16日発売。-Stella-・-Luna-・-Sol-の3形態、各3,960円（税込）
     発表元: 8月25日19時放送のニコニコ生放送「シャニマス生配信 ～8月も意外と暑い～ズSP～」（出演: 峯田茉優〈八宮めぐる役〉・前川涼子〈大崎甜花役〉）
     POP UP SHOP「パラレル回廊」（同放送で発表）: 2026年9月20日（日）〜27日（日）、秋葉原UDX（4Fギャラリー）で開催。テーマはガシャシリーズ「パラレルコレクション」（アイドルたちの「もしもの未来」を描く）。描き下ろしイラスト使用の新商品、パラレルコレクション関連イラストグッズ、制作コメント・ラフ画の一部展示を予定（8/29配信で詳細記事化済み、商品ラインナップ・対象アイドルは続報待ち）
-  notes: "アルバム収録アイドルの内訳・各形態の振り分けは続報待ち、要追検証。3形態・価格判明（8/30配信）。パラレル回廊の入場事前予約受付開始（9/4 12:00〜9/13 23:59）を9/5配信で記事化済み。商品ラインナップ・対象アイドルの詳細は続報待ち。"
+  notes: "アルバム収録アイドルの内訳・各形態の振り分けは続報待ち、要追検証。3形態・価格判明（8/30配信）。パラレル回廊の入場事前予約受付開始（9/4 12:00〜9/13 23:59）を9/5配信で記事化済み。新曲「泡沫に染まる」配信開始（9/6）消化済み。商品ラインナップ・対象アイドルの詳細は続報待ち。"
+
+- id: sidem-transcendent-tales-onlyshop
+  title: "SideM「TRANSCENDENT T@LES」完結記念オンリーショップ"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-09-05"
+  event_end: "2026-09-27"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-09-06"
+  source: "アニメイト公式サイト（animate.co.jp）"
+  facts: |
+    名称: THE IDOLM@STER SideM TRANSCENDENT T@LES 完結記念 オンリーショップ
+    会場: アニメイト池袋本店、開催期間2026年9月5日（土）〜9月27日（日）
+    内容: 315プロダクションの物語を描くCDシリーズ「TRANSCENDENT T@LES」全12巻の完結を記念。スタンディパネル49人分展示、記念グッズ販売
+    公式一次ソース（idolmaster-official.jp）での告知記事は未特定、アニメイト公式サイト経由で確認。グッズラインナップ・価格等は続報待ち
+  publish_plan:
+    - on: "2026-09-27"
+      angle: "本日最終日"
+  used_in:
+    - sidem-transcendent-tales-onlyshop  # 9/6配信「昨日アニメイト池袋本店で開幕」
+  notes: "開幕（9/5）分は記事化済み。グッズ詳細・公式一次ソースは要追検証。最終日（9/27）が未消化。"
 
 - id: sogo-imasradio-launch
   title: "新ラジオ番組「IM@S RADIO」放送開始"
