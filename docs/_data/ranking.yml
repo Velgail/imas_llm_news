@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-09-07 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-09-08 集計
 - rank: 1
-  name: "天海春香"
-  brand: as765
-  move: new
-- rank: 2
   name: "藤田ことね"
   brand: gaku
-  move: down
-- rank: 3
+  move: up
+- rank: 2
   name: "十王星南"
   brand: gaku
-  move: down
+  move: up
+- rank: 3
+  name: "緋田美琴"
+  brand: sc
+  move: new
 - rank: 4
+  name: "天海春香"
+  brand: as765
+  move: down
+- rank: 5
   name: "佐久間まゆ"
   brand: cg
-  move: new
-- rank: 5
+  move: down
+- rank: 6
   name: "北条加蓮"
   brand: cg
-  move: same
-- rank: 6
-  name: "黒井崇男"
-  brand: sogo
   move: down
 - rank: 7
-  name: "亜夜"
+  name: "黒井崇男"
   brand: sogo
-  move: down
+  move: same
 - rank: 8
   name: "有村麻央"
   brand: gaku
-  move: same
+  move: down

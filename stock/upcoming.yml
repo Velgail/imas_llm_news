@@ -48,6 +48,7 @@
     価格: 1回850円
     店頭販売開始: 2026年9月19日（土）
     オンライン販売開始: 2026年9月24日（木）17:00
+    取扱店: ローソン・書店・ホビーショップ・一部ドラッグストア・一番くじ公式ショップ・一番くじONLINE
   publish_plan:
     - on: "2026-09-18"
       angle: "明日店頭発売予告"
@@ -57,6 +58,55 @@
       angle: "本日オンライン販売開始"
   used_in: []
   notes: "くじ自体の企画発表は2026年4月時点で既出の可能性あり、販売チャネル・日程の詳細が9月に入り判明。"
+
+- id: godo-anime-girls-project-store-shanghai
+  title: "アニメガールズプロジェクトストア（上海）グランドオープン"
+  brand: godo
+  kind: 公式
+  event_start: "2026-09-22"
+  status: pending
+  confidence: confirmed
+  added: "2026-09-08"
+  source: "imasnews765.com（アイドルマスター情報まとめ）"
+  facts: |
+    内容: アイドルマスター・バンドリ！・ラブライブ！の3大シリーズが集結する新業態「アニメガールズプロジェクトストア」が上海にグランドオープン
+    開業日: 2026年9月22日（火）
+    詳細な取扱商品・アイドルマスター側の展開内容は続報待ち
+  publish_plan:
+    - on: "2026-09-21"
+      angle: "明日上海グランドオープン予告"
+    - on: "2026-09-22"
+      angle: "本日上海グランドオープン"
+  used_in: []
+  notes: "詳細な取扱ブランド・商品ラインナップは続報待ち、要追検証。"
+
+- id: gaku-seina-kotone-hif
+  title: "学マス「H.I.F編」十王星南＆藤田ことね新エピソード実装"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-09-09"
+  event_end: "2026-09-14"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-09-08"
+  source: "学園アイドルマスター公式X（@gkmas_official）／アイドルマスター公式ポータル"
+  facts: |
+    内容: 選抜試験で成績上位者から学園のトップアイドル「一番星（プリマステラ）」を決めるクライマックスシナリオ「H.I.F編」。十王星南・藤田ことねが同時実装予定
+    新ガシャ:「【ガラクタロード】星南ガシャ」（福岡公演DAY1で予告済み）
+    トーク番組: 「はつぼし放課後とーく」9月9日（水）20:00配信。出演は陽高真白（十王星南役）・飯田ヒカル（藤田ことね役）・山本亮（学マスプロデューサー）
+    実装時期: 9月上旬〜中旬の見込み（9月10日前後と予想する攻略サイトの見立てもあり、公式の正式発表は9/9番組内の見込み）
+  publish_plan:
+    - on: "2026-09-08"
+      angle: "明日9/9のトーク番組に飯田ヒカルさん出演決定"
+    - on: "2026-09-09"
+      angle: "本日20:00放送・H.I.F編詳細発表"
+    - on: "実装当日（未定・9月中旬見込み）"
+      angle: "H.I.F編・ガラクタロードガシャ本日実装"
+  used_in:
+    - gaku-seina-hif-fan-speculation  # 9/7配信「H.I.F編予告にファン考察（ファン話題）」
+    - gaku-hatsuboshi-houkago-talk-cast-add  # 9/8配信「はつぼし放課後とーく、明日9/9放送に飯田ヒカルさん出演決定」
+    - gaku-iida-hikaru-hatsuboshi-talk-buzz  # 9/8配信「飯田ヒカルさん出演決定にファン歓喜（ファン話題）」
+  notes: "9/9放送の『はつぼし放課後とーく』で詳細発表見込み。実装の正式日程が判明次第、event_start・publish_planを更新する。"
 
 - id: other-tours-s1ex
   title: "アイドルマスター TOURS「S1弾Ex」アップデート"
@@ -160,48 +210,6 @@
   used_in:
     - sc-futamasu-fukuroi-arisugawa  # 8/24配信「新パートナー決定」
   notes: "設置お披露目の具体的日程は続報待ち、要追検証。"
-
-- id: cg-genka-youen-ichi
-  title: "シンデレラガールズ POP UP SHOP「幻夏妖宴市」（百鬼夜行テーマ）"
-  brand: cg
-  kind: 公式
-  event_start: "2026-08-01"
-  event_end: "2026-09-06"
-  status: done
-  confidence: confirmed
-  added: "2026-07-12"
-  source: "アイドルマスター公式ポータル news/01_19347（2026年7月10日）"
-  facts: |
-    テーマ: 百鬼夜行
-    出演: 鷺沢文香・依田芳乃・白坂小梅・藤原肇（妖怪に扮した描き下ろし）＋ミニキャラ版
-    東京会場: 秋葉原館1F、8月1日（土）〜16日（日）
-    大阪会場: 日本橋店1F、8月21日（金）〜9月6日（日）
-    特典: 対象商品税込2,000円ごとにランダムでポストカード進呈（なくなり次第終了）
-    総選挙2026対象商品: 投票券に引換可能なシリアルコード付き商品あり
-  publish_plan:
-    - on: "2026-07-31"
-      angle: "明日東京会場開幕予告"
-    - on: "2026-08-01"
-      angle: "本日東京会場開幕"
-    - on: "2026-08-16"
-      angle: "本日東京会場最終日"
-    - on: "2026-08-20"
-      angle: "明日大阪会場開幕予告"
-    - on: "2026-08-21"
-      angle: "本日大阪会場開幕"
-    - on: "2026-09-06"
-      angle: "本日大阪会場最終日・全会期終了"
-  used_in:
-    - cg-genka-youen-ichi-details  # 7/12配信「詳細判明」
-    - cg-genka-youen-ichi-tomorrow  # 7/31配信「明日東京会場開幕予告」
-    - cg-genka-youen-ichi-today  # 8/1配信「本日東京会場開幕」
-    - cg-genka-youen-ichi-tokyo-remaining  # 8/15配信「東京会場、残り2日」
-    - cg-genka-youen-ichi-osaka-tomorrow  # 8/20配信「明日大阪会場開幕予告」
-    - cg-genka-youen-ichi-tokyo-final  # 8/16配信「東京会場、本日最終日」
-    - cg-genka-youen-ichi-osaka-today  # 8/21配信「本日大阪会場開幕」
-    - cg-genka-youen-ichi-osaka-opening-crowd  # 8/22配信「大阪会場、初日は混雑緩和のため整理券配布」
-    - cg-genka-youen-ichi-final  # 9/6配信「本日大阪会場最終日・全会期終了」
-  notes: "全publish_plan消化済み（9/6大阪会場最終日・全会期終了で完全消化）。"
 
 - id: godo-765x961-ultimate-live
   title: "765 PRODUCTION × 961 PRODUCTION IDOL ULTIMATE ONCE AND FOR ALL"
@@ -403,6 +411,7 @@
     - cg-sousenkyo-fan-yojijukugo  # 8/5配信「候補190人の公約四字熟語、ファンの間で考察に（ファン話題）」
     - cg-sousenkyo-animate-fair-end  # 8/23配信「アニメイト通販開催記念フェア、本日最終日」
     - cg-sousenkyo-checkin-expand  # 8/25配信「スポットチェックインに新たに5箇所追加」
+    - cg-sousenkyo-2026-vote-tenday  # 9/8配信「投票、締切まで残り10日」
   notes: "投票券ミッションは7/1配信で記事化済み。中間発表・結果発表日が未確定。日程が出たら on を絶対日付に更新すること。チェックインスポットは順次追加されるため、新規追加店舗が判明次第「更新あり」で継続記事化する。スポットチェックインミッションで7/1 12:00〜7/9 18:15に重複チェックインによる投票券の複数回獲得が発生し、7/22に是正済み（7/28配信・事実確認済み）。応援楽曲は第1弾「シンデレラNo.1」、第2弾「ROSE ～禁じられた愛～」（7/1発売）に続き、第3弾「だいすきのブーケ」（佐久間まゆ・五十嵐響子・相葉夕美、作詞:磯谷佳江／作曲編曲:賀佐泰洋）のMVが7/29 21:00公開予定（別途cg-daisukinobouquetエントリで管理）。投票フェーズは8/3正午に開始済み（8/3配信で記事化）。8/2の生配信「CG総選挙ST@TION」で15周年記念イベント（11/28-29 Kアリーナ横浜）の詳細（DAY1 LOVE/CHILL・DAY2 FABULOUS/MIRACLEの4グループ編成、出演声優約49名、生バンドCinderella Band出演）が解禁され、cg-15th-anniversary-liveのfactsを更新。総選挙公式グッズ（190人描き下ろしカードフォリオVol.4-6）が8/2 16:00より受注開始（〜9/13）。中間発表・結果発表日は引き続き未確定、判明次第on を絶対日付に更新。"
 
 - id: million-14th-live
@@ -716,6 +725,8 @@
     - sidem-11th-stage-costume-reveal  # 8/24配信「新衣装『トランセンデントリルード』ビジュアル公開」
     - sidem-11th-stage-goods-lottery-start  # 8/28配信「会場物販の抽選整理券受付が本日開始」
     - sidem-11th-stage-general-sale-closed  # 9/6配信「現地チケット一般発売が昨日23:59に受付終了」
+    - sidem-11th-stage-goods-lottery-result  # 9/8配信「会場物販の抽選整理券当落発表は本日13:00」
+    - sidem-11th-stage-goods-lottery-anticipation  # 9/8配信「物販整理券、当落発表控えファン緊張の面持ち（ファン話題）」
   facts: |
     会場: TOYOTA ARENA TOKYO
     日程: 2026年9月12日（土）・13日（日）
@@ -812,6 +823,7 @@
     - gaku-shirube-fukuoka-finale-buzz  # 9/7配信「福岡公演完走に感謝の声（ファン話題）」
     - gaku-shirube-iwate-general-sale  # 9/7配信「岩手公演、一般先着チケット受付中（9/9締切）」
     - gaku-seina-hif-fan-speculation  # 9/7配信「十王星南『H.I.F編』予告にファン考察（ファン話題）」
+    - gaku-shirube-iwate-general-sale-reminder  # 9/8配信「岩手公演、一般先着チケット受付残り2日」
   notes: "出演者・セトリ等の詳細は未取得。ファイナル公演のチケット価格・出演人数は公式サイト（live_event/gkmas_livetour_shirube配下）で確認済み。福井公演の出演者が判明済み（七瀬つむぎ・花岩香奈・薄井友里・松田彩音）。グッズ事前販売ファイナル締切（8/16）・福井公演開幕予告（8/19）・本日福井公演開幕（8/20、会場で福井県銘品「眼鏡堅麺麭」コラボ商品販売）・DAY1レポ＆新曲配信（8/21）・福井千秋楽レポ（8/22、DAY2はDAY1から13曲入れ替え・葛城リーリヤ「いつかのわたし」＆姫崎莉波「重なる夜空の痕跡に」新曲披露、CD「修楽旅行」予約開始9/23締切）・福岡公演一般発売開始（8/24、顔写真登録システム導入）・福岡公演グッズラインナップ判明（8/25、事前販売は4/30〜5/17で終了済み・公演直前の追加販売予定なしと事実確認済み）・福岡公演開幕予告（9/4）・本日福岡公演開幕（9/5）・福岡DAY1新曲配信開始（9/6）・福岡DAY2千秋楽＆新曲配信・岩手公演一般先着受付中（9/7）消化済み。岩手公演出演者は伊藤舞音（倉本千奈役）・湊みや（紫雲清夏役）・春咲暖（秦谷美鈴役）・陽高真白（十王星南役）と公式サイトで確認（発表時期不明のため記事化は見送り）。岩手公演レポ・ファイナル公演開幕予告以降が未消化。"
 
 - id: sc-283pro-solo-live-msp
@@ -848,32 +860,6 @@
     チケット価格: 全席指定14,000円（税込）、座席により一部ステージが見切れる可能性がある旨案内あり。一般発売日は続報待ち
     グッズ: ぬいぐるみ「ふわふぇいす」シリーズ（描き下ろし28種）、アイドルプロデュースアパレル 等（事前販売は7/12締切で終了済み）
   notes: "出演者・セトリ等の詳細は未取得。楽屋花・プレゼント受付方法（送付先はいずれも京王アリーナTOKYO メインエントランス気付、楽屋花サイズ上限40cm・指定到着日時は公演前日9/25 12:00〜16:00の1回のみ、プレゼント〈メッセージ類〉は公演当日9/26・27いずれも11:00〜開演前）が判明（8/23配信）。チケット価格（全席指定14,000円）判明（8/25配信、事実確認済み）。一般発売日は続報待ち、要追検証。【8/24事実確認】公式サイト（idolmaster-official.jp/live_event/283production_msp/）で4グループ編成（Maestria & Tradizione／Art & Couleurs／Street & Avant-garde／Urban & Lifestyle）と全出演声優は2026年3月19日公開・7月2日更新の時点で既に判明済みと確認。同ネタで再度「新発表」的に記事化しないよう注意。"
-
-- id: sogo-20th-piano-collection
-  title: "THE IDOLM@STER 20th Anniversary Piano Collection（CD化・収録楽曲アンケート）"
-  brand: sogo
-  kind: 公式
-  event_start: "2026-07-09"
-  event_end: "2026-09-06"
-  status: done
-  confidence: confirmed
-  added: "2026-07-10"
-  source: "アイドルマスター公式ポータル news/01_19328（2026年7月9日）"
-  facts: |
-    内容: 20周年記念ピアノアレンジアルバム。サブスク配信は7/9より119曲で世界配信開始。CD化決定、129曲収録予定（うちCD限定新規アレンジ10曲）
-    収録楽曲アンケート: 候補31曲から6曲を新規アレンジ化。7月12日（日）23:59締切
-    CD予約: ASOBI STORE限定、9月6日（日）締切
-  publish_plan:
-    - on: "2026-07-12"
-      angle: "本日収録楽曲アンケート締切"
-    - on: "2026-09-06"
-      angle: "本日CD予約締切"
-  used_in:
-    - sogo-20th-piano-collection  # 7/10配信「昨日配信開始・CD化決定」
-    - sogo-20th-piano-collection-deadline-tomorrow  # 7/11配信「収録楽曲アンケート、明日7/12締切」
-    - sogo-20th-piano-collection-survey-deadline  # 7/12配信「本日23:59締切」
-    - sogo-20th-piano-collection-cd-deadline  # 9/6配信「CD予約、本日23:59締切」
-  notes: "全publish_plan消化済み（CD予約締切9/6で完全消化）。CD収録の新規10曲確定はアンケート締切後に発表される見込み、要追検証。"
 
 - id: sc-refrac7ions-stillblue-live
   title: "シャニマス「shiny, the first REFRAC7IONS \"Still blue\"」"
@@ -1076,50 +1062,24 @@
   title: "コトブキヤくじ「アイドルマスター Summer Live st@ge」"
   brand: as765
   kind: 公式
-  status: pending
-  confidence: unconfirmed
+  event_start: "2026-08-21"
+  event_end: "2026-09-23"
+  status: partially-used
+  confidence: confirmed
   added: "2026-08-22"
   source: "アイドルマスター公式ポータル news/01_19428（2026年7月27日掲載）／コトブキヤくじ公式（kuji.kotobukiya.co.jp）"
   facts: |
     内容: 765プロダクション5名（天海春香・如月千早・星井美希・秋月律子・三浦あずさ）の夏空を背景にした描き下ろしイラスト
-    開催決定の発表自体は2026年7月27日付（新規性なし、記事化は詳細判明後に行う）
-    発売・賞品構成・販売方法の詳細は後日コトブキヤくじ公式サイト・X（@kotobukiya_kuji）で発表予定（8月下旬との情報は未確認のため要追検証）
+    販売期間: 2026年8月21日（金）10:00〜9月23日（水）23:59
+    形式: ハズレなしのオンラインくじ、1回から購入可。複数購入キャンペーンも実施
   publish_plan:
-    - on: "詳細発表後（未定）"
-      angle: "賞品構成・発売日判明"
-  used_in: []
-  notes: "8/22時点では7/27発表の内容そのままで新規性がないため記事化を見送り。詳細発表を待って記事化する。"
-
-- id: cg-jol-collabstore-legend-pinyacorata
-  title: "シンデレラガールズ JOL Collab Store POP UP STORE『Legend of Cinderella～ぴにゃこら太の伝説～』"
-  brand: cg
-  kind: 公式
-  event_start: "2026-08-21"
-  event_end: "2026-09-06"
-  status: done
-  confidence: confirmed
-  added: "2026-08-06"
-  source: "アイドルマスター公式ポータル news/01_19465"
-  facts: |
-    会場: MAGNET by SHIBUYA109「JOL Collab Store」
-    開催期間: 2026年8月21日（金）〜9月6日（日）、営業時間10:00〜21:00
-    同期間にオンライン販売も並行実施
-    購入特典: 会計税込3,000円ごとにポストカード進呈（なくなり次第終了見込み）
-    総選挙2026連動: 購入特典に投票券コードが付与される見込み
-  publish_plan:
-    - on: "2026-08-20"
-      angle: "明日開幕予告"
-    - on: "2026-08-21"
-      angle: "本日開幕"
-    - on: "2026-09-06"
-      angle: "本日最終日"
+    - on: "2026-09-22"
+      angle: "明日販売終了予告"
+    - on: "2026-09-23"
+      angle: "本日23:59販売終了"
   used_in:
-    - cg-jol-legend-pinyacorata-announce  # 8/12配信「8月21日開幕、開催概要判明」
-    - cg-jol-legend-pinyacorata-tomorrow  # 8/20配信「明日開幕予告」
-    - cg-jol-legend-pinyacorata-today  # 8/21配信「本日開幕」
-    - cg-jol-legend-pinyacorata-dates-confirmed  # 8/24配信「会期は9月6日までと確認」
-    - cg-jol-legend-pinyacorata-final  # 9/6配信「本日最終日」
-  notes: "全publish_plan消化済み（最終日9/6で完全消化）。出演アイドル・商品ラインナップ詳細は取得できず終了。"
+    - as765-kotobukiya-kuji-summerlive-details  # 9/8配信「5人描き下ろしで好評開催中」
+  notes: "8/22時点では7/27発表の内容そのままで新規性がないため記事化を見送っていたが、販売期間・形式の詳細判明で9/8配信にて記事化。販売終了（9/23）が未消化。"
 
 - id: cg-toppa-base-popup
   title: "シンデレラガールズ TOPPA!!!BASE 全国POP UP SHOP（バトルゲームワールド）"
@@ -1153,35 +1113,6 @@
     - cg-toppa-base-store-novelty  # 8/25配信「店舗別ノベルティの詳細判明」
     - cg-toppa-base-popup-today  # 8/27配信「本日全国一斉開幕」
   notes: "各店舗ごとの詳細な商品ラインナップ（アクリルスタンド6種・トレーディング缶バッジ6種・ドットフレークシール10種セット）が判明（8/23配信）。店舗別ノベルティ（本会場は来場記念ステッカー、各サテライト店舗は店舗別デザイン缶バッジ）判明（8/25配信）。サテライトショップ会期（9/14）は本会場（9/16）より2日短い点に注意。"
-
-- id: cg-sousenkyo-oendo-tokoshasai
-  title: "シンデレラガール総選挙2026「応援投稿祭」（ニコニコ動画）"
-  brand: cg
-  kind: 公式
-  event_start: "2026-09-04"
-  event_end: "2026-09-06"
-  status: done
-  confidence: confirmed
-  added: "2026-08-08"
-  source: "アイドルマスター公式ポータル news/01_19577（2026年8月7日19:30公開）"
-  facts: |
-    投稿期間: 2026年9月4日(金)17:00〜9月6日(日)23:59
-    参加方法: ニコニコ動画で応援動画投稿（規約は後日公開予定）
-    特典: 投稿者全員に投票券100枚（1名1回のみ）。各部門賞（計5部門・入賞15名）には190人描き下ろし「真纏麗羅武闘服♥」の屏風風色紙
-    背景: 11月開催予定の15周年イベント「THE IDOLM@STER CINDERELLA GIRLS 15th ANNIVERSARY PARTY!!!! ~ for your ONE ~」の各部門をモチーフにした5部門構成
-  publish_plan:
-    - on: "2026-09-03"
-      angle: "明日投稿祭開幕予告"
-    - on: "2026-09-04"
-      angle: "本日投稿祭開幕"
-    - on: "2026-09-06"
-      angle: "本日投稿祭最終日"
-  used_in:
-    - cg-sousenkyo-oendo-tokoshasai  # 8/8配信「新発表」
-    - cg-sousenkyo-oendo-tokoshasai-tomorrow  # 9/3配信「明日投稿祭開幕予告」
-    - cg-sousenkyo-oendo-tokoshasai-today  # 9/4配信「本日投稿祭開幕」
-    - cg-sousenkyo-oendo-tokoshasai-final  # 9/6配信「本日23:59で最終日」
-  notes: "全publish_plan消化済み（最終日9/6で完全消化）。投稿規約の詳細は取得できず終了。"
 
 - id: gaku-chugai-grace-cafe-revival
   title: "学園アイドルマスター×Chugai Grace Café リバイバル（渋谷モディ店）"
@@ -1324,58 +1255,6 @@
   used_in:
     - sidem-karatetsu-vol3-today  # 8/14配信「昨日全国10店舗で開幕」
   notes: "開幕（8/13）分は記事化済み。コラボ終了（10/5）が未消化。"
-
-- id: sidem-remembershot-fair3
-  title: "SideM「リメンバーショット」フェア第3弾"
-  brand: sidem
-  kind: 公式
-  event_start: "2026-08-15"
-  event_end: "2026-09-06"
-  status: done
-  confidence: confirmed
-  added: "2026-08-16"
-  source: "アイドルマスター公式ポータル news/01_19076／アニメイト通販"
-  facts: |
-    会場: 全国アニメイト、アニメイト通販
-    開催期間: 2026年8月15日（土）〜9月6日（日）
-    対象アイドル（10名描き下ろし）: 伊集院北斗・ピエール・信玄誠司・華村翔真・東雲荘一郎・岡村直央・舞田類・牙崎漣・秋月涼・葛之葉雨彦
-    特典: 対象商品購入1,100円ごとに切手風スタンプデザインステッカー（全10種ランダム）1枚
-  publish_plan:
-    - on: "2026-09-06"
-      angle: "本日最終日"
-  used_in:
-    - sidem-remembershot-fair3-today  # 8/16配信「本日開始」
-    - sidem-remembershot-fair3-final  # 9/6配信「本日最終日」
-  notes: "全publish_plan消化済み（最終日9/6で完全消化）。第4弾（10/3〜、柏木翼ら10名）とは対象アイドル別枠。"
-
-- id: cg-kotobukiya-magicalcheers-popup
-  title: "シンデレラガールズ×寿屋 POP UP SHOP「A MAGICAL CHEERS」"
-  brand: cg
-  kind: 公式
-  event_start: "2026-08-21"
-  event_end: "2026-09-06"
-  status: done
-  confidence: confirmed
-  added: "2026-08-18"
-  source: "アイドルマスター公式ポータル news/01_19617／寿屋公式（kotobukiya.co.jp/event/detail/1258/）"
-  facts: |
-    名称: A MAGICAL CHEERS（シンデレラガールズ×寿屋コラボPOP UP SHOP）
-    開催期間: 2026年8月21日（金）〜9月6日（日）
-    シンデレラガール総選挙2026（15周年記念）と連動。190名全アイドル分の新規グッズに加え、11名分の新規撮り下ろしグッズを展開予定
-    購入特典に総選挙2026投票券引換シリアルコード付与商品あり（詳細は続報待ち）
-  publish_plan:
-    - on: "2026-08-20"
-      angle: "明日開幕予告"
-    - on: "2026-08-21"
-      angle: "本日開幕"
-    - on: "2026-09-06"
-      angle: "本日最終日"
-  used_in:
-    - cg-kotobukiya-magicalcheers-popup  # 8/18配信「新発表」
-    - cg-kotobukiya-magicalcheers-popup-tomorrow  # 8/20配信「明日開幕予告」
-    - cg-kotobukiya-magicalcheers-popup-today  # 8/21配信「本日開幕」
-    - cg-kotobukiya-magicalcheers-final  # 9/6配信「本日最終日」
-  notes: "全publish_plan消化済み（最終日9/6で完全消化）。出演アイドル・グッズ詳細は取得できず終了。"
 
 - id: sc-masterlivepiece-solo-live
   title: "283 PRODUCTION Solo Live Collection -Master ShowPiece-"
@@ -1565,4 +1444,5 @@
       angle: "本日最終日"
   used_in:
     - sc-autumn-training-week  # 9/7配信「本日開始（9月29日まで）」
+    - sc-autumn-training-week-day2-buzz  # 9/8配信「開催2日目、SNSで編成議論白熱（ファン話題）」
   notes: "終了（9/29）が未消化。"
