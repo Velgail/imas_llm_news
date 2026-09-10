@@ -85,30 +85,32 @@
   brand: gaku
   kind: 公式
   event_start: "2026-09-09"
-  event_end: "2026-09-14"
-  status: partially-used
+  event_end: "2026-09-10"
+  status: done
   confidence: confirmed
   added: "2026-09-08"
-  source: "学園アイドルマスター公式X（@gkmas_official）／アイドルマスター公式ポータル"
+  source: "学園アイドルマスター公式X（@gkmas_official）／アイドルマスター公式ポータル／ゲーム内アップデート情報"
   facts: |
-    内容: 選抜試験で成績上位者から学園のトップアイドル「一番星（プリマステラ）」を決めるクライマックスシナリオ「H.I.F編」。十王星南・藤田ことねが同時実装予定
-    新ガシャ:「【ガラクタロード】星南ガシャ」（福岡公演DAY1で予告済み）
+    内容: 選抜試験で成績上位者から学園のトップアイドル「一番星（プリマステラ）」を決めるクライマックスシナリオ「H.I.F編」。十王星南・藤田ことねのSTEP4シナリオとあわせて実装
+    新ガシャ:「ガラクタロードフェス」星南ガシャ（福岡公演DAY1で予告済み）
     トーク番組: 「はつぼし放課後とーく」9月9日（水）20:00配信。出演は陽高真白（十王星南役）・飯田ヒカル（藤田ことね役）・山本亮（学マスプロデューサー）
-    実装時期: 9月上旬〜中旬の見込み（9月10日前後と予想する攻略サイトの見立てもあり、公式の正式発表は9/9番組内の見込み）
+    実装日時: 2026年9月10日（木）11:00、H.I.F編・STEP4・ガラクタロードフェス星南ガシャが同時実装
   publish_plan:
     - on: "2026-09-08"
       angle: "明日9/9のトーク番組に飯田ヒカルさん出演決定"
     - on: "2026-09-09"
       angle: "本日20:00放送・H.I.F編詳細発表"
-    - on: "実装当日（未定・9月中旬見込み）"
-      angle: "H.I.F編・ガラクタロードガシャ本日実装"
+    - on: "2026-09-10"
+      angle: "H.I.F編・ガラクタロードフェス星南ガシャ本日11:00実装"
   used_in:
     - gaku-seina-hif-fan-speculation  # 9/7配信「H.I.F編予告にファン考察（ファン話題）」
     - gaku-hatsuboshi-houkago-talk-cast-add  # 9/8配信「はつぼし放課後とーく、明日9/9放送に飯田ヒカルさん出演決定」
     - gaku-iida-hikaru-hatsuboshi-talk-buzz  # 9/8配信「飯田ヒカルさん出演決定にファン歓喜（ファン話題）」
     - gaku-seina-kotone-hif-broadcast-today  # 9/9配信「本日20時放送、H.I.F編詳細発表へ」
     - gaku-hif-broadcast-anticipation-buzz  # 9/9配信「詳細発表を控えファンの期待続々（ファン話題）」
-  notes: "9/9放送の『はつぼし放課後とーく』で詳細発表見込み。実装の正式日程が判明次第、event_start・publish_planを更新する。放送当日分（本日20時放送予告）を9/9配信で記事化済み。放送後の詳細判明を次回更新すること。"
+    - gaku-seina-kotone-hif-garakuta-implementation  # 9/10配信「H.I.F編・ガラクタロードフェス星南ガシャ、本日11:00実装」
+    - gaku-hif-implementation-fan-buzz  # 9/10配信「実装を控えファンの熱視線続く（ファン話題）」
+  notes: "実装日時（9/10 11:00）確定・記事化済み。全て消化済みのためdropped候補、次回更新時にエントリごと削除してよい。"
 
 - id: other-tours-s1ex
   title: "アイドルマスター TOURS「S1弾Ex」アップデート"
@@ -732,6 +734,8 @@
     - sidem-11th-stage-goods-lottery-anticipation  # 9/8配信「物販整理券、当落発表控えファン緊張の面持ち（ファン話題）」
     - sidem-11th-stage-delivery-goods-web  # 9/9配信「差し入れ企画『315デリバリー』・グッズWEB販売の詳細判明」
     - sidem-11th-stage-countdown-buzz  # 9/9配信「開幕まで残り3日、差し入れ企画にファン反応（ファン話題）」
+    - sidem-11th-kamisabi-sales-announce  # 9/10配信「会場でカードゲーム『KAMISABI』販売・体験会が決定」
+    - sidem-11th-stage-countdown-day2  # 9/10配信「開幕まで残り2日（ファン話題）」
   facts: |
     会場: TOYOTA ARENA TOKYO
     日程: 2026年9月12日（土）・13日（日）
@@ -831,6 +835,7 @@
     - gaku-seina-hif-fan-speculation  # 9/7配信「十王星南『H.I.F編』予告にファン考察（ファン話題）」
     - gaku-shirube-iwate-general-sale-reminder  # 9/8配信「岩手公演、一般先着チケット受付残り2日」
     - gaku-shirube-iwate-general-sale-deadline  # 9/9配信「岩手公演、一般先着チケット本日23:59締切」
+    - gaku-shirube-iwate-resale-deadline  # 9/10配信「岩手公演、公式リセール受付が本日9:59締切」
   notes: "出演者・セトリ等の詳細は未取得。ファイナル公演のチケット価格・出演人数は公式サイト（live_event/gkmas_livetour_shirube配下）で確認済み。福井公演の出演者が判明済み（七瀬つむぎ・花岩香奈・薄井友里・松田彩音）。グッズ事前販売ファイナル締切（8/16）・福井公演開幕予告（8/19）・本日福井公演開幕（8/20、会場で福井県銘品「眼鏡堅麺麭」コラボ商品販売）・DAY1レポ＆新曲配信（8/21）・福井千秋楽レポ（8/22、DAY2はDAY1から13曲入れ替え・葛城リーリヤ「いつかのわたし」＆姫崎莉波「重なる夜空の痕跡に」新曲披露、CD「修楽旅行」予約開始9/23締切）・福岡公演一般発売開始（8/24、顔写真登録システム導入）・福岡公演グッズラインナップ判明（8/25、事前販売は4/30〜5/17で終了済み・公演直前の追加販売予定なしと事実確認済み）・福岡公演開幕予告（9/4）・本日福岡公演開幕（9/5）・福岡DAY1新曲配信開始（9/6）・福岡DAY2千秋楽＆新曲配信・岩手公演一般先着受付中（9/7）・岩手公演一般先着本日23:59締切（9/9、リセール受付は翌9/10 9:59まで）消化済み。岩手公演出演者は伊藤舞音（倉本千奈役）・湊みや（紫雲清夏役）・春咲暖（秦谷美鈴役）・陽高真白（十王星南役）と公式サイトで確認（発表時期不明のため記事化は見送り）。岩手公演レポ・ファイナル公演開幕予告以降が未消化。"
 
 - id: sc-283pro-solo-live-msp
@@ -849,6 +854,10 @@
     グッズ事前販売ファイナル＆協賛社グッズ販売: 〜7月12日（日）受付
     グッズ: ぬいぐるみ「ふわふぇいす」シリーズ、アイドルプロデュースアパレル（数量限定）、コンサートライト全28種、タオル、法被 等
   publish_plan:
+    - on: "2026-09-15"
+      angle: "現地物販整理券、本日23:59締切"
+    - on: "2026-09-22"
+      angle: "現地物販整理券、本日13:00当落発表"
     - on: "2026-09-25"
       angle: "明日開幕予告"
     - on: "2026-09-26"
@@ -861,6 +870,7 @@
     - sc-283pro-msp-presale-deadline-today  # 7/12配信「グッズ事前販売ファイナル、本日23:59締切」
     - sc-283pro-msp-hanaboard  # 8/23配信「楽屋花・プレゼントの受付方法が判明」
     - sc-283pro-msp-ticket-info  # 8/25配信「チケット価格判明」
+    - sc-283production-msp-goods-lottery-start  # 9/10配信「現地物販整理券、本日13:00受付開始」
   facts: |
     会場: 京王アリーナ TOKYO
     日程: 2026年9月26日（土）・27日（日）
@@ -1177,6 +1187,7 @@
       angle: "本日最終日"
   used_in:
     - ml-operaseria-vol2-cast  # 8/8配信「追加キャラ2名判明」
+    - ml-operaseria-popup-tomorrow  # 9/10配信「明日開幕」
   notes: "グッズラインナップは続報待ち、要追検証。"
 
 - id: sidem-hands-knickknacks-vol1
@@ -1453,3 +1464,53 @@
     - sc-autumn-training-week  # 9/7配信「本日開始（9月29日まで）」
     - sc-autumn-training-week-day2-buzz  # 9/8配信「開催2日目、SNSで編成議論白熱（ファン話題）」
   notes: "終了（9/29）が未消化。"
+
+- id: sidem-anideal-daimaru-perfume
+  title: "SideM×Anideal 大丸コラボレーション香水 第1弾"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-09-11"
+  event_end: "2026-10-15"
+  status: pending
+  confidence: confirmed
+  added: "2026-09-10"
+  source: "アイドルマスター公式ポータル news/01_19820"
+  facts: |
+    内容: フレグランスブランド「Anideal」と大丸のコラボレーション香水・第1弾メンバー分。コラボビジュアル使用のサイン入りポストカード付属
+    予約期間: 2026年9月11日(金)12:00〜10月15日(木)14:59
+    お届け予定: 2027年3月中旬以降
+    続報: DRAMATIC STARS・Beit・W・Café Parade・F-LAGSは10月下旬以降に順次展開予定（要追検証）
+  publish_plan:
+    - on: "2026-09-11"
+      angle: "本日12:00予約開始"
+    - on: "2026-10-15"
+      angle: "本日14:59予約締切"
+  used_in:
+    - sidem-anideal-daimaru-perfume-reservation  # 9/10配信「予約は明日12:00から（明日予告）」
+  notes: "第1弾の対象メンバー名は未取得、要追検証。第2弾以降（DRAMATIC STARS等）の詳細判明次第、別エントリとして追加する。"
+
+- id: valiv-online-1on1-13th
+  title: "PROJECT vα-liv 限定オンライン1on1 第13回"
+  brand: valiv
+  kind: 公式
+  event_start: "2026-10-03"
+  event_end: "2026-10-04"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-09-10"
+  source: "アイドルマスター公式ポータル news/01_19842"
+  facts: |
+    内容: ヴイアライヴメンバーとのオンラインミーティングイベント。ミーティング中のスクリーンショット撮影・SNS投稿可
+    開催日: 灯里愛夏 2026年10月3日(土)、上水流宇宙・レトラ 2026年10月4日(日)
+    抽選受付期間: 2026年9月9日(水)12:00〜9月15日(火)23:59
+    料金: Sレッスン（2分）各5,500円、SS+レッスン（4分）各13,200円、SSS+レッスン（6分）各18,700円（いずれも税込）
+  publish_plan:
+    - on: "2026-09-15"
+      angle: "抽選受付、本日23:59締切"
+    - on: "2026-10-03"
+      angle: "灯里愛夏、本日開催"
+    - on: "2026-10-04"
+      angle: "上水流宇宙・レトラ、本日開催"
+  used_in:
+    - valiv-online-1on1-13th-lottery-start  # 9/10配信「抽選受付が昨日スタート」
+  notes: "当落発表日は未取得、要追検証。"
