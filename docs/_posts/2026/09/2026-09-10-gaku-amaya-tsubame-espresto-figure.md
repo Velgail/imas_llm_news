@@ -1,11 +1,11 @@
 ---
-title: "雨夜燕、初のプライズフィギュア化「ESPRESTO-Swallow pattern-」本日展開開始"
+title: "雨夜燕、初のプライズフィギュア化「ESPRESTO-Swallow pattern-」昨日から展開中"
 edition_date: "2026-09-11"
 slug: gaku-amaya-tsubame-espresto-figure
 brand: gaku
 kind: 公式
-badge: "本日展開開始"
-lead: "初星学園生徒会副会長・雨夜燕の初となるプライズフィギュア「学園アイドルマスター ESPRESTO-Swallow pattern-雨夜燕」が、本日より全国のゲームセンター・オンラインクレーンで展開を開始した。"
+badge: "展開中"
+lead: "初星学園生徒会副会長・雨夜燕の初となるプライズフィギュア「学園アイドルマスター ESPRESTO-Swallow pattern-雨夜燕」が、昨日9月10日より全国のゲームセンター・オンラインクレーンで展開を開始し、現在も稼働中だ。"
 source: "HOBBY Watch（hobby.watch.impress.co.jp/docs/news/2135645.html）／バンプレストナビサイト"
 tags: [学マス, 雨夜燕, プライズフィギュア]
 ---
