@@ -80,38 +80,6 @@
   used_in: []
   notes: "詳細な取扱ブランド・商品ラインナップは続報待ち、要追検証。"
 
-- id: gaku-seina-kotone-hif
-  title: "学マス「H.I.F編」十王星南＆藤田ことね新エピソード実装"
-  brand: gaku
-  kind: 公式
-  event_start: "2026-09-09"
-  event_end: "2026-09-10"
-  status: done
-  confidence: confirmed
-  added: "2026-09-08"
-  source: "学園アイドルマスター公式X（@gkmas_official）／アイドルマスター公式ポータル／ゲーム内アップデート情報"
-  facts: |
-    内容: 選抜試験で成績上位者から学園のトップアイドル「一番星（プリマステラ）」を決めるクライマックスシナリオ「H.I.F編」。十王星南・藤田ことねのSTEP4シナリオとあわせて実装
-    新ガシャ:「ガラクタロードフェス」星南ガシャ（福岡公演DAY1で予告済み）
-    トーク番組: 「はつぼし放課後とーく」9月9日（水）20:00配信。出演は陽高真白（十王星南役）・飯田ヒカル（藤田ことね役）・山本亮（学マスプロデューサー）
-    実装日時: 2026年9月10日（木）11:00、H.I.F編・STEP4・ガラクタロードフェス星南ガシャが同時実装
-  publish_plan:
-    - on: "2026-09-08"
-      angle: "明日9/9のトーク番組に飯田ヒカルさん出演決定"
-    - on: "2026-09-09"
-      angle: "本日20:00放送・H.I.F編詳細発表"
-    - on: "2026-09-10"
-      angle: "H.I.F編・ガラクタロードフェス星南ガシャ本日11:00実装"
-  used_in:
-    - gaku-seina-hif-fan-speculation  # 9/7配信「H.I.F編予告にファン考察（ファン話題）」
-    - gaku-hatsuboshi-houkago-talk-cast-add  # 9/8配信「はつぼし放課後とーく、明日9/9放送に飯田ヒカルさん出演決定」
-    - gaku-iida-hikaru-hatsuboshi-talk-buzz  # 9/8配信「飯田ヒカルさん出演決定にファン歓喜（ファン話題）」
-    - gaku-seina-kotone-hif-broadcast-today  # 9/9配信「本日20時放送、H.I.F編詳細発表へ」
-    - gaku-hif-broadcast-anticipation-buzz  # 9/9配信「詳細発表を控えファンの期待続々（ファン話題）」
-    - gaku-seina-kotone-hif-garakuta-implementation  # 9/10配信「H.I.F編・ガラクタロードフェス星南ガシャ、本日11:00実装」
-    - gaku-hif-implementation-fan-buzz  # 9/10配信「実装を控えファンの熱視線続く（ファン話題）」
-  notes: "実装日時（9/10 11:00）確定・記事化済み。全て消化済みのためdropped候補、次回更新時にエントリごと削除してよい。"
-
 - id: other-tours-s1ex
   title: "アイドルマスター TOURS「S1弾Ex」アップデート"
   brand: other
@@ -416,6 +384,7 @@
     - cg-sousenkyo-checkin-expand  # 8/25配信「スポットチェックインに新たに5箇所追加」
     - cg-sousenkyo-2026-vote-tenday  # 9/8配信「投票、締切まで残り10日」
     - cg-sousenkyo-climax-special-exhibition  # 9/9配信「投票クライマックス特別展示、9/12・13開催決定」
+    - cg-sousenkyo-climax-exhibition-tomorrow  # 9/11配信「投票クライマックス特別展示、明日開催予告」
   notes: "投票券ミッションは7/1配信で記事化済み。中間発表・結果発表日が未確定。日程が出たら on を絶対日付に更新すること。チェックインスポットは順次追加されるため、新規追加店舗が判明次第「更新あり」で継続記事化する。スポットチェックインミッションで7/1 12:00〜7/9 18:15に重複チェックインによる投票券の複数回獲得が発生し、7/22に是正済み（7/28配信・事実確認済み）。応援楽曲は第1弾「シンデレラNo.1」、第2弾「ROSE ～禁じられた愛～」（7/1発売）に続き、第3弾「だいすきのブーケ」（佐久間まゆ・五十嵐響子・相葉夕美、作詞:磯谷佳江／作曲編曲:賀佐泰洋）のMVが7/29 21:00公開予定（別途cg-daisukinobouquetエントリで管理）。投票フェーズは8/3正午に開始済み（8/3配信で記事化）。8/2の生配信「CG総選挙ST@TION」で15周年記念イベント（11/28-29 Kアリーナ横浜）の詳細（DAY1 LOVE/CHILL・DAY2 FABULOUS/MIRACLEの4グループ編成、出演声優約49名、生バンドCinderella Band出演）が解禁され、cg-15th-anniversary-liveのfactsを更新。総選挙公式グッズ（190人描き下ろしカードフォリオVol.4-6）が8/2 16:00より受注開始（〜9/13）。中間発表・結果発表日は引き続き未確定、判明次第on を絶対日付に更新。投票終盤を盛り上げる「投票クライマックス」特別展示が9月12日・13日に開催決定（会場・展示内容の詳細は続報待ち、9/9配信で記事化）。"
 
 - id: million-14th-live
@@ -582,8 +551,9 @@
     - valiv-kamitsuru-archive-period  # 8/24配信「アーカイブ配信期間が判明」
     - valiv-kamitsuru-deadline-announce  # 8/25配信「先行抽選受付締切、8/31 23:59に決定」
     - valiv-kamizuru-birthday-live-schedule  # 9/9配信「本編15:00〜・アフタートーク21:00〜で配信スケジュール判明」
+    - valiv-kamitsuru-sora-birthday-live-tomorrow  # 9/11配信「明日開催予告」
   status: partially-used
-  notes: "先行抽選の受付締切は8/31 23:59に決定（8/25配信）、当落発表は9月上旬予定。グッズ内容の詳細は続報待ち、要追検証。アーカイブ配信期間（9/12〜10/12）判明（8/24配信）。配信スケジュール（本編15:00〜16:30予定、アフタートーク21:00〜予定、ASOBI STAGE配信）判明（9/9配信）。"
+  notes: "先行抽選の受付締切は8/31 23:59に決定（8/25配信）、当落発表は9月上旬予定。グッズ内容の詳細は続報待ち、要追検証。アーカイブ配信期間（9/12〜10/12）判明（8/24配信）。配信スケジュール（本編15:00〜16:30予定、アフタートーク21:00〜予定、ASOBI STAGE配信）判明（9/9配信）。明日開催予告（9/11配信）消化済み、本日開催（9/12）が未消化。"
 
 - id: sidem-joypolis-collab3
   title: "アイドルマスター SideM in JOYPOLIS 3"
@@ -613,7 +583,9 @@
       angle: "本日最終日"
   used_in:
     - sidem-joypolis-collab3-announce  # 8/31配信「新発表・9月12日開催決定」
-  notes: "開幕予告（9/11）・本日開幕（9/12）・最終日（12/6）が未消化。"
+    - sidem-joypolis-collab3-tomorrow  # 9/11配信「明日開幕予告」
+  status: partially-used
+  notes: "開幕予告（9/11配信）消化済み。本日開幕（9/12）・最終日（12/6）が未消化。"
 
 - id: sidem-derasu-ambassador
   title: "「でらます」×SideM DRAMATIC STARS 名鉄観光サービス公式アンバサダー"
@@ -683,12 +655,13 @@
     - sidem-royal-chess-lounge-today  # 8/19配信「本日名古屋栄店開幕」
     - sidem-royal-chess-lounge-menu-reveal  # 8/25配信「名古屋栄店、コラボメニュー・グッズ詳細判明」
     - sidem-royal-chess-lounge-nagoya-final  # 9/1配信「名古屋栄店、本日最終日」
+    - sidem-royal-chess-lounge-shinsaibashi-tomorrow  # 9/11配信「明日心斎橋店開幕予告」
   facts: |
     名称: THE IDOLM@STER SideM「Royal Chess Lounge」
     会場・会期: 名古屋栄店 2026年8月19日(水)〜9月1日(火)／心斎橋店 9月12日(土)〜9月24日(木)／池袋店 10月8日(木)〜10月20日(火)
     3会場を順に巡回する形式のコラボカフェ企画
     コラボメニュー・グッズ（8/25判明）: チェス駒モチーフのフード・ドリンクメニュー、来店特典ランダムコースター（全12種）、物販はアクリルスタンド・アクリルコースター・ミニ色紙等
-  notes: "出演アイドルの詳細は開催が近づいてから公式サイト（smilebase.co.jp）で要追検証。コラボメニュー・グッズ詳細判明（8/25配信）。名古屋栄店最終日（9/1配信で記事化済み）。心斎橋店開幕予告（9/11）以降が未消化。"
+  notes: "出演アイドルの詳細は開催が近づいてから公式サイト（smilebase.co.jp）で要追検証。コラボメニュー・グッズ詳細判明（8/25配信）。名古屋栄店最終日（9/1配信で記事化済み）。心斎橋店開幕予告（9/11配信）消化済み。本日心斎橋店開幕（9/12）以降が未消化。"
 
 - id: sidem-11th-stage
   title: "THE IDOLM@STER SideM 11th STAGE ～EVER EVER＠FTER～"
@@ -736,6 +709,8 @@
     - sidem-11th-stage-countdown-buzz  # 9/9配信「開幕まで残り3日、差し入れ企画にファン反応（ファン話題）」
     - sidem-11th-kamisabi-sales-announce  # 9/10配信「会場でカードゲーム『KAMISABI』販売・体験会が決定」
     - sidem-11th-stage-countdown-day2  # 9/10配信「開幕まで残り2日（ファン話題）」
+    - sidem-11th-stage-tomorrow  # 9/11配信「明日開幕予告」
+    - sidem-11th-stage-goods-web-sale-start  # 9/11配信「公式グッズWEB販売、本日17:00スタート（〜10/4）」
   facts: |
     会場: TOYOTA ARENA TOKYO
     日程: 2026年9月12日（土）・13日（日）
@@ -747,7 +722,8 @@
     公演テーマ: 「語り継がれる物語」。CDシリーズ「TRANSCENDENT T@LES」で描かれる315プロダクションの物語が軸。新衣装「トランセンデントリルード」のビジュアルが公開中
     会場物販整理券: ASOBI TICKET受付8/28 13:00〜9/2 23:59、当落発表9/8 13:00〜（8/28配信で記事化済み）
     差し入れ企画「みんなで食べよう！パッション全開！315デリバリー!!!!!!!!!!」: 1件315円（税込）、受付9/11 17:00〜9/13 23:59。購入者はニックネーム付きメッセージ送信・アイドルからのサンキューメッセージ受取・マイチケットページからの「11th STAGEバックステージパス」画像ダウンロード特典あり
-  notes: "出演者・セトリ等の詳細は未取得。会場物販・CD情報（8/22）・現地引換チケット一般発売開始（8/23）・新衣装ビジュアル公開（8/24）・現地チケット一般発売、昨日23:59受付終了（9/6）・物販整理券当落発表（9/8）・差し入れ企画『315デリバリー』受付詳細（9/9）消化済み。明日9/11開幕予告以降が未消化。"
+    公式グッズWEB販売（ASOBI STORE）: 受付9/11 17:00〜10/4、shop.asobistore.jp/feature/sidem11th_p
+  notes: "出演者・セトリ等の詳細は未取得。会場物販・CD情報（8/22）・現地引換チケット一般発売開始（8/23）・新衣装ビジュアル公開（8/24）・現地チケット一般発売、昨日23:59受付終了（9/6）・物販整理券当落発表（9/8）・差し入れ企画『315デリバリー』受付詳細（9/9）・明日開幕予告（9/11配信）・公式グッズWEB販売開始（9/11配信）消化済み。本日開幕・DAY1（9/12）以降が未消化。"
 
 - id: sc-project-relight-axe8
   title: "Project \"ReLight\" AXE8（シャニマス全ユニット新ロゴ・新衣装・新曲刷新企画）"
@@ -1188,7 +1164,8 @@
   used_in:
     - ml-operaseria-vol2-cast  # 8/8配信「追加キャラ2名判明」
     - ml-operaseria-popup-tomorrow  # 9/10配信「明日開幕」
-  notes: "グッズラインナップは続報待ち、要追検証。"
+    - ml-operaseria-popup-today  # 9/11配信「本日開幕」
+  notes: "グッズラインナップは続報待ち、要追検証。本日開幕（9/11配信）消化済み。最終日（9/27）が未消化。"
 
 - id: sidem-hands-knickknacks-vol1
   title: "アイドルマスター SideM knick-knacks Vol.1（ハンズ50周年コラボ）"
@@ -1487,7 +1464,9 @@
       angle: "本日14:59予約締切"
   used_in:
     - sidem-anideal-daimaru-perfume-reservation  # 9/10配信「予約は明日12:00から（明日予告）」
-  notes: "第1弾の対象メンバー名は未取得、要追検証。第2弾以降（DRAMATIC STARS等）の詳細判明次第、別エントリとして追加する。"
+    - sidem-anideal-daimaru-perfume-start  # 9/11配信「本日12:00予約開始」
+  status: partially-used
+  notes: "第1弾の対象メンバー名は未取得、要追検証。第2弾以降（DRAMATIC STARS等）の詳細判明次第、別エントリとして追加する。本日予約開始（9/11配信）消化済み。予約締切（10/15）が未消化。"
 
 - id: valiv-online-1on1-13th
   title: "PROJECT vα-liv 限定オンライン1on1 第13回"
