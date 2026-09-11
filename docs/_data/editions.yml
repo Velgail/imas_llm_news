@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-09-11"
+  dateLong: "2026年（令和8年）9月11日　金曜日"
+  pages: "全 13 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "SideM11th STAGE、明日ついにTOYOTA ARENA TOKYOで開幕"
+  indexNote: "昨日9/10は学マス「H.I.F編」・ガラクタロードフェス星南ガシャの実装が話題を呼び、パラメータ上限引き上げによる高性能にファンが驚きの声を上げた。雨夜燕の初プライズフィギュア「ESPRESTO-Swallow pattern-」も展開開始。本日はミリオンライブのPOP UP SHOP「オペラセリア」がコトブキヤ秋葉原館で開幕、ミリシタ「SONG FOR YOU！ガシャ VOL.78」が15:00に登場したほか、SideM×Anideal香水の予約が12:00にスタート、SideM11th STAGEは公式グッズWEB販売が17:00に始まり、常設ショップ「315!!!SHOP」も猫耳執事テーマで始動した。明日9/12はSideM11th STAGE（TOYOTA ARENA TOKYO）がついに開幕するほか、東京ジョイポリスとのコラボ第3弾、コラボカフェ「Royal Chess Lounge」心斎橋店、876プロ／ヴイアライヴ上水流宇宙のバースデーライブ、総選挙2026「投票クライマックス」特別展示も一斉にスタートする。総選挙2026は「#CG総選挙アートコンテスト」への応援イラスト投稿も続いている。"
 - date: "2026-09-10"
   dateLong: "2026年（令和8年）9月10日　木曜日"
   pages: "全 10 面"
