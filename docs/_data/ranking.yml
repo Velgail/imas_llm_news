@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-09-11 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-09-12 集計
 - rank: 1
-  name: "藤田ことね"
-  brand: gaku
-  move: same
-- rank: 2
-  name: "十王星南"
-  brand: gaku
-  move: same
-- rank: 3
   name: "上水流宇宙"
   brand: valiv
-  move: new
+  move: up
+- rank: 2
+  name: "藤田ことね"
+  brand: gaku
+  move: down
+- rank: 3
+  name: "十王星南"
+  brand: gaku
+  move: down
 - rank: 4
+  name: "四条貴音"
+  brand: ml
+  move: new
+- rank: 5
+  name: "夢見りあむ"
+  brand: cg
+  move: new
+- rank: 6
+  name: "栗原ネネ"
+  brand: cg
+  move: same
+- rank: 7
   name: "灯里愛夏"
   brand: valiv
   move: down
-- rank: 5
-  name: "栗原ネネ"
-  brand: cg
-  move: down
-- rank: 6
+- rank: 8
   name: "緋田美琴"
   brand: sc
-  move: down
-- rank: 7
-  name: "音無小鳥"
-  brand: ml
-  move: down
-- rank: 8
-  name: "天海春香"
-  brand: as765
   move: down

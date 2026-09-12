@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-09-12"
+  dateLong: "2026年（令和8年）9月12日　土曜日"
+  pages: "全 10 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "SideM11th STAGE、本日TOYOTA ARENA TOKYOでついに開幕"
+  indexNote: "昨日9/11はミリシタPOP UP SHOP「オペラセリア」がコトブキヤ秋葉原館で開幕、開幕日を含む3日間はデジタルQR整理券制での運用と判明した。学マスは藤田ことねの1/7フィギュア「冠菊Ver.」（ALTER、2027年9月発売）の予約が正午に開始、876プロ／ヴイアライヴは上水流宇宙バースデーライブへ四条貴音・灯里愛夏・レトラの出演が直前判明した。SideM11th STAGEは機材席開放に伴い当日券の販売も急遽決定。本日はSideM11th STAGE ～EVER EVER＠FTER～がTOYOTA ARENA TOKYOでDAY1を迎えるほか、東京ジョイポリスとのコラボ第3弾、コラボカフェ「Royal Chess Lounge」心斎橋店が開幕、876プロ／ヴイアライヴの上水流宇宙はバースデーライブ開催と誕生日が重なった。シンデレラガール総選挙2026は「投票クライマックス」特別展示が本日・明日の2日間開催され、本日はシンデレラガールズの夢見りあむが誕生日。"
 - date: "2026-09-11"
   dateLong: "2026年（令和8年）9月11日　金曜日"
   pages: "全 13 面"
