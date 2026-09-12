@@ -13,7 +13,7 @@
   move: down
 - rank: 4
   name: "四条貴音"
-  brand: ml
+  brand: as765
   move: new
 - rank: 5
   name: "夢見りあむ"
@@ -22,7 +22,7 @@
 - rank: 6
   name: "栗原ネネ"
   brand: cg
-  move: same
+  move: down
 - rank: 7
   name: "灯里愛夏"
   brand: valiv
