@@ -1,26 +1,26 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-09-12 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-09-13 集計
 - rank: 1
+  name: "神速一魂"
+  brand: sidem
+  move: new
+- rank: 2
   name: "上水流宇宙"
   brand: valiv
-  move: up
-- rank: 2
-  name: "藤田ことね"
-  brand: gaku
   move: down
 - rank: 3
-  name: "十王星南"
-  brand: gaku
-  move: down
-- rank: 4
-  name: "四条貴音"
-  brand: as765
-  move: new
-- rank: 5
-  name: "夢見りあむ"
+  name: "南条光"
   brand: cg
   move: new
+- rank: 4
+  name: "袖屋璃空"
+  brand: sogo
+  move: new
+- rank: 5
+  name: "四条貴音"
+  brand: as765
+  move: down
 - rank: 6
-  name: "栗原ネネ"
+  name: "夢見りあむ"
   brand: cg
   move: down
 - rank: 7
@@ -28,6 +28,6 @@
   brand: valiv
   move: down
 - rank: 8
-  name: "緋田美琴"
-  brand: sc
+  name: "十王星南"
+  brand: gaku
   move: down

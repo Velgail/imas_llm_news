@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-09-13"
+  dateLong: "2026年（令和8年）9月13日　日曜日"
+  pages: "全 11 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "SideM×シャニマス初対バン「SPARKLE SHOWDOWN」、来年6月横浜アリーナで開催決定"
+  indexNote: "昨日9/12はSideM11th STAGE ～EVER EVER＠FTER～がTOYOTA ARENA TOKYOでDAY1を完走、本編の最後にSideM×シャニマス初の合同対バンライブ「SPARKLE SHOWDOWN」（2027年6月5日・6日、横浜アリーナ）が電撃発表され会場が沸いた。あわせてLIVE Blu-ray発売（2027年7月14日）、プロデューサーミーティング2027「AJewelholIc!!!」（2027年3月13日・14日、京王アリーナTOKYO）、Mフェス初のテーマソング「Season's Greetings Party！」（12月2日発売）も次々に発表された。東京ジョイポリスとのコラボ第3弾「SideM in JOYPOLIS 3」も開幕し、撃音ライブコースターのリニューアル等アトラクション詳細が判明。876プロ／ヴイアライヴの上水流宇宙は誕生日バースデーライブを開催し、四条貴音・灯里愛夏・レトラが花を添えた。ミリシタは「14thLIVE」（9/19・20開催）を記念したログインボーナス・宝石アイテムのキャンペーンもスタートした。本日はシンデレラガール総選挙2026「投票クライマックス」特別展示が最終日を迎える。"
 - date: "2026-09-12"
   dateLong: "2026年（令和8年）9月12日　土曜日"
   pages: "全 10 面"
