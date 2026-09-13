@@ -2,6 +2,105 @@
 # event_start 昇順（直近が先頭）。配信日に該当する予定があれば取り出して記事化する。
 #
 
+- id: sidem-producer-meeting-2027
+  title: "THE IDOLM@STER SideM PRODUCER MEETING ～AJewelholIc!!!～"
+  brand: sidem
+  kind: 公式
+  event_start: "2027-03-13"
+  event_end: "2027-03-14"
+  status: pending
+  confidence: confirmed
+  added: "2026-09-13"
+  source: "ファミ通（2026年9月13日）／アイドルマスター公式ポータル live_event/sidem_pm2027"
+  facts: |
+    会場: 京王アリーナTOKYO
+    日程: 2027年3月13日（土）・14日（日）
+    11th STAGE DAY1（9/12）の会場で発表。公式サイトは9月12日オープン
+    出演・チケット詳細は続報予定
+  publish_plan:
+    - on: "詳細発表日（未定）"
+      angle: "出演・チケット詳細判明"
+    - on: "2027-03-12"
+      angle: "明日開幕予告"
+    - on: "2027-03-13"
+      angle: "本日開催・DAY1"
+    - on: "2027-03-14"
+      angle: "本日DAY2・完走レポ"
+  used_in:
+    - sidem-producer-meeting-2027-announce  # 9/13配信「新発表」
+  notes: "出演・チケット詳細は続報待ち、要追検証。"
+
+- id: sidem-11th-stage-bluray
+  title: "SideM 11th STAGE LIVE Blu-ray"
+  brand: sidem
+  kind: 公式
+  event_start: "2027-07-14"
+  status: pending
+  confidence: confirmed
+  added: "2026-09-13"
+  source: "ファミ通（2026年9月13日）／Lantis web site"
+  facts: |
+    内容: 「THE IDOLM@STER SideM 11th STAGE ～EVER EVER＠FTER～」LIVE Blu-ray
+    発売日: 2027年7月14日（水）
+    通常版: 26,400円（税込）、BD5枚組（品番LABX9015〜9）、DAY1・DAY2本編＋バックステージ映像収録
+    ASOBI STORE特装版: 39,600円（税込）、朗読劇「PASSIONABLE READING SHOW ～魂環の人形（マリオネット）～」抜粋収録の特典ディスク付き
+  publish_plan:
+    - on: "予約開始日（未定）"
+      angle: "予約受付開始"
+    - on: "2027-07-13"
+      angle: "明日発売予告"
+    - on: "2027-07-14"
+      angle: "本日発売"
+  used_in:
+    - sidem-11th-stage-bluray-announce  # 9/13配信「新発表」
+  notes: "予約開始日は続報待ち、要追検証。"
+
+- id: sidem-mfes-2026-theme-song
+  title: "Mフェス2026 in Winter Wonderland テーマソング「Season's Greetings Party！」"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-12-02"
+  status: pending
+  confidence: confirmed
+  added: "2026-09-13"
+  source: "ファミ通（2026年9月13日）"
+  facts: |
+    内容: Mフェス恒例企画では初となるテーマソング。歌唱はW・神速一魂・C.FIRSTの3ユニット、各ソロバージョンも収録
+    発売日: 2026年12月2日（水）
+  publish_plan:
+    - on: "予約開始日（未定）"
+      angle: "予約受付開始"
+    - on: "2026-12-01"
+      angle: "明日発売予告"
+    - on: "2026-12-02"
+      angle: "本日発売"
+  used_in:
+    - sidem-mfes-2026-theme-song  # 9/13配信「新発表」
+  notes: "予約開始日・Mフェス本体の日程は続報待ち、要追検証。"
+
+- id: gaku-ichibankuji-part7
+  title: "一番くじ 学園アイドルマスター Part7"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-12-12"
+  status: pending
+  confidence: confirmed
+  added: "2026-09-13"
+  source: "電撃ホビーウェブ（2026年8月7日）／HOBBY Watch"
+  facts: |
+    内容: 一番くじ「学園アイドルマスター Part7」。葛城リーリヤ・紫雲清夏・姫崎莉波の1/7フィギュア（「Gracemaster」シリーズ、A〜C賞）ほか、Kiraraizuマスコット・ミニのぼりスタンド・ラバーチャーム・クリアファイル等（D〜H賞）
+    価格: 1回850円（税込）
+    発売開始: 2026年12月12日（土）より順次
+    ラストワン賞: 紫雲清夏フィギュアのLast One Ver.、ダブルチャンス賞も同フィギュア
+    販売元: BANDAI SPIRITS
+  publish_plan:
+    - on: "2026-12-11"
+      angle: "明日発売予告"
+    - on: "2026-12-12"
+      angle: "本日発売開始"
+  used_in: []
+  notes: "発表自体は8/7付で既に1週間以上前のため単独記事化は見送り、発売が近づいたら取り出す。オンライン販売開始日は続報待ち。"
+
 - id: sidem-seibuen-retrose-party
   title: "SideM×西武園ゆうえんち「超!!レトローズパーティ」"
   brand: sidem
@@ -99,6 +198,42 @@
   used_in:
     - other-tours-s1ex-speculation  # 9/4配信「実装日巡りファンが考察合戦（ファン話題）」
   notes: "具体的な実装日が判明次第、publish_planを更新して記事化する。"
+
+- id: godo-sidem-sc-sparkle-showdown
+  title: "THE IDOLM@STER SideM × SHINY COLORS SPARKLE SHOWDOWN"
+  brand: godo
+  kind: 公式
+  event_start: "2027-06-05"
+  event_end: "2027-06-06"
+  status: pending
+  confidence: confirmed
+  added: "2026-09-13"
+  source: "アイドルマスター公式ポータル news/01_19789／電ファミニコゲーマー（2026年9月12日）"
+  facts: |
+    名称: THE IDOLM@STER SideM × SHINY COLORS SPARKLE SHOWDOWN（SideMとシャイニーカラーズ初の合同対バンライブ）
+    日程: 2027年6月5日（土）・6日（日）
+    会場: 横浜アリーナ
+    開場/開演: 両日とも16:00/17:30（予定）
+    コンセプト: 315プロダクションと283プロダクションが激突する対バン形式
+    出演: DAY1 SideM5ユニット×シャニマス4ユニット、DAY2 異なる編成のSideM5ユニット×シャニマス4ユニット（詳細ユニット名は続報待ち）
+    チケット: 一般指定席13,500円、プロデューサーシート（各プロダクションエリア指定）14,000円、SPプロデューサーシート（アリーナエリア＋限定グッズ）20,000円（いずれも税込）
+    プレミアム会員先行受付: 2026年9月12日21:00〜10月12日23:59（ASOBI STOREプレミアム12ヶ月会員限定）
+    発表経緯: SideM 11th STAGE DAY1（9/12）の本編最後に発表
+  publish_plan:
+    - on: "2026-10-12"
+      angle: "プレミアム会員先行、本日23:59締切"
+    - on: "出演ユニット詳細発表日（未定）"
+      angle: "出演ユニット詳細判明"
+    - on: "2027-06-04"
+      angle: "明日開幕予告"
+    - on: "2027-06-05"
+      angle: "本日開幕・DAY1"
+    - on: "2027-06-06"
+      angle: "本日千秋楽"
+  used_in:
+    - godo-sidem-sc-sparkle-showdown-announce  # 9/13配信「新発表・本日21:00プレミアム会員先行受付開始」
+    - godo-sidem-sc-sparkle-showdown-buzz  # 9/13配信「発表にファン熱狂（ファン話題）」
+  notes: "出演ユニットの詳細名・配信チケット情報は続報待ち、要追検証。"
 
 - id: cg-yamanashi-walkwander
   title: "シンデレラガールズ×山梨「やまなし WALK & WANDER」"
@@ -387,6 +522,7 @@
     - cg-sousenkyo-climax-exhibition-tomorrow  # 9/11配信「投票クライマックス特別展示、明日開催予告」
     - cg-sousenkyo-climax-exhibition-today  # 9/12配信「投票クライマックス特別展示、本日開催」
     - cg-sousenkyo-climax-exhibition-buzz  # 9/12配信「クライマックス展示にファン続々レポ（ファン話題）」
+    - cg-sousenkyo-climax-exhibition-final  # 9/13配信「投票クライマックス特別展示、本日最終日」
   notes: "投票券ミッションは7/1配信で記事化済み。中間発表・結果発表日が未確定。日程が出たら on を絶対日付に更新すること。チェックインスポットは順次追加されるため、新規追加店舗が判明次第「更新あり」で継続記事化する。スポットチェックインミッションで7/1 12:00〜7/9 18:15に重複チェックインによる投票券の複数回獲得が発生し、7/22に是正済み（7/28配信・事実確認済み）。応援楽曲は第1弾「シンデレラNo.1」、第2弾「ROSE ～禁じられた愛～」（7/1発売）に続き、第3弾「だいすきのブーケ」（佐久間まゆ・五十嵐響子・相葉夕美、作詞:磯谷佳江／作曲編曲:賀佐泰洋）のMVが7/29 21:00公開予定（別途cg-daisukinobouquetエントリで管理）。投票フェーズは8/3正午に開始済み（8/3配信で記事化）。8/2の生配信「CG総選挙ST@TION」で15周年記念イベント（11/28-29 Kアリーナ横浜）の詳細（DAY1 LOVE/CHILL・DAY2 FABULOUS/MIRACLEの4グループ編成、出演声優約49名、生バンドCinderella Band出演）が解禁され、cg-15th-anniversary-liveのfactsを更新。総選挙公式グッズ（190人描き下ろしカードフォリオVol.4-6）が8/2 16:00より受注開始（〜9/13）。中間発表・結果発表日は引き続き未確定、判明次第on を絶対日付に更新。投票終盤を盛り上げる「投票クライマックス」特別展示が9月12日・13日に開催決定（会場・展示内容の詳細は続報待ち、9/9配信で記事化）。"
 
 - id: million-14th-live
@@ -433,6 +569,7 @@
     - ml-14thlive-general-lottery-result  # 8/11配信「本日一般会員先行抽選の当落発表」
     - ml-14thlive-secondlottery-result  # 8/28配信「一般会員2次先行の当落発表は昨日」
     - ml-14thlive-countdown-buzz  # 9/4配信「開幕まで2週間、百瀬莉緒への期待続々（ファン話題）」
+    - ml-14thlive-ingame-campaign  # 9/13配信「ログインボーナス＆宝石アイテムが昨日スタート」
   status: partially-used
   notes: "出演者・タイトル・チケット詳細は6/13生配信後に facts を更新済み。9月の開幕予告〜閉幕レポが未消化。【8/7判明・更新】イベントグッズ事前二次販売が数量限定で8/6〜8/16受付中（主演4名描き下ろしグッズ・公式招待状ブロマイド等）。アソビストア一般会員2次先行（全席指定14,000円等、7/31 12:00〜8/16 23:59受付）の当落発表（8/27 13:00〜）は8/28配信で記事化済み。入金期間は続報待ち。"
 
@@ -557,8 +694,9 @@
     - valiv-kamizuru-birthday-live-schedule  # 9/9配信「本編15:00〜・アフタートーク21:00〜で配信スケジュール判明」
     - valiv-kamitsuru-sora-birthday-live-tomorrow  # 9/11配信「明日開催予告」
     - valiv-kamitsuru-sora-birthday-live-today  # 9/12配信「本日開催・四条貴音ら豪華ゲストも出演」
+    - valiv-kamitsuru-sora-birthday-live-report  # 9/13配信「昨日開催・豪華ゲストが花を添える」
   status: done
-  notes: "先行抽選の受付締切は8/31 23:59に決定（8/25配信）。グッズ内容・スペシャルゲスト（四条貴音・灯里愛夏・レトラ）判明。配信スケジュール（本編15:00〜16:30予定、アフタートーク21:00〜予定、ASOBI STAGE配信）判明（9/9配信）。本日開催（9/12配信）まで全publish_plan消化済み。"
+  notes: "先行抽選の受付締切は8/31 23:59に決定（8/25配信）。グッズ内容・スペシャルゲスト（四条貴音・灯里愛夏・レトラ）判明。配信スケジュール（本編15:00〜16:30予定、アフタートーク21:00〜予定、ASOBI STAGE配信）判明（9/9配信）。本日開催（9/12配信）・開催後レポ（9/13配信）まで全publish_plan消化済み。"
 
 - id: sidem-joypolis-collab3
   title: "アイドルマスター SideM in JOYPOLIS 3"
@@ -590,8 +728,9 @@
     - sidem-joypolis-collab3-announce  # 8/31配信「新発表・9月12日開催決定」
     - sidem-joypolis-collab3-tomorrow  # 9/11配信「明日開幕予告」
     - sidem-joypolis-collab3-today  # 9/12配信「本日開幕」
+    - sidem-joypolis3-attractions-update  # 9/13配信「アトラクション詳細判明（更新あり）」
   status: partially-used
-  notes: "開幕予告（9/11配信）・本日開幕（9/12配信）消化済み。最終日（12/6）が未消化。"
+  notes: "開幕予告（9/11配信）・本日開幕（9/12配信）・アトラクション詳細判明（9/13配信、撃音ライブコースター・ワイルドリバー・フォーチュンフォレスト等）消化済み。最終日（12/6）が未消化。"
 
 - id: sidem-derasu-ambassador
   title: "「でらます」×SideM DRAMATIC STARS 名鉄観光サービス公式アンバサダー"
@@ -721,6 +860,7 @@
     - sidem-11th-stage-goods-web-sale-start  # 9/11配信「公式グッズWEB販売、本日17:00スタート（〜10/4）」
     - sidem-11th-stage-today  # 9/12配信「本日開幕・DAY1、当日券販売も決定」
     - sidem-11th-stage-opening-buzz  # 9/12配信「開幕、SNSで実況ムード最高潮（ファン話題）」
+    - sidem-11th-stage-day1-report-day2  # 9/13配信「昨日DAY1完走・本日DAY2で千秋楽へ」
   facts: |
     会場: TOYOTA ARENA TOKYO
     日程: 2026年9月12日（土）・13日（日）
@@ -733,7 +873,7 @@
     会場物販整理券: ASOBI TICKET受付8/28 13:00〜9/2 23:59、当落発表9/8 13:00〜（8/28配信で記事化済み）
     差し入れ企画「みんなで食べよう！パッション全開！315デリバリー!!!!!!!!!!」: 1件315円（税込）、受付9/11 17:00〜9/13 23:59。購入者はニックネーム付きメッセージ送信・アイドルからのサンキューメッセージ受取・マイチケットページからの「11th STAGEバックステージパス」画像ダウンロード特典あり
     公式グッズWEB販売（ASOBI STORE）: 受付9/11 17:00〜10/4、shop.asobistore.jp/feature/sidem11th_p
-  notes: "出演者・セトリ等の詳細は未取得。会場物販・CD情報（8/22）・現地引換チケット一般発売開始（8/23）・新衣装ビジュアル公開（8/24）・現地チケット一般発売、昨日23:59受付終了（9/6）・物販整理券当落発表（9/8）・差し入れ企画『315デリバリー』受付詳細（9/9）・明日開幕予告（9/11配信）・公式グッズWEB販売開始（9/11配信）・本日開幕・DAY1、当日券販売決定（9/12配信）消化済み。DAY2レポ＆閉幕レポ（9/13・9/14）が未消化。"
+  notes: "出演者・セトリ等の詳細は未取得。会場物販・CD情報（8/22）・現地引換チケット一般発売開始（8/23）・新衣装ビジュアル公開（8/24）・現地チケット一般発売、昨日23:59受付終了（9/6）・物販整理券当落発表（9/8）・差し入れ企画『315デリバリー』受付詳細（9/9）・明日開幕予告（9/11配信）・公式グッズWEB販売開始（9/11配信）・本日開幕・DAY1、当日券販売決定（9/12配信）・DAY1レポ＆本日DAY2（9/13配信）消化済み。DAY1本編最後にSPARKLE SHOWDOWN・Blu-ray・プロデューサーミーティング2027・Mフェステーマソングの4件が発表され、それぞれ別エントリで管理（godo-sidem-sc-sparkle-showdown／sidem-producer-meeting-2027／sidem-11th-stage-bluray／sidem-mfes-2026-theme-song）。閉幕レポ（9/14）が未消化。"
 
 - id: sc-project-relight-axe8
   title: "Project \"ReLight\" AXE8（シャニマス全ユニット新ロゴ・新衣装・新曲刷新企画）"
