@@ -1141,7 +1141,9 @@
       angle: "本日キャンペーン終了"
   used_in:
     - gaku-suntory-vending-collab2  # 8/5配信「昨日開始」
-  notes: "第1弾からの継続キャンペーン。対象アイドル・グッズデザインの詳細は未取得、要追検証。"
+    - gaku-suntory-vending-collab2-end  # 9/14配信「本日終了」
+  notes: "第1弾からの継続キャンペーン。対象アイドル・グッズデザインの詳細は未取得、要追検証。全publish_plan消化済み。"
+  status: done
 
 - id: sidem-divercity-tokyo-plaza
   title: "アイドルマスター SideM in ダイバーシティ東京 プラザ"
@@ -1257,7 +1259,8 @@
     - cg-toppa-base-goods-reveal  # 8/23配信「グッズラインナップが判明」
     - cg-toppa-base-store-novelty  # 8/25配信「店舗別ノベルティの詳細判明」
     - cg-toppa-base-popup-today  # 8/27配信「本日全国一斉開幕」
-  notes: "各店舗ごとの詳細な商品ラインナップ（アクリルスタンド6種・トレーディング缶バッジ6種・ドットフレークシール10種セット）が判明（8/23配信）。店舗別ノベルティ（本会場は来場記念ステッカー、各サテライト店舗は店舗別デザイン缶バッジ）判明（8/25配信）。サテライトショップ会期（9/14）は本会場（9/16）より2日短い点に注意。"
+    - cg-toppa-base-satellite-final  # 9/14配信「サテライト5店舗、本日最終日」
+  notes: "各店舗ごとの詳細な商品ラインナップ（アクリルスタンド6種・トレーディング缶バッジ6種・ドットフレークシール10種セット）が判明（8/23配信）。店舗別ノベルティ（本会場は来場記念ステッカー、各サテライト店舗は店舗別デザイン缶バッジ）判明（8/25配信）。サテライトショップ会期（9/14）は本会場（9/16）より2日短い点に注意。サテライト最終日（9/14配信）消化済み。本会場最終日（9/16）が未消化。"
 
 - id: gaku-chugai-grace-cafe-revival
   title: "学園アイドルマスター×Chugai Grace Café リバイバル（渋谷モディ店）"
@@ -1288,7 +1291,8 @@
     - gaku-chugai-cafe-tomorrow  # 9/2配信「明日9/3開幕予告」
     - gaku-chugai-cafe-today  # 9/3配信「本日渋谷モディ店で開幕」
     - gaku-chugai-cafe-menu-detail  # 9/5配信「メニュー詳細判明（更新あり）」
-  notes: "重複していたstockエントリ（gaku-chugai-cafe-revival, added 8/29）を本エントリに統合（2026-09-02）。メニュー・グッズ詳細を9/5配信で記事化済み（事実確認: 各社ニュースサイト掲載のChugai Grace Cafe公式リリース内容と一致）。最終日（9/27）が未消化。"
+    - gaku-chugai-cafe-half2-preview  # 9/14配信「明日から後半特典に切替」
+  notes: "重複していたstockエントリ（gaku-chugai-cafe-revival, added 8/29）を本エントリに統合（2026-09-02）。メニュー・グッズ詳細を9/5配信で記事化済み（事実確認: 各社ニュースサイト掲載のChugai Grace Cafe公式リリース内容と一致）。前半→後半特典切替予告（9/14配信）消化済み。最終日（9/27）が未消化。"
 
 - id: ml-operaseria-popup
   title: "ミリオンライブ POP UP SHOP「オペラセリア」（コトブキヤ秋葉原館）"
@@ -1570,7 +1574,8 @@
       angle: "本日初回配信・ゲスト判明"
   used_in:
     - sogo-imasradio-announce  # 8/29配信「9月15日スタート決定」
-  notes: "初回ゲスト・具体的なコーナー内容は続報待ち、要追検証。"
+    - sogo-imasradio-tomorrow  # 9/14配信「明日初回配信予告」
+  notes: "初回ゲスト・具体的なコーナー内容は続報待ち、要追検証。明日初回配信予告（9/14配信）消化済み。本日初回配信・ゲスト判明（9/15）が未消化。"
 
 - id: sc-autumn-training-week-202609
   title: "シャニマス「秋のアイドル強化週間」"
