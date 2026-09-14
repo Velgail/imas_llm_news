@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-09-14"
+  dateLong: "2026年（令和8年）9月14日　月曜日"
+  pages: "全 15 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "SideM、11th STAGE千秋楽で家庭用ゲーム化・劇場版11月公開を電撃発表"
+  indexNote: "昨日9/13はSideM 11th STAGE ～EVER EVER＠FTER～がTOYOTA ARENA TOKYOでDAY2を迎え、2日間の会期を完走。千秋楽ではシリーズ史上初となる家庭用ゲーム化プロジェクトの始動と、劇場版「F＠NTASTIC BATTLE FES ～Who goes first～」の11月20日公開が電撃発表され、新ストーリー「CONNECT WITH STAGE!」「CONNECT WITH MUSIC!」・新企画「AJIプロジェクト」もあわせて始動、会場もSNSも歓喜に包まれた。シンデレラガール総選挙2026は「投票クライマックス」特別展示（渋谷ちかみち）が閉幕し、総選挙グッズ「真纏麗羅武闘服」・Memory Pict.第6弾の受注も締切。CG×ミリオンライブ合同ライブ「CLASH M@TCH!!」はプレミアム会員先行受付を終えた。シャニマスはPOP UP「パラレル回廊」の来場予約受付が終了、ミリオンライブは「オペラセリア」出演キャラクターの詳細をあらためて確認。学マスはセブン-イレブン限定ブロマイドの発売が始まった。本日はTOPPA!!!BASEのサテライト5店舗が最終日、学マス×サントリー自販機コラボが終了、Chugai Grace Caféは後半特典に切替、総選挙投票券ミッションチャレンジは23:59締切を迎える。明日は新ラジオ番組「IM@S RADIO」が初回配信。本日はシンデレラガールズの姫川友紀、ミリオンライブの最上静香、SideMの円城寺道流が誕生日を迎える。"
 - date: "2026-09-13"
   dateLong: "2026年（令和8年）9月13日　日曜日"
   pages: "全 11 面"
