@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-09-14 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-09-15 集計
 - rank: 1
-  name: "天道輝"
-  brand: sidem
-  move: new
-- rank: 2
-  name: "円城寺道流"
-  brand: sidem
-  move: new
-- rank: 3
-  name: "姫川友紀"
-  brand: cg
-  move: new
-- rank: 4
   name: "最上静香"
   brand: ml
+  move: up
+- rank: 2
+  name: "秋月律子"
+  brand: as765
+  move: new
+- rank: 3
+  name: "菊地真"
+  brand: as765
+  move: new
+- rank: 4
+  name: "秋月涼"
+  brand: sidem
   move: new
 - rank: 5
-  name: "北沢志保"
-  brand: ml
-  move: new
+  name: "天道輝"
+  brand: sidem
+  move: down
 - rank: 6
-  name: "徳川まつり"
+  name: "周防桃子"
   brand: ml
   move: new
 - rank: 7
-  name: "上水流宇宙"
-  brand: valiv
+  name: "姫川友紀"
+  brand: cg
   move: down
 - rank: 8
-  name: "神速一魂"
-  brand: sidem
+  name: "上水流宇宙"
+  brand: valiv
   move: down
