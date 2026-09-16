@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-09-15 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-09-16 集計
 - rank: 1
-  name: "最上静香"
+  name: "周防桃子"
   brand: ml
   move: up
 - rank: 2
-  name: "秋月律子"
-  brand: as765
-  move: new
-- rank: 3
-  name: "菊地真"
-  brand: as765
-  move: new
-- rank: 4
-  name: "秋月涼"
-  brand: sidem
-  move: new
-- rank: 5
-  name: "天道輝"
-  brand: sidem
-  move: down
-- rank: 6
-  name: "周防桃子"
+  name: "木下ひなた"
   brand: ml
   move: new
-- rank: 7
-  name: "姫川友紀"
+- rank: 3
+  name: "徳川まつり"
+  brand: ml
+  move: new
+- rank: 4
+  name: "神谷奈緒"
   brand: cg
+  move: new
+- rank: 5
+  name: "詩花"
+  brand: sogo
+  move: new
+- rank: 6
+  name: "月村手毬"
+  brand: gaku
+  move: new
+- rank: 7
+  name: "最上静香"
+  brand: ml
   move: down
 - rank: 8
-  name: "上水流宇宙"
-  brand: valiv
+  name: "姫川友紀"
+  brand: cg
   move: down
