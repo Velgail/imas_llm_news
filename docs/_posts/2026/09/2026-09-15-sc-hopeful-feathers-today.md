@@ -6,7 +6,7 @@ brand: sc
 kind: 公式
 badge: "本日発売"
 lead: "283プロダクション所属アイドルのソロ曲を多数収録したアルバム『HOPEFUL FE@THERS』が、本日9月16日に発売された。"
-source: "アイドルマスター公式ポータル news/01_19700 ／ Lantis web site"
+source: "アイドルマスター公式ポータル news/01_19509（生配信お知らせまとめ）／ Lantis web site"
 tags: [シャイニーカラーズ, HOPEFUL FE@THERS, アルバム]
 ---
 
