@@ -1,11 +1,11 @@
 ---
-title: "コトブキヤくじ「アイドルマスター Summer Live st@ge」、販売終了まで残り6日"
+title: "コトブキヤくじ「アイドルマスター Summer Live st@ge」、販売終了まで残り5日"
 edition_date: "2026-09-18"
 slug: as765-kotobukiya-kuji-summerlive-reminder
 brand: as765
 kind: 公式
 badge: "9/23締切"
-lead: "765プロダクション5名の描き下ろしイラストを使用したコトブキヤくじ「アイドルマスター Summer Live st@ge」が、9月23日23:59の販売終了まで残り6日となった。"
+lead: "765プロダクション5名の描き下ろしイラストを使用したコトブキヤくじ「アイドルマスター Summer Live st@ge」が、9月23日23:59の販売終了まで残り5日となった。"
 source: "アイドルマスター公式ポータル news/01_19428／コトブキヤくじ公式"
 tags: [765プロ, コトブキヤくじ, グッズ]
 ---
