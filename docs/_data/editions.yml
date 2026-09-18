@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-09-18"
+  dateLong: "2026年（令和8年）9月18日　金曜日"
+  pages: "全 10 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "シンデレラガール総選挙2026、投票は本日23:59に締切"
+  indexNote: "昨日はTOURS「S1弾Ex」実装で周防桃子が初参戦、本日は総選挙2026投票締切とTeddy's Collection II難波会場開幕、明日はミリオンライブ！14thLIVEがいよいよ開幕する。"
 - date: "2026-09-17"
   dateLong: "2026年（令和8年）9月17日　木曜日"
   pages: "全 11 面"
