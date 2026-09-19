@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-09-18 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-09-19 集計
 - rank: 1
   name: "徳川まつり"
   brand: ml
   move: up
 - rank: 2
-  name: "馬場このみ"
+  name: "エミリー・スチュアート"
   brand: ml
   move: new
 - rank: 3
-  name: "周防桃子"
+  name: "馬場このみ"
   brand: ml
   move: down
 - rank: 4
   name: "有村麻央"
   brand: gaku
-  move: new
+  move: up
 - rank: 5
-  name: "蒼井悠介"
-  brand: sidem
-  move: down
+  name: "百瀬莉緒"
+  brand: ml
+  move: new
 - rank: 6
-  name: "鷹富士茄子"
-  brand: cg
-  move: down
+  name: "大崎甜花"
+  brand: sc
+  move: new
 - rank: 7
-  name: "白石紬"
+  name: "周防桃子"
   brand: ml
   move: down
 - rank: 8
-  name: "木下ひなた"
-  brand: ml
+  name: "蒼井悠介"
+  brand: sidem
   move: down
