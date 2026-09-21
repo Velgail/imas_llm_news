@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-09-20 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-09-21 集計
 - rank: 1
   name: "馬場このみ"
   brand: ml
-  move: up
+  move: same
 - rank: 2
   name: "百瀬莉緒"
   brand: ml
-  move: up
+  move: same
 - rank: 3
   name: "徳川まつり"
   brand: ml
-  move: down
+  move: up
 - rank: 4
+  name: "篠澤広"
+  brand: gaku
+  move: up
+- rank: 5
   name: "エミリー・スチュアート"
   brand: ml
   move: down
-- rank: 5
-  name: "篠澤広"
-  brand: gaku
-  move: new
 - rank: 6
-  name: "永吉昴"
-  brand: ml
-  move: new
-- rank: 7
   name: "有村麻央"
   brand: gaku
   move: down
-- rank: 8
+- rank: 7
   name: "大崎甜花"
   brand: sc
+  move: up
+- rank: 8
+  name: "永吉昴"
+  brand: ml
   move: down
