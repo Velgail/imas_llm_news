@@ -58,32 +58,6 @@
     - sidem-11th-stage-bluray-announce  # 9/13配信「新発表」
   notes: "予約開始日は続報待ち、要追検証。"
 
-- id: sidem-11thstage-archive-viewing
-  title: "SideM 11th STAGE アーカイブ同時視聴上映会"
-  brand: sidem
-  kind: 公式
-  event_start: "2026-09-19"
-  event_end: "2026-09-20"
-  status: done
-  confidence: confirmed
-  added: "2026-09-18"
-  source: "アイドルマスター公式ポータル news/01_19805／news/01_19806"
-  facts: |
-    内容: 「THE IDOLM@STER SideM 11th STAGE ～EVER EVER＠FTER～」のアーカイブ同時視聴上映会、キャストによるオーディオコメンタリー付き
-    9月19日(土)11:00〜: DAY1（出演: 山谷祥生・渡辺紘・小林大紀・中島ヨシキ・汐谷文康）
-    9月20日(日)11:30〜: DAY2（出演: 高塚智人・中田祐矢・児玉卓也・浦尾岳大・比留間俊哉・伊瀬結陸）
-    2027年7月14日発売予定のLIVE Blu-rayに先駆けての開催
-  publish_plan:
-    - on: "2026-09-19"
-      angle: "本日DAY1上映会開催"
-    - on: "2026-09-20"
-      angle: "本日DAY2上映会開催"
-  used_in:
-    - sidem-11thstage-archive-viewing  # 9/18配信「明日・明後日開催予告」
-    - sidem-11thstage-archive-viewing-day1  # 9/19配信「本日DAY1上映会開催」
-    - sidem-11thstage-archive-viewing-day2  # 9/20配信「本日DAY2上映会開催」
-  notes: "開催会場・チケット詳細は続報待ちだったが、DAY1・DAY2とも上映会実施をもってpublish_plan消化済み。"
-
 - id: sidem-mfes-2026-theme-song
   title: "Mフェス2026 in Winter Wonderland テーマソング「Season's Greetings Party！」"
   brand: sidem
@@ -349,7 +323,9 @@
   used_in:
     - godo-agpstore-shanghai-tomorrow  # 9/21配信「明日グランドオープン予告」
     - godo-agpstore-shanghai-buzz  # 9/21配信「オープンに海外ファンから期待の声（ファン話題）」
-  notes: "詳細な取扱ブランド・商品ラインナップは続報待ち、要追検証。【9/19判明】会場住所（百聯ZX創趣場L4）・運営元（アニメイト上海）を確認、AGPオリジナルグッズ展開・他店舗への将来展開方針にも言及あり（idolmaster-official.jp/news/01_19895）。明日上海グランドオープン予告（9/21配信）まで消化済み、本日上海グランドオープン（9/22）が未消化。"
+    - godo-agpstore-shanghai-today  # 9/22配信「本日上海グランドオープン」
+  status: done
+  notes: "詳細な取扱ブランド・商品ラインナップは続報待ち、要追検証。【9/19判明】会場住所（百聯ZX創趣場L4）・運営元（アニメイト上海）を確認、AGPオリジナルグッズ展開・他店舗への将来展開方針にも言及あり（idolmaster-official.jp/news/01_19895）。本日上海グランドオープン（9/22配信）まで全publish_plan消化済み。取扱商品の詳細が判明したら新規エントリで追加記事化する。"
 
 - id: other-tours-s1ex
   title: "アイドルマスター TOURS「S1弾Ex」アップデート"
@@ -744,65 +720,6 @@
     - cg-sousenkyo-2026-final-day-buzz  # 9/18配信「投票最終日にファンが最後の追い込み（ファン話題）」
   notes: "投票券ミッションは7/1配信で記事化済み。中間発表・結果発表日が未確定。日程が出たら on を絶対日付に更新すること。チェックインスポットは順次追加されるため、新規追加店舗が判明次第「更新あり」で継続記事化する。スポットチェックインミッションで7/1 12:00〜7/9 18:15に重複チェックインによる投票券の複数回獲得が発生し、7/22に是正済み（7/28配信・事実確認済み）。応援楽曲は第1弾「シンデレラNo.1」、第2弾「ROSE ～禁じられた愛～」（7/1発売）に続き、第3弾「だいすきのブーケ」（佐久間まゆ・五十嵐響子・相葉夕美、作詞:磯谷佳江／作曲編曲:賀佐泰洋）のMVが7/29 21:00公開予定（別途cg-daisukinobouquetエントリで管理）。投票フェーズは8/3正午に開始済み（8/3配信で記事化）。8/2の生配信「CG総選挙ST@TION」で15周年記念イベント（11/28-29 Kアリーナ横浜）の詳細（DAY1 LOVE/CHILL・DAY2 FABULOUS/MIRACLEの4グループ編成、出演声優約49名、生バンドCinderella Band出演）が解禁され、cg-15th-anniversary-liveのfactsを更新。総選挙公式グッズ（190人描き下ろしカードフォリオVol.4-6）が8/2 16:00より受注開始（〜9/13）。投票終盤を盛り上げる「投票クライマックス」特別展示が9月12日・13日に開催決定、会場は「PickUpランキン 渋谷ちかみち」（渋谷駅B2階、入場無料、10:00〜21:00）、190人紹介動画・出馬風ポスタービジュアルで装飾、チェックインで投票券10枚獲得可（9/9配信で記事化、会場詳細は事実確認済み）。総選挙グッズ「真纏麗羅武闘服」190名分描き下ろしビジュアルグッズ・Memory Pict.第6弾（小日向美穂・依田芳乃）の受注が9/13 23:59締切（9/14配信で記事化）。投票券獲得ミッションチャレンジ（7/1〜9/14 23:59）は本日締切（9/14配信で記事化）。投票締切まで残り3日（9/15配信で記事化）、残り1日（9/17配信で記事化）、本日23:59締切（9/18配信で記事化）。中間発表は行われなかった。結果発表の日程は続報待ち、判明次第 on を絶対日付に更新すること。"
 
-- id: million-14th-live
-  title: "THE IDOLM@STER MILLION LIVE! 14thLIVE"
-  brand: ml
-  kind: 公式
-  event_start: "2026-09-19"
-  event_end: "2026-09-20"
-  status: pending
-  confidence: confirmed
-  added: "2026-06-06"
-  source: "アイドルマスター公式ポータル / ファミ通（13thLive DAY2 発表）"
-  facts: |
-    日程: 2026年9月19日（土）・20日（日）
-    会場: 国立代々木競技場 第一体育館（東京）※ミリオンライブ初
-    位置づけ: 13thLIVE（5月）から約4ヶ月後の主演公演
-    【6/13生配信で発表された詳細】
-    - シリーズ初のツイン主演制を採用
-    - DAY1（9/19）「〜夢咲くワンダーミラージュ〜」: 徳川まつり＆エミリー・スチュアート
-    - DAY2（9/20）: 馬場このみ＆百瀬莉緒
-    - プロデューサー参加型企画（セトリ・演出の一部をPが決定）
-    - チケット先行情報は公式ポータル参照
-    - チケット先行受付は6/13〜6/24で終了済み。当落発表は7/4（土）13:00〜
-    - アソビストア一般会員先行（抽選）: 受付7/10(金)12:00〜7/30(木)23:59、当落発表8/11(火･祝)13:00〜、入金8/11〜8/15(土)23:59、1人1公演2枚まで
-    - ミリシタ「14thLIVE応援セット」: 販売期間7/10(金)15:00〜7/18(土)23:59、必要ジュエル有償1,500個/セット。購入者限定でサイン入り等身大パネル（エミリー・徳川まつり・馬場このみ・百瀬莉緒 各1名）が当たるキャンペーンも実施中
-    - 一般発売2次（先着）: 受付9/15(火)18:00〜各公演前日23:00、全席指定14,000円・立見指定/ステージサイド席13,500円。あわせて当日券（先着、全席指定14,500円等）の販売も決定
-  publish_plan:
-    - on: "2026-07-04"
-      angle: "本日チケット先行当落発表"
-    - on: "2026-08-11"
-      angle: "本日一般会員先行抽選の当落発表"
-    - on: "2026-09-18"
-      angle: "明日開幕予告"
-    - on: "2026-09-19"
-      angle: "本日開幕・DAY1"
-    - on: "2026-09-20"
-      angle: "DAY1レポ＆本日DAY2"
-    - on: "2026-09-21"
-      angle: "閉幕レポ"
-  used_in:
-    - ml-14thlive-ticket-result  # 7/4配信「本日13:00チケット先行当落発表」
-    - ml-14thlive-goods-deadline  # 7/6配信「イベントグッズ事前販売、昨日23:59締切」
-    - ml-14thlive-general-member-lottery  # 7/12配信「一般会員先行(抽選)7/10より受付開始」
-    - ml-14thlive-support-set-panel-campaign  # 7/12配信「ミリシタ『14thLIVE応援セット』発売・パネルプレゼント」
-    - ml-14thlive-general-lottery-result  # 8/11配信「本日一般会員先行抽選の当落発表」
-    - ml-14thlive-secondlottery-result  # 8/28配信「一般会員2次先行の当落発表は昨日」
-    - ml-14thlive-countdown-buzz  # 9/4配信「開幕まで2週間、百瀬莉緒への期待続々（ファン話題）」
-    - ml-14thlive-ingame-campaign  # 9/13配信「ログインボーナス＆宝石アイテムが昨日スタート」
-    - ml-14thlive-general-sale2  # 9/16配信「昨日18:00より一般発売2次(先着)受付開始・当日券も決定」
-    - ml-14thlive-tomorrow  # 9/18配信「明日9/19・20開幕予告」
-    - ml-14thlive-today  # 9/19配信「本日開幕・DAY1」
-    - ml-14thlive-day0-buzz  # 9/19配信「開幕前夜、プロデューサーのDAY0投稿でSNS盛り上がり（ファン話題）」
-    - ml-14thlive-day1report-day2today  # 9/20配信「DAY1レポ＆本日DAY2」
-    - ml-14thlive-day1-newsongs  # 9/20配信「DAY1で新曲3曲を初披露・本日ミリシタ配信（更新あり）」
-    - ml-14thlive-wrapup-gacha  # 9/20配信「ミリシタ『打ち上げセレクションガシャ』昨日22:00開始（更新あり）」
-    - ml-14thlive-finale  # 9/21配信「DAY2完走・2日間の主演公演が終了」
-    - ml-14thlive-finale-buzz  # 9/21配信「まさかの二次会演出とダブルアンコールにファン騒然（ファン話題）」
-    - ml-14thlive-commentary-viewing-announce  # 9/21配信「主演声優コメンタリー付き同時視聴上映会、9/23開催決定」
-  status: done
-  notes: "出演者・タイトル・チケット詳細は6/13生配信後に facts を更新済み。本日開幕・DAY1（9/19配信で記事化）、DAY1レポ＆本日DAY2・新曲3曲初披露・ミリシタ打ち上げガシャ（9/20配信で記事化）、DAY2完走・閉幕レポ（9/21配信で記事化）まで全publish_plan消化済み。【9/19判明】DAY1でエミリー・スチュアート「ひととせ結び」、徳川まつり「ネバーエンド・ワンダーランド」、デュエット「パルティシオン」（ユニット名義Charlotte・Charlotte）の新曲3曲が初披露され、9/20よりミリシタ配信開始。【9/20判明・9/21配信で記事化】DAY2「Blooming Sign」は馬場このみ＆百瀬莉緒主演、全39曲。このみ主演公演は生着替え演出、莉緒主演公演は「もどかしい乙女な莉緒」演出、デュエット新曲「Present」披露、ラストは二次会シーンからダブルアンコール「春風満帆スターティング」のサプライズ。新曲「If I...」「Waking Up My Heart」「Present」配信開始。DAY2会場でミリシタ10周年記念ライブ「ミリシタ10thLIVE」（2027年6月26-27日、Kアリーナ横浜）の開催も発表（別エントリ ml-10thlive-2027 で管理）。主演声優コメンタリー付き同時視聴上映会（9/23開催）は別エントリ ml-14thlive-commentary-viewing で管理。ミリシタは10月に徳川まつり「アイドルグランプリ」実装、10/1〜「セカンドヘアスタイルガシャ」（松田亜利沙・永吉昴のSSR）等の展開も予告（ファミ通2026/9/20 7:00記事、9/20配信で記事化済み。9/21配信では既出のため見送り）。【8/7判明・更新】イベントグッズ事前二次販売が数量限定で8/6〜8/16受付中（主演4名描き下ろしグッズ・公式招待状ブロマイド等）。アソビストア一般会員2次先行（全席指定14,000円等、7/31 12:00〜8/16 23:59受付）の当落発表（8/27 13:00〜）は8/28配信で記事化済み。入金期間は続報待ち。"
-
 - id: ml-10thlive-2027
   title: "ミリシタ10thLIVE"
   brand: ml
@@ -852,7 +769,8 @@
       angle: "本日開催"
   used_in:
     - ml-14thlive-commentary-viewing-announce  # 9/21配信「新発表」
-  notes: "視聴方法の詳細は続報待ち、要追検証。"
+    - ml-14thlive-commentary-viewing-tomorrow  # 9/22配信「明日開催予告」
+  notes: "視聴方法の詳細は続報待ち、要追検証。明日開催予告（9/22配信）まで消化済み、本日開催（9/23）が未消化。"
 
 - id: sc-megashaki-collab-vol7
   title: "シャニマス×メガシャキ 7年目コラボキャンペーン"
@@ -941,43 +859,6 @@
       angle: "振替日程決定・速報"
   used_in: []
   notes: "振替日程が発表されたら speed に記事化し、facts・publish_planを更新する。"
-
-- id: valiv-kamitsuru-sora-birthday-live
-  title: "vα-liv 上水流宇宙バースデーライブ"
-  brand: valiv
-  kind: 公式
-  event_start: "2026-09-12"
-  event_end: "2026-09-12"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-08-18"
-  source: "アイドルマスター公式ポータル news/01_19569"
-  facts: |
-    名称: 876プロダクション「vα-liv」所属・上水流宇宙のバースデーオンラインライブ
-    開催日: 2026年9月12日（土）
-    現地ライブビューイング会場: ユナイテッド・シネマ アクアシティお台場
-    限定グッズ付きライブビューイングチケット: 先行抽選申込を8月17日19:00より受付開始。受付締切・当落発表日は続報待ち
-    アーカイブ配信期間: 2026年9月12日（土）〜10月12日（月・祝）23:59（予定）
-    スペシャルゲスト（9/11判明）: 四条貴音、灯里愛夏、レトラ
-    グッズ: BOOTH「バースデー記念ボイス2026 上水流宇宙」（前後編セット3,300円）、9月27日まで販売中
-  publish_plan:
-    - on: "2026-08-31"
-      angle: "先行抽選受付締切"
-    - on: "2026-09-11"
-      angle: "明日開催予告"
-    - on: "2026-09-12"
-      angle: "本日開催"
-  used_in:
-    - valiv-kamitsuru-birthday-live-announce  # 8/18配信「新発表・先行抽選、昨日19時受付開始」
-    - valiv-kamitsuru-sora-birthday-live-lottery-deadline  # 8/31配信「先行抽選、本日締切」
-    - valiv-kamitsuru-archive-period  # 8/24配信「アーカイブ配信期間が判明」
-    - valiv-kamitsuru-deadline-announce  # 8/25配信「先行抽選受付締切、8/31 23:59に決定」
-    - valiv-kamizuru-birthday-live-schedule  # 9/9配信「本編15:00〜・アフタートーク21:00〜で配信スケジュール判明」
-    - valiv-kamitsuru-sora-birthday-live-tomorrow  # 9/11配信「明日開催予告」
-    - valiv-kamitsuru-sora-birthday-live-today  # 9/12配信「本日開催・四条貴音ら豪華ゲストも出演」
-    - valiv-kamitsuru-sora-birthday-live-report  # 9/13配信「昨日開催・豪華ゲストが花を添える」
-  status: done
-  notes: "先行抽選の受付締切は8/31 23:59に決定（8/25配信）。グッズ内容・スペシャルゲスト（四条貴音・灯里愛夏・レトラ）判明。配信スケジュール（本編15:00〜16:30予定、アフタートーク21:00〜予定、ASOBI STAGE配信）判明（9/9配信）。本日開催（9/12配信）・開催後レポ（9/13配信）まで全publish_plan消化済み。"
 
 - id: sidem-joypolis-collab3
   title: "アイドルマスター SideM in JOYPOLIS 3"
@@ -1282,13 +1163,14 @@
     - sc-283production-msp-goods-lottery-start  # 9/10配信「現地物販整理券、本日13:00受付開始」
     - sc-283pro-msp-deadlines-today  # 9/15配信「物販整理券・チケット一般先着、本日23:59ダブル締切」
     - sc-283pro-msp-archive-viewing  # 9/19配信「配信チケット購入者限定の同時視聴会が決定」
+    - sc-283pro-msp-goods-lottery-result  # 9/22配信「現地物販整理券、本日13:00当落発表」
   facts: |
     会場: 京王アリーナ TOKYO
     日程: 2026年9月26日（土）・27日（日）
     チケット価格: 全席指定14,000円（税込）、座席により一部ステージが見切れる可能性がある旨案内あり。一般発売日は続報待ち
     グッズ: ぬいぐるみ「ふわふぇいす」シリーズ（描き下ろし28種）、アイドルプロデュースアパレル 等（事前販売は7/12締切で終了済み）
     配信チケット購入者限定の同時視聴会（9/18判明）: DAY1視聴会10/3(土)17:00〜（峯田茉優・田嶌紗蘭・三川華月出演）、DAY2視聴会10/4(日)17:00〜（希水しお・土屋李央・小澤麗那出演）。視聴には対応日程の配信チケット購入orシリアル認証が必要、アーカイブは10/5 23:59まで公開
-  notes: "出演者・セトリ等の詳細は未取得。楽屋花・プレゼント受付方法（送付先はいずれも京王アリーナTOKYO メインエントランス気付、楽屋花サイズ上限40cm・指定到着日時は公演前日9/25 12:00〜16:00の1回のみ、プレゼント〈メッセージ類〉は公演当日9/26・27いずれも11:00〜開演前）が判明（8/23配信）。チケット価格（全席指定14,000円）判明（8/25配信、事実確認済み）。一般発売日は続報待ち、要追検証。【8/24事実確認】公式サイト（idolmaster-official.jp/live_event/283production_msp/）で4グループ編成（Maestria & Tradizione／Art & Couleurs／Street & Avant-garde／Urban & Lifestyle）と全出演声優は2026年3月19日公開・7月2日更新の時点で既に判明済みと確認。同ネタで再度「新発表」的に記事化しないよう注意。現地物販整理券は本日9/15 23:59締切（9/15配信で記事化、姉妹エントリ sc-masterlivepiece-solo-live のチケット一般先着発売締切と同日のため1本の記事にまとめた）。【重複エントリにつき要注意】本エントリと sc-masterlivepiece-solo-live は同一ライブ（283 PRODUCTION Solo Live Collection -Master ShowPiece-、9/26・27京王アリーナTOKYO）を別々に登録してしまったもの。今後の続報（当落発表9/22・開幕予告9/25等）はどちらか一方に一本化して記事化し、重複記事化を避けること。配信チケット購入者限定の同時視聴会（DAY1 10/3・DAY2 10/4）が判明（9/19配信で記事化）。"
+  notes: "出演者・セトリ等の詳細は未取得。楽屋花・プレゼント受付方法（送付先はいずれも京王アリーナTOKYO メインエントランス気付、楽屋花サイズ上限40cm・指定到着日時は公演前日9/25 12:00〜16:00の1回のみ、プレゼント〈メッセージ類〉は公演当日9/26・27いずれも11:00〜開演前）が判明（8/23配信）。チケット価格（全席指定14,000円）判明（8/25配信、事実確認済み）。一般発売日は続報待ち、要追検証。【8/24事実確認】公式サイト（idolmaster-official.jp/live_event/283production_msp/）で4グループ編成（Maestria & Tradizione／Art & Couleurs／Street & Avant-garde／Urban & Lifestyle）と全出演声優は2026年3月19日公開・7月2日更新の時点で既に判明済みと確認。同ネタで再度「新発表」的に記事化しないよう注意。現地物販整理券は本日9/15 23:59締切（9/15配信で記事化、姉妹エントリ sc-masterlivepiece-solo-live のチケット一般先着発売締切と同日のため1本の記事にまとめた）。【重複エントリにつき要注意】本エントリと sc-masterlivepiece-solo-live は同一ライブ（283 PRODUCTION Solo Live Collection -Master ShowPiece-、9/26・27京王アリーナTOKYO）を別々に登録してしまったもの。今後の続報（当落発表9/22・開幕予告9/25等）はどちらか一方に一本化して記事化し、重複記事化を避けること。配信チケット購入者限定の同時視聴会（DAY1 10/3・DAY2 10/4）が判明（9/19配信で記事化）。現地物販整理券の本日13:00当落発表（9/22配信）まで消化済み、明日開幕予告（9/25）以降が未消化。"
 
 - id: sc-8bankaramen-collab
   title: "シャニマス×「8番らーめん」コラボ"
@@ -1454,7 +1336,8 @@
       angle: "本日最終日"
   used_in:
     - cg-achi-village-collab  # 7/19配信「昨日開幕」
-  notes: "「日本一の星空」で知られる阿智村での開催。最終日（9/23）の記事化が未消化。"
+    - cg-achi-village-collab-tomorrow  # 9/22配信「明日最終日予告」
+  notes: "「日本一の星空」で知られる阿智村での開催。明日最終日予告（9/22配信）まで消化済み、本日最終日（9/23）が未消化。"
 
 - id: sidem-remembershot-fair4
   title: "SideM「リメンバーショット」フェア第4弾"
@@ -1479,30 +1362,6 @@
   used_in:
     - sidem-remembershot-fair4  # 8/5配信「詳細解禁」
   notes: "第1〜3弾の対象アイドルとの重複有無は未確認、要追検証。"
-
-- id: gaku-suntory-vending-collab2
-  title: "学マス×サントリー自販機タイアップキャンペーン第2弾"
-  brand: gaku
-  kind: 公式
-  event_start: "2026-08-04"
-  event_end: "2026-09-14"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-08-05"
-  source: "アイドルマスター公式ポータル news/01_19418（2026年8月4日11:00）"
-  facts: |
-    名称: 「輝く汗を、全力応援！ 水分補給大作戦キャンペーン」第2弾
-    開催期間: 2026年8月4日（火）〜9月14日（月）
-    内容: 対象のサントリー自販機で飲料購入ごとに抽選でオリジナルアクリルスタンドが当たる。ハズレでも限定スマホ壁紙（全17種）を配布
-    参加方法: LINEミニアプリの特設ページから
-  publish_plan:
-    - on: "2026-09-14"
-      angle: "本日キャンペーン終了"
-  used_in:
-    - gaku-suntory-vending-collab2  # 8/5配信「昨日開始」
-    - gaku-suntory-vending-collab2-end  # 9/14配信「本日終了」
-  notes: "第1弾からの継続キャンペーン。対象アイドル・グッズデザインの詳細は未取得、要追検証。全publish_plan消化済み。"
-  status: done
 
 - id: sidem-divercity-tokyo-plaza
   title: "アイドルマスター SideM in ダイバーシティ東京 プラザ"
@@ -1587,7 +1446,8 @@
   used_in:
     - as765-kotobukiya-kuji-summerlive-details  # 9/8配信「5人描き下ろしで好評開催中」
     - as765-kotobukiya-kuji-summerlive-reminder  # 9/18配信「販売終了まで残り5日」
-  notes: "8/22時点では7/27発表の内容そのままで新規性がないため記事化を見送っていたが、販売期間・形式の詳細判明で9/8配信にて記事化。残り5日リマインド（9/18配信）まで消化、明日販売終了予告（9/22）・本日23:59販売終了（9/23）が未消化。"
+    - as765-kotobukiya-kuji-summerlive-tomorrow  # 9/22配信「明日販売終了予告」
+  notes: "8/22時点では7/27発表の内容そのままで新規性がないため記事化を見送っていたが、販売期間・形式の詳細判明で9/8配信にて記事化。明日販売終了予告（9/22配信）まで消化、本日23:59販売終了（9/23）が未消化。"
 
 - id: as765-hangetsu-plush-pouch
   title: "ちびぐるみ＆ポーチセット 〜はんげつであえたら〜（菊地真・萩原雪歩）"
@@ -1605,43 +1465,6 @@
   used_in:
     - as765-hangetsu-plush-pouch-preorder  # 9/20配信「予約、昨日10:00より開始」
   notes: "予約受付は準備数に達し次第終了のため固定の締切日は無し。今後『受付終了』の告知が出た場合は記事化を検討。"
-
-- id: cg-toppa-base-popup
-  title: "シンデレラガールズ TOPPA!!!BASE 全国POP UP SHOP（バトルゲームワールド）"
-  brand: cg
-  kind: 公式
-  event_start: "2026-08-27"
-  event_end: "2026-09-16"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-08-06"
-  source: "アイドルマスター公式ポータル news/01_19246"
-  facts: |
-    テーマ: バトルゲームワールド
-    展開: 札幌・仙台・名古屋・大阪など全国のTOPPA!!!BASE店舗
-    出演（8/17判明）: 諸星きらり・赤城みりあ・城ケ崎莉嘉・安部菜々・佐藤心・関裕美の6名。躍動感あふれる描き下ろしイラストを使用したグッズを展開
-    サテライトショップ（8/18判明）: 本会場（TOPPA!!! BASE AKIBA・秋葉原駅改札内）とは別に、8月27日〜9月14日の会期で札幌（HMV札幌）・仙台（HMV仙台）・名古屋（HMV栄）・大阪（HMV&BOOKS なんば）・福岡（イオン筑紫野）の5会場でサテライト展開。本会場のみデジタルフォトブース「WithShot®」設置。対象商品税込500円以上購入でシンデレラガール総選挙2026投票券引換シリアルコード付与
-  publish_plan:
-    - on: "2026-08-26"
-      angle: "明日開幕予告"
-    - on: "2026-08-27"
-      angle: "本日開幕"
-    - on: "2026-09-14"
-      angle: "本日サテライトショップ最終日"
-    - on: "2026-09-16"
-      angle: "本日本会場最終日"
-  used_in:
-    - cg-toppa-base-cast-reveal  # 8/18配信「対象6アイドル判明」
-    - cg-toppa-base-akiba-satellite  # 8/19配信「サテライトショップ5会場判明」
-    - cg-toppa-base-popup-tomorrow  # 8/26配信「明日開幕予告」
-    - cg-toppa-base-goods-reveal  # 8/23配信「グッズラインナップが判明」
-    - cg-toppa-base-store-novelty  # 8/25配信「店舗別ノベルティの詳細判明」
-    - cg-toppa-base-popup-today  # 8/27配信「本日全国一斉開幕」
-    - cg-toppa-base-satellite-final  # 9/14配信「サテライト5店舗、本日最終日」
-    - cg-toppa-base-popup-tomorrow-final  # 9/15配信「本会場、明日9/16最終日予告」
-    - cg-toppa-base-popup-final  # 9/16配信「本会場、本日最終日・全会場完走」
-  status: done
-  notes: "各店舗ごとの詳細な商品ラインナップ（アクリルスタンド6種・トレーディング缶バッジ6種・ドットフレークシール10種セット）が判明（8/23配信）。店舗別ノベルティ（本会場は来場記念ステッカー、各サテライト店舗は店舗別デザイン缶バッジ）判明（8/25配信）。サテライトショップ会期（9/14）は本会場（9/16）より2日短い点に注意。サテライト最終日（9/14配信）・本会場最終日の明日予告（9/15配信）・本会場最終日当日（9/16配信）まで消化済み、全publish_plan消化済み。"
 
 - id: gaku-chugai-grace-cafe-revival
   title: "学園アイドルマスター×Chugai Grace Café リバイバル（渋谷モディ店）"
@@ -1823,27 +1646,6 @@
     - sc-283pro-msp-deadlines-today  # 9/15配信「現地チケット一般発売（先着）、本日23:59締切（姉妹エントリsc-283pro-solo-live-mspの物販整理券締切と合わせて1本化）」
   status: partially-used
   notes: "出演者・セトリ等の詳細は続報待ち、要追検証。公式リセール受付開始（9/5）・現地チケット一般発売（先着）本日23:59締切（9/15配信）消化済み。明日開幕予告（9/25）以降が未消化。【重複エントリにつき要注意】本エントリと sc-283pro-solo-live-msp は同一ライブを別々に登録してしまったもの。今後はどちらか一方（推奨: sc-283pro-solo-live-msp）に一本化すること。"
-
-- id: godo-cg-ml-joint-announce
-  title: "シンデレラガールズ×ミリオンライブ 合同新発表"
-  brand: godo
-  kind: 公式
-  confidence: unconfirmed
-  added: "2026-08-26"
-  source: "SNS（X）公式アカウント投稿／ファンブログ経由（sorekarano.blog.jp、mirishita.2chblog.jp）"
-  facts: |
-    経緯: シンデレラガールズ・ミリオンライブ両公式Xが8月23日よりロゴ・キャラクター掛け合いビジュアルで「Coming soon」ティザーを共同投稿
-    発表予定日時: 2026年8月26日（水）12:00
-    発表内容は本稿時点で未公開。ファンの間では合同企画（xRライブ等）の可能性が取り沙汰されている
-  publish_plan:
-    - on: "発表内容判明後（2026-08-26以降）"
-      angle: "発表内容詳報"
-  used_in:
-    - godo-cg-ml-teaser-today  # 8/26配信「本日12時発表予告」
-    - godo-clashmatch-announce  # 8/27配信「発表内容詳報：合同ライブ『CLASH M@TCH!!』開催決定」
-    - godo-millionstrings-buzz  # 8/27配信「新ユニット『MILLION STRINGS』にファン反響」
-  status: done
-  notes: "8/26 12:00の発表内容が判明（合同ライブ『CLASH M@TCH!!』開催決定）。以降の続報は新規エントリ godo-clashmatch-live で管理する。"
 
 - id: godo-clashmatch-live
   title: "THE IDOLM@STER CINDERELLA GIRLS × MILLION LIVE! CLASH M@TCH!!"
