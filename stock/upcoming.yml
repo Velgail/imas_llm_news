@@ -2,6 +2,34 @@
 # event_start 昇順（直近が先頭）。配信日に該当する予定があれば取り出して記事化する。
 #
 
+- id: cg-15th-orchestra-concert
+  title: "THE IDOLM@STER CINDERELLA GIRLS 15th ANNIVERSARY ORCHESTRA CONCERT ～シンデレラの演奏会～"
+  brand: cg
+  kind: 公式
+  event_start: "2027-01-11"
+  event_end: "2027-01-12"
+  status: pending
+  confidence: confirmed
+  added: "2026-09-23"
+  source: "アイドルマスター公式ポータル news/live_event/cg_15th_orchestra／PR TIMES（2026年9月16日）"
+  facts: |
+    内容: シンデレラガールズ15周年記念オーケストラコンサート「THE IDOLM@STER CINDERELLA GIRLS 15th ANNIVERSARY ORCHESTRA CONCERT ～シンデレラの演奏会～」
+    会場: パシフィコ横浜 国立大ホール
+    日程: 2027年1月11日（月・祝）・12日（火）
+    アソビストアプレミアム会員最速先行（抽選）: 2026年9月16日〜9月27日(日)23:59受付
+    出演者・セトリ・一般発売日程は続報待ち
+  publish_plan:
+    - on: "2026-09-27"
+      angle: "本日プレミアム会員最速先行、受付締切"
+    - on: "2027-01-10"
+      angle: "明日開幕予告"
+    - on: "2027-01-11"
+      angle: "本日開幕・DAY1"
+    - on: "2027-01-12"
+      angle: "DAY1レポ＆本日DAY2・千秋楽"
+  used_in: []
+  notes: "9/17配信の15周年関連まとめ記事で開催決定自体は既報だが、stock未登録だったため9/23判明分として新規追加。最速先行受付締切（9/27）以降が未消化。"
+
 - id: sidem-producer-meeting-2027
   title: "THE IDOLM@STER SideM PRODUCER MEETING ～AJewelholIc!!!～"
   brand: sidem
@@ -770,7 +798,10 @@
   used_in:
     - ml-14thlive-commentary-viewing-announce  # 9/21配信「新発表」
     - ml-14thlive-commentary-viewing-tomorrow  # 9/22配信「明日開催予告」
-  notes: "視聴方法の詳細は続報待ち、要追検証。明日開催予告（9/22配信）まで消化済み、本日開催（9/23）が未消化。"
+    - ml-14thlive-day1-commentary  # 9/23配信「DAY1（諏訪彩花・郁原ゆう）、昨日開催」
+    - ml-14thlive-day2-commentary-today  # 9/23配信「DAY2（高橋ミナミ・山口立花子）、本日開催」
+  status: done
+  notes: "視聴方法の詳細は続報待ち、要追検証。DAY1（9/22、諏訪彩花さん・郁原ゆうさん）・DAY2（9/23、高橋ミナミさん・山口立花子さん）とも記事化済みで全publish_plan消化済み。"
 
 - id: sc-megashaki-collab-vol7
   title: "シャニマス×メガシャキ 7年目コラボキャンペーン"
@@ -837,8 +868,9 @@
     - cg-onestep-yogurt-collab  # 7/2配信「コラボ決定」
     - cg-onestep-yogurt-tomorrow  # 7/18配信「明日開催予告」
     - cg-onestep-yogurt-today  # 7/19配信「本日開催」
+    - cg-onestep-yogurt-final  # 9/23配信「本日最終日」
   status: done
-  notes: "商品ラインナップ詳細は未取得のまま。全publish_plan消化済み。"
+  notes: "商品ラインナップ詳細は未取得のまま。開催終了日（9/23）まで消化済み。"
 
 
 - id: valiv-akari-birthday-live-postponed
@@ -1283,8 +1315,9 @@
     - sc-refrac7ions-stillblue-presale-deadline-today  # 8/4配信「現地チケット先行受付、本日23:59締切」
     - sc-refrac7ions-stillblue-lottery-result  # 8/21配信「本日当落発表」
     - sc-refrac7ions-stillblue-general-presale  # 8/28配信「アソビストア一般会員先行、昨日受付開始」
+    - sc-refrac7ions-general-presale-deadline  # 9/23配信「アソビストア一般会員先行、本日23:59締切」
   status: partially-used
-  notes: "出演ユニット・セトリ等の詳細は未取得。追加出演発表が今後も続く可能性あり、判明次第factsを更新。当落発表（8/21）・一般会員先行受付開始（8/28配信）消化済み。一般会員先行受付締切（9/23）・開幕予告以降が未消化。"
+  notes: "出演ユニット・セトリ等の詳細は未取得。追加出演発表が今後も続く可能性あり、判明次第factsを更新。当落発表（8/21）・一般会員先行受付開始（8/28配信）・一般会員先行受付締切（9/23配信）消化済み。開幕予告（12/18）以降が未消化。"
 
 - id: sidem-tabimasu-jrc
   title: "SideM×JR東海「旅マス」（Welcome to NEXT 旅マス！315な旅をお届けしマス！）"
@@ -1337,7 +1370,9 @@
   used_in:
     - cg-achi-village-collab  # 7/19配信「昨日開幕」
     - cg-achi-village-collab-tomorrow  # 9/22配信「明日最終日予告」
-  notes: "「日本一の星空」で知られる阿智村での開催。明日最終日予告（9/22配信）まで消化済み、本日最終日（9/23）が未消化。"
+    - cg-achi-village-today  # 9/23配信「本日最終日」
+  status: done
+  notes: "「日本一の星空」で知られる阿智村での開催。本日最終日（9/23配信）まで全publish_plan消化済み。"
 
 - id: sidem-remembershot-fair4
   title: "SideM「リメンバーショット」フェア第4弾"
@@ -1447,7 +1482,9 @@
     - as765-kotobukiya-kuji-summerlive-details  # 9/8配信「5人描き下ろしで好評開催中」
     - as765-kotobukiya-kuji-summerlive-reminder  # 9/18配信「販売終了まで残り5日」
     - as765-kotobukiya-kuji-summerlive-tomorrow  # 9/22配信「明日販売終了予告」
-  notes: "8/22時点では7/27発表の内容そのままで新規性がないため記事化を見送っていたが、販売期間・形式の詳細判明で9/8配信にて記事化。明日販売終了予告（9/22配信）まで消化、本日23:59販売終了（9/23）が未消化。"
+    - as765-kotobukiya-kuji-today  # 9/23配信「本日23:59販売終了」
+  status: done
+  notes: "8/22時点では7/27発表の内容そのままで新規性がないため記事化を見送っていたが、販売期間・形式の詳細判明で9/8配信にて記事化。本日23:59販売終了（9/23配信）まで全publish_plan消化済み。"
 
 - id: as765-hangetsu-plush-pouch
   title: "ちびぐるみ＆ポーチセット 〜はんげつであえたら〜（菊地真・萩原雪歩）"
