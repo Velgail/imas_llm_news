@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-09-23 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-09-24 集計
 - rank: 1
-  name: "倉本千奈"
+  name: "十王星南"
   brand: gaku
   move: new
 - rank: 2
-  name: "馬場このみ"
-  brand: ml
-  move: down
+  name: "紫雲清夏"
+  brand: gaku
+  move: new
 - rank: 3
-  name: "百瀬莉緒"
-  brand: ml
+  name: "倉本千奈"
+  brand: gaku
   move: down
 - rank: 4
   name: "秦谷美鈴"
   brand: gaku
-  move: new
+  move: down
 - rank: 5
+  name: "有村麻央"
+  brand: gaku
+  move: new
+- rank: 6
+  name: "伊集院惠"
+  brand: cg
+  move: new
+- rank: 7
+  name: "桜庭薫"
+  brand: sidem
+  move: new
+- rank: 8
   name: "篠澤広"
   brand: gaku
   move: down
-- rank: 6
-  name: "徳川まつり"
-  brand: ml
-  move: down
-- rank: 7
-  name: "アナスタシア"
-  brand: cg
-  move: up
-- rank: 8
-  name: "幽谷霧子"
-  brand: sc
-  move: new
