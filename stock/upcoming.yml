@@ -1694,7 +1694,6 @@
     - sc-masterlivepiece-resale-start  # 9/5配信「公式リセール本日15:00受付開始」
     - sc-283pro-msp-deadlines-today  # 9/15配信「現地チケット一般発売（先着）、本日23:59締切（姉妹エントリsc-283pro-solo-live-mspの物販整理券締切と合わせて1本化）」
   status: partially-used
-  status: partially-used
   notes: "出演者・セトリ等の詳細は続報待ち、要追検証。公式リセール受付開始（9/5）・現地チケット一般発売（先着）本日23:59締切（9/15配信）消化済み。【重複エントリにつき要注意】本エントリと sc-283pro-solo-live-msp は同一ライブを別々に登録してしまったもの。明日開幕予告は sc-283pro-solo-live-msp 側で9/25配信済み（sc-283pro-msp-tomorrow）。今後の続報も sc-283pro-solo-live-msp に一本化し、本エントリでの重複記事化はしないこと。"
 
 - id: godo-clashmatch-live
