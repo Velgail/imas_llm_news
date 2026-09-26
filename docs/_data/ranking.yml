@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-09-25 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-09-26 集計
 - rank: 1
-  name: "如月千早"
-  brand: as765
+  name: "冴島清美"
+  brand: cg
   move: new
 - rank: 2
-  name: "十時愛梨"
-  brand: cg
+  name: "峯田茉優"
+  brand: sc
   move: new
 - rank: 3
-  name: "夢見りあむ"
-  brand: cg
-  move: new
-- rank: 4
-  name: "月村手毬"
-  brand: gaku
-  move: down
-- rank: 5
-  name: "星井美希"
+  name: "ジュリア"
   brand: ml
   move: new
-- rank: 6
-  name: "上水流宇宙"
-  brand: valiv
-  move: new
-- rank: 7
-  name: "桜庭薫"
-  brand: sidem
-  move: down
-- rank: 8
-  name: "伊集院惠"
+- rank: 4
+  name: "夢見りあむ"
   brand: cg
   move: down
+- rank: 5
+  name: "十時愛梨"
+  brand: cg
+  move: down
+- rank: 6
+  name: "希水しお"
+  brand: sc
+  move: new
+- rank: 7
+  name: "桑山千雪"
+  brand: sc
+  move: new
+- rank: 8
+  name: "徳川まつり"
+  brand: ml
+  move: new
