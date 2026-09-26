@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-09-26"
+  dateLong: "2026年（令和8年）9月26日　土曜日"
+  pages: "全 8 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "283プロダクション「Master ShowPiece」、本日京王アリーナTOKYOで開幕"
+  indexNote: "昨日9/25、シンデレラガールズは横浜・八景島シーパラダイスとのコラボイベント「Cinderella Marine-Symphony」（来年1/9〜3/10）の開催を発表し、新曲CD『クロス×オーバー！』はc/w曲「オーバークロック！」の試聴動画公開とともにプレミアMVの9/30配信も決定した。シャニマスは上野マルイでPOP UP SHOP「ちょっぴり小悪魔になってみたい」（〜10/4）が開幕し、ミリシタは期間限定イベント『一旦愛して♡』が最終日を迎えた。SideMは「315プロNight!」を21時に放送。本日はシャニマス「283 PRODUCTION Solo Live Collection -Master ShowPiece-」が京王アリーナTOKYOで開幕、DAY1にはコラボキッチンカーも出店する。本日はシンデレラガールズの冴島清美、ミリオンライブ！のジュリアが誕生日を迎える。明日9/27には同ライブが千秋楽DAY2を迎える。"
 - date: "2026-09-25"
   dateLong: "2026年（令和8年）9月25日　金曜日"
   pages: "全 10 面"
