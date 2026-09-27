@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-09-27"
+  dateLong: "2026年（令和8年）9月27日　日曜日"
+  pages: "全 10 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "283プロ「Master ShowPiece」DAY1完走、シャニマス初オーケストラコンサートも発表"
+  indexNote: "昨日9/26、283プロダクションのソロライブ「283 PRODUCTION Solo Live Collection -Master ShowPiece-」が京王アリーナTOKYOでDAY1を迎え、4グループがランウェイ形式のステージで新曲を披露、SNSは「最高だった」の声で沸いた。公演内ではシャニマス初のソロオーケストラコンサート「THE IDOLM@STER SHINY COLORS ORCHESTRA CONCERT -Radiant Chord-」（来年3/22、パシフィコ横浜）の開催も発表された。同日、有楽町マルイ7Fにはシンデレラガールズの新規POP UP SHOP（京まふ事後物販）も開幕している。本日はMaster ShowPieceがDAY2で千秋楽を迎えるほか、SideM「Teddy's Collection II」・学マス×Chugai Grace Café・ミリオンライブ「オペラセリア」・シャニマス「パラレル回廊」・SideM「TRANSCENDENT T@LES」完結記念オンリーショップが軒並み最終日を迎え、シンデレラガールズ15周年記念オーケストラコンサートのプレミアム会員最速先行受付も本日23:59に締め切られる。明日9/28にはシャニマス×サントリー「レモンスカッシュ」が発売開始する。本日は誕生日に該当するアイドルなし。"
 - date: "2026-09-26"
   dateLong: "2026年（令和8年）9月26日　土曜日"
   pages: "全 8 面"

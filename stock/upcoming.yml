@@ -59,8 +59,10 @@
       angle: "本日開幕・DAY1"
     - on: "2027-01-12"
       angle: "DAY1レポ＆本日DAY2・千秋楽"
-  used_in: []
-  notes: "9/17配信の15周年関連まとめ記事で開催決定自体は既報だが、stock未登録だったため9/23判明分として新規追加。最速先行受付締切（9/27）以降が未消化。"
+  used_in:
+    - cg-15th-orchestra-presale-deadline  # 9/27配信「本日プレミアム会員最速先行、受付締切」
+  status: partially-used
+  notes: "9/17配信の15周年関連まとめ記事で開催決定自体は既報だが、stock未登録だったため9/23判明分として新規追加。最速先行受付締切（9/27配信）消化済み。明日開幕予告（2027-01-10）以降が未消化。"
 
 - id: sidem-producer-meeting-2027
   title: "THE IDOLM@STER SideM PRODUCER MEETING ～AJewelholIc!!!～"
@@ -451,6 +453,28 @@
     - godo-sidem-sc-sparkle-showdown-announce  # 9/13配信「新発表・本日21:00プレミアム会員先行受付開始」
     - godo-sidem-sc-sparkle-showdown-buzz  # 9/13配信「発表にファン熱狂（ファン話題）」
   notes: "出演ユニット名は発表当日（9/12）に公式サイトCASTページで判明済み（9/13事実確認で追記）。配信チケット情報は続報待ち、要追検証。"
+
+- id: cg-yurakucho-marui-popup
+  title: "シンデレラガールズPOP UP SHOP（有楽町マルイ、京まふ事後物販）"
+  brand: cg
+  kind: 公式
+  event_start: "2026-09-26"
+  event_end: "2026-10-14"
+  status: partially-used
+  confidence: unconfirmed
+  added: "2026-09-27"
+  source: "the-chara.com（2026年9月）／collabo-cafe.com"
+  facts: |
+    会場: 有楽町マルイ7F
+    開催期間: 2026年9月26日(土)〜10月14日(水)
+    内容: 京都国際マンガ・アニメフェア2026（京まふ）で販売した商品の再販＋新規描き下ろしグッズ。税込3,000円以上購入で特典ブロマイド配布、特大アクリルフィギュア抽選会
+    初日は来場者集中が見込まれ入場制限あり
+  publish_plan:
+    - on: "2026-10-14"
+      angle: "本日最終日"
+  used_in:
+    - cg-yurakucho-marui-popup  # 9/27配信「本日開催中」
+  notes: "公式ポータル（idolmaster-official.jp）での一次ソースは未特定、the-chara.com・collabo-cafe.com経由で確認したためconfidence: unconfirmedとして登録。可能なら公式発表で追検証。最終日（10/14）が未消化。"
 
 - id: cg-yamanashi-walkwander
   title: "シンデレラガールズ×山梨「やまなし WALK & WANDER」"
@@ -1218,6 +1242,8 @@
     配信チケット購入者限定の同時視聴会（9/18判明）: DAY1視聴会10/3(土)17:00〜（峯田茉優・田嶌紗蘭・三川華月出演）、DAY2視聴会10/4(日)17:00〜（希水しお・土屋李央・小澤麗那出演）。視聴には対応日程の配信チケット購入orシリアル認証が必要、アーカイブは10/5 23:59まで公開
     コラボキッチンカー（9/17判明）: 京王アリーナTOKYO 2Fデッキにて9/26(土)・27(日)各10:00〜17:00出店。メニューは「ナポリタン……！パン」1,000円・「コーヒーの代わりのレモンティー」800円・「餃子煎餅」1,000円。購入特典でダイカットステッカー（全28種）をランダム配布
     DAY1（9/26）出演者: Art & Couleurs＝関根瞳・結名美月・田中有紀・岡咲美保・三川華月・小澤麗那／Maestria & Tradizione＝峯田茉優・礒部花凜・八巻アンナ・丸岡和佳奈・涼本あきほ・芝崎典子／Street & Avant-garde＝近藤玲奈・菅沼千紗・河野ひより・北原沙弥香・土屋李央・紫月杏朱彩・川口莉奈／Urban & Lifestyle＝希水しお・永井真里子・前川涼子・幸村恵理・田嶌紗蘭・山根綺
+    DAY1（9/26）レポート: 開場16:00・開演17:00、4グループがランウェイ形式のステージ演出で新ソロ曲を披露する「ファッションショー」風構成。披露曲例: Hold on me／HELL-O／ハートフルミー／HSV色空間／どっちみちLOVE／MAGICAL FOREST／ワタシグラビティ／カラースプレーとうさぎさん／Imaginary／Damascus Cocktail 等。会場限定CD・「My Songs Collection」グッズ・全28色コンサートライト等を販売、公演後には有償限定ガシャ「Master ShowPiece 打ち上げガシャDAY1」も実施。SNSでは「最高だった」の声が相次ぎ好評（出典: idolmaster-official.jp/news/01_19897、ファミ通2026年9月分記事）
+    DAY1公演内での新発表: シャニマス初のソロオーケストラコンサート「THE IDOLM@STER SHINY COLORS ORCHESTRA CONCERT -Radiant Chord-」を2027年3月22日(月・祝)にパシフィコ横浜 国立大ホールで開催決定と発表（別エントリ sc-shinycolors-orchestra-radiantchord で管理）
   publish_plan:
     - on: "2026-09-22"
       angle: "現地物販整理券、本日13:00当落発表"
@@ -1243,7 +1269,34 @@
     - sc-283pro-msp-goods-lottery-result  # 9/22配信「現地物販整理券、本日13:00当落発表」
     - sc-283pro-msp-tomorrow  # 9/25配信「明日開幕予告」
     - sc-283pro-msp-today  # 9/26配信「本日開幕・DAY1」
-  notes: "出演者・セトリ等の詳細は未取得。楽屋花・プレゼント受付方法（送付先はいずれも京王アリーナTOKYO メインエントランス気付、楽屋花サイズ上限40cm・指定到着日時は公演前日9/25 12:00〜16:00の1回のみ、プレゼント〈メッセージ類〉は公演当日9/26・27いずれも11:00〜開演前）が判明（8/23配信）。チケット価格（全席指定14,000円）判明（8/25配信、事実確認済み）。一般発売日は続報待ち、要追検証。【8/24事実確認】公式サイト（idolmaster-official.jp/live_event/283production_msp/）で4グループ編成（Maestria & Tradizione／Art & Couleurs／Street & Avant-garde／Urban & Lifestyle）と全出演声優は2026年3月19日公開・7月2日更新の時点で既に判明済みと確認。同ネタで再度「新発表」的に記事化しないよう注意。【重複エントリにつき要注意】本エントリと sc-masterlivepiece-solo-live は同一ライブを別々に登録してしまったもの。今後の続報はどちらか一方（本エントリ）に一本化して記事化し、重複記事化を避けること。コラボキッチンカーの出店（9/17判明）・DAY1出演者（9/26配信で事実確認）を反映済み。本日開幕・DAY1（9/26）まで消化済み。本日千秋楽（9/27）・同時視聴会（10/3・10/4）が未消化。"
+    - sc-283pro-msp-day1report-finale  # 9/27配信「DAY1レポ＆本日千秋楽DAY2」
+  notes: "出演者・セトリ等の詳細は未取得。楽屋花・プレゼント受付方法（送付先はいずれも京王アリーナTOKYO メインエントランス気付、楽屋花サイズ上限40cm・指定到着日時は公演前日9/25 12:00〜16:00の1回のみ、プレゼント〈メッセージ類〉は公演当日9/26・27いずれも11:00〜開演前）が判明（8/23配信）。チケット価格（全席指定14,000円）判明（8/25配信、事実確認済み）。一般発売日は続報待ち、要追検証。【8/24事実確認】公式サイト（idolmaster-official.jp/live_event/283production_msp/）で4グループ編成（Maestria & Tradizione／Art & Couleurs／Street & Avant-garde／Urban & Lifestyle）と全出演声優は2026年3月19日公開・7月2日更新の時点で既に判明済みと確認。同ネタで再度「新発表」的に記事化しないよう注意。【重複エントリにつき要注意】本エントリと sc-masterlivepiece-solo-live は同一ライブを別々に登録してしまったもの。今後の続報はどちらか一方（本エントリ）に一本化して記事化し、重複記事化を避けること。コラボキッチンカーの出店（9/17判明）・DAY1出演者（9/26配信で事実確認）を反映済み。本日開幕・DAY1（9/26）・DAY1レポ＆本日千秋楽DAY2（9/27配信）まで消化済み。同時視聴会（10/3・10/4）が未消化。"
+
+- id: sc-shinycolors-orchestra-radiantchord
+  title: "THE IDOLM@STER SHINY COLORS ORCHESTRA CONCERT -Radiant Chord-"
+  brand: sc
+  kind: 公式
+  event_start: "2027-03-22"
+  status: pending
+  confidence: confirmed
+  added: "2026-09-27"
+  source: "アイドルマスター公式ポータル news/01_19982／ファミ通（2026年9月26日）"
+  facts: |
+    内容: シャニマス初のソロオーケストラコンサート
+    会場: パシフィコ横浜 国立大ホール
+    日程: 2027年3月22日（月・祝）、昼公演12:00開場・13:00開演、夜公演17:00開場・18:00開演の1日2公演
+    発表経緯: 「283 PRODUCTION Solo Live Collection -Master ShowPiece-」DAY1（9/26、京王アリーナTOKYO）の公演内で発表
+    アソビストアプレミアム会員先行受付: 発表当日（9/26）よりスタート（受付締切等の詳細は続報待ち）
+    出演者・セトリ・一般発売日程は続報待ち
+  publish_plan:
+    - on: "2027-03-21"
+      angle: "明日開幕予告"
+    - on: "2027-03-22"
+      angle: "本日開催"
+  used_in:
+    - sc-shinycolors-orchestra-announce  # 9/27配信「新発表」
+  status: partially-used
+  notes: "9/26のMaster ShowPiece DAY1公演内で発表された新規イベント。9/27配信で新発表として記事化済み。プレミアム会員先行受付の締切日・出演者は続報待ち、要追検証。"
 
 - id: sc-8bankaramen-collab
   title: "シャニマス×「8番らーめん」コラボ"
@@ -1294,7 +1347,9 @@
       angle: "本日発売開始"
   used_in:
     - sc-suntory-lemonsquash  # 9/19配信「新発表」
-  notes: "アクリルキーホルダー抽選施策の詳細は続報待ち。"
+    - sc-suntory-lemonsquash-tomorrow  # 9/27配信「明日発売予告」
+  status: partially-used
+  notes: "アクリルキーホルダー抽選施策の詳細は続報待ち。明日発売予告（9/27配信）消化済み、本日発売開始（9/28）が未消化。"
 
 - id: cg-numberone-crossover
   title: "CD「THE IDOLM@STER CINDERELLA MASTER NUMBER ONE! クロス×オーバー！」"
@@ -1500,7 +1555,9 @@
     - sidem-teddys-collection2-tomorrow  # 9/3配信「明日新宿マルイアネックス開幕予告」
     - sidem-teddys-collection2-today  # 9/4配信「本日新宿マルイアネックス開幕」
     - sidem-teddys-collection2-namba-today  # 9/18配信「本日難波マルイ開幕」
-  notes: "第1弾（2026年1月開催）の好評を受けた第2弾。グッズラインナップの詳細は続報待ち。新宿マルイアネックス開幕（9/4）・難波マルイ開幕（9/18）消化済み、全会場終了（9/27）が未消化。"
+    - sidem-teddys-collection2-final  # 9/27配信「本日全会場終了」
+  status: done
+  notes: "第1弾（2026年1月開催）の好評を受けた第2弾。グッズラインナップの詳細は続報待ち。新宿マルイアネックス開幕（9/4）・難波マルイ開幕（9/18）・全会場終了（9/27配信）まで全publish_plan消化済み。"
 
 - id: as765-kotobukiya-kuji-summerlive
   title: "コトブキヤくじ「アイドルマスター Summer Live st@ge」"
@@ -1577,7 +1634,9 @@
     - gaku-chugai-cafe-menu-detail  # 9/5配信「メニュー詳細判明（更新あり）」
     - gaku-chugai-cafe-half2-preview  # 9/14配信「明日から後半特典に切替」
     - gaku-chugai-cafe-half2-today  # 9/15配信「本日から後半特典に切替」
-  notes: "重複していたstockエントリ（gaku-chugai-cafe-revival, added 8/29）を本エントリに統合（2026-09-02）。メニュー・グッズ詳細を9/5配信で記事化済み（事実確認: 各社ニュースサイト掲載のChugai Grace Cafe公式リリース内容と一致）。前半→後半特典切替予告（9/14配信）・本日切替（9/15配信）消化済み。最終日（9/27）が未消化。"
+    - gaku-chugai-cafe-final  # 9/27配信「本日最終日」
+  status: done
+  notes: "重複していたstockエントリ（gaku-chugai-cafe-revival, added 8/29）を本エントリに統合（2026-09-02）。メニュー・グッズ詳細を9/5配信で記事化済み（事実確認: 各社ニュースサイト掲載のChugai Grace Cafe公式リリース内容と一致）。前半→後半特典切替予告（9/14配信）・本日切替（9/15配信）・最終日（9/27配信）まで全publish_plan消化済み。"
 
 - id: ml-operaseria-popup
   title: "ミリオンライブ POP UP SHOP「オペラセリア」（コトブキヤ秋葉原館）"
@@ -1608,7 +1667,9 @@
     - ml-operaseria-popup-today  # 9/11配信「本日開幕」
     - ml-operaseria-popup-qr-ticket-update  # 9/12配信「開幕日はQR整理券制に（更新あり）」
     - ml-operaseria-cast-detail  # 9/14配信「出演6名の顔ぶれをあらためて紹介（更新あり）」
-  notes: "グッズラインナップは続報待ち、要追検証。開幕日（9/11〜13）はデジタルQR整理券配布での運用と判明（9/12配信）。出演キャラクター名を事実確認し訂正（9/14配信、正しくは北沢志保・桜守歌織・徳川まつり・田中琴葉・エミリー スチュアート・白石紬）。最終日（9/27）が未消化。"
+    - ml-operaseria-popup-final  # 9/27配信「本日最終日」
+  status: done
+  notes: "グッズラインナップは続報待ち、要追検証。開幕日（9/11〜13）はデジタルQR整理券配布での運用と判明（9/12配信）。出演キャラクター名を事実確認し訂正（9/14配信、正しくは北沢志保・桜守歌織・徳川まつり・田中琴葉・エミリー スチュアート・白石紬）。最終日（9/27配信）まで全publish_plan消化済み。"
 
 - id: sidem-hands-knickknacks-vol1
   title: "アイドルマスター SideM knick-knacks Vol.1（ハンズ50周年コラボ）"
@@ -1724,8 +1785,8 @@
     - sc-masterlivepiece-general-onsale-today  # 8/29配信「本日現地チケット一般発売（先着）開始」
     - sc-masterlivepiece-resale-start  # 9/5配信「公式リセール本日15:00受付開始」
     - sc-283pro-msp-deadlines-today  # 9/15配信「現地チケット一般発売（先着）、本日23:59締切（姉妹エントリsc-283pro-solo-live-mspの物販整理券締切と合わせて1本化）」
-  status: partially-used
-  notes: "出演者・セトリ等の詳細は続報待ち、要追検証。公式リセール受付開始（9/5）・現地チケット一般発売（先着）本日23:59締切（9/15配信）消化済み。【重複エントリにつき要注意】本エントリと sc-283pro-solo-live-msp は同一ライブを別々に登録してしまったもの。明日開幕予告は sc-283pro-solo-live-msp 側で9/25配信済み（sc-283pro-msp-tomorrow）。今後の続報も sc-283pro-solo-live-msp に一本化し、本エントリでの重複記事化はしないこと。"
+  status: done
+  notes: "出演者・セトリ等の詳細は続報待ち、要追検証。公式リセール受付開始（9/5）・現地チケット一般発売（先着）本日23:59締切（9/15配信）消化済み。【重複エントリにつき要注意】本エントリと sc-283pro-solo-live-msp は同一ライブを別々に登録してしまったもの。明日開幕予告・本日開幕DAY1・DAY1レポ＆本日千秋楽DAY2はすべて sc-283pro-solo-live-msp 側で記事化済み（sc-283pro-msp-tomorrow／sc-283pro-msp-today／sc-283pro-msp-day1report-finale）。本エントリでの重複記事化はしないこと。全publish_plan消化済みにつきクローズ。"
 
 - id: godo-clashmatch-live
   title: "THE IDOLM@STER CINDERELLA GIRLS × MILLION LIVE! CLASH M@TCH!!"
@@ -1792,6 +1853,7 @@
     - sc-parallel-korou-tomorrow  # 9/19配信「パラレル回廊、明日9/20秋葉原UDXで開幕」
     - sc-parallel-korou-today  # 9/20配信「パラレル回廊、本日開幕」
     - sc-parallel-korou-officialshop-sale  # 9/21配信「開催中・一部商品は9/28からオフィシャルショップでも展開（更新あり）」
+    - sc-parallel-korou-final  # 9/27配信「パラレル回廊、本日最終日」
   facts: |
     パラレル回廊 入場事前予約: 2026年9月4日12:00〜9月13日23:59受付（news/01_19792）
     2026年サマーシャニソン楽曲「泡沫に染まる」: 2026年9月6日より配信開始
@@ -1801,7 +1863,8 @@
     アルバム購入者特典抽選会: 対象店舗でB2告知ポスター等が当たる抽選会を9月15日〜20日に実施（一部通販含む、通販は9/10 23:59までの予約が対象）
     CD発売記念グッズ通販: 各チーム（-Stella-/-Luna-/-Sol-）イメージのカラーアクリルキーホルダーを数量限定販売。受付9月16日18:00〜9月30日23:59、アソビストア・アニメイト通販、発送は11月下旬以降予定、再販なし（news/01_19888）
     パラレル回廊の一部商品は「アイドルマスター オフィシャルショップ」でも9月28日〜10月12日に期間限定販売予定（店舗により取扱商品が異なる、購入特典・展示施策なし）
-  notes: "アルバム収録アイドルの内訳・各形態の振り分けは続報待ち、要追検証。3形態・価格判明（8/30配信）。パラレル回廊の入場事前予約受付開始（9/4 12:00〜9/13 23:59）を9/5配信で記事化済み。新曲「泡沫に染まる」配信開始（9/6）消化済み。パラレル回廊の来場予約は9/13 23:59に受付終了（9/14配信で記事化）。アルバム『HOPEFUL FE@THERS』の明日発売予告（9/15配信）・本日発売（9/16配信）・CD発売記念グッズ通販開始（9/17配信）まで消化済み。商品ラインナップ・対象アイドルの詳細は続報待ち。パラレル回廊の明日開幕予告（9/19配信）・本日開幕（9/20配信）・開催中/オフィシャルショップ展開判明（9/21配信）まで消化済み。グッズ通販締切（9/30）・パラレル回廊最終日（9/27）以降が未消化。"
+  status: partially-used
+  notes: "アルバム収録アイドルの内訳・各形態の振り分けは続報待ち、要追検証。3形態・価格判明（8/30配信）。パラレル回廊の入場事前予約受付開始（9/4 12:00〜9/13 23:59）を9/5配信で記事化済み。新曲「泡沫に染まる」配信開始（9/6）消化済み。パラレル回廊の来場予約は9/13 23:59に受付終了（9/14配信で記事化）。アルバム『HOPEFUL FE@THERS』の明日発売予告（9/15配信）・本日発売（9/16配信）・CD発売記念グッズ通販開始（9/17配信）まで消化済み。商品ラインナップ・対象アイドルの詳細は続報待ち。パラレル回廊の明日開幕予告（9/19配信）・本日開幕（9/20配信）・開催中/オフィシャルショップ展開判明（9/21配信）・本日最終日（9/27配信）まで消化済み。グッズ通販締切（9/30）が未消化。"
 
 - id: sidem-transcendent-tales-onlyshop
   title: "SideM「TRANSCENDENT T@LES」完結記念オンリーショップ"
@@ -1823,7 +1886,9 @@
       angle: "本日最終日"
   used_in:
     - sidem-transcendent-tales-onlyshop  # 9/6配信「昨日アニメイト池袋本店で開幕」
-  notes: "開幕（9/5）分は記事化済み。グッズ詳細・公式一次ソースは要追検証。最終日（9/27）が未消化。"
+    - sidem-transcendent-tales-final  # 9/27配信「本日最終日」
+  status: done
+  notes: "開幕（9/5）分は記事化済み。グッズ詳細・公式一次ソースは要追検証。最終日（9/27配信）まで全publish_plan消化済み。"
 
 - id: sogo-imasradio-launch
   title: "新ラジオ番組「IM@S RADIO」放送開始"
