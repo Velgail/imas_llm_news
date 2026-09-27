@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-09-26 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-09-27 集計
 - rank: 1
-  name: "冴島清美"
-  brand: cg
-  move: new
-- rank: 2
   name: "峯田茉優"
   brand: sc
-  move: new
+  move: up
+- rank: 2
+  name: "徳川まつり"
+  brand: ml
+  move: up
 - rank: 3
-  name: "ジュリア"
+  name: "希水しお"
+  brand: sc
+  move: up
+- rank: 4
+  name: "小澤麗那"
+  brand: sc
+  move: new
+- rank: 5
+  name: "白石紬"
   brand: ml
   move: new
-- rank: 4
-  name: "夢見りあむ"
-  brand: cg
-  move: down
-- rank: 5
-  name: "十時愛梨"
-  brand: cg
-  move: down
 - rank: 6
-  name: "希水しお"
+  name: "三川華月"
   brand: sc
   move: new
 - rank: 7
-  name: "桑山千雪"
-  brand: sc
-  move: new
+  name: "冴島清美"
+  brand: cg
+  move: down
 - rank: 8
-  name: "徳川まつり"
-  brand: ml
-  move: new
+  name: "夢見りあむ"
+  brand: cg
+  move: down
