@@ -1270,7 +1270,9 @@
     - sc-283pro-msp-tomorrow  # 9/25配信「明日開幕予告」
     - sc-283pro-msp-today  # 9/26配信「本日開幕・DAY1」
     - sc-283pro-msp-day1report-finale  # 9/27配信「DAY1レポ＆本日千秋楽DAY2」
-  notes: "出演者・セトリ等の詳細は未取得。楽屋花・プレゼント受付方法（送付先はいずれも京王アリーナTOKYO メインエントランス気付、楽屋花サイズ上限40cm・指定到着日時は公演前日9/25 12:00〜16:00の1回のみ、プレゼント〈メッセージ類〉は公演当日9/26・27いずれも11:00〜開演前）が判明（8/23配信）。チケット価格（全席指定14,000円）判明（8/25配信、事実確認済み）。一般発売日は続報待ち、要追検証。【8/24事実確認】公式サイト（idolmaster-official.jp/live_event/283production_msp/）で4グループ編成（Maestria & Tradizione／Art & Couleurs／Street & Avant-garde／Urban & Lifestyle）と全出演声優は2026年3月19日公開・7月2日更新の時点で既に判明済みと確認。同ネタで再度「新発表」的に記事化しないよう注意。【重複エントリにつき要注意】本エントリと sc-masterlivepiece-solo-live は同一ライブを別々に登録してしまったもの。今後の続報はどちらか一方（本エントリ）に一本化して記事化し、重複記事化を避けること。コラボキッチンカーの出店（9/17判明）・DAY1出演者（9/26配信で事実確認）を反映済み。本日開幕・DAY1（9/26）・DAY1レポ＆本日千秋楽DAY2（9/27配信）まで消化済み。同時視聴会（10/3・10/4）が未消化。"
+    - sc-283pro-msp-day2-finale-report  # 9/28配信「DAY2完走レポ」
+  status: done
+  notes: "出演者・セトリ等の詳細は未取得。楽屋花・プレゼント受付方法（送付先はいずれも京王アリーナTOKYO メインエントランス気付、楽屋花サイズ上限40cm・指定到着日時は公演前日9/25 12:00〜16:00の1回のみ、プレゼント〈メッセージ類〉は公演当日9/26・27いずれも11:00〜開演前）が判明（8/23配信）。チケット価格（全席指定14,000円）判明（8/25配信、事実確認済み）。一般発売日は続報待ち、要追検証。【8/24事実確認】公式サイト（idolmaster-official.jp/live_event/283production_msp/）で4グループ編成（Maestria & Tradizione／Art & Couleurs／Street & Avant-garde／Urban & Lifestyle）と全出演声優は2026年3月19日公開・7月2日更新の時点で既に判明済みと確認。同ネタで再度「新発表」的に記事化しないよう注意。【重複エントリにつき要注意】本エントリと sc-masterlivepiece-solo-live は同一ライブを別々に登録してしまったもの。今後の続報はどちらか一方（本エントリ）に一本化して記事化し、重複記事化を避けること。コラボキッチンカーの出店（9/17判明）・DAY1出演者（9/26配信で事実確認）を反映済み。本日開幕・DAY1（9/26）・DAY1レポ＆本日千秋楽DAY2（9/27配信）・DAY2完走レポ（9/28配信、アフタートーク「ばくすて！とーく」配信も実施）まで全publish_plan消化済みにつきクローズ。同時視聴会（10/3・10/4）は姉妹エントリで別管理。"
 
 - id: sc-shinycolors-orchestra-radiantchord
   title: "THE IDOLM@STER SHINY COLORS ORCHESTRA CONCERT -Radiant Chord-"
@@ -1297,6 +1299,36 @@
     - sc-shinycolors-orchestra-announce  # 9/27配信「新発表」
   status: partially-used
   notes: "9/26のMaster ShowPiece DAY1公演内で発表された新規イベント。9/27配信で新発表として記事化済み。プレミアム会員先行受付の締切日・出演者は続報待ち、要追検証。"
+
+- id: sc-noctchill-live
+  title: "283 Production LIVE Performance noctchill（ノクチル単独xRライブ）"
+  brand: sc
+  kind: 公式
+  event_start: "2027-03-27"
+  event_end: "2027-03-28"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-09-28"
+  source: "アイドルマスター公式ポータル news/01_19969（2026年9月27日発表）"
+  facts: |
+    名称: 283 Production LIVE Performance noctchill（ノクチル初の単独xRライブ）
+    会場: ゼビオアリーナ仙台
+    日程: 2027年3月27日（土）・28日（日）、各日昼夜2公演の計4公演
+    公演別サブタイトル: 27日昼「ただ眩しかった」（開場12:00/開演13:00）、27日夜「きみと一緒だったら」（開場16:00/開演17:00）、28日昼「きっと忘れない」（開場12:00/開演13:00）、28日夜「さよなら」（開場16:00/開演17:00）
+    発表経緯: 「283 PRODUCTION Solo Live Collection -Master ShowPiece-」DAY2公演内（9/27）で発表
+    アソビストアプレミアム会員先行受付: 2026年9月27日19:00〜10月12日23:59
+    出演声優・セトリ・一般発売日程は続報待ち
+  publish_plan:
+    - on: "2027-03-26"
+      angle: "明日開幕予告"
+    - on: "2027-03-27"
+      angle: "本日開幕・DAY1（2公演）"
+    - on: "2027-03-28"
+      angle: "DAY1レポ＆本日DAY2・千秋楽（2公演）"
+  used_in:
+    - sc-noctchill-announce  # 9/28配信「新発表」
+    - sc-noctchill-buzz  # 9/28配信「発表にファン歓喜（ファン話題）」
+  notes: "ノクチル初の単独ライブ。出演声優・セトリ・一般発売日程は続報待ち、要追検証。"
 
 - id: sc-8bankaramen-collab
   title: "シャニマス×「8番らーめん」コラボ"
@@ -1348,8 +1380,9 @@
   used_in:
     - sc-suntory-lemonsquash  # 9/19配信「新発表」
     - sc-suntory-lemonsquash-tomorrow  # 9/27配信「明日発売予告」
-  status: partially-used
-  notes: "アクリルキーホルダー抽選施策の詳細は続報待ち。明日発売予告（9/27配信）消化済み、本日発売開始（9/28）が未消化。"
+    - sc-suntory-lemonsquash-today  # 9/28配信「本日発売開始」
+  status: done
+  notes: "アクリルキーホルダー抽選施策の詳細は続報待ち。明日発売予告（9/27配信）・本日発売開始（9/28配信）まで全publish_plan消化済みにつきクローズ。"
 
 - id: cg-numberone-crossover
   title: "CD「THE IDOLM@STER CINDERELLA MASTER NUMBER ONE! クロス×オーバー！」"
