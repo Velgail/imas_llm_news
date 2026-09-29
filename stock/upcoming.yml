@@ -64,6 +64,34 @@
   status: partially-used
   notes: "9/17配信の15周年関連まとめ記事で開催決定自体は既報だが、stock未登録だったため9/23判明分として新規追加。最速先行受付締切（9/27配信）消化済み。明日開幕予告（2027-01-10）以降が未消化。"
 
+- id: cg-athome-xrlive-apple-2027
+  title: "ATHOME xR LIVE Apple of my アイ"
+  brand: cg
+  kind: 公式
+  event_start: "2027-02-13"
+  event_end: "2027-02-14"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-09-29"
+  source: "アイドルマスター シンデレラガールズ【ブランド公式】X（2026年9月28日発表）"
+  facts: |
+    名称: ATHOME xR LIVE Apple of my アイ
+    会場: 山形県 やまぎん県民ホール
+    日程: 2027年2月13日(土)開場18:00・開演19:00、14日(日)昼公演(開場11:30・開演12:30)・夜公演(開場16:30・開演17:30)の1日2公演
+    テーマ: 「地元愛、フルーツ愛、あなたへの愛」、バレンタインシーズンにちなんだ公演
+    出演: #UNICUS（辻野あかり・砂塚あきら・夢見りあむ）、スウィート・ソアー（佐久間まゆ・橘ありす）
+    アソビストアプレミアム会員対象の現地チケット最速先行受付が発表当日9/28 21:30よりスタート
+  publish_plan:
+    - on: "2027-02-12"
+      angle: "明日開幕予告"
+    - on: "2027-02-13"
+      angle: "本日開幕・DAY1"
+    - on: "2027-02-14"
+      angle: "本日DAY2・千秋楽（昼夜2公演）"
+  used_in:
+    - cg-athome-xrlive-apple  # 9/29配信「新発表」
+  notes: "先行受付の締切日・一般発売日程は続報待ち、要追検証。"
+
 - id: sidem-producer-meeting-2027
   title: "THE IDOLM@STER SideM PRODUCER MEETING ～AJewelholIc!!!～"
   brand: sidem
@@ -142,6 +170,46 @@
   used_in:
     - sidem-mfes-2026-theme-song  # 9/13配信「新発表」
   notes: "予約開始日・Mフェス本体の日程は続報待ち、要追検証。"
+
+- id: gaku-battlespirits-collab-2027
+  title: "「バトルスピリッツ」×学園アイドルマスター コラボ商品"
+  brand: gaku
+  kind: 公式
+  status: watching
+  confidence: confirmed
+  added: "2026-09-29"
+  source: "学園アイドルマスター公式X（@gkmas_official、2026年9月28日「初星学園HR #12」生配信内で発表）"
+  facts: |
+    内容: トレーディングカードゲーム「バトルスピリッツ」と学園アイドルマスターのコラボ商品化
+    商品: 「コラボスターター 始まりのステップ」「コラボブースター 輝けるアイドル」の2種、描き下ろしイラスト使用カードも収録予定
+    発売時期: 2027年春（正確な発売日は続報待ち）
+  publish_plan:
+    - on: "発売日決定後（未定）"
+      angle: "発売日判明・予約開始"
+  used_in:
+    - gaku-battlespirits-collab  # 9/29配信「新発表」
+  notes: "カードデザイン・収録内容の詳細は続報待ち、要追検証。発売日が判明次第event_startを設定する。"
+
+- id: gaku-hoshizara-hr12-koakuma-event
+  title: "学マス小悪魔ストーリーイベント「ワタシ、小悪魔♡」"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-09-30"
+  status: pending
+  confidence: confirmed
+  added: "2026-09-29"
+  source: "学園アイドルマスター公式X（@gkmas_official、2026年9月28日「初星学園HR #12」生配信内で発表）"
+  facts: |
+    内容: 小悪魔モチーフのストーリーイベント「ワタシ、小悪魔♡」。小悪魔ガシャ関連曲「Agitato」（歌唱: 倉本千奈・紫雲清夏・秦谷美鈴・十王星南、9/22岩手公演DAY1でサプライズ初披露済み）のゲーム内ライブシーン初公開と同じ生配信で発表
+    グラビアシリーズ第2弾「小悪魔ガシャ」も実施予定
+    開始日時: 2026年9月30日(水)11:00〜
+    イベント報酬: SSR花海佑芽（小悪魔ver.）
+  publish_plan:
+    - on: "2026-09-30"
+      angle: "本日開始"
+  used_in:
+    - gaku-hoshizara-hr12-agitato  # 9/29配信「新発表（Agitatoライブシーン初公開・ガシャ告知）」
+  notes: "「Agitato」は9/22岩手公演DAY1で既に初披露済みの全体曲（歌唱: 倉本千奈・紫雲清夏・秦谷美鈴・十王星南）。9/29配信記事で葛城リーリヤ新曲との誤記を修正済み。イベント終了日・小悪魔ガシャの詳細は続報待ち、要追検証。"
 
 - id: gaku-ichibankuji-part7
   title: "一番くじ 学園アイドルマスター Part7"
@@ -1271,6 +1339,7 @@
     - sc-283pro-msp-today  # 9/26配信「本日開幕・DAY1」
     - sc-283pro-msp-day1report-finale  # 9/27配信「DAY1レポ＆本日千秋楽DAY2」
     - sc-283pro-msp-day2-finale-report  # 9/28配信「DAY2完走レポ」
+    - sc-283pro-msp-archive-start  # 9/29配信「視聴コメント付きアーカイブ、昨日18時より配信開始」
   status: done
   notes: "出演者・セトリ等の詳細は未取得。楽屋花・プレゼント受付方法（送付先はいずれも京王アリーナTOKYO メインエントランス気付、楽屋花サイズ上限40cm・指定到着日時は公演前日9/25 12:00〜16:00の1回のみ、プレゼント〈メッセージ類〉は公演当日9/26・27いずれも11:00〜開演前）が判明（8/23配信）。チケット価格（全席指定14,000円）判明（8/25配信、事実確認済み）。一般発売日は続報待ち、要追検証。【8/24事実確認】公式サイト（idolmaster-official.jp/live_event/283production_msp/）で4グループ編成（Maestria & Tradizione／Art & Couleurs／Street & Avant-garde／Urban & Lifestyle）と全出演声優は2026年3月19日公開・7月2日更新の時点で既に判明済みと確認。同ネタで再度「新発表」的に記事化しないよう注意。【重複エントリにつき要注意】本エントリと sc-masterlivepiece-solo-live は同一ライブを別々に登録してしまったもの。今後の続報はどちらか一方（本エントリ）に一本化して記事化し、重複記事化を避けること。コラボキッチンカーの出店（9/17判明）・DAY1出演者（9/26配信で事実確認）を反映済み。本日開幕・DAY1（9/26）・DAY1レポ＆本日千秋楽DAY2（9/27配信）・DAY2完走レポ（9/28配信、アフタートーク「ばくすて！とーく」配信も実施）まで全publish_plan消化済みにつきクローズ。同時視聴会（10/3・10/4）は姉妹エントリで別管理。"
 
@@ -1407,7 +1476,9 @@
   used_in:
     - cg-numberone-crossover-cw-preview  # 9/19配信「c/w曲の試聴が昨日スタート」
     - cg-numberone-crossover-mv-preview  # 9/26配信「試聴動画公開・プレミアMV配信決定（更新あり）」
-  notes: "収録曲の詳細な内訳は続報待ち、要追検証。オーバークロック！new generations verの試聴動画公開・プレミアMV9/30 21時配信決定（9/25判明、9/26配信で記事化）を反映済み。"
+    - cg-numberone-crossover-tomorrow  # 9/29配信「明日発売予告」
+  status: partially-used
+  notes: "収録曲の詳細な内訳は続報待ち、要追検証。オーバークロック！new generations verの試聴動画公開・プレミアMV9/30 21時配信決定（9/25判明、9/26配信で記事化）を反映済み。明日発売予告（9/29配信）消化済み。本日発売・プレミアMV21時配信（9/30）が未消化。"
 
 - id: sc-refrac7ions-stillblue-live
   title: "シャニマス「shiny, the first REFRAC7IONS \"Still blue\"」"
@@ -1953,7 +2024,9 @@
     - sogo-imasradio-tomorrow  # 9/14配信「明日初回配信予告」
     - sogo-imasradio-today  # 9/15配信「本日初回配信」
     - sogo-imasradio-next-guest  # 9/16配信「次回9/29放送・ゲストは神原大地さんと発表」
-  notes: "初回ゲスト・具体的なコーナー内容は続報待ち、要追検証。明日初回配信予告（9/14配信）・本日初回配信（9/15配信）消化済み。【9/15事実確認】第1回はパーソナリティ2名（平田宏美・若林直美）のみの立ち上げ回で、ゲストなし。ゲスト出演は第2回以降の想定（当初stockに記載していた『ゲスト判明』は誤りだったため訂正）。第2回（9/29）のゲスト・テーマが9/15 22:20判明、9/16配信で記事化済み。第2回放送当日（9/29）が未消化。"
+    - sogo-imasradio-2nd-broadcast  # 9/29配信「本日第2回放送・ゲスト神原大地さん」
+  status: done
+  notes: "初回ゲスト・具体的なコーナー内容は続報待ち、要追検証。明日初回配信予告（9/14配信）・本日初回配信（9/15配信）消化済み。【9/15事実確認】第1回はパーソナリティ2名（平田宏美・若林直美）のみの立ち上げ回で、ゲストなし。ゲスト出演は第2回以降の想定（当初stockに記載していた『ゲスト判明』は誤りだったため訂正）。第2回（9/29）のゲスト・テーマが9/15 22:20判明、9/16配信で記事化済み。第2回放送当日（9/29配信）まで全publish_plan消化済みにつきクローズ。第3回以降の詳細が判明次第、新規エントリで追加する。"
 
 - id: sc-autumn-training-week-202609
   title: "シャニマス「秋のアイドル強化週間」"
@@ -1976,7 +2049,9 @@
   used_in:
     - sc-autumn-training-week  # 9/7配信「本日開始（9月29日まで）」
     - sc-autumn-training-week-day2-buzz  # 9/8配信「開催2日目、SNSで編成議論白熱（ファン話題）」
-  notes: "終了（9/29）が未消化。"
+    - sc-autumn-training-week-final  # 9/29配信「本日最終日」
+  status: done
+  notes: "終了（9/29配信）まで全publish_plan消化済みにつきクローズ。"
 
 - id: sidem-anideal-daimaru-perfume
   title: "SideM×Anideal 大丸コラボレーション香水 第1弾"

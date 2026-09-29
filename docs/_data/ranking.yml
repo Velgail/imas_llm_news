@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-09-28 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-09-29 集計
 - rank: 1
-  name: "幽谷霧子"
-  brand: sc
+  name: "倉本千奈"
+  brand: gaku
   move: new
 - rank: 2
-  name: "小糸虎南"
-  brand: sc
+  name: "辻野あかり"
+  brand: cg
   move: new
 - rank: 3
-  name: "田中摩美々"
+  name: "幽谷霧子"
   brand: sc
-  move: new
+  move: down
 - rank: 4
-  name: "樋口円香"
-  brand: sc
+  name: "花海佑芽"
+  brand: gaku
   move: new
 - rank: 5
-  name: "北原沙弥香"
-  brand: sc
+  name: "夢見りあむ"
+  brand: cg
   move: up
 - rank: 6
-  name: "徳川まつり"
-  brand: ml
-  move: down
-- rank: 7
-  name: "峯田茉優"
+  name: "小糸虎南"
   brand: sc
   move: down
-- rank: 8
-  name: "高槻やよい"
-  brand: as765
+- rank: 7
+  name: "佐久間まゆ"
+  brand: cg
   move: new
+- rank: 8
+  name: "田中摩美々"
+  brand: sc
+  move: down
