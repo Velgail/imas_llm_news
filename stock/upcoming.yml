@@ -195,7 +195,7 @@
   brand: gaku
   kind: 公式
   event_start: "2026-09-30"
-  status: pending
+  status: partially-used
   confidence: confirmed
   added: "2026-09-29"
   source: "学園アイドルマスター公式X（@gkmas_official、2026年9月28日「初星学園HR #12」生配信内で発表）"
@@ -209,6 +209,7 @@
       angle: "本日開始"
   used_in:
     - gaku-hoshizara-hr12-agitato  # 9/29配信「新発表（Agitatoライブシーン初公開・ガシャ告知）」
+    - gaku-koakuma-event-gacha-start
   notes: "「Agitato」は9/22岩手公演DAY1で既に初披露済みの全体曲（歌唱: 倉本千奈・紫雲清夏・秦谷美鈴・十王星南）。9/29配信記事で葛城リーリヤ新曲との誤記を修正済み。イベント終了日・小悪魔ガシャの詳細は続報待ち、要追検証。"
 
 - id: gaku-ichibankuji-part7
@@ -577,7 +578,7 @@
   kind: 公式
   event_start: "2026-10-01"
   event_end: "2026-12-27"
-  status: pending
+  status: partially-used
   confidence: confirmed
   added: "2026-09-14"
   source: "アイドルマスター公式ポータル news/01_19811（2026年9月4日発表）"
@@ -635,6 +636,8 @@
 # 行われる事実は確認できなかった。ソースとして挙げた eigakan.org?t=shinycolorsanime6 も
 # 2024年の第3章ページである。2026年の劇場上映として再度記録しないこと。
 
+  used_in:
+    - cg-rose-tea-parlor-nagoya-today
 - id: sc-futamasu-fukuroi
   title: "静岡県袋井市「ふたマス!!!!!!」有栖川夏葉マンホール設置"
   brand: sc
@@ -1477,6 +1480,7 @@
     - cg-numberone-crossover-cw-preview  # 9/19配信「c/w曲の試聴が昨日スタート」
     - cg-numberone-crossover-mv-preview  # 9/26配信「試聴動画公開・プレミアMV配信決定（更新あり）」
     - cg-numberone-crossover-tomorrow  # 9/29配信「明日発売予告」
+    - cg-numberone-crossover-today
   status: partially-used
   notes: "収録曲の詳細な内訳は続報待ち、要追検証。オーバークロック！new generations verの試聴動画公開・プレミアMV9/30 21時配信決定（9/25判明、9/26配信で記事化）を反映済み。明日発売予告（9/29配信）消化済み。本日発売・プレミアMV21時配信（9/30）が未消化。"
 
@@ -2188,6 +2192,7 @@
       angle: "本日フォトスポット設置終了・完走"
   used_in:
     - ml-kinoshita-hinata-ringo-matsuri  # 9/16配信「新発表・詳細判明」
+    - ml-souhbetsu-ringo-matsuri-tomorrow
   notes: "9/15発表・9/16配信で記事化済み。開幕予告（10/1）以降が未消化。"
 
 - id: gaku-namco-crane-campaign-202609
