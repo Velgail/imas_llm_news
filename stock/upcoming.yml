@@ -2,6 +2,107 @@
 # event_start 昇順（直近が先頭）。配信日に該当する予定があれば取り出して記事化する。
 #
 
+- id: sidem-agatsuma-ninnin
+  title: "あがつまニンニン！忍びの里めぐり ～315に彩なす吾妻紀行～"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-10-28"
+  event_end: "2026-12-13"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-02"
+  source: "アイドルマスター公式ポータル news/01_20047（2026年10月1日）"
+  facts: |
+    会期: 2026年10月28日(水)〜12月13日(日)、群馬県吾妻地域6町村（中之条町・長野原町・草津町・嬬恋村・高山村・東吾妻町）
+    出演: 彩＋High×Joker・S.E.M（忍者装束ミニキャラ）
+    デジタルスタンプラリー18か所（ARフォトフレーム全18種）、4か所達成でイラストカード＆シール、3町村達成でビッグ缶バッジ＆グッズ
+    コラボメニュー5店舗、物販はふるさと交流センターつむじ・嬬恋村観光案内所
+  publish_plan:
+    - on: "2026-10-27"
+      angle: "明日開幕予告"
+    - on: "2026-10-28"
+      angle: "本日開幕"
+  used_in:
+    - sidem-agatsuma-ninnin-details  # 10/2配信「詳細解禁」
+  notes: "特設サイト edith.co.jp/lp/agatsuma-sidem/"
+
+- id: valiv-letora-birthday-online-live-2026
+  title: "レトラ BIRTHDAY ONLINE LIVE 2026"
+  brand: valiv
+  kind: 公式
+  event_start: "2026-11-11"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-02"
+  source: "アイドルマスター公式ポータル news/01_20045（2026年10月1日）"
+  facts: |
+    日時: 2026年11月11日(水) 本編19:00〜20:30(予定)、配信チケット特典アフタートーク21:30〜(予定)
+    配信: ASOBI STAGE、アーカイブ〜12月13日23:59(予定)、冒頭はレトラYouTubeで無料配信予定
+    現地LV: ユナイテッド・シネマ アクアシティお台場3番スクリーン、開場18:00/開演19:00、お見送り会あり、限定グッズ「レザースタイルマルチケース」付き（アーカイブ視聴権なし）
+    出演: レトラ、ゲスト灯里愛夏・上水流宇宙、スペシャルゲストcoming soon
+    LV先行抽選申込受付中（締切は続報要確認）
+  publish_plan:
+    - on: "2026-11-10"
+      angle: "明日開催予告"
+    - on: "2026-11-11"
+      angle: "本日開催"
+    - on: "2026-11-12"
+      angle: "昨日開催（レポ）"
+  used_in:
+    - valiv-letora-birthday-online-live-2026  # 10/2配信「新発表」
+  notes: "スペシャルゲスト・先行抽選締切・チケット価格は続報待ち、要追検証。"
+
+- id: sidem-mfes-radio-recording-1212
+  title: "315プロNight! 出張版 公開録音（Mフェステーマソング発売記念）"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-12-12"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-02"
+  source: "アイドルマスター公式ポータル news/01_20044／にじめん"
+  facts: |
+    会場: animate hall BLACK（アニメイト池袋本店 北館9F）、1部13:30/2部17:00
+    出演: 菊池勇成・山谷祥生・益山武明・伊瀬結陸・宮﨑雅也
+    応募: 対象CD予約のシリアルで11/17 23:59まで申込、当選通知は11月下旬
+  publish_plan:
+    - on: "2026-11-17"
+      angle: "本日申込締切"
+    - on: "2026-12-11"
+      angle: "明日開催予告"
+  used_in:
+    - sidem-mfes-theme-song-radio-recording  # 10/2配信
+  notes: ""
+
+- id: sidem-fbfes-wannastepin
+  title: "315 Production presents F＠NTASTIC BATTLE FES ～Wanna step in～"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-12-26"
+  event_end: "2027-01-24"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-02"
+  source: "アイドルマスター公式ポータル news/01_20039（2026年10月2日）"
+  facts: |
+    長野 ホクト文化ホール 2026/12/26(土)・27(日)、幕張イベントホール 2027/1/23(土)・24(日)、各日昼夜2公演（計8公演）
+    出演: Jupiter・Altessimo・Beit・W・Café Parade・もふもふえん・S.E.M・C.FIRST
+    プレミアム会員2次先行: 2026/10/2 12:00〜10/12 23:59、当落10/23 13:00〜、入金10/23〜10/27 23:59
+  publish_plan:
+    - on: "2026-10-12"
+      angle: "本日2次先行受付締切"
+    - on: "2026-10-23"
+      angle: "本日2次先行当落発表"
+    - on: "2026-12-25"
+      angle: "明日開幕予告（長野）"
+    - on: "2026-12-26"
+      angle: "本日開幕・長野DAY1"
+    - on: "2027-01-22"
+      angle: "明日開幕予告（幕張）"
+  used_in:
+    - sidem-fbfes-wannastepin-presale2  # 10/2配信「2次先行開始」
+  notes: "一般発売日程は続報待ち、要追検証。"
+
 - id: cg-hakkeijima-marine-symphony
   title: "Cinderella Marine-Symphony（横浜・八景島シーパラダイス コラボ）"
   brand: cg
@@ -169,6 +270,7 @@
       angle: "本日発売"
   used_in:
     - sidem-mfes-2026-theme-song  # 9/13配信「新発表」
+    - sidem-mfes-theme-song-radio-recording  # 10/2配信
   notes: "予約開始日・Mフェス本体の日程は続報待ち、要追検証。"
 
 - id: gaku-battlespirits-collab-2027
@@ -1340,6 +1442,7 @@
     - sc-283pro-msp-day1report-finale  # 9/27配信「DAY1レポ＆本日千秋楽DAY2」
     - sc-283pro-msp-day2-finale-report  # 9/28配信「DAY2完走レポ」
     - sc-283pro-msp-archive-start  # 9/29配信「視聴コメント付きアーカイブ、昨日18時より配信開始」
+    - sc-283pro-msp-viewing-tomorrow  # 10/2配信
   status: done
   notes: "出演者・セトリ等の詳細は未取得。楽屋花・プレゼント受付方法（送付先はいずれも京王アリーナTOKYO メインエントランス気付、楽屋花サイズ上限40cm・指定到着日時は公演前日9/25 12:00〜16:00の1回のみ、プレゼント〈メッセージ類〉は公演当日9/26・27いずれも11:00〜開演前）が判明（8/23配信）。チケット価格（全席指定14,000円）判明（8/25配信、事実確認済み）。一般発売日は続報待ち、要追検証。【8/24事実確認】公式サイト（idolmaster-official.jp/live_event/283production_msp/）で4グループ編成（Maestria & Tradizione／Art & Couleurs／Street & Avant-garde／Urban & Lifestyle）と全出演声優は2026年3月19日公開・7月2日更新の時点で既に判明済みと確認。同ネタで再度「新発表」的に記事化しないよう注意。【重複エントリにつき要注意】本エントリと sc-masterlivepiece-solo-live は同一ライブを別々に登録してしまったもの。今後の続報はどちらか一方（本エントリ）に一本化して記事化し、重複記事化を避けること。コラボキッチンカーの出店（9/17判明）・DAY1出演者（9/26配信で事実確認）を反映済み。本日開幕・DAY1（9/26）・DAY1レポ＆本日千秋楽DAY2（9/27配信）・DAY2完走レポ（9/28配信、アフタートーク「ばくすて！とーく」配信も実施）まで全publish_plan消化済みにつきクローズ。同時視聴会（10/3・10/4）は姉妹エントリで別管理。"
 
@@ -1598,6 +1701,7 @@
       angle: "本日開幕"
   used_in:
     - sidem-remembershot-fair4  # 8/5配信「詳細解禁」
+    - sidem-remembershot-fair4-tomorrow  # 10/2配信
   notes: "第1〜3弾の対象アイドルとの重複有無は未確認、要追検証。"
 
 - id: sidem-divercity-tokyo-plaza
@@ -2102,6 +2206,7 @@
   used_in:
     - valiv-online-1on1-13th-lottery-start  # 9/10配信「抽選受付が昨日スタート」
     - valiv-online1on1-13th-deadline  # 9/15配信「抽選受付、本日23:59締切」
+    - valiv-online-1on1-akari-tomorrow  # 10/2配信
   status: partially-used
   notes: "当落発表日は未取得、要追検証。抽選受付締切（9/15）消化済み。開催日（10/3・10/4）が未消化。"
 
@@ -2173,7 +2278,8 @@
     内容: ミリオンライブ！木下ひなたが北海道壮瞥町「りんご大使」を4年目として続投する「第50回そうべつりんごまつり」
     開催日: 2026年10月2日（金）〜
     オープニングセレモニー: 10月2日9:30〜10:00、そうべつ情報館i。木下ひなたのメッセージ読み上げ・公式Xでのライブ配信あり
-    オリジナルフォトスポット設置: 11月11日まで
+    オリジナルフォトスポット設置: 10月2日（オープニングセレモニー）〜10月11日（そうべつ物産市）
+    ※11月11日はEC（通常販売）開始日で、フォトスポット終了日ではない
     EC限定ミニパネル販売: 10月2日正午〜11月8日
     新規グッズ: ドームピンズ・手ぬぐい・ラバーキーホルダー（既存グッズに加えて新規追加）
     そのほか: スタンプラリー、物産市を実施
@@ -2184,10 +2290,11 @@
       angle: "本日開幕・オープニングセレモニー"
     - on: "2026-11-08"
       angle: "本日EC限定ミニパネル販売終了"
-    - on: "2026-11-11"
-      angle: "本日フォトスポット設置終了・完走"
+    - on: "2026-10-11"
+      angle: "本日そうべつ物産市・フォトスポット最終日"
   used_in:
     - ml-kinoshita-hinata-ringo-matsuri  # 9/16配信「新発表・詳細判明」
+    - ml-souhbetsu-ringo-matsuri-today  # 10/2配信
   notes: "9/15発表・9/16配信で記事化済み。開幕予告（10/1）以降が未消化。"
 
 - id: gaku-namco-crane-campaign-202609
