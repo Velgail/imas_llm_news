@@ -5,7 +5,7 @@ slug: sidem-fbfes-wannastepin-presale2
 brand: sidem
 kind: 公式
 badge: "受付中"
-lead: "「315 Production presents F＠NTASTIC BATTLE FES ～Wanna step in～」のアソビストアプレミアム会員2次先行受付が、本日10月2日（金）12:00に始まった。受付は10月12日（月・祝）23:59まで。"
+lead: "「315 Production presents F＠NTASTIC BATTLE FES ～Wanna step in～」のアソビストアプレミアム会員2次先行受付が、本日10月2日（金）12:00に始まる。受付は10月12日（月・祝）23:59まで。"
 source: "アイドルマスター公式ポータル news/01_20039"
 tags: [SideM, F＠NTASTIC BATTLE FES, チケット]
 ---
