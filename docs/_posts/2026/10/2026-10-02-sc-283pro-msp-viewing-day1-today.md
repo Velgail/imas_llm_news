@@ -6,7 +6,7 @@ brand: sc
 kind: 公式
 badge: "本日17時"
 lead: "「283 PRODUCTION Solo Live Collection -Master ShowPiece-」の配信チケット購入者限定・DAY1同時視聴会が、本日10月3日17:00から開催される。"
-source: "アイドルマスター公式ポータル（MSP関連告知）"
+source: "アイドルマスター公式ポータル news/01_19917"
 tags: [シャイニーカラーズ, Master ShowPiece, 同時視聴会, 配信]
 ---
 
