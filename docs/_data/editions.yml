@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-10-04"
+  dateLong: "2026年（令和8年）10月4日　日曜日"
+  pages: "全 7 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "菊地真・萩原雪歩「はんげつであえたら」、xRLIVE REVIVALで12月再演決定"
+  indexNote: "昨日10/3、765プロ「菊地真・萩原雪歩 twin live」の再演が12月12・13日に決定し、『アイドルマスター TOURS』S2弾の情報生配信（10/15）も発表された。本日はシャニマス「Master ShowPiece」DAY2同時視聴会（17時）、ヴイアライヴ1on1第13回、上野マルイPOP UP SHOP最終日、SideM「PRODUCER MEETING」プレミアム先行受付締切（23:59）があり、明日10/5にはパズドラ×シンデレラガールズコラボが終了する。本日は誕生日に該当するアイドルなし。"
 - date: "2026-09-29"
   dateLong: "2026年（令和8年）9月29日　火曜日"
   pages: "全 10 面"

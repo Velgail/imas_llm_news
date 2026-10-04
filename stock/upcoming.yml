@@ -2,6 +2,50 @@
 # event_start 昇順（直近が先頭）。配信日に該当する予定があれば取り出して記事化する。
 #
 
+- id: as765-xrlive-revival-hangetsu
+  title: "菊地 真・萩原 雪歩 twin live “はんげつであえたら” xRLIVE REVIVAL"
+  brand: as765
+  kind: 公式
+  event_start: "2026-12-12"
+  event_end: "2026-12-13"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-04"
+  source: "アイドルマスター公式ポータル live_events/xr_revival2026／アイドルマスター情報まとめ（2026年10月3日）"
+  facts: |
+    12/12(土) 3公演（11:00開場/12:00開演、14:30/15:30、18:00/19:00）、12/13(日) 1公演（15:00開場/16:00開演）
+    ビジュアル刷新の再演。同時に CG「Pop'n ToyBox!! もういっかい！」もxRLIVE REVIVALとして発表
+    会場・チケット詳細は公式特設ページ参照（未取得、要追検証）
+  publish_plan:
+    - on: "2026-12-11"
+      angle: "明日開幕予告"
+    - on: "2026-12-12"
+      angle: "本日開幕"
+  used_in:
+    - as765-xrlive-revival-hangetsu-announce  # 10/4配信「新発表」
+  notes: "会場・チケット・先行日程は要追検証。"
+
+- id: tours-s2-update-stream
+  title: "『アイドルマスター TOURS』S2弾アップデート情報 公式生配信"
+  brand: sogo
+  kind: 公式
+  event_start: "2026-10-15"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-04"
+  source: "アイドルマスター情報まとめ／TOURS公式X"
+  facts: |
+    10/15(木) 19:00〜20:00。出演: 千春（袖屋璃空役）・青木たつや（MC）・箕浦（P）
+    現地観覧25名抽選（10/7 23:59まで応募）、namcoTOKYOで無料LV（1ドリンク制）
+  publish_plan:
+    - on: "2026-10-14"
+      angle: "明日生配信予告"
+    - on: "2026-10-15"
+      angle: "本日生配信、S2弾情報"
+  used_in:
+    - sogo-tours-s2-update-stream  # 10/4配信「新発表」
+  notes: "S2弾の内容は配信で判明。"
+
 - id: cg-hakkeijima-marine-symphony
   title: "Cinderella Marine-Symphony（横浜・八景島シーパラダイス コラボ）"
   brand: cg
@@ -120,6 +164,7 @@
     - on: "2027-03-14"
       angle: "本日DAY2・完走レポ"
   used_in:
+    - sidem-pm2027-presale-deadline  # 10/4配信「本日先行受付締切」
     - sidem-producer-meeting-2027-announce  # 9/13配信「新発表」
   notes: "チケット価格・先行受付期間は発表当日（9/12）判明済み（9/13事実確認で訂正）。出演者の詳細は続報待ち、要追検証。"
 
@@ -1326,6 +1371,7 @@
     - on: "2026-10-04"
       angle: "配信チケット購入者限定・DAY2同時視聴会、本日開催"
   used_in:
+    - sc-msp-viewing-party  # 10/4配信「昨日DAY1・本日DAY2同時視聴会」
     - sc-283pro-msp-presale-final  # 7/9配信「グッズ事前販売ファイナル受付中（〜7/12）」
     - sc-283pro-msp-presale-deadline-tomorrow  # 7/11配信「グッズ事前販売ファイナル、明日7/12締切」
     - sc-283pro-msp-presale-deadline-today  # 7/12配信「グッズ事前販売ファイナル、本日23:59締切」
@@ -1597,6 +1643,7 @@
     - on: "2026-10-03"
       angle: "本日開幕"
   used_in:
+    - sidem-remembershot-fair4-open  # 10/4配信「昨日開幕」
     - sidem-remembershot-fair4  # 8/5配信「詳細解禁」
   notes: "第1〜3弾の対象アイドルとの重複有無は未確認、要追検証。"
 
@@ -2100,6 +2147,7 @@
     - on: "2026-10-04"
       angle: "上水流宇宙・レトラ、本日開催"
   used_in:
+    - valiv-online-1on1-13th-akari  # 10/4配信「昨日灯里愛夏・本日上水流宇宙/レトラ」
     - valiv-online-1on1-13th-lottery-start  # 9/10配信「抽選受付が昨日スタート」
     - valiv-online1on1-13th-deadline  # 9/15配信「抽選受付、本日23:59締切」
   status: partially-used
@@ -2242,6 +2290,7 @@
     - on: "2026-10-05"
       angle: "本日9:59最終日"
   used_in:
+    - cg-puzzledragon-collab-tomorrow  # 10/4配信「明日最終日予告」
     - cg-puzzledragon-collab  # 9/25配信「本日開始」
   notes: "対象魔法石セット購入によるBGM解放特典など細部は続報待ち、要追検証。本日開始（9/25配信）まで消化済み。"
 
