@@ -2,6 +2,31 @@
 # event_start 昇順（直近が先頭）。配信日に該当する予定があれば取り出して記事化する。
 #
 
+- id: xrlive-revival-halfmoon-popn-2026
+  title: "xR LIVE REVIVAL（菊地真・萩原雪歩 twin live「はんげつであえたら」／「Pop'n ToyBox!! もういっかい！」）"
+  brand: godo
+  kind: 公式
+  event_start: "2026-12-12"
+  event_end: "2026-12-13"
+  status: pending
+  confidence: confirmed
+  added: "2026-10-05"
+  source: "アイドルマスター公式ポータル news/01_20062（2026年10月3日付）"
+  facts: |
+    会場: 大阪・オリックス劇場
+    日程: 12月12日(土)は3公演（～友藍～ 開場11:00/開演12:00、～悲藍～ 開場14:30/開演15:30、～純藍～ 開場18:00/開演19:00）、13日(日)は1公演（Pop'n ToyBox!! もういっかい！）
+    内容: 2024年3月の「はんげつであえたら」（765）と「Pop'n ToyBox!!」（シンデレラ）をxRLIVEとして再演。映像・ステージセットを一部更新
+    チケット等の詳細は続報待ち（要追検証）
+  publish_plan:
+    - on: "2026-12-11"
+      angle: "明日開幕予告"
+    - on: "2026-12-12"
+      angle: "本日DAY1（3公演）"
+    - on: "2026-12-13"
+      angle: "本日千秋楽"
+  used_in: []
+  notes: "10/5配信号には未記事化。チケット日程・出演者は続報で追記。"
+
 - id: cg-hakkeijima-marine-symphony
   title: "Cinderella Marine-Symphony（横浜・八景島シーパラダイス コラボ）"
   brand: cg
@@ -601,7 +626,8 @@
       angle: "本日池袋店開幕"
     - on: "2026-12-27"
       angle: "本日ソウル ホンデ店最終日・全会場完走"
-  used_in: []
+  used_in:
+    - cg-rose-tea-parlor-nagoya-final
   notes: "4会場（名古屋・心斎橋・池袋・ソウル）を順に巡回する形式。対象アイドル・メニュー・グッズの詳細は開催が近づいてから要追検証。"
 #
 # ── 非公式・ファン企画枠のテンプレート（kind: ファン）──────────────
@@ -1857,6 +1883,7 @@
       angle: "本日コラボ終了"
   used_in:
     - sidem-karatetsu-vol3-today  # 8/14配信「昨日全国10店舗で開幕」
+    - sidem-karatetsu-vol3-final
   notes: "開幕（8/13）分は記事化済み。コラボ終了（10/5）が未消化。"
 
 - id: sc-masterlivepiece-solo-live
@@ -2102,6 +2129,7 @@
   used_in:
     - valiv-online-1on1-13th-lottery-start  # 9/10配信「抽選受付が昨日スタート」
     - valiv-online1on1-13th-deadline  # 9/15配信「抽選受付、本日23:59締切」
+    - valiv-online1on1-13th-day2
   status: partially-used
   notes: "当落発表日は未取得、要追検証。抽選受付締切（9/15）消化済み。開催日（10/3・10/4）が未消化。"
 
@@ -2243,6 +2271,7 @@
       angle: "本日9:59最終日"
   used_in:
     - cg-puzzledragon-collab  # 9/25配信「本日開始」
+    - cg-puzzledragon-collab-final
   notes: "対象魔法石セット購入によるBGM解放特典など細部は続報待ち、要追検証。本日開始（9/25配信）まで消化済み。"
 
 - id: valiv-3rdlive-meeting-2027
