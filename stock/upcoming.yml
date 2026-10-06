@@ -15,7 +15,8 @@
   facts: |
     12/12(土): 菊地真・萩原雪歩 twin live「はんげつであえたら」3公演（12:00/15:30/19:00、サブタイトル各異）
     12/13(日): 「Pop'n ToyBox!! もういっかい！」16:00
-    会場・チケット詳細は公式サイト参照（要追検証）
+    会場: 大阪・オリックス劇場（公式 news/01_20062）
+    チケット詳細は公式サイト参照（要追検証）
   publish_plan:
     - on: "2026-12-11"
       angle: "明日開幕予告"
@@ -1448,8 +1449,8 @@
       angle: "本日最終日"
   used_in:
     - sc-8bankaramen-collab-announce  # 9/19配信「新発表」
-    - sc-8bankaramen-collab-buzz
-    - sc-8bankaramen-tomorrow  # 10/6配信「明日開幕」  # 9/19配信「発表にファン歓喜（ファン話題）」
+    - sc-8bankaramen-collab-buzz  # 9/19配信「発表にファン歓喜（ファン話題）」
+    - sc-8bankaramen-tomorrow  # 10/6配信「明日開幕」
   notes: "メニュー・グッズの詳細は続報待ち、要追検証。"
 
 - id: sc-suntory-lemonsquash
