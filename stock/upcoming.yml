@@ -2,6 +2,31 @@
 # event_start 昇順（直近が先頭）。配信日に該当する予定があれば取り出して記事化する。
 #
 
+- id: xr-revival-2026-dec
+  title: "xR LIVE REVIVAL 2026（菊地真・萩原雪歩 twin live「はんげつであえたら」／Pop'n ToyBox!! もういっかい！）"
+  brand: godo
+  kind: 公式
+  event_start: "2026-12-12"
+  event_end: "2026-12-13"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-06"
+  source: "アイドルマスター公式ポータル live_events/xr_revival2026（10月3日告知）"
+  facts: |
+    12/12(土): 菊地真・萩原雪歩 twin live「はんげつであえたら」3公演（12:00/15:30/19:00、サブタイトル各異）
+    12/13(日): 「Pop'n ToyBox!! もういっかい！」16:00
+    会場・チケット詳細は公式サイト参照（要追検証）
+  publish_plan:
+    - on: "2026-12-11"
+      angle: "明日開幕予告"
+    - on: "2026-12-12"
+      angle: "本日開幕"
+    - on: "2026-12-14"
+      angle: "閉幕レポ"
+  used_in:
+    - as765-xr-revival-twinlive-dec
+  notes: "会場・チケット日程は続報待ち。"
+
 - id: cg-hakkeijima-marine-symphony
   title: "Cinderella Marine-Symphony（横浜・八景島シーパラダイス コラボ）"
   brand: cg
@@ -1423,7 +1448,8 @@
       angle: "本日最終日"
   used_in:
     - sc-8bankaramen-collab-announce  # 9/19配信「新発表」
-    - sc-8bankaramen-collab-buzz  # 9/19配信「発表にファン歓喜（ファン話題）」
+    - sc-8bankaramen-collab-buzz
+    - sc-8bankaramen-tomorrow  # 10/6配信「明日開幕」  # 9/19配信「発表にファン歓喜（ファン話題）」
   notes: "メニュー・グッズの詳細は続報待ち、要追検証。"
 
 - id: sc-suntory-lemonsquash
