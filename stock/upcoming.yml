@@ -1122,6 +1122,7 @@
     - sidem-royal-chess-lounge-shinsaibashi-tomorrow  # 9/11配信「明日心斎橋店開幕予告」
     - sidem-royal-chess-lounge-shinsaibashi-today  # 9/12配信「本日心斎橋店開幕」
     - sidem-royal-chess-lounge-shinsaibashi-final  # 9/25配信「昨日心斎橋店最終日」
+    - sidem-royal-chess-lounge-ikebukuro-tomorrow  # 10/7配信「明日池袋店開幕予告」
   facts: |
     名称: THE IDOLM@STER SideM「Royal Chess Lounge」
     会場・会期: 名古屋栄店 2026年8月19日(水)〜9月1日(火)／心斎橋店 9月12日(土)〜9月24日(木)／池袋店 10月8日(木)〜10月20日(火)
@@ -1424,6 +1425,8 @@
   used_in:
     - sc-8bankaramen-collab-announce  # 9/19配信「新発表」
     - sc-8bankaramen-collab-buzz  # 9/19配信「発表にファン歓喜（ファン話題）」
+    - sc-8bankaramen-today  # 10/7配信「本日開幕」
+    - sc-8bankaramen-goods-presale  # 10/7配信「DMM予約開始」
   notes: "メニュー・グッズの詳細は続報待ち、要追検証。"
 
 - id: sc-suntory-lemonsquash
@@ -2308,4 +2311,58 @@
       angle: "本日大阪会場最終日・全会場完走"
   used_in:
     - ml-cyberplanet-popup-details  # 9/25配信「詳細情報判明」
+    - ml-cyberplanet-popup-tomorrow  # 10/7配信「明日開幕予告」
   notes: "東京会場は7/中旬頃に開催自体は発表済み（01_19749）、9/24付で詳細（出演キャラ・特典・大阪会場）が判明。事後通販の受付期間は続報待ち、要追検証。"
+
+- id: sc-fumage-cruise-2026
+  title: "『Fumage』コラボクルーズ ～船の上の撮影会～"
+  brand: sc
+  kind: 公式
+  event_start: "2026-12-19"
+  event_end: "2026-12-20"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-07"
+  source: "アイドルマスター公式ポータル news/01_20083／WILLER TRAVEL travel.willer.co.jp/entertainment/shinycolors/cruise-2026/"
+  facts: |
+    内容: 浅倉透・幽谷霧子（Fumage）が撮影のお仕事に挑むクルーズ。参加者はプロデューサーとして同乗
+    日程: 2026年12月19日(土)・20日(日)、各日3便（9:00/11:00/13:00発、約60分）、各便定員100名（計600名）
+    発着: 日の出ふ頭小型船ターミナル（レインボーブリッジ・お台場海浜公園・ららぽーと豊洲沖を周遊）
+    料金: 通常プラン15,600円、Fumageアクリルスタンド付きオプション+4,600円ほか
+    抽選受付: 10/6〜10/11、当選発表10/16、本申込10/16〜10/21
+  publish_plan:
+    - on: "2026-10-11"
+      angle: "本日抽選受付締切"
+    - on: "2026-10-16"
+      angle: "本日当選発表・本申込開始"
+    - on: "2026-12-18"
+      angle: "明日開催予告"
+    - on: "2026-12-19"
+      angle: "本日開催"
+  used_in:
+    - sc-fumage-cruise-announce  # 10/7配信「新発表」
+  notes: "10/6発表。抽選締切の曜日・時刻は続報で要追検証。"
+
+- id: as765-xrlive-revival-2026
+  title: "xRLIVE REVIVAL 菊地真・萩原雪歩 twin live「はんげつであえたら」／Pop'n ToyBox!! もういっかい！"
+  brand: as765
+  kind: 公式
+  event_start: "2026-12-12"
+  event_end: "2026-12-13"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-07"
+  source: "アイドルマスター ポータル（10/3告知）／imasnews765.com"
+  facts: |
+    12/12(土): はんげつであえたら 3公演（11:00開場/12:00開演、14:30/15:30、18:00/19:00）
+    12/13(日): Pop'n ToyBox!! もういっかい！ 15:00開場/16:00開演
+  publish_plan:
+    - on: "2026-12-11"
+      angle: "明日開幕予告"
+    - on: "2026-12-12"
+      angle: "本日開催"
+    - on: "2026-12-13"
+      angle: "本日千秋楽"
+  used_in:
+    - as765-xrlive-revival-announce  # 10/7配信
+  notes: "会場・チケット日程は要追検証。"
