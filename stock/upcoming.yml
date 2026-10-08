@@ -2,6 +2,102 @@
 # event_start 昇順（直近が先頭）。配信日に該当する予定があれば取り出して記事化する。
 #
 
+- id: ml-kyomafu-popup-yurakucho
+  title: "ミリオンライブ！ 京まふ事後物販 POP UP SHOP（有楽町マルイ）"
+  brand: ml
+  kind: 公式
+  event_start: "2026-10-10"
+  event_end: "2026-10-22"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-08"
+  source: "アイドルマスター公式ポータル news/01_20059／THEキャラ the-chara.com/blog/?p=120999"
+  facts: |
+    会場: 有楽町マルイ7F
+    会期: 2026年10月10日(土)〜10月22日(木)
+    対象: 伊吹翼・大神環・高坂海美・佐竹美奈子・所恵美・舞浜歩・松田亜利沙・横山奈緒の描き下ろし等を使った追加商品・特典
+  publish_plan:
+    - on: "2026-10-10"
+      angle: "本日開幕"
+    - on: "2026-10-22"
+      angle: "本日最終日"
+  used_in:
+    - ml-kyomafu-popup-details  # 10/8配信「詳細公開」
+  notes: "追加商品の価格・特典条件は特設サイトで要追検証。"
+
+- id: valiv-cosmo-bd2026-viewing
+  title: "上水流宇宙 BIRTHDAY ONLINE LIVE 2026 同時視聴上映会"
+  brand: valiv
+  kind: 公式
+  event_start: "2026-10-12"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-08"
+  source: "アイドルマスター公式ポータル news/01_20085"
+  facts: |
+    日時: 2026年10月12日(月・祝)13:00〜（予定）、視聴ページは10/9公開予定
+    配信チケット5,000円（10/12 18:00まで販売、配信期間〜10/12 23:59）、アフタートーク配信特典、プレゼント用視聴チケットあり
+  publish_plan:
+    - on: "2026-10-12"
+      angle: "本日13:00同時視聴上映会"
+  used_in:
+    - valiv-cosmo-bd-viewing-party  # 10/8配信「実施決定」
+  notes: ""
+
+- id: sidem-daimaru-matsuzakaya-popup2
+  title: "THE IDOLM@STER SideM × DAIMARU MATSUZAKAYA ポップアップショップ（第2弾）"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-10-28"
+  event_end: "2026-11-24"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-08"
+  source: "アイドルマスター公式ポータル news/01_20080"
+  facts: |
+    会期: 大丸東京店3F 10/28(水)〜11/10(火)／大丸梅田店1F 11/18(水)〜11/24(火)、10:00〜20:00
+    内容: 描き下ろしビジュアルのアパレル・雑貨、カスタムバッグチャーム企画、イラストレーター秋赤音コラボ
+    事前整理券: 東京 10/28終日・10/31と11/1の10:00〜14:00／梅田 11/18終日・11/21と11/22の10:00〜14:00
+    オンライン受注: 11/27 12:00〜12/23 23:59予定、お届け2027年4月上旬頃〜
+  publish_plan:
+    - on: "2026-10-27"
+      angle: "明日大丸東京店開幕予告"
+    - on: "2026-10-28"
+      angle: "本日大丸東京店開幕"
+    - on: "2026-11-17"
+      angle: "明日大丸梅田店開幕予告"
+    - on: "2026-11-18"
+      angle: "本日大丸梅田店開幕"
+  used_in:
+    - sidem-daimaru-matsuzakaya-popup2  # 10/8配信「新発表」
+  notes: "商品ラインナップ・ノベルティは続報待ち。"
+
+- id: sidem-mfes-christmas-cruise-2026
+  title: "SideM ～Mフェス2026・クリスマスクルーズ～"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-12-12"
+  event_end: "2026-12-25"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-08"
+  source: "アイドルマスター公式ポータル スケジュール（2026/10/05）／WILLER TRAVEL travel.willer.co.jp/entertainment/sidem/christmas-cruise-2026/"
+  facts: |
+    日程: 神戸 12/12(土)19:00〜（boh boh KOBE、定員200）／横浜・みなとみらい 12/20(日)17:00・19:00の2便、12/25(金)19:00（フロンティアルーツ、各便定員100）
+    料金: 19,300円（税込、食事付き）、アクリルジオラマ+2,000円、船内コラボドリンク800円
+    出演: F-LAGS（秋月涼・九十九一希・兜大吾）の限定アナウンス
+    抽選受付: 10/5〜10/12 23:59、当選発表10/16 17:00予定
+  publish_plan:
+    - on: "2026-10-13"
+      angle: "抽選受付、昨日締切"
+    - on: "2026-10-16"
+      angle: "本日当選発表"
+    - on: "2026-12-12"
+      angle: "本日神戸便"
+  used_in:
+    - sidem-mfes-christmas-cruise  # 10/8配信「抽選受付中」
+  notes: "当選発表以降は続報待ち。"
+
 - id: cg-hakkeijima-marine-symphony
   title: "Cinderella Marine-Symphony（横浜・八景島シーパラダイス コラボ）"
   brand: cg
@@ -997,7 +1093,6 @@
   status: done
   notes: "商品ラインナップ詳細は未取得のまま。開催終了日（9/23）まで消化済み。"
 
-
 - id: valiv-akari-birthday-live-postponed
   title: "vα-liv 灯里愛夏バースデーライブ 振替日程"
   brand: valiv
@@ -1123,6 +1218,7 @@
     - sidem-royal-chess-lounge-shinsaibashi-today  # 9/12配信「本日心斎橋店開幕」
     - sidem-royal-chess-lounge-shinsaibashi-final  # 9/25配信「昨日心斎橋店最終日」
     - sidem-royal-chess-lounge-ikebukuro-tomorrow  # 10/7配信「明日池袋店開幕予告」
+    - sidem-royal-chess-lounge-ikebukuro-today  # 10/8配信「本日池袋店開幕」
   facts: |
     名称: THE IDOLM@STER SideM「Royal Chess Lounge」
     会場・会期: 名古屋栄店 2026年8月19日(水)〜9月1日(火)／心斎橋店 9月12日(土)〜9月24日(木)／池袋店 10月8日(木)〜10月20日(火)
@@ -1906,6 +2002,9 @@
   added: "2026-08-27"
   source: "アイドルマスター公式ポータル news/01_19720（2026年8月26日12:00発表）"
   facts: |
+    アソビストア一般会員先行（10/7判明）: 2026年10月7日12:00〜11月1日23:59受付、当落発表11月14日13:00、入金11月14日13:00〜11月18日23:59。対象はアリーナ前方席／プレミアムラウンジ付指定席／一般指定席、1人1公演2枚まで
+    ウォームアップ生配信: 2026年10月30日(金)20:00〜21:00予定。出演は福原綾香・高森奈津美・山崎はるか・駒形友梨、MCはJUNGO
+    開催記念ラジオ: 第1回「フレあかラジオ」（宮本フレデリカ・野々原茜）、おたより締切10月10日23:59
     イベント名: THE IDOLM@STER CINDERELLA GIRLS × MILLION LIVE! CLASH M@TCH!!
     開催日: 2027年2月27日（土）・28日（日）
     会場: 愛知県・IGアリーナ
@@ -1918,6 +2017,12 @@
       angle: "本日プレミアム会員先行受付締切"
     - on: "2026-09-30"
       angle: "本日プレミアム会員先行当落発表"
+    - on: "2026-10-30"
+      angle: "本日ウォームアップ生配信"
+    - on: "2026-11-02"
+      angle: "一般会員先行、昨日受付終了"
+    - on: "2026-11-14"
+      angle: "本日一般会員先行当落発表"
     - on: "2027-02-26"
       angle: "明日開幕予告"
     - on: "2027-02-27"
@@ -1928,6 +2033,9 @@
     - godo-clashmatch-announce  # 8/27配信「開催決定・本日チケット先行受付開始」
     - godo-clashmatch-price-cast  # 8/28配信「チケット価格帯と出演声優の一部が判明（更新あり）」
     - godo-clashmatch-presale-deadline  # 9/14配信「プレミアム会員先行、昨日受付終了」
+    - godo-clashmatch-general-presale  # 10/8配信「アソビストア一般会員先行スタート」
+    - godo-clashmatch-warmup-stream  # 10/8配信「ウォームアップ生配信10/30決定」
+    - godo-clashmatch-radio-fureakane  # 10/8配信「開催記念ラジオ第1回フレあか」
   notes: "MILLION STRINGSのメンバー構成・出演者詳細は続報待ち、要追検証。一般発売日程も未発表。チケット価格帯・大橋彩香DAY2出演判明（8/28配信）。プレミアム会員先行受付締切（9/13）を9/14配信で記事化済み（当初on:2026-09-13で予定していたが1日遅れで消化）。当落発表（9/30）以降が未消化。"
 
 - id: sc-natsumo-atsui-sp-followup-releases
@@ -2312,6 +2420,7 @@
   used_in:
     - ml-cyberplanet-popup-details  # 9/25配信「詳細情報判明」
     - ml-cyberplanet-popup-tomorrow  # 10/7配信「明日開幕予告」
+    - ml-cyberplanet-popup-today  # 10/8配信「本日東京会場開幕」
   notes: "東京会場は7/中旬頃に開催自体は発表済み（01_19749）、9/24付で詳細（出演キャラ・特典・大阪会場）が判明。事後通販の受付期間は続報待ち、要追検証。"
 
 - id: sc-fumage-cruise-2026
