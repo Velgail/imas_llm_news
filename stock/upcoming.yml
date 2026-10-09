@@ -23,7 +23,51 @@
       angle: "本日最終日"
   used_in:
     - ml-kyomafu-popup-details  # 10/8配信「詳細公開」
+    - ml-kyomafu-popup-tomorrow  # 10/9配信「明日開幕」
   notes: "追加商品の価格・特典条件は特設サイトで要追検証。"
+
+- id: gaku-chichibu-matsurinoyu
+  title: "学園アイドルマスター×西武秩父駅前温泉 祭の湯「西武鉄道で行く！山粧う湯けむり旅」"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-10-16"
+  event_end: "2026-11-29"
+  status: pending
+  confidence: confirmed
+  added: "2026-10-09"
+  source: "アイドルマスター公式ポータル news/01_20099（2026.10.09）"
+  facts: |
+    会場: 西武秩父駅前温泉 祭の湯（コラボグッズ・コラボメニュー・館内装飾）
+    デジタルスタンプラリー（秩父市内）あり
+    開催記念乗車券（西武線1日フリーきっぷ、オリジナル台紙付き）: 10/16〜11/29、西武秩父駅・池袋駅で販売。池袋は10/17以降。10/16は西武秩父駅で8:30臨時販売。5,000枚限定、現金のみ
+  publish_plan:
+    - on: "2026-10-15"
+      angle: "明日開幕"
+    - on: "2026-10-16"
+      angle: "本日開幕"
+    - on: "2026-11-30"
+      angle: "昨日閉幕"
+  used_in: []
+  notes: ""
+
+- id: tours-s2-update-stream
+  title: "『ツアマス』S2弾アップデート情報！公式生配信"
+  brand: other
+  kind: 公式
+  event_start: "2026-10-15"
+  status: pending
+  confidence: confirmed
+  added: "2026-10-09"
+  source: "アイドルマスター TOURS 公式NEWS（2026.10.1）／アイドルマスター情報まとめ"
+  facts: |
+    10月15日の公式生配信でSecond Stage第2弾のアップデート情報を発表。限定観覧抽選・ライブビューイング企画あり（詳細要追検証）
+  publish_plan:
+    - on: "2026-10-14"
+      angle: "明日生配信"
+    - on: "2026-10-16"
+      angle: "昨日の生配信まとめ"
+  used_in: []
+  notes: ""
 
 - id: valiv-cosmo-bd2026-viewing
   title: "上水流宇宙 BIRTHDAY ONLINE LIVE 2026 同時視聴上映会"
@@ -494,9 +538,13 @@
       angle: "本日トークショー初日"
     - on: "2026-12-01"
       angle: "本日最終日"
+    トークショー出演(確定): 10/31 菊池勇成・山谷祥生・伊東健人・中島ヨシキ／11/1 仲村宗悟・三瓶由布子・浦尾岳大・比留間俊哉／11/22 狩野翔・児玉卓也・小林大紀
+    チケット: 参加券付き1日レヂャー切符は10/12 12:00先着発売。ブロマイド付き通常1日券は10/13 17:00前売り開始
+    園内企画: ラリー1,500円、超!!わなげ700円、コラボフード、5人の録り下ろしボイス
   used_in:
     - sidem-seibuen-retrose-party  # 9/2配信「昨日新発表」
-  notes: "トークショー出演声優・グッズ詳細は続報待ち、要追検証。"
+    - sidem-seibuen-retrose-details  # 10/9配信「詳細解禁」
+  notes: "10/12 12:00にチケット発売、10/13にも前売り。"
 
 - id: gaku-ichibankuji-part6
   title: "一番くじ 学園アイドルマスター Part6"
