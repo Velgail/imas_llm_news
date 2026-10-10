@@ -23,6 +23,7 @@
       angle: "本日最終日"
   used_in:
     - ml-kyomafu-popup-details  # 10/8配信「詳細公開」
+    - ml-kyomafu-popup-today  # 10/10配信「本日開幕」
   notes: "追加商品の価格・特典条件は特設サイトで要追検証。"
 
 - id: valiv-cosmo-bd2026-viewing
