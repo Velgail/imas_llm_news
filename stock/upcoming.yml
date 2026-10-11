@@ -2,6 +2,28 @@
 # event_start 昇順（直近が先頭）。配信日に該当する予定があれば取り出して記事化する。
 #
 
+- id: other-tourmas-s2-stream
+  title: "ツアマス S2弾アップデート情報 公式生配信"
+  brand: other
+  kind: 公式
+  event_start: "2026-10-15"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-11"
+  source: "imasnews765 p=32535／バンダイナムコアミューズメント"
+  facts: |
+    日時: 2026年10月15日(木)19:00〜20:00（予定）
+    出演: 千春(袖ヶ谷リク役)、MC青木達也、プロデューサー蓑浦
+    namcoTOKYOでライブビューイングあり（入場無料・ワンドリンク制）
+  publish_plan:
+    - on: "2026-10-15"
+      angle: "本日19:00生配信"
+    - on: "2026-10-16"
+      angle: "昨日の生配信で判明したS2弾情報"
+  used_in:
+    - other-tourmas-s2-stream  # 10/11配信「10/15配信予告」
+  notes: "S2弾の中身は配信後に判明。"
+
 - id: ml-kyomafu-popup-yurakucho
   title: "ミリオンライブ！ 京まふ事後物販 POP UP SHOP（有楽町マルイ）"
   brand: ml
@@ -23,6 +45,7 @@
       angle: "本日最終日"
   used_in:
     - ml-kyomafu-popup-details  # 10/8配信「詳細公開」
+    - ml-kyomafu-popup-yurakucho-open  # 10/11配信「開幕」
   notes: "追加商品の価格・特典条件は特設サイトで要追検証。"
 
 - id: valiv-cosmo-bd2026-viewing
@@ -42,6 +65,7 @@
       angle: "本日13:00同時視聴上映会"
   used_in:
     - valiv-cosmo-bd-viewing-party  # 10/8配信「実施決定」
+    - valiv-cosmo-bd-viewing-tomorrow  # 10/11配信「明日開催」
   notes: ""
 
 - id: sidem-daimaru-matsuzakaya-popup2
@@ -96,6 +120,7 @@
       angle: "本日神戸便"
   used_in:
     - sidem-mfes-christmas-cruise  # 10/8配信「抽選受付中」
+    - sidem-mfes-cruise-lottery-tomorrow  # 10/11配信「明日締切」
   notes: "当選発表以降は続報待ち。"
 
 - id: cg-hakkeijima-marine-symphony
@@ -616,6 +641,7 @@
   used_in:
     - godo-sidem-sc-sparkle-showdown-announce  # 9/13配信「新発表・本日21:00プレミアム会員先行受付開始」
     - godo-sidem-sc-sparkle-showdown-buzz  # 9/13配信「発表にファン熱狂（ファン話題）」
+    - sidem-sparkle-showdown-presale-tomorrow  # 10/11配信「明日締切」
   notes: "出演ユニット名は発表当日（9/12）に公式サイトCASTページで判明済み（9/13事実確認で追記）。配信チケット情報は続報待ち、要追検証。"
 
 - id: cg-yurakucho-marui-popup
