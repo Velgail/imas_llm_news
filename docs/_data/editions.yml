@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-10-12"
+  dateLong: "2026年（令和8年）10月12日　月曜日"
+  pages: "全 13 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "SPARKLE SHOWDOWN・noctchill・Mフェスクルーズ、先行受付が本日23:59に一斉締切"
+  indexNote: "本日は上水流宇宙の同時視聴上映会（13:00）と西武園「超!!レトローズ」参加券付き切符の発売（12:00）もある。"
 - date: "2026-10-08"
   dateLong: "2026年（令和8年）10月8日　木曜日"
   pages: "全 11 面"

@@ -41,6 +41,7 @@
     - on: "2026-10-12"
       angle: "本日13:00同時視聴上映会"
   used_in:
+    - valiv-cosmo-bd-viewing-party-today  # 10/12配信「本日13:00」
     - valiv-cosmo-bd-viewing-party  # 10/8配信「実施決定」
   notes: ""
 
@@ -95,6 +96,7 @@
     - on: "2026-12-12"
       angle: "本日神戸便"
   used_in:
+    - sidem-mfes-christmas-cruise-last-day  # 10/12配信「本日23:59締切」
     - sidem-mfes-christmas-cruise  # 10/8配信「抽選受付中」
   notes: "当選発表以降は続報待ち。"
 
@@ -614,6 +616,7 @@
     - on: "2027-06-06"
       angle: "本日千秋楽"
   used_in:
+    - godo-sidem-sc-sparkle-showdown-premium-deadline  # 10/12配信「本日23:59締切」
     - godo-sidem-sc-sparkle-showdown-announce  # 9/13配信「新発表・本日21:00プレミアム会員先行受付開始」
     - godo-sidem-sc-sparkle-showdown-buzz  # 9/13配信「発表にファン熱狂（ファン話題）」
   notes: "出演ユニット名は発表当日（9/12）に公式サイトCASTページで判明済み（9/13事実確認で追記）。配信チケット情報は続報待ち、要追検証。"
