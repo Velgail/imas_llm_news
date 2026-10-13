@@ -2,6 +2,31 @@
 # event_start 昇順（直近が先頭）。配信日に該当する予定があれば取り出して記事化する。
 #
 
+- id: valiv-letora-bd2026
+  title: "レトラ BIRTHDAY ONLINE LIVE 2026"
+  brand: valiv
+  kind: 公式
+  event_start: "2026-11-11"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-13"
+  source: "アイドルマスター公式ポータル news/01_20100／live_events/va-liv_letora_bd2026"
+  facts: |
+    日時: 2026年11月11日(水) 本編19:00〜20:30（予定）、アフタートーク配信21:30〜
+    出演: 主演レトラ／ゲスト 灯里愛夏・上水流宇宙／スペシャルゲストはcoming soon
+    配信: ASOBI STAGE 5,000円、販売10/12 12:00〜12/13 18:00。最速版アーカイブ〜11/12 18:00、コメント付きアーカイブ〜12/13 23:59。YouTubeで冒頭無料配信予定
+    LV: ユナイテッド・シネマ アクアシティお台場3番スクリーン、開場18:00/開演19:00、限定グッズ付き（先行抽選は10/11まで）
+  publish_plan:
+    - on: "2026-11-10"
+      angle: "明日開催予告"
+    - on: "2026-11-11"
+      angle: "本日開催"
+    - on: "2026-11-12"
+      angle: "昨日開催レポ"
+  used_in:
+    - valiv-letora-bd2026-ticket  # 10/13配信「新発表・チケット販売開始」
+  notes: "スペシャルゲストは続報待ち。"
+
 - id: ml-kyomafu-popup-yurakucho
   title: "ミリオンライブ！ 京まふ事後物販 POP UP SHOP（有楽町マルイ）"
   brand: ml
@@ -30,7 +55,7 @@
   brand: valiv
   kind: 公式
   event_start: "2026-10-12"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-10-08"
   source: "アイドルマスター公式ポータル news/01_20085"
@@ -42,6 +67,7 @@
       angle: "本日13:00同時視聴上映会"
   used_in:
     - valiv-cosmo-bd-viewing-party  # 10/8配信「実施決定」
+    - valiv-cosmo-bd-viewing-held  # 10/13配信「同時視聴上映会実施」
   notes: ""
 
 - id: sidem-daimaru-matsuzakaya-popup2
@@ -96,6 +122,7 @@
       angle: "本日神戸便"
   used_in:
     - sidem-mfes-christmas-cruise  # 10/8配信「抽選受付中」
+    - sidem-mfes-christmas-cruise-deadline  # 10/13配信「抽選受付締切」
   notes: "当選発表以降は続報待ち。"
 
 - id: cg-hakkeijima-marine-symphony
@@ -616,6 +643,7 @@
   used_in:
     - godo-sidem-sc-sparkle-showdown-announce  # 9/13配信「新発表・本日21:00プレミアム会員先行受付開始」
     - godo-sidem-sc-sparkle-showdown-buzz  # 9/13配信「発表にファン熱狂（ファン話題）」
+    - godo-sparkle-showdown-premium-deadline  # 10/13配信「プレミアム先行締切」
   notes: "出演ユニット名は発表当日（9/12）に公式サイトCASTページで判明済み（9/13事実確認で追記）。配信チケット情報は続報待ち、要追検証。"
 
 - id: cg-yurakucho-marui-popup
@@ -1494,6 +1522,7 @@
   used_in:
     - sc-noctchill-announce  # 9/28配信「新発表」
     - sc-noctchill-buzz  # 9/28配信「発表にファン歓喜（ファン話題）」
+    - sc-noctchill-premium-deadline  # 10/13配信「プレミアム先行締切」
   notes: "ノクチル初の単独ライブ。出演声優・セトリ・一般発売日程は続報待ち、要追検証。"
 
 - id: sc-8bankaramen-collab
