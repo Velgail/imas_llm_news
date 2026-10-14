@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-10-14"
+  dateLong: "2026年（令和8年）10月14日　水曜日"
+  pages: "全 5 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "「765×961」第一公演のゲストに蘭子・未来・果穂"
+  indexNote: "本日はスタマス発売5周年で、シンデレラガールズの並木芽衣子・藤本里奈が誕生日を迎える。"
 - date: "2026-10-08"
   dateLong: "2026年（令和8年）10月8日　木曜日"
   pages: "全 11 面"

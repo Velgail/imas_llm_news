@@ -72,6 +72,53 @@
     - sidem-daimaru-matsuzakaya-popup2  # 10/8配信「新発表」
   notes: "商品ラインナップ・ノベルティは続報待ち。"
 
+- id: as765-miki-futurespotlight-comifuro
+  title: "星井美希 SOLO SHOWCASE「THE FUTURE SPOTLIGHT」in Comic Frontier 23（インドネシア）"
+  brand: as765
+  kind: 公式
+  event_start: "2026-11-01"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-14"
+  source: "アイドルマスター公式ポータル／アイドルマスター情報まとめ（2026年10月13日）"
+  facts: |
+    会場: ICE BSD（インドネシア）、Comic Frontier 23内
+    日程: 2026年11月1日(日)
+    海外ライブ第3弾（Anime Central 2026・KIMCHIKURA Fes '26に続く）。演出・楽曲の一部は過去公演から変更
+    配信予定なし。チケット等は comifuro.net で案内
+  publish_plan:
+    - on: "2026-10-31"
+      angle: "明日開催予告"
+    - on: "2026-11-01"
+      angle: "本日開催"
+    - on: "2026-11-02"
+      angle: "昨日開催レポ"
+  used_in:
+    - as765-miki-futurespotlight-comifuro  # 10/14配信「新発表」
+  notes: "チケット詳細・セットリストは要追検証。"
+
+- id: sidem-monthly-theme-song13-jupiter
+  title: "SideM MONTHLY THEME SONG 13 Jupiter「Lucent whale」"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-11-25"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-14"
+  source: "Lantis公式サイト／アイドルマスター情報まとめ（2026年10月13日）"
+  facts: |
+    発売日: 2026年11月25日(水)、LACM-24793、2,200円(税込)
+    収録: Lucent whale（通常／天ヶ瀬冬馬・御手洗翔太・伊集院北斗の各ソロ）、オフボーカル
+    封入: 「315 PASSION CONTENTS」CDストーリー用シリアルコード、初回特典: ユニット全員のブロマイド
+  publish_plan:
+    - on: "2026-11-24"
+      angle: "明日発売予告"
+    - on: "2026-11-25"
+      angle: "本日発売"
+  used_in:
+    - sidem-monthly-theme-song13-jupiter  # 10/14配信「ジャケット公開」
+  notes: ""
+
 - id: sidem-mfes-christmas-cruise-2026
   title: "SideM ～Mフェス2026・クリスマスクルーズ～"
   brand: sidem
@@ -789,7 +836,9 @@
     - godo-765x961-fan-buzz  # 8/25配信「告知PVの演出がファンの間で考察に（ファン話題）」
     - godo-765x961-ultimate-live-tickets  # 9/7配信「公演詳細発表・チケット先行受付開始」
     - godo-765x961-ultimate-live-buzz  # 9/7配信「ドレスコード呼びかけにファン反応（ファン話題）」
-  notes: "公式サイトオープン・出演アイドル・チケット情報判明（9/6配信で記事化済み）。当落発表（11/16）以降、開幕予告・千秋楽が未消化。【9/13判明・断片情報】SideM 11th STAGE DAY2アンコールで本企画に言及があり、「961時代のJupiter」の映像に会場から歓声が上がったとファミ通が報道（具体的な出演確定発表ではない点に注意、単独記事化は見送り）。"
+    - godo-765x961-guest-idols  # 10/14配信「第一公演ゲスト発表（更新あり）」
+    - godo-765x961-solo-songs  # 10/14配信「奥空心白・亜夜ソロ楽曲制作決定」
+  notes: "公式サイトオープン・出演アイドル・チケット情報判明（9/6配信で記事化済み）。【10/13判明】第一公演ゲストに神崎蘭子・春日未来・小宮果穂。第一公演7/24 17:00開場18:00開演、第二7/25 12:00開演、第三7/25 18:00開演。奥空心白・亜夜のソロ楽曲制作決定（続報待ち）。当落発表（11/16）以降、開幕予告・千秋楽が未消化。【9/13判明・断片情報】SideM 11th STAGE DAY2アンコールで本企画に言及があり、「961時代のJupiter」の映像に会場から歓声が上がったとファミ通が報道（具体的な出演確定発表ではない点に注意、単独記事化は見送り）。"
 
 - id: cg-15th-anniversary-live
   title: "シンデレラガールズ15周年記念イベント（Kアリーナ横浜）"
