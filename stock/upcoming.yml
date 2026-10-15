@@ -72,6 +72,25 @@
     - sidem-daimaru-matsuzakaya-popup2  # 10/8配信「新発表」
   notes: "商品ラインナップ・ノベルティは続報待ち。"
 
+- id: sidem-monthly-theme-song-13
+  title: "SideM MONTHLY THEME SONG 13 Jupiter"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-11-25"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-15"
+  source: "アイドルマスター公式ポータル news/01_20123"
+  facts: |
+    発売日: 2026年11月25日(水)、2,200円(税込)、LACM-24793
+    歌: Jupiter（天ヶ瀬冬馬・御手洗翔太・伊集院北斗）。シリアルコードでCD特典ストーリー、初回生産分は全員分ブロマイド
+  publish_plan:
+    - on: "2026-11-25"
+      angle: "本日発売"
+  used_in:
+    - sidem-monthly-theme-song-13-jupiter  # 10/15配信「CD情報・特典デザイン公開」
+  notes: ""
+
 - id: sidem-mfes-christmas-cruise-2026
   title: "SideM ～Mフェス2026・クリスマスクルーズ～"
   brand: sidem
@@ -149,6 +168,10 @@
   publish_plan:
     - on: "2026-09-27"
       angle: "本日プレミアム会員最速先行、受付締切"
+    - on: "2026-10-26"
+      angle: "昨日2次先行受付締切"
+    - on: "2026-11-07"
+      angle: "本日当落発表"
     - on: "2027-01-10"
       angle: "明日開幕予告"
     - on: "2027-01-11"
@@ -157,8 +180,9 @@
       angle: "DAY1レポ＆本日DAY2・千秋楽"
   used_in:
     - cg-15th-orchestra-presale-deadline  # 9/27配信「本日プレミアム会員最速先行、受付締切」
+    - cg-orchestra-premium-2nd  # 10/15配信「2次先行受付開始」
   status: partially-used
-  notes: "9/17配信の15周年関連まとめ記事で開催決定自体は既報だが、stock未登録だったため9/23判明分として新規追加。最速先行受付締切（9/27配信）消化済み。明日開幕予告（2027-01-10）以降が未消化。"
+  notes: "【10/14判明】プレミアム会員2次先行 10/14 12:00〜10/25 23:59、当落11/7 13:00、入金〜11/11。S席SS席20,000円/A席12,000円。出演 DAY1:藍原ことみ・原涼子・花井美春(Gt IMAJO)、DAY2:安齋由香里・渕上舞・木村珠莉(Gt 睦月周平)。グッズ事前販売〜10/18。9/17配信の15周年関連まとめ記事で開催決定自体は既報だが、stock未登録だったため9/23判明分として新規追加。最速先行受付締切（9/27配信）消化済み。明日開幕予告（2027-01-10）以降が未消化。"
 
 - id: cg-athome-xrlive-apple-2027
   title: "ATHOME xR LIVE Apple of my アイ"
@@ -329,6 +353,29 @@
       angle: "本日発売開始"
   used_in: []
   notes: "発表自体は8/7付で既に1週間以上前のため単独記事化は見送り、発売が近づいたら取り出す。オンライン販売開始日は続報待ち。"
+
+- id: gaku-seibu-chichibu-matsurinoyu
+  title: "学園アイドルマスター×西武秩父駅前温泉 祭の湯「西武鉄道で行く！山粧う湯けむり旅」"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-10-16"
+  event_end: "2026-11-29"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-15"
+  source: "アイドルマスター公式ポータル news/01_20099"
+  facts: |
+    会場: 西武秩父駅前温泉 祭の湯（オリジナルグッズ・コラボメニュー・館内装飾）、秩父市内デジタルスタンプラリー
+    開催期間: 2026年10月16日(金)〜11月29日(日)
+    開催記念乗車券(西武線1日フリーきっぷ、台紙付き): 5,000枚、現金のみ。10/16〜11/29、西武秩父駅・池袋駅。池袋は10/17以降、10/16は西武秩父駅のみ8:30臨時販売
+  publish_plan:
+    - on: "2026-10-16"
+      angle: "本日開幕"
+    - on: "2026-11-29"
+      angle: "本日最終日"
+  used_in:
+    - gaku-seibu-chichibu-tomorrow  # 10/15配信「明日開幕予告」
+  notes: ""
 
 - id: sidem-renaissance-collab
   title: "SideM×スポーツクラブルネサンス「315 Fitness Project in RENAISSANCE」"
@@ -624,7 +671,7 @@
   kind: 公式
   event_start: "2026-09-26"
   event_end: "2026-10-14"
-  status: partially-used
+  status: done
   confidence: unconfirmed
   added: "2026-09-27"
   source: "the-chara.com（2026年9月）／collabo-cafe.com"
@@ -638,7 +685,8 @@
       angle: "本日最終日"
   used_in:
     - cg-yurakucho-marui-popup  # 9/27配信「本日開催中」
-  notes: "公式ポータル（idolmaster-official.jp）での一次ソースは未特定、the-chara.com・collabo-cafe.com経由で確認したためconfidence: unconfirmedとして登録。可能なら公式発表で追検証。最終日（10/14）が未消化。"
+    - cg-yurakucho-marui-popup-final  # 10/15配信「昨日10/14会期終了」
+  notes: "公式ポータル（idolmaster-official.jp）での一次ソースは未特定、the-chara.com・collabo-cafe.com経由で確認したためconfidence: unconfirmedとして登録。可能なら公式発表で追検証。最終日も消化済みでクローズ（10/15配信）。"
 
 - id: cg-yamanashi-walkwander
   title: "シンデレラガールズ×山梨「やまなし WALK & WANDER」"
@@ -774,10 +822,15 @@
     コンセプト: 「今、"アイドル"―理想―が激突する」。765プロと961プロの対立構図を描いたPVを公開
     【9/6判明】公式サイトオープン・出演アイドル判明: 第一公演「TO:STARLIT OF PROMISE」星井美希・四条貴音・我那覇響・奥空心白・玲音・詩花・亜夜ほか／第二公演「BE:STELLA OF ABSOLUTE」如月千早・高槻やよい・秋月律子・三浦あずさ・水瀬伊織・菊地真・双海亜美・双海真美・玲音・詩花の計10名／第三公演「IF:THE DAY OF JUDGMENT」天海春香・如月千早・萩原雪歩・星井美希・四条貴音・我那覇響・天ヶ瀬冬馬・伊集院北斗・御手洗翔太
     チケット: 「765プロダクションシート」「961プロダクションシート」に分かれて販売。先行受付9月6日12:00〜10月28日23:59、当落発表11月16日13:00、入金期間11月16日〜23日
+    【10/13判明】第一公演「TO:STARLIT OF PROMISE」ゲストアイドルに神崎蘭子・春日未来・小宮果穂（スタマス5周年IM@S RADIO特番で発表）。紹介動画は奥空心白・亜夜と合わせ10/14から公開
     ドレスコード: 来場時に「所属プロダクションを表すアイテム」の着用を呼びかけ
   publish_plan:
     - on: "2026-09-06"
       angle: "公演詳細発表・チケット先行受付開始"
+    - on: "2026-10-28"
+      angle: "本日先行受付締切"
+    - on: "2026-11-16"
+      angle: "本日当落発表"
     - on: "2027-07-23"
       angle: "明日開幕予告"
     - on: "2027-07-24"
@@ -789,6 +842,7 @@
     - godo-765x961-fan-buzz  # 8/25配信「告知PVの演出がファンの間で考察に（ファン話題）」
     - godo-765x961-ultimate-live-tickets  # 9/7配信「公演詳細発表・チケット先行受付開始」
     - godo-765x961-ultimate-live-buzz  # 9/7配信「ドレスコード呼びかけにファン反応（ファン話題）」
+    - godo-765x961-ultimate-guest-idols  # 10/15配信「ゲストアイドル発表」
   notes: "公式サイトオープン・出演アイドル・チケット情報判明（9/6配信で記事化済み）。当落発表（11/16）以降、開幕予告・千秋楽が未消化。【9/13判明・断片情報】SideM 11th STAGE DAY2アンコールで本企画に言及があり、「961時代のJupiter」の映像に会場から歓声が上がったとファミ通が報道（具体的な出演確定発表ではない点に注意、単独記事化は見送り）。"
 
 - id: cg-15th-anniversary-live
@@ -1097,20 +1151,28 @@
   title: "vα-liv 灯里愛夏バースデーライブ 振替日程"
   brand: valiv
   kind: 公式
-  event_start: "2026-07-01"
-  status: watching
-  confidence: unconfirmed
+  event_start: "2026-10-28"
+  status: partially-used
+  confidence: confirmed
   added: "2026-07-02"
   source: "アイドルマスター公式ポータル news/01_19211（2026年6月）"
   facts: |
     経緯: 7月1日開催予定の「PROJECT IM@S vα-liv 灯里愛夏 BIRTHDAY ONLINE LIVE 2026」が本人負傷療養のため延期
     対応: チケット（LV・配信）は全額払い戻し対応中
-    振替日程: 2026年7月2日時点で未発表
+    振替日程(10/13判明): 2026年10月28日(水) 開場18:00/開演19:00、ユナイテッド・シネマ アクアシティお台場3番スクリーン(LV)＋ASOBI STAGE(配信)。ゲスト上水流宇宙・レトラ、スペシャルゲストはcoming soon
+    LVチケット: 9,000円、一般先着 10/17 12:00〜10/28 18:00、ネオ・ハラジュクTシャツ付き。アーカイブ〜11/29 23:59
   publish_plan:
-    - on: "振替日決定日（未定）"
-      angle: "振替日程決定・速報"
-  used_in: []
-  notes: "振替日程が発表されたら speed に記事化し、facts・publish_planを更新する。"
+    - on: "2026-10-17"
+      angle: "本日12時LV一般先着販売開始"
+    - on: "2026-10-27"
+      angle: "明日開催予告・スペシャルゲスト続報"
+    - on: "2026-10-28"
+      angle: "本日開催"
+    - on: "2026-10-29"
+      angle: "昨日開催レポ"
+  used_in:
+    - valiv-manaka-bd-live-lv-sale  # 10/15配信「延期公演10/28・LV一般先着」
+  notes: "スペシャルゲストは続報待ち。"
 
 - id: sidem-joypolis-collab3
   title: "アイドルマスター SideM in JOYPOLIS 3"
@@ -2170,7 +2232,6 @@
   kind: 公式
   event_start: "2026-09-11"
   event_end: "2026-10-15"
-  status: pending
   confidence: confirmed
   added: "2026-09-10"
   source: "アイドルマスター公式ポータル news/01_19820"
@@ -2187,8 +2248,9 @@
   used_in:
     - sidem-anideal-daimaru-perfume-reservation  # 9/10配信「予約は明日12:00から（明日予告）」
     - sidem-anideal-daimaru-perfume-start  # 9/11配信「本日12:00予約開始」
-  status: partially-used
-  notes: "第1弾の対象メンバー名は未取得、要追検証。第2弾以降（DRAMATIC STARS等）の詳細判明次第、別エントリとして追加する。本日予約開始（9/11配信）消化済み。予約締切（10/15）が未消化。"
+    - sidem-anideal-perfume-deadline  # 10/15配信「本日14:59予約締切」
+  status: done
+  notes: "第1弾の対象メンバー名は未取得、要追検証。第2弾以降（DRAMATIC STARS等）の詳細判明次第、別エントリとして追加する。本日予約開始（9/11配信）消化済み。予約締切（10/15配信）も消化済みでクローズ。第2弾以降は別エントリで追加。"
 
 - id: valiv-online-1on1-13th
   title: "PROJECT vα-liv 限定オンライン1on1 第13回"
@@ -2422,6 +2484,30 @@
     - ml-cyberplanet-popup-tomorrow  # 10/7配信「明日開幕予告」
     - ml-cyberplanet-popup-today  # 10/8配信「本日東京会場開幕」
   notes: "東京会場は7/中旬頃に開催自体は発表済み（01_19749）、9/24付で詳細（出演キャラ・特典・大阪会場）が判明。事後通販の受付期間は続報待ち、要追検証。"
+
+- id: as765-miki-comic-frontier
+  title: "MIKI HOSHII SOLO SHOWCASE「THE FUTURE SPOTLIGHT」in Comic Frontier"
+  brand: as765
+  kind: 公式
+  event_start: "2026-11-01"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-15"
+  source: "アイドルマスター公式ポータル news/01_20133"
+  facts: |
+    日時: 2026年11月1日(日)、会場: インドネシア ICE BSD（Comic Frontier 23）
+    配信予定なし。Anime Central 2026(5月)・KIMCHIKURA Fes '26(8月)から演出・披露曲の一部変更予定
+    チケット: Comic Frontier公式サイト(comifuro.net)
+  publish_plan:
+    - on: "2026-10-31"
+      angle: "明日開催予告"
+    - on: "2026-11-01"
+      angle: "本日開催"
+    - on: "2026-11-02"
+      angle: "昨日公演レポ"
+  used_in:
+    - as765-miki-comic-frontier  # 10/15配信「開催決定」
+  notes: ""
 
 - id: sc-fumage-cruise-2026
   title: "『Fumage』コラボクルーズ ～船の上の撮影会～"
