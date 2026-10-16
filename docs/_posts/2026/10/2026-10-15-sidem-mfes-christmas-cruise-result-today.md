@@ -6,7 +6,7 @@ brand: sidem
 kind: 公式
 badge: "本日発表"
 lead: "10月12日に抽選受付を終えたSideM「Mフェス2026・クリスマスクルーズ」の当選発表が、本日10月16日17:00に予定されている。"
-source: "アイドルマスター公式ポータル スケジュール／WILLER TRAVEL"
+source: "WILLER TRAVEL"
 tags: [SideM, Mフェス, クリスマスクルーズ, F-LAGS, 神戸, 横浜]
 ---
 
