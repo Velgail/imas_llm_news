@@ -96,6 +96,7 @@
       angle: "本日神戸便"
   used_in:
     - sidem-mfes-christmas-cruise  # 10/8配信「抽選受付中」
+    - sidem-mfes-christmas-cruise-result-today  # 10/16配信「本日当選発表」
   notes: "当選発表以降は続報待ち。"
 
 - id: cg-hakkeijima-marine-symphony
