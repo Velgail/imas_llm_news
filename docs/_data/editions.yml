@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-10-16"
+  dateLong: "2026年（令和8年）10月16日　金曜日"
+  pages: "全 5 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "ツアマス新シリーズ2弾は10/29稼働、SideMの山下次郎・舞田類が追加"
+  indexNote: "昨日10/15の公式生配信で発表。本日17時にはSideM「Mフェス」クリスマスクルーズの当選発表が予定されている。"
 - date: "2026-10-08"
   dateLong: "2026年（令和8年）10月8日　木曜日"
   pages: "全 11 面"
