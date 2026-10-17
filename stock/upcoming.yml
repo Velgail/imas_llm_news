@@ -2,853 +2,24 @@
 # event_start 昇順（直近が先頭）。配信日に該当する予定があれば取り出して記事化する。
 #
 
-- id: ml-kyomafu-popup-yurakucho
-  title: "ミリオンライブ！ 京まふ事後物販 POP UP SHOP（有楽町マルイ）"
-  brand: ml
-  kind: 公式
-  event_start: "2026-10-10"
-  event_end: "2026-10-22"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-10-08"
-  source: "アイドルマスター公式ポータル news/01_20059／THEキャラ the-chara.com/blog/?p=120999"
-  facts: |
-    会場: 有楽町マルイ7F
-    会期: 2026年10月10日(土)〜10月22日(木)
-    対象: 伊吹翼・大神環・高坂海美・佐竹美奈子・所恵美・舞浜歩・松田亜利沙・横山奈緒の描き下ろし等を使った追加商品・特典
-  publish_plan:
-    - on: "2026-10-10"
-      angle: "本日開幕"
-    - on: "2026-10-22"
-      angle: "本日最終日"
-  used_in:
-    - ml-kyomafu-popup-details  # 10/8配信「詳細公開」
-  notes: "追加商品の価格・特典条件は特設サイトで要追検証。"
-
-- id: valiv-cosmo-bd2026-viewing
-  title: "上水流宇宙 BIRTHDAY ONLINE LIVE 2026 同時視聴上映会"
+- id: valiv-akari-birthday-live-postponed
+  title: "vα-liv 灯里愛夏バースデーライブ 振替日程"
   brand: valiv
   kind: 公式
-  event_start: "2026-10-12"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-10-08"
-  source: "アイドルマスター公式ポータル news/01_20085"
-  facts: |
-    日時: 2026年10月12日(月・祝)13:00〜（予定）、視聴ページは10/9公開予定
-    配信チケット5,000円（10/12 18:00まで販売、配信期間〜10/12 23:59）、アフタートーク配信特典、プレゼント用視聴チケットあり
-  publish_plan:
-    - on: "2026-10-12"
-      angle: "本日13:00同時視聴上映会"
-  used_in:
-    - valiv-cosmo-bd-viewing-party  # 10/8配信「実施決定」
-  notes: ""
-
-- id: sidem-daimaru-matsuzakaya-popup2
-  title: "THE IDOLM@STER SideM × DAIMARU MATSUZAKAYA ポップアップショップ（第2弾）"
-  brand: sidem
-  kind: 公式
-  event_start: "2026-10-28"
-  event_end: "2026-11-24"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-10-08"
-  source: "アイドルマスター公式ポータル news/01_20080"
-  facts: |
-    会期: 大丸東京店3F 10/28(水)〜11/10(火)／大丸梅田店1F 11/18(水)〜11/24(火)、10:00〜20:00
-    内容: 描き下ろしビジュアルのアパレル・雑貨、カスタムバッグチャーム企画、イラストレーター秋赤音コラボ
-    事前整理券: 東京 10/28終日・10/31と11/1の10:00〜14:00／梅田 11/18終日・11/21と11/22の10:00〜14:00
-    オンライン受注: 11/27 12:00〜12/23 23:59予定、お届け2027年4月上旬頃〜
-  publish_plan:
-    - on: "2026-10-27"
-      angle: "明日大丸東京店開幕予告"
-    - on: "2026-10-28"
-      angle: "本日大丸東京店開幕"
-    - on: "2026-11-17"
-      angle: "明日大丸梅田店開幕予告"
-    - on: "2026-11-18"
-      angle: "本日大丸梅田店開幕"
-  used_in:
-    - sidem-daimaru-matsuzakaya-popup2  # 10/8配信「新発表」
-  notes: "商品ラインナップ・ノベルティは続報待ち。"
-
-- id: sidem-mfes-christmas-cruise-2026
-  title: "SideM ～Mフェス2026・クリスマスクルーズ～"
-  brand: sidem
-  kind: 公式
-  event_start: "2026-12-12"
-  event_end: "2026-12-25"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-10-08"
-  source: "アイドルマスター公式ポータル スケジュール（2026/10/05）／WILLER TRAVEL travel.willer.co.jp/entertainment/sidem/christmas-cruise-2026/"
-  facts: |
-    日程: 神戸 12/12(土)19:00〜（boh boh KOBE、定員200）／横浜・みなとみらい 12/20(日)17:00・19:00の2便、12/25(金)19:00（フロンティアルーツ、各便定員100）
-    料金: 19,300円（税込、食事付き）、アクリルジオラマ+2,000円、船内コラボドリンク800円
-    出演: F-LAGS（秋月涼・九十九一希・兜大吾）の限定アナウンス
-    抽選受付: 10/5〜10/12 23:59、当選発表10/16 17:00予定
-  publish_plan:
-    - on: "2026-10-13"
-      angle: "抽選受付、昨日締切"
-    - on: "2026-10-16"
-      angle: "本日当選発表"
-    - on: "2026-12-12"
-      angle: "本日神戸便"
-  used_in:
-    - sidem-mfes-christmas-cruise  # 10/8配信「抽選受付中」
-  notes: "当選発表以降は続報待ち。"
-
-- id: cg-hakkeijima-marine-symphony
-  title: "Cinderella Marine-Symphony（横浜・八景島シーパラダイス コラボ）"
-  brand: cg
-  kind: 公式
-  event_start: "2027-01-09"
-  event_end: "2027-03-10"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-09-26"
-  source: "アイドルマスター公式ポータル news/01_19985／atfes.com（2026年9月25日発表）"
-  facts: |
-    名称: Cinderella Marine-Symphony（シンデレラガールズ×横浜・八景島シーパラダイスのコラボイベント）
-    会場: 横浜・八景島シーパラダイス（神奈川県横浜市金沢区）
-    開催期間: 2027年1月9日(土)〜3月10日(水)
-    内容: オリジナルグッズ・コラボフードの販売、島内を巡るスタンプラリー等
-    スペシャルステージ: 2027年1月16日(土)・2月14日(日)にキャスト陣が登壇するステージを開催予定（出演者未定）
-    特設サイト: atfes.com/contents/marine-symphony（TICKET等の詳細は続報待ち）
-  publish_plan:
-    - on: "2027-01-08"
-      angle: "明日開幕予告"
-    - on: "2027-01-09"
-      angle: "本日開幕"
-    - on: "2027-01-16"
-      angle: "本日スペシャルステージDAY1"
-    - on: "2027-02-14"
-      angle: "本日スペシャルステージDAY2"
-    - on: "2027-03-10"
-      angle: "本日最終日"
-  used_in:
-    - cg-hakkeijima-marine-symphony-announce  # 9/26配信「新発表」
-  notes: "チケット情報・参加アイドル・スペシャルステージ出演者は続報待ち、要追検証。"
-
-- id: cg-15th-orchestra-concert
-  title: "THE IDOLM@STER CINDERELLA GIRLS 15th ANNIVERSARY ORCHESTRA CONCERT ～シンデレラの演奏会～"
-  brand: cg
-  kind: 公式
-  event_start: "2027-01-11"
-  event_end: "2027-01-12"
-  status: pending
-  confidence: confirmed
-  added: "2026-09-23"
-  source: "アイドルマスター公式ポータル news/live_event/cg_15th_orchestra／PR TIMES（2026年9月16日）"
-  facts: |
-    内容: シンデレラガールズ15周年記念オーケストラコンサート「THE IDOLM@STER CINDERELLA GIRLS 15th ANNIVERSARY ORCHESTRA CONCERT ～シンデレラの演奏会～」
-    会場: パシフィコ横浜 国立大ホール
-    日程: 2027年1月11日（月・祝）・12日（火）
-    アソビストアプレミアム会員最速先行（抽選）: 2026年9月16日〜9月27日(日)23:59受付
-    出演者・セトリ・一般発売日程は続報待ち
-  publish_plan:
-    - on: "2026-09-27"
-      angle: "本日プレミアム会員最速先行、受付締切"
-    - on: "2027-01-10"
-      angle: "明日開幕予告"
-    - on: "2027-01-11"
-      angle: "本日開幕・DAY1"
-    - on: "2027-01-12"
-      angle: "DAY1レポ＆本日DAY2・千秋楽"
-  used_in:
-    - cg-15th-orchestra-presale-deadline  # 9/27配信「本日プレミアム会員最速先行、受付締切」
-  status: partially-used
-  notes: "9/17配信の15周年関連まとめ記事で開催決定自体は既報だが、stock未登録だったため9/23判明分として新規追加。最速先行受付締切（9/27配信）消化済み。明日開幕予告（2027-01-10）以降が未消化。"
-
-- id: cg-athome-xrlive-apple-2027
-  title: "ATHOME xR LIVE Apple of my アイ"
-  brand: cg
-  kind: 公式
-  event_start: "2027-02-13"
-  event_end: "2027-02-14"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-09-29"
-  source: "アイドルマスター シンデレラガールズ【ブランド公式】X（2026年9月28日発表）"
-  facts: |
-    名称: ATHOME xR LIVE Apple of my アイ
-    会場: 山形県 やまぎん県民ホール
-    日程: 2027年2月13日(土)開場18:00・開演19:00、14日(日)昼公演(開場11:30・開演12:30)・夜公演(開場16:30・開演17:30)の1日2公演
-    テーマ: 「地元愛、フルーツ愛、あなたへの愛」、バレンタインシーズンにちなんだ公演
-    出演: #UNICUS（辻野あかり・砂塚あきら・夢見りあむ）、スウィート・ソアー（佐久間まゆ・橘ありす）
-    アソビストアプレミアム会員対象の現地チケット最速先行受付が発表当日9/28 21:30よりスタート
-  publish_plan:
-    - on: "2027-02-12"
-      angle: "明日開幕予告"
-    - on: "2027-02-13"
-      angle: "本日開幕・DAY1"
-    - on: "2027-02-14"
-      angle: "本日DAY2・千秋楽（昼夜2公演）"
-  used_in:
-    - cg-athome-xrlive-apple  # 9/29配信「新発表」
-  notes: "先行受付の締切日・一般発売日程は続報待ち、要追検証。"
-
-- id: sidem-producer-meeting-2027
-  title: "THE IDOLM@STER SideM PRODUCER MEETING ～AJewelholIc!!!～"
-  brand: sidem
-  kind: 公式
-  event_start: "2027-03-13"
-  event_end: "2027-03-14"
-  status: pending
-  confidence: confirmed
-  added: "2026-09-13"
-  source: "ファミ通（2026年9月13日）／アイドルマスター公式ポータル live_event/sidem_pm2027／同ポータル live_event/sidem_pm2027/ticket"
-  facts: |
-    会場: 京王アリーナTOKYO
-    日程: 2027年3月13日（土）・14日（日）
-    開場/開演: 3/13 16:00開場・17:00開演（予定）、3/14 15:30開場・16:30開演（予定）
-    チケット: 全席指定11,000円（税込）
-    アソビストアプレミアム会員（12ヶ月会員）先行受付: 2026年9月12日21:00〜10月4日23:59、当落発表10月17日13:00〜
-    11th STAGE DAY1（9/12）の会場で発表。公式サイトは9月12日オープン
-    出演者の詳細は続報予定
-  publish_plan:
-    - on: "出演者詳細発表日（未定）"
-      angle: "出演者詳細判明"
-    - on: "2027-03-12"
-      angle: "明日開幕予告"
-    - on: "2027-03-13"
-      angle: "本日開催・DAY1"
-    - on: "2027-03-14"
-      angle: "本日DAY2・完走レポ"
-  used_in:
-    - sidem-producer-meeting-2027-announce  # 9/13配信「新発表」
-  notes: "チケット価格・先行受付期間は発表当日（9/12）判明済み（9/13事実確認で訂正）。出演者の詳細は続報待ち、要追検証。"
-
-- id: sidem-11th-stage-bluray
-  title: "SideM 11th STAGE LIVE Blu-ray"
-  brand: sidem
-  kind: 公式
-  event_start: "2027-07-14"
-  status: pending
-  confidence: confirmed
-  added: "2026-09-13"
-  source: "ファミ通（2026年9月13日）／Lantis web site"
-  facts: |
-    内容: 「THE IDOLM@STER SideM 11th STAGE ～EVER EVER＠FTER～」LIVE Blu-ray
-    発売日: 2027年7月14日（水）
-    通常版: 26,400円（税込）、BD5枚組（品番LABX9015〜9）、DAY1・DAY2本編＋バックステージ映像収録
-    ASOBI STORE特装版: 39,600円（税込）、朗読劇「PASSIONABLE READING SHOW ～魂環の人形（マリオネット）～」抜粋収録の特典ディスク付き
-  publish_plan:
-    - on: "予約開始日（未定）"
-      angle: "予約受付開始"
-    - on: "2027-07-13"
-      angle: "明日発売予告"
-    - on: "2027-07-14"
-      angle: "本日発売"
-  used_in:
-    - sidem-11th-stage-bluray-announce  # 9/13配信「新発表」
-  notes: "予約開始日は続報待ち、要追検証。"
-
-- id: sidem-mfes-2026-theme-song
-  title: "Mフェス2026 in Winter Wonderland テーマソング「Season's Greetings Party！」"
-  brand: sidem
-  kind: 公式
-  event_start: "2026-12-02"
-  status: pending
-  confidence: confirmed
-  added: "2026-09-13"
-  source: "ファミ通（2026年9月13日）"
-  facts: |
-    内容: Mフェス恒例企画では初となるテーマソング。歌唱はW・神速一魂・C.FIRSTの3ユニット、各ソロバージョンも収録
-    発売日: 2026年12月2日（水）
-  publish_plan:
-    - on: "予約開始日（未定）"
-      angle: "予約受付開始"
-    - on: "2026-12-01"
-      angle: "明日発売予告"
-    - on: "2026-12-02"
-      angle: "本日発売"
-  used_in:
-    - sidem-mfes-2026-theme-song  # 9/13配信「新発表」
-  notes: "予約開始日・Mフェス本体の日程は続報待ち、要追検証。"
-
-- id: gaku-battlespirits-collab-2027
-  title: "「バトルスピリッツ」×学園アイドルマスター コラボ商品"
-  brand: gaku
-  kind: 公式
-  status: watching
-  confidence: confirmed
-  added: "2026-09-29"
-  source: "学園アイドルマスター公式X（@gkmas_official、2026年9月28日「初星学園HR #12」生配信内で発表）"
-  facts: |
-    内容: トレーディングカードゲーム「バトルスピリッツ」と学園アイドルマスターのコラボ商品化
-    商品: 「コラボスターター 始まりのステップ」「コラボブースター 輝けるアイドル」の2種、描き下ろしイラスト使用カードも収録予定
-    発売時期: 2027年春（正確な発売日は続報待ち）
-  publish_plan:
-    - on: "発売日決定後（未定）"
-      angle: "発売日判明・予約開始"
-  used_in:
-    - gaku-battlespirits-collab  # 9/29配信「新発表」
-  notes: "カードデザイン・収録内容の詳細は続報待ち、要追検証。発売日が判明次第event_startを設定する。"
-
-- id: gaku-hoshizara-hr12-koakuma-event
-  title: "学マス小悪魔ストーリーイベント「ワタシ、小悪魔♡」"
-  brand: gaku
-  kind: 公式
-  event_start: "2026-09-30"
-  status: pending
-  confidence: confirmed
-  added: "2026-09-29"
-  source: "学園アイドルマスター公式X（@gkmas_official、2026年9月28日「初星学園HR #12」生配信内で発表）"
-  facts: |
-    内容: 小悪魔モチーフのストーリーイベント「ワタシ、小悪魔♡」。小悪魔ガシャ関連曲「Agitato」（歌唱: 倉本千奈・紫雲清夏・秦谷美鈴・十王星南、9/22岩手公演DAY1でサプライズ初披露済み）のゲーム内ライブシーン初公開と同じ生配信で発表
-    グラビアシリーズ第2弾「小悪魔ガシャ」も実施予定
-    開始日時: 2026年9月30日(水)11:00〜
-    イベント報酬: SSR花海佑芽（小悪魔ver.）
-  publish_plan:
-    - on: "2026-09-30"
-      angle: "本日開始"
-  used_in:
-    - gaku-hoshizara-hr12-agitato  # 9/29配信「新発表（Agitatoライブシーン初公開・ガシャ告知）」
-  notes: "「Agitato」は9/22岩手公演DAY1で既に初披露済みの全体曲（歌唱: 倉本千奈・紫雲清夏・秦谷美鈴・十王星南）。9/29配信記事で葛城リーリヤ新曲との誤記を修正済み。イベント終了日・小悪魔ガシャの詳細は続報待ち、要追検証。"
-
-- id: gaku-ichibankuji-part7
-  title: "一番くじ 学園アイドルマスター Part7"
-  brand: gaku
-  kind: 公式
-  event_start: "2026-12-12"
-  status: pending
-  confidence: confirmed
-  added: "2026-09-13"
-  source: "電撃ホビーウェブ（2026年8月7日）／HOBBY Watch"
-  facts: |
-    内容: 一番くじ「学園アイドルマスター Part7」。葛城リーリヤ・紫雲清夏・姫崎莉波の1/7フィギュア（「Gracemaster」シリーズ、A〜C賞）ほか、Kiraraizuマスコット・ミニのぼりスタンド・ラバーチャーム・クリアファイル等（D〜H賞）
-    価格: 1回850円（税込）
-    発売開始: 2026年12月12日（土）より順次
-    ラストワン賞: 紫雲清夏フィギュアのLast One Ver.、ダブルチャンス賞も同フィギュア
-    販売元: BANDAI SPIRITS
-  publish_plan:
-    - on: "2026-12-11"
-      angle: "明日発売予告"
-    - on: "2026-12-12"
-      angle: "本日発売開始"
-  used_in: []
-  notes: "発表自体は8/7付で既に1週間以上前のため単独記事化は見送り、発売が近づいたら取り出す。オンライン販売開始日は続報待ち。"
-
-- id: sidem-renaissance-collab
-  title: "SideM×スポーツクラブルネサンス「315 Fitness Project in RENAISSANCE」"
-  brand: sidem
-  kind: 公式
-  event_start: "2026-10-22"
-  event_end: "2026-11-29"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-09-17"
-  source: "アイドルマスター公式ポータル news/01_19822／PR TIMES（Origres）／sportsmania.jp"
-  facts: |
-    名称: 315 Fitness Project in RENAISSANCE（SideM×スポーツクラブ ルネサンスのコラボ）
-    開催期間: 2026年10月22日(木)〜11月29日(日)
-    展開店舗: 全国49店舗のスポーツクラブ ルネサンス
-    アンバサダー: 蒼井悠介・蒼井享介・信玄誠司・山下次郎・大河タケルの5名
-    内容: 信玄誠司・山下次郎が指導するオリジナルフィットネスレッスン映像3本（カーディオエクササイズ／パワーエクササイズ／リズムストレッチ）、店内アナウンスボイス、「10th ANNIVERSARY P@SSION TOUR」ビジュアル使用の等身大パネル等店舗装飾（店舗により異なる）。9/17判明分：信玄誠司が「カーディオエクササイズ」「パワーエクササイズ」の2本、山下次郎が「リズムストレッチ」の全3本のタイトルが判明
-    チケット: グッズ付きコラボチケット4種（特典内容・枚数違い）。9/17判明分：ステッカー付き2,690円〜フェイスタオル付き31,320円
-    グッズ: 5アンバサダー＋ユニット別「トレーニング中」イラストのアクリルスタンド・缶バッジ等
-    店舗装飾（9/17判明）: 3店舗に描き下ろしイラスト、46店舗に公式ビジュアルの等身大スタンディを設置
-  publish_plan:
-    - on: "2026-10-21"
-      angle: "明日開始予告"
-    - on: "2026-10-22"
-      angle: "本日開始"
-    - on: "2026-11-29"
-      angle: "本日最終日"
-  used_in:
-    - sidem-renaissance-collab-announce  # 9/17配信「新発表」
-    - sidem-renaissance-collab-details  # 9/18配信「レッスン映像タイトル・グッズ価格判明（更新あり）」
-  notes: "レッスン映像タイトル2本・グッズ価格・スタンディ設置数は9/17付PR TIMESリリースで判明（9/18配信で記事化）。残る1本のレッスン映像タイトルは続報待ち。開始予告（10/21）以降が未消化。"
-
-- id: cg-hachinohe-hachimasu-second
-  title: "「はちます」×シンデレラガールズ第2弾"
-  brand: cg
-  kind: 公式
-  event_start: "2026-10-23"
-  event_end: "2026-12-27"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-09-17"
-  source: "アイドルマスター公式ポータル news/01_19893"
-  facts: |
-    名称: 「はちます」×シンデレラガールズ第2弾（青森県八戸市とのコラボ、前回2026年2〜3月開催の続編）
-    開催期間: 2026年10月23日(金)〜12月27日(日)
-    内容: 有料デジタルスタンプラリー（新スポット追加で全18箇所に拡大）、ノベルティカード配布、コラボグッズ、パネル展示
-    参加アイドル: 浅利七海・工藤忍・水本ゆかり・棟方愛海（青森出身）、片桐早苗・高垣楓・並木芽衣子（新規ちびキャラクターイラスト）
-    スタンプラリー地点例: ユートリー、史跡根城の広場、八戸ポータルミュージアムはっち、みろく横丁、八戸市魚菜小売市場、八食センター、かぶーにゃ、マリエント、葦毛崎展望台、種差海岸インフォメーションセンター、種差海岸駅、鮫駅、八戸酒造、アパホテル本八戸、ミチル種差、是川縄文館、櫛引八幡宮、八戸市美術館
-  publish_plan:
-    - on: "2026-10-22"
-      angle: "明日開幕予告"
-    - on: "2026-10-23"
-      angle: "本日開幕"
-    - on: "2026-12-27"
-      angle: "本日最終日・完走"
-  used_in:
-    - cg-hachinohe-hachimasu-second  # 9/17配信「キービジュアル・詳細が一部解禁」
-  notes: "ノベルティカード・コラボグッズの詳細は続報待ち、要追検証。開幕予告（10/22）以降が未消化。"
-
-- id: cg-naha-degimasu
-  title: "「でじます」×シンデレラガールズ（那覇市コラボ）"
-  brand: cg
-  kind: 公式
-  event_start: "2026-11-20"
-  event_end: "2027-02-28"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-09-17"
-  source: "アイドルマスター公式ポータル news/01_19889"
-  facts: |
-    名称: でじます×シンデレラガールズ（沖縄県那覇市の観光企画コラボ）
-    主催: 那覇市（企画運営: 名鉄観光サービス）
-    第1弾: 2026年11月20日(金)〜2027年1月17日(日)
-    第2弾: 2027年1月29日(金)〜2月28日(日)
-    参加見込みアイドル: 相葉夕美・冴島清美・瀬名詩織・高森藍子・姫川友紀・森久保乃々・ライラ（計7名）
-    背景: 首里城正殿の復元工事完了・一般公開（2026年11月23日予定）にあわせたタイミングでの実施
-  publish_plan:
-    - on: "2026-11-19"
-      angle: "明日開幕予告"
-    - on: "2026-11-20"
-      angle: "本日開幕・第1弾スタート"
-    - on: "2027-01-28"
-      angle: "明日第2弾開始予告"
-    - on: "2027-01-29"
-      angle: "本日第2弾開始"
-    - on: "2027-02-28"
-      angle: "本日最終日・完走"
-  used_in:
-    - cg-naha-degimasu-collab  # 9/17配信「コラボ決定」
-  notes: "グッズ・キャンペーンの詳細は続報待ち、要追検証。開幕予告（11/19）以降が未消化。"
-
-- id: gaku-unioncreative-tsukimura-figure
-  title: "Union Creative「月村手毬」1/6スケールフィギュア"
-  brand: gaku
-  kind: 公式
-  event_start: "2027-06-01"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-09-17"
-  source: "PR TIMES（アミアミ運営元Oami Corp.、2026年9月16日18:30）"
-  facts: |
-    内容: 学園アイドルマスター・月村手毬の1/6スケール完成品フィギュア
-    メーカー: Union Creative、ライセンス元: バンダイナムコエンターテインメント
-    価格: 21,780円（税込）、全高約275mm
-    原型: 原一臣／彩色: 五日市歩
-    予約: アミアミにて受付中
-    発売予定: 2027年6月（正確な日付は続報待ち）
-  publish_plan:
-    - on: "予約締切日（未定）"
-      angle: "予約締切間近・締切"
-    - on: "2027-05-31"
-      angle: "明日発売予告"
-    - on: "2027-06-01"
-      angle: "本日発売"
-  used_in:
-    - gaku-unioncreative-tsukimura-figure  # 9/17配信「昨日予約開始発表」
-  notes: "正確な発売日（2027年6月中）・予約締切日は続報待ち、要追検証。"
-
-- id: osechi2027-cg-ml
-  title: "シンデレラガールズ×伊勢丹／ミリオンライブ×三越「おせち2027」"
-  brand: cg
-  kind: 公式
+  event_start: "2026-07-01"
   status: watching
   confidence: unconfirmed
-  added: "2026-09-17"
-  source: "アイドルマスター公式ポータル news/01_19848（cg）／news/01_19847（ml）／mistore.jp"
+  added: "2026-07-02"
+  source: "アイドルマスター公式ポータル news/01_19211（2026年6月）"
   facts: |
-    シンデレラガールズ×伊勢丹: 鷹富士茄子の振袖描き下ろしイラスト、特設ページ公開2026年9月16日10:00
-    ミリオンライブ！×三越: 白石紬の振袖描き下ろしイラスト、特設ページ公開2026年9月16日10:01
-    販売ページ・SNSキャンペーン詳細は続報予定。例年おせちは年末に予約受付・年始に届く形式
+    経緯: 7月1日開催予定の「PROJECT IM@S vα-liv 灯里愛夏 BIRTHDAY ONLINE LIVE 2026」が本人負傷療養のため延期
+    対応: チケット（LV・配信）は全額払い戻し対応中
+    振替日程: 2026年7月2日時点で未発表
   publish_plan:
-    - on: "予約受付開始日（未定）"
-      angle: "予約受付開始・詳細判明"
-  used_in:
-    - cg-isetan-osechi2027-page  # 9/17配信「特設ページ公開（cg）」
-    - ml-mitsukoshi-osechi2027-page  # 9/17配信「特設ページ公開（ml）」
-  notes: "cgとmlそれぞれ別ブランドの記事として記事化済み。予約受付開始・キャンペーン詳細が判明次第、ブランド別に追記記事化する。"
-
-- id: sidem-seibuen-retrose-party
-  title: "SideM×西武園ゆうえんち「超!!レトローズパーティ」"
-  brand: sidem
-  kind: 公式
-  event_start: "2026-10-30"
-  event_end: "2026-12-01"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-09-02"
-  source: "西武園ゆうえんち公式／横浜八景島プレスリリース（PR TIMES, prtimes.jp/main/html/rd/p/000000975.000011571.html、2026年9月1日20:10発表）"
-  facts: |
-    名称: アイドルマスター SideM 超!!レトローズパーティ
-    会場: 西武園ゆうえんち（埼玉県所沢市）
-    開催期間: 2026年10月30日（金）〜12月1日（火）
-    出演: SideM49人の男性アイドル（秋バラを手に来場者を出迎える演出）
-    声優トークショー: 10月31日・11月1日・11月22日 18:00〜19:00
-    チケット: イベント参加1日券10,000円（入園・アトラクション乗り放題・イベント参加込み）
-    連動企画: 東京ジョイポリスとの周遊スタンプラリー、達成者にA5サイズイラストカード進呈
-  publish_plan:
-    - on: "2026-10-29"
-      angle: "明日開幕予告"
-    - on: "2026-10-30"
-      angle: "本日開幕"
-    - on: "2026-10-31"
-      angle: "本日トークショー初日"
-    - on: "2026-12-01"
-      angle: "本日最終日"
-  used_in:
-    - sidem-seibuen-retrose-party  # 9/2配信「昨日新発表」
-  notes: "トークショー出演声優・グッズ詳細は続報待ち、要追検証。"
-
-- id: gaku-ichibankuji-part6
-  title: "一番くじ 学園アイドルマスター Part6"
-  brand: gaku
-  kind: 公式
-  event_start: "2026-09-19"
-  event_end: "2026-09-19"
-  confidence: confirmed
-  added: "2026-09-02"
-  source: "アイドルマスター公式ポータル news/01_19668"
-  facts: |
-    内容: 一番くじ「学園アイドルマスター Part6」。有村麻央・倉本千奈・篠澤広の1/7フィギュア（「Gracemaster」シリーズ）を含む全13アイドル分のグッズ、Kiraraizuマスコット等
-    価格: 1回850円
-    店頭販売開始: 2026年9月19日（土）
-    オンライン販売開始: 2026年9月24日（木）17:00
-    取扱店: ローソン・書店・ホビーショップ・一部ドラッグストア・一番くじ公式ショップ・一番くじONLINE
-  publish_plan:
-    - on: "2026-09-18"
-      angle: "明日店頭発売予告"
-    - on: "2026-09-19"
-      angle: "本日店頭発売開始"
-    - on: "2026-09-24"
-      angle: "本日オンライン販売開始"
-  used_in:
-    - gaku-ichibankuji-part6-tomorrow  # 9/18配信「明日9/19より順次発売予告」
-    - gaku-ichibankuji-part6-today  # 9/19配信「本日店頭発売開始」
-    - gaku-ichibankuji-part6-online  # 9/24配信「本日17時よりオンライン販売開始」
-  status: done
-  notes: "くじ自体の企画発表は2026年4月時点で既出の可能性あり、販売チャネル・日程の詳細が9月に入り判明。店頭発売開始（9/19配信）・オンライン販売開始（9/24配信）まで全publish_plan消化済み。"
-
-- id: godo-anime-girls-project-store-shanghai
-  title: "アニメガールズプロジェクトストア（上海）グランドオープン"
-  brand: godo
-  kind: 公式
-  event_start: "2026-09-22"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-09-08"
-  source: "imasnews765.com（アイドルマスター情報まとめ）／アイドルマスター公式ポータル news/01_19895"
-  facts: |
-    内容: アイドルマスター・バンドリ！・ラブライブ！の3大シリーズが集結する新業態「アニメガールズプロジェクトストア（AGP Store）」、アニメイト上海運営
-    開業日: 2026年9月22日（火）
-    会場: 上海市南京東路340号「百聯ZX創趣場」L4
-    オープンにあわせオリジナル新商品を9/22より発売予定（数量限定・購入制限あり）
-    詳細な取扱商品・アイドルマスター側の展開内容は続報待ち
-  publish_plan:
-    - on: "2026-09-21"
-      angle: "明日上海グランドオープン予告"
-    - on: "2026-09-22"
-      angle: "本日上海グランドオープン"
-  used_in:
-    - godo-agpstore-shanghai-tomorrow  # 9/21配信「明日グランドオープン予告」
-    - godo-agpstore-shanghai-buzz  # 9/21配信「オープンに海外ファンから期待の声（ファン話題）」
-    - godo-agpstore-shanghai-today  # 9/22配信「本日上海グランドオープン」
-  status: done
-  notes: "詳細な取扱ブランド・商品ラインナップは続報待ち、要追検証。【9/19判明】会場住所（百聯ZX創趣場L4）・運営元（アニメイト上海）を確認、AGPオリジナルグッズ展開・他店舗への将来展開方針にも言及あり（idolmaster-official.jp/news/01_19895）。本日上海グランドオープン（9/22配信）まで全publish_plan消化済み。取扱商品の詳細が判明したら新規エントリで追加記事化する。"
-
-- id: other-tours-s1ex
-  title: "アイドルマスター TOURS「S1弾Ex」アップデート"
-  brand: other
-  kind: 公式
-  event_start: "2026-09-17"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-09-02"
-  source: "TOURS公式ティザーPV（YouTube）／アイドルマスター公式ポータル news/01_19544"
-  facts: |
-    内容: アーケード「アイドルマスター TOURS」（765プロ・シンデレラガールズ・ミリオンライブ・学園アイドルマスター等ブランド横断キャスト）の新弾アップデート「S1弾Ex」
-    追加キャラクター: 周防桃子（ミリオンライブ）
-    実装日: 2026年9月17日（木）
-    新曲カード「ローリング△さんかく」（周防桃子ソロ曲、本作初収録）、「S1弾ツアーズレア」として全28種の描き下ろしイラストカードを配信（SSRサポートカード「our summer continues」、新衣装「サマーティースタイル」、新アクセサリー「ドリルアーム」等）
-    ログインキャンペーン: 「ツアーズレアS1弾リリースキャンペーン」9月17日〜10月28日、5日間ログインでツアーズレアチケット最大1,000枚
-  publish_plan:
-    - on: "2026-09-16"
-      angle: "明日実装予告"
-    - on: "2026-09-17"
-      angle: "本日実装"
-  used_in:
-    - other-tours-s1ex-speculation  # 9/4配信「実装日巡りファンが考察合戦（ファン話題）」
-    - other-tours-s1ex-implementation-date  # 9/15配信「実装日9/17確定・周防桃子参戦判明」
-    - other-tours-s1ex-details  # 9/16配信「明日実装予告・詳細判明（28種カード・新衣装・ログインキャンペーン）」
-    - other-tours-s1ex-today  # 9/17配信「本日実装」
-    - ml-tours-s1ex-buzz  # 9/18配信「昨日実装・周防桃子初参戦にファン歓迎の声（ファン話題）」
-  status: done
-  notes: "実装日（9/17）・追加キャラクター周防桃子・新曲カード判明（9/15配信）。明日実装予告・詳細判明（9/16配信）・本日実装（9/17配信）まで全publish_plan消化済み。9/18配信でファン反響を追加記事化。"
-
-- id: godo-sidem-sc-sparkle-showdown
-  title: "THE IDOLM@STER SideM × SHINY COLORS SPARKLE SHOWDOWN"
-  brand: godo
-  kind: 公式
-  event_start: "2027-06-05"
-  event_end: "2027-06-06"
-  status: pending
-  confidence: confirmed
-  added: "2026-09-13"
-  source: "アイドルマスター公式ポータル news/01_19789／電ファミニコゲーマー（2026年9月12日）／同ポータル live_event/sidem_shinycolors_ss/cast"
-  facts: |
-    名称: THE IDOLM@STER SideM × SHINY COLORS SPARKLE SHOWDOWN（SideMとシャイニーカラーズ初の合同対バンライブ）
-    日程: 2027年6月5日（土）・6日（日）
-    会場: 横浜アリーナ
-    開場/開演: 両日とも16:00/17:30（予定）
-    コンセプト: 315プロダクションと283プロダクションが激突する対バン形式
-    出演DAY1（計9ユニット）: SideM側5ユニット（W、FRAME、High×Joker、神速一魂、C.FIRST、計12名）×シャニマス側4ユニット（放課後クライマックスガールズ、アルストロメリア、シーズ、コメティック、計11名）
-    出演DAY2（計9ユニット、DAY1と異なる編成）: SideM側5ユニット（Altessimo、Café Parade、S.E.M、F-LAGS、Legenders、計15名）×シャニマス側4ユニット（イルミネーションスターズ、アンティーカ、ストレイライト、ノクチル、計15名）
-    チケット: 一般指定席13,500円、プロデューサーシート（各プロダクションエリア指定）14,000円、SPプロデューサーシート（アリーナエリア＋限定グッズ）20,000円（いずれも税込）
-    プレミアム会員先行受付: 2026年9月12日21:00〜10月12日23:59（ASOBI STOREプレミアム12ヶ月会員限定）
-    発表経緯: SideM 11th STAGE DAY1（9/12）の本編最後に発表
-  publish_plan:
-    - on: "2026-10-12"
-      angle: "プレミアム会員先行、本日23:59締切"
-    - on: "2027-06-04"
-      angle: "明日開幕予告"
-    - on: "2027-06-05"
-      angle: "本日開幕・DAY1"
-    - on: "2027-06-06"
-      angle: "本日千秋楽"
-  used_in:
-    - godo-sidem-sc-sparkle-showdown-announce  # 9/13配信「新発表・本日21:00プレミアム会員先行受付開始」
-    - godo-sidem-sc-sparkle-showdown-buzz  # 9/13配信「発表にファン熱狂（ファン話題）」
-  notes: "出演ユニット名は発表当日（9/12）に公式サイトCASTページで判明済み（9/13事実確認で追記）。配信チケット情報は続報待ち、要追検証。"
-
-- id: cg-yurakucho-marui-popup
-  title: "シンデレラガールズPOP UP SHOP（有楽町マルイ、京まふ事後物販）"
-  brand: cg
-  kind: 公式
-  event_start: "2026-09-26"
-  event_end: "2026-10-14"
-  status: partially-used
-  confidence: unconfirmed
-  added: "2026-09-27"
-  source: "the-chara.com（2026年9月）／collabo-cafe.com"
-  facts: |
-    会場: 有楽町マルイ7F
-    開催期間: 2026年9月26日(土)〜10月14日(水)
-    内容: 京都国際マンガ・アニメフェア2026（京まふ）で販売した商品の再販＋新規描き下ろしグッズ。税込3,000円以上購入で特典ブロマイド配布、特大アクリルフィギュア抽選会
-    初日は来場者集中が見込まれ入場制限あり
-  publish_plan:
-    - on: "2026-10-14"
-      angle: "本日最終日"
-  used_in:
-    - cg-yurakucho-marui-popup  # 9/27配信「本日開催中」
-  notes: "公式ポータル（idolmaster-official.jp）での一次ソースは未特定、the-chara.com・collabo-cafe.com経由で確認したためconfidence: unconfirmedとして登録。可能なら公式発表で追検証。最終日（10/14）が未消化。"
-
-- id: cg-yamanashi-walkwander
-  title: "シンデレラガールズ×山梨「やまなし WALK & WANDER」"
-  brand: cg
-  kind: 公式
-  event_start: "2026-11-21"
-  event_end: "2026-12-27"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-08-30"
-  source: "アイドルマスター公式ポータル news/01_19733／PR TIMES／ファミ通"
-  facts: |
-    エリア: 山梨県「甲府＆石和」「勝沼」の2エリア
-    開催期間: 2026年11月21日（土）〜12月27日（日）
-    内容: JR甲府駅・石和温泉駅・勝沼ぶどう郷駅周辺の計7拠点を巡る無料デジタルスタンプラリー、タニタ製コラボ歩数計と連動した「ウォークチャレンジ」、コラボフード・グッズ
-    コラボ歩数計: タニタ製、全10種デザイン、各4,000円。予約受付は8月28日13:00〜9月9日
-  publish_plan:
-    - on: "2026-11-20"
-      angle: "明日開幕予告"
-    - on: "2026-11-21"
-      angle: "本日開幕"
-    - on: "2026-12-27"
-      angle: "本日最終日"
-  used_in:
-    - cg-yamanashi-walkwander-preorder  # 8/30配信「コラボ歩数計、予約受付中」
-    - cg-yamanashi-walkwander-preorder-deadline  # 9/9配信「コラボ歩数計、本日23:59締切」
-  notes: "コラボ歩数計の予約締切（9/9）消化済み。コラボフード・グッズの詳細は開催が近づいてから要追検証。"
-
-- id: cg-rose-tea-parlor-cafe
-  title: "シンデレラガールズ×Rose Tea Parlor コラボカフェ"
-  brand: cg
-  kind: 公式
-  event_start: "2026-10-01"
-  event_end: "2026-12-27"
-  status: pending
-  confidence: confirmed
-  added: "2026-09-14"
-  source: "アイドルマスター公式ポータル news/01_19811（2026年9月4日発表）"
-  facts: |
-    テーマ: 「Rose Tea Parlor」「Crescent Princess」の新規描き下ろしイラスト・グッズ、コラボメニュー
-    会場・会期: 名古屋栄店 10月1日(木)〜10月5日(月)／心斎橋店 10月28日(水)〜11月4日(水)／池袋店 11月19日(木)〜11月26日(木)／ソウル ホンデ店 12月10日(木)〜12月27日(日)
-    予約開始: 9月7日(月)19:00〜、公式HPにて
-    対象アイドル・メニュー詳細は続報待ち
-  publish_plan:
-    - on: "2026-09-30"
-      angle: "明日名古屋栄店開幕予告"
-    - on: "2026-10-01"
-      angle: "本日名古屋栄店開幕"
-    - on: "2026-10-27"
-      angle: "明日心斎橋店開幕予告"
-    - on: "2026-10-28"
-      angle: "本日心斎橋店開幕"
-    - on: "2026-11-18"
-      angle: "明日池袋店開幕予告"
-    - on: "2026-11-19"
-      angle: "本日池袋店開幕"
-    - on: "2026-12-27"
-      angle: "本日ソウル ホンデ店最終日・全会場完走"
+    - on: "振替日決定日（未定）"
+      angle: "振替日程決定・速報"
   used_in: []
-  notes: "4会場（名古屋・心斎橋・池袋・ソウル）を順に巡回する形式。対象アイドル・メニュー・グッズの詳細は開催が近づいてから要追検証。"
-#
-# ── 非公式・ファン企画枠のテンプレート（kind: ファン）──────────────
-# 応援広告・誕生日センター広告・有志オフ等は、主催者の公開告知をもとに保留し、
-# 掲出/開催の前日に「明日掲出予告」、当日に「本日掲出」で記事化する。リークは扱わない。
-# - id: fan-ad-EXAMPLE
-#   title: "〇〇 生誕祭 応援広告（△△駅）"
-#   brand: other            # 内容に応じて。横断的なら other
-#   kind: ファン
-#   event_start: "2026-MM-DD"   # 掲出開始日
-#   event_end: "2026-MM-DD"     # 掲出終了日
-#   status: pending
-#   confidence: confirmed       # 主催者が公に告知済みなら confirmed
-#   added: "2026-06-06"
-#   source: "主催者の公開告知（募集ツイート・特設ページ等）"
-#   facts: |
-#     場所: △△駅 ...
-#     掲出期間: ...
-#     主催: ...
-#   publish_plan:
-#     - on: "前日"  angle: "明日掲出予告"
-#     - on: "当日"  angle: "本日掲出"
-#   used_in: []
-#   notes: ""
-# ──────────────────────────────────────────────
-
-# 【誤情報につき削除・2026-08-24 事実確認】
-# 「シャニアニ 2nd season 劇場先行上映」を 2026年（第1章7/5・第2章8/23・第3章9/20）の
-# 予定として一度ここに登録しかけたが、事実確認の結果これは 2024年 の実施済みイベント
-# （2024/7/5・8/23・9/20 いずれも金曜、全国約70館）であり、2026年に同名の劇場先行上映が
-# 行われる事実は確認できなかった。ソースとして挙げた eigakan.org?t=shinycolorsanime6 も
-# 2024年の第3章ページである。2026年の劇場上映として再度記録しないこと。
-
-- id: sc-futamasu-fukuroi
-  title: "静岡県袋井市「ふたマス!!!!!!」有栖川夏葉マンホール設置"
-  brand: sc
-  kind: 公式
-  status: watching
-  confidence: confirmed
-  added: "2026-08-24"
-  source: "袋井市公式サイト（city.fukuroi.shizuoka.jp/soshiki/brand/brandkakari/oshikatu/14714.html）"
-  facts: |
-    プロジェクト名: ふたマス!!!!!!（アイマス20周年記念マンホール企画「GO ON the VOY@GE」の一環）
-    担当地域: 静岡県袋井市
-    担当アイドル: 有栖川夏葉（シャイニーカラーズ）
-    設置場所: 静岡県袋井市愛野南1丁目28（愛のクラウンメロンオブジェ前）
-    デザイン: 有栖川夏葉と袋井市ゆかりのモチーフを組み合わせる予定、図柄は未公開
-    設置時期: 2026年度中（詳細日程未発表）
-  publish_plan:
-    - on: "設置お披露目日決定後（未定）"
-      angle: "明日設置お披露目予告"
-    - on: "設置お披露目当日（未定）"
-      angle: "本日設置お披露目"
-  used_in:
-    - sc-futamasu-fukuroi-arisugawa  # 8/24配信「新パートナー決定」
-  notes: "設置お披露目の具体的日程は続報待ち、要追検証。"
-
-- id: godo-765x961-ultimate-live
-  title: "765 PRODUCTION × 961 PRODUCTION IDOL ULTIMATE ONCE AND FOR ALL"
-  brand: godo
-  kind: 公式
-  event_start: "2027-07-24"
-  event_end: "2027-07-25"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-07-27"
-  source: "電ファミニコゲーマー（2026年7月26日・9月6日）／アイドルマスター公式ポータル news/01_19816（2026年9月6日12:00）"
-  facts: |
-    名称: 765 PRODUCTION × 961 PRODUCTION IDOL ULTIMATE ONCE AND FOR ALL
-    発表: IWSF2026 DAY3（20周年イヤーフィナーレ）公演の最後に発表
-    日程: 2027年7月24日（土）・25日（日）、全3公演
-    会場: 京王アリーナTOKYO
-    形式: xRライブ
-    コンセプト: 「今、"アイドル"―理想―が激突する」。765プロと961プロの対立構図を描いたPVを公開
-    【9/6判明】公式サイトオープン・出演アイドル判明: 第一公演「TO:STARLIT OF PROMISE」星井美希・四条貴音・我那覇響・奥空心白・玲音・詩花・亜夜ほか／第二公演「BE:STELLA OF ABSOLUTE」如月千早・高槻やよい・秋月律子・三浦あずさ・水瀬伊織・菊地真・双海亜美・双海真美・玲音・詩花の計10名／第三公演「IF:THE DAY OF JUDGMENT」天海春香・如月千早・萩原雪歩・星井美希・四条貴音・我那覇響・天ヶ瀬冬馬・伊集院北斗・御手洗翔太
-    チケット: 「765プロダクションシート」「961プロダクションシート」に分かれて販売。先行受付9月6日12:00〜10月28日23:59、当落発表11月16日13:00、入金期間11月16日〜23日
-    ドレスコード: 来場時に「所属プロダクションを表すアイテム」の着用を呼びかけ
-  publish_plan:
-    - on: "2026-09-06"
-      angle: "公演詳細発表・チケット先行受付開始"
-    - on: "2027-07-23"
-      angle: "明日開幕予告"
-    - on: "2027-07-24"
-      angle: "本日開幕・DAY1"
-    - on: "2027-07-25"
-      angle: "本日千秋楽"
-  used_in:
-    - godo-765x961-ultimate-live-announce  # 7/27配信「新ライブ発表」
-    - godo-765x961-fan-buzz  # 8/25配信「告知PVの演出がファンの間で考察に（ファン話題）」
-    - godo-765x961-ultimate-live-tickets  # 9/7配信「公演詳細発表・チケット先行受付開始」
-    - godo-765x961-ultimate-live-buzz  # 9/7配信「ドレスコード呼びかけにファン反応（ファン話題）」
-  notes: "公式サイトオープン・出演アイドル・チケット情報判明（9/6配信で記事化済み）。当落発表（11/16）以降、開幕予告・千秋楽が未消化。【9/13判明・断片情報】SideM 11th STAGE DAY2アンコールで本企画に言及があり、「961時代のJupiter」の映像に会場から歓声が上がったとファミ通が報道（具体的な出演確定発表ではない点に注意、単独記事化は見送り）。"
-
-- id: cg-15th-anniversary-live
-  title: "シンデレラガールズ15周年記念イベント（Kアリーナ横浜）"
-  brand: cg
-  kind: 公式
-  event_start: "2026-11-28"
-  event_end: "2026-11-29"
-  status: pending
-  confidence: confirmed
-  added: "2026-07-17"
-  source: "アイドルマスター シンデレラガールズ【ブランド公式】X告知 / ファミ通（2025年9月7日、famitsu.com/article/202509/51727）"
-  facts: |
-    名称: シンデレラガールズ15周年記念イベント（詳細タイトル未発表）
-    会場: Kアリーナ横浜
-    日程: 2026年11月28日（土）・29日（日）、15周年当日＆翌日の開催
-    位置づけ: 総選挙2026（8/3投票開始〜9/18）の結果発表後に控える15周年本編ライブと見られる
-    関連発表: ソロ楽曲全98曲収録のCD-BOX「FIRST SONG COLLECTION」が11月28日発売予定／2026年春にフルサイズ楽曲のサブスク追加配信も予定（いずれもファミ通2025年9月7日記事で言及）
-    【8/2生配信「CG総選挙ST@TION」で解禁】DAY1: LOVE-Party・CHILL-Party各12名、DAY2: FABULOUS-Party13名・MIRACLE-Party12名の4グループ編成、出演声優は両日で約49名。生バンド「Cinderella Band」も出演予定
-    【出演声優 第一弾判明（8/2付・8/4配信で記事化）】DAY1メインキャスト: 大橋彩香（島村卯月役）・藍原ことみ（一ノ瀬志希役）・小森結梨（古賀小春役）・種﨑敦美（五十嵐響子役）ほか計12名、CHILL-Party: 天野聡美・五十嵐裕美・大坪由佳ほか計12名、特別ゲスト: 武内駿輔・米内佑希（プロデューサー役）。DAY2メインキャスト: 福原綾香（渋谷凛役）・関口理咲（白雪千夜役）ほか計13名、MIRACLE-Party: 会沢紗弥・安齋由香里ほか計12名、特別ゲスト: 佐藤利奈（千川ちひろ役）・たくみ靖明（プロデューサー役）
-    チケット等の詳細は追って発表予定
-  publish_plan:
-    - on: "2026-11-27"
-      angle: "明日開幕予告"
-    - on: "2026-11-28"
-      angle: "本日開幕・DAY1"
-    - on: "2026-11-29"
-      angle: "本日千秋楽・15周年本編完走"
-  used_in:
-    - cg-15th-anniversary-cast-reveal  # 8/4配信「出演声優の第一弾が判明（更新あり）」
-    - cg-15th-anniversary-ticket-reception  # 8/16配信「アソビストアプレミアム会員先行抽選受付中・当落発表9/5」
-    - cg-15th-anniversary-ticket-deadline  # 8/23配信「最速先行抽選、本日23:59締切」
-    - cg-15th-anniversary-ticket-result  # 9/5配信「本日13:00最速先行抽選の当落発表」
-  status: partially-used
-  notes: "事実確認（PR#62レビュー）でsourceの年表記の誤り（ファミ通の掲載は2026年9月ではなく2025年9月）を修正。イベント名称は「for your ONE」（総選挙結果発表後に控える15周年本編ライブ）。チケットはアソビストアプレミアム会員最速先行抽選（8/2 16:00〜8/23 23:59、一般受付ではない）、価格帯はSPラウンジ席81,500円・バルコニー席18,500円・一般席/着席指定席15,500円、当落発表9/5 13:00（8/16配信で記事化。事実確認によりプレミアム席21,000円→SPラウンジ席81,500円、一般受付→会員先行抽選に訂正）。当落発表・入金期間開始（9/9締切）を9/5配信で記事化済み。総選挙2026の結果発表時期・出演者フル一覧・一般発売の有無など要追検証。"
-
-- id: cg-aichi-nagoya-collab
-  title: "「旅ろっ！愛知」×シンデレラガールズ コラボイベント"
-  brand: cg
-  kind: 公式
-  event_start: "2026-08-01"
-  event_end: "2027-03-31"
-  status: done
-  confidence: confirmed
-  added: "2026-07-12"
-  source: "アイドルマスター公式ポータル news/01_19336（2026年7月10日）/ 特設サイト aichi-platform.com/aichiticket-2026"
-  facts: |
-    名称: 「愛知・名古屋を食べ尽くそう！遊び尽くそう！」
-    開催期間: 2026年8月1日（土）〜2027年3月31日（水）
-    内容: あいちパックンチケット（県内土産・飲食店で利用可）販売／対象商品購入・体験でオリジナルコラボステッカー（全6種）進呈／平日限定のコラボデザイン あいち・なごや周遊観光パスポート販売
-  publish_plan:
-    - on: "2026-07-31"
-      angle: "明日開始予告"
-    - on: "2026-08-01"
-      angle: "本日開始"
-  used_in:
-    - cg-aichi-nagoya-collab-details  # 7/12配信「詳細解禁」
-    - cg-aichi-nagoya-tomorrow  # 7/31配信「明日開始予告」
-    - cg-aichi-nagoya-today  # 8/1配信「本日開始」
-  notes: "全publish_plan消化済み。2027年3月末までの長期開催のため、大きな進展があれば新規エントリとして追記する。"
+  notes: "振替日程が発表されたら speed に記事化し、facts・publish_planを更新する。"
 
 - id: sc-refrac7ions-chibi-goods
   title: "シャニマス「PJ: REFRAC7IONS」ちびぐるみ（ナムコオンラインクレーン／店舗展開）"
@@ -877,41 +48,129 @@
     - sc-refrac7ions-vol56-crane  # 7/24配信「本日Vol.5・6先行プレイ開始」
   notes: "オンラインクレーン先行プレイは全Vol消化済み。実店舗展開開始（11月以降、正確な開始日は近づいたら要再確認）のみ未消化。"
 
-- id: cg-gatamas-niigata-sado
-  title: "シンデレラガールズ×新潟市・佐渡市コラボ「がたます」"
+- id: cg-achi-village-collab
+  title: "シンデレラガールズ×長野県阿智村「Star Village ACHI」コラボレーション2026"
   brand: cg
   kind: 公式
-  event_start: "2026-08-11"
-  event_end: "2026-10-31"
+  event_start: "2026-07-18"
+  event_end: "2026-09-23"
   status: partially-used
   confidence: confirmed
-  added: "2026-06-16"
-  source: "アイドルマスター公式ポータル news/01_19393（2026年7月17日18:10）/ 新潟市公式 / 電撃オンライン（2026年6月15日）"
+  added: "2026-07-19"
+  source: "GAME Watch（game.watch.impress.co.jp/docs/news/2124547.html） / アイドルマスター公式ポータル news/01_18971・01_19356"
   facts: |
-    名称: がたます（新潟市・佐渡市×シンデレラガールズ コラボ）
-    開催期間: 2026年8月11日（火・祝）〜10月31日（土）
-    エリア: 新潟市・佐渡市
-    参加アイドル: 計8名（江上椿・片桐早苗・渋谷凛・砂塚あきら・辻野あかり・三船美優・夢見りあむ・依田芳乃）。新潟出身の砂塚あきらが顔として起用
-    デジタルスタンプラリー: 参加無料、全40箇所（新潟市内30・佐渡市内10）
-    フォトスポット・パネル: 万代シテイバスセンター(10番線)にフォトスポット、Befcoばかうけ展望室に描き下ろしパネル、スタンプラリースポットのうち27箇所にコラボパネル(大・小)
-    ノベルティ: 対象メニュー購入でコラボコースター（全11種ランダム、なくなり次第終了）
-    コラボカード: 新潟市内14箇所で条件達成時にランダム配布（全20種）
-    PRボイス: 砂塚あきら（CV：富田美憂）のPRボイスを新潟市内・万代シテイのビジョン6箇所（8/11〜10/10）や佐渡汽船カーフェリー船内（8/11〜10/31）で使用。秋葉原・名古屋のサイネージでも展開
-    総選挙2026チェックイン: 8月11日〜9月14日、新潟市内「萬代橋」がスポットチェックインに追加
-    主催: 新潟市（共催: 佐渡市、企画・運営: 名鉄観光サービス）
-    コラボグッズ: 販売内容は後日公開予定
+    名称: 「アイドルマスター シンデレラガールズ」× Star Village ACHI コラボレーション2026
+    会場: 長野県阿智村 富士見台高原ロープウェイ「ヘブンスそのはら」
+    開催期間: 2026年7月18日（土）〜9月23日（水・祝）
+    内容: アナスタシアによる「夏の星座解説」（屋外会場、毎日20:40〜21:00、無料・天候により変更あり）、山頂NorthBase建物内の等身大パネル展示、来場者への山頂受付でのポストカード配布
+    コラボカフェ: ACHI BASEで営業（アナスタシア・神崎蘭子・高峯のあ・新田美波・前川みくのキャラクターメニュー）
+    グッズ: アクリルカード・缶バッジ・クリアファイル・キーホルダー・ステッカー・パズル・アクリルスタンド・タオルなど20種以上
+    参加キャラクター: アナスタシア・神崎蘭子・高峯のあ・新田美波・前川みく
   publish_plan:
-    - on: "2026-08-10"
-      angle: "明日開幕予告（詳細まとめ）"
-    - on: "2026-08-11"
-      angle: "本日開幕"
+    - on: "2026-09-22"
+      angle: "明日最終日予告"
+    - on: "2026-09-23"
+      angle: "本日最終日"
   used_in:
-    - cg-gatamas-niigata-sado  # 6/16配信「開催決定」
-    - cg-gatamas-niigata-sado-details  # 7/21配信「詳細判明」
-    - cg-gatamas-niigata-sado-tomorrow  # 8/10配信「明日開幕予告（詳細まとめ）」
-    - cg-gatamas-niigata-sado-today  # 8/11配信「本日開幕」
+    - cg-achi-village-collab  # 7/19配信「昨日開幕」
+    - cg-achi-village-collab-tomorrow  # 9/22配信「明日最終日予告」
+    - cg-achi-village-today  # 9/23配信「本日最終日」
   status: done
-  notes: "全publish_plan消化済み。コラボグッズ販売内容は後日公開予定、判明次第新規エントリとして追記する。"
+  notes: "「日本一の星空」で知られる阿智村での開催。本日最終日（9/23配信）まで全publish_plan消化済み。"
+
+- id: cg-onestep-yogurt-collab
+  title: "ワンステップス×「& Yogurt」コラボ"
+  brand: cg
+  kind: 公式
+  event_start: "2026-07-19"
+  event_end: "2026-09-23"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-07-02"
+  source: "AKB48Group新聞 akb48trainee.com（2026年7月1日）"
+  facts: |
+    ユニット: ワンステップス（白菊ほたる・関裕美・森久保乃々）
+    会場: "& Yogurt" 横浜店・大宮店（2店舗限定）
+    開催期間: 2026年7月19日（日）〜9月23日（水・祝）
+    内容: コラボメニュー・限定グッズ・SNSフォトコンテスト（詳細は追って発表）
+  publish_plan:
+    - on: "2026-07-18"
+      angle: "明日開催予告（グッズ詳細判明していれば）"
+    - on: "2026-07-19"
+      angle: "本日開催"
+  used_in:
+    - cg-onestep-yogurt-collab  # 7/2配信「コラボ決定」
+    - cg-onestep-yogurt-tomorrow  # 7/18配信「明日開催予告」
+    - cg-onestep-yogurt-today  # 7/19配信「本日開催」
+    - cg-onestep-yogurt-final  # 9/23配信「本日最終日」
+  status: done
+  notes: "商品ラインナップ詳細は未取得のまま。開催終了日（9/23）まで消化済み。"
+
+- id: sc-megashaki-collab-vol7
+  title: "シャニマス×メガシャキ 7年目コラボキャンペーン"
+  brand: sc
+  kind: 公式
+  event_start: "2026-07-21"
+  event_end: "2026-10-21"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-07-22"
+  source: "ハウス食品/アイドルマスター公式ポータル news/01_19314（2026年7月21日）"
+  facts: |
+    アンバサダー: 田中摩美々・黛冬優子・斑鳩ルカ（継続）＋西城樹里・樋口円香（新加入、計5名）
+    開催期間: 2026年7月21日〜10月21日
+    第1期プレゼント企画: 7/21〜8/31、法被・ネックストラップ等各50名（外れても壁紙全12種）
+    Xリポストキャンペーン: 7/27〜8/7、@housefoods_nowフォロー＆リポストで抽選100名に500円分QUOカードPay
+    その他: ゲーム内ログインボーナス（7/31〜8/31）でメガシャキ関連アイテム配布
+  publish_plan:
+    - on: "2026-08-07"
+      angle: "Xリポストキャンペーン最終日"
+    - on: "2026-08-31"
+      angle: "第1期プレゼント企画・ログインボーナス最終日"
+    - on: "2026-09-04"
+      angle: "第2期プレゼント企画スタート"
+    - on: "2026-10-21"
+      angle: "本日コラボ終了"
+  used_in:
+    - sc-megashaki-collab-vol7  # 7/22配信「7年目コラボ開始」
+    - sc-megashaki-x-campaign  # 7/28配信「Xリポストキャンペーン、昨日開始」
+    - sc-megashaki-x-campaign-end  # 8/7配信「Xリポストキャンペーン、本日14:59終了」
+    - sc-megashaki-collab-vol7-phase2  # 8/25配信「第2期プレゼント企画の詳細判明」
+    - sc-megashaki-phase1-end  # 8/31配信「第1期プレゼント企画・ログインボーナス、本日最終日」
+    - sc-megashaki-phase2-start  # 9/4配信「第2期プレゼント企画、本日スタート」
+  facts: |
+    アンバサダー: 田中摩美々・黛冬優子・斑鳩ルカ（継続）＋西城樹里・樋口円香（新加入、計5名）
+    開催期間: 2026年7月21日〜10月21日
+    第1期プレゼント企画: 7/21〜8/31、法被・ネックストラップ等各50名（外れても壁紙全12種）
+    Xリポストキャンペーン: 7/27〜8/7、@housefoods_nowフォロー＆リポストで抽選100名に500円分QUOカードPay
+    第2期プレゼント企画: 9/4開始、新規描き下ろしビジュアルを使用したクリアファイル・缶バッジ等を抽選でプレゼント
+    その他: ゲーム内ログインボーナス（7/31〜8/31）でメガシャキ関連アイテム配布
+  notes: "第2期プレゼント企画の詳細判明（8/25配信）、本日9/4スタート（9/4配信で記事化）。コラボ終了（10/21）が未消化。"
+
+- id: cg-aichi-nagoya-collab
+  title: "「旅ろっ！愛知」×シンデレラガールズ コラボイベント"
+  brand: cg
+  kind: 公式
+  event_start: "2026-08-01"
+  event_end: "2027-03-31"
+  status: done
+  confidence: confirmed
+  added: "2026-07-12"
+  source: "アイドルマスター公式ポータル news/01_19336（2026年7月10日）/ 特設サイト aichi-platform.com/aichiticket-2026"
+  facts: |
+    名称: 「愛知・名古屋を食べ尽くそう！遊び尽くそう！」
+    開催期間: 2026年8月1日（土）〜2027年3月31日（水）
+    内容: あいちパックンチケット（県内土産・飲食店で利用可）販売／対象商品購入・体験でオリジナルコラボステッカー（全6種）進呈／平日限定のコラボデザイン あいち・なごや周遊観光パスポート販売
+  publish_plan:
+    - on: "2026-07-31"
+      angle: "明日開始予告"
+    - on: "2026-08-01"
+      angle: "本日開始"
+  used_in:
+    - cg-aichi-nagoya-collab-details  # 7/12配信「詳細解禁」
+    - cg-aichi-nagoya-tomorrow  # 7/31配信「明日開始予告」
+    - cg-aichi-nagoya-today  # 8/1配信「本日開始」
+  notes: "全publish_plan消化済み。2027年3月末までの長期開催のため、大きな進展があれば新規エントリとして追記する。"
 
 - id: cg-sousenkyo-2026-vote
   title: "シンデレラガール総選挙2026 投票フェーズ（15周年）"
@@ -969,183 +228,6 @@
     - cg-sousenkyo-2026-final-day-buzz  # 9/18配信「投票最終日にファンが最後の追い込み（ファン話題）」
   notes: "投票券ミッションは7/1配信で記事化済み。中間発表・結果発表日が未確定。日程が出たら on を絶対日付に更新すること。チェックインスポットは順次追加されるため、新規追加店舗が判明次第「更新あり」で継続記事化する。スポットチェックインミッションで7/1 12:00〜7/9 18:15に重複チェックインによる投票券の複数回獲得が発生し、7/22に是正済み（7/28配信・事実確認済み）。応援楽曲は第1弾「シンデレラNo.1」、第2弾「ROSE ～禁じられた愛～」（7/1発売）に続き、第3弾「だいすきのブーケ」（佐久間まゆ・五十嵐響子・相葉夕美、作詞:磯谷佳江／作曲編曲:賀佐泰洋）のMVが7/29 21:00公開予定（別途cg-daisukinobouquetエントリで管理）。投票フェーズは8/3正午に開始済み（8/3配信で記事化）。8/2の生配信「CG総選挙ST@TION」で15周年記念イベント（11/28-29 Kアリーナ横浜）の詳細（DAY1 LOVE/CHILL・DAY2 FABULOUS/MIRACLEの4グループ編成、出演声優約49名、生バンドCinderella Band出演）が解禁され、cg-15th-anniversary-liveのfactsを更新。総選挙公式グッズ（190人描き下ろしカードフォリオVol.4-6）が8/2 16:00より受注開始（〜9/13）。投票終盤を盛り上げる「投票クライマックス」特別展示が9月12日・13日に開催決定、会場は「PickUpランキン 渋谷ちかみち」（渋谷駅B2階、入場無料、10:00〜21:00）、190人紹介動画・出馬風ポスタービジュアルで装飾、チェックインで投票券10枚獲得可（9/9配信で記事化、会場詳細は事実確認済み）。総選挙グッズ「真纏麗羅武闘服」190名分描き下ろしビジュアルグッズ・Memory Pict.第6弾（小日向美穂・依田芳乃）の受注が9/13 23:59締切（9/14配信で記事化）。投票券獲得ミッションチャレンジ（7/1〜9/14 23:59）は本日締切（9/14配信で記事化）。投票締切まで残り3日（9/15配信で記事化）、残り1日（9/17配信で記事化）、本日23:59締切（9/18配信で記事化）。中間発表は行われなかった。結果発表の日程は続報待ち、判明次第 on を絶対日付に更新すること。"
 
-- id: ml-10thlive-2027
-  title: "ミリシタ10thLIVE"
-  brand: ml
-  kind: 公式
-  event_start: "2027-06-26"
-  event_end: "2027-06-27"
-  status: pending
-  confidence: confirmed
-  added: "2026-09-21"
-  source: "ファミ通（2026年9月20日、article/202609/88752）"
-  facts: |
-    内容: 「ミリオンライブ！シアターデイズ（ミリシタ）」10周年記念ライブ
-    日程: 2027年6月26日（土）・27日（日）
-    会場: Kアリーナ横浜
-    出演: 765 MILLIONSTARS
-    発表経緯: 14thLIVE DAY2（9/20）の会場で発表
-    公演タイトル・出演者詳細・チケット情報は続報待ち
-  publish_plan:
-    - on: "2027-06-25"
-      angle: "明日開幕予告"
-    - on: "2027-06-26"
-      angle: "本日開幕・DAY1"
-    - on: "2027-06-27"
-      angle: "本日千秋楽"
-  used_in:
-    - ml-10thlive-announce  # 9/21配信「新発表」
-  notes: "公演タイトル・出演者詳細の内訳・チケット情報は続報待ち、要追検証。"
-
-- id: ml-14thlive-commentary-viewing
-  title: "14thLIVE DAY2 主演声優コメンタリー付き同時視聴上映会"
-  brand: ml
-  kind: 公式
-  event_start: "2026-09-23"
-  status: pending
-  confidence: confirmed
-  added: "2026-09-21"
-  source: "アイドルマスター公式ポータル news/01_19883"
-  facts: |
-    内容: 14thLIVE DAY2本編映像を、主演声優の生出演コメンタリー付きで同時視聴
-    出演: 高橋ミナミ（馬場このみ役）・山口立花子（百瀬莉緒役）
-    開催日時: 2026年9月23日（水・祝）12:00〜
-    視聴方法・チケット購入者限定かどうかは続報待ち
-  publish_plan:
-    - on: "2026-09-22"
-      angle: "明日開催予告"
-    - on: "2026-09-23"
-      angle: "本日開催"
-  used_in:
-    - ml-14thlive-commentary-viewing-announce  # 9/21配信「新発表」
-    - ml-14thlive-commentary-viewing-tomorrow  # 9/22配信「明日開催予告」
-    - ml-14thlive-day1-commentary  # 9/23配信「DAY1（諏訪彩花・郁原ゆう）、昨日開催」
-    - ml-14thlive-day2-commentary-today  # 9/23配信「DAY2（高橋ミナミ・山口立花子）、本日開催」
-  status: done
-  notes: "視聴方法の詳細は続報待ち、要追検証。DAY1（9/22、諏訪彩花さん・郁原ゆうさん）・DAY2（9/23、高橋ミナミさん・山口立花子さん）とも記事化済みで全publish_plan消化済み。"
-
-- id: sc-megashaki-collab-vol7
-  title: "シャニマス×メガシャキ 7年目コラボキャンペーン"
-  brand: sc
-  kind: 公式
-  event_start: "2026-07-21"
-  event_end: "2026-10-21"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-07-22"
-  source: "ハウス食品/アイドルマスター公式ポータル news/01_19314（2026年7月21日）"
-  facts: |
-    アンバサダー: 田中摩美々・黛冬優子・斑鳩ルカ（継続）＋西城樹里・樋口円香（新加入、計5名）
-    開催期間: 2026年7月21日〜10月21日
-    第1期プレゼント企画: 7/21〜8/31、法被・ネックストラップ等各50名（外れても壁紙全12種）
-    Xリポストキャンペーン: 7/27〜8/7、@housefoods_nowフォロー＆リポストで抽選100名に500円分QUOカードPay
-    その他: ゲーム内ログインボーナス（7/31〜8/31）でメガシャキ関連アイテム配布
-  publish_plan:
-    - on: "2026-08-07"
-      angle: "Xリポストキャンペーン最終日"
-    - on: "2026-08-31"
-      angle: "第1期プレゼント企画・ログインボーナス最終日"
-    - on: "2026-09-04"
-      angle: "第2期プレゼント企画スタート"
-    - on: "2026-10-21"
-      angle: "本日コラボ終了"
-  used_in:
-    - sc-megashaki-collab-vol7  # 7/22配信「7年目コラボ開始」
-    - sc-megashaki-x-campaign  # 7/28配信「Xリポストキャンペーン、昨日開始」
-    - sc-megashaki-x-campaign-end  # 8/7配信「Xリポストキャンペーン、本日14:59終了」
-    - sc-megashaki-collab-vol7-phase2  # 8/25配信「第2期プレゼント企画の詳細判明」
-    - sc-megashaki-phase1-end  # 8/31配信「第1期プレゼント企画・ログインボーナス、本日最終日」
-    - sc-megashaki-phase2-start  # 9/4配信「第2期プレゼント企画、本日スタート」
-  facts: |
-    アンバサダー: 田中摩美々・黛冬優子・斑鳩ルカ（継続）＋西城樹里・樋口円香（新加入、計5名）
-    開催期間: 2026年7月21日〜10月21日
-    第1期プレゼント企画: 7/21〜8/31、法被・ネックストラップ等各50名（外れても壁紙全12種）
-    Xリポストキャンペーン: 7/27〜8/7、@housefoods_nowフォロー＆リポストで抽選100名に500円分QUOカードPay
-    第2期プレゼント企画: 9/4開始、新規描き下ろしビジュアルを使用したクリアファイル・缶バッジ等を抽選でプレゼント
-    その他: ゲーム内ログインボーナス（7/31〜8/31）でメガシャキ関連アイテム配布
-  notes: "第2期プレゼント企画の詳細判明（8/25配信）、本日9/4スタート（9/4配信で記事化）。コラボ終了（10/21）が未消化。"
-
-- id: cg-onestep-yogurt-collab
-  title: "ワンステップス×「& Yogurt」コラボ"
-  brand: cg
-  kind: 公式
-  event_start: "2026-07-19"
-  event_end: "2026-09-23"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-07-02"
-  source: "AKB48Group新聞 akb48trainee.com（2026年7月1日）"
-  facts: |
-    ユニット: ワンステップス（白菊ほたる・関裕美・森久保乃々）
-    会場: "& Yogurt" 横浜店・大宮店（2店舗限定）
-    開催期間: 2026年7月19日（日）〜9月23日（水・祝）
-    内容: コラボメニュー・限定グッズ・SNSフォトコンテスト（詳細は追って発表）
-  publish_plan:
-    - on: "2026-07-18"
-      angle: "明日開催予告（グッズ詳細判明していれば）"
-    - on: "2026-07-19"
-      angle: "本日開催"
-  used_in:
-    - cg-onestep-yogurt-collab  # 7/2配信「コラボ決定」
-    - cg-onestep-yogurt-tomorrow  # 7/18配信「明日開催予告」
-    - cg-onestep-yogurt-today  # 7/19配信「本日開催」
-    - cg-onestep-yogurt-final  # 9/23配信「本日最終日」
-  status: done
-  notes: "商品ラインナップ詳細は未取得のまま。開催終了日（9/23）まで消化済み。"
-
-- id: valiv-akari-birthday-live-postponed
-  title: "vα-liv 灯里愛夏バースデーライブ 振替日程"
-  brand: valiv
-  kind: 公式
-  event_start: "2026-07-01"
-  status: watching
-  confidence: unconfirmed
-  added: "2026-07-02"
-  source: "アイドルマスター公式ポータル news/01_19211（2026年6月）"
-  facts: |
-    経緯: 7月1日開催予定の「PROJECT IM@S vα-liv 灯里愛夏 BIRTHDAY ONLINE LIVE 2026」が本人負傷療養のため延期
-    対応: チケット（LV・配信）は全額払い戻し対応中
-    振替日程: 2026年7月2日時点で未発表
-  publish_plan:
-    - on: "振替日決定日（未定）"
-      angle: "振替日程決定・速報"
-  used_in: []
-  notes: "振替日程が発表されたら speed に記事化し、facts・publish_planを更新する。"
-
-- id: sidem-joypolis-collab3
-  title: "アイドルマスター SideM in JOYPOLIS 3"
-  brand: sidem
-  kind: 公式
-  event_start: "2026-09-12"
-  event_end: "2026-12-06"
-  status: pending
-  confidence: confirmed
-  added: "2026-08-31"
-  source: "東京ジョイポリス公式サイト（tokyo-joypolis.com/event/sidem_jp2026）／アニメ！アニメ！（2026年8月30日20:30配信）"
-  facts: |
-    名称: アイドルマスター SideM in JOYPOLIS 3（東京ジョイポリスとのコラボ第3弾）
-    開催期間: 2026年9月12日（土）〜12月6日（日）
-    アンバサダー: 東京ジョイポリス30周年アンバサダーの「High×Joker」「神速一魂」が中心
-    出演ユニット: 315プロダクション全16ユニット（DRAMATIC STARS・彩・Café Parade・THE 虎牙道・Altessimo・Beit・もふもふえん・S.E.M・C.FIRST・Jupiter・W・FRAME・F-LAGS・Legenders・315 ALLSTARS ほか）
-    スペシャルショー: 各ユニットの3Dライブ映像を使用、両アンバサダーユニットのナレーション追加
-    アトラクション: 音ゲーコースター「撃音 ライブ コースター」リニューアル（神速一魂の録り下ろしボイス追加）、「ワイルドリバー ザ・トレジャーハント」でHigh×Jokerボイス使用、占いアトラクション「フォーチュンフォレスト」期間限定デザイン
-    新規企画: ボイス付きミニラリー（限定ノベルティ）
-    その他: コラボフード・ドリンク、JP STOREでの描き下ろしグッズ販売、対象アイドル12名分のバースデー企画
-  publish_plan:
-    - on: "2026-09-11"
-      angle: "明日開幕予告"
-    - on: "2026-09-12"
-      angle: "本日開幕"
-    - on: "2026-12-06"
-      angle: "本日最終日"
-  used_in:
-    - sidem-joypolis-collab3-announce  # 8/31配信「新発表・9月12日開催決定」
-    - sidem-joypolis-collab3-tomorrow  # 9/11配信「明日開幕予告」
-    - sidem-joypolis-collab3-today  # 9/12配信「本日開幕」
-    - sidem-joypolis3-attractions-update  # 9/13配信「アトラクション詳細判明（更新あり）」
-  status: partially-used
-  notes: "開幕予告（9/11配信）・本日開幕（9/12配信）・アトラクション詳細判明（9/13配信、撃音ライブコースター・ワイルドリバー・フォーチュンフォレスト等）消化済み。最終日（12/6）が未消化。"
-
 - id: sidem-derasu-ambassador
   title: "「でらます」×SideM DRAMATIC STARS 名鉄観光サービス公式アンバサダー"
   brand: sidem
@@ -1177,6 +259,91 @@
     - sidem-derasu-ambassador-today  # 8/3配信「本日開幕」
     - sidem-derasu-manga10-popup  # 8/6配信「POP UP Store at マンガ展（バレエコア新衣装）判明・更新あり」
   notes: "宿泊プラン・グッズの詳細は開催が近づいてから要追検証。8/3開幕分は記事化済み。でらます関連の派生企画としてマンガ展POP UP（3D CREMA GALLERY、8/3〜10/31、バレエコア衣装、神楽麗・鷹城恭二・握野英雄・若里春名・舞田類の5名）が判明・記事化済み（8/6配信）。10/31最終日が未消化。"
+
+- id: sidem-tabimasu-jrc
+  title: "SideM×JR東海「旅マス」（Welcome to NEXT 旅マス！315な旅をお届けしマス！）"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-08-03"
+  event_end: "2026-10-31"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-04"
+  source: "JR東海「推し旅」公式サイト（recommend.jr-central.co.jp/oshi-tabi/idolmaster_sidem/）／アイドルマスター公式ポータル news/01_19449"
+  facts: |
+    出演: 315プロダクション所属のF-LAGS・C.FIRST計6名
+    実施期間: 前半2026年8月3日〜9月16日、後半9月17日〜10月31日
+    内容: 東海道新幹線車内限定の往路・復路オリジナルボイスドラマ配信（速度検出時にアクセス可）、視聴後の「乗車証明」提示でサカエサウススクエアのポップアップストアにて記念品と交換、名古屋駅サカエチカ クリスタル広場・サカエサウススクエアでのスポットボイスドラマ、オリジナルグッズ（アクリルスタンド・缶バッジ等）、「ぴよりん」コラボグッズ
+    並行企画: 名鉄観光サービス×DRAMATIC STARS「でらます」（同じく8/3開始、10/31まで）
+  publish_plan:
+    - on: "2026-10-31"
+      angle: "本日最終日・全期間終了"
+  used_in:
+    - sidem-tabimasu-jrc-start  # 8/4配信「昨日名古屋でスタート」
+    - sidem-tabimasu-jrc-half-switch-tomorrow  # 9/15配信「明日9/16前半終了・後半へ」
+    - sidem-tabimasu-jrc-half-today  # 9/16配信「本日前半終了・明日から後半へ」
+  status: partially-used
+  notes: "8/3開始分は記事化済み。前半終了・後半切替の明日予告（9/15配信）消化済み。前半終了当日（9/16）・最終日（10/31）が未消化。"
+
+- id: cg-gatamas-niigata-sado
+  title: "シンデレラガールズ×新潟市・佐渡市コラボ「がたます」"
+  brand: cg
+  kind: 公式
+  event_start: "2026-08-11"
+  event_end: "2026-10-31"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-06-16"
+  source: "アイドルマスター公式ポータル news/01_19393（2026年7月17日18:10）/ 新潟市公式 / 電撃オンライン（2026年6月15日）"
+  facts: |
+    名称: がたます（新潟市・佐渡市×シンデレラガールズ コラボ）
+    開催期間: 2026年8月11日（火・祝）〜10月31日（土）
+    エリア: 新潟市・佐渡市
+    参加アイドル: 計8名（江上椿・片桐早苗・渋谷凛・砂塚あきら・辻野あかり・三船美優・夢見りあむ・依田芳乃）。新潟出身の砂塚あきらが顔として起用
+    デジタルスタンプラリー: 参加無料、全40箇所（新潟市内30・佐渡市内10）
+    フォトスポット・パネル: 万代シテイバスセンター(10番線)にフォトスポット、Befcoばかうけ展望室に描き下ろしパネル、スタンプラリースポットのうち27箇所にコラボパネル(大・小)
+    ノベルティ: 対象メニュー購入でコラボコースター（全11種ランダム、なくなり次第終了）
+    コラボカード: 新潟市内14箇所で条件達成時にランダム配布（全20種）
+    PRボイス: 砂塚あきら（CV：富田美憂）のPRボイスを新潟市内・万代シテイのビジョン6箇所（8/11〜10/10）や佐渡汽船カーフェリー船内（8/11〜10/31）で使用。秋葉原・名古屋のサイネージでも展開
+    総選挙2026チェックイン: 8月11日〜9月14日、新潟市内「萬代橋」がスポットチェックインに追加
+    主催: 新潟市（共催: 佐渡市、企画・運営: 名鉄観光サービス）
+    コラボグッズ: 販売内容は後日公開予定
+  publish_plan:
+    - on: "2026-08-10"
+      angle: "明日開幕予告（詳細まとめ）"
+    - on: "2026-08-11"
+      angle: "本日開幕"
+  used_in:
+    - cg-gatamas-niigata-sado  # 6/16配信「開催決定」
+    - cg-gatamas-niigata-sado-details  # 7/21配信「詳細判明」
+    - cg-gatamas-niigata-sado-tomorrow  # 8/10配信「明日開幕予告（詳細まとめ）」
+    - cg-gatamas-niigata-sado-today  # 8/11配信「本日開幕」
+  status: done
+  notes: "全publish_plan消化済み。コラボグッズ販売内容は後日公開予定、判明次第新規エントリとして追記する。"
+
+- id: sidem-karatetsu-vol3
+  title: "SideM×カラオケの鉄人 Vol.3「カラ鉄妖宴 百鬼夜行」"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-08-13"
+  event_end: "2026-10-05"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-14"
+  source: "アイドルマスター公式ポータル news/01_19515／カラオケの鉄人公式（karatetsu.com/animegame/idolmaster-sidem3.shtml）"
+  facts: |
+    名称: SideM×カラオケの鉄人 コラボ第3弾「カラ鉄妖宴 百鬼夜行」
+    開催期間: 2026年8月13日（木）〜10月5日（月）
+    展開店舗（全10店舗）: 池袋東口・渋谷道玄坂・秋葉原電気街・福岡天神・大阪なんば・名古屋名駅・松山銀天街・京都河原町・新潟万代シティ・札幌すすきの
+    内容: コラボ大使に任命されたメンバーが妖怪に扮したビジュアル。コラボメニュー、来店特典ノベルティ（利用順ランダム配布）、Vol.2浴衣衣装グッズ再販、課題曲チャレンジ（規定点数達成でノベルティ）
+    コンセプトルーム: 池袋東口・秋葉原電気街・福岡天神・大阪なんば・名古屋名駅・京都河原町の6店舗、1名1枠2時間2,200円（税込）、予約は8/7 18:00〜受付中
+    グッズ通販: 9月25日(金)11:00〜10月11日(日)23:59受付（アソビストア／アニメイト通販）
+  publish_plan:
+    - on: "2026-10-05"
+      angle: "本日コラボ終了"
+  used_in:
+    - sidem-karatetsu-vol3-today  # 8/14配信「昨日全国10店舗で開幕」
+  notes: "開幕（8/13）分は記事化済み。コラボ終了（10/5）が未消化。"
 
 - id: sidem-royal-chess-lounge
   title: "SideM「Royal Chess Lounge」コラボカフェ（名古屋栄店・心斎橋店・池袋店）"
@@ -1225,90 +392,6 @@
     3会場を順に巡回する形式のコラボカフェ企画
     コラボメニュー・グッズ（8/25判明）: チェス駒モチーフのフード・ドリンクメニュー、来店特典ランダムコースター（全12種）、物販はアクリルスタンド・アクリルコースター・ミニ色紙等
   notes: "出演アイドルの詳細は開催が近づいてから公式サイト（smilebase.co.jp）で要追検証。コラボメニュー・グッズ詳細判明（8/25配信）。名古屋栄店最終日（9/1配信で記事化済み）。心斎橋店開幕予告（9/11配信）・本日開幕（9/12配信）・昨日心斎橋店最終日（9/25配信）消化済み。池袋店開幕予告（10/7）以降が未消化。"
-
-- id: sidem-11th-stage
-  title: "THE IDOLM@STER SideM 11th STAGE ～EVER EVER＠FTER～"
-  brand: sidem
-  kind: 公式
-  event_start: "2026-09-12"
-  event_end: "2026-09-13"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-07-05"
-  source: "アイドルマスター公式ポータル news/01_19177、01_19092 / アソビストア（2026年6〜7月）"
-  facts: |
-    会場: TOYOTA ARENA TOKYO
-    日程: 2026年9月12日（土）・13日（日）
-    チケット: 2次先行（アソビストアプレミアム12ヶ月会員限定、受付6/25〜7/5、当落発表7/17 13:00〜、入金7/17〜7/21）
-    グッズ事前販売第2弾: 6/18〜7/5受付。公式パンフレット5,800円・Tシャツ3,600円・タオル2,200円ほか一部限定数商品（コンサートライト・ミニライト・ビーズストラップ・サコッシュ等）。配送8月末〜9月上旬予定
-    配信チケット: 8/4 12:00〜9/21 18:00受付。DAY1+DAY2通し12,000円、DAY1・DAY2単日各6,000円（税込・機能利用料込）。アーカイブは最速版（各公演終了1時間後〜9/14 18:00）・正式版（9/14 18:00〜9/21 23:59）
-    現地チケット価格帯: 全席指定13,500円、見切れ席13,000円、スイート25,000円、テラススイート50,000円〜（いずれも税込）
-    当日券（9/11判明）: 機材席開放・ステージプラン調整に伴い9月12日0:00より販売。1枚14,000円（税込）、各公演当日0:00〜開場3時間前までWeb限定・クレジットカード決済のみ
-  publish_plan:
-    - on: "2026-07-17"
-      angle: "本日チケット2次先行当落発表"
-    - on: "2026-07-21"
-      angle: "本日2次先行入金締切"
-    - on: "2026-09-11"
-      angle: "明日開幕予告"
-    - on: "2026-09-12"
-      angle: "本日開幕・DAY1"
-    - on: "2026-09-13"
-      angle: "DAY1レポ＆本日DAY2"
-    - on: "2026-09-14"
-      angle: "閉幕レポ"
-  used_in:
-    - sidem-11th-stage-deadline  # 7/5配信「チケット2次先行・グッズ事前販売第2弾、本日23:59締切」
-    - sidem-11th-stage-lottery-result  # 7/17配信「本日13:00チケット2次先行当落発表」
-    - sidem-11th-stage-payment-deadline  # 7/21配信「本日2次先行入金締切」
-    - sidem-11th-stage-stream-ticket  # 8/5配信「配信チケットが昨日発売開始」
-    - sidem-11th-stage-goods-cd-reveal  # 8/22配信「会場物販・CD情報が公開」
-    - sidem-11th-stage-general-sale  # 8/23配信「現地引換チケット一般発売が昨日正午より開始」
-    - sidem-11th-stage-costume-reveal  # 8/24配信「新衣装『トランセンデントリルード』ビジュアル公開」
-    - sidem-11th-stage-goods-lottery-start  # 8/28配信「会場物販の抽選整理券受付が本日開始」
-    - sidem-11th-stage-general-sale-closed  # 9/6配信「現地チケット一般発売が昨日23:59に受付終了」
-    - sidem-11th-stage-goods-lottery-result  # 9/8配信「会場物販の抽選整理券当落発表は本日13:00」
-    - sidem-11th-stage-goods-lottery-anticipation  # 9/8配信「物販整理券、当落発表控えファン緊張の面持ち（ファン話題）」
-    - sidem-11th-stage-delivery-goods-web  # 9/9配信「差し入れ企画『315デリバリー』・グッズWEB販売の詳細判明」
-    - sidem-11th-stage-countdown-buzz  # 9/9配信「開幕まで残り3日、差し入れ企画にファン反応（ファン話題）」
-    - sidem-11th-kamisabi-sales-announce  # 9/10配信「会場でカードゲーム『KAMISABI』販売・体験会が決定」
-    - sidem-11th-stage-countdown-day2  # 9/10配信「開幕まで残り2日（ファン話題）」
-    - sidem-11th-stage-tomorrow  # 9/11配信「明日開幕予告」
-    - sidem-11th-stage-goods-web-sale-start  # 9/11配信「公式グッズWEB販売、本日17:00スタート（〜10/4）」
-    - sidem-11th-stage-today  # 9/12配信「本日開幕・DAY1、当日券販売も決定」
-    - sidem-11th-stage-opening-buzz  # 9/12配信「開幕、SNSで実況ムード最高潮（ファン話題）」
-    - sidem-11th-stage-day1-report-day2  # 9/13配信「昨日DAY1完走・本日DAY2で千秋楽へ」
-  facts: |
-    会場: TOYOTA ARENA TOKYO
-    日程: 2026年9月12日（土）・13日（日）
-    会場物販: 両日11:00〜17:30、TOYOTA ARENA TOKYOサブアリーナで実施。混雑緩和のため一部時間帯は事前抽選整理券制（ASOBI TICKET受付8/28 13:00〜9/2 23:59、当落発表9/8 13:00〜）。具体的な商品ラインナップは公式サイト物販ページで確認可能、価格等は未取得のため要追検証。
-    新CD: 「SideM 10th ANNIVERSARY P@SSION SOLO COLLECTION 04」2,750円（税込）、THE 虎牙道・F-LAGS・Legenders・C.FIRSTメンバーのソロ楽曲収録
-    配信チケット: 8/4 12:00〜9/21 18:00受付。DAY1+DAY2通し12,000円、DAY1・DAY2単日各6,000円（税込・機能利用料込）
-    現地引換チケット一般発売: 8/22(土)12:00〜9/5(土)23:59受付。あわせてASOBI TICKET公式リセールも8/22 15:00〜9/6 9:59受付
-    現地チケット価格帯: 全席指定13,500円、見切れ席13,000円、スイート25,000円、テラススイート50,000円〜（いずれも税込）
-    公演テーマ: 「語り継がれる物語」。CDシリーズ「TRANSCENDENT T@LES」で描かれる315プロダクションの物語が軸。新衣装「トランセンデントリルード」のビジュアルが公開中
-    会場物販整理券: ASOBI TICKET受付8/28 13:00〜9/2 23:59、当落発表9/8 13:00〜（8/28配信で記事化済み）
-    差し入れ企画「みんなで食べよう！パッション全開！315デリバリー!!!!!!!!!!」: 1件315円（税込）、受付9/11 17:00〜9/13 23:59。購入者はニックネーム付きメッセージ送信・アイドルからのサンキューメッセージ受取・マイチケットページからの「11th STAGEバックステージパス」画像ダウンロード特典あり
-    公式グッズWEB販売（ASOBI STORE）: 受付9/11 17:00〜10/4、shop.asobistore.jp/feature/sidem11th_p
-  notes: "出演者・セトリ等の詳細は未取得。会場物販・CD情報（8/22）・現地引換チケット一般発売開始（8/23）・新衣装ビジュアル公開（8/24）・現地チケット一般発売、昨日23:59受付終了（9/6）・物販整理券当落発表（9/8）・差し入れ企画『315デリバリー』受付詳細（9/9）・明日開幕予告（9/11配信）・公式グッズWEB販売開始（9/11配信）・本日開幕・DAY1、当日券販売決定（9/12配信）・DAY1レポ＆本日DAY2（9/13配信）消化済み。DAY1本編最後にSPARKLE SHOWDOWN・Blu-ray・プロデューサーミーティング2027・Mフェステーマソングの4件が発表され、それぞれ別エントリで管理（godo-sidem-sc-sparkle-showdown／sidem-producer-meeting-2027／sidem-11th-stage-bluray／sidem-mfes-2026-theme-song）。閉幕レポ（9/14）が未消化。"
-
-- id: sc-project-relight-axe8
-  title: "Project \"ReLight\" AXE8（シャニマス全ユニット新ロゴ・新衣装・新曲刷新企画）"
-  brand: sc
-  kind: 公式
-  status: watching
-  confidence: unconfirmed
-  added: "2026-07-05"
-  source: "電撃オンライン / 電ファミニコゲーマー（2026年4月27日・8周年配信）"
-  facts: |
-    内容: シャニマス8ユニット全てが新ロゴ・新衣装・新曲で順次刷新される新企画
-    発表: 4/27の8周年記念生配信で発表
-    開始時期: 「今夏始動」とアナウンスされているが、2026年7月5日時点で具体的な開始日は未発表
-  publish_plan:
-    - on: "開始日確定後（未定）"
-      angle: "始動発表・詳細判明"
-  used_in: []
-  notes: "開始日・第1弾ユニットが判明次第、event_startを確定させ記事化する。"
 
 - id: gaku-live-tour-shirube
   title: "学園アイドルマスター LIVE TOUR -標-"
@@ -1389,315 +472,99 @@
     - gaku-shirube-iwate-day2-buzz  # 9/24配信「岩手公演千秋楽にファン『過去最高のライブ』と絶賛（ファン話題）」
   notes: "出演者・セトリ等の詳細は未取得。ファイナル公演のチケット価格・出演人数は公式サイト（live_event/gkmas_livetour_shirube配下）で確認済み。福井公演の出演者が判明済み（七瀬つむぎ・花岩香奈・薄井友里・松田彩音）。グッズ事前販売ファイナル締切（8/16）・福井公演開幕予告（8/19）・本日福井公演開幕（8/20、会場で福井県銘品「眼鏡堅麺麭」コラボ商品販売）・DAY1レポ＆新曲配信（8/21）・福井千秋楽レポ（8/22、DAY2はDAY1から13曲入れ替え・葛城リーリヤ「いつかのわたし」＆姫崎莉波「重なる夜空の痕跡に」新曲披露、CD「修楽旅行」予約開始9/23締切）・福岡公演一般発売開始（8/24、顔写真登録システム導入）・福岡公演グッズラインナップ判明（8/25、事前販売は4/30〜5/17で終了済み・公演直前の追加販売予定なしと事実確認済み）・福岡公演開幕予告（9/4）・本日福岡公演開幕（9/5）・福岡DAY1新曲配信開始（9/6）・福岡DAY2千秋楽＆新曲配信・岩手公演一般先着受付中（9/7）・岩手公演一般先着本日23:59締切（9/9、リセール受付は翌9/10 9:59まで）消化済み。岩手公演出演者は伊藤舞音（倉本千奈役）・湊みや（紫雲清夏役）・春咲暖（秦谷美鈴役）・陽高真白（十王星南役）と公式サイトで確認済み。岩手公演DAY1レポ・新曲配信・ファン話題（9/23配信）、DAY2千秋楽レポ・新曲配信・ファン話題（9/24配信）まで消化済み。ファイナル公演（Kアリーナ横浜11/7・8）の開幕予告以降が未消化。"
 
-- id: sc-283pro-solo-live-msp
-  title: "283 PRODUCTION Solo Live Collection -Master ShowPiece-"
-  brand: sc
+- id: as765-kotobukiya-kuji-summerlive
+  title: "コトブキヤくじ「アイドルマスター Summer Live st@ge」"
+  brand: as765
   kind: 公式
-  event_start: "2026-09-26"
-  event_end: "2026-09-27"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-07-09"
-  source: "アイドルマスター公式ポータル news/01_19262・01_19705・01_19906 / gameo.jp（2026年7〜9月）"
-  facts: |
-    会場: 京王アリーナ TOKYO
-    日程: 2026年9月26日（土）・27日（日）
-    チケット価格: 全席指定14,000円（税込）、座席により一部ステージが見切れる可能性がある旨案内あり。一般発売日は続報待ち
-    グッズ: ぬいぐるみ「ふわふぇいす」シリーズ（描き下ろし28種）、アイドルプロデュースアパレル 等（事前販売は7/12締切で終了済み）
-    配信チケット購入者限定の同時視聴会（9/18判明）: DAY1視聴会10/3(土)17:00〜（峯田茉優・田嶌紗蘭・三川華月出演）、DAY2視聴会10/4(日)17:00〜（希水しお・土屋李央・小澤麗那出演）。視聴には対応日程の配信チケット購入orシリアル認証が必要、アーカイブは10/5 23:59まで公開
-    コラボキッチンカー（9/17判明）: 京王アリーナTOKYO 2Fデッキにて9/26(土)・27(日)各10:00〜17:00出店。メニューは「ナポリタン……！パン」1,000円・「コーヒーの代わりのレモンティー」800円・「餃子煎餅」1,000円。購入特典でダイカットステッカー（全28種）をランダム配布
-    DAY1（9/26）出演者: Art & Couleurs＝関根瞳・結名美月・田中有紀・岡咲美保・三川華月・小澤麗那／Maestria & Tradizione＝峯田茉優・礒部花凜・八巻アンナ・丸岡和佳奈・涼本あきほ・芝崎典子／Street & Avant-garde＝近藤玲奈・菅沼千紗・河野ひより・北原沙弥香・土屋李央・紫月杏朱彩・川口莉奈／Urban & Lifestyle＝希水しお・永井真里子・前川涼子・幸村恵理・田嶌紗蘭・山根綺
-    DAY1（9/26）レポート: 開場16:00・開演17:00、4グループがランウェイ形式のステージ演出で新ソロ曲を披露する「ファッションショー」風構成。披露曲例: Hold on me／HELL-O／ハートフルミー／HSV色空間／どっちみちLOVE／MAGICAL FOREST／ワタシグラビティ／カラースプレーとうさぎさん／Imaginary／Damascus Cocktail 等。会場限定CD・「My Songs Collection」グッズ・全28色コンサートライト等を販売、公演後には有償限定ガシャ「Master ShowPiece 打ち上げガシャDAY1」も実施。SNSでは「最高だった」の声が相次ぎ好評（出典: idolmaster-official.jp/news/01_19897、ファミ通2026年9月分記事）
-    DAY1公演内での新発表: シャニマス初のソロオーケストラコンサート「THE IDOLM@STER SHINY COLORS ORCHESTRA CONCERT -Radiant Chord-」を2027年3月22日(月・祝)にパシフィコ横浜 国立大ホールで開催決定と発表（別エントリ sc-shinycolors-orchestra-radiantchord で管理）
-  publish_plan:
-    - on: "2026-09-22"
-      angle: "現地物販整理券、本日13:00当落発表"
-    - on: "2026-09-25"
-      angle: "明日開幕予告"
-    - on: "2026-09-26"
-      angle: "本日開幕・DAY1"
-    - on: "2026-09-27"
-      angle: "本日千秋楽"
-    - on: "2026-10-03"
-      angle: "配信チケット購入者限定・DAY1同時視聴会、本日開催"
-    - on: "2026-10-04"
-      angle: "配信チケット購入者限定・DAY2同時視聴会、本日開催"
-  used_in:
-    - sc-283pro-msp-presale-final  # 7/9配信「グッズ事前販売ファイナル受付中（〜7/12）」
-    - sc-283pro-msp-presale-deadline-tomorrow  # 7/11配信「グッズ事前販売ファイナル、明日7/12締切」
-    - sc-283pro-msp-presale-deadline-today  # 7/12配信「グッズ事前販売ファイナル、本日23:59締切」
-    - sc-283pro-msp-hanaboard  # 8/23配信「楽屋花・プレゼントの受付方法が判明」
-    - sc-283pro-msp-ticket-info  # 8/25配信「チケット価格判明」
-    - sc-283production-msp-goods-lottery-start  # 9/10配信「現地物販整理券、本日13:00受付開始」
-    - sc-283pro-msp-deadlines-today  # 9/15配信「物販整理券・チケット一般先着、本日23:59ダブル締切」
-    - sc-283pro-msp-archive-viewing  # 9/19配信「配信チケット購入者限定の同時視聴会が決定」
-    - sc-283pro-msp-goods-lottery-result  # 9/22配信「現地物販整理券、本日13:00当落発表」
-    - sc-283pro-msp-tomorrow  # 9/25配信「明日開幕予告」
-    - sc-283pro-msp-today  # 9/26配信「本日開幕・DAY1」
-    - sc-283pro-msp-day1report-finale  # 9/27配信「DAY1レポ＆本日千秋楽DAY2」
-    - sc-283pro-msp-day2-finale-report  # 9/28配信「DAY2完走レポ」
-    - sc-283pro-msp-archive-start  # 9/29配信「視聴コメント付きアーカイブ、昨日18時より配信開始」
-  status: done
-  notes: "出演者・セトリ等の詳細は未取得。楽屋花・プレゼント受付方法（送付先はいずれも京王アリーナTOKYO メインエントランス気付、楽屋花サイズ上限40cm・指定到着日時は公演前日9/25 12:00〜16:00の1回のみ、プレゼント〈メッセージ類〉は公演当日9/26・27いずれも11:00〜開演前）が判明（8/23配信）。チケット価格（全席指定14,000円）判明（8/25配信、事実確認済み）。一般発売日は続報待ち、要追検証。【8/24事実確認】公式サイト（idolmaster-official.jp/live_event/283production_msp/）で4グループ編成（Maestria & Tradizione／Art & Couleurs／Street & Avant-garde／Urban & Lifestyle）と全出演声優は2026年3月19日公開・7月2日更新の時点で既に判明済みと確認。同ネタで再度「新発表」的に記事化しないよう注意。【重複エントリにつき要注意】本エントリと sc-masterlivepiece-solo-live は同一ライブを別々に登録してしまったもの。今後の続報はどちらか一方（本エントリ）に一本化して記事化し、重複記事化を避けること。コラボキッチンカーの出店（9/17判明）・DAY1出演者（9/26配信で事実確認）を反映済み。本日開幕・DAY1（9/26）・DAY1レポ＆本日千秋楽DAY2（9/27配信）・DAY2完走レポ（9/28配信、アフタートーク「ばくすて！とーく」配信も実施）まで全publish_plan消化済みにつきクローズ。同時視聴会（10/3・10/4）は姉妹エントリで別管理。"
-
-- id: sc-shinycolors-orchestra-radiantchord
-  title: "THE IDOLM@STER SHINY COLORS ORCHESTRA CONCERT -Radiant Chord-"
-  brand: sc
-  kind: 公式
-  event_start: "2027-03-22"
-  status: pending
-  confidence: confirmed
-  added: "2026-09-27"
-  source: "アイドルマスター公式ポータル news/01_19982／ファミ通（2026年9月26日）"
-  facts: |
-    内容: シャニマス初のソロオーケストラコンサート
-    会場: パシフィコ横浜 国立大ホール
-    日程: 2027年3月22日（月・祝）、昼公演12:00開場・13:00開演、夜公演17:00開場・18:00開演の1日2公演
-    発表経緯: 「283 PRODUCTION Solo Live Collection -Master ShowPiece-」DAY1（9/26、京王アリーナTOKYO）の公演内で発表
-    アソビストアプレミアム会員先行受付: 発表当日（9/26）よりスタート（受付締切等の詳細は続報待ち）
-    出演者・セトリ・一般発売日程は続報待ち
-  publish_plan:
-    - on: "2027-03-21"
-      angle: "明日開幕予告"
-    - on: "2027-03-22"
-      angle: "本日開催"
-  used_in:
-    - sc-shinycolors-orchestra-announce  # 9/27配信「新発表」
-  status: partially-used
-  notes: "9/26のMaster ShowPiece DAY1公演内で発表された新規イベント。9/27配信で新発表として記事化済み。プレミアム会員先行受付の締切日・出演者は続報待ち、要追検証。"
-
-- id: sc-noctchill-live
-  title: "283 Production LIVE Performance noctchill（ノクチル単独xRライブ）"
-  brand: sc
-  kind: 公式
-  event_start: "2027-03-27"
-  event_end: "2027-03-28"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-09-28"
-  source: "アイドルマスター公式ポータル news/01_19969（2026年9月27日発表）"
-  facts: |
-    名称: 283 Production LIVE Performance noctchill（ノクチル初の単独xRライブ）
-    会場: ゼビオアリーナ仙台
-    日程: 2027年3月27日（土）・28日（日）、各日昼夜2公演の計4公演
-    公演別サブタイトル: 27日昼「ただ眩しかった」（開場12:00/開演13:00）、27日夜「きみと一緒だったら」（開場16:00/開演17:00）、28日昼「きっと忘れない」（開場12:00/開演13:00）、28日夜「さよなら」（開場16:00/開演17:00）
-    発表経緯: 「283 PRODUCTION Solo Live Collection -Master ShowPiece-」DAY2公演内（9/27）で発表
-    アソビストアプレミアム会員先行受付: 2026年9月27日19:00〜10月12日23:59
-    出演声優・セトリ・一般発売日程は続報待ち
-  publish_plan:
-    - on: "2027-03-26"
-      angle: "明日開幕予告"
-    - on: "2027-03-27"
-      angle: "本日開幕・DAY1（2公演）"
-    - on: "2027-03-28"
-      angle: "DAY1レポ＆本日DAY2・千秋楽（2公演）"
-  used_in:
-    - sc-noctchill-announce  # 9/28配信「新発表」
-    - sc-noctchill-buzz  # 9/28配信「発表にファン歓喜（ファン話題）」
-  notes: "ノクチル初の単独ライブ。出演声優・セトリ・一般発売日程は続報待ち、要追検証。"
-
-- id: sc-8bankaramen-collab
-  title: "シャニマス×「8番らーめん」コラボ"
-  brand: sc
-  kind: 公式
-  event_start: "2026-10-07"
-  event_end: "2026-11-08"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-09-19"
-  source: "アイドルマスター公式ポータル news/01_19923／DMM Factory公式X"
-  facts: |
-    名称: シャニマス×「8番らーめん」コラボ（アルストロメリア・大崎甘奈／大崎甜花の出身地・富山県ゆかりのラーメンチェーン）
-    開催期間: 2026年10月7日（水）〜11月8日（日）
-    対象店舗: 富山県・岡山県の「8番らーめん」「金澤醤油豚骨8番らーめん」各店舗
-    内容: らーめん屋で働く様子をコンセプトにした描き下ろしイラストを使用したグッズ・限定コラボセットを展開予定（詳細は続報）
-  publish_plan:
-    - on: "2026-10-06"
-      angle: "明日開幕予告"
-    - on: "2026-10-07"
-      angle: "本日開幕"
-    - on: "2026-11-08"
-      angle: "本日最終日"
-  used_in:
-    - sc-8bankaramen-collab-announce  # 9/19配信「新発表」
-    - sc-8bankaramen-collab-buzz  # 9/19配信「発表にファン歓喜（ファン話題）」
-    - sc-8bankaramen-today  # 10/7配信「本日開幕」
-    - sc-8bankaramen-goods-presale  # 10/7配信「DMM予約開始」
-  notes: "メニュー・グッズの詳細は続報待ち、要追検証。"
-
-- id: sc-suntory-lemonsquash
-  title: "シャニマス×サントリー レモンスカッシュ"
-  brand: sc
-  kind: 公式
-  event_start: "2026-09-28"
-  status: pending
-  confidence: confirmed
-  added: "2026-09-19"
-  source: "アイドルマスター公式ポータル news/01_19924"
-  facts: |
-    内容: シャニマスとサントリーのコラボ第2弾、オリジナルラベルの「レモンスカッシュ」
-    発売: 2026年9月28日より全国の自販機約600台で発売
-    ラベル: Stella・Luna・Solの3チームごとに全28種、剥がしてステッカーとしても使用可
-    施策: 購入者対象に数量限定オリジナルアクリルキーホルダーが当たる抽選あり
-    先行設置: 9/26・27開催「283 PRODUCTION Solo Live Collection -Master ShowPiece-」（京王アリーナTOKYO）会場1F駐車場エリアに専用自販機を設置
-  publish_plan:
-    - on: "2026-09-27"
-      angle: "明日発売予告"
-    - on: "2026-09-28"
-      angle: "本日発売開始"
-  used_in:
-    - sc-suntory-lemonsquash  # 9/19配信「新発表」
-    - sc-suntory-lemonsquash-tomorrow  # 9/27配信「明日発売予告」
-    - sc-suntory-lemonsquash-today  # 9/28配信「本日発売開始」
-  status: done
-  notes: "アクリルキーホルダー抽選施策の詳細は続報待ち。明日発売予告（9/27配信）・本日発売開始（9/28配信）まで全publish_plan消化済みにつきクローズ。"
-
-- id: cg-numberone-crossover
-  title: "CD「THE IDOLM@STER CINDERELLA MASTER NUMBER ONE! クロス×オーバー！」"
-  brand: cg
-  kind: 公式
-  event_start: "2026-09-30"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-09-19"
-  source: "コロムビアミュージックショップ／imasnews765.com"
-  facts: |
-    内容: NUMBER ONE!シリーズ第3弾。メインタイトル曲「クロス×オーバー！」（new generations×#UNICUS合同、歌唱：島村卯月・辻野あかり・渋谷凛・砂塚あきら・本田未央・夢見りあむ）、c/w「エイエム×アイアム」[Another ver.]のほか「オーバークロック！」Another版・ゲームバージョン・ソロ/リミックス等計7曲収録予定
-    発売日: 2026年9月30日
-    販売: コロムビアミュージックショップ・ASOBI STOREの2社限定
-    試聴: c/w曲の試聴が9月18日にスタート（9/19配信で記事化）。「オーバークロック！」[new generations ver.]の試聴動画が9/25公開
-    プレミアMV: タイトル曲「クロス×オーバー！」のプレミアMVを9月30日21時に配信予定
-  publish_plan:
-    - on: "2026-09-29"
-      angle: "明日発売予告"
-    - on: "2026-09-30"
-      angle: "本日発売・プレミアMV21時配信"
-  used_in:
-    - cg-numberone-crossover-cw-preview  # 9/19配信「c/w曲の試聴が昨日スタート」
-    - cg-numberone-crossover-mv-preview  # 9/26配信「試聴動画公開・プレミアMV配信決定（更新あり）」
-    - cg-numberone-crossover-tomorrow  # 9/29配信「明日発売予告」
-  status: partially-used
-  notes: "収録曲の詳細な内訳は続報待ち、要追検証。オーバークロック！new generations verの試聴動画公開・プレミアMV9/30 21時配信決定（9/25判明、9/26配信で記事化）を反映済み。明日発売予告（9/29配信）消化済み。本日発売・プレミアMV21時配信（9/30）が未消化。"
-
-- id: sc-refrac7ions-stillblue-live
-  title: "シャニマス「shiny, the first REFRAC7IONS \"Still blue\"」"
-  brand: sc
-  kind: 公式
-  event_start: "2026-12-19"
-  event_end: "2026-12-20"
-  status: pending
-  confidence: confirmed
-  added: "2026-07-18"
-  source: "アイドルマスター公式ポータル news/01_19374（2026年7月17日）"
-  facts: |
-    会場: 国立代々木競技場第一体育館
-    日程: 2026年12月19日（土）・20日（日）
-    現地チケット・ゲーム内先行受付: 7/17 15:00〜8/4 23:59、当落発表8/21、入金期間8/21〜25、1公演2枚まで
-    申込方法: ASOBI TICKET Ver.2、enza版「シャニマス」「Song for Prism」内の告知から
-    DAY1追加出演: 「Fumage」浅倉透役・和久井優
-    アソビストア一般会員先行（抽選）: 8月27日12:00〜9月23日23:59受付、価格14,000円（税込・1公演2枚まで）、当落発表10月8日13:00、入金期間10月8日〜12日（既存のゲーム内先行＝当落発表8/21とは別枠）
-  publish_plan:
-    - on: "2026-08-04"
-      angle: "本日先行受付締切"
-    - on: "2026-08-21"
-      angle: "本日当落発表"
-    - on: "2026-08-28"
-      angle: "一般会員先行、昨日受付開始"
-    - on: "2026-09-23"
-      angle: "本日一般会員先行受付締切"
-    - on: "2026-12-18"
-      angle: "明日開幕予告"
-    - on: "2026-12-19"
-      angle: "本日開幕・DAY1"
-    - on: "2026-12-20"
-      angle: "本日千秋楽"
-  used_in:
-    - sc-refrac7ions-stillblue-presale  # 7/18配信「現地チケット先行受付開始・DAY1追加出演判明」
-    - sc-refrac7ions-stillblue-presale-deadline-today  # 8/4配信「現地チケット先行受付、本日23:59締切」
-    - sc-refrac7ions-stillblue-lottery-result  # 8/21配信「本日当落発表」
-    - sc-refrac7ions-stillblue-general-presale  # 8/28配信「アソビストア一般会員先行、昨日受付開始」
-    - sc-refrac7ions-general-presale-deadline  # 9/23配信「アソビストア一般会員先行、本日23:59締切」
-  status: partially-used
-  notes: "出演ユニット・セトリ等の詳細は未取得。追加出演発表が今後も続く可能性あり、判明次第factsを更新。当落発表（8/21）・一般会員先行受付開始（8/28配信）・一般会員先行受付締切（9/23配信）消化済み。開幕予告（12/18）以降が未消化。"
-
-- id: sidem-tabimasu-jrc
-  title: "SideM×JR東海「旅マス」（Welcome to NEXT 旅マス！315な旅をお届けしマス！）"
-  brand: sidem
-  kind: 公式
-  event_start: "2026-08-03"
-  event_end: "2026-10-31"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-08-04"
-  source: "JR東海「推し旅」公式サイト（recommend.jr-central.co.jp/oshi-tabi/idolmaster_sidem/）／アイドルマスター公式ポータル news/01_19449"
-  facts: |
-    出演: 315プロダクション所属のF-LAGS・C.FIRST計6名
-    実施期間: 前半2026年8月3日〜9月16日、後半9月17日〜10月31日
-    内容: 東海道新幹線車内限定の往路・復路オリジナルボイスドラマ配信（速度検出時にアクセス可）、視聴後の「乗車証明」提示でサカエサウススクエアのポップアップストアにて記念品と交換、名古屋駅サカエチカ クリスタル広場・サカエサウススクエアでのスポットボイスドラマ、オリジナルグッズ（アクリルスタンド・缶バッジ等）、「ぴよりん」コラボグッズ
-    並行企画: 名鉄観光サービス×DRAMATIC STARS「でらます」（同じく8/3開始、10/31まで）
-  publish_plan:
-    - on: "2026-10-31"
-      angle: "本日最終日・全期間終了"
-  used_in:
-    - sidem-tabimasu-jrc-start  # 8/4配信「昨日名古屋でスタート」
-    - sidem-tabimasu-jrc-half-switch-tomorrow  # 9/15配信「明日9/16前半終了・後半へ」
-    - sidem-tabimasu-jrc-half-today  # 9/16配信「本日前半終了・明日から後半へ」
-  status: partially-used
-  notes: "8/3開始分は記事化済み。前半終了・後半切替の明日予告（9/15配信）消化済み。前半終了当日（9/16）・最終日（10/31）が未消化。"
-
-- id: cg-achi-village-collab
-  title: "シンデレラガールズ×長野県阿智村「Star Village ACHI」コラボレーション2026"
-  brand: cg
-  kind: 公式
-  event_start: "2026-07-18"
+  event_start: "2026-08-21"
   event_end: "2026-09-23"
   status: partially-used
   confidence: confirmed
-  added: "2026-07-19"
-  source: "GAME Watch（game.watch.impress.co.jp/docs/news/2124547.html） / アイドルマスター公式ポータル news/01_18971・01_19356"
+  added: "2026-08-22"
+  source: "アイドルマスター公式ポータル news/01_19428（2026年7月27日掲載）／コトブキヤくじ公式（kuji.kotobukiya.co.jp）"
   facts: |
-    名称: 「アイドルマスター シンデレラガールズ」× Star Village ACHI コラボレーション2026
-    会場: 長野県阿智村 富士見台高原ロープウェイ「ヘブンスそのはら」
-    開催期間: 2026年7月18日（土）〜9月23日（水・祝）
-    内容: アナスタシアによる「夏の星座解説」（屋外会場、毎日20:40〜21:00、無料・天候により変更あり）、山頂NorthBase建物内の等身大パネル展示、来場者への山頂受付でのポストカード配布
-    コラボカフェ: ACHI BASEで営業（アナスタシア・神崎蘭子・高峯のあ・新田美波・前川みくのキャラクターメニュー）
-    グッズ: アクリルカード・缶バッジ・クリアファイル・キーホルダー・ステッカー・パズル・アクリルスタンド・タオルなど20種以上
-    参加キャラクター: アナスタシア・神崎蘭子・高峯のあ・新田美波・前川みく
+    内容: 765プロダクション5名（天海春香・如月千早・星井美希・秋月律子・三浦あずさ）の夏空を背景にした描き下ろしイラスト
+    販売期間: 2026年8月21日（金）10:00〜9月23日（水）23:59
+    形式: ハズレなしのオンラインくじ、1回から購入可。複数購入キャンペーンも実施
   publish_plan:
     - on: "2026-09-22"
-      angle: "明日最終日予告"
+      angle: "明日販売終了予告"
     - on: "2026-09-23"
-      angle: "本日最終日"
+      angle: "本日23:59販売終了"
   used_in:
-    - cg-achi-village-collab  # 7/19配信「昨日開幕」
-    - cg-achi-village-collab-tomorrow  # 9/22配信「明日最終日予告」
-    - cg-achi-village-today  # 9/23配信「本日最終日」
+    - as765-kotobukiya-kuji-summerlive-details  # 9/8配信「5人描き下ろしで好評開催中」
+    - as765-kotobukiya-kuji-summerlive-reminder  # 9/18配信「販売終了まで残り5日」
+    - as765-kotobukiya-kuji-summerlive-tomorrow  # 9/22配信「明日販売終了予告」
+    - as765-kotobukiya-kuji-today  # 9/23配信「本日23:59販売終了」
   status: done
-  notes: "「日本一の星空」で知られる阿智村での開催。本日最終日（9/23配信）まで全publish_plan消化済み。"
+  notes: "8/22時点では7/27発表の内容そのままで新規性がないため記事化を見送っていたが、販売期間・形式の詳細判明で9/8配信にて記事化。本日23:59販売終了（9/23配信）まで全publish_plan消化済み。"
 
-- id: sidem-remembershot-fair4
-  title: "SideM「リメンバーショット」フェア第4弾"
+- id: sidem-hands-knickknacks-vol1
+  title: "アイドルマスター SideM knick-knacks Vol.1（ハンズ50周年コラボ）"
   brand: sidem
   kind: 公式
-  event_start: "2026-10-03"
-  event_end: "2026-10-25"
+  event_start: "2026-08-21"
+  event_end: "2026-09-13"
   status: partially-used
   confidence: confirmed
-  added: "2026-08-05"
-  source: "アイドルマスター公式ポータル news/01_19438（2026年8月4日17:00）"
+  added: "2026-08-13"
+  source: "アイドルマスター公式ポータル news/01_19396／ハンズ各店舗イベントページ（store.hands.net, event.hands.net）"
   facts: |
-    会場: 全国アニメイト、アニメイト通販
-    開催期間: 2026年10月3日（土）〜10月25日（日）
-    対象アイドル（10名描き下ろし）: 柏木翼・神楽麗・渡辺みのり・蒼井享介・榊夏来・伊瀬谷四季・紅井朱雀・卯月巻緒・姫野かのん・北村想楽
-    特典: 対象商品購入・予約内金1,100円（税込）ごとに切手風ステッカー（全10種）を1枚プレゼント（選択不可、なくなり次第終了）
+    名称: アイドルマスター SideM knick-knacks Vol.1（ハンズ50周年記念コラボ）
+    内容: SideM12人がオリジナルエプロン姿の店員に扮した描き下ろしイラストを使用
+    開催期間: 2026年8月21日（金）〜9月13日（日）
+    展開店舗: ハンズ全国15店舗（札幌・仙台・大宮・新宿・渋谷・横浜・千葉・静岡・名古屋・心斎橋・あべのキューズモール・京都・広島・岡山・博多）＋紀伊國屋書店17店舗＋ANICLOSET（オンライン）
+    混雑対策: 8/21は入場整理券配布の可能性、8/22以降も混雑時は同様の対応の可能性
+    商品: オリジナルエプロングッズ、動物モチーフ商品、会場限定ノベルティ、オンライン限定商品など
+    事前WEB抽選結果（8/17 12:00発表）: 当選番号・入場時間帯の整列順を発表。フリー入場は初日8/21 13:30以降
   publish_plan:
-    - on: "2026-10-02"
+    - on: "2026-08-20"
       angle: "明日開幕予告"
-    - on: "2026-10-03"
+    - on: "2026-08-21"
       angle: "本日開幕"
+    - on: "2026-09-13"
+      angle: "本日最終日"
   used_in:
-    - sidem-remembershot-fair4  # 8/5配信「詳細解禁」
-  notes: "第1〜3弾の対象アイドルとの重複有無は未確認、要追検証。"
+    - sidem-knickknacks-lottery-result  # 8/18配信「事前WEB抽選結果、昨日12:00発表」
+    - sidem-hands-knickknacks-vol1-tomorrow  # 8/20配信「明日開幕予告」
+    - sidem-hands-knickknacks-vol1-today  # 8/21配信「本日開幕」
+    - sidem-knickknacks-vol1-opening-note  # 8/22配信「初日は事前抽選制、本日以降も混雑時整理券の可能性」
+  notes: "混雑対策の詳細（整理券配布条件等）は各店舗ページで開催が近づいてから要追検証。明日開幕予告（8/20）・本日開幕（8/21）・初日運用レポ（8/22）消化済み。最終日（9/13）が未消化。"
+
+- id: gaku-chugai-grace-cafe-revival
+  title: "学園アイドルマスター×Chugai Grace Café リバイバル（渋谷モディ店）"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-09-03"
+  event_end: "2026-09-27"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-08"
+  source: "アイドルマスター公式ポータル news/01_19534（2026年8月7日12:05公開）／Chugai Grace Cafe公式サイト（chugai-grace-cafe.jp/collaboration/gakuen_idolmaster_revival_shibuya/）"
+  facts: |
+    会場: Chugai Grace Café 渋谷モディ店（7F）
+    開催期間: 2026年9月3日(木)〜9月27日(日)
+    背景: 2026年1月開催コラボカフェのリバイバル
+    内容: 前回メニューに加え新規コラボメニュー・注文特典、グッズは再販に加え新商品3種（アクリルコレクションスタンド・ハート型キャンディー付きキーホルダー・クリアうちわ、いずれもスイーツver.）
+    コラボメニュー詳細: 描き下ろしイラストの衣装と連動したメニュー。前半（9/3〜14）注文特典クリアしおり、後半（9/15〜27）はスタンディコースター
+    新作グッズ詳細: 購入3,000円ごとに前半デスクカード・後半ポイントカード風イラスト特典
+  publish_plan:
+    - on: "2026-09-02"
+      angle: "明日開幕予告"
+    - on: "2026-09-03"
+      angle: "本日開幕"
+    - on: "2026-09-27"
+      angle: "本日最終日"
+  used_in:
+    - gaku-chugai-grace-cafe-revival  # 8/8配信「新発表」
+    - gaku-chugai-cafe-tomorrow  # 9/2配信「明日9/3開幕予告」
+    - gaku-chugai-cafe-today  # 9/3配信「本日渋谷モディ店で開幕」
+    - gaku-chugai-cafe-menu-detail  # 9/5配信「メニュー詳細判明（更新あり）」
+    - gaku-chugai-cafe-half2-preview  # 9/14配信「明日から後半特典に切替」
+    - gaku-chugai-cafe-half2-today  # 9/15配信「本日から後半特典に切替」
+    - gaku-chugai-cafe-final  # 9/27配信「本日最終日」
+  status: done
+  notes: "重複していたstockエントリ（gaku-chugai-cafe-revival, added 8/29）を本エントリに統合（2026-09-02）。メニュー・グッズ詳細を9/5配信で記事化済み（事実確認: 各社ニュースサイト掲載のChugai Grace Cafe公式リリース内容と一致）。前半→後半特典切替予告（9/14配信）・本日切替（9/15配信）・最終日（9/27配信）まで全publish_plan消化済み。"
 
 - id: sidem-divercity-tokyo-plaza
   title: "アイドルマスター SideM in ダイバーシティ東京 プラザ"
@@ -1762,281 +629,29 @@
   status: done
   notes: "第1弾（2026年1月開催）の好評を受けた第2弾。グッズラインナップの詳細は続報待ち。新宿マルイアネックス開幕（9/4）・難波マルイ開幕（9/18）・全会場終了（9/27配信）まで全publish_plan消化済み。"
 
-- id: as765-kotobukiya-kuji-summerlive
-  title: "コトブキヤくじ「アイドルマスター Summer Live st@ge」"
-  brand: as765
+- id: sidem-transcendent-tales-onlyshop
+  title: "SideM「TRANSCENDENT T@LES」完結記念オンリーショップ"
+  brand: sidem
   kind: 公式
-  event_start: "2026-08-21"
-  event_end: "2026-09-23"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-08-22"
-  source: "アイドルマスター公式ポータル news/01_19428（2026年7月27日掲載）／コトブキヤくじ公式（kuji.kotobukiya.co.jp）"
-  facts: |
-    内容: 765プロダクション5名（天海春香・如月千早・星井美希・秋月律子・三浦あずさ）の夏空を背景にした描き下ろしイラスト
-    販売期間: 2026年8月21日（金）10:00〜9月23日（水）23:59
-    形式: ハズレなしのオンラインくじ、1回から購入可。複数購入キャンペーンも実施
-  publish_plan:
-    - on: "2026-09-22"
-      angle: "明日販売終了予告"
-    - on: "2026-09-23"
-      angle: "本日23:59販売終了"
-  used_in:
-    - as765-kotobukiya-kuji-summerlive-details  # 9/8配信「5人描き下ろしで好評開催中」
-    - as765-kotobukiya-kuji-summerlive-reminder  # 9/18配信「販売終了まで残り5日」
-    - as765-kotobukiya-kuji-summerlive-tomorrow  # 9/22配信「明日販売終了予告」
-    - as765-kotobukiya-kuji-today  # 9/23配信「本日23:59販売終了」
-  status: done
-  notes: "8/22時点では7/27発表の内容そのままで新規性がないため記事化を見送っていたが、販売期間・形式の詳細判明で9/8配信にて記事化。本日23:59販売終了（9/23配信）まで全publish_plan消化済み。"
-
-- id: as765-hangetsu-plush-pouch
-  title: "ちびぐるみ＆ポーチセット 〜はんげつであえたら〜（菊地真・萩原雪歩）"
-  brand: as765
-  kind: 公式
-  status: watching
-  confidence: confirmed
-  added: "2026-09-20"
-  source: "アイドルマスター公式ポータル news/01_19887"
-  facts: |
-    内容: 2024年3月のツインライブ「はんげつであえたら」の衣装をイメージした、菊地真・萩原雪歩それぞれのちびぐるみ＋名前刺繍入りポーチのセット（プレミアムバンダイ）
-    価格: 各4,950円（税込）
-    予約受付: 2026年9月19日10:00〜準備数に達し次第終了（固定の締切日なし）
-    お届け: 2027年3月予定
-  used_in:
-    - as765-hangetsu-plush-pouch-preorder  # 9/20配信「予約、昨日10:00より開始」
-  notes: "予約受付は準備数に達し次第終了のため固定の締切日は無し。今後『受付終了』の告知が出た場合は記事化を検討。"
-
-- id: gaku-chugai-grace-cafe-revival
-  title: "学園アイドルマスター×Chugai Grace Café リバイバル（渋谷モディ店）"
-  brand: gaku
-  kind: 公式
-  event_start: "2026-09-03"
+  event_start: "2026-09-05"
   event_end: "2026-09-27"
   status: partially-used
   confidence: confirmed
-  added: "2026-08-08"
-  source: "アイドルマスター公式ポータル news/01_19534（2026年8月7日12:05公開）／Chugai Grace Cafe公式サイト（chugai-grace-cafe.jp/collaboration/gakuen_idolmaster_revival_shibuya/）"
+  added: "2026-09-06"
+  source: "アニメイト公式サイト（animate.co.jp）"
   facts: |
-    会場: Chugai Grace Café 渋谷モディ店（7F）
-    開催期間: 2026年9月3日(木)〜9月27日(日)
-    背景: 2026年1月開催コラボカフェのリバイバル
-    内容: 前回メニューに加え新規コラボメニュー・注文特典、グッズは再販に加え新商品3種（アクリルコレクションスタンド・ハート型キャンディー付きキーホルダー・クリアうちわ、いずれもスイーツver.）
-    コラボメニュー詳細: 描き下ろしイラストの衣装と連動したメニュー。前半（9/3〜14）注文特典クリアしおり、後半（9/15〜27）はスタンディコースター
-    新作グッズ詳細: 購入3,000円ごとに前半デスクカード・後半ポイントカード風イラスト特典
+    名称: THE IDOLM@STER SideM TRANSCENDENT T@LES 完結記念 オンリーショップ
+    会場: アニメイト池袋本店、開催期間2026年9月5日（土）〜9月27日（日）
+    内容: 315プロダクションの物語を描くCDシリーズ「TRANSCENDENT T@LES」全12巻の完結を記念。スタンディパネル49人分展示、記念グッズ販売
+    公式一次ソース（idolmaster-official.jp）での告知記事は未特定、アニメイト公式サイト経由で確認。グッズラインナップ・価格等は続報待ち
   publish_plan:
-    - on: "2026-09-02"
-      angle: "明日開幕予告"
-    - on: "2026-09-03"
-      angle: "本日開幕"
     - on: "2026-09-27"
       angle: "本日最終日"
   used_in:
-    - gaku-chugai-grace-cafe-revival  # 8/8配信「新発表」
-    - gaku-chugai-cafe-tomorrow  # 9/2配信「明日9/3開幕予告」
-    - gaku-chugai-cafe-today  # 9/3配信「本日渋谷モディ店で開幕」
-    - gaku-chugai-cafe-menu-detail  # 9/5配信「メニュー詳細判明（更新あり）」
-    - gaku-chugai-cafe-half2-preview  # 9/14配信「明日から後半特典に切替」
-    - gaku-chugai-cafe-half2-today  # 9/15配信「本日から後半特典に切替」
-    - gaku-chugai-cafe-final  # 9/27配信「本日最終日」
+    - sidem-transcendent-tales-onlyshop  # 9/6配信「昨日アニメイト池袋本店で開幕」
+    - sidem-transcendent-tales-final  # 9/27配信「本日最終日」
   status: done
-  notes: "重複していたstockエントリ（gaku-chugai-cafe-revival, added 8/29）を本エントリに統合（2026-09-02）。メニュー・グッズ詳細を9/5配信で記事化済み（事実確認: 各社ニュースサイト掲載のChugai Grace Cafe公式リリース内容と一致）。前半→後半特典切替予告（9/14配信）・本日切替（9/15配信）・最終日（9/27配信）まで全publish_plan消化済み。"
-
-- id: ml-operaseria-popup
-  title: "ミリオンライブ POP UP SHOP「オペラセリア」（コトブキヤ秋葉原館）"
-  brand: ml
-  kind: 公式
-  event_start: "2026-09-11"
-  event_end: "2026-09-27"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-08-08"
-  source: "アイドルマスター公式ポータル news/01_19483（2026年8月7日18:01公開）"
-  facts: |
-    会場: コトブキヤ秋葉原館5F
-    開催期間: 2026年9月11日(金)〜9月27日(日)
-    題材: 「ミリオンリンケージ〜オペラセリア・きらめきの幼馴染編〜」
-    登場キャラクター（計6名・9/13事実確認で訂正）: 劇中劇ユニット「オペラセリア・煌輝座」の北沢志保・桜守歌織・徳川まつり・田中琴葉の4名＋「きらめきの幼馴染編」からエミリー・スチュアート・白石紬の2名
-    グッズ詳細: 続報予定
-  publish_plan:
-    - on: "2026-09-10"
-      angle: "明日開幕予告"
-    - on: "2026-09-11"
-      angle: "本日開幕"
-    - on: "2026-09-27"
-      angle: "本日最終日"
-  used_in:
-    - ml-operaseria-vol2-cast  # 8/8配信「追加キャラ2名判明」
-    - ml-operaseria-popup-tomorrow  # 9/10配信「明日開幕」
-    - ml-operaseria-popup-today  # 9/11配信「本日開幕」
-    - ml-operaseria-popup-qr-ticket-update  # 9/12配信「開幕日はQR整理券制に（更新あり）」
-    - ml-operaseria-cast-detail  # 9/14配信「出演6名の顔ぶれをあらためて紹介（更新あり）」
-    - ml-operaseria-popup-final  # 9/27配信「本日最終日」
-  status: done
-  notes: "グッズラインナップは続報待ち、要追検証。開幕日（9/11〜13）はデジタルQR整理券配布での運用と判明（9/12配信）。出演キャラクター名を事実確認し訂正（9/14配信、正しくは北沢志保・桜守歌織・徳川まつり・田中琴葉・エミリー スチュアート・白石紬）。最終日（9/27配信）まで全publish_plan消化済み。"
-
-- id: sidem-hands-knickknacks-vol1
-  title: "アイドルマスター SideM knick-knacks Vol.1（ハンズ50周年コラボ）"
-  brand: sidem
-  kind: 公式
-  event_start: "2026-08-21"
-  event_end: "2026-09-13"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-08-13"
-  source: "アイドルマスター公式ポータル news/01_19396／ハンズ各店舗イベントページ（store.hands.net, event.hands.net）"
-  facts: |
-    名称: アイドルマスター SideM knick-knacks Vol.1（ハンズ50周年記念コラボ）
-    内容: SideM12人がオリジナルエプロン姿の店員に扮した描き下ろしイラストを使用
-    開催期間: 2026年8月21日（金）〜9月13日（日）
-    展開店舗: ハンズ全国15店舗（札幌・仙台・大宮・新宿・渋谷・横浜・千葉・静岡・名古屋・心斎橋・あべのキューズモール・京都・広島・岡山・博多）＋紀伊國屋書店17店舗＋ANICLOSET（オンライン）
-    混雑対策: 8/21は入場整理券配布の可能性、8/22以降も混雑時は同様の対応の可能性
-    商品: オリジナルエプロングッズ、動物モチーフ商品、会場限定ノベルティ、オンライン限定商品など
-    事前WEB抽選結果（8/17 12:00発表）: 当選番号・入場時間帯の整列順を発表。フリー入場は初日8/21 13:30以降
-  publish_plan:
-    - on: "2026-08-20"
-      angle: "明日開幕予告"
-    - on: "2026-08-21"
-      angle: "本日開幕"
-    - on: "2026-09-13"
-      angle: "本日最終日"
-  used_in:
-    - sidem-knickknacks-lottery-result  # 8/18配信「事前WEB抽選結果、昨日12:00発表」
-    - sidem-hands-knickknacks-vol1-tomorrow  # 8/20配信「明日開幕予告」
-    - sidem-hands-knickknacks-vol1-today  # 8/21配信「本日開幕」
-    - sidem-knickknacks-vol1-opening-note  # 8/22配信「初日は事前抽選制、本日以降も混雑時整理券の可能性」
-  notes: "混雑対策の詳細（整理券配布条件等）は各店舗ページで開催が近づいてから要追検証。明日開幕予告（8/20）・本日開幕（8/21）・初日運用レポ（8/22）消化済み。最終日（9/13）が未消化。"
-
-- id: sidem-smilebase-royal-chess-lounge
-  title: "「アイドルマスター SideM」コラボカフェ（SMILE BASE CAFE Royal Chess Lounge）"
-  brand: sidem
-  kind: 公式
-  event_start: "2026-11-26"
-  event_end: "2027-01-26"
-  status: pending
-  confidence: confirmed
-  added: "2026-08-13"
-  source: "SMILE BASE CAFE公式サイト smilebase.co.jp/8126/"
-  facts: |
-    名称: 「アイドルマスター SideM」in SMILE BASE CAFE
-    名古屋栄店: 11月26日（木）〜12月12日（土）、12/12は昼の部①のみ営業
-    心斎橋店: 12月11日（金）〜12月30日（水）、12/30は昼の部①のみ営業
-    池袋店: 2027年1月7日（木）〜1月26日（火）、1/26は2部までの営業
-    3店舗を巡回する形での順次開催。コラボメニュー・物販の詳細は各店舗専用ページで発表予定
-  publish_plan:
-    - on: "2026-11-25"
-      angle: "明日名古屋栄店開幕予告"
-    - on: "2026-11-26"
-      angle: "本日名古屋栄店開幕"
-    - on: "2026-12-11"
-      angle: "本日心斎橋店開幕"
-    - on: "2027-01-07"
-      angle: "本日池袋店開幕・全店巡回完走へ"
-  used_in: []
-  notes: "開催がかなり先のため、コラボメニュー・物販詳細は近づいてから要追検証。"
-
-- id: sidem-karatetsu-vol3
-  title: "SideM×カラオケの鉄人 Vol.3「カラ鉄妖宴 百鬼夜行」"
-  brand: sidem
-  kind: 公式
-  event_start: "2026-08-13"
-  event_end: "2026-10-05"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-08-14"
-  source: "アイドルマスター公式ポータル news/01_19515／カラオケの鉄人公式（karatetsu.com/animegame/idolmaster-sidem3.shtml）"
-  facts: |
-    名称: SideM×カラオケの鉄人 コラボ第3弾「カラ鉄妖宴 百鬼夜行」
-    開催期間: 2026年8月13日（木）〜10月5日（月）
-    展開店舗（全10店舗）: 池袋東口・渋谷道玄坂・秋葉原電気街・福岡天神・大阪なんば・名古屋名駅・松山銀天街・京都河原町・新潟万代シティ・札幌すすきの
-    内容: コラボ大使に任命されたメンバーが妖怪に扮したビジュアル。コラボメニュー、来店特典ノベルティ（利用順ランダム配布）、Vol.2浴衣衣装グッズ再販、課題曲チャレンジ（規定点数達成でノベルティ）
-    コンセプトルーム: 池袋東口・秋葉原電気街・福岡天神・大阪なんば・名古屋名駅・京都河原町の6店舗、1名1枠2時間2,200円（税込）、予約は8/7 18:00〜受付中
-    グッズ通販: 9月25日(金)11:00〜10月11日(日)23:59受付（アソビストア／アニメイト通販）
-  publish_plan:
-    - on: "2026-10-05"
-      angle: "本日コラボ終了"
-  used_in:
-    - sidem-karatetsu-vol3-today  # 8/14配信「昨日全国10店舗で開幕」
-  notes: "開幕（8/13）分は記事化済み。コラボ終了（10/5）が未消化。"
-
-- id: sc-masterlivepiece-solo-live
-  title: "283 PRODUCTION Solo Live Collection -Master ShowPiece-"
-  brand: sc
-  kind: 公式
-  event_start: "2026-09-26"
-  event_end: "2026-09-27"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-08-26"
-  source: "アイドルマスター公式ポータル news/01_19705"
-  facts: |
-    会場: 京王アリーナTOKYO
-    日程: 2026年9月26日（土）・27日（日）
-    配信チケット: 販売期間8月25日19:00〜10月5日18:00（予定）、アーカイブ視聴期間9月28日18:00〜10月5日23:59（予定）
-    現地チケット一般発売（先着）: 8月29日12:00受付開始〜9月15日23:59、対象は全席指定・見切れ席・立見指定
-    公式リセール: 9月5日15:00受付開始、公演日ごとに受付URLが異なる。9/26公演分は9月16日9:59まで
-  publish_plan:
-    - on: "2026-08-29"
-      angle: "本日現地チケット一般発売（先着）開始"
-    - on: "2026-09-25"
-      angle: "明日開幕予告"
-    - on: "2026-09-26"
-      angle: "本日開幕・DAY1"
-    - on: "2026-09-27"
-      angle: "DAY1レポ＆本日DAY2・千秋楽"
-  used_in:
-    - sc-masterlivepiece-stream-ticket  # 8/26配信「配信チケット本日発売開始」
-    - sc-masterlivepiece-general-onsale-today  # 8/29配信「本日現地チケット一般発売（先着）開始」
-    - sc-masterlivepiece-resale-start  # 9/5配信「公式リセール本日15:00受付開始」
-    - sc-283pro-msp-deadlines-today  # 9/15配信「現地チケット一般発売（先着）、本日23:59締切（姉妹エントリsc-283pro-solo-live-mspの物販整理券締切と合わせて1本化）」
-  status: done
-  notes: "出演者・セトリ等の詳細は続報待ち、要追検証。公式リセール受付開始（9/5）・現地チケット一般発売（先着）本日23:59締切（9/15配信）消化済み。【重複エントリにつき要注意】本エントリと sc-283pro-solo-live-msp は同一ライブを別々に登録してしまったもの。明日開幕予告・本日開幕DAY1・DAY1レポ＆本日千秋楽DAY2はすべて sc-283pro-solo-live-msp 側で記事化済み（sc-283pro-msp-tomorrow／sc-283pro-msp-today／sc-283pro-msp-day1report-finale）。本エントリでの重複記事化はしないこと。全publish_plan消化済みにつきクローズ。"
-
-- id: godo-clashmatch-live
-  title: "THE IDOLM@STER CINDERELLA GIRLS × MILLION LIVE! CLASH M@TCH!!"
-  brand: godo
-  kind: 公式
-  event_start: "2027-02-27"
-  event_end: "2027-02-28"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-08-27"
-  source: "アイドルマスター公式ポータル news/01_19720（2026年8月26日12:00発表）"
-  facts: |
-    アソビストア一般会員先行（10/7判明）: 2026年10月7日12:00〜11月1日23:59受付、当落発表11月14日13:00、入金11月14日13:00〜11月18日23:59。対象はアリーナ前方席／プレミアムラウンジ付指定席／一般指定席、1人1公演2枚まで
-    ウォームアップ生配信: 2026年10月30日(金)20:00〜21:00予定。出演は福原綾香・高森奈津美・山崎はるか・駒形友梨、MCはJUNGO
-    開催記念ラジオ: 第1回「フレあかラジオ」（宮本フレデリカ・野々原茜）、おたより締切10月10日23:59
-    イベント名: THE IDOLM@STER CINDERELLA GIRLS × MILLION LIVE! CLASH M@TCH!!
-    開催日: 2027年2月27日（土）・28日（日）
-    会場: 愛知県・IGアリーナ
-    出演: シンデレラガールズ側CINDERELLA BAND、ミリオンライブ！側は新規ユニット「MILLION STRINGS」（弦楽器編成、ミリオンライブ！本編初）
-    背景: 両公式Xが8月23日から「Coming soon」ティザーを共同投稿、8月26日12:00に発表
-    アソビストアプレミアム会員先行（抽選）: 8月26日12:00〜9月13日23:59受付。チケット価格は1公演あたりアリーナフロント席30,000円・プレミアムラウンジ指定席20,000円・一般指定席15,000円（税込、1人2枚まで）。当落発表9月30日13:00、入金期限10月4日
-    出演声優（判明分）: 大橋彩香（島村卯月役）がDAY2（2/28、開場15:30・開演17:00予定）に出演。国内オンライン配信（リアルタイム／アーカイブ）も予定
-  publish_plan:
-    - on: "2026-09-13"
-      angle: "本日プレミアム会員先行受付締切"
-    - on: "2026-09-30"
-      angle: "本日プレミアム会員先行当落発表"
-    - on: "2026-10-30"
-      angle: "本日ウォームアップ生配信"
-    - on: "2026-11-02"
-      angle: "一般会員先行、昨日受付終了"
-    - on: "2026-11-14"
-      angle: "本日一般会員先行当落発表"
-    - on: "2027-02-26"
-      angle: "明日開幕予告"
-    - on: "2027-02-27"
-      angle: "本日開幕・DAY1"
-    - on: "2027-02-28"
-      angle: "DAY1レポ＆本日DAY2・千秋楽"
-  used_in:
-    - godo-clashmatch-announce  # 8/27配信「開催決定・本日チケット先行受付開始」
-    - godo-clashmatch-price-cast  # 8/28配信「チケット価格帯と出演声優の一部が判明（更新あり）」
-    - godo-clashmatch-presale-deadline  # 9/14配信「プレミアム会員先行、昨日受付終了」
-    - godo-clashmatch-general-presale  # 10/8配信「アソビストア一般会員先行スタート」
-    - godo-clashmatch-warmup-stream  # 10/8配信「ウォームアップ生配信10/30決定」
-    - godo-clashmatch-radio-fureakane  # 10/8配信「開催記念ラジオ第1回フレあか」
-  notes: "MILLION STRINGSのメンバー構成・出演者詳細は続報待ち、要追検証。一般発売日程も未発表。チケット価格帯・大橋彩香DAY2出演判明（8/28配信）。プレミアム会員先行受付締切（9/13）を9/14配信で記事化済み（当初on:2026-09-13で予定していたが1日遅れで消化）。当落発表（9/30）以降が未消化。"
+  notes: "開幕（9/5）分は記事化済み。グッズ詳細・公式一次ソースは要追検証。最終日（9/27配信）まで全publish_plan消化済み。"
 
 - id: sc-natsumo-atsui-sp-followup-releases
   title: "シャニマス生配信「～8月も意外と暑い～ズSP～」発表楽曲・アルバム"
@@ -2081,29 +696,189 @@
   status: partially-used
   notes: "アルバム収録アイドルの内訳・各形態の振り分けは続報待ち、要追検証。3形態・価格判明（8/30配信）。パラレル回廊の入場事前予約受付開始（9/4 12:00〜9/13 23:59）を9/5配信で記事化済み。新曲「泡沫に染まる」配信開始（9/6）消化済み。パラレル回廊の来場予約は9/13 23:59に受付終了（9/14配信で記事化）。アルバム『HOPEFUL FE@THERS』の明日発売予告（9/15配信）・本日発売（9/16配信）・CD発売記念グッズ通販開始（9/17配信）まで消化済み。商品ラインナップ・対象アイドルの詳細は続報待ち。パラレル回廊の明日開幕予告（9/19配信）・本日開幕（9/20配信）・開催中/オフィシャルショップ展開判明（9/21配信）・本日最終日（9/27配信）まで消化済み。グッズ通販締切（9/30）が未消化。"
 
-- id: sidem-transcendent-tales-onlyshop
-  title: "SideM「TRANSCENDENT T@LES」完結記念オンリーショップ"
-  brand: sidem
+- id: sc-autumn-training-week-202609
+  title: "シャニマス「秋のアイドル強化週間」"
+  brand: sc
   kind: 公式
-  event_start: "2026-09-05"
-  event_end: "2026-09-27"
+  event_start: "2026-09-07"
+  event_end: "2026-09-29"
   status: partially-used
   confidence: confirmed
   added: "2026-09-06"
-  source: "アニメイト公式サイト（animate.co.jp）"
+  source: "アイドルマスター シャイニーカラーズ公式X（@imassc_official）"
   facts: |
-    名称: THE IDOLM@STER SideM TRANSCENDENT T@LES 完結記念 オンリーショップ
-    会場: アニメイト池袋本店、開催期間2026年9月5日（土）〜9月27日（日）
-    内容: 315プロダクションの物語を描くCDシリーズ「TRANSCENDENT T@LES」全12巻の完結を記念。スタンディパネル49人分展示、記念グッズ販売
-    公式一次ソース（idolmaster-official.jp）での告知記事は未特定、アニメイト公式サイト経由で確認。グッズラインナップ・価格等は続報待ち
+    内容: 好きなアイドルでユニットを組んでプロデュースする育成イベント。育成ポイントをショップで報酬と交換可能、各プロデュースシナリオにイベント限定ボーナスあり
+    開催期間: 2026年9月7日（月）〜9月29日（火）11:59（予定）
   publish_plan:
+    - on: "2026-09-07"
+      angle: "本日開始"
+    - on: "2026-09-29"
+      angle: "本日最終日"
+  used_in:
+    - sc-autumn-training-week  # 9/7配信「本日開始（9月29日まで）」
+    - sc-autumn-training-week-day2-buzz  # 9/8配信「開催2日目、SNSで編成議論白熱（ファン話題）」
+    - sc-autumn-training-week-final  # 9/29配信「本日最終日」
+  status: done
+  notes: "終了（9/29配信）まで全publish_plan消化済みにつきクローズ。"
+
+- id: ml-operaseria-popup
+  title: "ミリオンライブ POP UP SHOP「オペラセリア」（コトブキヤ秋葉原館）"
+  brand: ml
+  kind: 公式
+  event_start: "2026-09-11"
+  event_end: "2026-09-27"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-08"
+  source: "アイドルマスター公式ポータル news/01_19483（2026年8月7日18:01公開）"
+  facts: |
+    会場: コトブキヤ秋葉原館5F
+    開催期間: 2026年9月11日(金)〜9月27日(日)
+    題材: 「ミリオンリンケージ〜オペラセリア・きらめきの幼馴染編〜」
+    登場キャラクター（計6名・9/13事実確認で訂正）: 劇中劇ユニット「オペラセリア・煌輝座」の北沢志保・桜守歌織・徳川まつり・田中琴葉の4名＋「きらめきの幼馴染編」からエミリー・スチュアート・白石紬の2名
+    グッズ詳細: 続報予定
+  publish_plan:
+    - on: "2026-09-10"
+      angle: "明日開幕予告"
+    - on: "2026-09-11"
+      angle: "本日開幕"
     - on: "2026-09-27"
       angle: "本日最終日"
   used_in:
-    - sidem-transcendent-tales-onlyshop  # 9/6配信「昨日アニメイト池袋本店で開幕」
-    - sidem-transcendent-tales-final  # 9/27配信「本日最終日」
+    - ml-operaseria-vol2-cast  # 8/8配信「追加キャラ2名判明」
+    - ml-operaseria-popup-tomorrow  # 9/10配信「明日開幕」
+    - ml-operaseria-popup-today  # 9/11配信「本日開幕」
+    - ml-operaseria-popup-qr-ticket-update  # 9/12配信「開幕日はQR整理券制に（更新あり）」
+    - ml-operaseria-cast-detail  # 9/14配信「出演6名の顔ぶれをあらためて紹介（更新あり）」
+    - ml-operaseria-popup-final  # 9/27配信「本日最終日」
   status: done
-  notes: "開幕（9/5）分は記事化済み。グッズ詳細・公式一次ソースは要追検証。最終日（9/27配信）まで全publish_plan消化済み。"
+  notes: "グッズラインナップは続報待ち、要追検証。開幕日（9/11〜13）はデジタルQR整理券配布での運用と判明（9/12配信）。出演キャラクター名を事実確認し訂正（9/14配信、正しくは北沢志保・桜守歌織・徳川まつり・田中琴葉・エミリー スチュアート・白石紬）。最終日（9/27配信）まで全publish_plan消化済み。"
+
+- id: sidem-anideal-daimaru-perfume
+  title: "SideM×Anideal 大丸コラボレーション香水 第1弾"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-09-11"
+  event_end: "2026-10-15"
+  status: pending
+  confidence: confirmed
+  added: "2026-09-10"
+  source: "アイドルマスター公式ポータル news/01_19820"
+  facts: |
+    内容: フレグランスブランド「Anideal」と大丸のコラボレーション香水・第1弾メンバー分。コラボビジュアル使用のサイン入りポストカード付属
+    予約期間: 2026年9月11日(金)12:00〜10月15日(木)14:59
+    お届け予定: 2027年3月中旬以降
+    続報: DRAMATIC STARS・Beit・W・Café Parade・F-LAGSは10月下旬以降に順次展開予定（要追検証）
+  publish_plan:
+    - on: "2026-09-11"
+      angle: "本日12:00予約開始"
+    - on: "2026-10-15"
+      angle: "本日14:59予約締切"
+  used_in:
+    - sidem-anideal-daimaru-perfume-reservation  # 9/10配信「予約は明日12:00から（明日予告）」
+    - sidem-anideal-daimaru-perfume-start  # 9/11配信「本日12:00予約開始」
+  status: partially-used
+  notes: "第1弾の対象メンバー名は未取得、要追検証。第2弾以降（DRAMATIC STARS等）の詳細判明次第、別エントリとして追加する。本日予約開始（9/11配信）消化済み。予約締切（10/15）が未消化。"
+
+- id: sidem-joypolis-collab3
+  title: "アイドルマスター SideM in JOYPOLIS 3"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-09-12"
+  event_end: "2026-12-06"
+  status: pending
+  confidence: confirmed
+  added: "2026-08-31"
+  source: "東京ジョイポリス公式サイト（tokyo-joypolis.com/event/sidem_jp2026）／アニメ！アニメ！（2026年8月30日20:30配信）"
+  facts: |
+    名称: アイドルマスター SideM in JOYPOLIS 3（東京ジョイポリスとのコラボ第3弾）
+    開催期間: 2026年9月12日（土）〜12月6日（日）
+    アンバサダー: 東京ジョイポリス30周年アンバサダーの「High×Joker」「神速一魂」が中心
+    出演ユニット: 315プロダクション全16ユニット（DRAMATIC STARS・彩・Café Parade・THE 虎牙道・Altessimo・Beit・もふもふえん・S.E.M・C.FIRST・Jupiter・W・FRAME・F-LAGS・Legenders・315 ALLSTARS ほか）
+    スペシャルショー: 各ユニットの3Dライブ映像を使用、両アンバサダーユニットのナレーション追加
+    アトラクション: 音ゲーコースター「撃音 ライブ コースター」リニューアル（神速一魂の録り下ろしボイス追加）、「ワイルドリバー ザ・トレジャーハント」でHigh×Jokerボイス使用、占いアトラクション「フォーチュンフォレスト」期間限定デザイン
+    新規企画: ボイス付きミニラリー（限定ノベルティ）
+    その他: コラボフード・ドリンク、JP STOREでの描き下ろしグッズ販売、対象アイドル12名分のバースデー企画
+  publish_plan:
+    - on: "2026-09-11"
+      angle: "明日開幕予告"
+    - on: "2026-09-12"
+      angle: "本日開幕"
+    - on: "2026-12-06"
+      angle: "本日最終日"
+  used_in:
+    - sidem-joypolis-collab3-announce  # 8/31配信「新発表・9月12日開催決定」
+    - sidem-joypolis-collab3-tomorrow  # 9/11配信「明日開幕予告」
+    - sidem-joypolis-collab3-today  # 9/12配信「本日開幕」
+    - sidem-joypolis3-attractions-update  # 9/13配信「アトラクション詳細判明（更新あり）」
+  status: partially-used
+  notes: "開幕予告（9/11配信）・本日開幕（9/12配信）・アトラクション詳細判明（9/13配信、撃音ライブコースター・ワイルドリバー・フォーチュンフォレスト等）消化済み。最終日（12/6）が未消化。"
+
+- id: sidem-11th-stage
+  title: "THE IDOLM@STER SideM 11th STAGE ～EVER EVER＠FTER～"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-09-12"
+  event_end: "2026-09-13"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-07-05"
+  source: "アイドルマスター公式ポータル news/01_19177、01_19092 / アソビストア（2026年6〜7月）"
+  facts: |
+    会場: TOYOTA ARENA TOKYO
+    日程: 2026年9月12日（土）・13日（日）
+    チケット: 2次先行（アソビストアプレミアム12ヶ月会員限定、受付6/25〜7/5、当落発表7/17 13:00〜、入金7/17〜7/21）
+    グッズ事前販売第2弾: 6/18〜7/5受付。公式パンフレット5,800円・Tシャツ3,600円・タオル2,200円ほか一部限定数商品（コンサートライト・ミニライト・ビーズストラップ・サコッシュ等）。配送8月末〜9月上旬予定
+    配信チケット: 8/4 12:00〜9/21 18:00受付。DAY1+DAY2通し12,000円、DAY1・DAY2単日各6,000円（税込・機能利用料込）。アーカイブは最速版（各公演終了1時間後〜9/14 18:00）・正式版（9/14 18:00〜9/21 23:59）
+    現地チケット価格帯: 全席指定13,500円、見切れ席13,000円、スイート25,000円、テラススイート50,000円〜（いずれも税込）
+    当日券（9/11判明）: 機材席開放・ステージプラン調整に伴い9月12日0:00より販売。1枚14,000円（税込）、各公演当日0:00〜開場3時間前までWeb限定・クレジットカード決済のみ
+  publish_plan:
+    - on: "2026-07-17"
+      angle: "本日チケット2次先行当落発表"
+    - on: "2026-07-21"
+      angle: "本日2次先行入金締切"
+    - on: "2026-09-11"
+      angle: "明日開幕予告"
+    - on: "2026-09-12"
+      angle: "本日開幕・DAY1"
+    - on: "2026-09-13"
+      angle: "DAY1レポ＆本日DAY2"
+    - on: "2026-09-14"
+      angle: "閉幕レポ"
+  used_in:
+    - sidem-11th-stage-deadline  # 7/5配信「チケット2次先行・グッズ事前販売第2弾、本日23:59締切」
+    - sidem-11th-stage-lottery-result  # 7/17配信「本日13:00チケット2次先行当落発表」
+    - sidem-11th-stage-payment-deadline  # 7/21配信「本日2次先行入金締切」
+    - sidem-11th-stage-stream-ticket  # 8/5配信「配信チケットが昨日発売開始」
+    - sidem-11th-stage-goods-cd-reveal  # 8/22配信「会場物販・CD情報が公開」
+    - sidem-11th-stage-general-sale  # 8/23配信「現地引換チケット一般発売が昨日正午より開始」
+    - sidem-11th-stage-costume-reveal  # 8/24配信「新衣装『トランセンデントリルード』ビジュアル公開」
+    - sidem-11th-stage-goods-lottery-start  # 8/28配信「会場物販の抽選整理券受付が本日開始」
+    - sidem-11th-stage-general-sale-closed  # 9/6配信「現地チケット一般発売が昨日23:59に受付終了」
+    - sidem-11th-stage-goods-lottery-result  # 9/8配信「会場物販の抽選整理券当落発表は本日13:00」
+    - sidem-11th-stage-goods-lottery-anticipation  # 9/8配信「物販整理券、当落発表控えファン緊張の面持ち（ファン話題）」
+    - sidem-11th-stage-delivery-goods-web  # 9/9配信「差し入れ企画『315デリバリー』・グッズWEB販売の詳細判明」
+    - sidem-11th-stage-countdown-buzz  # 9/9配信「開幕まで残り3日、差し入れ企画にファン反応（ファン話題）」
+    - sidem-11th-kamisabi-sales-announce  # 9/10配信「会場でカードゲーム『KAMISABI』販売・体験会が決定」
+    - sidem-11th-stage-countdown-day2  # 9/10配信「開幕まで残り2日（ファン話題）」
+    - sidem-11th-stage-tomorrow  # 9/11配信「明日開幕予告」
+    - sidem-11th-stage-goods-web-sale-start  # 9/11配信「公式グッズWEB販売、本日17:00スタート（〜10/4）」
+    - sidem-11th-stage-today  # 9/12配信「本日開幕・DAY1、当日券販売も決定」
+    - sidem-11th-stage-opening-buzz  # 9/12配信「開幕、SNSで実況ムード最高潮（ファン話題）」
+    - sidem-11th-stage-day1-report-day2  # 9/13配信「昨日DAY1完走・本日DAY2で千秋楽へ」
+  facts: |
+    会場: TOYOTA ARENA TOKYO
+    日程: 2026年9月12日（土）・13日（日）
+    会場物販: 両日11:00〜17:30、TOYOTA ARENA TOKYOサブアリーナで実施。混雑緩和のため一部時間帯は事前抽選整理券制（ASOBI TICKET受付8/28 13:00〜9/2 23:59、当落発表9/8 13:00〜）。具体的な商品ラインナップは公式サイト物販ページで確認可能、価格等は未取得のため要追検証。
+    新CD: 「SideM 10th ANNIVERSARY P@SSION SOLO COLLECTION 04」2,750円（税込）、THE 虎牙道・F-LAGS・Legenders・C.FIRSTメンバーのソロ楽曲収録
+    配信チケット: 8/4 12:00〜9/21 18:00受付。DAY1+DAY2通し12,000円、DAY1・DAY2単日各6,000円（税込・機能利用料込）
+    現地引換チケット一般発売: 8/22(土)12:00〜9/5(土)23:59受付。あわせてASOBI TICKET公式リセールも8/22 15:00〜9/6 9:59受付
+    現地チケット価格帯: 全席指定13,500円、見切れ席13,000円、スイート25,000円、テラススイート50,000円〜（いずれも税込）
+    公演テーマ: 「語り継がれる物語」。CDシリーズ「TRANSCENDENT T@LES」で描かれる315プロダクションの物語が軸。新衣装「トランセンデントリルード」のビジュアルが公開中
+    会場物販整理券: ASOBI TICKET受付8/28 13:00〜9/2 23:59、当落発表9/8 13:00〜（8/28配信で記事化済み）
+    差し入れ企画「みんなで食べよう！パッション全開！315デリバリー!!!!!!!!!!」: 1件315円（税込）、受付9/11 17:00〜9/13 23:59。購入者はニックネーム付きメッセージ送信・アイドルからのサンキューメッセージ受取・マイチケットページからの「11th STAGEバックステージパス」画像ダウンロード特典あり
+    公式グッズWEB販売（ASOBI STORE）: 受付9/11 17:00〜10/4、shop.asobistore.jp/feature/sidem11th_p
+  notes: "出演者・セトリ等の詳細は未取得。会場物販・CD情報（8/22）・現地引換チケット一般発売開始（8/23）・新衣装ビジュアル公開（8/24）・現地チケット一般発売、昨日23:59受付終了（9/6）・物販整理券当落発表（9/8）・差し入れ企画『315デリバリー』受付詳細（9/9）・明日開幕予告（9/11配信）・公式グッズWEB販売開始（9/11配信）・本日開幕・DAY1、当日券販売決定（9/12配信）・DAY1レポ＆本日DAY2（9/13配信）消化済み。DAY1本編最後にSPARKLE SHOWDOWN・Blu-ray・プロデューサーミーティング2027・Mフェステーマソングの4件が発表され、それぞれ別エントリで管理（godo-sidem-sc-sparkle-showdown／sidem-producer-meeting-2027／sidem-11th-stage-bluray／sidem-mfes-2026-theme-song）。閉幕レポ（9/14）が未消化。"
 
 - id: sogo-imasradio-launch
   title: "新ラジオ番組「IM@S RADIO」放送開始"
@@ -2139,167 +914,117 @@
   status: done
   notes: "初回ゲスト・具体的なコーナー内容は続報待ち、要追検証。明日初回配信予告（9/14配信）・本日初回配信（9/15配信）消化済み。【9/15事実確認】第1回はパーソナリティ2名（平田宏美・若林直美）のみの立ち上げ回で、ゲストなし。ゲスト出演は第2回以降の想定（当初stockに記載していた『ゲスト判明』は誤りだったため訂正）。第2回（9/29）のゲスト・テーマが9/15 22:20判明、9/16配信で記事化済み。第2回放送当日（9/29配信）まで全publish_plan消化済みにつきクローズ。第3回以降の詳細が判明次第、新規エントリで追加する。"
 
-- id: sc-autumn-training-week-202609
-  title: "シャニマス「秋のアイドル強化週間」"
-  brand: sc
+- id: other-tours-s1ex
+  title: "アイドルマスター TOURS「S1弾Ex」アップデート"
+  brand: other
   kind: 公式
-  event_start: "2026-09-07"
-  event_end: "2026-09-29"
+  event_start: "2026-09-17"
   status: partially-used
   confidence: confirmed
-  added: "2026-09-06"
-  source: "アイドルマスター シャイニーカラーズ公式X（@imassc_official）"
+  added: "2026-09-02"
+  source: "TOURS公式ティザーPV（YouTube）／アイドルマスター公式ポータル news/01_19544"
   facts: |
-    内容: 好きなアイドルでユニットを組んでプロデュースする育成イベント。育成ポイントをショップで報酬と交換可能、各プロデュースシナリオにイベント限定ボーナスあり
-    開催期間: 2026年9月7日（月）〜9月29日（火）11:59（予定）
+    内容: アーケード「アイドルマスター TOURS」（765プロ・シンデレラガールズ・ミリオンライブ・学園アイドルマスター等ブランド横断キャスト）の新弾アップデート「S1弾Ex」
+    追加キャラクター: 周防桃子（ミリオンライブ）
+    実装日: 2026年9月17日（木）
+    新曲カード「ローリング△さんかく」（周防桃子ソロ曲、本作初収録）、「S1弾ツアーズレア」として全28種の描き下ろしイラストカードを配信（SSRサポートカード「our summer continues」、新衣装「サマーティースタイル」、新アクセサリー「ドリルアーム」等）
+    ログインキャンペーン: 「ツアーズレアS1弾リリースキャンペーン」9月17日〜10月28日、5日間ログインでツアーズレアチケット最大1,000枚
   publish_plan:
-    - on: "2026-09-07"
-      angle: "本日開始"
-    - on: "2026-09-29"
-      angle: "本日最終日"
+    - on: "2026-09-16"
+      angle: "明日実装予告"
+    - on: "2026-09-17"
+      angle: "本日実装"
   used_in:
-    - sc-autumn-training-week  # 9/7配信「本日開始（9月29日まで）」
-    - sc-autumn-training-week-day2-buzz  # 9/8配信「開催2日目、SNSで編成議論白熱（ファン話題）」
-    - sc-autumn-training-week-final  # 9/29配信「本日最終日」
+    - other-tours-s1ex-speculation  # 9/4配信「実装日巡りファンが考察合戦（ファン話題）」
+    - other-tours-s1ex-implementation-date  # 9/15配信「実装日9/17確定・周防桃子参戦判明」
+    - other-tours-s1ex-details  # 9/16配信「明日実装予告・詳細判明（28種カード・新衣装・ログインキャンペーン）」
+    - other-tours-s1ex-today  # 9/17配信「本日実装」
+    - ml-tours-s1ex-buzz  # 9/18配信「昨日実装・周防桃子初参戦にファン歓迎の声（ファン話題）」
   status: done
-  notes: "終了（9/29配信）まで全publish_plan消化済みにつきクローズ。"
+  notes: "実装日（9/17）・追加キャラクター周防桃子・新曲カード判明（9/15配信）。明日実装予告・詳細判明（9/16配信）・本日実装（9/17配信）まで全publish_plan消化済み。9/18配信でファン反響を追加記事化。"
 
-- id: sidem-anideal-daimaru-perfume
-  title: "SideM×Anideal 大丸コラボレーション香水 第1弾"
-  brand: sidem
-  kind: 公式
-  event_start: "2026-09-11"
-  event_end: "2026-10-15"
-  status: pending
-  confidence: confirmed
-  added: "2026-09-10"
-  source: "アイドルマスター公式ポータル news/01_19820"
-  facts: |
-    内容: フレグランスブランド「Anideal」と大丸のコラボレーション香水・第1弾メンバー分。コラボビジュアル使用のサイン入りポストカード付属
-    予約期間: 2026年9月11日(金)12:00〜10月15日(木)14:59
-    お届け予定: 2027年3月中旬以降
-    続報: DRAMATIC STARS・Beit・W・Café Parade・F-LAGSは10月下旬以降に順次展開予定（要追検証）
-  publish_plan:
-    - on: "2026-09-11"
-      angle: "本日12:00予約開始"
-    - on: "2026-10-15"
-      angle: "本日14:59予約締切"
-  used_in:
-    - sidem-anideal-daimaru-perfume-reservation  # 9/10配信「予約は明日12:00から（明日予告）」
-    - sidem-anideal-daimaru-perfume-start  # 9/11配信「本日12:00予約開始」
-  status: partially-used
-  notes: "第1弾の対象メンバー名は未取得、要追検証。第2弾以降（DRAMATIC STARS等）の詳細判明次第、別エントリとして追加する。本日予約開始（9/11配信）消化済み。予約締切（10/15）が未消化。"
-
-- id: valiv-online-1on1-13th
-  title: "PROJECT vα-liv 限定オンライン1on1 第13回"
-  brand: valiv
-  kind: 公式
-  event_start: "2026-10-03"
-  event_end: "2026-10-04"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-09-10"
-  source: "アイドルマスター公式ポータル news/01_19842"
-  facts: |
-    内容: ヴイアライヴメンバーとのオンラインミーティングイベント。ミーティング中のスクリーンショット撮影・SNS投稿可
-    開催日: 灯里愛夏 2026年10月3日(土)、上水流宇宙・レトラ 2026年10月4日(日)
-    抽選受付期間: 2026年9月9日(水)12:00〜9月15日(火)23:59
-    料金: Sレッスン（2分）各5,500円、SS+レッスン（4分）各13,200円、SSS+レッスン（6分）各18,700円（いずれも税込）
-  publish_plan:
-    - on: "2026-10-03"
-      angle: "灯里愛夏、本日開催"
-    - on: "2026-10-04"
-      angle: "上水流宇宙・レトラ、本日開催"
-  used_in:
-    - valiv-online-1on1-13th-lottery-start  # 9/10配信「抽選受付が昨日スタート」
-    - valiv-online1on1-13th-deadline  # 9/15配信「抽選受付、本日23:59締切」
-  status: partially-used
-  notes: "当落発表日は未取得、要追検証。抽選受付締切（9/15）消化済み。開催日（10/3・10/4）が未消化。"
-
-- id: ml-mogami-shizuka-memorial-figure
-  title: "コトブキヤ メモリアルフィギュア第一弾「最上静香-The Animation-」"
-  brand: ml
-  kind: 公式
-  event_start: "2027-05-01"
-  status: partially-used
-  confidence: confirmed
-  added: "2026-09-15"
-  source: "HOBBY Watch／コトブキヤ製品情報"
-  facts: |
-    内容: アニメ「アイドルマスター ミリオンライブ！」メモリアルフィギュアシリーズ第一弾「最上静香-The Animation-」。ステージ衣装「スターティング・ブルーム」姿を立体化
-    販売: コトブキヤショップ・ASOBI STORE限定
-    価格: 23,100円（税込）
-    予約開始: 2026年9月14日
-    発売予定: 2027年5月
-    台座: シンプルなアクリル台座、MILLIONSTARS Team1st・2nd・3rdメンバー背景シート付台座の2種
-    シリーズ展開: 第2弾に伊吹翼、第3弾に春日未来の立体化も予定
-  publish_plan:
-    - on: "予約締切日（未定）"
-      angle: "予約締切間近・締切"
-    - on: "2027-04-30"
-      angle: "明日発売予告"
-    - on: "2027-05-01"
-      angle: "本日発売"
-  used_in:
-    - ml-mogami-figure-preorder  # 9/15配信「昨日予約開始」
-  notes: "予約締切日・発売正確な日付（2027年5月中の具体的な日）は続報待ち、要追検証。"
-
-- id: gaku-alter-kotone-kanmugiku-figure
-  title: "ALTER「藤田ことね 冠菊Ver.」1/7スケールフィギュア"
+- id: gaku-ichibankuji-part6
+  title: "一番くじ 学園アイドルマスター Part6"
   brand: gaku
   kind: 公式
-  event_start: "2027-09-01"
+  event_start: "2026-09-19"
+  event_end: "2026-09-19"
+  confidence: confirmed
+  added: "2026-09-02"
+  source: "アイドルマスター公式ポータル news/01_19668"
+  facts: |
+    内容: 一番くじ「学園アイドルマスター Part6」。有村麻央・倉本千奈・篠澤広の1/7フィギュア（「Gracemaster」シリーズ）を含む全13アイドル分のグッズ、Kiraraizuマスコット等
+    価格: 1回850円
+    店頭販売開始: 2026年9月19日（土）
+    オンライン販売開始: 2026年9月24日（木）17:00
+    取扱店: ローソン・書店・ホビーショップ・一部ドラッグストア・一番くじ公式ショップ・一番くじONLINE
+  publish_plan:
+    - on: "2026-09-18"
+      angle: "明日店頭発売予告"
+    - on: "2026-09-19"
+      angle: "本日店頭発売開始"
+    - on: "2026-09-24"
+      angle: "本日オンライン販売開始"
+  used_in:
+    - gaku-ichibankuji-part6-tomorrow  # 9/18配信「明日9/19より順次発売予告」
+    - gaku-ichibankuji-part6-today  # 9/19配信「本日店頭発売開始」
+    - gaku-ichibankuji-part6-online  # 9/24配信「本日17時よりオンライン販売開始」
+  status: done
+  notes: "くじ自体の企画発表は2026年4月時点で既出の可能性あり、販売チャネル・日程の詳細が9月に入り判明。店頭発売開始（9/19配信）・オンライン販売開始（9/24配信）まで全publish_plan消化済み。"
+
+- id: godo-anime-girls-project-store-shanghai
+  title: "アニメガールズプロジェクトストア（上海）グランドオープン"
+  brand: godo
+  kind: 公式
+  event_start: "2026-09-22"
   status: partially-used
   confidence: confirmed
-  added: "2026-09-12"
-  source: "アイドルマスター公式ポータル news/01_19778／ALTER公式サイト（alter-web.jp/products/655/）"
+  added: "2026-09-08"
+  source: "imasnews765.com（アイドルマスター情報まとめ）／アイドルマスター公式ポータル news/01_19895"
   facts: |
-    内容: 学園アイドルマスター・藤田ことねの1/7スケールフィギュア「藤田ことね 冠菊Ver.」。「冠菊」特訓後イラストを立体化
-    予約受付開始: 2026年9月11日(金)12:00
-    価格: 29,480円（税込）、全高約270mm、専用台座付属
-    原型: 黒川りく＋沼倉としあき／彩色: 緋色（scarlet）＋渡邊恭大
-    発売予定: 2027年9月
+    内容: アイドルマスター・バンドリ！・ラブライブ！の3大シリーズが集結する新業態「アニメガールズプロジェクトストア（AGP Store）」、アニメイト上海運営
+    開業日: 2026年9月22日（火）
+    会場: 上海市南京東路340号「百聯ZX創趣場」L4
+    オープンにあわせオリジナル新商品を9/22より発売予定（数量限定・購入制限あり）
+    詳細な取扱商品・アイドルマスター側の展開内容は続報待ち
   publish_plan:
-    - on: "予約締切日（未定）"
-      angle: "予約締切間近・締切"
-    - on: "2027-08-31"
-      angle: "明日発売予告"
-    - on: "2027-09-01"
-      angle: "本日発売"
+    - on: "2026-09-21"
+      angle: "明日上海グランドオープン予告"
+    - on: "2026-09-22"
+      angle: "本日上海グランドオープン"
   used_in:
-    - gaku-alter-kotone-kanmugiku-figure  # 9/12配信「昨日予約開始」
-  notes: "予約締切日は続報待ち、要追検証。発売日（2027年9月）は月表記のみのため、正確な発売日が判明次第event_startを更新する。"
+    - godo-agpstore-shanghai-tomorrow  # 9/21配信「明日グランドオープン予告」
+    - godo-agpstore-shanghai-buzz  # 9/21配信「オープンに海外ファンから期待の声（ファン話題）」
+    - godo-agpstore-shanghai-today  # 9/22配信「本日上海グランドオープン」
+  status: done
+  notes: "詳細な取扱ブランド・商品ラインナップは続報待ち、要追検証。【9/19判明】会場住所（百聯ZX創趣場L4）・運営元（アニメイト上海）を確認、AGPオリジナルグッズ展開・他店舗への将来展開方針にも言及あり（idolmaster-official.jp/news/01_19895）。本日上海グランドオープン（9/22配信）まで全publish_plan消化済み。取扱商品の詳細が判明したら新規エントリで追加記事化する。"
 
-- id: ml-souhbetsu-ringo-matsuri-2026
-  title: "第50回そうべつりんごまつり（木下ひなた りんご大使4年目）"
+- id: ml-14thlive-commentary-viewing
+  title: "14thLIVE DAY2 主演声優コメンタリー付き同時視聴上映会"
   brand: ml
   kind: 公式
-  event_start: "2026-10-02"
-  event_end: "2026-11-08"
-  status: partially-used
+  event_start: "2026-09-23"
+  status: pending
   confidence: confirmed
-  added: "2026-09-16"
-  source: "アイドルマスター公式ポータル news/01_19861"
+  added: "2026-09-21"
+  source: "アイドルマスター公式ポータル news/01_19883"
   facts: |
-    内容: ミリオンライブ！木下ひなたが北海道壮瞥町「りんご大使」を4年目として続投する「第50回そうべつりんごまつり」
-    開催日: 2026年10月2日（金）〜
-    オープニングセレモニー: 10月2日9:30〜10:00、そうべつ情報館i。木下ひなたのメッセージ読み上げ・公式Xでのライブ配信あり
-    オリジナルフォトスポット設置: 11月11日まで
-    EC限定ミニパネル販売: 10月2日正午〜11月8日
-    新規グッズ: ドームピンズ・手ぬぐい・ラバーキーホルダー（既存グッズに加えて新規追加）
-    そのほか: スタンプラリー、物産市を実施
+    内容: 14thLIVE DAY2本編映像を、主演声優の生出演コメンタリー付きで同時視聴
+    出演: 高橋ミナミ（馬場このみ役）・山口立花子（百瀬莉緒役）
+    開催日時: 2026年9月23日（水・祝）12:00〜
+    視聴方法・チケット購入者限定かどうかは続報待ち
   publish_plan:
-    - on: "2026-10-01"
-      angle: "明日開幕予告"
-    - on: "2026-10-02"
-      angle: "本日開幕・オープニングセレモニー"
-    - on: "2026-11-08"
-      angle: "本日EC限定ミニパネル販売終了"
-    - on: "2026-11-11"
-      angle: "本日フォトスポット設置終了・完走"
+    - on: "2026-09-22"
+      angle: "明日開催予告"
+    - on: "2026-09-23"
+      angle: "本日開催"
   used_in:
-    - ml-kinoshita-hinata-ringo-matsuri  # 9/16配信「新発表・詳細判明」
-  notes: "9/15発表・9/16配信で記事化済み。開幕予告（10/1）以降が未消化。"
+    - ml-14thlive-commentary-viewing-announce  # 9/21配信「新発表」
+    - ml-14thlive-commentary-viewing-tomorrow  # 9/22配信「明日開催予告」
+    - ml-14thlive-day1-commentary  # 9/23配信「DAY1（諏訪彩花・郁原ゆう）、昨日開催」
+    - ml-14thlive-day2-commentary-today  # 9/23配信「DAY2（高橋ミナミ・山口立花子）、本日開催」
+  status: done
+  notes: "視聴方法の詳細は続報待ち、要追検証。DAY1（9/22、諏訪彩花さん・郁原ゆうさん）・DAY2（9/23、高橋ミナミさん・山口立花子さん）とも記事化済みで全publish_plan消化済み。"
 
 - id: gaku-namco-crane-campaign-202609
   title: "学園アイドルマスター×namco クレーンゲーム連動キャンペーン"
@@ -2356,37 +1081,360 @@
     - cg-puzzledragon-collab  # 9/25配信「本日開始」
   notes: "対象魔法石セット購入によるBGM解放特典など細部は続報待ち、要追検証。本日開始（9/25配信）まで消化済み。"
 
-- id: valiv-3rdlive-meeting-2027
-  title: "ヴイアラ「3rdLIVE&MEETING」（初の二都市開催）"
-  brand: valiv
+- id: cg-yurakucho-marui-popup
+  title: "シンデレラガールズPOP UP SHOP（有楽町マルイ、京まふ事後物販）"
+  brand: cg
   kind: 公式
-  event_start: "2027-01-30"
-  event_end: "2027-03-22"
+  event_start: "2026-09-26"
+  event_end: "2026-10-14"
+  status: partially-used
+  confidence: unconfirmed
+  added: "2026-09-27"
+  source: "the-chara.com（2026年9月）／collabo-cafe.com"
+  facts: |
+    会場: 有楽町マルイ7F
+    開催期間: 2026年9月26日(土)〜10月14日(水)
+    内容: 京都国際マンガ・アニメフェア2026（京まふ）で販売した商品の再販＋新規描き下ろしグッズ。税込3,000円以上購入で特典ブロマイド配布、特大アクリルフィギュア抽選会
+    初日は来場者集中が見込まれ入場制限あり
+  publish_plan:
+    - on: "2026-10-14"
+      angle: "本日最終日"
+  used_in:
+    - cg-yurakucho-marui-popup  # 9/27配信「本日開催中」
+  notes: "公式ポータル（idolmaster-official.jp）での一次ソースは未特定、the-chara.com・collabo-cafe.com経由で確認したためconfidence: unconfirmedとして登録。可能なら公式発表で追検証。最終日（10/14）が未消化。"
+
+- id: sc-283pro-solo-live-msp
+  title: "283 PRODUCTION Solo Live Collection -Master ShowPiece-"
+  brand: sc
+  kind: 公式
+  event_start: "2026-09-26"
+  event_end: "2026-09-27"
   status: partially-used
   confidence: confirmed
-  added: "2026-09-25"
-  source: "アイドルマスター公式ポータル news/01_19972（2026年9月24日発表）"
+  added: "2026-07-09"
+  source: "アイドルマスター公式ポータル news/01_19262・01_19705・01_19906 / gameo.jp（2026年7〜9月）"
   facts: |
-    内容: 876プロダクション／ヴイアライヴ3回目のライブ・ミーティングイベント。シリーズ初の二都市開催
-    愛知公演: 2027年1月30日（土）・31日（日）、愛知県芸術劇場 大ホール
-    東京公演: 2027年3月21日（日）・22日（月）、日本工学院アリーナ
-    出演者・チケット詳細は「後日発表」
+    会場: 京王アリーナ TOKYO
+    日程: 2026年9月26日（土）・27日（日）
+    チケット価格: 全席指定14,000円（税込）、座席により一部ステージが見切れる可能性がある旨案内あり。一般発売日は続報待ち
+    グッズ: ぬいぐるみ「ふわふぇいす」シリーズ（描き下ろし28種）、アイドルプロデュースアパレル 等（事前販売は7/12締切で終了済み）
+    配信チケット購入者限定の同時視聴会（9/18判明）: DAY1視聴会10/3(土)17:00〜（峯田茉優・田嶌紗蘭・三川華月出演）、DAY2視聴会10/4(日)17:00〜（希水しお・土屋李央・小澤麗那出演）。視聴には対応日程の配信チケット購入orシリアル認証が必要、アーカイブは10/5 23:59まで公開
+    コラボキッチンカー（9/17判明）: 京王アリーナTOKYO 2Fデッキにて9/26(土)・27(日)各10:00〜17:00出店。メニューは「ナポリタン……！パン」1,000円・「コーヒーの代わりのレモンティー」800円・「餃子煎餅」1,000円。購入特典でダイカットステッカー（全28種）をランダム配布
+    DAY1（9/26）出演者: Art & Couleurs＝関根瞳・結名美月・田中有紀・岡咲美保・三川華月・小澤麗那／Maestria & Tradizione＝峯田茉優・礒部花凜・八巻アンナ・丸岡和佳奈・涼本あきほ・芝崎典子／Street & Avant-garde＝近藤玲奈・菅沼千紗・河野ひより・北原沙弥香・土屋李央・紫月杏朱彩・川口莉奈／Urban & Lifestyle＝希水しお・永井真里子・前川涼子・幸村恵理・田嶌紗蘭・山根綺
+    DAY1（9/26）レポート: 開場16:00・開演17:00、4グループがランウェイ形式のステージ演出で新ソロ曲を披露する「ファッションショー」風構成。披露曲例: Hold on me／HELL-O／ハートフルミー／HSV色空間／どっちみちLOVE／MAGICAL FOREST／ワタシグラビティ／カラースプレーとうさぎさん／Imaginary／Damascus Cocktail 等。会場限定CD・「My Songs Collection」グッズ・全28色コンサートライト等を販売、公演後には有償限定ガシャ「Master ShowPiece 打ち上げガシャDAY1」も実施。SNSでは「最高だった」の声が相次ぎ好評（出典: idolmaster-official.jp/news/01_19897、ファミ通2026年9月分記事）
+    DAY1公演内での新発表: シャニマス初のソロオーケストラコンサート「THE IDOLM@STER SHINY COLORS ORCHESTRA CONCERT -Radiant Chord-」を2027年3月22日(月・祝)にパシフィコ横浜 国立大ホールで開催決定と発表（別エントリ sc-shinycolors-orchestra-radiantchord で管理）
   publish_plan:
-    - on: "2027-01-29"
-      angle: "明日愛知公演開幕予告"
-    - on: "2027-01-30"
-      angle: "本日愛知公演開幕・DAY1"
-    - on: "2027-01-31"
-      angle: "本日愛知公演千秋楽"
-    - on: "2027-03-20"
-      angle: "明日東京公演開幕予告"
-    - on: "2027-03-21"
-      angle: "本日東京公演開幕・DAY1"
-    - on: "2027-03-22"
-      angle: "本日東京公演千秋楽・全公演完走"
+    - on: "2026-09-22"
+      angle: "現地物販整理券、本日13:00当落発表"
+    - on: "2026-09-25"
+      angle: "明日開幕予告"
+    - on: "2026-09-26"
+      angle: "本日開幕・DAY1"
+    - on: "2026-09-27"
+      angle: "本日千秋楽"
+    - on: "2026-10-03"
+      angle: "配信チケット購入者限定・DAY1同時視聴会、本日開催"
+    - on: "2026-10-04"
+      angle: "配信チケット購入者限定・DAY2同時視聴会、本日開催"
   used_in:
-    - valiv-3rdlive-meeting-announce  # 9/25配信「新発表・初の二都市開催決定」
-  notes: "出演者（上水流宇宙・灯里愛夏・レトラの3人全員かは未確定）・チケット詳細は続報待ち、要追検証。開催がかなり先のため、判明次第factsを更新。"
+    - sc-283pro-msp-presale-final  # 7/9配信「グッズ事前販売ファイナル受付中（〜7/12）」
+    - sc-283pro-msp-presale-deadline-tomorrow  # 7/11配信「グッズ事前販売ファイナル、明日7/12締切」
+    - sc-283pro-msp-presale-deadline-today  # 7/12配信「グッズ事前販売ファイナル、本日23:59締切」
+    - sc-283pro-msp-hanaboard  # 8/23配信「楽屋花・プレゼントの受付方法が判明」
+    - sc-283pro-msp-ticket-info  # 8/25配信「チケット価格判明」
+    - sc-283production-msp-goods-lottery-start  # 9/10配信「現地物販整理券、本日13:00受付開始」
+    - sc-283pro-msp-deadlines-today  # 9/15配信「物販整理券・チケット一般先着、本日23:59ダブル締切」
+    - sc-283pro-msp-archive-viewing  # 9/19配信「配信チケット購入者限定の同時視聴会が決定」
+    - sc-283pro-msp-goods-lottery-result  # 9/22配信「現地物販整理券、本日13:00当落発表」
+    - sc-283pro-msp-tomorrow  # 9/25配信「明日開幕予告」
+    - sc-283pro-msp-today  # 9/26配信「本日開幕・DAY1」
+    - sc-283pro-msp-day1report-finale  # 9/27配信「DAY1レポ＆本日千秋楽DAY2」
+    - sc-283pro-msp-day2-finale-report  # 9/28配信「DAY2完走レポ」
+    - sc-283pro-msp-archive-start  # 9/29配信「視聴コメント付きアーカイブ、昨日18時より配信開始」
+  status: done
+  notes: "出演者・セトリ等の詳細は未取得。楽屋花・プレゼント受付方法（送付先はいずれも京王アリーナTOKYO メインエントランス気付、楽屋花サイズ上限40cm・指定到着日時は公演前日9/25 12:00〜16:00の1回のみ、プレゼント〈メッセージ類〉は公演当日9/26・27いずれも11:00〜開演前）が判明（8/23配信）。チケット価格（全席指定14,000円）判明（8/25配信、事実確認済み）。一般発売日は続報待ち、要追検証。【8/24事実確認】公式サイト（idolmaster-official.jp/live_event/283production_msp/）で4グループ編成（Maestria & Tradizione／Art & Couleurs／Street & Avant-garde／Urban & Lifestyle）と全出演声優は2026年3月19日公開・7月2日更新の時点で既に判明済みと確認。同ネタで再度「新発表」的に記事化しないよう注意。【重複エントリにつき要注意】本エントリと sc-masterlivepiece-solo-live は同一ライブを別々に登録してしまったもの。今後の続報はどちらか一方（本エントリ）に一本化して記事化し、重複記事化を避けること。コラボキッチンカーの出店（9/17判明）・DAY1出演者（9/26配信で事実確認）を反映済み。本日開幕・DAY1（9/26）・DAY1レポ＆本日千秋楽DAY2（9/27配信）・DAY2完走レポ（9/28配信、アフタートーク「ばくすて！とーく」配信も実施）まで全publish_plan消化済みにつきクローズ。同時視聴会（10/3・10/4）は姉妹エントリで別管理。"
+
+- id: sc-masterlivepiece-solo-live
+  title: "283 PRODUCTION Solo Live Collection -Master ShowPiece-"
+  brand: sc
+  kind: 公式
+  event_start: "2026-09-26"
+  event_end: "2026-09-27"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-26"
+  source: "アイドルマスター公式ポータル news/01_19705"
+  facts: |
+    会場: 京王アリーナTOKYO
+    日程: 2026年9月26日（土）・27日（日）
+    配信チケット: 販売期間8月25日19:00〜10月5日18:00（予定）、アーカイブ視聴期間9月28日18:00〜10月5日23:59（予定）
+    現地チケット一般発売（先着）: 8月29日12:00受付開始〜9月15日23:59、対象は全席指定・見切れ席・立見指定
+    公式リセール: 9月5日15:00受付開始、公演日ごとに受付URLが異なる。9/26公演分は9月16日9:59まで
+  publish_plan:
+    - on: "2026-08-29"
+      angle: "本日現地チケット一般発売（先着）開始"
+    - on: "2026-09-25"
+      angle: "明日開幕予告"
+    - on: "2026-09-26"
+      angle: "本日開幕・DAY1"
+    - on: "2026-09-27"
+      angle: "DAY1レポ＆本日DAY2・千秋楽"
+  used_in:
+    - sc-masterlivepiece-stream-ticket  # 8/26配信「配信チケット本日発売開始」
+    - sc-masterlivepiece-general-onsale-today  # 8/29配信「本日現地チケット一般発売（先着）開始」
+    - sc-masterlivepiece-resale-start  # 9/5配信「公式リセール本日15:00受付開始」
+    - sc-283pro-msp-deadlines-today  # 9/15配信「現地チケット一般発売（先着）、本日23:59締切（姉妹エントリsc-283pro-solo-live-mspの物販整理券締切と合わせて1本化）」
+  status: done
+  notes: "出演者・セトリ等の詳細は続報待ち、要追検証。公式リセール受付開始（9/5）・現地チケット一般発売（先着）本日23:59締切（9/15配信）消化済み。【重複エントリにつき要注意】本エントリと sc-283pro-solo-live-msp は同一ライブを別々に登録してしまったもの。明日開幕予告・本日開幕DAY1・DAY1レポ＆本日千秋楽DAY2はすべて sc-283pro-solo-live-msp 側で記事化済み（sc-283pro-msp-tomorrow／sc-283pro-msp-today／sc-283pro-msp-day1report-finale）。本エントリでの重複記事化はしないこと。全publish_plan消化済みにつきクローズ。"
+
+- id: sc-suntory-lemonsquash
+  title: "シャニマス×サントリー レモンスカッシュ"
+  brand: sc
+  kind: 公式
+  event_start: "2026-09-28"
+  status: pending
+  confidence: confirmed
+  added: "2026-09-19"
+  source: "アイドルマスター公式ポータル news/01_19924"
+  facts: |
+    内容: シャニマスとサントリーのコラボ第2弾、オリジナルラベルの「レモンスカッシュ」
+    発売: 2026年9月28日より全国の自販機約600台で発売
+    ラベル: Stella・Luna・Solの3チームごとに全28種、剥がしてステッカーとしても使用可
+    施策: 購入者対象に数量限定オリジナルアクリルキーホルダーが当たる抽選あり
+    先行設置: 9/26・27開催「283 PRODUCTION Solo Live Collection -Master ShowPiece-」（京王アリーナTOKYO）会場1F駐車場エリアに専用自販機を設置
+  publish_plan:
+    - on: "2026-09-27"
+      angle: "明日発売予告"
+    - on: "2026-09-28"
+      angle: "本日発売開始"
+  used_in:
+    - sc-suntory-lemonsquash  # 9/19配信「新発表」
+    - sc-suntory-lemonsquash-tomorrow  # 9/27配信「明日発売予告」
+    - sc-suntory-lemonsquash-today  # 9/28配信「本日発売開始」
+  status: done
+  notes: "アクリルキーホルダー抽選施策の詳細は続報待ち。明日発売予告（9/27配信）・本日発売開始（9/28配信）まで全publish_plan消化済みにつきクローズ。"
+
+- id: gaku-hoshizara-hr12-koakuma-event
+  title: "学マス小悪魔ストーリーイベント「ワタシ、小悪魔♡」"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-09-30"
+  status: pending
+  confidence: confirmed
+  added: "2026-09-29"
+  source: "学園アイドルマスター公式X（@gkmas_official、2026年9月28日「初星学園HR #12」生配信内で発表）"
+  facts: |
+    内容: 小悪魔モチーフのストーリーイベント「ワタシ、小悪魔♡」。小悪魔ガシャ関連曲「Agitato」（歌唱: 倉本千奈・紫雲清夏・秦谷美鈴・十王星南、9/22岩手公演DAY1でサプライズ初披露済み）のゲーム内ライブシーン初公開と同じ生配信で発表
+    グラビアシリーズ第2弾「小悪魔ガシャ」も実施予定
+    開始日時: 2026年9月30日(水)11:00〜
+    イベント報酬: SSR花海佑芽（小悪魔ver.）
+  publish_plan:
+    - on: "2026-09-30"
+      angle: "本日開始"
+  used_in:
+    - gaku-hoshizara-hr12-agitato  # 9/29配信「新発表（Agitatoライブシーン初公開・ガシャ告知）」
+  notes: "「Agitato」は9/22岩手公演DAY1で既に初披露済みの全体曲（歌唱: 倉本千奈・紫雲清夏・秦谷美鈴・十王星南）。9/29配信記事で葛城リーリヤ新曲との誤記を修正済み。イベント終了日・小悪魔ガシャの詳細は続報待ち、要追検証。"
+
+- id: cg-numberone-crossover
+  title: "CD「THE IDOLM@STER CINDERELLA MASTER NUMBER ONE! クロス×オーバー！」"
+  brand: cg
+  kind: 公式
+  event_start: "2026-09-30"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-09-19"
+  source: "コロムビアミュージックショップ／imasnews765.com"
+  facts: |
+    内容: NUMBER ONE!シリーズ第3弾。メインタイトル曲「クロス×オーバー！」（new generations×#UNICUS合同、歌唱：島村卯月・辻野あかり・渋谷凛・砂塚あきら・本田未央・夢見りあむ）、c/w「エイエム×アイアム」[Another ver.]のほか「オーバークロック！」Another版・ゲームバージョン・ソロ/リミックス等計7曲収録予定
+    発売日: 2026年9月30日
+    販売: コロムビアミュージックショップ・ASOBI STOREの2社限定
+    試聴: c/w曲の試聴が9月18日にスタート（9/19配信で記事化）。「オーバークロック！」[new generations ver.]の試聴動画が9/25公開
+    プレミアMV: タイトル曲「クロス×オーバー！」のプレミアMVを9月30日21時に配信予定
+  publish_plan:
+    - on: "2026-09-29"
+      angle: "明日発売予告"
+    - on: "2026-09-30"
+      angle: "本日発売・プレミアMV21時配信"
+  used_in:
+    - cg-numberone-crossover-cw-preview  # 9/19配信「c/w曲の試聴が昨日スタート」
+    - cg-numberone-crossover-mv-preview  # 9/26配信「試聴動画公開・プレミアMV配信決定（更新あり）」
+    - cg-numberone-crossover-tomorrow  # 9/29配信「明日発売予告」
+  status: partially-used
+  notes: "収録曲の詳細な内訳は続報待ち、要追検証。オーバークロック！new generations verの試聴動画公開・プレミアMV9/30 21時配信決定（9/25判明、9/26配信で記事化）を反映済み。明日発売予告（9/29配信）消化済み。本日発売・プレミアMV21時配信（9/30）が未消化。"
+
+- id: cg-rose-tea-parlor-cafe
+  title: "シンデレラガールズ×Rose Tea Parlor コラボカフェ"
+  brand: cg
+  kind: 公式
+  event_start: "2026-10-01"
+  event_end: "2026-12-27"
+  status: pending
+  confidence: confirmed
+  added: "2026-09-14"
+  source: "アイドルマスター公式ポータル news/01_19811（2026年9月4日発表）"
+  facts: |
+    テーマ: 「Rose Tea Parlor」「Crescent Princess」の新規描き下ろしイラスト・グッズ、コラボメニュー
+    会場・会期: 名古屋栄店 10月1日(木)〜10月5日(月)／心斎橋店 10月28日(水)〜11月4日(水)／池袋店 11月19日(木)〜11月26日(木)／ソウル ホンデ店 12月10日(木)〜12月27日(日)
+    予約開始: 9月7日(月)19:00〜、公式HPにて
+    対象アイドル・メニュー詳細は続報待ち
+  publish_plan:
+    - on: "2026-09-30"
+      angle: "明日名古屋栄店開幕予告"
+    - on: "2026-10-01"
+      angle: "本日名古屋栄店開幕"
+    - on: "2026-10-27"
+      angle: "明日心斎橋店開幕予告"
+    - on: "2026-10-28"
+      angle: "本日心斎橋店開幕"
+    - on: "2026-11-18"
+      angle: "明日池袋店開幕予告"
+    - on: "2026-11-19"
+      angle: "本日池袋店開幕"
+    - on: "2026-12-27"
+      angle: "本日ソウル ホンデ店最終日・全会場完走"
+  used_in: []
+  notes: "4会場（名古屋・心斎橋・池袋・ソウル）を順に巡回する形式。対象アイドル・メニュー・グッズの詳細は開催が近づいてから要追検証。"
+#
+# ── 非公式・ファン企画枠のテンプレート（kind: ファン）──────────────
+# 応援広告・誕生日センター広告・有志オフ等は、主催者の公開告知をもとに保留し、
+# 掲出/開催の前日に「明日掲出予告」、当日に「本日掲出」で記事化する。リークは扱わない。
+# - id: fan-ad-EXAMPLE
+#   title: "〇〇 生誕祭 応援広告（△△駅）"
+#   brand: other            # 内容に応じて。横断的なら other
+#   kind: ファン
+#   event_start: "2026-MM-DD"   # 掲出開始日
+#   event_end: "2026-MM-DD"     # 掲出終了日
+#   status: pending
+#   confidence: confirmed       # 主催者が公に告知済みなら confirmed
+#   added: "2026-06-06"
+#   source: "主催者の公開告知（募集ツイート・特設ページ等）"
+#   facts: |
+#     場所: △△駅 ...
+#     掲出期間: ...
+#     主催: ...
+#   publish_plan:
+#     - on: "前日"  angle: "明日掲出予告"
+#     - on: "当日"  angle: "本日掲出"
+#   used_in: []
+#   notes: ""
+# ──────────────────────────────────────────────
+
+# 【誤情報につき削除・2026-08-24 事実確認】
+# 「シャニアニ 2nd season 劇場先行上映」を 2026年（第1章7/5・第2章8/23・第3章9/20）の
+# 予定として一度ここに登録しかけたが、事実確認の結果これは 2024年 の実施済みイベント
+# （2024/7/5・8/23・9/20 いずれも金曜、全国約70館）であり、2026年に同名の劇場先行上映が
+# 行われる事実は確認できなかった。ソースとして挙げた eigakan.org?t=shinycolorsanime6 も
+# 2024年の第3章ページである。2026年の劇場上映として再度記録しないこと。
+
+- id: ml-souhbetsu-ringo-matsuri-2026
+  title: "第50回そうべつりんごまつり（木下ひなた りんご大使4年目）"
+  brand: ml
+  kind: 公式
+  event_start: "2026-10-02"
+  event_end: "2026-11-08"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-09-16"
+  source: "アイドルマスター公式ポータル news/01_19861"
+  facts: |
+    内容: ミリオンライブ！木下ひなたが北海道壮瞥町「りんご大使」を4年目として続投する「第50回そうべつりんごまつり」
+    開催日: 2026年10月2日（金）〜
+    オープニングセレモニー: 10月2日9:30〜10:00、そうべつ情報館i。木下ひなたのメッセージ読み上げ・公式Xでのライブ配信あり
+    オリジナルフォトスポット設置: 11月11日まで
+    EC限定ミニパネル販売: 10月2日正午〜11月8日
+    新規グッズ: ドームピンズ・手ぬぐい・ラバーキーホルダー（既存グッズに加えて新規追加）
+    そのほか: スタンプラリー、物産市を実施
+  publish_plan:
+    - on: "2026-10-01"
+      angle: "明日開幕予告"
+    - on: "2026-10-02"
+      angle: "本日開幕・オープニングセレモニー"
+    - on: "2026-11-08"
+      angle: "本日EC限定ミニパネル販売終了"
+    - on: "2026-11-11"
+      angle: "本日フォトスポット設置終了・完走"
+  used_in:
+    - ml-kinoshita-hinata-ringo-matsuri  # 9/16配信「新発表・詳細判明」
+  notes: "9/15発表・9/16配信で記事化済み。開幕予告（10/1）以降が未消化。"
+
+- id: sidem-remembershot-fair4
+  title: "SideM「リメンバーショット」フェア第4弾"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-10-03"
+  event_end: "2026-10-25"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-05"
+  source: "アイドルマスター公式ポータル news/01_19438（2026年8月4日17:00）"
+  facts: |
+    会場: 全国アニメイト、アニメイト通販
+    開催期間: 2026年10月3日（土）〜10月25日（日）
+    対象アイドル（10名描き下ろし）: 柏木翼・神楽麗・渡辺みのり・蒼井享介・榊夏来・伊瀬谷四季・紅井朱雀・卯月巻緒・姫野かのん・北村想楽
+    特典: 対象商品購入・予約内金1,100円（税込）ごとに切手風ステッカー（全10種）を1枚プレゼント（選択不可、なくなり次第終了）
+  publish_plan:
+    - on: "2026-10-02"
+      angle: "明日開幕予告"
+    - on: "2026-10-03"
+      angle: "本日開幕"
+  used_in:
+    - sidem-remembershot-fair4  # 8/5配信「詳細解禁」
+  notes: "第1〜3弾の対象アイドルとの重複有無は未確認、要追検証。"
+
+- id: valiv-online-1on1-13th
+  title: "PROJECT vα-liv 限定オンライン1on1 第13回"
+  brand: valiv
+  kind: 公式
+  event_start: "2026-10-03"
+  event_end: "2026-10-04"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-09-10"
+  source: "アイドルマスター公式ポータル news/01_19842"
+  facts: |
+    内容: ヴイアライヴメンバーとのオンラインミーティングイベント。ミーティング中のスクリーンショット撮影・SNS投稿可
+    開催日: 灯里愛夏 2026年10月3日(土)、上水流宇宙・レトラ 2026年10月4日(日)
+    抽選受付期間: 2026年9月9日(水)12:00〜9月15日(火)23:59
+    料金: Sレッスン（2分）各5,500円、SS+レッスン（4分）各13,200円、SSS+レッスン（6分）各18,700円（いずれも税込）
+  publish_plan:
+    - on: "2026-10-03"
+      angle: "灯里愛夏、本日開催"
+    - on: "2026-10-04"
+      angle: "上水流宇宙・レトラ、本日開催"
+  used_in:
+    - valiv-online-1on1-13th-lottery-start  # 9/10配信「抽選受付が昨日スタート」
+    - valiv-online1on1-13th-deadline  # 9/15配信「抽選受付、本日23:59締切」
+  status: partially-used
+  notes: "当落発表日は未取得、要追検証。抽選受付締切（9/15）消化済み。開催日（10/3・10/4）が未消化。"
+
+- id: sc-8bankaramen-collab
+  title: "シャニマス×「8番らーめん」コラボ"
+  brand: sc
+  kind: 公式
+  event_start: "2026-10-07"
+  event_end: "2026-11-08"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-09-19"
+  source: "アイドルマスター公式ポータル news/01_19923／DMM Factory公式X"
+  facts: |
+    名称: シャニマス×「8番らーめん」コラボ（アルストロメリア・大崎甘奈／大崎甜花の出身地・富山県ゆかりのラーメンチェーン）
+    開催期間: 2026年10月7日（水）〜11月8日（日）
+    対象店舗: 富山県・岡山県の「8番らーめん」「金澤醤油豚骨8番らーめん」各店舗
+    内容: らーめん屋で働く様子をコンセプトにした描き下ろしイラストを使用したグッズ・限定コラボセットを展開予定（詳細は続報）
+  publish_plan:
+    - on: "2026-10-06"
+      angle: "明日開幕予告"
+    - on: "2026-10-07"
+      angle: "本日開幕"
+    - on: "2026-11-08"
+      angle: "本日最終日"
+  used_in:
+    - sc-8bankaramen-collab-announce  # 9/19配信「新発表」
+    - sc-8bankaramen-collab-buzz  # 9/19配信「発表にファン歓喜（ファン話題）」
+    - sc-8bankaramen-today  # 10/7配信「本日開幕」
+    - sc-8bankaramen-goods-presale  # 10/7配信「DMM予約開始」
+  notes: "メニュー・グッズの詳細は続報待ち、要追検証。"
 
 - id: ml-cyberplanet-popup-2026
   title: "ミリオンライブ「Cyber Planet POP UP SHOP」"
@@ -2423,6 +1471,495 @@
     - ml-cyberplanet-popup-today  # 10/8配信「本日東京会場開幕」
   notes: "東京会場は7/中旬頃に開催自体は発表済み（01_19749）、9/24付で詳細（出演キャラ・特典・大阪会場）が判明。事後通販の受付期間は続報待ち、要追検証。"
 
+- id: ml-kyomafu-popup-yurakucho
+  title: "ミリオンライブ！ 京まふ事後物販 POP UP SHOP（有楽町マルイ）"
+  brand: ml
+  kind: 公式
+  event_start: "2026-10-10"
+  event_end: "2026-10-22"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-08"
+  source: "アイドルマスター公式ポータル news/01_20059／THEキャラ the-chara.com/blog/?p=120999"
+  facts: |
+    会場: 有楽町マルイ7F
+    会期: 2026年10月10日(土)〜10月22日(木)
+    対象: 伊吹翼・大神環・高坂海美・佐竹美奈子・所恵美・舞浜歩・松田亜利沙・横山奈緒の描き下ろし等を使った追加商品・特典
+  publish_plan:
+    - on: "2026-10-10"
+      angle: "本日開幕"
+    - on: "2026-10-22"
+      angle: "本日最終日"
+  used_in:
+    - ml-kyomafu-popup-details  # 10/8配信「詳細公開」
+  notes: "追加商品の価格・特典条件は特設サイトで要追検証。"
+
+- id: valiv-cosmo-bd2026-viewing
+  title: "上水流宇宙 BIRTHDAY ONLINE LIVE 2026 同時視聴上映会"
+  brand: valiv
+  kind: 公式
+  event_start: "2026-10-12"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-08"
+  source: "アイドルマスター公式ポータル news/01_20085"
+  facts: |
+    日時: 2026年10月12日(月・祝)13:00〜（予定）、視聴ページは10/9公開予定
+    配信チケット5,000円（10/12 18:00まで販売、配信期間〜10/12 23:59）、アフタートーク配信特典、プレゼント用視聴チケットあり
+  publish_plan:
+    - on: "2026-10-12"
+      angle: "本日13:00同時視聴上映会"
+  used_in:
+    - valiv-cosmo-bd-viewing-party  # 10/8配信「実施決定」
+  notes: ""
+
+- id: sidem-renaissance-collab
+  title: "SideM×スポーツクラブルネサンス「315 Fitness Project in RENAISSANCE」"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-10-22"
+  event_end: "2026-11-29"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-09-17"
+  source: "アイドルマスター公式ポータル news/01_19822／PR TIMES（Origres）／sportsmania.jp"
+  facts: |
+    名称: 315 Fitness Project in RENAISSANCE（SideM×スポーツクラブ ルネサンスのコラボ）
+    開催期間: 2026年10月22日(木)〜11月29日(日)
+    展開店舗: 全国49店舗のスポーツクラブ ルネサンス
+    アンバサダー: 蒼井悠介・蒼井享介・信玄誠司・山下次郎・大河タケルの5名
+    内容: 信玄誠司・山下次郎が指導するオリジナルフィットネスレッスン映像3本（カーディオエクササイズ／パワーエクササイズ／リズムストレッチ）、店内アナウンスボイス、「10th ANNIVERSARY P@SSION TOUR」ビジュアル使用の等身大パネル等店舗装飾（店舗により異なる）。9/17判明分：信玄誠司が「カーディオエクササイズ」「パワーエクササイズ」の2本、山下次郎が「リズムストレッチ」の全3本のタイトルが判明
+    チケット: グッズ付きコラボチケット4種（特典内容・枚数違い）。9/17判明分：ステッカー付き2,690円〜フェイスタオル付き31,320円
+    グッズ: 5アンバサダー＋ユニット別「トレーニング中」イラストのアクリルスタンド・缶バッジ等
+    店舗装飾（9/17判明）: 3店舗に描き下ろしイラスト、46店舗に公式ビジュアルの等身大スタンディを設置
+  publish_plan:
+    - on: "2026-10-21"
+      angle: "明日開始予告"
+    - on: "2026-10-22"
+      angle: "本日開始"
+    - on: "2026-11-29"
+      angle: "本日最終日"
+  used_in:
+    - sidem-renaissance-collab-announce  # 9/17配信「新発表」
+    - sidem-renaissance-collab-details  # 9/18配信「レッスン映像タイトル・グッズ価格判明（更新あり）」
+  notes: "レッスン映像タイトル2本・グッズ価格・スタンディ設置数は9/17付PR TIMESリリースで判明（9/18配信で記事化）。残る1本のレッスン映像タイトルは続報待ち。開始予告（10/21）以降が未消化。"
+
+- id: cg-hachinohe-hachimasu-second
+  title: "「はちます」×シンデレラガールズ第2弾"
+  brand: cg
+  kind: 公式
+  event_start: "2026-10-23"
+  event_end: "2026-12-27"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-09-17"
+  source: "アイドルマスター公式ポータル news/01_19893"
+  facts: |
+    名称: 「はちます」×シンデレラガールズ第2弾（青森県八戸市とのコラボ、前回2026年2〜3月開催の続編）
+    開催期間: 2026年10月23日(金)〜12月27日(日)
+    内容: 有料デジタルスタンプラリー（新スポット追加で全18箇所に拡大）、ノベルティカード配布、コラボグッズ、パネル展示
+    参加アイドル: 浅利七海・工藤忍・水本ゆかり・棟方愛海（青森出身）、片桐早苗・高垣楓・並木芽衣子（新規ちびキャラクターイラスト）
+    スタンプラリー地点例: ユートリー、史跡根城の広場、八戸ポータルミュージアムはっち、みろく横丁、八戸市魚菜小売市場、八食センター、かぶーにゃ、マリエント、葦毛崎展望台、種差海岸インフォメーションセンター、種差海岸駅、鮫駅、八戸酒造、アパホテル本八戸、ミチル種差、是川縄文館、櫛引八幡宮、八戸市美術館
+  publish_plan:
+    - on: "2026-10-22"
+      angle: "明日開幕予告"
+    - on: "2026-10-23"
+      angle: "本日開幕"
+    - on: "2026-12-27"
+      angle: "本日最終日・完走"
+  used_in:
+    - cg-hachinohe-hachimasu-second  # 9/17配信「キービジュアル・詳細が一部解禁」
+  notes: "ノベルティカード・コラボグッズの詳細は続報待ち、要追検証。開幕予告（10/22）以降が未消化。"
+
+- id: sidem-daimaru-matsuzakaya-popup2
+  title: "THE IDOLM@STER SideM × DAIMARU MATSUZAKAYA ポップアップショップ（第2弾）"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-10-28"
+  event_end: "2026-11-24"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-08"
+  source: "アイドルマスター公式ポータル news/01_20080"
+  facts: |
+    会期: 大丸東京店3F 10/28(水)〜11/10(火)／大丸梅田店1F 11/18(水)〜11/24(火)、10:00〜20:00
+    内容: 描き下ろしビジュアルのアパレル・雑貨、カスタムバッグチャーム企画、イラストレーター秋赤音コラボ
+    事前整理券: 東京 10/28終日・10/31と11/1の10:00〜14:00／梅田 11/18終日・11/21と11/22の10:00〜14:00
+    オンライン受注: 11/27 12:00〜12/23 23:59予定、お届け2027年4月上旬頃〜
+  publish_plan:
+    - on: "2026-10-27"
+      angle: "明日大丸東京店開幕予告"
+    - on: "2026-10-28"
+      angle: "本日大丸東京店開幕"
+    - on: "2026-11-17"
+      angle: "明日大丸梅田店開幕予告"
+    - on: "2026-11-18"
+      angle: "本日大丸梅田店開幕"
+  used_in:
+    - sidem-daimaru-matsuzakaya-popup2  # 10/8配信「新発表」
+  notes: "商品ラインナップ・ノベルティは続報待ち。"
+
+- id: sidem-seibuen-retrose-party
+  title: "SideM×西武園ゆうえんち「超!!レトローズパーティ」"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-10-30"
+  event_end: "2026-12-01"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-09-02"
+  source: "西武園ゆうえんち公式／横浜八景島プレスリリース（PR TIMES, prtimes.jp/main/html/rd/p/000000975.000011571.html、2026年9月1日20:10発表）"
+  facts: |
+    名称: アイドルマスター SideM 超!!レトローズパーティ
+    会場: 西武園ゆうえんち（埼玉県所沢市）
+    開催期間: 2026年10月30日（金）〜12月1日（火）
+    出演: SideM49人の男性アイドル（秋バラを手に来場者を出迎える演出）
+    声優トークショー: 10月31日・11月1日・11月22日 18:00〜19:00
+    チケット: イベント参加1日券10,000円（入園・アトラクション乗り放題・イベント参加込み）
+    連動企画: 東京ジョイポリスとの周遊スタンプラリー、達成者にA5サイズイラストカード進呈
+  publish_plan:
+    - on: "2026-10-29"
+      angle: "明日開幕予告"
+    - on: "2026-10-30"
+      angle: "本日開幕"
+    - on: "2026-10-31"
+      angle: "本日トークショー初日"
+    - on: "2026-12-01"
+      angle: "本日最終日"
+  used_in:
+    - sidem-seibuen-retrose-party  # 9/2配信「昨日新発表」
+  notes: "トークショー出演声優・グッズ詳細は続報待ち、要追検証。"
+
+- id: ml-arcflags-popup-corner
+  title: "ミリオンライブ ARC-FLAGS POP UP CORNER（コトブキヤ）"
+  brand: ml
+  kind: 公式
+  event_start: "2026-11-06"
+  event_end: "2026-12-20"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-17"
+  source: "アイドルマスター公式ポータル news/01_20145／コトブキヤ event/detail/1357"
+  facts: |
+    秋葉原館1F 11/6(金)〜11/23(月)、日本橋1F 12/4(金)〜12/20(日)
+    サジタリアス（所恵美・舞浜歩・真壁瑞希）、アクアリウスもミニキャラで登場
+    特典: 税込2,000円ごとにランダムポストカード1枚（通販対象外）
+  publish_plan:
+    - on: "2026-11-05"
+      angle: "明日秋葉原館開幕予告"
+    - on: "2026-11-06"
+      angle: "本日秋葉原館開幕"
+    - on: "2026-12-04"
+      angle: "本日日本橋開幕"
+  used_in:
+    - ml-arcflags-popup-corner  # 10/17配信「新発表」
+  notes: "参加アイドル・詳細は続報待ち。"
+
+- id: cg-cosmoworld-collab
+  title: "シンデレラガールズ×よこはまコスモワールド・YOKOHAMA AIR CABIN 2026"
+  brand: cg
+  kind: 公式
+  event_start: "2026-11-13"
+  event_end: "2026-12-09"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-17"
+  source: "アイドルマスター公式ポータル news/01_20162／THE CHARA 特設サイト"
+  facts: |
+    期間: 11/13(金)〜12/9(水)、よこはまコスモワールド（入園無料・アトラクション別料金）
+    キービジュアル: 中華風の特別衣装のアイドル。グッズ・フードトラック営業は11:00〜20:00
+    未公開: 期間限定ショップ、コラボメニュー、カーニバルゲーム、スタンプラリー、参加アイドル
+  publish_plan:
+    - on: "2026-11-12"
+      angle: "明日開幕予告"
+    - on: "2026-11-13"
+      angle: "本日開幕"
+  used_in:
+    - cg-cosmoworld-collab  # 10/17配信「新発表」
+  notes: "参加アイドル・詳細は続報待ち。"
+
+- id: sc-karaoke-tetsujin-refrac7ions
+  title: "シャニマス×カラオケの鉄人 PJ:REFRAC7IONS Special Collaboration"
+  brand: sc
+  kind: 公式
+  event_start: "2026-11-19"
+  event_end: "2026-12-31"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-17"
+  source: "アイドルマスター公式ポータル news/01_20155"
+  facts: |
+    期間: 11/19(木)〜12/31(木)
+    詳細・実施店舗は続報。公式X @animegame_kt
+  publish_plan:
+    - on: "2026-11-18"
+      angle: "明日開幕予告"
+    - on: "2026-11-19"
+      angle: "本日開幕"
+  used_in:
+    - sc-karaoke-tetsujin-refrac7ions  # 10/17配信「新発表」
+  notes: "参加アイドル・詳細は続報待ち。"
+
+- id: cg-naha-degimasu
+  title: "「でじます」×シンデレラガールズ（那覇市コラボ）"
+  brand: cg
+  kind: 公式
+  event_start: "2026-11-20"
+  event_end: "2027-02-28"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-09-17"
+  source: "アイドルマスター公式ポータル news/01_19889"
+  facts: |
+    名称: でじます×シンデレラガールズ（沖縄県那覇市の観光企画コラボ）
+    主催: 那覇市（企画運営: 名鉄観光サービス）
+    第1弾: 2026年11月20日(金)〜2027年1月17日(日)
+    第2弾: 2027年1月29日(金)〜2月28日(日)
+    参加見込みアイドル: 相葉夕美・冴島清美・瀬名詩織・高森藍子・姫川友紀・森久保乃々・ライラ（計7名）
+    背景: 首里城正殿の復元工事完了・一般公開（2026年11月23日予定）にあわせたタイミングでの実施
+  publish_plan:
+    - on: "2026-11-19"
+      angle: "明日開幕予告"
+    - on: "2026-11-20"
+      angle: "本日開幕・第1弾スタート"
+    - on: "2027-01-28"
+      angle: "明日第2弾開始予告"
+    - on: "2027-01-29"
+      angle: "本日第2弾開始"
+    - on: "2027-02-28"
+      angle: "本日最終日・完走"
+  used_in:
+    - cg-naha-degimasu-collab  # 9/17配信「コラボ決定」
+  notes: "グッズ・キャンペーンの詳細は続報待ち、要追検証。開幕予告（11/19）以降が未消化。"
+
+- id: cg-yamanashi-walkwander
+  title: "シンデレラガールズ×山梨「やまなし WALK & WANDER」"
+  brand: cg
+  kind: 公式
+  event_start: "2026-11-21"
+  event_end: "2026-12-27"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-30"
+  source: "アイドルマスター公式ポータル news/01_19733／PR TIMES／ファミ通"
+  facts: |
+    エリア: 山梨県「甲府＆石和」「勝沼」の2エリア
+    開催期間: 2026年11月21日（土）〜12月27日（日）
+    内容: JR甲府駅・石和温泉駅・勝沼ぶどう郷駅周辺の計7拠点を巡る無料デジタルスタンプラリー、タニタ製コラボ歩数計と連動した「ウォークチャレンジ」、コラボフード・グッズ
+    コラボ歩数計: タニタ製、全10種デザイン、各4,000円。予約受付は8月28日13:00〜9月9日
+  publish_plan:
+    - on: "2026-11-20"
+      angle: "明日開幕予告"
+    - on: "2026-11-21"
+      angle: "本日開幕"
+    - on: "2026-12-27"
+      angle: "本日最終日"
+  used_in:
+    - cg-yamanashi-walkwander-preorder  # 8/30配信「コラボ歩数計、予約受付中」
+    - cg-yamanashi-walkwander-preorder-deadline  # 9/9配信「コラボ歩数計、本日23:59締切」
+  notes: "コラボ歩数計の予約締切（9/9）消化済み。コラボフード・グッズの詳細は開催が近づいてから要追検証。"
+
+- id: sidem-smilebase-royal-chess-lounge
+  title: "「アイドルマスター SideM」コラボカフェ（SMILE BASE CAFE Royal Chess Lounge）"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-11-26"
+  event_end: "2027-01-26"
+  status: pending
+  confidence: confirmed
+  added: "2026-08-13"
+  source: "SMILE BASE CAFE公式サイト smilebase.co.jp/8126/"
+  facts: |
+    名称: 「アイドルマスター SideM」in SMILE BASE CAFE
+    名古屋栄店: 11月26日（木）〜12月12日（土）、12/12は昼の部①のみ営業
+    心斎橋店: 12月11日（金）〜12月30日（水）、12/30は昼の部①のみ営業
+    池袋店: 2027年1月7日（木）〜1月26日（火）、1/26は2部までの営業
+    3店舗を巡回する形での順次開催。コラボメニュー・物販の詳細は各店舗専用ページで発表予定
+  publish_plan:
+    - on: "2026-11-25"
+      angle: "明日名古屋栄店開幕予告"
+    - on: "2026-11-26"
+      angle: "本日名古屋栄店開幕"
+    - on: "2026-12-11"
+      angle: "本日心斎橋店開幕"
+    - on: "2027-01-07"
+      angle: "本日池袋店開幕・全店巡回完走へ"
+  used_in: []
+  notes: "開催がかなり先のため、コラボメニュー・物販詳細は近づいてから要追検証。"
+
+- id: cg-15th-anniversary-live
+  title: "シンデレラガールズ15周年記念イベント（Kアリーナ横浜）"
+  brand: cg
+  kind: 公式
+  event_start: "2026-11-28"
+  event_end: "2026-11-29"
+  status: pending
+  confidence: confirmed
+  added: "2026-07-17"
+  source: "アイドルマスター シンデレラガールズ【ブランド公式】X告知 / ファミ通（2025年9月7日、famitsu.com/article/202509/51727）"
+  facts: |
+    名称: シンデレラガールズ15周年記念イベント（詳細タイトル未発表）
+    会場: Kアリーナ横浜
+    日程: 2026年11月28日（土）・29日（日）、15周年当日＆翌日の開催
+    位置づけ: 総選挙2026（8/3投票開始〜9/18）の結果発表後に控える15周年本編ライブと見られる
+    関連発表: ソロ楽曲全98曲収録のCD-BOX「FIRST SONG COLLECTION」が11月28日発売予定／2026年春にフルサイズ楽曲のサブスク追加配信も予定（いずれもファミ通2025年9月7日記事で言及）
+    【8/2生配信「CG総選挙ST@TION」で解禁】DAY1: LOVE-Party・CHILL-Party各12名、DAY2: FABULOUS-Party13名・MIRACLE-Party12名の4グループ編成、出演声優は両日で約49名。生バンド「Cinderella Band」も出演予定
+    【出演声優 第一弾判明（8/2付・8/4配信で記事化）】DAY1メインキャスト: 大橋彩香（島村卯月役）・藍原ことみ（一ノ瀬志希役）・小森結梨（古賀小春役）・種﨑敦美（五十嵐響子役）ほか計12名、CHILL-Party: 天野聡美・五十嵐裕美・大坪由佳ほか計12名、特別ゲスト: 武内駿輔・米内佑希（プロデューサー役）。DAY2メインキャスト: 福原綾香（渋谷凛役）・関口理咲（白雪千夜役）ほか計13名、MIRACLE-Party: 会沢紗弥・安齋由香里ほか計12名、特別ゲスト: 佐藤利奈（千川ちひろ役）・たくみ靖明（プロデューサー役）
+    チケット等の詳細は追って発表予定
+  publish_plan:
+    - on: "2026-11-27"
+      angle: "明日開幕予告"
+    - on: "2026-11-28"
+      angle: "本日開幕・DAY1"
+    - on: "2026-11-29"
+      angle: "本日千秋楽・15周年本編完走"
+  used_in:
+    - cg-15th-anniversary-cast-reveal  # 8/4配信「出演声優の第一弾が判明（更新あり）」
+    - cg-15th-anniversary-ticket-reception  # 8/16配信「アソビストアプレミアム会員先行抽選受付中・当落発表9/5」
+    - cg-15th-anniversary-ticket-deadline  # 8/23配信「最速先行抽選、本日23:59締切」
+    - cg-15th-anniversary-ticket-result  # 9/5配信「本日13:00最速先行抽選の当落発表」
+  status: partially-used
+  notes: "事実確認（PR#62レビュー）でsourceの年表記の誤り（ファミ通の掲載は2026年9月ではなく2025年9月）を修正。イベント名称は「for your ONE」（総選挙結果発表後に控える15周年本編ライブ）。チケットはアソビストアプレミアム会員最速先行抽選（8/2 16:00〜8/23 23:59、一般受付ではない）、価格帯はSPラウンジ席81,500円・バルコニー席18,500円・一般席/着席指定席15,500円、当落発表9/5 13:00（8/16配信で記事化。事実確認によりプレミアム席21,000円→SPラウンジ席81,500円、一般受付→会員先行抽選に訂正）。当落発表・入金期間開始（9/9締切）を9/5配信で記事化済み。総選挙2026の結果発表時期・出演者フル一覧・一般発売の有無など要追検証。"
+
+- id: sidem-mfes-2026-theme-song
+  title: "Mフェス2026 in Winter Wonderland テーマソング「Season's Greetings Party！」"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-12-02"
+  status: pending
+  confidence: confirmed
+  added: "2026-09-13"
+  source: "ファミ通（2026年9月13日）"
+  facts: |
+    内容: Mフェス恒例企画では初となるテーマソング。歌唱はW・神速一魂・C.FIRSTの3ユニット、各ソロバージョンも収録
+    発売日: 2026年12月2日（水）
+  publish_plan:
+    - on: "予約開始日（未定）"
+      angle: "予約受付開始"
+    - on: "2026-12-01"
+      angle: "明日発売予告"
+    - on: "2026-12-02"
+      angle: "本日発売"
+  used_in:
+    - sidem-mfes-2026-theme-song  # 9/13配信「新発表」
+  notes: "予約開始日・Mフェス本体の日程は続報待ち、要追検証。"
+
+- id: sidem-mfes-christmas-cruise-2026
+  title: "SideM ～Mフェス2026・クリスマスクルーズ～"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-12-12"
+  event_end: "2026-12-25"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-08"
+  source: "アイドルマスター公式ポータル スケジュール（2026/10/05）／WILLER TRAVEL travel.willer.co.jp/entertainment/sidem/christmas-cruise-2026/"
+  facts: |
+    日程: 神戸 12/12(土)19:00〜（boh boh KOBE、定員200）／横浜・みなとみらい 12/20(日)17:00・19:00の2便、12/25(金)19:00（フロンティアルーツ、各便定員100）
+    料金: 19,300円（税込、食事付き）、アクリルジオラマ+2,000円、船内コラボドリンク800円
+    出演: F-LAGS（秋月涼・九十九一希・兜大吾）の限定アナウンス
+    抽選受付: 10/5〜10/12 23:59、当選発表10/16 17:00予定
+  publish_plan:
+    - on: "2026-10-13"
+      angle: "抽選受付、昨日締切"
+    - on: "2026-10-16"
+      angle: "本日当選発表"
+    - on: "2026-12-12"
+      angle: "本日神戸便"
+  used_in:
+    - sidem-mfes-christmas-cruise  # 10/8配信「抽選受付中」
+    - sidem-mfes-cruise-winners  # 10/17配信「当選発表」
+  notes: "当選発表以降は続報待ち。"
+
+- id: gaku-ichibankuji-part7
+  title: "一番くじ 学園アイドルマスター Part7"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-12-12"
+  status: pending
+  confidence: confirmed
+  added: "2026-09-13"
+  source: "電撃ホビーウェブ（2026年8月7日）／HOBBY Watch"
+  facts: |
+    内容: 一番くじ「学園アイドルマスター Part7」。葛城リーリヤ・紫雲清夏・姫崎莉波の1/7フィギュア（「Gracemaster」シリーズ、A〜C賞）ほか、Kiraraizuマスコット・ミニのぼりスタンド・ラバーチャーム・クリアファイル等（D〜H賞）
+    価格: 1回850円（税込）
+    発売開始: 2026年12月12日（土）より順次
+    ラストワン賞: 紫雲清夏フィギュアのLast One Ver.、ダブルチャンス賞も同フィギュア
+    販売元: BANDAI SPIRITS
+  publish_plan:
+    - on: "2026-12-11"
+      angle: "明日発売予告"
+    - on: "2026-12-12"
+      angle: "本日発売開始"
+  used_in:
+    - sc-fumage-cruise-winners  # 10/17配信「当選発表・本申込」
+  notes: "発表自体は8/7付で既に1週間以上前のため単独記事化は見送り、発売が近づいたら取り出す。オンライン販売開始日は続報待ち。"
+
+- id: as765-xrlive-revival-2026
+  title: "xRLIVE REVIVAL 菊地真・萩原雪歩 twin live「はんげつであえたら」／Pop'n ToyBox!! もういっかい！"
+  brand: godo
+  kind: 公式
+  event_start: "2026-12-12"
+  event_end: "2026-12-13"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-07"
+  source: "アイドルマスター ポータル（10/3告知）／imasnews765.com"
+  facts: |
+    12/12(土): はんげつであえたら 3公演（11:00開場/12:00開演、14:30/15:30、18:00/19:00）
+    12/13(日): Pop'n ToyBox!! もういっかい！ 15:00開場/16:00開演
+  publish_plan:
+    - on: "2026-12-11"
+      angle: "明日開幕予告"
+    - on: "2026-12-12"
+      angle: "本日開催"
+    - on: "2026-12-13"
+      angle: "本日千秋楽"
+  used_in:
+    - as765-xrlive-revival-announce  # 10/7配信
+  notes: "会場は大阪・オリックス劇場（公式 01_20062）。Pop'n ToyBox!!はCG作品。チケット日程は要追検証。"
+
+- id: sc-refrac7ions-stillblue-live
+  title: "シャニマス「shiny, the first REFRAC7IONS \"Still blue\"」"
+  brand: sc
+  kind: 公式
+  event_start: "2026-12-19"
+  event_end: "2026-12-20"
+  status: pending
+  confidence: confirmed
+  added: "2026-07-18"
+  source: "アイドルマスター公式ポータル news/01_19374（2026年7月17日）"
+  facts: |
+    会場: 国立代々木競技場第一体育館
+    日程: 2026年12月19日（土）・20日（日）
+    現地チケット・ゲーム内先行受付: 7/17 15:00〜8/4 23:59、当落発表8/21、入金期間8/21〜25、1公演2枚まで
+    申込方法: ASOBI TICKET Ver.2、enza版「シャニマス」「Song for Prism」内の告知から
+    DAY1追加出演: 「Fumage」浅倉透役・和久井優
+    アソビストア一般会員先行（抽選）: 8月27日12:00〜9月23日23:59受付、価格14,000円（税込・1公演2枚まで）、当落発表10月8日13:00、入金期間10月8日〜12日（既存のゲーム内先行＝当落発表8/21とは別枠）
+  publish_plan:
+    - on: "2026-08-04"
+      angle: "本日先行受付締切"
+    - on: "2026-08-21"
+      angle: "本日当落発表"
+    - on: "2026-08-28"
+      angle: "一般会員先行、昨日受付開始"
+    - on: "2026-09-23"
+      angle: "本日一般会員先行受付締切"
+    - on: "2026-12-18"
+      angle: "明日開幕予告"
+    - on: "2026-12-19"
+      angle: "本日開幕・DAY1"
+    - on: "2026-12-20"
+      angle: "本日千秋楽"
+  used_in:
+    - sc-refrac7ions-stillblue-presale  # 7/18配信「現地チケット先行受付開始・DAY1追加出演判明」
+    - sc-refrac7ions-stillblue-presale-deadline-today  # 8/4配信「現地チケット先行受付、本日23:59締切」
+    - sc-refrac7ions-stillblue-lottery-result  # 8/21配信「本日当落発表」
+    - sc-refrac7ions-stillblue-general-presale  # 8/28配信「アソビストア一般会員先行、昨日受付開始」
+    - sc-refrac7ions-general-presale-deadline  # 9/23配信「アソビストア一般会員先行、本日23:59締切」
+  status: partially-used
+  notes: "出演ユニット・セトリ等の詳細は未取得。追加出演発表が今後も続く可能性あり、判明次第factsを更新。当落発表（8/21）・一般会員先行受付開始（8/28配信）・一般会員先行受付締切（9/23配信）消化済み。開幕予告（12/18）以降が未消化。"
+
 - id: sc-fumage-cruise-2026
   title: "『Fumage』コラボクルーズ ～船の上の撮影会～"
   brand: sc
@@ -2452,26 +1989,562 @@
     - sc-fumage-cruise-announce  # 10/7配信「新発表」
   notes: "10/6発表。抽選締切の曜日・時刻は続報で要追検証。"
 
-- id: as765-xrlive-revival-2026
-  title: "xRLIVE REVIVAL 菊地真・萩原雪歩 twin live「はんげつであえたら」／Pop'n ToyBox!! もういっかい！"
-  brand: godo
+- id: cg-hakkeijima-marine-symphony
+  title: "Cinderella Marine-Symphony（横浜・八景島シーパラダイス コラボ）"
+  brand: cg
   kind: 公式
-  event_start: "2026-12-12"
-  event_end: "2026-12-13"
+  event_start: "2027-01-09"
+  event_end: "2027-03-10"
   status: partially-used
   confidence: confirmed
-  added: "2026-10-07"
-  source: "アイドルマスター ポータル（10/3告知）／imasnews765.com"
+  added: "2026-09-26"
+  source: "アイドルマスター公式ポータル news/01_19985／atfes.com（2026年9月25日発表）"
   facts: |
-    12/12(土): はんげつであえたら 3公演（11:00開場/12:00開演、14:30/15:30、18:00/19:00）
-    12/13(日): Pop'n ToyBox!! もういっかい！ 15:00開場/16:00開演
+    名称: Cinderella Marine-Symphony（シンデレラガールズ×横浜・八景島シーパラダイスのコラボイベント）
+    会場: 横浜・八景島シーパラダイス（神奈川県横浜市金沢区）
+    開催期間: 2027年1月9日(土)〜3月10日(水)
+    内容: オリジナルグッズ・コラボフードの販売、島内を巡るスタンプラリー等
+    スペシャルステージ: 2027年1月16日(土)・2月14日(日)にキャスト陣が登壇するステージを開催予定（出演者未定）
+    特設サイト: atfes.com/contents/marine-symphony（TICKET等の詳細は続報待ち）
   publish_plan:
-    - on: "2026-12-11"
+    - on: "2027-01-08"
       angle: "明日開幕予告"
-    - on: "2026-12-12"
+    - on: "2027-01-09"
+      angle: "本日開幕"
+    - on: "2027-01-16"
+      angle: "本日スペシャルステージDAY1"
+    - on: "2027-02-14"
+      angle: "本日スペシャルステージDAY2"
+    - on: "2027-03-10"
+      angle: "本日最終日"
+  used_in:
+    - cg-hakkeijima-marine-symphony-announce  # 9/26配信「新発表」
+  notes: "チケット情報・参加アイドル・スペシャルステージ出演者は続報待ち、要追検証。"
+
+- id: cg-15th-orchestra-concert
+  title: "THE IDOLM@STER CINDERELLA GIRLS 15th ANNIVERSARY ORCHESTRA CONCERT ～シンデレラの演奏会～"
+  brand: cg
+  kind: 公式
+  event_start: "2027-01-11"
+  event_end: "2027-01-12"
+  status: pending
+  confidence: confirmed
+  added: "2026-09-23"
+  source: "アイドルマスター公式ポータル news/live_event/cg_15th_orchestra／PR TIMES（2026年9月16日）"
+  facts: |
+    内容: シンデレラガールズ15周年記念オーケストラコンサート「THE IDOLM@STER CINDERELLA GIRLS 15th ANNIVERSARY ORCHESTRA CONCERT ～シンデレラの演奏会～」
+    会場: パシフィコ横浜 国立大ホール
+    日程: 2027年1月11日（月・祝）・12日（火）
+    アソビストアプレミアム会員最速先行（抽選）: 2026年9月16日〜9月27日(日)23:59受付
+    出演者・セトリ・一般発売日程は続報待ち
+  publish_plan:
+    - on: "2026-09-27"
+      angle: "本日プレミアム会員最速先行、受付締切"
+    - on: "2027-01-10"
+      angle: "明日開幕予告"
+    - on: "2027-01-11"
+      angle: "本日開幕・DAY1"
+    - on: "2027-01-12"
+      angle: "DAY1レポ＆本日DAY2・千秋楽"
+  used_in:
+    - cg-15th-orchestra-presale-deadline  # 9/27配信「本日プレミアム会員最速先行、受付締切」
+  status: partially-used
+  notes: "9/17配信の15周年関連まとめ記事で開催決定自体は既報だが、stock未登録だったため9/23判明分として新規追加。最速先行受付締切（9/27配信）消化済み。明日開幕予告（2027-01-10）以降が未消化。"
+
+- id: valiv-3rdlive-meeting-2027
+  title: "ヴイアラ「3rdLIVE&MEETING」（初の二都市開催）"
+  brand: valiv
+  kind: 公式
+  event_start: "2027-01-30"
+  event_end: "2027-03-22"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-09-25"
+  source: "アイドルマスター公式ポータル news/01_19972（2026年9月24日発表）"
+  facts: |
+    内容: 876プロダクション／ヴイアライヴ3回目のライブ・ミーティングイベント。シリーズ初の二都市開催
+    愛知公演: 2027年1月30日（土）・31日（日）、愛知県芸術劇場 大ホール
+    東京公演: 2027年3月21日（日）・22日（月）、日本工学院アリーナ
+    出演者・チケット詳細は「後日発表」
+  publish_plan:
+    - on: "2027-01-29"
+      angle: "明日愛知公演開幕予告"
+    - on: "2027-01-30"
+      angle: "本日愛知公演開幕・DAY1"
+    - on: "2027-01-31"
+      angle: "本日愛知公演千秋楽"
+    - on: "2027-03-20"
+      angle: "明日東京公演開幕予告"
+    - on: "2027-03-21"
+      angle: "本日東京公演開幕・DAY1"
+    - on: "2027-03-22"
+      angle: "本日東京公演千秋楽・全公演完走"
+  used_in:
+    - valiv-3rdlive-meeting-announce  # 9/25配信「新発表・初の二都市開催決定」
+  notes: "出演者（上水流宇宙・灯里愛夏・レトラの3人全員かは未確定）・チケット詳細は続報待ち、要追検証。開催がかなり先のため、判明次第factsを更新。"
+
+- id: cg-athome-xrlive-apple-2027
+  title: "ATHOME xR LIVE Apple of my アイ"
+  brand: cg
+  kind: 公式
+  event_start: "2027-02-13"
+  event_end: "2027-02-14"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-09-29"
+  source: "アイドルマスター シンデレラガールズ【ブランド公式】X（2026年9月28日発表）"
+  facts: |
+    名称: ATHOME xR LIVE Apple of my アイ
+    会場: 山形県 やまぎん県民ホール
+    日程: 2027年2月13日(土)開場18:00・開演19:00、14日(日)昼公演(開場11:30・開演12:30)・夜公演(開場16:30・開演17:30)の1日2公演
+    テーマ: 「地元愛、フルーツ愛、あなたへの愛」、バレンタインシーズンにちなんだ公演
+    出演: #UNICUS（辻野あかり・砂塚あきら・夢見りあむ）、スウィート・ソアー（佐久間まゆ・橘ありす）
+    アソビストアプレミアム会員対象の現地チケット最速先行受付が発表当日9/28 21:30よりスタート
+  publish_plan:
+    - on: "2027-02-12"
+      angle: "明日開幕予告"
+    - on: "2027-02-13"
+      angle: "本日開幕・DAY1"
+    - on: "2027-02-14"
+      angle: "本日DAY2・千秋楽（昼夜2公演）"
+  used_in:
+    - cg-athome-xrlive-apple  # 9/29配信「新発表」
+  notes: "先行受付の締切日・一般発売日程は続報待ち、要追検証。"
+
+- id: godo-clashmatch-live
+  title: "THE IDOLM@STER CINDERELLA GIRLS × MILLION LIVE! CLASH M@TCH!!"
+  brand: godo
+  kind: 公式
+  event_start: "2027-02-27"
+  event_end: "2027-02-28"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-08-27"
+  source: "アイドルマスター公式ポータル news/01_19720（2026年8月26日12:00発表）"
+  facts: |
+    アソビストア一般会員先行（10/7判明）: 2026年10月7日12:00〜11月1日23:59受付、当落発表11月14日13:00、入金11月14日13:00〜11月18日23:59。対象はアリーナ前方席／プレミアムラウンジ付指定席／一般指定席、1人1公演2枚まで
+    ウォームアップ生配信: 2026年10月30日(金)20:00〜21:00予定。出演は福原綾香・高森奈津美・山崎はるか・駒形友梨、MCはJUNGO
+    開催記念ラジオ: 第1回「フレあかラジオ」（宮本フレデリカ・野々原茜）、おたより締切10月10日23:59
+    イベント名: THE IDOLM@STER CINDERELLA GIRLS × MILLION LIVE! CLASH M@TCH!!
+    開催日: 2027年2月27日（土）・28日（日）
+    会場: 愛知県・IGアリーナ
+    出演: シンデレラガールズ側CINDERELLA BAND、ミリオンライブ！側は新規ユニット「MILLION STRINGS」（弦楽器編成、ミリオンライブ！本編初）
+    背景: 両公式Xが8月23日から「Coming soon」ティザーを共同投稿、8月26日12:00に発表
+    アソビストアプレミアム会員先行（抽選）: 8月26日12:00〜9月13日23:59受付。チケット価格は1公演あたりアリーナフロント席30,000円・プレミアムラウンジ指定席20,000円・一般指定席15,000円（税込、1人2枚まで）。当落発表9月30日13:00、入金期限10月4日
+    出演声優（判明分）: 大橋彩香（島村卯月役）がDAY2（2/28、開場15:30・開演17:00予定）に出演。国内オンライン配信（リアルタイム／アーカイブ）も予定
+  publish_plan:
+    - on: "2026-09-13"
+      angle: "本日プレミアム会員先行受付締切"
+    - on: "2026-09-30"
+      angle: "本日プレミアム会員先行当落発表"
+    - on: "2026-10-30"
+      angle: "本日ウォームアップ生配信"
+    - on: "2026-11-02"
+      angle: "一般会員先行、昨日受付終了"
+    - on: "2026-11-14"
+      angle: "本日一般会員先行当落発表"
+    - on: "2027-02-26"
+      angle: "明日開幕予告"
+    - on: "2027-02-27"
+      angle: "本日開幕・DAY1"
+    - on: "2027-02-28"
+      angle: "DAY1レポ＆本日DAY2・千秋楽"
+  used_in:
+    - godo-clashmatch-announce  # 8/27配信「開催決定・本日チケット先行受付開始」
+    - godo-clashmatch-price-cast  # 8/28配信「チケット価格帯と出演声優の一部が判明（更新あり）」
+    - godo-clashmatch-presale-deadline  # 9/14配信「プレミアム会員先行、昨日受付終了」
+    - godo-clashmatch-general-presale  # 10/8配信「アソビストア一般会員先行スタート」
+    - godo-clashmatch-warmup-stream  # 10/8配信「ウォームアップ生配信10/30決定」
+    - godo-clashmatch-radio-fureakane  # 10/8配信「開催記念ラジオ第1回フレあか」
+  notes: "MILLION STRINGSのメンバー構成・出演者詳細は続報待ち、要追検証。一般発売日程も未発表。チケット価格帯・大橋彩香DAY2出演判明（8/28配信）。プレミアム会員先行受付締切（9/13）を9/14配信で記事化済み（当初on:2026-09-13で予定していたが1日遅れで消化）。当落発表（9/30）以降が未消化。"
+
+- id: sidem-producer-meeting-2027
+  title: "THE IDOLM@STER SideM PRODUCER MEETING ～AJewelholIc!!!～"
+  brand: sidem
+  kind: 公式
+  event_start: "2027-03-13"
+  event_end: "2027-03-14"
+  status: pending
+  confidence: confirmed
+  added: "2026-09-13"
+  source: "ファミ通（2026年9月13日）／アイドルマスター公式ポータル live_event/sidem_pm2027／同ポータル live_event/sidem_pm2027/ticket"
+  facts: |
+    会場: 京王アリーナTOKYO
+    日程: 2027年3月13日（土）・14日（日）
+    開場/開演: 3/13 16:00開場・17:00開演（予定）、3/14 15:30開場・16:30開演（予定）
+    チケット: 全席指定11,000円（税込）
+    アソビストアプレミアム会員（12ヶ月会員）先行受付: 2026年9月12日21:00〜10月4日23:59、当落発表10月17日13:00〜
+    11th STAGE DAY1（9/12）の会場で発表。公式サイトは9月12日オープン
+    出演者の詳細は続報予定
+  publish_plan:
+    - on: "出演者詳細発表日（未定）"
+      angle: "出演者詳細判明"
+    - on: "2027-03-12"
+      angle: "明日開幕予告"
+    - on: "2027-03-13"
+      angle: "本日開催・DAY1"
+    - on: "2027-03-14"
+      angle: "本日DAY2・完走レポ"
+  used_in:
+    - sidem-producer-meeting-2027-announce  # 9/13配信「新発表」
+  notes: "チケット価格・先行受付期間は発表当日（9/12）判明済み（9/13事実確認で訂正）。出演者の詳細は続報待ち、要追検証。"
+
+- id: sc-shinycolors-orchestra-radiantchord
+  title: "THE IDOLM@STER SHINY COLORS ORCHESTRA CONCERT -Radiant Chord-"
+  brand: sc
+  kind: 公式
+  event_start: "2027-03-22"
+  status: pending
+  confidence: confirmed
+  added: "2026-09-27"
+  source: "アイドルマスター公式ポータル news/01_19982／ファミ通（2026年9月26日）"
+  facts: |
+    内容: シャニマス初のソロオーケストラコンサート
+    会場: パシフィコ横浜 国立大ホール
+    日程: 2027年3月22日（月・祝）、昼公演12:00開場・13:00開演、夜公演17:00開場・18:00開演の1日2公演
+    発表経緯: 「283 PRODUCTION Solo Live Collection -Master ShowPiece-」DAY1（9/26、京王アリーナTOKYO）の公演内で発表
+    アソビストアプレミアム会員先行受付: 発表当日（9/26）よりスタート（受付締切等の詳細は続報待ち）
+    出演者・セトリ・一般発売日程は続報待ち
+  publish_plan:
+    - on: "2027-03-21"
+      angle: "明日開幕予告"
+    - on: "2027-03-22"
       angle: "本日開催"
-    - on: "2026-12-13"
+  used_in:
+    - sc-shinycolors-orchestra-announce  # 9/27配信「新発表」
+  status: partially-used
+  notes: "9/26のMaster ShowPiece DAY1公演内で発表された新規イベント。9/27配信で新発表として記事化済み。プレミアム会員先行受付の締切日・出演者は続報待ち、要追検証。"
+
+- id: sc-noctchill-live
+  title: "283 Production LIVE Performance noctchill（ノクチル単独xRライブ）"
+  brand: sc
+  kind: 公式
+  event_start: "2027-03-27"
+  event_end: "2027-03-28"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-09-28"
+  source: "アイドルマスター公式ポータル news/01_19969（2026年9月27日発表）"
+  facts: |
+    名称: 283 Production LIVE Performance noctchill（ノクチル初の単独xRライブ）
+    会場: ゼビオアリーナ仙台
+    日程: 2027年3月27日（土）・28日（日）、各日昼夜2公演の計4公演
+    公演別サブタイトル: 27日昼「ただ眩しかった」（開場12:00/開演13:00）、27日夜「きみと一緒だったら」（開場16:00/開演17:00）、28日昼「きっと忘れない」（開場12:00/開演13:00）、28日夜「さよなら」（開場16:00/開演17:00）
+    発表経緯: 「283 PRODUCTION Solo Live Collection -Master ShowPiece-」DAY2公演内（9/27）で発表
+    アソビストアプレミアム会員先行受付: 2026年9月27日19:00〜10月12日23:59
+    出演声優・セトリ・一般発売日程は続報待ち
+  publish_plan:
+    - on: "2027-03-26"
+      angle: "明日開幕予告"
+    - on: "2027-03-27"
+      angle: "本日開幕・DAY1（2公演）"
+    - on: "2027-03-28"
+      angle: "DAY1レポ＆本日DAY2・千秋楽（2公演）"
+  used_in:
+    - sc-noctchill-announce  # 9/28配信「新発表」
+    - sc-noctchill-buzz  # 9/28配信「発表にファン歓喜（ファン話題）」
+  notes: "ノクチル初の単独ライブ。出演声優・セトリ・一般発売日程は続報待ち、要追検証。"
+
+- id: ml-mogami-shizuka-memorial-figure
+  title: "コトブキヤ メモリアルフィギュア第一弾「最上静香-The Animation-」"
+  brand: ml
+  kind: 公式
+  event_start: "2027-05-01"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-09-15"
+  source: "HOBBY Watch／コトブキヤ製品情報"
+  facts: |
+    内容: アニメ「アイドルマスター ミリオンライブ！」メモリアルフィギュアシリーズ第一弾「最上静香-The Animation-」。ステージ衣装「スターティング・ブルーム」姿を立体化
+    販売: コトブキヤショップ・ASOBI STORE限定
+    価格: 23,100円（税込）
+    予約開始: 2026年9月14日
+    発売予定: 2027年5月
+    台座: シンプルなアクリル台座、MILLIONSTARS Team1st・2nd・3rdメンバー背景シート付台座の2種
+    シリーズ展開: 第2弾に伊吹翼、第3弾に春日未来の立体化も予定
+  publish_plan:
+    - on: "予約締切日（未定）"
+      angle: "予約締切間近・締切"
+    - on: "2027-04-30"
+      angle: "明日発売予告"
+    - on: "2027-05-01"
+      angle: "本日発売"
+  used_in:
+    - ml-mogami-figure-preorder  # 9/15配信「昨日予約開始」
+  notes: "予約締切日・発売正確な日付（2027年5月中の具体的な日）は続報待ち、要追検証。"
+
+- id: gaku-unioncreative-tsukimura-figure
+  title: "Union Creative「月村手毬」1/6スケールフィギュア"
+  brand: gaku
+  kind: 公式
+  event_start: "2027-06-01"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-09-17"
+  source: "PR TIMES（アミアミ運営元Oami Corp.、2026年9月16日18:30）"
+  facts: |
+    内容: 学園アイドルマスター・月村手毬の1/6スケール完成品フィギュア
+    メーカー: Union Creative、ライセンス元: バンダイナムコエンターテインメント
+    価格: 21,780円（税込）、全高約275mm
+    原型: 原一臣／彩色: 五日市歩
+    予約: アミアミにて受付中
+    発売予定: 2027年6月（正確な日付は続報待ち）
+  publish_plan:
+    - on: "予約締切日（未定）"
+      angle: "予約締切間近・締切"
+    - on: "2027-05-31"
+      angle: "明日発売予告"
+    - on: "2027-06-01"
+      angle: "本日発売"
+  used_in:
+    - gaku-unioncreative-tsukimura-figure  # 9/17配信「昨日予約開始発表」
+  notes: "正確な発売日（2027年6月中）・予約締切日は続報待ち、要追検証。"
+
+- id: godo-sidem-sc-sparkle-showdown
+  title: "THE IDOLM@STER SideM × SHINY COLORS SPARKLE SHOWDOWN"
+  brand: godo
+  kind: 公式
+  event_start: "2027-06-05"
+  event_end: "2027-06-06"
+  status: pending
+  confidence: confirmed
+  added: "2026-09-13"
+  source: "アイドルマスター公式ポータル news/01_19789／電ファミニコゲーマー（2026年9月12日）／同ポータル live_event/sidem_shinycolors_ss/cast"
+  facts: |
+    名称: THE IDOLM@STER SideM × SHINY COLORS SPARKLE SHOWDOWN（SideMとシャイニーカラーズ初の合同対バンライブ）
+    日程: 2027年6月5日（土）・6日（日）
+    会場: 横浜アリーナ
+    開場/開演: 両日とも16:00/17:30（予定）
+    コンセプト: 315プロダクションと283プロダクションが激突する対バン形式
+    出演DAY1（計9ユニット）: SideM側5ユニット（W、FRAME、High×Joker、神速一魂、C.FIRST、計12名）×シャニマス側4ユニット（放課後クライマックスガールズ、アルストロメリア、シーズ、コメティック、計11名）
+    出演DAY2（計9ユニット、DAY1と異なる編成）: SideM側5ユニット（Altessimo、Café Parade、S.E.M、F-LAGS、Legenders、計15名）×シャニマス側4ユニット（イルミネーションスターズ、アンティーカ、ストレイライト、ノクチル、計15名）
+    チケット: 一般指定席13,500円、プロデューサーシート（各プロダクションエリア指定）14,000円、SPプロデューサーシート（アリーナエリア＋限定グッズ）20,000円（いずれも税込）
+    プレミアム会員先行受付: 2026年9月12日21:00〜10月12日23:59（ASOBI STOREプレミアム12ヶ月会員限定）
+    発表経緯: SideM 11th STAGE DAY1（9/12）の本編最後に発表
+  publish_plan:
+    - on: "2026-10-12"
+      angle: "プレミアム会員先行、本日23:59締切"
+    - on: "2027-06-04"
+      angle: "明日開幕予告"
+    - on: "2027-06-05"
+      angle: "本日開幕・DAY1"
+    - on: "2027-06-06"
       angle: "本日千秋楽"
   used_in:
-    - as765-xrlive-revival-announce  # 10/7配信
-  notes: "会場は大阪・オリックス劇場（公式 01_20062）。Pop'n ToyBox!!はCG作品。チケット日程は要追検証。"
+    - godo-sidem-sc-sparkle-showdown-announce  # 9/13配信「新発表・本日21:00プレミアム会員先行受付開始」
+    - godo-sidem-sc-sparkle-showdown-buzz  # 9/13配信「発表にファン熱狂（ファン話題）」
+  notes: "出演ユニット名は発表当日（9/12）に公式サイトCASTページで判明済み（9/13事実確認で追記）。配信チケット情報は続報待ち、要追検証。"
+
+- id: ml-10thlive-2027
+  title: "ミリシタ10thLIVE"
+  brand: ml
+  kind: 公式
+  event_start: "2027-06-26"
+  event_end: "2027-06-27"
+  status: pending
+  confidence: confirmed
+  added: "2026-09-21"
+  source: "ファミ通（2026年9月20日、article/202609/88752）"
+  facts: |
+    内容: 「ミリオンライブ！シアターデイズ（ミリシタ）」10周年記念ライブ
+    日程: 2027年6月26日（土）・27日（日）
+    会場: Kアリーナ横浜
+    出演: 765 MILLIONSTARS
+    発表経緯: 14thLIVE DAY2（9/20）の会場で発表
+    公演タイトル・出演者詳細・チケット情報は続報待ち
+  publish_plan:
+    - on: "2027-06-25"
+      angle: "明日開幕予告"
+    - on: "2027-06-26"
+      angle: "本日開幕・DAY1"
+    - on: "2027-06-27"
+      angle: "本日千秋楽"
+  used_in:
+    - ml-10thlive-announce  # 9/21配信「新発表」
+  notes: "公演タイトル・出演者詳細の内訳・チケット情報は続報待ち、要追検証。"
+
+- id: sidem-11th-stage-bluray
+  title: "SideM 11th STAGE LIVE Blu-ray"
+  brand: sidem
+  kind: 公式
+  event_start: "2027-07-14"
+  status: pending
+  confidence: confirmed
+  added: "2026-09-13"
+  source: "ファミ通（2026年9月13日）／Lantis web site"
+  facts: |
+    内容: 「THE IDOLM@STER SideM 11th STAGE ～EVER EVER＠FTER～」LIVE Blu-ray
+    発売日: 2027年7月14日（水）
+    通常版: 26,400円（税込）、BD5枚組（品番LABX9015〜9）、DAY1・DAY2本編＋バックステージ映像収録
+    ASOBI STORE特装版: 39,600円（税込）、朗読劇「PASSIONABLE READING SHOW ～魂環の人形（マリオネット）～」抜粋収録の特典ディスク付き
+  publish_plan:
+    - on: "予約開始日（未定）"
+      angle: "予約受付開始"
+    - on: "2027-07-13"
+      angle: "明日発売予告"
+    - on: "2027-07-14"
+      angle: "本日発売"
+  used_in:
+    - sidem-11th-stage-bluray-announce  # 9/13配信「新発表」
+  notes: "予約開始日は続報待ち、要追検証。"
+
+- id: godo-765x961-ultimate-live
+  title: "765 PRODUCTION × 961 PRODUCTION IDOL ULTIMATE ONCE AND FOR ALL"
+  brand: godo
+  kind: 公式
+  event_start: "2027-07-24"
+  event_end: "2027-07-25"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-07-27"
+  source: "電ファミニコゲーマー（2026年7月26日・9月6日）／アイドルマスター公式ポータル news/01_19816（2026年9月6日12:00）"
+  facts: |
+    名称: 765 PRODUCTION × 961 PRODUCTION IDOL ULTIMATE ONCE AND FOR ALL
+    発表: IWSF2026 DAY3（20周年イヤーフィナーレ）公演の最後に発表
+    日程: 2027年7月24日（土）・25日（日）、全3公演
+    会場: 京王アリーナTOKYO
+    形式: xRライブ
+    コンセプト: 「今、"アイドル"―理想―が激突する」。765プロと961プロの対立構図を描いたPVを公開
+    【9/6判明】公式サイトオープン・出演アイドル判明: 第一公演「TO:STARLIT OF PROMISE」星井美希・四条貴音・我那覇響・奥空心白・玲音・詩花・亜夜ほか／第二公演「BE:STELLA OF ABSOLUTE」如月千早・高槻やよい・秋月律子・三浦あずさ・水瀬伊織・菊地真・双海亜美・双海真美・玲音・詩花の計10名／第三公演「IF:THE DAY OF JUDGMENT」天海春香・如月千早・萩原雪歩・星井美希・四条貴音・我那覇響・天ヶ瀬冬馬・伊集院北斗・御手洗翔太
+    チケット: 「765プロダクションシート」「961プロダクションシート」に分かれて販売。先行受付9月6日12:00〜10月28日23:59、当落発表11月16日13:00、入金期間11月16日〜23日
+    ドレスコード: 来場時に「所属プロダクションを表すアイテム」の着用を呼びかけ
+  publish_plan:
+    - on: "2026-09-06"
+      angle: "公演詳細発表・チケット先行受付開始"
+    - on: "2027-07-23"
+      angle: "明日開幕予告"
+    - on: "2027-07-24"
+      angle: "本日開幕・DAY1"
+    - on: "2027-07-25"
+      angle: "本日千秋楽"
+  used_in:
+    - godo-765x961-ultimate-live-announce  # 7/27配信「新ライブ発表」
+    - godo-765x961-fan-buzz  # 8/25配信「告知PVの演出がファンの間で考察に（ファン話題）」
+    - godo-765x961-ultimate-live-tickets  # 9/7配信「公演詳細発表・チケット先行受付開始」
+    - godo-765x961-ultimate-live-buzz  # 9/7配信「ドレスコード呼びかけにファン反応（ファン話題）」
+  notes: "公式サイトオープン・出演アイドル・チケット情報判明（9/6配信で記事化済み）。当落発表（11/16）以降、開幕予告・千秋楽が未消化。【9/13判明・断片情報】SideM 11th STAGE DAY2アンコールで本企画に言及があり、「961時代のJupiter」の映像に会場から歓声が上がったとファミ通が報道（具体的な出演確定発表ではない点に注意、単独記事化は見送り）。"
+
+- id: gaku-alter-kotone-kanmugiku-figure
+  title: "ALTER「藤田ことね 冠菊Ver.」1/7スケールフィギュア"
+  brand: gaku
+  kind: 公式
+  event_start: "2027-09-01"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-09-12"
+  source: "アイドルマスター公式ポータル news/01_19778／ALTER公式サイト（alter-web.jp/products/655/）"
+  facts: |
+    内容: 学園アイドルマスター・藤田ことねの1/7スケールフィギュア「藤田ことね 冠菊Ver.」。「冠菊」特訓後イラストを立体化
+    予約受付開始: 2026年9月11日(金)12:00
+    価格: 29,480円（税込）、全高約270mm、専用台座付属
+    原型: 黒川りく＋沼倉としあき／彩色: 緋色（scarlet）＋渡邊恭大
+    発売予定: 2027年9月
+  publish_plan:
+    - on: "予約締切日（未定）"
+      angle: "予約締切間近・締切"
+    - on: "2027-08-31"
+      angle: "明日発売予告"
+    - on: "2027-09-01"
+      angle: "本日発売"
+  used_in:
+    - gaku-alter-kotone-kanmugiku-figure  # 9/12配信「昨日予約開始」
+  notes: "予約締切日は続報待ち、要追検証。発売日（2027年9月）は月表記のみのため、正確な発売日が判明次第event_startを更新する。"
+
+- id: gaku-battlespirits-collab-2027
+  title: "「バトルスピリッツ」×学園アイドルマスター コラボ商品"
+  brand: gaku
+  kind: 公式
+  status: watching
+  confidence: confirmed
+  added: "2026-09-29"
+  source: "学園アイドルマスター公式X（@gkmas_official、2026年9月28日「初星学園HR #12」生配信内で発表）"
+  facts: |
+    内容: トレーディングカードゲーム「バトルスピリッツ」と学園アイドルマスターのコラボ商品化
+    商品: 「コラボスターター 始まりのステップ」「コラボブースター 輝けるアイドル」の2種、描き下ろしイラスト使用カードも収録予定
+    発売時期: 2027年春（正確な発売日は続報待ち）
+  publish_plan:
+    - on: "発売日決定後（未定）"
+      angle: "発売日判明・予約開始"
+  used_in:
+    - gaku-battlespirits-collab  # 9/29配信「新発表」
+  notes: "カードデザイン・収録内容の詳細は続報待ち、要追検証。発売日が判明次第event_startを設定する。"
+
+- id: osechi2027-cg-ml
+  title: "シンデレラガールズ×伊勢丹／ミリオンライブ×三越「おせち2027」"
+  brand: cg
+  kind: 公式
+  status: watching
+  confidence: unconfirmed
+  added: "2026-09-17"
+  source: "アイドルマスター公式ポータル news/01_19848（cg）／news/01_19847（ml）／mistore.jp"
+  facts: |
+    シンデレラガールズ×伊勢丹: 鷹富士茄子の振袖描き下ろしイラスト、特設ページ公開2026年9月16日10:00
+    ミリオンライブ！×三越: 白石紬の振袖描き下ろしイラスト、特設ページ公開2026年9月16日10:01
+    販売ページ・SNSキャンペーン詳細は続報予定。例年おせちは年末に予約受付・年始に届く形式
+  publish_plan:
+    - on: "予約受付開始日（未定）"
+      angle: "予約受付開始・詳細判明"
+  used_in:
+    - cg-isetan-osechi2027-page  # 9/17配信「特設ページ公開（cg）」
+    - ml-mitsukoshi-osechi2027-page  # 9/17配信「特設ページ公開（ml）」
+  notes: "cgとmlそれぞれ別ブランドの記事として記事化済み。予約受付開始・キャンペーン詳細が判明次第、ブランド別に追記記事化する。"
+
+- id: sc-futamasu-fukuroi
+  title: "静岡県袋井市「ふたマス!!!!!!」有栖川夏葉マンホール設置"
+  brand: sc
+  kind: 公式
+  status: watching
+  confidence: confirmed
+  added: "2026-08-24"
+  source: "袋井市公式サイト（city.fukuroi.shizuoka.jp/soshiki/brand/brandkakari/oshikatu/14714.html）"
+  facts: |
+    プロジェクト名: ふたマス!!!!!!（アイマス20周年記念マンホール企画「GO ON the VOY@GE」の一環）
+    担当地域: 静岡県袋井市
+    担当アイドル: 有栖川夏葉（シャイニーカラーズ）
+    設置場所: 静岡県袋井市愛野南1丁目28（愛のクラウンメロンオブジェ前）
+    デザイン: 有栖川夏葉と袋井市ゆかりのモチーフを組み合わせる予定、図柄は未公開
+    設置時期: 2026年度中（詳細日程未発表）
+  publish_plan:
+    - on: "設置お披露目日決定後（未定）"
+      angle: "明日設置お披露目予告"
+    - on: "設置お披露目当日（未定）"
+      angle: "本日設置お披露目"
+  used_in:
+    - sc-futamasu-fukuroi-arisugawa  # 8/24配信「新パートナー決定」
+  notes: "設置お披露目の具体的日程は続報待ち、要追検証。"
+
+- id: sc-project-relight-axe8
+  title: "Project \"ReLight\" AXE8（シャニマス全ユニット新ロゴ・新衣装・新曲刷新企画）"
+  brand: sc
+  kind: 公式
+  status: watching
+  confidence: unconfirmed
+  added: "2026-07-05"
+  source: "電撃オンライン / 電ファミニコゲーマー（2026年4月27日・8周年配信）"
+  facts: |
+    内容: シャニマス8ユニット全てが新ロゴ・新衣装・新曲で順次刷新される新企画
+    発表: 4/27の8周年記念生配信で発表
+    開始時期: 「今夏始動」とアナウンスされているが、2026年7月5日時点で具体的な開始日は未発表
+  publish_plan:
+    - on: "開始日確定後（未定）"
+      angle: "始動発表・詳細判明"
+  used_in: []
+  notes: "開始日・第1弾ユニットが判明次第、event_startを確定させ記事化する。"
+
+- id: as765-hangetsu-plush-pouch
+  title: "ちびぐるみ＆ポーチセット 〜はんげつであえたら〜（菊地真・萩原雪歩）"
+  brand: as765
+  kind: 公式
+  status: watching
+  confidence: confirmed
+  added: "2026-09-20"
+  source: "アイドルマスター公式ポータル news/01_19887"
+  facts: |
+    内容: 2024年3月のツインライブ「はんげつであえたら」の衣装をイメージした、菊地真・萩原雪歩それぞれのちびぐるみ＋名前刺繍入りポーチのセット（プレミアムバンダイ）
+    価格: 各4,950円（税込）
+    予約受付: 2026年9月19日10:00〜準備数に達し次第終了（固定の締切日なし）
+    お届け: 2027年3月予定
+  used_in:
+    - as765-hangetsu-plush-pouch-preorder  # 9/20配信「予約、昨日10:00より開始」
+  notes: "予約受付は準備数に達し次第終了のため固定の締切日は無し。今後『受付終了』の告知が出た場合は記事化を検討。"
+
