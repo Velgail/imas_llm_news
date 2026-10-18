@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-10-18"
+  dateLong: "2026年（令和8年）10月18日　日曜日"
+  pages: "全 4 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "筑西市×シャニマスのコラボ花火、昨夜打ち上げ"
+  indexNote: "ストレイライト・シーズの楽曲に合わせた音楽スターマイン。CG15周年ライブ一般会員先行は明日締切。"
 - date: "2026-10-08"
   dateLong: "2026年（令和8年）10月8日　木曜日"
   pages: "全 11 面"
