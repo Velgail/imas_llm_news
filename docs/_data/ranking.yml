@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-10-19 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-10-20 集計
 - rank: 1
-  name: "星井美希"
-  brand: as765
-  move: up
+  name: "佐竹美奈子"
+  brand: ml
+  move: new
 - rank: 2
-  name: "神崎蘭子"
-  brand: cg
+  name: "島原エレナ"
+  brand: ml
   move: new
 - rank: 3
-  name: "春日未来"
-  brand: ml
-  move: new
+  name: "星井美希"
+  brand: as765
+  move: down
 - rank: 4
-  name: "小宮果穂"
-  brand: sc
-  move: new
+  name: "神崎蘭子"
+  brand: cg
+  move: down
 - rank: 5
-  name: "天ヶ瀬冬馬"
-  brand: sidem
+  name: "花海咲季"
+  brand: gaku
   move: new
 - rank: 6
-  name: "山下次郎"
-  brand: sidem
-  move: new
-- rank: 7
-  name: "原紗友里"
-  brand: cg
-  move: new
-- rank: 8
-  name: "所恵美"
+  name: "春日未来"
   brand: ml
-  move: new
+  move: down
+- rank: 7
+  name: "小宮果穂"
+  brand: sc
+  move: down
+- rank: 8
+  name: "天ヶ瀬冬馬"
+  brand: sidem
+  move: down
