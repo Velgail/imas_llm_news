@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-10-22"
+  dateLong: "2026年（令和8年）10月22日　木曜日"
+  pages: "全 7 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "劇場版SideM公開記念舞台挨拶、11月21日に新宿ピカデリーで開催"
+  indexNote: "昨日はミリオン×三越のおせち販売開始、学マス×ローソンは11/10開始と発表。本日はSideM×ルネサンスが開始、明日は八戸「はちます」第2弾が開幕。"
 - date: "2026-10-19"
   dateLong: "2026年（令和8年）10月19日　月曜日"
   pages: "全 8 面"
