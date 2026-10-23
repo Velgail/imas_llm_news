@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-10-23"
+  dateLong: "2026年（令和8年）10月23日　金曜日"
+  pages: "全 7 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "シンデレラ×八戸「はちます」第2弾、本日開幕"
+  indexNote: "昨日はSideM×ルネサンスが始動、ミリオン京まふ事後物販が最終日。デレ・ミリ合同の伊勢丹おせちは予約受付中。"
 - date: "2026-10-19"
   dateLong: "2026年（令和8年）10月19日　月曜日"
   pages: "全 8 面"
