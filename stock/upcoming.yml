@@ -360,6 +360,7 @@
   used_in:
     - sidem-renaissance-collab-announce  # 9/17配信「新発表」
     - sidem-renaissance-collab-details  # 9/18配信「レッスン映像タイトル・グッズ価格判明（更新あり）」
+    - sidem-renaissance-collab-open  # 10/24配信「開催中」
   notes: "レッスン映像タイトル2本・グッズ価格・スタンディ設置数は9/17付PR TIMESリリースで判明（9/18配信で記事化）。残る1本のレッスン映像タイトルは続報待ち。開始予告（10/21）以降が未消化。"
 
 - id: cg-hachinohe-hachimasu-second
@@ -387,6 +388,7 @@
       angle: "本日最終日・完走"
   used_in:
     - cg-hachinohe-hachimasu-second  # 9/17配信「キービジュアル・詳細が一部解禁」
+    - cg-hachinohe-hachimasu-second-open  # 10/24配信「昨日開幕」
   notes: "ノベルティカード・コラボグッズの詳細は続報待ち、要追検証。開幕予告（10/22）以降が未消化。"
 
 - id: cg-naha-degimasu

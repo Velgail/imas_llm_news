@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-10-24"
+  dateLong: "2026年（令和8年）10月24日　土曜日"
+  pages: "全 12 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "シンデレラ15周年記念曲「HOURGLASS」、10月28日に初公開"
+  indexNote: "SideM渋谷MODIのPOP UPとシンデレラ×八戸「はちます」第2弾が昨日開幕。シャニマス・シャニソン周年生配信も実施。"
 - date: "2026-10-19"
   dateLong: "2026年（令和8年）10月19日　月曜日"
   pages: "全 8 面"
