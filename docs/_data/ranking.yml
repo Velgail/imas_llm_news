@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-10-24 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-10-25 集計
 - rank: 1
-  name: "桐生つかさ"
-  brand: cg
+  name: "水木聖來"
+  brand: godo
   move: new
 - rank: 2
-  name: "乙倉悠貴"
-  brand: cg
+  name: "舞浜歩"
+  brand: godo
   move: new
 - rank: 3
-  name: "幽谷霧子"
-  brand: sc
-  move: new
-- rank: 4
   name: "浅倉透"
   brand: sc
   move: new
+- rank: 4
+  name: "天峰秀"
+  brand: sidem
+  move: new
 - rank: 5
-  name: "信玄誠司"
+  name: "葛之葉雨彦"
   brand: sidem
   move: new
 - rank: 6
-  name: "木村龍"
-  brand: sidem
+  name: "月村手毬"
+  brand: gaku
   move: new
 - rank: 7
-  name: "鷹富士茄子"
-  brand: cg
+  name: "秦谷美鈴"
+  brand: gaku
   move: new
 - rank: 8
-  name: "上水流宇宙"
-  brand: valiv
+  name: "雨夜燕"
+  brand: gaku
   move: new
