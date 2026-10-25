@@ -2,6 +2,29 @@
 # event_start 昇順（直近が先頭）。配信日に該当する予定があれば取り出して記事化する。
 #
 
+- id: sidem-joypolis3-private-screening
+  title: "SideM in JOYPOLIS 3 貸切上映会"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-12-05"
+  status: pending
+  confidence: confirmed
+  added: "2026-10-25"
+  source: "東京ジョイポリス公式 tokyo-joypolis.com/event/sidem_jp2026/"
+  facts: |
+    日時: 2026年12月5日(土) 閉館後
+    参加券: 3,500円（チケット風アクリルキーホルダー付き）
+    先行抽選: ローソンチケット 10/16 12:00〜11/8 23:59／一般販売 11/19〜12/4
+    コラボ期間: 9/12〜12/6（第2期 10/25〜）
+  publish_plan:
+    - on: "2026-11-19"
+      angle: "本日一般販売開始"
+    - on: "2026-12-05"
+      angle: "本日貸切上映会"
+  used_in:
+    - sidem-joypolis3-private-screening-presale  # 10/25配信「先行抽選受付中」
+  notes: ""
+
 - id: ml-kyomafu-popup-yurakucho
   title: "ミリオンライブ！ 京まふ事後物販 POP UP SHOP（有楽町マルイ）"
   brand: ml
