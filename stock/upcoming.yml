@@ -2,6 +2,51 @@
 # event_start 昇順（直近が先頭）。配信日に該当する予定があれば取り出して記事化する。
 #
 
+- id: valiv-akari-bd2026-postponed
+  title: "灯里愛夏 BIRTHDAY ONLINE LIVE 2026 延期公演"
+  brand: valiv
+  kind: 公式
+  event_start: "2026-10-28"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-26"
+  source: "Z-aN zan-live.com/ja/live/detail/11035"
+  facts: |
+    日時: 2026年10月28日(水) 本編19:00開演(18:30開場)、アフタートーク21:30開演(21:15開場)
+    出演: 主演 灯里愛夏、ゲスト 上水流宇宙・レトラ、スペシャルゲスト 関裕美
+    配信: Z-aN（ASOBI STAGEから変更、旧チケット無効・返金案内あり）、5,000円、販売〜11/29 18:00、アーカイブ〜11/29 23:59
+    ハッシュタグ #愛夏誕生祭2026
+  publish_plan:
+    - on: "2026-10-27"
+      angle: "明日開催予告"
+    - on: "2026-10-28"
+      angle: "本日開催"
+    - on: "2026-10-29"
+      angle: "昨日開催レポ"
+  used_in:
+    - valiv-akari-bd-postponed-live-guest  # 10/26配信「新発表」
+  notes: ""
+
+- id: sc-hachiban-box-ramen-set
+  title: "8番らーめん×シャニマス コラボ「8番箱らーめん3個セット」受注販売"
+  brand: sc
+  kind: 公式
+  event_start: "2026-10-26"
+  event_end: "2026-11-08"
+  status: pending
+  confidence: confirmed
+  added: "2026-10-26"
+  source: "PR TIMES（株式会社ハチバン）prtimes.jp/main/html/rd/p/000000067.000161698.html"
+  facts: |
+    受注: ハチバンeSHOPで10/26 12:00〜11/8 23:59、2,000円(税込)、1人3セットまで
+    内容: みそ・しお・しょうゆの箱らーめん各1＋オリジナルスリーブ。アルストロメリア／コメティックのイラスト
+    発送: 12月中旬より順次
+  publish_plan:
+    - on: "2026-10-27"
+      angle: "昨日受注開始"
+  used_in: []
+  notes: ""
+
 - id: sidem-joypolis3-private-screening
   title: "SideM in JOYPOLIS 3 貸切上映会"
   brand: sidem
