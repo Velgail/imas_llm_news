@@ -25,6 +25,31 @@
       angle: "昨日開催レポ"
   used_in:
     - valiv-akari-bd-postponed-live-guest  # 10/26配信「新発表」
+    - valiv-akari-bd-postponed-live-tomorrow  # 10/27配信「明日開催」
+  notes: ""
+
+- id: sidem-seibuen-retrose-party
+  title: "SideM 超!!レトローズパーティ（西武園ゆうえんち）"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-10-30"
+  event_end: "2026-12-01"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-27"
+  source: "アイドルマスター公式ポータル news/01_20092／enjoytokyo.jp/event/2038743/"
+  facts: |
+    会期: 10/30(金)〜12/1(火)、西武園ゆうえんち
+    トークショー: 10/31・11/1・11/22 18:00〜19:00、参加券付き1日レヂャー切符10,000円
+    グッズ3,000円ごとにブロマイド1枚、スタンプラリー（ジョイポリス連動）、謎解き1,500円、わなげ700円
+    録り下ろしボイス: 天道輝・蒼井享介・神谷幸広・硲道夫・秋月涼
+  publish_plan:
+    - on: "2026-10-30"
+      angle: "本日開幕"
+    - on: "2026-11-01"
+      angle: "昨日トークショー初日レポ"
+  used_in:
+    - sidem-seibuen-retrose-party-thisweek  # 10/27配信「10/30開幕」
   notes: ""
 
 - id: sc-hachiban-box-ramen-set
@@ -33,7 +58,7 @@
   kind: 公式
   event_start: "2026-10-26"
   event_end: "2026-11-08"
-  status: pending
+  status: done
   confidence: confirmed
   added: "2026-10-26"
   source: "PR TIMES（株式会社ハチバン）prtimes.jp/main/html/rd/p/000000067.000161698.html"
@@ -44,7 +69,8 @@
   publish_plan:
     - on: "2026-10-27"
       angle: "昨日受注開始"
-  used_in: []
+  used_in:
+    - sc-hachiban-box-ramen-set  # 10/27配信「昨日受注開始」
   notes: ""
 
 - id: sidem-joypolis3-private-screening
@@ -139,6 +165,7 @@
       angle: "本日大丸梅田店開幕"
   used_in:
     - sidem-daimaru-matsuzakaya-popup2  # 10/8配信「新発表」
+    - sidem-daimaru-matsuzakaya-popup2-tomorrow  # 10/27配信「明日開幕」
   notes: "商品ラインナップ・ノベルティは続報待ち。"
 
 - id: sidem-mfes-christmas-cruise-2026
