@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-10-27"
+  dateLong: "2026年（令和8年）10月27日　水曜日"
+  pages: "全 7 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "学マスの咲季・佑芽・広・千奈がプライズフィギュアに"
+  indexNote: "昨日はシャニマス×8番らーめんの箱らーめんセットが受注開始。明日はSideM×大丸松坂屋が開幕し、灯里愛夏の延期ライブを配信。"
 - date: "2026-10-26"
   dateLong: "2026年（令和8年）10月26日　月曜日"
   pages: "全 7 面"
