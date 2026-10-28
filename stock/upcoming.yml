@@ -2,6 +2,50 @@
 # event_start 昇順（直近が先頭）。配信日に該当する予定があれば取り出して記事化する。
 #
 
+- id: cg-hub-last-order
+  title: "-The Last Order-THE IDOLM@STER CINDERELLA GIRLS ×HUB"
+  brand: cg
+  kind: 公式
+  event_start: "2026-11-20"
+  event_end: "2026-12-13"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-28"
+  source: "アイドルマスター公式ポータル（2026.10.27）"
+  facts: |
+    期間: 2026/11/20(金)〜12/13(日)。HUB秋葉原・西武新宿駅前・名古屋栄錦通り・梅田茶屋町・リッチモンドホテル横浜駅前・京都ヨドバシ、桜木町クロスゲート店は11/27〜30限定
+    登場: 大和亜季・佐藤心・川島瑞樹・高垣楓・鷹富士茄子・三船美優（黒白スーツ）。キャンペーン詳細は続報
+  publish_plan:
+    - on: "2026-11-19"
+      angle: "明日開幕予告"
+    - on: "2026-11-20"
+      angle: "本日開幕"
+  used_in:
+    - cg-hub-last-order-collab  # 10/28配信「新発表」
+  notes: ""
+
+- id: sidem-hands-knickknacks-vol2
+  title: "アイドルマスター SideM knick-knacks Vol.2（ハンズ）"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-11-13"
+  event_end: "2026-12-06"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-28"
+  source: "アイドルマスター公式ポータル（2026.10.27）"
+  facts: |
+    期間: 11/13(金)〜12/6(日)、ハンズ全国15店舗。ANICLOSET.オンラインストアは完全受注生産
+    内容: ハンズ創業50周年記念、エプロン姿12名の描き下ろし、動物シリーズ新グッズ、Vol.1一部再販。一部店舗で事前Web抽選
+  publish_plan:
+    - on: "2026-11-12"
+      angle: "明日開幕予告"
+    - on: "2026-11-13"
+      angle: "本日開幕"
+  used_in:
+    - sidem-knickknacks-vol2-hands  # 10/28配信「11/13開始」
+  notes: ""
+
 - id: valiv-akari-bd2026-postponed
   title: "灯里愛夏 BIRTHDAY ONLINE LIVE 2026 延期公演"
   brand: valiv
@@ -24,6 +68,7 @@
     - on: "2026-10-29"
       angle: "昨日開催レポ"
   used_in:
+    - valiv-akari-bd-postponed-today  # 10/28配信「本日開催」
     - valiv-akari-bd-postponed-live-guest  # 10/26配信「新発表」
   notes: ""
 
@@ -44,7 +89,8 @@
   publish_plan:
     - on: "2026-10-27"
       angle: "昨日受注開始"
-  used_in: []
+  used_in:
+    - sc-hachiban-box-ramen-set-order  # 10/28配信「受注受付中」
   notes: ""
 
 - id: sidem-joypolis3-private-screening
@@ -138,6 +184,7 @@
     - on: "2026-11-18"
       angle: "本日大丸梅田店開幕"
   used_in:
+    - sidem-daimaru-tokyo-popup2-today  # 10/28配信「本日大丸東京店開幕」
     - sidem-daimaru-matsuzakaya-popup2  # 10/8配信「新発表」
   notes: "商品ラインナップ・ノベルティは続報待ち。"
 
@@ -768,7 +815,8 @@
       angle: "本日池袋店開幕"
     - on: "2026-12-27"
       angle: "本日ソウル ホンデ店最終日・全会場完走"
-  used_in: []
+  used_in:
+    - cg-rose-tea-parlor-shinsaibashi-today  # 10/28配信「本日心斎橋店開幕」
   notes: "4会場（名古屋・心斎橋・池袋・ソウル）を順に巡回する形式。対象アイドル・メニュー・グッズの詳細は開催が近づいてから要追検証。"
 #
 # ── 非公式・ファン企画枠のテンプレート（kind: ファン）──────────────
@@ -844,7 +892,8 @@
     形式: xRライブ
     コンセプト: 「今、"アイドル"―理想―が激突する」。765プロと961プロの対立構図を描いたPVを公開
     【9/6判明】公式サイトオープン・出演アイドル判明: 第一公演「TO:STARLIT OF PROMISE」星井美希・四条貴音・我那覇響・奥空心白・玲音・詩花・亜夜ほか／第二公演「BE:STELLA OF ABSOLUTE」如月千早・高槻やよい・秋月律子・三浦あずさ・水瀬伊織・菊地真・双海亜美・双海真美・玲音・詩花の計10名／第三公演「IF:THE DAY OF JUDGMENT」天海春香・如月千早・萩原雪歩・星井美希・四条貴音・我那覇響・天ヶ瀬冬馬・伊集院北斗・御手洗翔太
-    チケット: 「765プロダクションシート」「961プロダクションシート」に分かれて販売。先行受付9月6日12:00〜10月28日23:59、当落発表11月16日13:00、入金期間11月16日〜23日
+    チケット: 「765プロダクションシート」「961プロダクションシート」に分かれて販売。先行受付9月6日12:00〜11月8日23:59（10/27に10/28から延長）、当落発表11月25日13:00、入金期間11月25日〜30日
+    【10/27判明】特典: 公式応援アイテム PRODUCTION ALLEGIANCE LIGHTTAG（765=ピンク／961=白、無線制御演出あり）
     ドレスコード: 来場時に「所属プロダクションを表すアイテム」の着用を呼びかけ
   publish_plan:
     - on: "2026-09-06"
@@ -856,6 +905,7 @@
     - on: "2027-07-25"
       angle: "本日千秋楽"
   used_in:
+    - godo-ultimate-lighttag-extension  # 10/28配信「ライトタグ特典・先行受付11/8まで延長」
     - godo-765x961-ultimate-live-announce  # 7/27配信「新ライブ発表」
     - godo-765x961-fan-buzz  # 8/25配信「告知PVの演出がファンの間で考察に（ファン話題）」
     - godo-765x961-ultimate-live-tickets  # 9/7配信「公演詳細発表・チケット先行受付開始」

@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-10-28"
+  dateLong: "2026年（令和8年）10月28日　水曜日"
+  pages: "全 11 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "灯里愛夏の延期バースデーライブ、本日19時"
+  indexNote: "昨日は765×961「IDOL ULTIMATE」のライトタグ特典が公開され、シンデレラ×HUBのコラボも決まった。"
 - date: "2026-10-26"
   dateLong: "2026年（令和8年）10月26日　月曜日"
   pages: "全 7 面"
