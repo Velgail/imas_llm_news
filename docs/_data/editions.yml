@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-10-29"
+  dateLong: "2026年（令和8年）10月29日　木曜日"
+  pages: "全 7 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "TOURS S2弾、本日稼働　SideMの舞田類・山下次郎が参戦"
+  indexNote: "昨日は灯里愛夏の延期バースデーライブ、SideM大丸東京店の開幕、「HOURGLASS」初公開。西武園の超!!レトローズパーティは明日開幕。"
 - date: "2026-10-26"
   dateLong: "2026年（令和8年）10月26日　月曜日"
   pages: "全 7 面"

@@ -25,6 +25,7 @@
       angle: "昨日開催レポ"
   used_in:
     - valiv-akari-bd-postponed-live-guest  # 10/26配信「新発表」
+    - valiv-akari-bd-postponed-live-held  # 10/29配信「昨日開催」
   notes: ""
 
 - id: sc-hachiban-box-ramen-set
@@ -139,6 +140,7 @@
       angle: "本日大丸梅田店開幕"
   used_in:
     - sidem-daimaru-matsuzakaya-popup2  # 10/8配信「新発表」
+    - sidem-daimaru-tokyo-popup2-open  # 10/29配信「昨日開幕」
   notes: "商品ラインナップ・ノベルティは続報待ち。"
 
 - id: sidem-mfes-christmas-cruise-2026
@@ -567,6 +569,7 @@
       angle: "本日最終日"
   used_in:
     - sidem-seibuen-retrose-party  # 9/2配信「昨日新発表」
+    - sidem-seibuen-retrose-party-tomorrow  # 10/29配信「明日開幕」
   notes: "トークショー出演声優・グッズ詳細は続報待ち、要追検証。"
 
 - id: gaku-ichibankuji-part6
