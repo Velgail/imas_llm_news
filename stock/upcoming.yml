@@ -139,6 +139,7 @@
       angle: "本日大丸梅田店開幕"
   used_in:
     - sidem-daimaru-matsuzakaya-popup2  # 10/8配信「新発表」
+    - sidem-daimaru-tokyo-popup-ongoing  # 10/30配信「開催中」
   notes: "商品ラインナップ・ノベルティは続報待ち。"
 
 - id: sidem-mfes-christmas-cruise-2026
@@ -567,6 +568,7 @@
       angle: "本日最終日"
   used_in:
     - sidem-seibuen-retrose-party  # 9/2配信「昨日新発表」
+    - sidem-seibuen-retrose-party-open  # 10/30配信「本日開幕」
   notes: "トークショー出演声優・グッズ詳細は続報待ち、要追検証。"
 
 - id: gaku-ichibankuji-part6
