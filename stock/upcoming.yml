@@ -1716,8 +1716,8 @@
     - sidem-tabimasu-jrc-start  # 8/4配信「昨日名古屋でスタート」
     - sidem-tabimasu-jrc-half-switch-tomorrow  # 9/15配信「明日9/16前半終了・後半へ」
     - sidem-tabimasu-jrc-half-today  # 9/16配信「本日前半終了・明日から後半へ」
-  status: partially-used
     - sidem-tabimasu-derasu-final-day
+  status: done
   notes: "8/3開始分は記事化済み。前半終了・後半切替の明日予告（9/15配信）消化済み。前半終了当日（9/16）・最終日（10/31）が未消化。"
 
 - id: cg-achi-village-collab
