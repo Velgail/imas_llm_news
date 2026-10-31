@@ -139,6 +139,7 @@
       angle: "本日大丸梅田店開幕"
   used_in:
     - sidem-daimaru-matsuzakaya-popup2  # 10/8配信「新発表」
+    - sidem-daimaru-tokyo-ticket-days
   notes: "商品ラインナップ・ノベルティは続報待ち。"
 
 - id: sidem-mfes-christmas-cruise-2026
@@ -567,6 +568,7 @@
       angle: "本日最終日"
   used_in:
     - sidem-seibuen-retrose-party  # 9/2配信「昨日新発表」
+    - sidem-seibuen-retrose-party-open
   notes: "トークショー出演声優・グッズ詳細は続報待ち、要追検証。"
 
 - id: gaku-ichibankuji-part6
@@ -1247,6 +1249,7 @@
     - sidem-derasu-ambassador-tomorrow  # 8/2配信「明日開幕予告」
     - sidem-derasu-ambassador-today  # 8/3配信「本日開幕」
     - sidem-derasu-manga10-popup  # 8/6配信「POP UP Store at マンガ展（バレエコア新衣装）判明・更新あり」
+    - sidem-tabimasu-derasu-final-day
   notes: "宿泊プラン・グッズの詳細は開催が近づいてから要追検証。8/3開幕分は記事化済み。でらます関連の派生企画としてマンガ展POP UP（3D CREMA GALLERY、8/3〜10/31、バレエコア衣装、神楽麗・鷹城恭二・握野英雄・若里春名・舞田類の5名）が判明・記事化済み（8/6配信）。10/31最終日が未消化。"
 
 - id: sidem-royal-chess-lounge
@@ -1714,6 +1717,7 @@
     - sidem-tabimasu-jrc-half-switch-tomorrow  # 9/15配信「明日9/16前半終了・後半へ」
     - sidem-tabimasu-jrc-half-today  # 9/16配信「本日前半終了・明日から後半へ」
   status: partially-used
+    - sidem-tabimasu-derasu-final-day
   notes: "8/3開始分は記事化済み。前半終了・後半切替の明日予告（9/15配信）消化済み。前半終了当日（9/16）・最終日（10/31）が未消化。"
 
 - id: cg-achi-village-collab
@@ -2107,6 +2111,7 @@
     - godo-clashmatch-general-presale  # 10/8配信「アソビストア一般会員先行スタート」
     - godo-clashmatch-warmup-stream  # 10/8配信「ウォームアップ生配信10/30決定」
     - godo-clashmatch-radio-fureakane  # 10/8配信「開催記念ラジオ第1回フレあか」
+    - godo-clashmatch-warmup-general-presale-last
   notes: "MILLION STRINGSのメンバー構成・出演者詳細は続報待ち、要追検証。一般発売日程も未発表。チケット価格帯・大橋彩香DAY2出演判明（8/28配信）。プレミアム会員先行受付締切（9/13）を9/14配信で記事化済み（当初on:2026-09-13で予定していたが1日遅れで消化）。当落発表（9/30）以降が未消化。"
 
 - id: sc-natsumo-atsui-sp-followup-releases
@@ -2546,3 +2551,45 @@
   used_in:
     - as765-xrlive-revival-announce  # 10/7配信
   notes: "会場は大阪・オリックス劇場（公式 01_20062）。Pop'n ToyBox!!はCG作品。チケット日程は要追検証。"
+
+- id: sidem-sai-agatsuma-ninnin
+  title: "SideM「彩」×群馬・吾妻「あがつまニンニン！広報大使」"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-10-28"
+  event_end: "2026-12-13"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-31"
+  source: "群馬県報道発表（pref.gunma.jp/site/houdou/776193.html）"
+  facts: |
+    期間: 10/28〜12/13。中之条・長野原・嬬恋・草津・高山・東吾妻の18スポット
+    アプリ「furari」のデジタルスタンプラリー。町村コンプリート特典は大缶バッジ+タオル(〜11/18)／アクリルキーホルダー(11/19〜)
+  publish_plan:
+    - on: "2026-11-19"
+      angle: "本日から特典がアクリルキーホルダーに切替"
+    - on: "2026-12-14"
+      angle: "昨日最終日"
+  used_in:
+    - sidem-sai-agatsuma-ninnin-ambassador
+  notes: ""
+
+- id: cg-starlight-stage-bluray-box
+  title: "シンデレラ10th MEMORIAL LIVE STARLIGHT STAGE Blu-ray BOX"
+  brand: cg
+  kind: 公式
+  event_start: "2027-03-24"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-10-31"
+  source: "日本コロムビア公式（columbia.jp/idolmaster/imasnews/261030.html）"
+  facts: |
+    発売2027/3/24、39,800円〜。アソビストア予約は12/20まで
+  publish_plan:
+    - on: "2026-12-21"
+      angle: "アソビストア予約昨日締切"
+    - on: "2027-03-24"
+      angle: "本日発売"
+  used_in:
+    - cg-starlight-stage-bluray-box-preorder
+  notes: ""
