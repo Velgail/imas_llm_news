@@ -1,11 +1,11 @@
 ---
-title: "ミリオン、大阪の「Cyber Planet POP UP SHOP」が来週11月7日に開幕　壮瞥のりんごまつりは11月8日まで"
+title: "ミリオン、大阪の「Cyber Planet POP UP SHOP」が今週末11月7日に開幕　壮瞥のりんごまつりは11月8日まで"
 edition_date: "2026-11-02"
 slug: ml-ringo-cyberplanet-nov
 brand: ml
 kind: 公式
 badge: "11/7開幕"
-lead: "ミリオンライブ！関連のイベントが、来週にかけて続く。"
+lead: "ミリオンライブ！関連のイベントが、今週末にかけて続く。"
 source: "stock/upcoming.yml（ml-cyberplanet-popup-2026、ml-souhbetsu-ringo-matsuri-2026）"
 tags: [ミリオンライブ, POP UP SHOP, 木下ひなた]
 ---

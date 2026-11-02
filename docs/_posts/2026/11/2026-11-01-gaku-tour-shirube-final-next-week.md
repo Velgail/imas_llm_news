@@ -1,11 +1,11 @@
 ---
-title: "学マスLIVE TOUR -標- ファイナル、来週11月7日・8日にKアリーナ横浜で"
+title: "学マスLIVE TOUR -標- ファイナル、今週末11月7日・8日にKアリーナ横浜で"
 edition_date: "2026-11-02"
 slug: gaku-tour-shirube-final-next-week
 brand: gaku
 kind: 公式
-badge: "来週開催"
-lead: "「学園アイドルマスター LIVE TOUR -標-」のファイナル公演が、来週の11月7日（土）・8日（日）にKアリーナ横浜で開かれる。"
+badge: "今週末開催"
+lead: "「学園アイドルマスター LIVE TOUR -標-」のファイナル公演が、今週末の11月7日（土）・8日（日）にKアリーナ横浜で開かれる。"
 source: "アイドルマスター公式ポータル／stock/upcoming.yml（gaku-live-tour-shirube）"
 tags: [学マス, LIVE TOUR 標, Kアリーナ横浜]
 ---
