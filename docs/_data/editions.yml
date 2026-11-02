@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-11-02"
+  dateLong: "2026年（令和8年）11月2日　月曜日"
+  pages: "全 14 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "学マスLIVE TOUR -標- ファイナル、今週末7日開幕"
+  indexNote: "昨日は11月分の定例施策が各ゲームで始まった。学マスのナムコ連動クレーンは終了、西武園のSideMトークショーは2回目を迎えた。"
 - date: "2026-10-26"
   dateLong: "2026年（令和8年）10月26日　月曜日"
   pages: "全 7 面"
