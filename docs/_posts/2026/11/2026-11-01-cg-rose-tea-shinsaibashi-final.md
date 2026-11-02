@@ -4,7 +4,7 @@ edition_date: "2026-11-02"
 slug: cg-rose-tea-shinsaibashi-final
 brand: cg
 kind: 公式
-badge: "開催中"
+badge: "11/4まで"
 lead: "「シンデレラガールズ×Rose Tea Parlor」コラボカフェの心斎橋店が、10月28日から開催中。11月4日（水）までとなっている。"
 source: "stock/upcoming.yml（cg-rose-tea-parlor-cafe）"
 tags: [シンデレラガールズ, コラボカフェ, Rose Tea Parlor]

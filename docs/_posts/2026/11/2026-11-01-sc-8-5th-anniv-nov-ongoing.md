@@ -4,7 +4,7 @@ edition_date: "2026-11-02"
 slug: sc-8-5th-anniv-nov-ongoing
 brand: sc
 kind: 公式
-badge: "開催中"
+badge: "11/10まで"
 lead: "「アイドルマスター シャイニーカラーズ」の8.5周年関連施策のうち、多くが11月10日に終了を迎える。"
 source: "ミリシタ・デレステ・シャニマス イベント・ガシャ総合カレンダー（melonpapapapa-n.com）"
 tags: [シャニマス, 8.5周年, 果てにふれるのなら]

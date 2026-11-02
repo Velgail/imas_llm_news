@@ -4,7 +4,7 @@ edition_date: "2026-11-02"
 slug: sc-8bankaramen-nov-ongoing
 brand: sc
 kind: 公式
-badge: "開催中"
+badge: "11/8まで"
 lead: "シャニマス×「8番らーめん」コラボが、残り1週間となった。"
 source: "PR TIMES（株式会社ハチバン）／stock/upcoming.yml"
 tags: [シャニマス, 8番らーめん, アルストロメリア]

@@ -4,7 +4,7 @@ edition_date: "2026-11-02"
 slug: ml-ringo-cyberplanet-nov
 brand: ml
 kind: 公式
-badge: "来週土曜"
+badge: "11/7開幕"
 lead: "ミリオンライブ！関連のイベントが、来週にかけて続く。"
 source: "stock/upcoming.yml（ml-cyberplanet-popup-2026、ml-souhbetsu-ringo-matsuri-2026）"
 tags: [ミリオンライブ, POP UP SHOP, 木下ひなた]
