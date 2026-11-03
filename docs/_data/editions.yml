@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-11-03"
+  dateLong: "2026年（令和8年）11月3日　火曜日"
+  pages: "全 14 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "シンデレラ10thメモリアルライブBlu-ray BOX、2027年3月24日発売"
+  indexNote: "昨日は学マス×サントリー烏龍茶のタオル付きセットが発売決定。シャニソン3周年とミリシタの新イベントは開催中。"
 - date: "2026-10-26"
   dateLong: "2026年（令和8年）10月26日　月曜日"
   pages: "全 7 面"
