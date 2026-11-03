@@ -2546,3 +2546,67 @@
   used_in:
     - as765-xrlive-revival-announce  # 10/7配信
   notes: "会場は大阪・オリックス劇場（公式 01_20062）。Pop'n ToyBox!!はCG作品。チケット日程は要追検証。"
+
+- id: cg-asuka-fujiwara-worldheritage
+  title: "世界遺産「飛鳥・藤原の宮都」×シンデレラガールズ（奈良県明日香村）"
+  brand: cg
+  kind: 公式
+  event_start: "2026-12-17"
+  event_end: "2027-03-04"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-11-03"
+  source: "アイドルマスター ポータル news/01_20226"
+  facts: |
+    期間: 2026年12月17日(木)〜2027年3月4日(木)
+    出演: 二宮飛鳥・藤原肇・高峯のあ・道明寺歌鈴ほか8人（四神モチーフ衣装）
+    詳細は近日公開
+  publish_plan:
+    - on: "2026-12-17"
+      angle: "本日開幕"
+  used_in:
+    - cg-asuka-fujiwara-worldheritage-collab
+  notes: "詳細続報待ち。"
+
+- id: sc-tsutaya-popup-yujo-fumetsu
+  title: "TSUTAYA×シャニマス【友情不滅宣言】POP UP SHOP"
+  brand: sc
+  kind: 公式
+  event_start: "2026-11-11"
+  event_end: "2027-01-07"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-11-03"
+  source: "アイドルマスター ポータル news/01_20237"
+  facts: |
+    東京: SHIBUYA TSUTAYA IP書店 11/11〜11/30／京都: 京都髙島屋S.C.6F 12/11〜2027/1/7
+    特典: 4コマ漫画しおり（会計ごと）、2,200円以上でポストカード全21種
+  publish_plan:
+    - on: "2026-11-11"
+      angle: "本日開幕"
+    - on: "2026-12-11"
+      angle: "本日京都開幕"
+  used_in:
+    - sc-tsutaya-popup-yujo-fumetsu
+  notes: ""
+
+- id: godo-deremi-clash-radio
+  title: "CLASH M@TCH!! 事前ラジオ"
+  brand: godo
+  kind: 公式
+  event_start: "2026-11-13"
+  event_end: "2026-12-04"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-11-03"
+  source: "アイドルマスター ポータル news/01_20223"
+  facts: |
+    第1回フレあかラジオ 11/13 20:00／第2回よしちづラジオ 12/4 20:00（プレミア公開）
+  publish_plan:
+    - on: "2026-11-13"
+      angle: "本日第1回配信"
+    - on: "2026-12-04"
+      angle: "本日第2回配信"
+  used_in:
+    - godo-deremi-clash-radio-schedule
+  notes: ""
