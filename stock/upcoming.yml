@@ -44,7 +44,7 @@
   publish_plan:
     - on: "2026-10-27"
       angle: "昨日受注開始"
-  used_in: []
+  used_in: ['sc-8bankaramen-final-week']
   notes: ""
 
 - id: sidem-joypolis3-private-screening
