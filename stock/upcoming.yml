@@ -2,6 +2,49 @@
 # event_start 昇順（直近が先頭）。配信日に該当する予定があれば取り出して記事化する。
 #
 
+- id: gaku-lawson-campaign-2026aki
+  title: "学園アイドルマスター×ローソン キャンペーン 2026秋"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-11-10"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-11-05"
+  source: "ファミ通.com famitsu.com/article/202611/93050／ローソン特設 lawson.co.jp/lab/campaign/gkmas/"
+  facts: |
+    開始: 11/10(火)、ローソン対象店舗。終了日は未確認
+    お菓子3点購入でマルチファイル配布（先着）。イトウ製菓「ラングリー」バニラ／チョコ、マグネットシート付き
+    グッズ: アクリルスタンド、スライドミラーキーホルダー、グリッター缶バッジ。マルチコピー機でランダムブロマイド
+  publish_plan:
+    - on: "2026-11-10"
+      angle: "本日開始"
+  used_in:
+    - gaku-lawson-campaign-1110
+  notes: "価格・終了日・キャラは特設ページで要確認。"
+
+- id: sc-yujo-fumetsu-popup-tsutaya
+  title: "TSUTAYA×シャニマス【友情不滅宣言】POP UP SHOP"
+  brand: sc
+  kind: 公式
+  event_start: "2026-11-11"
+  event_end: "2027-01-07"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-11-05"
+  source: "コラボカフェ collabo-cafe.com（11/2掲載）"
+  facts: |
+    東京: SHIBUYA TSUTAYA IP書店 11/11〜11/30（ポストカード前半11/11〜20、後半11/21〜30）
+    京都: 京都IP書店（京都髙島屋S.C.6F）12/11〜2027/1/7
+    放課後クライマックスガールズ平成ギャル衣装の描き下ろし、他3ユニットはミニキャラ
+  publish_plan:
+    - on: "2026-11-11"
+      angle: "本日渋谷開幕"
+    - on: "2026-12-11"
+      angle: "本日京都開幕"
+  used_in:
+    - sc-yujo-fumetsu-popup-tsutaya
+  notes: ""
+
 - id: valiv-akari-bd2026-postponed
   title: "灯里愛夏 BIRTHDAY ONLINE LIVE 2026 延期公演"
   brand: valiv
@@ -943,6 +986,7 @@
     - on: "2026-11-01"
       angle: "実店舗展開開始（時期要確認）"
   used_in:
+    - sc-refrac7ions-chibigurumi-namco  # 11/5配信「11/13から店舗展開」
     - sc-refrac7ions-chibi-crane  # 7/12配信「昨日Vol.1・2先行プレイ開始」
     - sc-refrac7ions-vol34-crane  # 7/18配信「本日Vol.3・4先行プレイ開始」
     - sc-refrac7ions-vol56-crane  # 7/24配信「本日Vol.5・6先行プレイ開始」
