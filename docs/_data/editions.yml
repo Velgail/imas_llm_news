@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-11-06"
+  dateLong: "2026年（令和8年）11月6日　金曜日"
+  pages: "全 8 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "学マス「標」ファイナル、明日Kアリーナ横浜で開幕"
+  indexNote: "レトラのバースデーライブにジュリアが出演。本日からKアリーナ横浜でコラボドリンクも始まる。"
 - date: "2026-10-26"
   dateLong: "2026年（令和8年）10月26日　月曜日"
   pages: "全 7 面"
