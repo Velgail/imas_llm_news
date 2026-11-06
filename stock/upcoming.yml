@@ -489,6 +489,7 @@
       angle: "本日最終日・完走"
   used_in:
     - cg-naha-degimasu-collab  # 9/17配信「コラボ決定」
+    - cg-naha-degimasu-details  # 11/6配信「実施内容公開（更新あり）」
   notes: "グッズ・キャンペーンの詳細は続報待ち、要追検証。開幕予告（11/19）以降が未消化。"
 
 - id: gaku-unioncreative-tsukimura-figure
@@ -1425,6 +1426,8 @@
     - on: "2026-11-08"
       angle: "本日ファイナル公演千秋楽・ツアー完走"
   used_in:
+    - gaku-shirube-final-tomorrow  # 11/6配信「明日ファイナル開幕予告」
+    - gaku-shirube-final-collab-drink  # 11/6配信「コラボドリンク本日から」
     - gaku-live-tour-shirube-lottery-deadline  # 7/6配信「一般会員2次先行抽選、昨日23:59締切」
     - gaku-live-tour-shirube-final-lottery  # 7/9配信「ファイナル公演(Kアリーナ横浜11/7・8)プレミアム会員先行当落発表」
     - gaku-live-tour-shirube-final-general-presale  # 7/16配信「ファイナル公演一般会員先行(抽選)、昨日7/15より受付中」
