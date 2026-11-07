@@ -2,6 +2,154 @@
 # event_start 昇順（直近が先頭）。配信日に該当する予定があれば取り出して記事化する。
 #
 
+- id: gaku-shirube-final
+  title: "学園アイドルマスター LIVE TOUR -標- ファイナル公演"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-11-07"
+  event_end: "2026-11-08"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-11-07"
+  source: "アイドルマスター公式ポータル news/01_20274"
+  facts: |
+    会場: Kアリーナ横浜、物販 11/7・8 10:00〜17:00
+    配信: ASOBISTAGE、チケット〜11/23 18:00、アーカイブ 11/9 18:00〜11/23 23:59、最速版は終演1時間後目安
+  publish_plan:
+    - on: "2026-11-08"
+      angle: "DAY1レポ＆本日DAY2"
+    - on: "2026-11-09"
+      angle: "昨日千秋楽（ツアー完走レポ）"
+  used_in:
+    - gaku-shirube-final-open
+    - gaku-shirube-final-merch-montblanc
+  notes: "セットリスト・新情報は公演後に要追検証。"
+
+- id: cg-invitational-party-popup
+  title: "シンデレラガール総選挙＆15th Invitational P@rty !! (yokohama LANDMARK HALL)"
+  brand: cg
+  kind: 公式
+  event_start: "2026-11-21"
+  event_end: "2026-11-29"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-11-07"
+  source: "アイドルマスター公式ポータル news/01_20309／special.amiami.jp/cinderella_amiami_2026/"
+  facts: |
+    会場: 横浜ランドマークホール(ランドマークプラザ5F)、入場無料、事前予約制
+    抽選 11/6 18:00〜11/12 23:59、当落 11/16 18:00頃、先着 11/17 18:00〜
+    営業 10:00〜20:00(11/29のみ〜15:00)
+  publish_plan:
+    - on: "2026-11-13"
+      angle: "抽選受付昨日締切"
+    - on: "2026-11-17"
+      angle: "昨日当落発表・本日先着開始"
+    - on: "2026-11-21"
+      angle: "本日開幕"
+  used_in:
+    - cg-invitational-party-popup
+  notes: ""
+
+- id: cg-hub-last-order
+  title: "-The Last Order- シンデレラガールズ×HUB"
+  brand: cg
+  kind: 公式
+  event_start: "2026-11-20"
+  event_end: "2026-12-13"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-11-07"
+  source: "アイドルマスター公式ポータル news/01_20295"
+  facts: |
+    HUB 6店舗(桜木町クロスゲート店は11/27〜30限定)、川島瑞樹の店内放送、ぴにゃこら太コラボ
+  publish_plan:
+    - on: "2026-11-20"
+      angle: "本日開幕"
+  used_in:
+    - cg-hub-last-order-reservation
+  notes: ""
+
+- id: valiv-letora-bd2026
+  title: "レトラ BIRTHDAY ONLINE LIVE 2026"
+  brand: valiv
+  kind: 公式
+  event_start: "2026-11-11"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-11-07"
+  source: "アイドルマスター公式ポータル news/01_20286"
+  facts: |
+    SG ジュリア、LV ユナイテッド・シネマ アクアシティお台場、19:00開演(予定)
+  publish_plan:
+    - on: "2026-11-10"
+      angle: "明日開催予告"
+    - on: "2026-11-11"
+      angle: "本日開催"
+  used_in:
+    - valiv-letora-bd-guest-julia
+  notes: ""
+
+- id: sogo-yearend-kansha-2026
+  title: "アイマス年末感謝祭 みんなで振り返りM@S"
+  brand: sogo
+  kind: 公式
+  event_start: "2026-12-24"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-11-07"
+  source: "アイドルマスター情報まとめ imasnews765.com/?p=32645"
+  facts: |
+    19:00(予定)、YouTube Live／ニコ生／Xライブ、全ブランドのキャスト出演
+  publish_plan:
+    - on: "2026-12-23"
+      angle: "明日生配信予告"
+    - on: "2026-12-24"
+      angle: "本日生配信"
+  used_in:
+    - sogo-yearend-kansha-m-at-s
+  notes: ""
+
+- id: cg-cinderella-party-cd-m-at-ster
+  title: "CINDERELLA PARTY! M@STER／CINDERELLA MASTER HOURGLASS"
+  brand: cg
+  kind: 公式
+  event_start: "2026-11-18"
+  event_end: "2026-11-25"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-11-07"
+  source: "日本コロムビア columbia.jp/idolmaster/imasnews/261106.html"
+  facts: |
+    HOURGLASS 11/18発売、PARTY! M@STER 11/25発売
+  publish_plan:
+    - on: "2026-11-18"
+      angle: "本日HOURGLASS発売"
+    - on: "2026-11-25"
+      angle: "本日PARTY! M@STER発売"
+  used_in:
+    - cg-columbia-cd-party-jacket
+  notes: ""
+
+- id: sc-orchestra-radiant-chord
+  title: "SHINY COLORS ORCHESTRA CONCERT -Radiant Chord-"
+  brand: sc
+  kind: 公式
+  event_start: "2027-03-22"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-11-07"
+  source: "アイドルマスター公式ポータル news/01_20282"
+  facts: |
+    パシフィコ横浜 国立大ホール、グッズ事前販売〜11/15
+  publish_plan:
+    - on: "2027-03-21"
+      angle: "明日開催予告"
+    - on: "2027-03-22"
+      angle: "本日開催"
+  used_in:
+    - sc-orchestra-radiant-chord-goods
+  notes: "出演者・チケット詳細は続報待ち。"
+
 - id: valiv-akari-bd2026-postponed
   title: "灯里愛夏 BIRTHDAY ONLINE LIVE 2026 延期公演"
   brand: valiv
