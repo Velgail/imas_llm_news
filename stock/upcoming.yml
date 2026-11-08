@@ -33,7 +33,7 @@
   kind: 公式
   event_start: "2026-10-26"
   event_end: "2026-11-08"
-  status: pending
+  status: done
   confidence: confirmed
   added: "2026-10-26"
   source: "PR TIMES（株式会社ハチバン）prtimes.jp/main/html/rd/p/000000067.000161698.html"
@@ -44,7 +44,8 @@
   publish_plan:
     - on: "2026-10-27"
       angle: "昨日受注開始"
-  used_in: []
+  used_in:
+    - sc-8bankaramen-last-day  # 11/8配信「本日最終日・受注23:59まで」
   notes: ""
 
 - id: sidem-joypolis3-private-screening
@@ -68,6 +69,7 @@
       angle: "本日貸切上映会"
   used_in:
     - sidem-joypolis3-private-screening-presale  # 10/25配信「先行抽選受付中」
+    - sidem-joypolis3-presale-last-day  # 11/8配信「先行抽選、本日23:59締切」
   notes: ""
 
 - id: ml-kyomafu-popup-yurakucho
@@ -1423,7 +1425,7 @@
     - on: "2026-11-07"
       angle: "本日ファイナル公演DAY1"
     - on: "2026-11-08"
-      angle: "本日ファイナル公演千秋楽・ツアー完走"
+      angle: "本日ファイナル公演千秋楽・ツアー完走（※11/8号ではDAY1レポとして消化。DAY2レポは11/9配信で）"
   used_in:
     - gaku-live-tour-shirube-lottery-deadline  # 7/6配信「一般会員2次先行抽選、昨日23:59締切」
     - gaku-live-tour-shirube-final-lottery  # 7/9配信「ファイナル公演(Kアリーナ横浜11/7・8)プレミアム会員先行当落発表」
@@ -1458,6 +1460,8 @@
     - gaku-shirube-iwate-day2-report  # 9/24配信「岩手公演DAY2、千秋楽で星南『Roar』・清夏『Private Glitter』初披露」
     - gaku-shirube-iwate-day2-newsongs  # 9/24配信「新曲『Roar』『Private Glitter』、本日サブスク配信開始」
     - gaku-shirube-iwate-day2-buzz  # 9/24配信「岩手公演千秋楽にファン『過去最高のライブ』と絶賛（ファン話題）」
+    - gaku-shirube-final-day1-report  # 11/8配信「ファイナルDAY1開演、新曲『慟哭のコンチェルト』・新ユニット『乖轟』（SNS報告ベース）」
+    - gaku-shirube-final-venue-goods  # 11/8配信「会場コラボドリンク・いつぬい再販告知」
   notes: "出演者・セトリ等の詳細は未取得。ファイナル公演のチケット価格・出演人数は公式サイト（live_event/gkmas_livetour_shirube配下）で確認済み。福井公演の出演者が判明済み（七瀬つむぎ・花岩香奈・薄井友里・松田彩音）。グッズ事前販売ファイナル締切（8/16）・福井公演開幕予告（8/19）・本日福井公演開幕（8/20、会場で福井県銘品「眼鏡堅麺麭」コラボ商品販売）・DAY1レポ＆新曲配信（8/21）・福井千秋楽レポ（8/22、DAY2はDAY1から13曲入れ替え・葛城リーリヤ「いつかのわたし」＆姫崎莉波「重なる夜空の痕跡に」新曲披露、CD「修楽旅行」予約開始9/23締切）・福岡公演一般発売開始（8/24、顔写真登録システム導入）・福岡公演グッズラインナップ判明（8/25、事前販売は4/30〜5/17で終了済み・公演直前の追加販売予定なしと事実確認済み）・福岡公演開幕予告（9/4）・本日福岡公演開幕（9/5）・福岡DAY1新曲配信開始（9/6）・福岡DAY2千秋楽＆新曲配信・岩手公演一般先着受付中（9/7）・岩手公演一般先着本日23:59締切（9/9、リセール受付は翌9/10 9:59まで）消化済み。岩手公演出演者は伊藤舞音（倉本千奈役）・湊みや（紫雲清夏役）・春咲暖（秦谷美鈴役）・陽高真白（十王星南役）と公式サイトで確認済み。岩手公演DAY1レポ・新曲配信・ファン話題（9/23配信）、DAY2千秋楽レポ・新曲配信・ファン話題（9/24配信）まで消化済み。ファイナル公演（Kアリーナ横浜11/7・8）の開幕予告以降が未消化。"
 
 - id: sc-283pro-solo-live-msp
@@ -1594,6 +1598,7 @@
     - sc-8bankaramen-collab-buzz  # 9/19配信「発表にファン歓喜（ファン話題）」
     - sc-8bankaramen-today  # 10/7配信「本日開幕」
     - sc-8bankaramen-goods-presale  # 10/7配信「DMM予約開始」
+    - sc-8bankaramen-last-day  # 11/8配信「本日最終日」
   notes: "メニュー・グッズの詳細は続報待ち、要追検証。"
 
 - id: sc-suntory-lemonsquash
@@ -2546,3 +2551,46 @@
   used_in:
     - as765-xrlive-revival-announce  # 10/7配信
   notes: "会場は大阪・オリックス劇場（公式 01_20062）。Pop'n ToyBox!!はCG作品。チケット日程は要追検証。"
+
+- id: cg-invitational-party-yokohama
+  title: "シンデレラガール総選挙＆15th Invitational P@rty !!（横浜ランドマークホール）"
+  brand: cg
+  kind: 公式
+  event_start: "2026-11-21"
+  event_end: "2026-11-29"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-11-08"
+  source: "アイドルマスター公式ポータル news/01_20309／アミアミ特設サイト special.amiami.jp/cinderella_amiami_2026/"
+  facts: |
+    会場: 横浜ランドマークホール（ランドマークプラザ5F）、入場無料（事前予約制）
+    抽選: 11/6 18:00〜11/12 23:59、当落発表 11/16 18:00頃〜、先着予約 11/17 18:00〜（空き枠のみ）
+    要確認: 特設サイトの予約対象日は11/21〜27、公式ニュースは全日程と記載。11/28・29の扱いは続報待ち
+  publish_plan:
+    - on: "2026-11-12"
+      angle: "抽選本日23:59締切"
+    - on: "2026-11-16"
+      angle: "本日当落発表"
+    - on: "2026-11-21"
+      angle: "本日開幕"
+  used_in:
+    - cg-invitational-party-lottery  # 11/8配信「抽選受付中」
+  notes: ""
+
+- id: sogo-yearend-livestream-2026
+  title: "アイマス年末生配信（End of Year Livestream）"
+  brand: sogo
+  kind: 公式
+  event_start: "2026-12-24"
+  status: partially-used
+  confidence: unconfirmed
+  added: "2026-11-08"
+  source: "アイドルマスター公式ポータル news/01_20240"
+  facts: |
+    12/24(木) 19:00 JST開始予定（公式。「予定」表記）。出演・内容は未確認。アンケート 11/6 19:00〜11/30 23:59
+  publish_plan:
+    - on: "2026-12-24"
+      angle: "本日年末生配信（要追検証）"
+  used_in:
+    - sogo-yearend-livestream-survey  # 11/8配信「新発表」
+  notes: "日付は予定表記。続報で変更の可能性。"
