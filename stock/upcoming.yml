@@ -66,7 +66,7 @@
       angle: "開始日告知"
   used_in:
     - gaku-new-unit-series-first
-  notes: "ユニット名（乖轟／乖離）の表記ゆれを要確認。"
+  notes: "ユニット名は乖轟（確認済み）。"
 
 - id: valiv-akari-bd2026-postponed
   title: "灯里愛夏 BIRTHDAY ONLINE LIVE 2026 延期公演"
