@@ -2,6 +2,72 @@
 # event_start 昇順（直近が先頭）。配信日に該当する予定があれば取り出して記事化する。
 #
 
+- id: gaku-3rd-period-2027
+  title: "学園アイドルマスター The 3rd Period"
+  brand: gaku
+  kind: 公式
+  event_start: "2027-06-12"
+  event_end: "2027-06-13"
+  status: pending
+  confidence: confirmed
+  added: "2026-11-09"
+  source: "学園アイドルマスター公式X（標ファイナルDAY2、2026年11月8日）／アイドルマスター情報まとめ"
+  facts: |
+    会場: Kアリーナ横浜
+    日程: 2027年6月12日(土)・13日(日)
+    詳細は後日発表
+  publish_plan:
+    - on: "2027-06-11"
+      angle: "明日開幕予告"
+    - on: "2027-06-12"
+      angle: "本日開幕・DAY1"
+    - on: "2027-06-13"
+      angle: "本日DAY2"
+  used_in:
+    - gaku-3rd-period-june-2027  # 11/9配信「新発表」
+  notes: "チケット・出演者は続報待ち。"
+
+- id: gaku-kanae-implementation
+  title: "学マス 氷渡香名江 実装／初星学園HR 2.5thアニバーサリーSP"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-11-15"
+  event_end: "2026-11-16"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-11-09"
+  source: "電ファミニコゲーマー news/261108a"
+  facts: |
+    11/15 19:00（予定）生配信「初星学園HR ～2.5thアニバーサリーSP～」
+    11/16 氷渡香名江(CV.安倍彩野夏)実装
+  publish_plan:
+    - on: "2026-11-15"
+      angle: "明日実装・配信予告"
+    - on: "2026-11-16"
+      angle: "本日配信（昨夜HR）／本日実装"
+  used_in:
+    - gaku-himewatari-kanae-open
+    - gaku-hr-25th-anniv-sp-1115
+  notes: ""
+
+- id: gaku-new-unit-series-nov-end
+  title: "学マス 新ユニットシリーズ第1弾（雨夜燕×有村麻央）イベント・ガシャ"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-11-30"
+  status: partially-used
+  confidence: unconfirmed
+  added: "2026-11-09"
+  source: "学園アイドルマスター公式（標ファイナルDAY1告知）。検索要約経由のため要追検証"
+  facts: |
+    雨夜燕×有村麻央、新曲「アンバランス」、イベント・ガシャは11月末予定
+  publish_plan:
+    - on: "日程判明後"
+      angle: "開始日告知"
+  used_in:
+    - gaku-new-unit-series-first
+  notes: "ユニット名は乖轟（確認済み）。"
+
 - id: valiv-akari-bd2026-postponed
   title: "灯里愛夏 BIRTHDAY ONLINE LIVE 2026 延期公演"
   brand: valiv
@@ -44,7 +110,8 @@
   publish_plan:
     - on: "2026-10-27"
       angle: "昨日受注開始"
-  used_in: []
+  used_in:
+    - sc-hachiban-box-ramen-order-end  # 11/9配信「受注終了」
   notes: ""
 
 - id: sidem-joypolis3-private-screening
