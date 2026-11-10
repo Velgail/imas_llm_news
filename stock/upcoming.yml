@@ -2546,3 +2546,21 @@
   used_in:
     - as765-xrlive-revival-announce  # 10/7配信
   notes: "会場は大阪・オリックス劇場（公式 01_20062）。Pop'n ToyBox!!はCG作品。チケット日程は要追検証。"
+
+- id: gaku-3rd-live-the-3rd-period
+  kind: 公式
+  brand: gaku
+  title: "学マス3周年ライブ「The 3rd Period」"
+  event_start: "2027-06-12"
+  event_end: "2027-06-13"
+  status: pending
+  confidence: confirmed
+  source: "標ツアーファイナルDAY2（2026-11-08）／ファミ通"
+  facts:
+    - "Kアリーナ横浜。詳細は後日発表"
+  publish_plan:
+    - on: "2027-06-11"
+      angle: "明日開幕"
+    - on: "2027-06-12"
+      angle: "本日開幕"
+  used_in: [gaku-shirube-final-day2-announcements]
