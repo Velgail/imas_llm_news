@@ -1,5 +1,5 @@
 ---
-title: "雨夜燕の新曲「濡羽色の薄明」、本日配信開始"
+title: "雨夜燕の新曲「濡羽色の薄明」、昨日9日に配信開始"
 edition_date: "2026-11-10"
 slug: gaku-nurebairo-no-hakumei-release
 brand: gaku
