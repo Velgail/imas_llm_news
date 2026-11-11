@@ -113,6 +113,69 @@
     - valiv-cosmo-bd-viewing-party  # 10/8配信「実施決定」
   notes: ""
 
+- id: cg-hub-last-order-collab
+  title: "デレマス×HUB「-The Last Order-」"
+  brand: cg
+  kind: 公式
+  event_start: "2026-11-20"
+  event_end: "2026-12-13"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-11-11"
+  source: "アイドルマスター公式ポータル news/01_20203／コラボカフェ"
+  facts: |
+    7店舗（桜木町は11/27〜30のみ）。アイドル6人、ランダムコースター全18種、川島瑞樹新録ボイス（前半11/20〜30・後半12/1〜13）
+  publish_plan:
+    - on: "2026-11-20"
+      angle: "本日開始"
+    - on: "2026-12-14"
+      angle: "昨日閉幕"
+  used_in:
+    - cg-hub-last-order-collab
+  notes: ""
+
+- id: cg-yokohama-marine-tower-collab
+  title: "デレマス×横浜マリンタワー"
+  brand: cg
+  kind: 公式
+  event_start: "2026-11-26"
+  event_end: "2026-12-20"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-11-11"
+  source: "AppBank 2026/11/10／特設サイト imas-cg-marine.sync-innovation.co.jp"
+  facts: |
+    アンバサダー6人（名前は要追検証）、謎解きラリー、コラボドリンク、マリンコーデ描き下ろしグッズ
+  publish_plan:
+    - on: "2026-11-25"
+      angle: "明日開始予告"
+    - on: "2026-11-26"
+      angle: "本日開始"
+  used_in:
+    - cg-yokohama-marine-tower-collab
+  notes: ""
+
+- id: gaku-gearbeat-concerto-popup
+  title: "学マス Gearbeat Concerto ポップアップ（国内5店舗＋上海）"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-12-24"
+  event_end: "2027-01-11"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-11-11"
+  source: "アイドルマスター公式ポータル news/01_20322／コラボカフェ"
+  facts: |
+    会場: 仙台・アトレ秋葉原・名古屋駅前・大阪日本橋・博多バスターミナル。上海は新世界城で〜2027/1/3。一般発売2027/3/26予定
+  publish_plan:
+    - on: "2026-12-23"
+      angle: "明日開始予告"
+    - on: "2026-12-24"
+      angle: "本日開始"
+  used_in:
+    - gaku-gearbeat-concerto-popup
+  notes: ""
+
 - id: sidem-daimaru-matsuzakaya-popup2
   title: "THE IDOLM@STER SideM × DAIMARU MATSUZAKAYA ポップアップショップ（第2弾）"
   brand: sidem
@@ -139,6 +202,7 @@
       angle: "本日大丸梅田店開幕"
   used_in:
     - sidem-daimaru-matsuzakaya-popup2  # 10/8配信「新発表」
+    - sidem-daimaru-tokyo-last-day  # 11/11配信
   notes: "商品ラインナップ・ノベルティは続報待ち。"
 
 - id: sidem-mfes-christmas-cruise-2026
