@@ -138,6 +138,7 @@
     - on: "2026-11-18"
       angle: "本日大丸梅田店開幕"
   used_in:
+    - sidem-daimaru-umeda-next
     - sidem-daimaru-matsuzakaya-popup2  # 10/8配信「新発表」
   notes: "商品ラインナップ・ノベルティは続報待ち。"
 
@@ -566,6 +567,7 @@
     - on: "2026-12-01"
       angle: "本日最終日"
   used_in:
+    - sidem-seibuen-talkshow-1122
     - sidem-seibuen-retrose-party  # 9/2配信「昨日新発表」
   notes: "トークショー出演声優・グッズ詳細は続報待ち、要追検証。"
 
@@ -889,6 +891,7 @@
     - on: "2026-11-29"
       angle: "本日千秋楽・15周年本編完走"
   used_in:
+    - cg-15th-party-countdown
     - cg-15th-anniversary-cast-reveal  # 8/4配信「出演声優の第一弾が判明（更新あり）」
     - cg-15th-anniversary-ticket-reception  # 8/16配信「アソビストアプレミアム会員先行抽選受付中・当落発表9/5」
     - cg-15th-anniversary-ticket-deadline  # 8/23配信「最速先行抽選、本日23:59締切」
@@ -2489,6 +2492,7 @@
     - on: "2026-11-15"
       angle: "本日大阪会場最終日・全会場完走"
   used_in:
+    - ml-cyberplanet-osaka-final
     - ml-cyberplanet-popup-details  # 9/25配信「詳細情報判明」
     - ml-cyberplanet-popup-tomorrow  # 10/7配信「明日開幕予告」
     - ml-cyberplanet-popup-today  # 10/8配信「本日東京会場開幕」
@@ -2546,3 +2550,122 @@
   used_in:
     - as765-xrlive-revival-announce  # 10/7配信
   notes: "会場は大阪・オリックス劇場（公式 01_20062）。Pop'n ToyBox!!はCG作品。チケット日程は要追検証。"
+
+- id: as765-miki-animonium-2027
+  title: "MIKI HOSHII SOLO SHOWCASE「THE FUTURE SPOTLIGHT」in ANIMONIUM 2027"
+  brand: as765
+  kind: 公式
+  event_start: "2027-02-14"
+  status: pending
+  confidence: confirmed
+  added: "2026-11-12"
+  source: "アイドルマスター公式X（2026/11/10）／アイドルマスター情報まとめ／ANIMONIUM公式"
+  facts: |
+    会場: Siam Paragon Paragon Hall（バンコク）。ANIMONIUM 2027は2027/2/13-14。
+    ショーケースは2/14予定（公式出演表の時間枠は要追検証）。配信なし。チケット詳細は続報待ち。
+    星井美希の海外ライブ第4弾。
+  publish_plan:
+    - on: "2027-02-13"
+      angle: "明日開催予告"
+    - on: "2027-02-14"
+      angle: "本日開催"
+  used_in:
+    - as765-miki-animonium-2027
+  status: partially-used
+
+- id: gaku-himewatari-kanae-release
+  title: "学マス 氷渡香名江 実装＆生配信「初星学園HR ～2.5周年SP～」"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-11-15"
+  event_end: "2026-11-16"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-11-12"
+  source: "電ファミニコゲーマー（2026/11/8）"
+  facts: |
+    11/15 19:00（予定）生配信。出演: 安倍彩野夏・天音ゆかり・七瀬つむぎ・佐藤大地P。
+    11/16 氷渡香名江（CV: 安倍彩野夏）実装。倉本千奈に仕えるメイド。Episode 0は11/8 21:00公開済み。
+  publish_plan:
+    - on: "2026-11-15"
+      angle: "本日19時生配信"
+    - on: "2026-11-16"
+      angle: "本日実装"
+  used_in:
+    - gaku-himewatari-kanae-1116
+
+- id: sidem-fbfes-movie
+  title: "劇場版 SideM F@NTASTIC BATTLE FES ~Who goes first~"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-11-20"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-11-12"
+  source: "ファミ通／電撃オンライン"
+  facts: |
+    11/20公開。通常上映・応援上映の2形態。8ユニット25名、2025年ライブ映像。ムビチケ10/16発売。
+  publish_plan:
+    - on: "2026-11-19"
+      angle: "明日公開"
+    - on: "2026-11-20"
+      angle: "本日公開"
+  used_in:
+    - sidem-fbfes-movie-1120
+
+- id: cg-hub-last-order
+  title: "デレマス×HUB「-The Last Order-」"
+  brand: cg
+  kind: 公式
+  event_start: "2026-11-20"
+  event_end: "2026-12-13"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-11-12"
+  source: "コラボカフェ（2026/11/7）"
+  facts: |
+    6名（大和亜季・佐藤心・川島瑞樹・高垣楓・鷹富士茄子・三船美優）。7店舗（桜木町は11/27-30のみ）。予約は11/6 17:00〜。
+    川島瑞樹（CV遠山なお）店内放送 第1弾11/20-30／第2弾12/1-13。
+  publish_plan:
+    - on: "2026-11-20"
+      angle: "本日開始"
+  used_in:
+    - cg-hub-last-order-collab
+
+- id: sc-yuneru-live-loyly
+  title: "シャニマス×湯～ねる ライブロウリュ／コラボ"
+  brand: sc
+  kind: 公式
+  event_start: "2026-11-21"
+  event_end: "2027-01-20"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-11-12"
+  source: "コラボカフェ／公式 news/01_19836"
+  facts: |
+    ライブロウリュACT-1は11/21〜12/10。平日20:00、土日祝14:00・17:00。コラボ風呂5種、入館平日1,800円・土日祝2,000円。
+  publish_plan:
+    - on: "2026-11-21"
+      angle: "本日開始"
+  used_in:
+    - sc-yuneru-live-loyly
+
+- id: cg-cd-hourglass-party5
+  title: "シンデレラ関連CD（HOURGLASS 11/18・CINDERELLA PARTY! 第5弾 11/25）"
+  brand: cg
+  kind: 公式
+  event_start: "2026-11-18"
+  event_end: "2026-11-25"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-11-12"
+  source: "日本コロムビア（2026/11/6）"
+  facts: |
+    HOURGLASS CD 11/18（SACX-1152、2,500円+税）。PARTY! M@STER 11/25（2枚組4,000円）、予約抽選〜11/18 23:59。10th LIVE BD BOX 2027/3/24、アソビ予約〜12/20。
+  publish_plan:
+    - on: "2026-11-18"
+      angle: "本日発売"
+    - on: "2026-11-25"
+      angle: "本日発売"
+  used_in:
+    - cg-columbia-hourglass-party-cd
