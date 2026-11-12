@@ -1,11 +1,11 @@
 ---
-title: "シンデレラガールズ15周年「for your ONE」まで17日　Kアリーナ横浜で28・29日に2days"
+title: "シンデレラガールズ15周年「for your ONE」まで16日　Kアリーナ横浜で28・29日に2days"
 edition_date: "2026-11-12"
 slug: cg-15th-party-countdown
 brand: cg
 kind: 公式
 badge: "11/28開幕"
-lead: "「THE IDOLM@STER CINDERELLA GIRLS 15th ANNIVERSARY PARTY!!!! ~ for your ONE ~」が11月28日・29日、Kアリーナ横浜で開かれる。開幕まで17日。"
+lead: "「THE IDOLM@STER CINDERELLA GIRLS 15th ANNIVERSARY PARTY!!!! ~ for your ONE ~」が11月28日・29日、Kアリーナ横浜で開かれる。開幕まで16日。"
 source: "バンダイナムコエンターテインメント発表／電撃オンライン"
 tags: [シンデレラガールズ, 15周年, Kアリーナ横浜]
 ---
