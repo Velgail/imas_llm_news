@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-11-13"
+  dateLong: "2026年（令和8年）11月13日　金曜日"
+  pages: "全 2 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "シンデレラ15周年、配信チケットが発売開始"
+  indexNote: "山梨コラボのグッズ・フード詳細も公開。昨日12日は公式ポータルの定期メンテナンスがあった。"
 - date: "2026-11-12"
   dateLong: "2026年（令和8年）11月12日　木曜日"
   pages: "全 13 面"
