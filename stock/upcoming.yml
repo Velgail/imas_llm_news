@@ -738,6 +738,7 @@
   used_in:
     - cg-yamanashi-walkwander-preorder  # 8/30配信「コラボ歩数計、予約受付中」
     - cg-yamanashi-walkwander-preorder-deadline  # 9/9配信「コラボ歩数計、本日23:59締切」
+    - cg-yamanashi-walkwander-details  # 11/13配信「グッズ・フード詳細公開（更新あり）」
   notes: "コラボ歩数計の予約締切（9/9）消化済み。コラボフード・グッズの詳細は開催が近づいてから要追検証。"
 
 - id: cg-rose-tea-parlor-cafe
@@ -892,6 +893,7 @@
       angle: "本日千秋楽・15周年本編完走"
   used_in:
     - cg-15th-party-countdown
+    - cg-15th-party-stream-ticket  # 11/13配信「配信チケット発売開始（更新あり）」
     - cg-15th-anniversary-cast-reveal  # 8/4配信「出演声優の第一弾が判明（更新あり）」
     - cg-15th-anniversary-ticket-reception  # 8/16配信「アソビストアプレミアム会員先行抽選受付中・当落発表9/5」
     - cg-15th-anniversary-ticket-deadline  # 8/23配信「最速先行抽選、本日23:59締切」
