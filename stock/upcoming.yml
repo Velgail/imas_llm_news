@@ -227,6 +227,7 @@
       angle: "DAY1レポ＆本日DAY2・千秋楽"
   used_in:
     - cg-15th-orchestra-presale-deadline  # 9/27配信「本日プレミアム会員最速先行、受付締切」
+    - cg-orchestra-general-presale  # 11/14配信「一般会員先行開始」
   status: partially-used
   notes: "9/17配信の15周年関連まとめ記事で開催決定自体は既報だが、stock未登録だったため9/23判明分として新規追加。最速先行受付締切（9/27配信）消化済み。明日開幕予告（2027-01-10）以降が未消化。"
 
