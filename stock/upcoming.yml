@@ -2765,11 +2765,11 @@
   kind: 公式
   event_start: "2026-12-24"
   status: pending
-  confidence: unconfirmed
+  confidence: confirmed
   added: "2026-11-16"
-  source: "ゲームエイト（学マス生配信まとめ）。公式の独立告知は要追検証"
+  source: "アイドルマスター公式ポータル 学マス生配信お知らせまとめ（11/15）／ゲームエイト"
   facts: |
-    2026/12/24 19:00〜
+    2026/12/24（木）19:00〜。アイマスシリーズ合同の年末特別生配信。
   publish_plan:
     - on: "2026-12-24"
       angle: "本日19時生配信"
