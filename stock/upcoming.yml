@@ -2583,7 +2583,7 @@
   kind: 公式
   event_start: "2026-11-15"
   event_end: "2026-11-16"
-  status: partially-used
+  status: done
   confidence: confirmed
   added: "2026-11-12"
   source: "電ファミニコゲーマー（2026/11/8）"
@@ -2598,6 +2598,7 @@
   used_in:
     - gaku-himewatari-kanae-1116
     - gaku-himewatari-kanae-hr-today
+    - gaku-kanae-produce-start
 
 - id: sidem-fbfes-movie
   title: "劇場版 SideM F@NTASTIC BATTLE FES ~Who goes first~"
@@ -2735,3 +2736,43 @@
   used_in:
     - gaku-gearbeat-concerto-popup
   notes: "検索スニペットに会期11/14〜12/25の表記ゆれあり。本文の12/24〜を採用。公式で要追検証。"
+
+- id: gaku-kaigou-unbalance-1127
+  title: "学マス 乖轟（雨夜燕×有村麻央）ガシャ・イベント・新曲「アンバランス」"
+  brand: gaku
+  kind: 公式
+  event_start: "2026-11-27"
+  event_end: "2026-12-08"
+  status: pending
+  confidence: confirmed
+  added: "2026-11-16"
+  source: "学園アイドルマスター公式 初星学園HR 2.5thアニバーサリーSP（11/15）／ゲームエイト"
+  facts: |
+    ガシャ 11/27 11:00〜12/8 10:59（SSR雨夜燕・有村麻央【アンバランス】）。マルチシナリオイベント（全6話）、SSRサポート「次はボクの番や！」。
+    MV 11/27 22:00 プレミア公開、配信 11/28 0:00。1stシングル 2027/4/7発売（通常2,000円／特装6,500円）。
+  publish_plan:
+    - on: "2026-11-27"
+      angle: "本日ガシャ・イベント開始"
+    - on: "2026-11-28"
+      angle: "昨日MV公開・本日配信"
+  used_in:
+    - gaku-kaigou-unbalance
+  notes: "ユニット名は「乖轟」（imasnews）。イベント名は資料で「乖離」表記あり、要追検証。"
+
+- id: sogo-yearend-thanks-1224
+  title: "アイマス年末感謝祭 生配信「みんなで振り返りM@S」"
+  brand: sogo
+  kind: 公式
+  event_start: "2026-12-24"
+  status: pending
+  confidence: confirmed
+  added: "2026-11-16"
+  source: "アイドルマスター公式ポータル 学マス生配信お知らせまとめ（11/15）／ゲームエイト"
+  facts: |
+    2026/12/24（木）19:00〜。アイマスシリーズ合同の年末特別生配信。
+  publish_plan:
+    - on: "2026-12-24"
+      angle: "本日19時生配信"
+  used_in:
+    - gaku-hatsuboshi-week-schedule
+  notes: ""
