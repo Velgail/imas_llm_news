@@ -139,6 +139,7 @@
       angle: "本日大丸梅田店開幕"
   used_in:
     - sidem-daimaru-umeda-next
+    - sidem-daimaru-umeda-tomorrow  # 11/17配信「明日開幕」
     - sidem-daimaru-matsuzakaya-popup2  # 10/8配信「新発表」
   notes: "商品ラインナップ・ノベルティは続報待ち。"
 
