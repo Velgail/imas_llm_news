@@ -10,6 +10,6 @@ source: "日本コロムビア アイドルマスター公式ページ（既報�
 tags: [シンデレラガールズ, HOURGLASS, CINDERELLA PARTY, 日本コロムビア]
 ---
 
-- **HOURGLASS**：2,500円＋税（SACX-1152）。「BEYOND THE STARLIGHT（M@STER VERSION）」「Brand new!」を併録。コロムビアミュージックショップとアソビストア限定
+- **HOURGLASS**：2,500円（税込、SACX-1152）。「BEYOND THE STARLIGHT（M@STER VERSION）」「Brand new!」を併録。コロムビアミュージックショップとアソビストア限定
 - **デレパCD第5弾**：「CINDERELLA PARTY! M@STER」は25日発売の2枚組（4,000円・税込）。署名入りジャケットが当たる予約抽選は**本日23:59まで**
 - **15th PARTY会場**：28日・29日のKアリーナ横浜では会場オリジナルCDも発売される（既報）
