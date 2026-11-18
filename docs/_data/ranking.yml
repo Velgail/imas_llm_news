@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-11-17 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-11-18 集計
 - rank: 1
   name: "氷渡香名江"
   brand: gaku
   move: same
 - rank: 2
-  name: "橘ありす"
+  name: "高垣楓"
   brand: cg
   move: new
 - rank: 3
-  name: "篠澤広"
-  brand: gaku
+  name: "信玄誠司"
+  brand: sidem
   move: new
 - rank: 4
-  name: "倉本千奈"
-  brand: gaku
+  name: "山下次郎"
+  brand: sidem
   move: new
 - rank: 5
-  name: "雨夜燕"
-  brand: gaku
+  name: "橘ありす"
+  brand: cg
   move: down
 - rank: 6
+  name: "倉本千奈"
+  brand: gaku
+  move: down
+- rank: 7
   name: "神崎蘭子"
   brand: cg
   move: down
-- rank: 7
-  name: "天音ゆかり"
-  brand: gaku
-  move: down
 - rank: 8
-  name: "有村麻央"
+  name: "篠澤広"
   brand: gaku
   move: down
