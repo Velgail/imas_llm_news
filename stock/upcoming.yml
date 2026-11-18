@@ -47,6 +47,28 @@
   used_in: []
   notes: ""
 
+- id: sidem-ainana-collab-screening
+  title: "劇場版SideM×劇場版アイナナ 一夜限りコラボ上映会"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-12-10"
+  status: pending
+  confidence: confirmed
+  added: "2026-11-18"
+  source: "アイドルマスター公式ポータル news/01_20385"
+  facts: |
+    2026/12/10(木) 18:30上映開始予定。新宿ピカデリー・なんばパークスシネマ・ミッドランドスクエアシネマ
+    SideM劇場版 F@NTASTIC BATTLE FES＋アイナナ劇場版 LIVE 4bit BEYOND THE PERiOD＜DAY 2＞の2本立て、全館応援上映
+    3,800円均一（全席指定、前売券・割引等不可）。販売 11/21(土) 22:00〜 各劇場先着
+  publish_plan:
+    - on: "2026-11-22"
+      angle: "昨日販売開始"
+    - on: "2026-12-10"
+      angle: "本日開催"
+  used_in:
+    - sidem-ainana-collab-screening
+  notes: ""
+
 - id: sidem-joypolis3-private-screening
   title: "SideM in JOYPOLIS 3 貸切上映会"
   brand: sidem
@@ -140,6 +162,7 @@
   used_in:
     - sidem-daimaru-umeda-next
     - sidem-daimaru-umeda-tomorrow  # 11/17配信「明日開幕」
+    - sidem-daimaru-umeda-today
     - sidem-daimaru-matsuzakaya-popup2  # 10/8配信「新発表」
   notes: "商品ラインナップ・ノベルティは続報待ち。"
 
@@ -749,7 +772,7 @@
   kind: 公式
   event_start: "2026-10-01"
   event_end: "2026-12-27"
-  status: pending
+  status: partially-used
   confidence: confirmed
   added: "2026-09-14"
   source: "アイドルマスター公式ポータル news/01_19811（2026年9月4日発表）"
@@ -773,7 +796,8 @@
       angle: "本日池袋店開幕"
     - on: "2026-12-27"
       angle: "本日ソウル ホンデ店最終日・全会場完走"
-  used_in: []
+  used_in:
+    - cg-rose-tea-parlor-ikebukuro-tomorrow
   notes: "4会場（名古屋・心斎橋・池袋・ソウル）を順に巡回する形式。対象アイドル・メニュー・グッズの詳細は開催が近づいてから要追検証。"
 #
 # ── 非公式・ファン企画枠のテンプレート（kind: ファン）──────────────
@@ -2676,6 +2700,7 @@
       angle: "本日発売"
   used_in:
     - cg-columbia-hourglass-party-cd
+    - cg-hourglass-cd-today
 
 - id: cg-motomachi-doria-momopear
   title: "シンデレラ×元町ドリア「ももぺあべりーのごほうびドリア」"
