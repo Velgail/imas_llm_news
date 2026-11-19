@@ -1,5 +1,11 @@
 # 全号のメタ情報。最新号が先頭。号数は masthead.html が founding_date から自動計算。
 # edition_date キーが各記事の edition_date frontmatter と対応する（= 配信日）。
+- date: "2026-11-19"
+  dateLong: "2026年（令和8年）11月19日　木曜日"
+  pages: "全 9 面"
+  stamp: "本日 06:00 締切"
+  indexValue: "氷渡香名江「メタモルフォーゼ」MV、100万再生突破"
+  indexNote: "シンデレラ×Rose Tea Parlor池袋店は本日開幕。劇場版SideMなど複数企画が明日スタート。"
 - date: "2026-11-18"
   dateLong: "2026年（令和8年）11月18日　水曜日"
   pages: "全 5 面"

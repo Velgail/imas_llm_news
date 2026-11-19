@@ -89,6 +89,7 @@
     - on: "2026-12-05"
       angle: "本日貸切上映会"
   used_in:
+    - sidem-joypolis3-general-sale-today
     - sidem-joypolis3-private-screening-presale  # 10/25配信「先行抽選受付中」
   notes: ""
 
@@ -514,6 +515,7 @@
     - on: "2027-02-28"
       angle: "本日最終日・完走"
   used_in:
+    - cg-naha-degimasu-tomorrow
     - cg-naha-degimasu-collab  # 9/17配信「コラボ決定」
   notes: "グッズ・キャンペーンの詳細は続報待ち、要追検証。開幕予告（11/19）以降が未消化。"
 
@@ -797,6 +799,7 @@
     - on: "2026-12-27"
       angle: "本日ソウル ホンデ店最終日・全会場完走"
   used_in:
+    - cg-rose-tea-parlor-ikebukuro-today
     - cg-rose-tea-parlor-ikebukuro-tomorrow
   notes: "4会場（名古屋・心斎橋・池袋・ソウル）を順に巡回する形式。対象アイドル・メニュー・グッズの詳細は開催が近づいてから要追検証。"
 #
@@ -2642,6 +2645,7 @@
     - on: "2026-11-20"
       angle: "本日公開"
   used_in:
+    - sidem-fbfes-movie-tomorrow
     - sidem-fbfes-movie-1120
 
 - id: cg-hub-last-order
@@ -2661,6 +2665,7 @@
     - on: "2026-11-20"
       angle: "本日開始"
   used_in:
+    - cg-hub-last-order-tomorrow
     - cg-hub-last-order-collab
 
 - id: sc-yuneru-live-loyly
@@ -2718,6 +2723,7 @@
     - on: "2026-11-20"
       angle: "本日開始"
   used_in:
+    - cg-motomachi-doria-tomorrow
     - cg-motomachi-doria-momopear
   notes: "メニュー詳細は特設サイトで追検証。"
 
