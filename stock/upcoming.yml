@@ -517,6 +517,7 @@
   used_in:
     - cg-naha-degimasu-tomorrow
     - cg-naha-degimasu-collab  # 9/17配信「コラボ決定」
+    - cg-naha-degimasu-today
   notes: "グッズ・キャンペーンの詳細は続報待ち、要追検証。開幕予告（11/19）以降が未消化。"
 
 - id: gaku-unioncreative-tsukimura-figure
@@ -766,6 +767,7 @@
     - cg-yamanashi-walkwander-preorder  # 8/30配信「コラボ歩数計、予約受付中」
     - cg-yamanashi-walkwander-preorder-deadline  # 9/9配信「コラボ歩数計、本日23:59締切」
     - cg-yamanashi-walkwander-details  # 11/13配信「グッズ・フード詳細公開（更新あり）」
+    - cg-yamanashi-walkwander-tomorrow
   notes: "コラボ歩数計の予約締切（9/9）消化済み。コラボフード・グッズの詳細は開催が近づいてから要追検証。"
 
 - id: cg-rose-tea-parlor-cafe
@@ -2647,6 +2649,7 @@
   used_in:
     - sidem-fbfes-movie-tomorrow
     - sidem-fbfes-movie-1120
+    - sidem-fbfes-movie-today
 
 - id: cg-hub-last-order
   title: "デレマス×HUB「-The Last Order-」"
@@ -2667,6 +2670,7 @@
   used_in:
     - cg-hub-last-order-tomorrow
     - cg-hub-last-order-collab
+    - cg-hub-last-order-today
 
 - id: sc-yuneru-live-loyly
   title: "シャニマス×湯～ねる ライブロウリュ／コラボ"
@@ -2685,6 +2689,7 @@
       angle: "本日開始"
   used_in:
     - sc-yuneru-live-loyly
+    - sc-yuneru-live-loyly-tomorrow
 
 - id: cg-cd-hourglass-party5
   title: "シンデレラ関連CD（HOURGLASS 11/18・CINDERELLA PARTY! 第5弾 11/25）"
@@ -2725,6 +2730,7 @@
   used_in:
     - cg-motomachi-doria-tomorrow
     - cg-motomachi-doria-momopear
+    - cg-motomachi-doria-today
   notes: "メニュー詳細は特設サイトで追検証。"
 
 - id: cg-yokohama-marinetower
