@@ -5,13 +5,12 @@ slug: cg-10th-live-bdbox-contents
 brand: cg
 kind: 公式
 badge: "更新あり"
-lead: "「10th MEMORIAL LIVE STARLIGHT STAGE」Blu-ray BOX（2027年3月24日発売）の収録内容が、11月20日付で公開された。既報の発売日・価格に、ディスク構成などが加わった。"
+lead: "「10th MEMORIAL LIVE STARLIGHT STAGE」Blu-ray BOX（2027年3月24日発売）の収録内容が、11月20日付で公開された。既報の発売日・価格に、本編・特典映像の内容などが加わった。"
 source: "imasnews765.com／日本コロムビア（11/20）"
 tags: [シンデレラガールズ, デレステ, Blu-ray, Cinderella Band]
 ---
 
-- **更新あり**：発売日・価格は11月12日付の既報どおり。以下が新たに判明した内容
-- **Disc1・3**：2025年9月のDAY1・DAY2本編（MC含む）。出演キャストによるオーディオコメンタリーを収録
-- **Disc2・4**：各日のメイキング、マルチアングル、ポージング映像「CINDERELLA GIRLS COLLECTION」。DAY1にはカットシーンも収録
-- **Disc5**：シンデレラバンド密着ドキュメンタリー「The Clock of the Cinderella～Cinderella Band～」と、メンバー選曲の解説付きライブ映像
-- **仕様**：5枚組（SAXC-1145〜1149）。オリジナルカートンBOXと、歌詞付きメモリアルフォトブック2冊。コロムビア限定盤は特別ライブCD付き
+- **更新あり**：発売日・価格は既報どおり。以下が新たに判明した内容
+- **本編**：DAY1・DAY2の両日を収録し、出演キャストによるオーディオコメンタリーも入る。DAY1のMCは一部割愛
+- **特典映像**：各公演のメイキング、マルチアングル、シンデレラバンドのメイキング、ポージング衣装紹介映像「CINDERELLA GIRLS COLLECTION」など
+- **仕様**：5枚組（SAXC-1145〜1149）、39,800円（税抜36,182円）。オリジナルカートンBOXと歌詞付きフォトブック2冊。コロムビアミュージックショップ版はSPECIAL LIVE CD付き
