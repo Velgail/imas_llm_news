@@ -67,6 +67,7 @@
       angle: "本日開催"
   used_in:
     - sidem-ainana-collab-screening
+    - sidem-ainana-screening-sale-tonight
   notes: ""
 
 - id: sidem-joypolis3-private-screening
@@ -340,6 +341,31 @@
     - sidem-11th-stage-bluray-announce  # 9/13配信「新発表」
   notes: "予約開始日は続報待ち、要追検証。"
 
+- id: sidem-mfes2026-315shop
+  title: "Mフェス2026 in Winter Wonderland × 315!!!SHOP"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-12-01"
+  event_end: "2026-12-25"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-11-21"
+  source: "アイドルマスター オフィシャルショップ 11/20付お知らせ"
+  facts: |
+    12/1〜12/25、315!!!SHOP。フロスティ・ワンダーver.グッズ、抽選くじA〜C賞リニューアル、カフェコーナー。
+    カエールグリーティング撮影会: 12/12(土)・12/13(日)、事務所再現スペース前、各日3回(11:00/12:30/15:00)各30名。各日10:00から当日1会計1,000円(税込)以上で整理券先着配布。
+    詳細は bandainamco-am.co.jp/chara_shop/idolmaster/extra/m-fes2026.html（ブロマイド特典等は同ページに記載なし・要追検証）
+  publish_plan:
+    - on: "2026-12-01"
+      angle: "本日開幕"
+    - on: "2026-12-12"
+      angle: "本日カエールグリーティング撮影会"
+    - on: "2026-12-26"
+      angle: "昨日閉幕"
+  used_in:
+    - sidem-mfes2026-315shop
+  notes: "撮影会の日程・購入額は特設ページで追検証。"
+
 - id: sidem-mfes-2026-theme-song
   title: "Mフェス2026 in Winter Wonderland テーマソング「Season's Greetings Party！」"
   brand: sidem
@@ -361,7 +387,7 @@
       angle: "本日発売"
   used_in:
     - sidem-mfes-2026-theme-song  # 9/13配信「新発表」
-  notes: "予約開始日・Mフェス本体の日程は続報待ち、要追検証。"
+  notes: "Mフェス本体は315!!!SHOPで12/1〜12/25開催と11/20付で判明（sidem-mfes2026-315shop）。テーマソング予約開始日は続報待ち。"
 
 - id: gaku-battlespirits-collab-2027
   title: "「バトルスピリッツ」×学園アイドルマスター コラボ商品"
@@ -768,6 +794,7 @@
     - cg-yamanashi-walkwander-preorder-deadline  # 9/9配信「コラボ歩数計、本日23:59締切」
     - cg-yamanashi-walkwander-details  # 11/13配信「グッズ・フード詳細公開（更新あり）」
     - cg-yamanashi-walkwander-tomorrow
+    - cg-yamanashi-walkwander-today
   notes: "コラボ歩数計の予約締切（9/9）消化済み。コラボフード・グッズの詳細は開催が近づいてから要追検証。"
 
 - id: cg-rose-tea-parlor-cafe
@@ -2690,6 +2717,7 @@
   used_in:
     - sc-yuneru-live-loyly
     - sc-yuneru-live-loyly-tomorrow
+    - sc-yuneru-live-loyly-today
 
 - id: cg-cd-hourglass-party5
   title: "シンデレラ関連CD（HOURGLASS 11/18・CINDERELLA PARTY! 第5弾 11/25）"
