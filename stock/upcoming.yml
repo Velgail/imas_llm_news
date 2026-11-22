@@ -47,6 +47,48 @@
   used_in: []
   notes: ""
 
+- id: cg-invitational-party-yokohama
+  title: "シンデレラガール総選挙＆15th Invitational P@rty !!（横浜ランドマークホール）"
+  brand: cg
+  kind: 公式
+  event_start: "2026-11-21"
+  event_end: "2026-11-29"
+  status: partially-used
+  confidence: confirmed
+  added: "2026-11-22"
+  source: "アイドルマスター公式ポータル news/01_20309／landmarkhall.jp"
+  facts: |
+    会期 11/21〜11/29、10:00〜20:00（29日のみ〜15:00）、入場無料・事前予約制。通販 11/21〜12/21、発送2027年5月ごろ
+    浅利七海フルグラフィックTシャツは会場発売延期（販売開始日未定）
+  publish_plan:
+    - on: "2026-11-29"
+      angle: "本日最終日（15時まで）"
+    - on: "2026-11-30"
+      angle: "昨日閉幕"
+  used_in:
+    - cg-invitational-lottery-result
+    - cg-invitational-party-opened
+  notes: ""
+
+- id: sidem-heatup-stream-1125
+  title: "SideM「寒さに負けるな！闘志を燃やせ！全力ヒートアップ!!! 生配信」"
+  brand: sidem
+  kind: 公式
+  event_start: "2026-11-25"
+  status: pending
+  confidence: confirmed
+  added: "2026-11-22"
+  source: "imasnews765.com（公式告知の転載）"
+  facts: |
+    2026/11/25(水) 19:00〜 生配信。詳細は未確認
+  publish_plan:
+    - on: "2026-11-24"
+      angle: "明日夜に生配信"
+    - on: "2026-11-25"
+      angle: "本日19時から生配信"
+  used_in: []
+  notes: "内容・出演者は要追検証。"
+
 - id: sidem-ainana-collab-screening
   title: "劇場版SideM×劇場版アイナナ 一夜限りコラボ上映会"
   brand: sidem
@@ -68,6 +110,7 @@
   used_in:
     - sidem-ainana-collab-screening
     - sidem-ainana-screening-sale-tonight
+    - sidem-ainana-screening-sale-started  # 11/22配信「昨日販売開始」
   notes: ""
 
 - id: sidem-joypolis3-private-screening
