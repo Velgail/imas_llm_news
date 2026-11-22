@@ -1,33 +1,33 @@
-# 24時間ランキング（編集部が毎日更新）— 2026-11-21 集計
+# 24時間ランキング（編集部が毎日更新）— 2026-11-22 集計
 - rank: 1
-  name: "氷渡香名江"
-  brand: gaku
-  move: same
-- rank: 2
-  name: "高垣楓"
-  brand: cg
-  move: up
-- rank: 3
-  name: "川島瑞樹"
-  brand: cg
-  move: up
-- rank: 4
-  name: "櫻井桃華"
-  brand: cg
-  move: down
-- rank: 5
-  name: "橘ありす"
-  brand: cg
-  move: down
-- rank: 6
-  name: "的場梨沙"
-  brand: cg
-  move: down
-- rank: 7
-  name: "森久保乃々"
+  name: "浅利七海"
   brand: cg
   move: new
-- rank: 8
-  name: "藤田ことね"
+- rank: 2
+  name: "花海咲季"
+  brand: gaku
+  move: new
+- rank: 3
+  name: "七尾百合子"
+  brand: ml
+  move: new
+- rank: 4
+  name: "猫柳キリオ"
+  brand: sidem
+  move: new
+- rank: 5
+  name: "櫻木真乃"
+  brand: sc
+  move: new
+- rank: 6
+  name: "氷渡香名江"
   brand: gaku
   move: down
+- rank: 7
+  name: "高垣楓"
+  brand: cg
+  move: down
+- rank: 8
+  name: "仲村宗悟"
+  brand: sidem
+  move: new
